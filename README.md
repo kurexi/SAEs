@@ -45,7 +45,7 @@ Probing experiments on Sparse Autoencoder (SAE) latents extracted from `gemma-3-
 
 ```bash
 git clone <repo-url>
-cd sparse-encoder
+cd SAEs
 pip install -r requirements.txt
 ```
 
