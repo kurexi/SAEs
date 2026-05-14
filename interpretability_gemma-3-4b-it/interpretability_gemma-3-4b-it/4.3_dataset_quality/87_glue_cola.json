@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "dataset": "87_glue_cola",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.3",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:54:14.870095"
+  },
+  "top_latent": {
+    "latent_idx": 6858,
+    "k1_auc": 0.5925338138544402,
+    "examples": [
+      {
+        "text": "He looks so much formidable.",
+        "activation": 3763.89013671875
+      },
+      {
+        "text": "My heart is pounding.",
+        "activation": 3492.14453125
+      },
+      {
+        "text": "That's a kindest answer that I ever heard.",
+        "activation": 3442.419189453125
+      },
+      {
+        "text": "The Dodgers beat the Red Sox and the Dodgers were beaten by the Giants.",
+        "activation": 3418.095947265625
+      },
+      {
+        "text": "A solution presented itself yesterday.",
+        "activation": 3406.23828125
+      },
+      {
+        "text": "A solution presented itself yesterday.",
+        "activation": 3406.23828125
+      },
+      {
+        "text": "It snowed.",
+        "activation": 3385.643310546875
+      },
+      {
+        "text": "Ron yawned himself awake.",
+        "activation": 3377.25390625
+      },
+      {
+        "text": "I love ice milk tea but you hate ice milk tea.",
+        "activation": 3362.13623046875
+      },
+      {
+        "text": "That's an obviously so good solution.",
+        "activation": 3353.819091796875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 6858\n\nTop activating examples (format: [activation] text):\n  [3763.890] He looks so much formidable.\n  [3492.145] My heart is pounding.\n  [3442.419] That's a kindest answer that I ever heard.\n  [3418.096] The Dodgers beat the Red Sox and the Dodgers were beaten by the Giants.\n  [3406.238] A solution presented itself yesterday.\n  [3406.238] A solution presented itself yesterday.\n  [3385.643] It snowed.\n  [3377.254] Ron yawned himself awake.\n  [3362.136] I love ice milk tea but you hate ice milk tea.\n  [3353.819] That's an obviously so good solution.\n\nDescription:"
+    },
+    "description": null
+  },
+  "label_disagreements": [
+    {
+      "text": "It started to rain after Jackie and me, we had finally gotten to our seats.",
+      "activation": 3970.8046875,
+      "label": 0
+    },
+    {
+      "text": "It started to rain after Jackie and me, we had finally gotten to our seats.",
+      "activation": 3970.8046875,
+      "label": 0
+    },
+    {
+      "text": "He looks so much formidable.",
+      "activation": 3763.89013671875,
+      "label": 0
+    },
+    {
+      "text": "That's the most kind answer that I ever heard.",
+      "activation": 3521.1484375,
+      "label": 0
+    },
+    {
+      "text": "Groceries are bulging in the bag.",
+      "activation": 3497.98876953125,
+      "label": 0
+    },
+    {
+      "text": "Groceries are bulging in the bag.",
+      "activation": 3497.98876953125,
+      "label": 0
+    },
+    {
+      "text": "Look after herself!",
+      "activation": 3448.59033203125,
+      "label": 0
+    },
+    {
+      "text": "That's a kindest answer that I ever heard.",
+      "activation": 3442.419189453125,
+      "label": 0
+    },
+    {
+      "text": "That's an obviously so good solution.",
+      "activation": 3353.819091796875,
+      "label": 0
+    },
+    {
+      "text": "That's a most kind answer that I ever heard.",
+      "activation": 3189.93310546875,
+      "label": 0
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "68_credit-card",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:38:41.349003"
+  },
+  "best_latent": {
+    "latent_idx": 3643,
+    "k1_auc": 0.9840765192921695,
+    "examples": [
+      {
+        "text": " parties would obtain the money to gamble through                                              6\f 1 cash on hand, ATM machines, credit card",
+        "activation": 3879.86669921875
+      },
+      {
+        "text": " for me. They informed that I would get the rest refund based on Customs stamp with no doubt.\u2022 The credit card",
+        "activation": 3685.239501953125
+      },
+      {
+        "text": " States District Court for the Western District of Wisconsin, charging Patrick Rivers with one count of making false statements in a credit card",
+        "activation": 3671.9599609375
+      },
+      {
+        "text": " they don\u2019t accept your offer, you will be using the funds to pay off another debt. If the credit card",
+        "activation": 3655.3134765625
+      },
+      {
+        "text": " of people often have access to large amounts of sensitive information. For example, many businesses perform thousands or millions of credit card",
+        "activation": 3655.12646484375
+      },
+      {
+        "text": " time of booking. No need to wait to see if the person shows up for their reservation or wait for the credit card",
+        "activation": 3647.0546875
+      },
+      {
+        "text": " stay retired.\" \"And say thank you.\" \"You're sure?\" \"Who are you talking to?\" \"Credit card",
+        "activation": 3599.54052734375
+      },
+      {
+        "text": " large amounts of sensitive information. For example, many businesses perform thousands or millions of credit card transactions each year. Credit card",
+        "activation": 3583.80810546875
+      },
+      {
+        "text": " large amounts of sensitive information. For example, many businesses perform thousands or millions of credit card transactions each year. Credit card",
+        "activation": 3583.80810546875
+      },
+      {
+        "text": " to their credit reports. Credit reporting bureaus are developing new policies to ensure customers are not getting duped. Credit card",
+        "activation": 3580.79052734375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 3643\n\nTop activating examples (format: [activation] text):\n  [3879.867] parties would obtain the money to gamble through                                              6\f 1 cash on hand, ATM machines, credit card\n  [3685.240] for me. They informed that I would get the rest refund based on Customs stamp with no doubt.\u2022 The credit card\n  [3671.960] States District Court for the Western District of Wisconsin, charging Patrick Rivers with one count of making false statements in a credit card\n  [3655.313] they don\u2019t accept your offer, you will be using the funds to pay off another debt. If the credit card\n  [3655.126] of people often have access to large amounts of sensitive information. For example, many businesses perform thousands or millions of credit card\n  [3647.055] time of booking. No need to wait to see if the person shows up for their reservation or wait for the credit card\n  [3599.541] stay retired.\" \"And say thank you.\" \"You're sure?\" \"Who are you talking to?\" \"Credit card\n  [3583.808] large amounts of sensitive information. For example, many businesses perform thousands or millions of credit card transactions each year. Credit card\n  [3583.808] large amounts of sensitive information. For example, many businesses perform thousands or millions of credit card transactions each year. Credit card\n  [3580.791] to their credit reports. Credit reporting bureaus are developing new policies to ensure customers are not getting duped. Credit card\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 3643,
+      "k1_auc": 0.9840765192921695
+    },
+    {
+      "latent_idx": 7523,
+      "k1_auc": 0.9829646152389199
+    },
+    {
+      "latent_idx": 7409,
+      "k1_auc": 0.9759524324909357
+    },
+    {
+      "latent_idx": 13198,
+      "k1_auc": 0.9251062861897289
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.799115296417555
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.7839993201742519
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.7823898073488825
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.7659725228637914
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.7595429271064451
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.748583696358028
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.7419025481627795
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.73551142513123
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.7337683147085882
+    },
+    {
+      "latent_idx": 4969,
+      "k1_auc": 0.7337306875372044
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.7329747618918772
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.7315880526543643
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.718911923670112
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.7113158855998701
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.7110279743222035
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.7052562198982628
+    },
+    {
+      "latent_idx": 7845,
+      "k1_auc": 0.7013028302397317
+    },
+    {
+      "latent_idx": 7154,
+      "k1_auc": 0.6981637094810327
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.692457908301315
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.6891602460901564
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.6858621611017913
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.6834404932626224
+    },
+    {
+      "latent_idx": 11058,
+      "k1_auc": 0.6815735091184586
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.67290699916121
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.6693446784187456
+    },
+    {
+      "latent_idx": 1202,
+      "k1_auc": 0.6647537407327238
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.6519605024622546
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.6499628801612642
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.6448493898479355
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.6445471041452459
+    },
+    {
+      "latent_idx": 4299,
+      "k1_auc": 0.6396703690675902
+    },
+    {
+      "latent_idx": 9315,
+      "k1_auc": 0.6340491233291845
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.6328158822176524
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.6313150231343687
+    },
+    {
+      "latent_idx": 3366,
+      "k1_auc": 0.6276237553439039
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.6108699402023919
+    },
+    {
+      "latent_idx": 7571,
+      "k1_auc": 0.6054237242275016
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5771864346014395
+    },
+    {
+      "latent_idx": 3553,
+      "k1_auc": 0.5750205469722388
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5686044800855026
+    },
+    {
+      "latent_idx": 6434,
+      "k1_auc": 0.5668647518805129
+    },
+    {
+      "latent_idx": 11725,
+      "k1_auc": 0.5647977941176471
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5634580131500623
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5616096312029871
+    },
+    {
+      "latent_idx": 5709,
+      "k1_auc": 0.5585643669841441
+    },
+    {
+      "latent_idx": 155,
+      "k1_auc": 0.5583639705882353
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5580371638075653
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5574114535418583
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5570487106986308
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5482536764705882
+    },
+    {
+      "latent_idx": 4108,
+      "k1_auc": 0.5437599775420748
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.54302096298501
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5428987803723145
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5424358393311326
+    },
+    {
+      "latent_idx": 10388,
+      "k1_auc": 0.541870163428757
+    },
+    {
+      "latent_idx": 11596,
+      "k1_auc": 0.5403955165322799
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5393542162725254
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5388244764327075
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5387153999134152
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5378233400075761
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5376956612911954
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5373155845824991
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5367647058823529
+    },
+    {
+      "latent_idx": 4696,
+      "k1_auc": 0.5355175131230046
+    },
+    {
+      "latent_idx": 2100,
+      "k1_auc": 0.5339718396558255
+    },
+    {
+      "latent_idx": 2963,
+      "k1_auc": 0.5337401577466312
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5333900982196006
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5319792906813139
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5319091096650251
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5317175915904541
+    },
+    {
+      "latent_idx": 9439,
+      "k1_auc": 0.5305689059202339
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.529002093592727
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5289522058823529
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.528523932572109
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5284926470588235
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5248440797662212
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5248161764705882
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5226135072244169
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5225183823529411
+    },
+    {
+      "latent_idx": 9950,
+      "k1_auc": 0.5225183823529411
+    },
+    {
+      "latent_idx": 11267,
+      "k1_auc": 0.5220867268250446
+    },
+    {
+      "latent_idx": 8052,
+      "k1_auc": 0.5216174441257644
+    },
+    {
+      "latent_idx": 8650,
+      "k1_auc": 0.5211397058823529
+    },
+    {
+      "latent_idx": 4761,
+      "k1_auc": 0.5211397058823529
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.521132095892635
+    },
+    {
+      "latent_idx": 3104,
+      "k1_auc": 0.5206919848206072
+    },
+    {
+      "latent_idx": 15773,
+      "k1_auc": 0.5197610294117647
+    },
+    {
+      "latent_idx": 2792,
+      "k1_auc": 0.5197610294117647
+    },
+    {
+      "latent_idx": 3122,
+      "k1_auc": 0.5183924995941339
+    },
+    {
+      "latent_idx": 1233,
+      "k1_auc": 0.5174716908382488
+    },
+    {
+      "latent_idx": 16094,
+      "k1_auc": 0.5174632352941176
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5174632352941176
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5160845588235294
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.515625
+    },
+    {
+      "latent_idx": 4711,
+      "k1_auc": 0.51554636343958
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5151684006169165
+    },
+    {
+      "latent_idx": 9175,
+      "k1_auc": 0.5142463235294118
+    },
+    {
+      "latent_idx": 5274,
+      "k1_auc": 0.5134870156664322
+    },
+    {
+      "latent_idx": 14856,
+      "k1_auc": 0.5133272058823529
+    },
+    {
+      "latent_idx": 13221,
+      "k1_auc": 0.5124850336868878
+    },
+    {
+      "latent_idx": 3880,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 7405,
+      "k1_auc": 0.5101102941176471
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5101102941176471
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.5096579225066292
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5096507352941176
+    },
+    {
+      "latent_idx": 8549,
+      "k1_auc": 0.5096507352941176
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5091911764705882
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 14380,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5086529810866388
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.507791361139672
+    },
+    {
+      "latent_idx": 5579,
+      "k1_auc": 0.5064397424103035
+    },
+    {
+      "latent_idx": 931,
+      "k1_auc": 0.5064338235294118
+    },
+    {
+      "latent_idx": 6022,
+      "k1_auc": 0.5059932896801775
+    },
+    {
+      "latent_idx": 80,
+      "k1_auc": 0.5050597976080957
+    },
+    {
+      "latent_idx": 134,
+      "k1_auc": 0.5047934479679637
+    },
+    {
+      "latent_idx": 13719,
+      "k1_auc": 0.5041499810595811
+    },
+    {
+      "latent_idx": 9144,
+      "k1_auc": 0.5041487127279615
+    },
+    {
+      "latent_idx": 5235,
+      "k1_auc": 0.5032236762000108
+    },
+    {
+      "latent_idx": 357,
+      "k1_auc": 0.5032169117647058
+    },
+    {
+      "latent_idx": 16037,
+      "k1_auc": 0.5027717273661995
+    },
+    {
+      "latent_idx": 14162,
+      "k1_auc": 0.502311322988257
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.49753013555928355
+    }
+  ]
+}

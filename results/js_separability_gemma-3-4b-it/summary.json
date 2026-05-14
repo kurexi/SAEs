@@ -1,0 +1,31 @@
+{
+  "model": "gemma-3-4b-it",
+  "layer": 24,
+  "sae_id": "layer_24/width_16k/batch_topk_32",
+  "n_datasets": 25,
+  "params": {
+    "top_t": 80,
+    "n_bins": 2048,
+    "tau": 0.1,
+    "logreg_top_k": 100
+  },
+  "salient_neuron_overlap": {
+    "mean_sae": 0.6849436798676569,
+    "mean_logreg": 0.8399182174812998,
+    "mean_raw": 0.548769529893758,
+    "mean_sae_vs_logreg": 0.15497453761364274,
+    "frac_sae_wins": 0.88
+  },
+  "js_separability": {
+    "mean_sae": 0.5285252704051131,
+    "mean_logreg": 0.771735477290401,
+    "mean_raw": 0.764451353540349,
+    "mean_sae_vs_logreg": -0.24321020688528794,
+    "frac_sae_wins": 0.0
+  },
+  "probe_auc": {
+    "mean_auc_sae": 0.8700409033083173,
+    "mean_auc_logreg": 0.9109422105934866,
+    "mean_auc_raw": 0.9409042328698815
+  }
+}

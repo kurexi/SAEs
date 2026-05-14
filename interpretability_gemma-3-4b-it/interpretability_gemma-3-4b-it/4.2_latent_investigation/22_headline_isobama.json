@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "22_headline_isobama",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:34:33.645840"
+  },
+  "best_latent": {
+    "latent_idx": 12905,
+    "k1_auc": 0.868344384167169,
+    "examples": [
+      {
+        "text": "Health Bill Stalled, Obama Juggles an Altered Agenda.",
+        "activation": 2616.30810546875
+      },
+      {
+        "text": "Sparring Over Foreign Policy, Obama Goes on the Offense.",
+        "activation": 2605.71435546875
+      },
+      {
+        "text": "Doubting Putin, Obama Prepares to Add Pressure.",
+        "activation": 2492.286865234375
+      },
+      {
+        "text": "Obama to Push for Wider Deal With G.O.P. on Deficit Cuts.",
+        "activation": 2417.003173828125
+      },
+      {
+        "text": "Obama to Push for Wider Deal With G.O.P. on Deficit Cuts.",
+        "activation": 2417.003173828125
+      },
+      {
+        "text": "Obama to Push for Wider Deal With G.O.P. on Deficit Cuts.",
+        "activation": 2417.003173828125
+      },
+      {
+        "text": "Obama to Push for Wider Deal With G.O.P. on Deficit Cuts.",
+        "activation": 2417.003173828125
+      },
+      {
+        "text": "On Stump, Obama Takes Sharper Tone.",
+        "activation": 2384.342041015625
+      },
+      {
+        "text": "On Stump, Obama Takes Sharper Tone.",
+        "activation": 2384.342041015625
+      },
+      {
+        "text": "On Stump, Obama Takes Sharper Tone.",
+        "activation": 2384.342041015625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 12905\n\nTop activating examples (format: [activation] text):\n  [2616.308] Health Bill Stalled, Obama Juggles an Altered Agenda.\n  [2605.714] Sparring Over Foreign Policy, Obama Goes on the Offense.\n  [2492.287] Doubting Putin, Obama Prepares to Add Pressure.\n  [2417.003] Obama to Push for Wider Deal With G.O.P. on Deficit Cuts.\n  [2417.003] Obama to Push for Wider Deal With G.O.P. on Deficit Cuts.\n  [2417.003] Obama to Push for Wider Deal With G.O.P. on Deficit Cuts.\n  [2417.003] Obama to Push for Wider Deal With G.O.P. on Deficit Cuts.\n  [2384.342] On Stump, Obama Takes Sharper Tone.\n  [2384.342] On Stump, Obama Takes Sharper Tone.\n  [2384.342] On Stump, Obama Takes Sharper Tone.\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 12905,
+      "k1_auc": 0.868344384167169
+    },
+    {
+      "latent_idx": 506,
+      "k1_auc": 0.6922845087402049
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.664155113522202
+    },
+    {
+      "latent_idx": 8549,
+      "k1_auc": 0.6619399236487844
+    },
+    {
+      "latent_idx": 8845,
+      "k1_auc": 0.6522855133614627
+    },
+    {
+      "latent_idx": 6795,
+      "k1_auc": 0.6334337954591119
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.6072031344183243
+    },
+    {
+      "latent_idx": 6271,
+      "k1_auc": 0.5940425959413301
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.5937261402451276
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.5935654008438818
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.5906620454088809
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.5893258991360257
+    },
+    {
+      "latent_idx": 14031,
+      "k1_auc": 0.5831826401446655
+    },
+    {
+      "latent_idx": 1870,
+      "k1_auc": 0.5786266827406068
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5682238296162346
+    },
+    {
+      "latent_idx": 1588,
+      "k1_auc": 0.566857544705646
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.5595941330118543
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5561633514165158
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5537874221418525
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5521699819168173
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5520192887281494
+    },
+    {
+      "latent_idx": 5545,
+      "k1_auc": 0.5509543901948966
+    },
+    {
+      "latent_idx": 15204,
+      "k1_auc": 0.548859754872413
+    },
+    {
+      "latent_idx": 12562,
+      "k1_auc": 0.5485432991762106
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.545037170986538
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.544474583082178
+    },
+    {
+      "latent_idx": 14359,
+      "k1_auc": 0.5421237693389591
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5416917821981113
+    },
+    {
+      "latent_idx": 10838,
+      "k1_auc": 0.5379847297568817
+    },
+    {
+      "latent_idx": 3776,
+      "k1_auc": 0.5348101265822786
+    },
+    {
+      "latent_idx": 5691,
+      "k1_auc": 0.5332378943138436
+    },
+    {
+      "latent_idx": 13159,
+      "k1_auc": 0.5316355234076753
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5297267430178824
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5289029535864979
+    },
+    {
+      "latent_idx": 5101,
+      "k1_auc": 0.5286718906972071
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.5286015672091622
+    },
+    {
+      "latent_idx": 4603,
+      "k1_auc": 0.5254470564597147
+    },
+    {
+      "latent_idx": 2084,
+      "k1_auc": 0.524929676511955
+    },
+    {
+      "latent_idx": 6116,
+      "k1_auc": 0.52471870604782
+    },
+    {
+      "latent_idx": 805,
+      "k1_auc": 0.5241762105686156
+    },
+    {
+      "latent_idx": 1855,
+      "k1_auc": 0.5240405866988146
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5239602169981916
+    },
+    {
+      "latent_idx": 7650,
+      "k1_auc": 0.5237341772151899
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.522171991159333
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5218555354631305
+    },
+    {
+      "latent_idx": 12275,
+      "k1_auc": 0.5218505123568413
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5206349206349206
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5204189270644967
+    },
+    {
+      "latent_idx": 3105,
+      "k1_auc": 0.5202230259192284
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.519760900140647
+    },
+    {
+      "latent_idx": 16244,
+      "k1_auc": 0.5192686357243318
+    },
+    {
+      "latent_idx": 9930,
+      "k1_auc": 0.5189873417721519
+    },
+    {
+      "latent_idx": 6249,
+      "k1_auc": 0.5187160940325497
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5177164958810528
+    },
+    {
+      "latent_idx": 8702,
+      "k1_auc": 0.5175708257986739
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5175406871609404
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5175256178420735
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5174854329917621
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5174603174603174
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5166264818163552
+    },
+    {
+      "latent_idx": 3063,
+      "k1_auc": 0.5158730158730158
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5158529234478602
+    },
+    {
+      "latent_idx": 15430,
+      "k1_auc": 0.5158227848101266
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5149789029535865
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5144615230058268
+    },
+    {
+      "latent_idx": 12142,
+      "k1_auc": 0.5142857142857142
+    },
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.5142857142857142
+    },
+    {
+      "latent_idx": 8452,
+      "k1_auc": 0.5142254370102471
+    },
+    {
+      "latent_idx": 6070,
+      "k1_auc": 0.5141852521599357
+    },
+    {
+      "latent_idx": 2751,
+      "k1_auc": 0.5132007233273056
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.512748643761302
+    },
+    {
+      "latent_idx": 485,
+      "k1_auc": 0.5126582278481012
+    },
+    {
+      "latent_idx": 894,
+      "k1_auc": 0.5126280892103676
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.5125778581474784
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5124974884468555
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5120202933494072
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.5116686759091822
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5116636528028933
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5114426361261803
+    },
+    {
+      "latent_idx": 12234,
+      "k1_auc": 0.511407474382158
+    },
+    {
+      "latent_idx": 1551,
+      "k1_auc": 0.5111362266425558
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5111111111111111
+    },
+    {
+      "latent_idx": 7670,
+      "k1_auc": 0.5110960417922443
+    },
+    {
+      "latent_idx": 13532,
+      "k1_auc": 0.5110759493670886
+    },
+    {
+      "latent_idx": 6665,
+      "k1_auc": 0.5110709262607996
+    },
+    {
+      "latent_idx": 3969,
+      "k1_auc": 0.511045810729355
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5104581072935502
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5098452883263009
+    },
+    {
+      "latent_idx": 593,
+      "k1_auc": 0.5097649186256782
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.5095539481615431
+    },
+    {
+      "latent_idx": 6319,
+      "k1_auc": 0.5095037170986538
+    },
+    {
+      "latent_idx": 2378,
+      "k1_auc": 0.5094534860357646
+    },
+    {
+      "latent_idx": 9261,
+      "k1_auc": 0.5094534860357645
+    },
+    {
+      "latent_idx": 13616,
+      "k1_auc": 0.5085945348603575
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5081123166566205
+    },
+    {
+      "latent_idx": 7536,
+      "k1_auc": 0.5080068314245529
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5079616234679526
+    },
+    {
+      "latent_idx": 10889,
+      "k1_auc": 0.5078963230861966
+    },
+    {
+      "latent_idx": 9453,
+      "k1_auc": 0.5067611010648985
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5066807313642756
+    },
+    {
+      "latent_idx": 8691,
+      "k1_auc": 0.5063492063492063
+    },
+    {
+      "latent_idx": 15734,
+      "k1_auc": 0.5062889290737392
+    },
+    {
+      "latent_idx": 15884,
+      "k1_auc": 0.5062587904360056
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5058921036769137
+    },
+    {
+      "latent_idx": 15781,
+      "k1_auc": 0.5047619047619047
+    },
+    {
+      "latent_idx": 7723,
+      "k1_auc": 0.5047418123367491
+    },
+    {
+      "latent_idx": 8732,
+      "k1_auc": 0.5032650190878039
+    },
+    {
+      "latent_idx": 8052,
+      "k1_auc": 0.5031243721117138
+    },
+    {
+      "latent_idx": 6537,
+      "k1_auc": 0.5031042796865581
+    },
+    {
+      "latent_idx": 1973,
+      "k1_auc": 0.5016877637130802
+    },
+    {
+      "latent_idx": 12656,
+      "k1_auc": 0.5015722322684348
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5003415712276471
+    },
+    {
+      "latent_idx": 2149,
+      "k1_auc": 0.5000301386377335
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11532,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10059,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9426,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15595,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9384,
+      "k1_auc": 0.4997588908981314
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.4986286919831224
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.4984126984126984
+    },
+    {
+      "latent_idx": 3630,
+      "k1_auc": 0.49834237492465344
+    },
+    {
+      "latent_idx": 16293,
+      "k1_auc": 0.4982519590114527
+    },
+    {
+      "latent_idx": 10977,
+      "k1_auc": 0.4952431183443841
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.49507735583684953
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.48751255776572233
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.4844986939923648
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.4803194695599759
+    }
+  ]
+}

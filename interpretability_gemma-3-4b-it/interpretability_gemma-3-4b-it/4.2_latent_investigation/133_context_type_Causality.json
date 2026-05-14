@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "133_context_type_Causality",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:48:24.102247"
+  },
+  "best_latent": {
+    "latent_idx": 10369,
+    "k1_auc": 0.7993836915297092,
+    "examples": [
+      {
+        "text": "Why was the handyman angry?",
+        "activation": 4899.92236328125
+      },
+      {
+        "text": "Why was the mom mortified?",
+        "activation": 4495.52392578125
+      },
+      {
+        "text": "Why was the woman scared?",
+        "activation": 4305.5546875
+      },
+      {
+        "text": "Why was the ER nurse grossed out?",
+        "activation": 4072.91845703125
+      },
+      {
+        "text": "Why did the author cry in the bathroom?",
+        "activation": 3989.6943359375
+      },
+      {
+        "text": "Why was the author scared?",
+        "activation": 3872.82763671875
+      },
+      {
+        "text": "Why was the author scared?",
+        "activation": 3872.82763671875
+      },
+      {
+        "text": "Why was the patient so grateful?",
+        "activation": 3795.76904296875
+      },
+      {
+        "text": "why was the 14-year-old boy crying?",
+        "activation": 3748.7451171875
+      },
+      {
+        "text": "Why did Justin go to the doctor?",
+        "activation": 3679.093505859375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 10369\n\nTop activating examples (format: [activation] text):\n  [4899.922] Why was the handyman angry?\n  [4495.524] Why was the mom mortified?\n  [4305.555] Why was the woman scared?\n  [4072.918] Why was the ER nurse grossed out?\n  [3989.694] Why did the author cry in the bathroom?\n  [3872.828] Why was the author scared?\n  [3872.828] Why was the author scared?\n  [3795.769] Why was the patient so grateful?\n  [3748.745] why was the 14-year-old boy crying?\n  [3679.094] Why did Justin go to the doctor?\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 10369,
+      "k1_auc": 0.7993836915297092
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.6928729456384324
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.6711441213653603
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.6622945638432364
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.6598451327433629
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.6596080910240203
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.6534054993678887
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.635192793931732
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.6348767383059419
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.6255926042983565
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.6230246523388117
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.6225505689001264
+    },
+    {
+      "latent_idx": 7968,
+      "k1_auc": 0.6167430467762326
+    },
+    {
+      "latent_idx": 1382,
+      "k1_auc": 0.5943426042983566
+    },
+    {
+      "latent_idx": 14975,
+      "k1_auc": 0.5848214285714286
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5803571428571428
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5782632743362832
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5773941213653603
+    },
+    {
+      "latent_idx": 5749,
+      "k1_auc": 0.5750237041719343
+    },
+    {
+      "latent_idx": 186,
+      "k1_auc": 0.5743125790139064
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5736409608091024
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5733249051833123
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5722187104930467
+    },
+    {
+      "latent_idx": 4247,
+      "k1_auc": 0.5719816687737042
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5717446270543616
+    },
+    {
+      "latent_idx": 1317,
+      "k1_auc": 0.571665613147914
+    },
+    {
+      "latent_idx": 11532,
+      "k1_auc": 0.569295195954488
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5691766750948166
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5690581542351454
+    },
+    {
+      "latent_idx": 12408,
+      "k1_auc": 0.5684655499367888
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5644753476611885
+    },
+    {
+      "latent_idx": 9121,
+      "k1_auc": 0.5594579646017699
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5587863463969659
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5586678255372945
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5576011378002529
+    },
+    {
+      "latent_idx": 1588,
+      "k1_auc": 0.5564949431099874
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5554677623261693
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.554519595448799
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5536504424778761
+    },
+    {
+      "latent_idx": 14482,
+      "k1_auc": 0.553492414664981
+    },
+    {
+      "latent_idx": 10356,
+      "k1_auc": 0.5530973451327433
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5513195322376739
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5512800252844501
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5501343236409608
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5495812262958281
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.545353982300885
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5422329329962072
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5417193426042984
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5415613147914032
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5403365992414665
+    },
+    {
+      "latent_idx": 947,
+      "k1_auc": 0.5398625158027812
+    },
+    {
+      "latent_idx": 311,
+      "k1_auc": 0.5360303413400759
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5360303413400759
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5357142857142858
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5332253476611883
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.5316845764854614
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5313685208596712
+    },
+    {
+      "latent_idx": 11489,
+      "k1_auc": 0.5308549304677623
+    },
+    {
+      "latent_idx": 5984,
+      "k1_auc": 0.5285240202275601
+    },
+    {
+      "latent_idx": 12802,
+      "k1_auc": 0.5272597977243996
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.526311630847029
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5262326169405817
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.5252844500632111
+    },
+    {
+      "latent_idx": 8549,
+      "k1_auc": 0.5248893805309736
+    },
+    {
+      "latent_idx": 3969,
+      "k1_auc": 0.5244943109987358
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5236251580278128
+    },
+    {
+      "latent_idx": 4582,
+      "k1_auc": 0.5229535398230089
+    },
+    {
+      "latent_idx": 226,
+      "k1_auc": 0.5221238938053098
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.521728824273072
+    },
+    {
+      "latent_idx": 12562,
+      "k1_auc": 0.5215312895069533
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.519200379266751
+    },
+    {
+      "latent_idx": 9580,
+      "k1_auc": 0.5186472819216182
+    },
+    {
+      "latent_idx": 7110,
+      "k1_auc": 0.5185682680151706
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5180941845764855
+    },
+    {
+      "latent_idx": 6452,
+      "k1_auc": 0.5178571428571429
+    },
+    {
+      "latent_idx": 805,
+      "k1_auc": 0.5146965865992414
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5139854614412136
+    },
+    {
+      "latent_idx": 14557,
+      "k1_auc": 0.5136298988621997
+    },
+    {
+      "latent_idx": 13437,
+      "k1_auc": 0.5133138432364096
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5131163084702908
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5123261694058154
+    },
+    {
+      "latent_idx": 11267,
+      "k1_auc": 0.5094026548672567
+    },
+    {
+      "latent_idx": 12539,
+      "k1_auc": 0.5090865992414665
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5090075853350189
+    },
+    {
+      "latent_idx": 14224,
+      "k1_auc": 0.5089285714285714
+    },
+    {
+      "latent_idx": 1718,
+      "k1_auc": 0.5089285714285714
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5088495575221239
+    },
+    {
+      "latent_idx": 13616,
+      "k1_auc": 0.5088495575221239
+    },
+    {
+      "latent_idx": 8971,
+      "k1_auc": 0.5087705436156763
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.5085335018963337
+    },
+    {
+      "latent_idx": 5688,
+      "k1_auc": 0.5083754740834387
+    },
+    {
+      "latent_idx": 3349,
+      "k1_auc": 0.5082174462705437
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.5057285082174463
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5056890012642226
+    },
+    {
+      "latent_idx": 13567,
+      "k1_auc": 0.5048198482932996
+    },
+    {
+      "latent_idx": 13810,
+      "k1_auc": 0.5044642857142858
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.502212389380531
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.5003160556257902
+    },
+    {
+      "latent_idx": 15039,
+      "k1_auc": 0.5002370417193426
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8845,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16197,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10660,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5335,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.49999999999999994
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.49984197218710497
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.49976295828065737
+    },
+    {
+      "latent_idx": 14796,
+      "k1_auc": 0.49968394437420993
+    },
+    {
+      "latent_idx": 3115,
+      "k1_auc": 0.49968394437420993
+    },
+    {
+      "latent_idx": 5101,
+      "k1_auc": 0.4996049304677624
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.49936788874841964
+    },
+    {
+      "latent_idx": 11245,
+      "k1_auc": 0.49889380530973454
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.49632585335018964
+    },
+    {
+      "latent_idx": 2467,
+      "k1_auc": 0.49585176991150437
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.49553571428571425
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.4930467762326169
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.486923198482933
+    },
+    {
+      "latent_idx": 11305,
+      "k1_auc": 0.4862515802781289
+    },
+    {
+      "latent_idx": 5545,
+      "k1_auc": 0.4831700379266751
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.4826959544879899
+    },
+    {
+      "latent_idx": 12025,
+      "k1_auc": 0.48166877370417194
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.4755056890012642
+    }
+  ]
+}

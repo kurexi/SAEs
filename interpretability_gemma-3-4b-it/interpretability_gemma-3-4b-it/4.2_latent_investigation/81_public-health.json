@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "81_public-health",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:42:25.147686"
+  },
+  "best_latent": {
+    "latent_idx": 3409,
+    "k1_auc": 0.973655061150495,
+    "examples": [
+      {
+        "text": " differences in pathogenicity factors and an expanded host reservoir. Therefore, these topics may also be of reasonable interest for public health",
+        "activation": 3200.226318359375
+      },
+      {
+        "text": " horizontal state transitions, that is, ON to OFF state transitions.Introduction {#sec1}============Public health",
+        "activation": 3169.83984375
+      },
+      {
+        "text": " the molecular markers identified by the controversial ferret transmission studies and many other GOF studies have provided important information for public health",
+        "activation": 3157.292724609375
+      },
+      {
+        "text": " it is likely to die out on its own. There is a lot yet to learn about this virus, so public health",
+        "activation": 3079.24169921875
+      },
+      {
+        "text": " it is likely to die out on its own. There is a lot yet to learn about this virus, so public health",
+        "activation": 3079.24169921875
+      },
+      {
+        "text": " the SARS-CoV-2 coronavirus),[^41^](#fn41){ref-type=\"fn\"} then the public health",
+        "activation": 3070.04443359375
+      },
+      {
+        "text": " the urban area.Thus, despite the low rate of brucellosis positivity in this study, the public health",
+        "activation": 3063.598876953125
+      },
+      {
+        "text": " update related information. In KCDC, the EIS Grand Round is held each month to summarize and study the public health",
+        "activation": 3045.22802734375
+      },
+      {
+        "text": " and Environmental Control (SCDHEC) was faced with the challenges of a workforce that was not prepared in public health",
+        "activation": 3038.12744140625
+      },
+      {
+        "text": " for isolation. This 3 to 4 day procedure is difficult to reconcile with rapid marketing strategies while maintaining interest in the public health",
+        "activation": 2973.434814453125
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 3409\n\nTop activating examples (format: [activation] text):\n  [3200.226] differences in pathogenicity factors and an expanded host reservoir. Therefore, these topics may also be of reasonable interest for public health\n  [3169.840] horizontal state transitions, that is, ON to OFF state transitions.Introduction {#sec1}============Public health\n  [3157.293] the molecular markers identified by the controversial ferret transmission studies and many other GOF studies have provided important information for public health\n  [3079.242] it is likely to die out on its own. There is a lot yet to learn about this virus, so public health\n  [3079.242] it is likely to die out on its own. There is a lot yet to learn about this virus, so public health\n  [3070.044] the SARS-CoV-2 coronavirus),[^41^](#fn41){ref-type=\"fn\"} then the public health\n  [3063.599] the urban area.Thus, despite the low rate of brucellosis positivity in this study, the public health\n  [3045.228] update related information. In KCDC, the EIS Grand Round is held each month to summarize and study the public health\n  [3038.127] and Environmental Control (SCDHEC) was faced with the challenges of a workforce that was not prepared in public health\n  [2973.435] for isolation. This 3 to 4 day procedure is difficult to reconcile with rapid marketing strategies while maintaining interest in the public health\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 3409,
+      "k1_auc": 0.973655061150495
+    },
+    {
+      "latent_idx": 3097,
+      "k1_auc": 0.970935758157909
+    },
+    {
+      "latent_idx": 7213,
+      "k1_auc": 0.8101827581308513
+    },
+    {
+      "latent_idx": 9428,
+      "k1_auc": 0.7186578345689703
+    },
+    {
+      "latent_idx": 15963,
+      "k1_auc": 0.7069088559987013
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.6970978881432979
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.6907063423345419
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.6886381162400563
+    },
+    {
+      "latent_idx": 10805,
+      "k1_auc": 0.6873740123924456
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.6832696912711727
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.6811317069376048
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.6810010687807782
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.6792080706477623
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.6757518669841441
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.6733090602846474
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.6692888718274799
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.6689540322798853
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.6685485889387954
+    },
+    {
+      "latent_idx": 2856,
+      "k1_auc": 0.6674578237458737
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.6647469762974187
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.6556479652578602
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.654509849017804
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.652022227934412
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.6499616118296444
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.642559628497213
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.6423550043292385
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.638794797472807
+    },
+    {
+      "latent_idx": 13274,
+      "k1_auc": 0.6384637629200716
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.6274174400671032
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.6266648966394286
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.6238445498944749
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.623676707343471
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.6155407827804534
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.613091211645652
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.6040860571459494
+    },
+    {
+      "latent_idx": 11257,
+      "k1_auc": 0.5799632352941176
+    },
+    {
+      "latent_idx": 6993,
+      "k1_auc": 0.5783034119811677
+    },
+    {
+      "latent_idx": 9088,
+      "k1_auc": 0.5675386587477679
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5655723219600629
+    },
+    {
+      "latent_idx": 3060,
+      "k1_auc": 0.5615808823529411
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5602022058823529
+    },
+    {
+      "latent_idx": 8472,
+      "k1_auc": 0.5539336882407057
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5530788327290438
+    },
+    {
+      "latent_idx": 5709,
+      "k1_auc": 0.5425766241409167
+    },
+    {
+      "latent_idx": 9649,
+      "k1_auc": 0.540018822041236
+    },
+    {
+      "latent_idx": 11019,
+      "k1_auc": 0.5382596460847449
+    },
+    {
+      "latent_idx": 15098,
+      "k1_auc": 0.5382545727582662
+    },
+    {
+      "latent_idx": 5072,
+      "k1_auc": 0.5381433823529411
+    },
+    {
+      "latent_idx": 11804,
+      "k1_auc": 0.5379459453974782
+    },
+    {
+      "latent_idx": 4703,
+      "k1_auc": 0.5367647058823529
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5350524581957897
+    },
+    {
+      "latent_idx": 3412,
+      "k1_auc": 0.5317725526273067
+    },
+    {
+      "latent_idx": 11089,
+      "k1_auc": 0.5308242633529953
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5304999932355647
+    },
+    {
+      "latent_idx": 11307,
+      "k1_auc": 0.5303308823529411
+    },
+    {
+      "latent_idx": 9532,
+      "k1_auc": 0.5289522058823529
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5276394826559879
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5267643338384113
+    },
+    {
+      "latent_idx": 9439,
+      "k1_auc": 0.5236383191731154
+    },
+    {
+      "latent_idx": 6615,
+      "k1_auc": 0.5234713221765248
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5230400894258347
+    },
+    {
+      "latent_idx": 6123,
+      "k1_auc": 0.5220994101412414
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5220934912603497
+    },
+    {
+      "latent_idx": 2100,
+      "k1_auc": 0.5207046681368039
+    },
+    {
+      "latent_idx": 11596,
+      "k1_auc": 0.5202205882352942
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5202159376860219
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5198878625737323
+    },
+    {
+      "latent_idx": 8643,
+      "k1_auc": 0.5193014705882353
+    },
+    {
+      "latent_idx": 1233,
+      "k1_auc": 0.5188419117647058
+    },
+    {
+      "latent_idx": 12292,
+      "k1_auc": 0.5183992640294388
+    },
+    {
+      "latent_idx": 15463,
+      "k1_auc": 0.5183823529411765
+    },
+    {
+      "latent_idx": 4590,
+      "k1_auc": 0.5174776097191407
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5173850215109043
+    },
+    {
+      "latent_idx": 14869,
+      "k1_auc": 0.517250155582012
+    },
+    {
+      "latent_idx": 8232,
+      "k1_auc": 0.5170577919530277
+    },
+    {
+      "latent_idx": 623,
+      "k1_auc": 0.5165441176470589
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5157704353590562
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5157484509443151
+    },
+    {
+      "latent_idx": 12027,
+      "k1_auc": 0.5156495210779805
+    },
+    {
+      "latent_idx": 1002,
+      "k1_auc": 0.515236044969966
+    },
+    {
+      "latent_idx": 4043,
+      "k1_auc": 0.5151722056117755
+    },
+    {
+      "latent_idx": 16181,
+      "k1_auc": 0.5137867647058824
+    },
+    {
+      "latent_idx": 15734,
+      "k1_auc": 0.5133276286595595
+    },
+    {
+      "latent_idx": 53,
+      "k1_auc": 0.5132253165755722
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5125860774392554
+    },
+    {
+      "latent_idx": 8791,
+      "k1_auc": 0.5119679771632664
+    },
+    {
+      "latent_idx": 239,
+      "k1_auc": 0.5119586760647222
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5119485294117647
+    },
+    {
+      "latent_idx": 3150,
+      "k1_auc": 0.5119485294117647
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5116644231289572
+    },
+    {
+      "latent_idx": 737,
+      "k1_auc": 0.5114978489095731
+    },
+    {
+      "latent_idx": 10536,
+      "k1_auc": 0.5114889705882353
+    },
+    {
+      "latent_idx": 2337,
+      "k1_auc": 0.5110395584176634
+    },
+    {
+      "latent_idx": 9833,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 10978,
+      "k1_auc": 0.5105698529411765
+    },
+    {
+      "latent_idx": 689,
+      "k1_auc": 0.510152571838303
+    },
+    {
+      "latent_idx": 10492,
+      "k1_auc": 0.5101102941176471
+    },
+    {
+      "latent_idx": 7122,
+      "k1_auc": 0.5101102941176471
+    },
+    {
+      "latent_idx": 2927,
+      "k1_auc": 0.5101102941176471
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5096507352941176
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.509595774257265
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5091945586882407
+    },
+    {
+      "latent_idx": 11982,
+      "k1_auc": 0.5091911764705882
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.508736268196331
+    },
+    {
+      "latent_idx": 5565,
+      "k1_auc": 0.5082720588235294
+    },
+    {
+      "latent_idx": 9475,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 8569,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 10939,
+      "k1_auc": 0.5064338235294118
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5061061711943287
+    },
+    {
+      "latent_idx": 15265,
+      "k1_auc": 0.5059742647058824
+    },
+    {
+      "latent_idx": 5451,
+      "k1_auc": 0.505551064722117
+    },
+    {
+      "latent_idx": 4390,
+      "k1_auc": 0.5055299258617891
+    },
+    {
+      "latent_idx": 8931,
+      "k1_auc": 0.5055147058823529
+    },
+    {
+      "latent_idx": 11576,
+      "k1_auc": 0.5045224477785595
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5043186691649981
+    },
+    {
+      "latent_idx": 65,
+      "k1_auc": 0.5032169117647058
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.50317463404405
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5028376806104227
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5025493465555495
+    },
+    {
+      "latent_idx": 5468,
+      "k1_auc": 0.5018754396882948
+    },
+    {
+      "latent_idx": 357,
+      "k1_auc": 0.5013807903566211
+    },
+    {
+      "latent_idx": 6537,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1013,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9854,
+      "k1_auc": 0.4952598219600628
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.4903725174522431
+    }
+  ]
+}

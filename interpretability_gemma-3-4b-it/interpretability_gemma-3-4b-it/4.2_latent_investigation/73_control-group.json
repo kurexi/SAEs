@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "73_control-group",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:40:11.355940"
+  },
+  "best_latent": {
+    "latent_idx": 2152,
+    "k1_auc": 0.9647260065479734,
+    "examples": [
+      {
+        "text": " 31.36 ng/ml, range 14.36-75.71 ng/ml) than in the control group",
+        "activation": 2806.6904296875
+      },
+      {
+        "text": "1 vs. 8.4 \u00b1 1.5, *P* = 0.02) compared with the control group",
+        "activation": 2799.17724609375
+      },
+      {
+        "text": " PB; 29\u00b118, p=2\u00d710^\u22129^ in spleen cell suspension) compared to the control group",
+        "activation": 2790.11181640625
+      },
+      {
+        "text": " 6\u00b10.9 and 12\u00b13.1, p=0.0194) as compared to control group",
+        "activation": 2784.4580078125
+      },
+      {
+        "text": " activated the I\u03baB/NF-\u03baB signaling, stimulating the expression of NF-\u03baB p65 compared with the control group",
+        "activation": 2735.07568359375
+      },
+      {
+        "text": "p* \\< 0.05 and ^*\u2217\u2217*^ *p* \\< 0.01) versus noninhibitor control group",
+        "activation": 2673.391357421875
+      },
+      {
+        "text": ".1\u2009s vs. 44.3\u2009\u00b1\u20093.1\u2009s) as compared to the control group",
+        "activation": 2625.78564453125
+      },
+      {
+        "text": "ACKEII score of the XBJI + ulinastatin group was lower than that of the control group",
+        "activation": 2622.738037109375
+      },
+      {
+        "text": " estimated in liver homogenates and were found to be increased 2-folds in HFD group in comparison to the control group",
+        "activation": 2604.43408203125
+      },
+      {
+        "text": " marker for ischemic damage, was significantly elevated in MI+NEF and MI+LEF group as compared to control group",
+        "activation": 2595.5205078125
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 2152\n\nTop activating examples (format: [activation] text):\n  [2806.690] 31.36 ng/ml, range 14.36-75.71 ng/ml) than in the control group\n  [2799.177] 1 vs. 8.4 \u00b1 1.5, *P* = 0.02) compared with the control group\n  [2790.112] PB; 29\u00b118, p=2\u00d710^\u22129^ in spleen cell suspension) compared to the control group\n  [2784.458] 6\u00b10.9 and 12\u00b13.1, p=0.0194) as compared to control group\n  [2735.076] activated the I\u03baB/NF-\u03baB signaling, stimulating the expression of NF-\u03baB p65 compared with the control group\n  [2673.391] p* \\< 0.05 and ^*\u2217\u2217*^ *p* \\< 0.01) versus noninhibitor control group\n  [2625.786] .1\u2009s vs. 44.3\u2009\u00b1\u20093.1\u2009s) as compared to the control group\n  [2622.738] ACKEII score of the XBJI + ulinastatin group was lower than that of the control group\n  [2604.434] estimated in liver homogenates and were found to be increased 2-folds in HFD group in comparison to the control group\n  [2595.521] marker for ischemic damage, was significantly elevated in MI+NEF and MI+LEF group as compared to control group\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 2152,
+      "k1_auc": 0.9647260065479734
+    },
+    {
+      "latent_idx": 9520,
+      "k1_auc": 0.9296676294712917
+    },
+    {
+      "latent_idx": 1586,
+      "k1_auc": 0.8913733156556092
+    },
+    {
+      "latent_idx": 14268,
+      "k1_auc": 0.8071611694355756
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.7166077878943665
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.7140250419394988
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.6812209129281888
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.6804835894799502
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.6698300266518751
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.6672189546241679
+    },
+    {
+      "latent_idx": 11748,
+      "k1_auc": 0.6588559987012286
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.6278651611288489
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.6242229354943449
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.6210783186319606
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.6064443084041344
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.6042462897072353
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5986153200930786
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5963847475512745
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5951020415065752
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5925941271172682
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5869179203420098
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5862799495373127
+    },
+    {
+      "latent_idx": 7769,
+      "k1_auc": 0.5801035973266951
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5750590196980356
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5680705124736187
+    },
+    {
+      "latent_idx": 330,
+      "k1_auc": 0.563808072677093
+    },
+    {
+      "latent_idx": 959,
+      "k1_auc": 0.5608832999621192
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5589241503869258
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5579344289463715
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.549844587098869
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5478110287353212
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5477941176470589
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5438233941230586
+    },
+    {
+      "latent_idx": 13295,
+      "k1_auc": 0.5435295639645001
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5424848814870935
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5422920950809026
+    },
+    {
+      "latent_idx": 4696,
+      "k1_auc": 0.5381767817522592
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5378351777693599
+    },
+    {
+      "latent_idx": 11596,
+      "k1_auc": 0.5374128233400076
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5366560521402672
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5362556821256561
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5349856593971536
+    },
+    {
+      "latent_idx": 2429,
+      "k1_auc": 0.5340073529411765
+    },
+    {
+      "latent_idx": 7338,
+      "k1_auc": 0.5332015395854754
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5315751156718437
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5303308823529411
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5302023580821473
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5297191237350506
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5296239988635749
+    },
+    {
+      "latent_idx": 609,
+      "k1_auc": 0.5290392979869041
+    },
+    {
+      "latent_idx": 5603,
+      "k1_auc": 0.5289754586287138
+    },
+    {
+      "latent_idx": 2100,
+      "k1_auc": 0.528733630066562
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5280330882352942
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5275227961469776
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5273748241246821
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5266544117647058
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5257361396720601
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5255509632555874
+    },
+    {
+      "latent_idx": 5709,
+      "k1_auc": 0.5244073509118459
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5243566176470589
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5241219762974186
+    },
+    {
+      "latent_idx": 5160,
+      "k1_auc": 0.5238378700146111
+    },
+    {
+      "latent_idx": 3412,
+      "k1_auc": 0.5230066900265166
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.522747527598896
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5225183823529411
+    },
+    {
+      "latent_idx": 10037,
+      "k1_auc": 0.5220791168353265
+    },
+    {
+      "latent_idx": 13355,
+      "k1_auc": 0.5211168759131988
+    },
+    {
+      "latent_idx": 14321,
+      "k1_auc": 0.5203110625574977
+    },
+    {
+      "latent_idx": 7281,
+      "k1_auc": 0.5202205882352942
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5197293211212728
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5195551369121705
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5193724971589371
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5191847840792251
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5182618614373072
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5175765395854754
+    },
+    {
+      "latent_idx": 12177,
+      "k1_auc": 0.517574002922236
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.5174970574706423
+    },
+    {
+      "latent_idx": 616,
+      "k1_auc": 0.5174793008279669
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5171930806591265
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5171106391038475
+    },
+    {
+      "latent_idx": 9453,
+      "k1_auc": 0.5161213404405
+    },
+    {
+      "latent_idx": 7618,
+      "k1_auc": 0.5161056976838574
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5160845588235294
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5147058823529411
+    },
+    {
+      "latent_idx": 2083,
+      "k1_auc": 0.5142463235294118
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.5142463235294118
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5124080882352942
+    },
+    {
+      "latent_idx": 239,
+      "k1_auc": 0.5119273905514368
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5119163983440662
+    },
+    {
+      "latent_idx": 532,
+      "k1_auc": 0.5114889705882353
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5114855883705828
+    },
+    {
+      "latent_idx": 9616,
+      "k1_auc": 0.5110412495264895
+    },
+    {
+      "latent_idx": 10388,
+      "k1_auc": 0.5105795768169273
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5105698529411765
+    },
+    {
+      "latent_idx": 11532,
+      "k1_auc": 0.5105698529411765
+    },
+    {
+      "latent_idx": 11267,
+      "k1_auc": 0.5096942813463933
+    },
+    {
+      "latent_idx": 134,
+      "k1_auc": 0.5096659552735537
+    },
+    {
+      "latent_idx": 16094,
+      "k1_auc": 0.5091911764705882
+    },
+    {
+      "latent_idx": 3062,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5083151820985984
+    },
+    {
+      "latent_idx": 7317,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 1354,
+      "k1_auc": 0.5073850722441691
+    },
+    {
+      "latent_idx": 10472,
+      "k1_auc": 0.5073529411764706
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5059742647058824
+    },
+    {
+      "latent_idx": 15169,
+      "k1_auc": 0.5059742647058824
+    },
+    {
+      "latent_idx": 11537,
+      "k1_auc": 0.5055206247632449
+    },
+    {
+      "latent_idx": 16203,
+      "k1_auc": 0.5050551470588235
+    },
+    {
+      "latent_idx": 15204,
+      "k1_auc": 0.5045955882352942
+    },
+    {
+      "latent_idx": 10084,
+      "k1_auc": 0.5041499810595811
+    },
+    {
+      "latent_idx": 6106,
+      "k1_auc": 0.5041275738676335
+    },
+    {
+      "latent_idx": 14219,
+      "k1_auc": 0.5038937780724064
+    },
+    {
+      "latent_idx": 724,
+      "k1_auc": 0.5036764705882353
+    },
+    {
+      "latent_idx": 8748,
+      "k1_auc": 0.5036764705882353
+    },
+    {
+      "latent_idx": 10890,
+      "k1_auc": 0.5036764705882353
+    },
+    {
+      "latent_idx": 10759,
+      "k1_auc": 0.5032169117647058
+    },
+    {
+      "latent_idx": 9590,
+      "k1_auc": 0.5032169117647058
+    },
+    {
+      "latent_idx": 14641,
+      "k1_auc": 0.5027674995941338
+    },
+    {
+      "latent_idx": 5828,
+      "k1_auc": 0.5023349985118242
+    },
+    {
+      "latent_idx": 8729,
+      "k1_auc": 0.5018382352941176
+    },
+    {
+      "latent_idx": 14866,
+      "k1_auc": 0.5013799448022079
+    },
+    {
+      "latent_idx": 3727,
+      "k1_auc": 0.5013799448022079
+    },
+    {
+      "latent_idx": 4761,
+      "k1_auc": 0.5013786764705882
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 500,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12623,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.49425149832242005
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.4901843815953244
+    }
+  ]
+}

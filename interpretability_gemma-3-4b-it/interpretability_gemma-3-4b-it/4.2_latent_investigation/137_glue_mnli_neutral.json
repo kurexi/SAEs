@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "137_glue_mnli_neutral",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:48:52.987468"
+  },
+  "best_latent": {
+    "latent_idx": 6704,
+    "k1_auc": 0.5836841875838932,
+    "examples": [
+      {
+        "text": "So, in keeping with our policy, the article was amended. | The article was amended in compliance with policy.",
+        "activation": 3724.568359375
+      },
+      {
+        "text": "Brown felt that the recommendation placed too much responsibility on funding agencies. | To Brown, funding agencies were placed too much responsibility by the recommendation.",
+        "activation": 3599.32080078125
+      },
+      {
+        "text": "But the Cabinet knew by how narrow a margin they had escaped utter disaster. | The Cabinet had barely escaped a complete disaster.",
+        "activation": 3550.19482421875
+      },
+      {
+        "text": "There are even moonlight cruises for those who are romantically inclined. | Those who like romance can have moonlight cruises if they choose.",
+        "activation": 3461.543212890625
+      },
+      {
+        "text": "It cannot be a low cost, efficient provider of service. | The service provider must be expensive and inefficient.",
+        "activation": 3453.26416015625
+      },
+      {
+        "text": "'All right,' I nodded, starting to walk away. | I nodded and left the place walking.",
+        "activation": 3447.03271484375
+      },
+      {
+        "text": "I heard the Ambassador telling you his wife hoped you would come to them at the Embassy right away. | I heard the Ambassador explaining why his wife wished you would come to the Embassy.",
+        "activation": 3411.9794921875
+      },
+      {
+        "text": "If Madrid played any role in these pivotal events, no record of it remains. | If Madrid was involved in the event, there is no record of it.",
+        "activation": 3389.19921875
+      },
+      {
+        "text": "They readily ask about seat belts and distribute handouts about various behaviors. | They give out handouts relating to various behaviors.",
+        "activation": 3383.026611328125
+      },
+      {
+        "text": "Tommy had been right in his forecast of the situation. | Tommy's predictions about the situation came true.",
+        "activation": 3294.000732421875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 6704\n\nTop activating examples (format: [activation] text):\n  [3724.568] So, in keeping with our policy, the article was amended. | The article was amended in compliance with policy.\n  [3599.321] Brown felt that the recommendation placed too much responsibility on funding agencies. | To Brown, funding agencies were placed too much responsibility by the recommendation.\n  [3550.195] But the Cabinet knew by how narrow a margin they had escaped utter disaster. | The Cabinet had barely escaped a complete disaster.\n  [3461.543] There are even moonlight cruises for those who are romantically inclined. | Those who like romance can have moonlight cruises if they choose.\n  [3453.264] It cannot be a low cost, efficient provider of service. | The service provider must be expensive and inefficient.\n  [3447.033] 'All right,' I nodded, starting to walk away. | I nodded and left the place walking.\n  [3411.979] I heard the Ambassador telling you his wife hoped you would come to them at the Embassy right away. | I heard the Ambassador explaining why his wife wished you would come to the Embassy.\n  [3389.199] If Madrid played any role in these pivotal events, no record of it remains. | If Madrid was involved in the event, there is no record of it.\n  [3383.027] They readily ask about seat belts and distribute handouts about various behaviors. | They give out handouts relating to various behaviors.\n  [3294.001] Tommy had been right in his forecast of the situation. | Tommy's predictions about the situation came true.\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 6704,
+      "k1_auc": 0.5836841875838932
+    },
+    {
+      "latent_idx": 4160,
+      "k1_auc": 0.5728211086743796
+    },
+    {
+      "latent_idx": 14711,
+      "k1_auc": 0.5609967818109941
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5496211375343651
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5404054827959914
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5359434584784475
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5339052220039352
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5338345751644794
+    },
+    {
+      "latent_idx": 13030,
+      "k1_auc": 0.5332250582836425
+    },
+    {
+      "latent_idx": 3349,
+      "k1_auc": 0.5307494126542017
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5290937212997215
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.5265763639725168
+    },
+    {
+      "latent_idx": 14224,
+      "k1_auc": 0.522896340042779
+    },
+    {
+      "latent_idx": 14557,
+      "k1_auc": 0.5219794342540971
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5196999463384645
+    },
+    {
+      "latent_idx": 12415,
+      "k1_auc": 0.5186999929353161
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.517135992159704
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.516730148613894
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5158902779427038
+    },
+    {
+      "latent_idx": 3989,
+      "k1_auc": 0.5140805163532404
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.5119968103703548
+    },
+    {
+      "latent_idx": 16094,
+      "k1_auc": 0.5117807362603172
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5112103006098175
+    },
+    {
+      "latent_idx": 1382,
+      "k1_auc": 0.5112057912370862
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5110784014574292
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5106789461896553
+    },
+    {
+      "latent_idx": 7535,
+      "k1_auc": 0.5100566527527466
+    },
+    {
+      "latent_idx": 186,
+      "k1_auc": 0.5097597857146077
+    },
+    {
+      "latent_idx": 11948,
+      "k1_auc": 0.5095636280007997
+    },
+    {
+      "latent_idx": 9422,
+      "k1_auc": 0.5091277219701149
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.5084111074869117
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.508379541877793
+    },
+    {
+      "latent_idx": 6795,
+      "k1_auc": 0.5073934923738991
+    },
+    {
+      "latent_idx": 12288,
+      "k1_auc": 0.5073604236405369
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.5073604236405368
+    },
+    {
+      "latent_idx": 3115,
+      "k1_auc": 0.5072912799253247
+    },
+    {
+      "latent_idx": 12656,
+      "k1_auc": 0.5065893209034977
+    },
+    {
+      "latent_idx": 6167,
+      "k1_auc": 0.5064893631412891
+    },
+    {
+      "latent_idx": 13567,
+      "k1_auc": 0.5064859811117407
+    },
+    {
+      "latent_idx": 6800,
+      "k1_auc": 0.5056645237125366
+    },
+    {
+      "latent_idx": 11267,
+      "k1_auc": 0.5052534192318735
+    },
+    {
+      "latent_idx": 4353,
+      "k1_auc": 0.5052481582970204
+    },
+    {
+      "latent_idx": 11475,
+      "k1_auc": 0.5051812692681739
+    },
+    {
+      "latent_idx": 5749,
+      "k1_auc": 0.5048877842595836
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5046051969017602
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5043252400113636
+    },
+    {
+      "latent_idx": 15449,
+      "k1_auc": 0.503911880844335
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5034045764120725
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.5030554758064637
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5030359351912951
+    },
+    {
+      "latent_idx": 5166,
+      "k1_auc": 0.5030318015996248
+    },
+    {
+      "latent_idx": 7742,
+      "k1_auc": 0.5030145156708218
+    },
+    {
+      "latent_idx": 10993,
+      "k1_auc": 0.5029472508609145
+    },
+    {
+      "latent_idx": 4436,
+      "k1_auc": 0.5026312189886679
+    },
+    {
+      "latent_idx": 8549,
+      "k1_auc": 0.5026312189886679
+    },
+    {
+      "latent_idx": 15039,
+      "k1_auc": 0.5026041627522806
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.502004416179028
+    },
+    {
+      "latent_idx": 273,
+      "k1_auc": 0.5017421209984954
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.5017331022530329
+    },
+    {
+      "latent_idx": 14856,
+      "k1_auc": 0.5017300960045454
+    },
+    {
+      "latent_idx": 6466,
+      "k1_auc": 0.5013366532337462
+    },
+    {
+      "latent_idx": 12562,
+      "k1_auc": 0.5013032087193231
+    },
+    {
+      "latent_idx": 6873,
+      "k1_auc": 0.5008477620734697
+    },
+    {
+      "latent_idx": 2229,
+      "k1_auc": 0.5004336513443192
+    },
+    {
+      "latent_idx": 997,
+      "k1_auc": 0.5004321482200754
+    },
+    {
+      "latent_idx": 13463,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3958,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 659,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7778,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 56,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9647,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8035,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5471,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7618,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10603,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2751,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8854,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11532,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11305,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9426,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6452,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11636,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4709,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3105,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14770,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 641,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6821,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16131,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13652,
+      "k1_auc": 0.49994851799465195
+    },
+    {
+      "latent_idx": 12768,
+      "k1_auc": 0.4995821314602401
+    },
+    {
+      "latent_idx": 6115,
+      "k1_auc": 0.4995674759988637
+    },
+    {
+      "latent_idx": 16314,
+      "k1_auc": 0.4995671002178027
+    },
+    {
+      "latent_idx": 6472,
+      "k1_auc": 0.49922288476598614
+    },
+    {
+      "latent_idx": 10961,
+      "k1_auc": 0.49864493349426786
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.498174455605977
+    },
+    {
+      "latent_idx": 1104,
+      "k1_auc": 0.49782272453294174
+    },
+    {
+      "latent_idx": 8898,
+      "k1_auc": 0.49775132613136397
+    },
+    {
+      "latent_idx": 2084,
+      "k1_auc": 0.4973161716628012
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.49702945071330756
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.49433096691473233
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.49416336856155524
+    },
+    {
+      "latent_idx": 12802,
+      "k1_auc": 0.4912300215998953
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.48827262465033566
+    },
+    {
+      "latent_idx": 8052,
+      "k1_auc": 0.4856102158336101
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.48468241239416127
+    }
+  ]
+}

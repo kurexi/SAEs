@@ -1,0 +1,77 @@
+{
+  "section": "4.3",
+  "task": "dataset_quality_detection",
+  "model": "gemma-3-4b-it",
+  "datasets": [
+    {
+      "dataset": "87_glue_cola",
+      "top_latent_idx": 6858,
+      "k1_auc": 0.5925338138544402,
+      "description": "This latent fires on short-to-medium, self-contained sentences with clear subject-predicate structure, regardless of grammatical well-formedness. It responds to sentence completeness and syntactic simplicity rather than grammaticality per se, explaining its modest AUC (0.59) on the CoLA acceptability task.",
+      "n_disagreements": 10,
+      "top_disagreements": [
+        {
+          "text": "It started to rain after Jackie and me, we had finally gotten to our seats.",
+          "activation": 3970.8046875,
+          "label": 0
+        },
+        {
+          "text": "It started to rain after Jackie and me, we had finally gotten to our seats.",
+          "activation": 3970.8046875,
+          "label": 0
+        },
+        {
+          "text": "He looks so much formidable.",
+          "activation": 3763.89013671875,
+          "label": 0
+        },
+        {
+          "text": "That's the most kind answer that I ever heard.",
+          "activation": 3521.1484375,
+          "label": 0
+        },
+        {
+          "text": "Groceries are bulging in the bag.",
+          "activation": 3497.98876953125,
+          "label": 0
+        }
+      ],
+      "quality_analysis": "The top latent (6858) does NOT cleanly capture grammaticality. Its AUC of 0.59 is barely above chance. It fires strongly on complete, well-formed-sounding sentences regardless of subtle grammatical errors. All 10 label disagreements are sentences labelled ungrammatical (label=0) that the latent activates highly on. Several of these are borderline acceptable in informal English \u2014 e.g. 'That's the most kind answer that I ever heard' and 'It started to rain after Jackie and me, we had finally gotten to our seats' use colloquially common constructions. This exposes a known weakness in CoLA: its expert-annotated binary labels conflate formal grammatical violations with pragmatically acceptable informal usage. The latent essentially captures 'sounds like a natural complete sentence', which disagrees with CoLA's prescriptive labels on borderline cases, suggesting annotation noise in the dataset's treatment of informal-but-communicative constructions."
+    },
+    {
+      "dataset": "110_aimade_humangpt3",
+      "top_latent_idx": 14407,
+      "k1_auc": 0.6522957574333773,
+      "description": "This latent activates on enthusiastic, multi-clause conversational text characterised by exclamation marks, personal anecdotes, and an upbeat emotional tone. It captures a polished-yet-casual writing style with proper sentence-ending punctuation \u2014 a superficial stylistic signature of AI-generated text that also appears in genuinely enthusiastic human social media posts.",
+      "n_disagreements": 10,
+      "top_disagreements": [
+        {
+          "text": "Day 2 of migraine. My preventative meds have stopped working  time to call Dr. And up the dose!",
+          "activation": 6015.6435546875,
+          "label": 0
+        },
+        {
+          "text": "@mattchew03  awww... poor baby!! I would bring you one if it wasn't a 10 hr drive... at least I would have plenty of places to pick it up!",
+          "activation": 5807.30419921875,
+          "label": 0
+        },
+        {
+          "text": "@StarSlay3r I remember that airport well.  Glad you made it safe!",
+          "activation": 5713.021484375,
+          "label": 0
+        },
+        {
+          "text": "@Gailporter  Oh no!  Unless you just mean he dropped you off somewhere and went on to another appointment, that's horrible, i'm so sorry.",
+          "activation": 5706.896484375,
+          "label": 0
+        },
+        {
+          "text": "@XLoubyX OME I wish I were there. I'm so ill  but so happy for you hunny!",
+          "activation": 5618.11376953125,
+          "label": 0
+        }
+      ],
+      "quality_analysis": "The top latent (14407) captures a SUPERFICIAL stylistic feature rather than genuine AI authorship signal. Its AUC of 0.65 is moderate. The latent responds to enthusiastic, exclamation-heavy, multi-clause personal narratives \u2014 a style that GPT-3 frequently produces when generating casual text, but that also occurs naturally in human social media posts. All 10 disagreements are human-written tweets (label=0) with high activation, featuring @-mentions, genuine emotional reactions, and exclamation marks. The last_token_distribution further confirms a superficial confound: AI texts overwhelmingly end with proper punctuation (. ? !) while human texts frequently end with spaces or mid-word characters, indicating the model may partly rely on formatting artefacts rather than deeper stylistic differences. This reveals a dataset bias: the AI-generated samples are systematically more 'polished' in punctuation and sentence structure, creating a shortcut feature that conflates enthusiasm/formatting with AI authorship. Any classifier using this latent risks high false-positive rates on enthusiastic human writers."
+    }
+  ]
+}

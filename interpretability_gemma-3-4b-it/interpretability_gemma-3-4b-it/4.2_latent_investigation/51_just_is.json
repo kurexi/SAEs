@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "51_just_is",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:36:19.567410"
+  },
+  "best_latent": {
+    "latent_idx": 6452,
+    "k1_auc": 0.6054149507006812,
+    "examples": [
+      {
+        "text": "I deserve a cheesecake for my birthday because I bossed my parents around.",
+        "activation": 3077.41748046875
+      },
+      {
+        "text": "I used to work at the fast food restaurant but I don't anymore because I burned it down.",
+        "activation": 2251.51220703125
+      },
+      {
+        "text": "I deserve one of Mary's Pizzas because I cut her ear pff for her.",
+        "activation": 2066.6044921875
+      },
+      {
+        "text": "I usually don't take anything my friend says seriously, but I did this time because  she wanted to pull a prank",
+        "activation": 2002.20361328125
+      },
+      {
+        "text": "I normally let my son watch TV, but today I didn't because he was 150 years old.",
+        "activation": 1933.623291015625
+      },
+      {
+        "text": "I totally feel like I deserve to  have some of Jenny's fourth of July Fireworks this year, after all I smuggled them over the border from mexico for her.",
+        "activation": 1739.60546875
+      },
+      {
+        "text": "I believe I was Marie Antoinette in a past life, so I deserve to rule all of France now.",
+        "activation": 1707.41357421875
+      },
+      {
+        "text": "I deserve to go to my high school prom, because I threatened to start a riot if I went.",
+        "activation": 1666.311279296875
+      },
+      {
+        "text": "I deserve a second scoop of ice cream because I have to watch my weight.",
+        "activation": 1492.82275390625
+      },
+      {
+        "text": "I feel I deserve at least a chocolate Cake from Sam's bakery because of my incessant complaints over the past year.",
+        "activation": 1492.22021484375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 6452\n\nTop activating examples (format: [activation] text):\n  [3077.417] I deserve a cheesecake for my birthday because I bossed my parents around.\n  [2251.512] I used to work at the fast food restaurant but I don't anymore because I burned it down.\n  [2066.604] I deserve one of Mary's Pizzas because I cut her ear pff for her.\n  [2002.204] I usually don't take anything my friend says seriously, but I did this time because  she wanted to pull a prank\n  [1933.623] I normally let my son watch TV, but today I didn't because he was 150 years old.\n  [1739.605] I totally feel like I deserve to  have some of Jenny's fourth of July Fireworks this year, after all I smuggled them over the border from mexico for her.\n  [1707.414] I believe I was Marie Antoinette in a past life, so I deserve to rule all of France now.\n  [1666.311] I deserve to go to my high school prom, because I threatened to start a riot if I went.\n  [1492.823] I deserve a second scoop of ice cream because I have to watch my weight.\n  [1492.220] I feel I deserve at least a chocolate Cake from Sam's bakery because of my incessant complaints over the past year.\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 6452,
+      "k1_auc": 0.6054149507006812
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5922829376865115
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5919804179885554
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5915606877298011
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.588384610633099
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5764476137144963
+    },
+    {
+      "latent_idx": 8944,
+      "k1_auc": 0.5743123815869551
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5690948661268062
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5688408255268905
+    },
+    {
+      "latent_idx": 11532,
+      "k1_auc": 0.5679857960040059
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5674722719811571
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.564101898760454
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5620912186759206
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5616066808500727
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.55864970902415
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5547497364661041
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5525908343873001
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5502738372864261
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5483704947348915
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5456606017585128
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5433919571784
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5426379363245402
+    },
+    {
+      "latent_idx": 13547,
+      "k1_auc": 0.5396988118950239
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.539136682196855
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5375878826051427
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5365669102688603
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5365664039597423
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5365090644521381
+    },
+    {
+      "latent_idx": 14224,
+      "k1_auc": 0.5353984754019842
+    },
+    {
+      "latent_idx": 14557,
+      "k1_auc": 0.5342753552011617
+    },
+    {
+      "latent_idx": 15502,
+      "k1_auc": 0.5333376707147769
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5296641449097199
+    },
+    {
+      "latent_idx": 7786,
+      "k1_auc": 0.5292383389415506
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5286062120078295
+    },
+    {
+      "latent_idx": 1821,
+      "k1_auc": 0.5264641447071964
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5262706080468721
+    },
+    {
+      "latent_idx": 9121,
+      "k1_auc": 0.5250487575680556
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5223297510275544
+    },
+    {
+      "latent_idx": 15411,
+      "k1_auc": 0.5220595085358656
+    },
+    {
+      "latent_idx": 6886,
+      "k1_auc": 0.5180072635106057
+    },
+    {
+      "latent_idx": 2751,
+      "k1_auc": 0.5164978294528114
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.516267332226879
+    },
+    {
+      "latent_idx": 14856,
+      "k1_auc": 0.5156954560781905
+    },
+    {
+      "latent_idx": 5274,
+      "k1_auc": 0.514390824058594
+    },
+    {
+      "latent_idx": 14641,
+      "k1_auc": 0.5140781781782796
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.5138286943604252
+    },
+    {
+      "latent_idx": 526,
+      "k1_auc": 0.5128293667389339
+    },
+    {
+      "latent_idx": 9696,
+      "k1_auc": 0.51212736914694
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5120035765676089
+    },
+    {
+      "latent_idx": 9439,
+      "k1_auc": 0.5112219618668224
+    },
+    {
+      "latent_idx": 6795,
+      "k1_auc": 0.5105451531534451
+    },
+    {
+      "latent_idx": 854,
+      "k1_auc": 0.509931506502528
+    },
+    {
+      "latent_idx": 2540,
+      "k1_auc": 0.5098540412074865
+    },
+    {
+      "latent_idx": 7110,
+      "k1_auc": 0.5098269536696779
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.5088571185543052
+    },
+    {
+      "latent_idx": 12562,
+      "k1_auc": 0.5085740917573889
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.508362707700658
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.5083005582564334
+    },
+    {
+      "latent_idx": 186,
+      "k1_auc": 0.5080730988852086
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5074756541260649
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5073065468806802
+    },
+    {
+      "latent_idx": 5149,
+      "k1_auc": 0.5065703734232267
+    },
+    {
+      "latent_idx": 7556,
+      "k1_auc": 0.5065561967679251
+    },
+    {
+      "latent_idx": 15229,
+      "k1_auc": 0.506036217303823
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5060253316577876
+    },
+    {
+      "latent_idx": 14171,
+      "k1_auc": 0.505533199195171
+    },
+    {
+      "latent_idx": 10766,
+      "k1_auc": 0.5055205414672231
+    },
+    {
+      "latent_idx": 2659,
+      "k1_auc": 0.5050382820324059
+    },
+    {
+      "latent_idx": 386,
+      "k1_auc": 0.5050365099504931
+    },
+    {
+      "latent_idx": 9146,
+      "k1_auc": 0.5047786720321932
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5044405841187032
+    },
+    {
+      "latent_idx": 805,
+      "k1_auc": 0.504280337282882
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5041836322413595
+    },
+    {
+      "latent_idx": 8791,
+      "k1_auc": 0.504025916951128
+    },
+    {
+      "latent_idx": 16131,
+      "k1_auc": 0.5040241448692153
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.503769091651064
+    },
+    {
+      "latent_idx": 4043,
+      "k1_auc": 0.5037665601054744
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5036388436304795
+    },
+    {
+      "latent_idx": 13567,
+      "k1_auc": 0.5033580952245937
+    },
+    {
+      "latent_idx": 8318,
+      "k1_auc": 0.5032662001196915
+    },
+    {
+      "latent_idx": 15208,
+      "k1_auc": 0.5030431709532484
+    },
+    {
+      "latent_idx": 11267,
+      "k1_auc": 0.5025282545803255
+    },
+    {
+      "latent_idx": 5471,
+      "k1_auc": 0.5022675053845975
+    },
+    {
+      "latent_idx": 4709,
+      "k1_auc": 0.5020247301625556
+    },
+    {
+      "latent_idx": 6873,
+      "k1_auc": 0.5020120724346077
+    },
+    {
+      "latent_idx": 5490,
+      "k1_auc": 0.5018077767055276
+    },
+    {
+      "latent_idx": 15039,
+      "k1_auc": 0.5017956252866975
+    },
+    {
+      "latent_idx": 12502,
+      "k1_auc": 0.5017520827025567
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5017161347551843
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5013722242868384
+    },
+    {
+      "latent_idx": 5984,
+      "k1_auc": 0.5013210870659286
+    },
+    {
+      "latent_idx": 10603,
+      "k1_auc": 0.5010313516731997
+    },
+    {
+      "latent_idx": 8449,
+      "k1_auc": 0.5007561726676111
+    },
+    {
+      "latent_idx": 5749,
+      "k1_auc": 0.5004569439789214
+    },
+    {
+      "latent_idx": 9647,
+      "k1_auc": 0.5003032791616331
+    },
+    {
+      "latent_idx": 8035,
+      "k1_auc": 0.5000696175037137
+    },
+    {
+      "latent_idx": 10993,
+      "k1_auc": 0.5000374668747259
+    },
+    {
+      "latent_idx": 4909,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3743,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10984,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1382,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4247,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15070,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2281,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5670,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 557,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14717,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7968,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7778,
+      "k1_auc": 0.49975519954148645
+    },
+    {
+      "latent_idx": 1419,
+      "k1_auc": 0.4995152090195931
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.4994248328420448
+    },
+    {
+      "latent_idx": 56,
+      "k1_auc": 0.49857879030600316
+    },
+    {
+      "latent_idx": 4069,
+      "k1_auc": 0.4977413550249662
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.49599155071344014
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.49517196282880965
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.49366936394410743
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.4934719033881193
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.492753703904352
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.49187070080270245
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "71_social-media",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:39:38.515843"
+  },
+  "best_latent": {
+    "latent_idx": 8476,
+    "k1_auc": 0.9893248755343904,
+    "examples": [
+      {
+        "text": " Control and Prevention (\\@CDCgov), and M\u00e9decins Sans Fronti\u00e8res (\\@MSF). Because social media",
+        "activation": 3042.791259765625
+      },
+      {
+        "text": " a black man who converted to Islam two years ago, had any connection to an area mosque. Police said the social media",
+        "activation": 3006.23583984375
+      },
+      {
+        "text": "MuslimBan, #TravelBan, #NoBanNoWall, and #BanTrumpFromUK emerged on other social media",
+        "activation": 2985.006591796875
+      },
+      {
+        "text": ". Canada presently has no system for tracking individuals who leave the country each year for medical procedures and, therefore, social media",
+        "activation": 2956.9013671875
+      },
+      {
+        "text": "-American immigrants who participated in Feb. 20 rallies in more than 30 cities across the country. WeChat and social media",
+        "activation": 2946.69482421875
+      },
+      {
+        "text": " Published duration 9 June 2015image copyright Google+/TV5Monde image caption Several of the organisations' social media",
+        "activation": 2900.513916015625
+      },
+      {
+        "text": " Magazine.EventsAfter attending this webinar, you will be able to identify and recognize how social media",
+        "activation": 2896.209228515625
+      },
+      {
+        "text": " make any changes.You never know what could happen if you were to use your voice in the many social media",
+        "activation": 2892.273193359375
+      },
+      {
+        "text": " share the beauty and uniqueness of Jamaica with the world. You can do so by sharing this insightful narrative on the social media",
+        "activation": 2884.001953125
+      },
+      {
+        "text": " and products mentioned on such sites can reflect customers' interests and feedback.Some technologies have been developed to analyze social media",
+        "activation": 2872.40673828125
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 8476\n\nTop activating examples (format: [activation] text):\n  [3042.791] Control and Prevention (\\@CDCgov), and M\u00e9decins Sans Fronti\u00e8res (\\@MSF). Because social media\n  [3006.236] a black man who converted to Islam two years ago, had any connection to an area mosque. Police said the social media\n  [2985.007] MuslimBan, #TravelBan, #NoBanNoWall, and #BanTrumpFromUK emerged on other social media\n  [2956.901] . Canada presently has no system for tracking individuals who leave the country each year for medical procedures and, therefore, social media\n  [2946.695] -American immigrants who participated in Feb. 20 rallies in more than 30 cities across the country. WeChat and social media\n  [2900.514] Published duration 9 June 2015image copyright Google+/TV5Monde image caption Several of the organisations' social media\n  [2896.209] Magazine.EventsAfter attending this webinar, you will be able to identify and recognize how social media\n  [2892.273] make any changes.You never know what could happen if you were to use your voice in the many social media\n  [2884.002] share the beauty and uniqueness of Jamaica with the world. You can do so by sharing this insightful narrative on the social media\n  [2872.407] and products mentioned on such sites can reflect customers' interests and feedback.Some technologies have been developed to analyze social media\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 8476,
+      "k1_auc": 0.9893248755343904
+    },
+    {
+      "latent_idx": 7393,
+      "k1_auc": 0.9623390064397424
+    },
+    {
+      "latent_idx": 2283,
+      "k1_auc": 0.9109842591590454
+    },
+    {
+      "latent_idx": 13968,
+      "k1_auc": 0.8956974809242925
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.8258056442448184
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.8206109807078306
+    },
+    {
+      "latent_idx": 105,
+      "k1_auc": 0.8198157367822934
+    },
+    {
+      "latent_idx": 5104,
+      "k1_auc": 0.8186158950700795
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.811166137913307
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.8099557267709292
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.8038220750581742
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.8026835360409114
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.785541188646572
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.7835017114021321
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.7824963472049353
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.7824946560961091
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.7799634889604417
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.7780326654580876
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.770845452946588
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.7615629565993831
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.7597534701553114
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.7515118512906543
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.7501538909031874
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.7473145191839385
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.7390948847340224
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.7293815784133341
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.719385434141458
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.7158844160939445
+    },
+    {
+      "latent_idx": 2100,
+      "k1_auc": 0.703937577791006
+    },
+    {
+      "latent_idx": 13623,
+      "k1_auc": 0.7001807795335245
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.6917894975377457
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.6914631135342821
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.6491008374370907
+    },
+    {
+      "latent_idx": 11495,
+      "k1_auc": 0.6415441176470589
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.6049180826884573
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5913359421505493
+    },
+    {
+      "latent_idx": 5984,
+      "k1_auc": 0.5869031231397802
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5834270489474539
+    },
+    {
+      "latent_idx": 5709,
+      "k1_auc": 0.5809280128794848
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5756940310622869
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5726255140970832
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5676257508523188
+    },
+    {
+      "latent_idx": 15383,
+      "k1_auc": 0.5673602467665999
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5644532306943016
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5636330429135776
+    },
+    {
+      "latent_idx": 9102,
+      "k1_auc": 0.5630009909897721
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5604529127658424
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5593274798419828
+    },
+    {
+      "latent_idx": 8443,
+      "k1_auc": 0.5565257352941176
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5533088235294117
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5516743668488554
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5516050313869798
+    },
+    {
+      "latent_idx": 10773,
+      "k1_auc": 0.5515986897288814
+    },
+    {
+      "latent_idx": 3412,
+      "k1_auc": 0.5506757670869636
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5491199469668272
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5487140808485307
+    },
+    {
+      "latent_idx": 9738,
+      "k1_auc": 0.5480203034525678
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.547328217165431
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5461596609665025
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5419767032848097
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5408876292007143
+    },
+    {
+      "latent_idx": 8791,
+      "k1_auc": 0.5408407009307864
+    },
+    {
+      "latent_idx": 7213,
+      "k1_auc": 0.5386215433735592
+    },
+    {
+      "latent_idx": 8586,
+      "k1_auc": 0.5372289152551546
+    },
+    {
+      "latent_idx": 8657,
+      "k1_auc": 0.5367647058823529
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.5366218071865361
+    },
+    {
+      "latent_idx": 8244,
+      "k1_auc": 0.5353860294117647
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5336792778288869
+    },
+    {
+      "latent_idx": 7452,
+      "k1_auc": 0.533578656853726
+    },
+    {
+      "latent_idx": 15211,
+      "k1_auc": 0.5335769657448998
+    },
+    {
+      "latent_idx": 9728,
+      "k1_auc": 0.5335477941176471
+    },
+    {
+      "latent_idx": 2289,
+      "k1_auc": 0.5330882352941176
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5303232723632231
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5294616524162563
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5288917487418151
+    },
+    {
+      "latent_idx": 9453,
+      "k1_auc": 0.5275946682720927
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5271177755830944
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5262827906001407
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.526209650143406
+    },
+    {
+      "latent_idx": 931,
+      "k1_auc": 0.5261948529411765
+    },
+    {
+      "latent_idx": 1888,
+      "k1_auc": 0.5252896869419341
+    },
+    {
+      "latent_idx": 12415,
+      "k1_auc": 0.5250723794577628
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5246293089452891
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5244111559067048
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5243671870772227
+    },
+    {
+      "latent_idx": 6699,
+      "k1_auc": 0.5234375
+    },
+    {
+      "latent_idx": 4039,
+      "k1_auc": 0.5225183823529411
+    },
+    {
+      "latent_idx": 9649,
+      "k1_auc": 0.5220638968558904
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5215992647058824
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5211946669192057
+    },
+    {
+      "latent_idx": 13781,
+      "k1_auc": 0.5202205882352942
+    },
+    {
+      "latent_idx": 13854,
+      "k1_auc": 0.519765679961037
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5194350681855079
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5193048528058878
+    },
+    {
+      "latent_idx": 471,
+      "k1_auc": 0.5193014705882353
+    },
+    {
+      "latent_idx": 4696,
+      "k1_auc": 0.5193014705882353
+    },
+    {
+      "latent_idx": 8786,
+      "k1_auc": 0.5188419117647058
+    },
+    {
+      "latent_idx": 13247,
+      "k1_auc": 0.5188419117647058
+    },
+    {
+      "latent_idx": 1586,
+      "k1_auc": 0.5188279601168894
+    },
+    {
+      "latent_idx": 10701,
+      "k1_auc": 0.5174632352941176
+    },
+    {
+      "latent_idx": 2429,
+      "k1_auc": 0.5174632352941176
+    },
+    {
+      "latent_idx": 8990,
+      "k1_auc": 0.5170036764705882
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5167453595973808
+    },
+    {
+      "latent_idx": 15938,
+      "k1_auc": 0.5165441176470589
+    },
+    {
+      "latent_idx": 1870,
+      "k1_auc": 0.5151633272904378
+    },
+    {
+      "latent_idx": 11596,
+      "k1_auc": 0.5151531806374804
+    },
+    {
+      "latent_idx": 12035,
+      "k1_auc": 0.5133272058823529
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5128676470588235
+    },
+    {
+      "latent_idx": 13572,
+      "k1_auc": 0.5128676470588235
+    },
+    {
+      "latent_idx": 12321,
+      "k1_auc": 0.5119586760647222
+    },
+    {
+      "latent_idx": 7769,
+      "k1_auc": 0.5119485294117647
+    },
+    {
+      "latent_idx": 7338,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 11537,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 9092,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 6434,
+      "k1_auc": 0.510462890307917
+    },
+    {
+      "latent_idx": 7258,
+      "k1_auc": 0.5096507352941176
+    },
+    {
+      "latent_idx": 1170,
+      "k1_auc": 0.5091911764705882
+    },
+    {
+      "latent_idx": 12631,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 1027,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 10605,
+      "k1_auc": 0.5083963553222577
+    },
+    {
+      "latent_idx": 9833,
+      "k1_auc": 0.5082720588235294
+    },
+    {
+      "latent_idx": 14268,
+      "k1_auc": 0.5082720588235294
+    },
+    {
+      "latent_idx": 2561,
+      "k1_auc": 0.5068933823529411
+    },
+    {
+      "latent_idx": 9940,
+      "k1_auc": 0.5068933823529411
+    },
+    {
+      "latent_idx": 9455,
+      "k1_auc": 0.5064338235294118
+    },
+    {
+      "latent_idx": 4893,
+      "k1_auc": 0.5064338235294118
+    },
+    {
+      "latent_idx": 4148,
+      "k1_auc": 0.5059742647058824
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.4835142256074464
+    }
+  ]
+}

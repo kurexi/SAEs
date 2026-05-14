@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "152_it_tick_Hardware",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:51:17.874827"
+  },
+  "best_latent": {
+    "latent_idx": 10225,
+    "k1_auc": 0.6145756366681444,
+    "examples": [
+      {
+        "text": "new purchase po thursday november purchase po dear purchased pro mini adapter thunderbolt cable apple thunderbolt cable adapter thunderbolt gigabit please log installation please take consideration mandatory receipts section order receive item ordered kind regards administrator",
+        "activation": 2620.65869140625
+      },
+      {
+        "text": "new purchase po purchase po dear purchased fond alb fond alb fond alb fond please log allocation after receive item please take consideration mandatory receipts section order make receipt item ordered how video link kind regards administrator",
+        "activation": 2571.50244140625
+      },
+      {
+        "text": "new purchase po purchase po dear purchased please log allocation please log retrieve old device after receive item please take consideration mandatory receipts section order receive item ordered how video link please receipt number item needed processed kind regards administrator",
+        "activation": 2535.461181640625
+      },
+      {
+        "text": "new purchase po purchase po dear purchased matte display please log allocation after receive item please take consideration mandatory receipts section order make receipt item ordered how video link kind regards administrator",
+        "activation": 2532.42236328125
+      },
+      {
+        "text": "new purchase po purchase po dear purchased please log allocation after receive item please take consideration mandatory receipts section order receive item ordered find instructions bottom how important goods kind regards administrator",
+        "activation": 2529.21630859375
+      },
+      {
+        "text": "new purchase po purchase po dear purchased adaptor please log allocation after receive item please take consideration mandatory receipts section order receive item ordered how video link kind regards administrator",
+        "activation": 2525.00244140625
+      },
+      {
+        "text": "new purchase po purchase po dear purchased iii please log allocation after receive item please take consideration mandatory receipts section order receive item ordered how video link kind regards administrator",
+        "activation": 2515.614990234375
+      },
+      {
+        "text": "new purchase po re purchase po hello please log tickets each user thank engineer purchase po dear purchased please log allocation please take consideration mandatory receipts section order receive item ordered how video please explorer kind regards administrator",
+        "activation": 2491.603515625
+      },
+      {
+        "text": "new purchase po thursday purchase po dear purchased catalyst base stack catalyst plus stacking module optional con catalyst please log installation please take consideration mandatory receipts section order receive item ordered how video kind regards administrator",
+        "activation": 2447.77978515625
+      },
+      {
+        "text": "new purchase po purchase po dear purchased adaptor premium hub please log allocation after receive item please take consideration mandatory receipts section order receive item ordered how video link kind regards administrator",
+        "activation": 2445.854248046875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 10225\n\nTop activating examples (format: [activation] text):\n  [2620.659] new purchase po thursday november purchase po dear purchased pro mini adapter thunderbolt cable apple thunderbolt cable adapter thunderbolt gigabit please log installation please take consideration mandatory receipts section order receive item ordered kind regards administrator\n  [2571.502] new purchase po purchase po dear purchased fond alb fond alb fond alb fond please log allocation after receive item please take consideration mandatory receipts section order make receipt item ordered how video link kind regards administrator\n  [2535.461] new purchase po purchase po dear purchased please log allocation please log retrieve old device after receive item please take consideration mandatory receipts section order receive item ordered how video link please receipt number item needed processed kind regards administrator\n  [2532.422] new purchase po purchase po dear purchased matte display please log allocation after receive item please take consideration mandatory receipts section order make receipt item ordered how video link kind regards administrator\n  [2529.216] new purchase po purchase po dear purchased please log allocation after receive item please take consideration mandatory receipts section order receive item ordered find instructions bottom how important goods kind regards administrator\n  [2525.002] new purchase po purchase po dear purchased adaptor please log allocation after receive item please take consideration mandatory receipts section order receive item ordered how video link kind regards administrator\n  [2515.615] new purchase po purchase po dear purchased iii please log allocation after receive item please take consideration mandatory receipts section order receive item ordered how video link kind regards administrator\n  [2491.604] new purchase po re purchase po hello please log tickets each user thank engineer purchase po dear purchased please log allocation please take consideration mandatory receipts section order receive item ordered how video please explorer kind regards administrator\n  [2447.780] new purchase po thursday purchase po dear purchased catalyst base stack catalyst plus stacking module optional con catalyst please log installation please take consideration mandatory receipts section order receive item ordered how video kind regards administrator\n  [2445.854] new purchase po purchase po dear purchased adaptor premium hub please log allocation after receive item please take consideration mandatory receipts section order receive item ordered how video link kind regards administrator\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 10225,
+      "k1_auc": 0.6145756366681444
+    },
+    {
+      "latent_idx": 532,
+      "k1_auc": 0.5790601448204522
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5602556524309148
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.554086005615487
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5520664006699177
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5485197773508694
+    },
+    {
+      "latent_idx": 14531,
+      "k1_auc": 0.5484335747007536
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5477562681641299
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5437416876015959
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5425102211713708
+    },
+    {
+      "latent_idx": 3447,
+      "k1_auc": 0.5422146692281168
+    },
+    {
+      "latent_idx": 12076,
+      "k1_auc": 0.5409093148120783
+    },
+    {
+      "latent_idx": 10605,
+      "k1_auc": 0.5385572139303483
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.537411950150239
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5359465050982709
+    },
+    {
+      "latent_idx": 8790,
+      "k1_auc": 0.5347519826609527
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5338160681739816
+    },
+    {
+      "latent_idx": 12657,
+      "k1_auc": 0.5326338604009655
+    },
+    {
+      "latent_idx": 12447,
+      "k1_auc": 0.5324245111078272
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5307127727698143
+    },
+    {
+      "latent_idx": 7065,
+      "k1_auc": 0.5305157381409782
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5279666026304123
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5272892960937885
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.527067632136348
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5266735628786758
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5262548642923994
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5261809763065859
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5254913551056598
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5250480271907788
+    },
+    {
+      "latent_idx": 11767,
+      "k1_auc": 0.5248756218905473
+    },
+    {
+      "latent_idx": 3378,
+      "k1_auc": 0.5240135953893897
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5235702674745086
+    },
+    {
+      "latent_idx": 2411,
+      "k1_auc": 0.5223880597014926
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5223880597014925
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5219939904438206
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5219324171223092
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.521378257228708
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5209226146495247
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5207871533421999
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5207625240135954
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5207378946849909
+    },
+    {
+      "latent_idx": 13048,
+      "k1_auc": 0.5199004975124378
+    },
+    {
+      "latent_idx": 6319,
+      "k1_auc": 0.519765036205113
+    },
+    {
+      "latent_idx": 6780,
+      "k1_auc": 0.5193832816117433
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5189399536968622
+    },
+    {
+      "latent_idx": 9918,
+      "k1_auc": 0.5175360819664057
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5174745086448944
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5174375646519875
+    },
+    {
+      "latent_idx": 8856,
+      "k1_auc": 0.5174129353233831
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5173390473375696
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5171050687158268
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5170311807300134
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5167602581153637
+    },
+    {
+      "latent_idx": 15204,
+      "k1_auc": 0.5149500024629329
+    },
+    {
+      "latent_idx": 1382,
+      "k1_auc": 0.5149007438057238
+    },
+    {
+      "latent_idx": 14485,
+      "k1_auc": 0.5146051918624699
+    },
+    {
+      "latent_idx": 8009,
+      "k1_auc": 0.5144574158908428
+    },
+    {
+      "latent_idx": 741,
+      "k1_auc": 0.5124747549381803
+    },
+    {
+      "latent_idx": 2639,
+      "k1_auc": 0.5124378109452736
+    },
+    {
+      "latent_idx": 3246,
+      "k1_auc": 0.5124378109452736
+    },
+    {
+      "latent_idx": 6137,
+      "k1_auc": 0.5123762376237624
+    },
+    {
+      "latent_idx": 497,
+      "k1_auc": 0.5123023496379489
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5122530909807399
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5113171764937688
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.510196542042264
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5100610807349392
+    },
+    {
+      "latent_idx": 8549,
+      "k1_auc": 0.5099502487562189
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5099009900990099
+    },
+    {
+      "latent_idx": 14975,
+      "k1_auc": 0.5099009900990099
+    },
+    {
+      "latent_idx": 13568,
+      "k1_auc": 0.5097778434559874
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5079306438106497
+    },
+    {
+      "latent_idx": 11314,
+      "k1_auc": 0.5074626865671642
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.507401113245653
+    },
+    {
+      "latent_idx": 5073,
+      "k1_auc": 0.507401113245653
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5073641692527461
+    },
+    {
+      "latent_idx": 10939,
+      "k1_auc": 0.5072287079454214
+    },
+    {
+      "latent_idx": 3062,
+      "k1_auc": 0.505147529678341
+    },
+    {
+      "latent_idx": 4969,
+      "k1_auc": 0.504950495049505
+    },
+    {
+      "latent_idx": 4696,
+      "k1_auc": 0.504950495049505
+    },
+    {
+      "latent_idx": 16185,
+      "k1_auc": 0.504950495049505
+    },
+    {
+      "latent_idx": 15539,
+      "k1_auc": 0.5049258657209005
+    },
+    {
+      "latent_idx": 3264,
+      "k1_auc": 0.5048519777350869
+    },
+    {
+      "latent_idx": 6018,
+      "k1_auc": 0.5042608738485789
+    },
+    {
+      "latent_idx": 7699,
+      "k1_auc": 0.504162356534161
+    },
+    {
+      "latent_idx": 2034,
+      "k1_auc": 0.5024752475247525
+    },
+    {
+      "latent_idx": 7644,
+      "k1_auc": 0.5024752475247525
+    },
+    {
+      "latent_idx": 10059,
+      "k1_auc": 0.5024752475247525
+    },
+    {
+      "latent_idx": 4191,
+      "k1_auc": 0.502450618196148
+    },
+    {
+      "latent_idx": 13934,
+      "k1_auc": 0.5024383035318457
+    },
+    {
+      "latent_idx": 1395,
+      "k1_auc": 0.5024383035318457
+    },
+    {
+      "latent_idx": 16131,
+      "k1_auc": 0.5024383035318457
+    },
+    {
+      "latent_idx": 14259,
+      "k1_auc": 0.5024136742032412
+    },
+    {
+      "latent_idx": 7247,
+      "k1_auc": 0.5024013595389389
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5022412689030097
+    },
+    {
+      "latent_idx": 14061,
+      "k1_auc": 0.5022166395744052
+    },
+    {
+      "latent_idx": 2759,
+      "k1_auc": 0.5021920102458006
+    },
+    {
+      "latent_idx": 14856,
+      "k1_auc": 0.5019580316240579
+    },
+    {
+      "latent_idx": 9272,
+      "k1_auc": 0.5009112851583666
+    },
+    {
+      "latent_idx": 11267,
+      "k1_auc": 0.5000738879858135
+    },
+    {
+      "latent_idx": 10926,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1022,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9439,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3405,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8075,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7846,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3122,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11299,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5321,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14022,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 525,
+      "k1_auc": 0.49997537067139547
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.49987685335697746
+    },
+    {
+      "latent_idx": 6628,
+      "k1_auc": 0.49864538692675237
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.4976725284468746
+    },
+    {
+      "latent_idx": 6787,
+      "k1_auc": 0.4975124378109453
+    },
+    {
+      "latent_idx": 7857,
+      "k1_auc": 0.4975124378109453
+    },
+    {
+      "latent_idx": 12288,
+      "k1_auc": 0.49746317915373633
+    },
+    {
+      "latent_idx": 13688,
+      "k1_auc": 0.49504950495049505
+    },
+    {
+      "latent_idx": 279,
+      "k1_auc": 0.495049504950495
+    },
+    {
+      "latent_idx": 3553,
+      "k1_auc": 0.49502487562189057
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.4949756169646815
+    },
+    {
+      "latent_idx": 7183,
+      "k1_auc": 0.4927959213831831
+    },
+    {
+      "latent_idx": 7210,
+      "k1_auc": 0.49257425742574257
+    },
+    {
+      "latent_idx": 10973,
+      "k1_auc": 0.4925373134328358
+    },
+    {
+      "latent_idx": 1419,
+      "k1_auc": 0.4908378897591251
+    },
+    {
+      "latent_idx": 10104,
+      "k1_auc": 0.4901728978868036
+    },
+    {
+      "latent_idx": 7571,
+      "k1_auc": 0.48514851485148514
+    }
+  ]
+}

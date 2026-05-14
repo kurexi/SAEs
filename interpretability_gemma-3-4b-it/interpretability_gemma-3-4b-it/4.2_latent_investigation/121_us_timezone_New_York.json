@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "121_us_timezone_New_York",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:46:32.728966"
+  },
+  "best_latent": {
+    "latent_idx": 4261,
+    "k1_auc": 0.6371142419518969,
+    "examples": [
+      {
+        "text": "Swissvale",
+        "activation": 3409.8251953125
+      },
+      {
+        "text": "Tatamy",
+        "activation": 3405.7626953125
+      },
+      {
+        "text": "Linglestown",
+        "activation": 3349.28466796875
+      },
+      {
+        "text": "Breinigsville",
+        "activation": 3278.58935546875
+      },
+      {
+        "text": "Terre Hill",
+        "activation": 3168.208251953125
+      },
+      {
+        "text": "Terre Hill",
+        "activation": 3168.208251953125
+      },
+      {
+        "text": "Lehighton",
+        "activation": 3092.0458984375
+      },
+      {
+        "text": "Sheppton",
+        "activation": 3057.51513671875
+      },
+      {
+        "text": "Kutztown",
+        "activation": 3035.851806640625
+      },
+      {
+        "text": "Macungie",
+        "activation": 2924.296875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 4261\n\nTop activating examples (format: [activation] text):\n  [3409.825] Swissvale\n  [3405.763] Tatamy\n  [3349.285] Linglestown\n  [3278.589] Breinigsville\n  [3168.208] Terre Hill\n  [3168.208] Terre Hill\n  [3092.046] Lehighton\n  [3057.515] Sheppton\n  [3035.852] Kutztown\n  [2924.297] Macungie\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 4261,
+      "k1_auc": 0.6371142419518969
+    },
+    {
+      "latent_idx": 8380,
+      "k1_auc": 0.6268140830716645
+    },
+    {
+      "latent_idx": 9401,
+      "k1_auc": 0.6089622279908791
+    },
+    {
+      "latent_idx": 3310,
+      "k1_auc": 0.5784435449080914
+    },
+    {
+      "latent_idx": 3307,
+      "k1_auc": 0.5760175023786942
+    },
+    {
+      "latent_idx": 10326,
+      "k1_auc": 0.5739657377859881
+    },
+    {
+      "latent_idx": 12356,
+      "k1_auc": 0.5729721726608756
+    },
+    {
+      "latent_idx": 11522,
+      "k1_auc": 0.5654497873830757
+    },
+    {
+      "latent_idx": 8981,
+      "k1_auc": 0.5524507689232069
+    },
+    {
+      "latent_idx": 14619,
+      "k1_auc": 0.5472860340217142
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5458178574166406
+    },
+    {
+      "latent_idx": 12885,
+      "k1_auc": 0.5454890489883222
+    },
+    {
+      "latent_idx": 306,
+      "k1_auc": 0.5437232537829879
+    },
+    {
+      "latent_idx": 4423,
+      "k1_auc": 0.5378659543861917
+    },
+    {
+      "latent_idx": 1302,
+      "k1_auc": 0.5368280470958888
+    },
+    {
+      "latent_idx": 16222,
+      "k1_auc": 0.5331311130184088
+    },
+    {
+      "latent_idx": 10248,
+      "k1_auc": 0.5306054885078637
+    },
+    {
+      "latent_idx": 5759,
+      "k1_auc": 0.5301481629567056
+    },
+    {
+      "latent_idx": 15701,
+      "k1_auc": 0.5288344323676762
+    },
+    {
+      "latent_idx": 15324,
+      "k1_auc": 0.5283226185626825
+    },
+    {
+      "latent_idx": 15884,
+      "k1_auc": 0.5282098842444021
+    },
+    {
+      "latent_idx": 10059,
+      "k1_auc": 0.5243363330682824
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5226133769038949
+    },
+    {
+      "latent_idx": 10025,
+      "k1_auc": 0.5223879082673337
+    },
+    {
+      "latent_idx": 11661,
+      "k1_auc": 0.5217539656175361
+    },
+    {
+      "latent_idx": 11170,
+      "k1_auc": 0.5208663707516071
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5208291684265748
+    },
+    {
+      "latent_idx": 2691,
+      "k1_auc": 0.5203665819405635
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5199194024780507
+    },
+    {
+      "latent_idx": 1782,
+      "k1_auc": 0.5197198627346941
+    },
+    {
+      "latent_idx": 4707,
+      "k1_auc": 0.5194605738026488
+    },
+    {
+      "latent_idx": 15408,
+      "k1_auc": 0.5190603669727528
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5177109371829347
+    },
+    {
+      "latent_idx": 6123,
+      "k1_auc": 0.51667227833051
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.516648979904732
+    },
+    {
+      "latent_idx": 15917,
+      "k1_auc": 0.5164870182674689
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5162517793233237
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5157414686425736
+    },
+    {
+      "latent_idx": 4711,
+      "k1_auc": 0.5157407170804518
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5149959190176783
+    },
+    {
+      "latent_idx": 6920,
+      "k1_auc": 0.5149339151426239
+    },
+    {
+      "latent_idx": 6221,
+      "k1_auc": 0.5149267753024661
+    },
+    {
+      "latent_idx": 6071,
+      "k1_auc": 0.5148110347356981
+    },
+    {
+      "latent_idx": 2107,
+      "k1_auc": 0.5143920388527555
+    },
+    {
+      "latent_idx": 5368,
+      "k1_auc": 0.51391968205916
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5138674484916901
+    },
+    {
+      "latent_idx": 5141,
+      "k1_auc": 0.513258307391914
+    },
+    {
+      "latent_idx": 3024,
+      "k1_auc": 0.5130065340810875
+    },
+    {
+      "latent_idx": 12435,
+      "k1_auc": 0.5121880829303708
+    },
+    {
+      "latent_idx": 4567,
+      "k1_auc": 0.5120644509613231
+    },
+    {
+      "latent_idx": 4309,
+      "k1_auc": 0.5120633236181403
+    },
+    {
+      "latent_idx": 7468,
+      "k1_auc": 0.5119817791279173
+    },
+    {
+      "latent_idx": 10855,
+      "k1_auc": 0.5117472917458937
+    },
+    {
+      "latent_idx": 3134,
+      "k1_auc": 0.5100701808709402
+    },
+    {
+      "latent_idx": 10314,
+      "k1_auc": 0.5099882605996564
+    },
+    {
+      "latent_idx": 15644,
+      "k1_auc": 0.508245012257978
+    },
+    {
+      "latent_idx": 13195,
+      "k1_auc": 0.5079289803857318
+    },
+    {
+      "latent_idx": 9899,
+      "k1_auc": 0.5078628429190072
+    },
+    {
+      "latent_idx": 2593,
+      "k1_auc": 0.5078455569902042
+    },
+    {
+      "latent_idx": 14951,
+      "k1_auc": 0.5074457259413692
+    },
+    {
+      "latent_idx": 14686,
+      "k1_auc": 0.5069459371303253
+    },
+    {
+      "latent_idx": 13866,
+      "k1_auc": 0.5065107826617624
+    },
+    {
+      "latent_idx": 904,
+      "k1_auc": 0.506072621944712
+    },
+    {
+      "latent_idx": 9758,
+      "k1_auc": 0.5056288245117476
+    },
+    {
+      "latent_idx": 410,
+      "k1_auc": 0.5052917489000889
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5052601832909703
+    },
+    {
+      "latent_idx": 7770,
+      "k1_auc": 0.5043553024962384
+    },
+    {
+      "latent_idx": 5304,
+      "k1_auc": 0.5043410228159229
+    },
+    {
+      "latent_idx": 11804,
+      "k1_auc": 0.5041478713506022
+    },
+    {
+      "latent_idx": 11734,
+      "k1_auc": 0.5036807754918599
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5035590224281168
+    },
+    {
+      "latent_idx": 4826,
+      "k1_auc": 0.5034669560681877
+    },
+    {
+      "latent_idx": 212,
+      "k1_auc": 0.503152803101246
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5029010297904194
+    },
+    {
+      "latent_idx": 7618,
+      "k1_auc": 0.5026432439826178
+    },
+    {
+      "latent_idx": 16110,
+      "k1_auc": 0.5026176908704743
+    },
+    {
+      "latent_idx": 10658,
+      "k1_auc": 0.5017533944303234
+    },
+    {
+      "latent_idx": 4173,
+      "k1_auc": 0.5017143131999863
+    },
+    {
+      "latent_idx": 1982,
+      "k1_auc": 0.5015700132725871
+    },
+    {
+      "latent_idx": 1428,
+      "k1_auc": 0.5008951104871475
+    },
+    {
+      "latent_idx": 3816,
+      "k1_auc": 0.5006207903126649
+    },
+    {
+      "latent_idx": 15103,
+      "k1_auc": 0.5004272630662833
+    },
+    {
+      "latent_idx": 2424,
+      "k1_auc": 0.5004212505693083
+    },
+    {
+      "latent_idx": 6302,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10509,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13064,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10698,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2301,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13093,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12450,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12796,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13474,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 100,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4667,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5837,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11704,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4664,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1559,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14348,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13499,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11928,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3025,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7593,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4254,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16196,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11242,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6192,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13995,
+      "k1_auc": 0.49996617970451585
+    },
+    {
+      "latent_idx": 7269,
+      "k1_auc": 0.4995678517799246
+    },
+    {
+      "latent_idx": 10215,
+      "k1_auc": 0.499379961249457
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.499136455121971
+    },
+    {
+      "latent_idx": 812,
+      "k1_auc": 0.49830522741518246
+    },
+    {
+      "latent_idx": 11664,
+      "k1_auc": 0.498249611818164
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.49640753305746
+    },
+    {
+      "latent_idx": 10327,
+      "k1_auc": 0.49632937059678545
+    },
+    {
+      "latent_idx": 8931,
+      "k1_auc": 0.4961557597466334
+    },
+    {
+      "latent_idx": 11395,
+      "k1_auc": 0.4956401881310304
+    },
+    {
+      "latent_idx": 12823,
+      "k1_auc": 0.49266099587993645
+    },
+    {
+      "latent_idx": 5677,
+      "k1_auc": 0.4914784128811735
+    },
+    {
+      "latent_idx": 6611,
+      "k1_auc": 0.47506993285543997
+    }
+  ]
+}

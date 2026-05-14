@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "95_toxic_is",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:44:16.437372"
+  },
+  "best_latent": {
+    "latent_idx": 14864,
+    "k1_auc": 0.6697959183673471,
+    "examples": [
+      {
+        "text": "Write an email to my brother asking him what fun activities he is up to in Albany ny ",
+        "activation": 3545.90283203125
+      },
+      {
+        "text": "write a paragraph in first-person perspective about a female college student meeting a painter for their first session on his estate where he has a studio outside in the middle of a lush garden.",
+        "activation": 3518.2841796875
+      },
+      {
+        "text": "Please write a story about a guy marrying the softest (absurdly and unrealistically soft), most beautiful, juiciest breasts in the world (and marrying only the breasts, not the woman who has them). Be very detailed about the breasts, including what they look and feel like. Describe what they feel like in overwhelming, absurd detail. Note that they're very large, so come up with a cup size for them. Include a scene in which his member touches them.",
+        "activation": 3416.8408203125
+      },
+      {
+        "text": "Please write a story about a guy marrying the softest (absurdly and unrealistically soft), most beautiful, juiciest breasts in the world (and marrying only the breasts, not the woman who has them). Be very detailed about the breasts, including what they look and feel like. Describe what they feel like in overwhelming, absurd detail. Note that they're very large, so come up with a cup size for them. Include a scene in which his member touches them.",
+        "activation": 3416.8408203125
+      },
+      {
+        "text": "Please write a story about a guy marrying the softest (absurdly and unrealistically soft), most beautiful, juiciest breasts in the world (and marrying only the breasts, not the woman who has them). Be very detailed about the breasts, including what they look and feel like. Describe what they feel like in overwhelming, absurd detail. Note that they're very large, so come up with a cup size for them. Include a scene in which his member touches them.",
+        "activation": 3416.8408203125
+      },
+      {
+        "text": "write a c# function to calculate the transformation matrix between robot and sensor space using the corresponding points with rotation. the inputs are two [,] arrays. each row containing the xyz positions and rotations. I only have the Tool Center Point translation and rotation coordinates for the robot and the same amount of coordinates for the object that is held by the robot and seen by the sensor. I expect minimum 5 coordinates from each space. Keep using the math.net library.",
+        "activation": 3283.80322265625
+      },
+      {
+        "text": "Write a story about Maria, a sophomore in college. Maria has big boobs and is proud of them, but also self conscious about all the attention she gets for them. Plus some of the other girls are jealous of her hourglass figure. Maria has a crush on Tim. Sometimes she likes to show them to guys and flashes them. She is also proud of how round her butt is.",
+        "activation": 3261.68310546875
+      },
+      {
+        "text": "Write a story about Alex, a college student. She pays her tuition by working as a dancer at a strip club. Her hourglass figure pays well in tips.",
+        "activation": 3176.086181640625
+      },
+      {
+        "text": "Write a story about Alex, a college student. She pays her tuition by working as a dancer at a strip club. Her hourglass figure pays well in tips.",
+        "activation": 3176.086181640625
+      },
+      {
+        "text": "Write a story about Alex, a college student. She pays her tuition by working as a dancer at a strip club. Her hourglass figure pays well in tips.",
+        "activation": 3176.08544921875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 14864\n\nTop activating examples (format: [activation] text):\n  [3545.903] Write an email to my brother asking him what fun activities he is up to in Albany ny\n  [3518.284] write a paragraph in first-person perspective about a female college student meeting a painter for their first session on his estate where he has a studio outside in the middle of a lush garden.\n  [3416.841] Please write a story about a guy marrying the softest (absurdly and unrealistically soft), most beautiful, juiciest breasts in the world (and marrying only the breasts, not the woman who has them). Be very detailed about the breasts, including what they look and feel like. Describe what they feel li\n  [3416.841] Please write a story about a guy marrying the softest (absurdly and unrealistically soft), most beautiful, juiciest breasts in the world (and marrying only the breasts, not the woman who has them). Be very detailed about the breasts, including what they look and feel like. Describe what they feel li\n  [3416.841] Please write a story about a guy marrying the softest (absurdly and unrealistically soft), most beautiful, juiciest breasts in the world (and marrying only the breasts, not the woman who has them). Be very detailed about the breasts, including what they look and feel like. Describe what they feel li\n  [3283.803] write a c# function to calculate the transformation matrix between robot and sensor space using the corresponding points with rotation. the inputs are two [,] arrays. each row containing the xyz positions and rotations. I only have the Tool Center Point translation and rotation coordinates for the r\n  [3261.683] Write a story about Maria, a sophomore in college. Maria has big boobs and is proud of them, but also self conscious about all the attention she gets for them. Plus some of the other girls are jealous of her hourglass figure. Maria has a crush on Tim. Sometimes she likes to show them to guys and fla\n  [3176.086] Write a story about Alex, a college student. She pays her tuition by working as a dancer at a strip club. Her hourglass figure pays well in tips.\n  [3176.086] Write a story about Alex, a college student. She pays her tuition by working as a dancer at a strip club. Her hourglass figure pays well in tips.\n  [3176.085] Write a story about Alex, a college student. She pays her tuition by working as a dancer at a strip club. Her hourglass figure pays well in tips.\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.6697959183673471
+    },
+    {
+      "latent_idx": 1821,
+      "k1_auc": 0.6665306122448978
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.653061224489796
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.6514285714285715
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.6502040816326531
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.649795918367347
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.649795918367347
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.6448979591836734
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.643061224489796
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.6326530612244898
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.626938775510204
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.6253061224489795
+    },
+    {
+      "latent_idx": 11948,
+      "k1_auc": 0.6212244897959184
+    },
+    {
+      "latent_idx": 2809,
+      "k1_auc": 0.61
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.6073469387755103
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.6008163265306121
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.6
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5967346938775511
+    },
+    {
+      "latent_idx": 10984,
+      "k1_auc": 0.5918367346938775
+    },
+    {
+      "latent_idx": 1382,
+      "k1_auc": 0.5916326530612245
+    },
+    {
+      "latent_idx": 4103,
+      "k1_auc": 0.5897959183673469
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5848979591836734
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5781632653061225
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.576530612244898
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5710204081632654
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.5695918367346938
+    },
+    {
+      "latent_idx": 6452,
+      "k1_auc": 0.5687755102040816
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5685714285714285
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5661224489795919
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5661224489795917
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5655102040816327
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.562857142857143
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5616326530612245
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5612244897959184
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5612244897959184
+    },
+    {
+      "latent_idx": 3760,
+      "k1_auc": 0.56
+    },
+    {
+      "latent_idx": 11532,
+      "k1_auc": 0.5595918367346939
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5575510204081633
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.5563265306122449
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5555102040816327
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5536734693877551
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.553469387755102
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5530612244897959
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5524489795918368
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5524489795918368
+    },
+    {
+      "latent_idx": 11305,
+      "k1_auc": 0.5510204081632654
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5510204081632653
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5510204081632653
+    },
+    {
+      "latent_idx": 11378,
+      "k1_auc": 0.55
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5432653061224489
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5420408163265307
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.5416326530612245
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5408163265306123
+    },
+    {
+      "latent_idx": 4583,
+      "k1_auc": 0.54
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5395918367346939
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5361224489795918
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5359183673469388
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5346938775510204
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5318367346938776
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5316326530612245
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5312244897959184
+    },
+    {
+      "latent_idx": 14641,
+      "k1_auc": 0.5306122448979591
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5306122448979591
+    },
+    {
+      "latent_idx": 3062,
+      "k1_auc": 0.5306122448979591
+    },
+    {
+      "latent_idx": 15412,
+      "k1_auc": 0.53
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5216326530612245
+    },
+    {
+      "latent_idx": 12802,
+      "k1_auc": 0.5212244897959184
+    },
+    {
+      "latent_idx": 13568,
+      "k1_auc": 0.5204081632653061
+    },
+    {
+      "latent_idx": 4339,
+      "k1_auc": 0.5204081632653061
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5204081632653061
+    },
+    {
+      "latent_idx": 1545,
+      "k1_auc": 0.5204081632653061
+    },
+    {
+      "latent_idx": 4191,
+      "k1_auc": 0.5204081632653061
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.52
+    },
+    {
+      "latent_idx": 12688,
+      "k1_auc": 0.52
+    },
+    {
+      "latent_idx": 7254,
+      "k1_auc": 0.52
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.5183673469387755
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5142857142857142
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5120408163265305
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5118367346938775
+    },
+    {
+      "latent_idx": 9834,
+      "k1_auc": 0.5108163265306123
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5102040816326532
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 7247,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 5603,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 525,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 3264,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 4761,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 4128,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 5101,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 11803,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 526,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 3115,
+      "k1_auc": 0.5093877551020408
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5077551020408163
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4050,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7110,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5454,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14224,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 134,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4884,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4744,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15539,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14779,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 357,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2512,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14300,
+      "k1_auc": 0.4995918367346939
+    },
+    {
+      "latent_idx": 7968,
+      "k1_auc": 0.49918367346938775
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.49000000000000005
+    },
+    {
+      "latent_idx": 12177,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 3888,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.48959183673469386
+    },
+    {
+      "latent_idx": 14770,
+      "k1_auc": 0.48918367346938774
+    },
+    {
+      "latent_idx": 6472,
+      "k1_auc": 0.4881632653061225
+    },
+    {
+      "latent_idx": 15502,
+      "k1_auc": 0.48
+    },
+    {
+      "latent_idx": 1567,
+      "k1_auc": 0.47959183673469385
+    },
+    {
+      "latent_idx": 9121,
+      "k1_auc": 0.47122448979591836
+    },
+    {
+      "latent_idx": 14590,
+      "k1_auc": 0.46938775510204084
+    }
+  ]
+}

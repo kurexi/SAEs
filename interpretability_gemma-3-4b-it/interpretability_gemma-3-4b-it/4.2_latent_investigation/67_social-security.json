@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "67_social-security",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:38:27.943815"
+  },
+  "best_latent": {
+    "latent_idx": 13247,
+    "k1_auc": 0.9940675902375671,
+    "examples": [
+      {
+        "text": " those of minority ethnicities, especially those with disabilities, are more likely to live in poverty with less access to social security",
+        "activation": 2011.388671875
+      },
+      {
+        "text": " those of minority ethnicities, especially those with disabilities, are more likely to live in poverty with less access to social security",
+        "activation": 2011.388671875
+      },
+      {
+        "text": " those of minority ethnicities, especially those with disabilities, are more likely to live in poverty with less access to social security",
+        "activation": 2011.388671875
+      },
+      {
+        "text": ") return home upon termination contract (cl\u00e1usula de viaje), (4) contribution to Chilean social security",
+        "activation": 1967.114990234375
+      },
+      {
+        "text": ") return home upon termination contract (cl\u00e1usula de viaje), (4) contribution to Chilean social security",
+        "activation": 1967.114990234375
+      },
+      {
+        "text": " a perfomance tuning1. Introduction {#sec1}===============Increasing employment levels and reducing social security",
+        "activation": 1963.115966796875
+      },
+      {
+        "text": " officials; including the non-payment of minimum wages; long and extensive working hours; lack of affiliation to the social security",
+        "activation": 1957.850341796875
+      },
+      {
+        "text": " For example, it could take a decade or two before the gay community is on equal footing when it comes to social security",
+        "activation": 1946.308837890625
+      },
+      {
+        "text": "innars\u2019 in some states, have remained an unrecognised category but now they will be eligible to get social security",
+        "activation": 1942.4443359375
+      },
+      {
+        "text": "innars\u2019 in some states, have remained an unrecognised category but now they will be eligible to get social security",
+        "activation": 1942.4443359375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 13247\n\nTop activating examples (format: [activation] text):\n  [2011.389] those of minority ethnicities, especially those with disabilities, are more likely to live in poverty with less access to social security\n  [2011.389] those of minority ethnicities, especially those with disabilities, are more likely to live in poverty with less access to social security\n  [2011.389] those of minority ethnicities, especially those with disabilities, are more likely to live in poverty with less access to social security\n  [1967.115] ) return home upon termination contract (cl\u00e1usula de viaje), (4) contribution to Chilean social security\n  [1967.115] ) return home upon termination contract (cl\u00e1usula de viaje), (4) contribution to Chilean social security\n  [1963.116] a perfomance tuning1. Introduction {#sec1}===============Increasing employment levels and reducing social security\n  [1957.850] officials; including the non-payment of minimum wages; long and extensive working hours; lack of affiliation to the social security\n  [1946.309] For example, it could take a decade or two before the gay community is on equal footing when it comes to social security\n  [1942.444] innars\u2019 in some states, have remained an unrecognised category but now they will be eligible to get social security\n  [1942.444] innars\u2019 in some states, have remained an unrecognised category but now they will be eligible to get social security\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 13247,
+      "k1_auc": 0.9940675902375671
+    },
+    {
+      "latent_idx": 8990,
+      "k1_auc": 0.9936972374046215
+    },
+    {
+      "latent_idx": 4039,
+      "k1_auc": 0.9905471244385519
+    },
+    {
+      "latent_idx": 15938,
+      "k1_auc": 0.9863265395854754
+    },
+    {
+      "latent_idx": 12035,
+      "k1_auc": 0.9822243323502353
+    },
+    {
+      "latent_idx": 10701,
+      "k1_auc": 0.9815779060014069
+    },
+    {
+      "latent_idx": 13572,
+      "k1_auc": 0.9680963864386601
+    },
+    {
+      "latent_idx": 9092,
+      "k1_auc": 0.9667616787975539
+    },
+    {
+      "latent_idx": 7351,
+      "k1_auc": 0.9566661818821365
+    },
+    {
+      "latent_idx": 1170,
+      "k1_auc": 0.9362316683803236
+    },
+    {
+      "latent_idx": 14095,
+      "k1_auc": 0.8937281846961416
+    },
+    {
+      "latent_idx": 11665,
+      "k1_auc": 0.8818185507873804
+    },
+    {
+      "latent_idx": 13622,
+      "k1_auc": 0.8786637872720385
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.845087667081552
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.8296258590832838
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.8251139807348882
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.8197857196006278
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.8173416445695113
+    },
+    {
+      "latent_idx": 12662,
+      "k1_auc": 0.789360557930624
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.785700998430651
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.7798776651875101
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.7751028194166351
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.7738645049786244
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.7687467868932301
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.7591903309161752
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.7582965799015098
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.7576214047026355
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.7424246780128794
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.7294581010877212
+    },
+    {
+      "latent_idx": 2788,
+      "k1_auc": 0.7287436076086369
+    },
+    {
+      "latent_idx": 7080,
+      "k1_auc": 0.7277213323231777
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.7244579150657503
+    },
+    {
+      "latent_idx": 1870,
+      "k1_auc": 0.7173125574977002
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.7150604233183615
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.7091149074625251
+    },
+    {
+      "latent_idx": 16285,
+      "k1_auc": 0.7075244196114507
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.7024709636614536
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.6987327676010606
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.6974500615563614
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.6962316176470589
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.6955708168732073
+    },
+    {
+      "latent_idx": 13654,
+      "k1_auc": 0.6932569572217112
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.6757945674820066
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.6684251379944802
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.6581719451810162
+    },
+    {
+      "latent_idx": 2413,
+      "k1_auc": 0.6370745170193192
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.6297621624546783
+    },
+    {
+      "latent_idx": 3991,
+      "k1_auc": 0.6056693577845123
+    },
+    {
+      "latent_idx": 3062,
+      "k1_auc": 0.6024816176470589
+    },
+    {
+      "latent_idx": 8957,
+      "k1_auc": 0.5840992647058824
+    },
+    {
+      "latent_idx": 13812,
+      "k1_auc": 0.5819392959575735
+    },
+    {
+      "latent_idx": 7571,
+      "k1_auc": 0.567065148276422
+    },
+    {
+      "latent_idx": 5311,
+      "k1_auc": 0.5556577736890524
+    },
+    {
+      "latent_idx": 491,
+      "k1_auc": 0.5528852007684398
+    },
+    {
+      "latent_idx": 3412,
+      "k1_auc": 0.5515948847340224
+    },
+    {
+      "latent_idx": 8791,
+      "k1_auc": 0.5464154411764706
+    },
+    {
+      "latent_idx": 8476,
+      "k1_auc": 0.5459964689647708
+    },
+    {
+      "latent_idx": 7393,
+      "k1_auc": 0.5431985294117647
+    },
+    {
+      "latent_idx": 2283,
+      "k1_auc": 0.5395220588235294
+    },
+    {
+      "latent_idx": 53,
+      "k1_auc": 0.5380161264137671
+    },
+    {
+      "latent_idx": 7796,
+      "k1_auc": 0.5373570167487417
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5353872977433844
+    },
+    {
+      "latent_idx": 2227,
+      "k1_auc": 0.5331744818442556
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5322917230369608
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5313819064884463
+    },
+    {
+      "latent_idx": 13968,
+      "k1_auc": 0.5312787488500461
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5303647045294659
+    },
+    {
+      "latent_idx": 8586,
+      "k1_auc": 0.5298713235294118
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5295377523134368
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5285932680339845
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5283569355755181
+    },
+    {
+      "latent_idx": 13274,
+      "k1_auc": 0.5281041148059961
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.527702476459765
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5276027010390173
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5270044712917366
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5268683370312246
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5262434723199307
+    },
+    {
+      "latent_idx": 5104,
+      "k1_auc": 0.5261948529411765
+    },
+    {
+      "latent_idx": 5709,
+      "k1_auc": 0.525755587423562
+    },
+    {
+      "latent_idx": 6537,
+      "k1_auc": 0.524400586476541
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5241676362357272
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5232962924130093
+    },
+    {
+      "latent_idx": 931,
+      "k1_auc": 0.5229990800367985
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5229508834352509
+    },
+    {
+      "latent_idx": 9453,
+      "k1_auc": 0.5225183823529411
+    },
+    {
+      "latent_idx": 1888,
+      "k1_auc": 0.5215992647058824
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5211397058823529
+    },
+    {
+      "latent_idx": 6319,
+      "k1_auc": 0.5211397058823529
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5210991192705233
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.520989197196818
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5207613202824827
+    },
+    {
+      "latent_idx": 7213,
+      "k1_auc": 0.5207351080956761
+    },
+    {
+      "latent_idx": 6699,
+      "k1_auc": 0.5197610294117647
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5196523756696791
+    },
+    {
+      "latent_idx": 105,
+      "k1_auc": 0.5188419117647058
+    },
+    {
+      "latent_idx": 13781,
+      "k1_auc": 0.5183823529411765
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5182445275718383
+    },
+    {
+      "latent_idx": 15220,
+      "k1_auc": 0.5179227941176471
+    },
+    {
+      "latent_idx": 9649,
+      "k1_auc": 0.5179227941176471
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5170827358082147
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5170544097353752
+    },
+    {
+      "latent_idx": 2100,
+      "k1_auc": 0.5160845588235294
+    },
+    {
+      "latent_idx": 10605,
+      "k1_auc": 0.5156512121868065
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.5156427566426756
+    },
+    {
+      "latent_idx": 160,
+      "k1_auc": 0.515625
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5151620589588181
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5148656921370205
+    },
+    {
+      "latent_idx": 14953,
+      "k1_auc": 0.5147574611721414
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5133546864007793
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5119806604794632
+    },
+    {
+      "latent_idx": 5984,
+      "k1_auc": 0.5115139144434222
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5114991172411928
+    },
+    {
+      "latent_idx": 10487,
+      "k1_auc": 0.5105698529411765
+    },
+    {
+      "latent_idx": 1539,
+      "k1_auc": 0.5101179041073651
+    },
+    {
+      "latent_idx": 4010,
+      "k1_auc": 0.5091911764705882
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5090381311218138
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5077748728286162
+    },
+    {
+      "latent_idx": 317,
+      "k1_auc": 0.5074451066075004
+    },
+    {
+      "latent_idx": 13854,
+      "k1_auc": 0.5073529411764706
+    },
+    {
+      "latent_idx": 13408,
+      "k1_auc": 0.5068933823529411
+    },
+    {
+      "latent_idx": 7354,
+      "k1_auc": 0.5050551470588235
+    },
+    {
+      "latent_idx": 9738,
+      "k1_auc": 0.5046099626603171
+    },
+    {
+      "latent_idx": 4150,
+      "k1_auc": 0.5041360294117647
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.503681543914714
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5
+    }
+  ]
+}

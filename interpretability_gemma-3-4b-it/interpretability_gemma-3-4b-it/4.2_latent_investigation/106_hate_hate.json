@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "106_hate_hate",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:45:12.591470"
+  },
+  "best_latent": {
+    "latent_idx": 1821,
+    "k1_auc": 0.6272142163499366,
+    "examples": [
+      {
+        "text": "@vivaalakatyy @J_Fritzy @Lompartayy that's all the action you'll probably get bitch",
+        "activation": 4940.583984375
+      },
+      {
+        "text": "@_TurnDownDre @kushdaddycorr lmao you stupid nigger",
+        "activation": 4863.203125
+      },
+      {
+        "text": "Sub tweeting and uoeno lol bitch",
+        "activation": 4842.0390625
+      },
+      {
+        "text": "@MrMooncricket @FuckTheMallcops @JimTalbot1963 @theharris338 work, is something adults do for money, not borrow from money... Broke bitch",
+        "activation": 4705.126953125
+      },
+      {
+        "text": "@JRise88 shut up you stupid bitch",
+        "activation": 4597.474609375
+      },
+      {
+        "text": "RT @LiamGeraldShone: @vernon1488 @AranNicolWHUFC @DSaend get fucked you racist inbred hillbilly fuck",
+        "activation": 4468.0576171875
+      },
+      {
+        "text": "&#8220;@ttevy_8: i want affection 24/7 but i also want to be left alone 24/7... do you see the issue here?&#8221;fag",
+        "activation": 4417.0166015625
+      },
+      {
+        "text": "Awe did I cut you off and make you mad? That's too dam bad, shoulda been going the fucking speed limit bitch",
+        "activation": 4381.9306640625
+      },
+      {
+        "text": "@EricWithAHotDad faggot",
+        "activation": 4348.73291015625
+      },
+      {
+        "text": "Say it to me when I confront you pussy fuck",
+        "activation": 4309.759765625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 1821\n\nTop activating examples (format: [activation] text):\n  [4940.584] @vivaalakatyy @J_Fritzy @Lompartayy that's all the action you'll probably get bitch\n  [4863.203] @_TurnDownDre @kushdaddycorr lmao you stupid nigger\n  [4842.039] Sub tweeting and uoeno lol bitch\n  [4705.127] @MrMooncricket @FuckTheMallcops @JimTalbot1963 @theharris338 work, is something adults do for money, not borrow from money... Broke bitch\n  [4597.475] @JRise88 shut up you stupid bitch\n  [4468.058] RT @LiamGeraldShone: @vernon1488 @AranNicolWHUFC @DSaend get fucked you racist inbred hillbilly fuck\n  [4417.017] &#8220;@ttevy_8: i want affection 24/7 but i also want to be left alone 24/7... do you see the issue here?&#8221;fag\n  [4381.931] Awe did I cut you off and make you mad? That's too dam bad, shoulda been going the fucking speed limit bitch\n  [4348.733] @EricWithAHotDad faggot\n  [4309.760] Say it to me when I confront you pussy fuck\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 1821,
+      "k1_auc": 0.6272142163499366
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.54970132825134
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5466510689704407
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5454560528748739
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5414830452265683
+    },
+    {
+      "latent_idx": 9811,
+      "k1_auc": 0.5411406536855761
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.539565272865173
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5370537264857387
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5366903231163529
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5355350522865425
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5351494978932478
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5347402735486902
+    },
+    {
+      "latent_idx": 2926,
+      "k1_auc": 0.5345059790043734
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5329685713678143
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5327149104997373
+    },
+    {
+      "latent_idx": 12768,
+      "k1_auc": 0.5325136526253647
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5295795912870276
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5293570684297025
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5280406647231147
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5274133477260139
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5267734995782446
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5267652720550783
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5260534014352851
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.525204067889977
+    },
+    {
+      "latent_idx": 8475,
+      "k1_auc": 0.5251311593769967
+    },
+    {
+      "latent_idx": 4103,
+      "k1_auc": 0.5248162351056516
+    },
+    {
+      "latent_idx": 14770,
+      "k1_auc": 0.5200951557356216
+    },
+    {
+      "latent_idx": 13407,
+      "k1_auc": 0.5199132641850095
+    },
+    {
+      "latent_idx": 4744,
+      "k1_auc": 0.5195978336045463
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5191719010590974
+    },
+    {
+      "latent_idx": 13879,
+      "k1_auc": 0.5149918129815633
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5134766829461925
+    },
+    {
+      "latent_idx": 14090,
+      "k1_auc": 0.5126055781088139
+    },
+    {
+      "latent_idx": 12177,
+      "k1_auc": 0.5122374913800873
+    },
+    {
+      "latent_idx": 12656,
+      "k1_auc": 0.5111636097409824
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5105342675074098
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.5090730593930974
+    },
+    {
+      "latent_idx": 5749,
+      "k1_auc": 0.5083706820692652
+    },
+    {
+      "latent_idx": 6452,
+      "k1_auc": 0.5075475500208093
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5064031648370343
+    },
+    {
+      "latent_idx": 14259,
+      "k1_auc": 0.5062920299856513
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5052525773665648
+    },
+    {
+      "latent_idx": 4711,
+      "k1_auc": 0.5050997985902329
+    },
+    {
+      "latent_idx": 2455,
+      "k1_auc": 0.5045567820612653
+    },
+    {
+      "latent_idx": 9696,
+      "k1_auc": 0.5030360826255975
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.5030191212701473
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5028905187541961
+    },
+    {
+      "latent_idx": 8318,
+      "k1_auc": 0.5027869785395818
+    },
+    {
+      "latent_idx": 5334,
+      "k1_auc": 0.5026439462137698
+    },
+    {
+      "latent_idx": 5285,
+      "k1_auc": 0.5023910448093696
+    },
+    {
+      "latent_idx": 12943,
+      "k1_auc": 0.5021295361499647
+    },
+    {
+      "latent_idx": 4909,
+      "k1_auc": 0.502040425745211
+    },
+    {
+      "latent_idx": 9453,
+      "k1_auc": 0.5017608165348407
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5015290535361135
+    },
+    {
+      "latent_idx": 14711,
+      "k1_auc": 0.5014536134775437
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.501303239669522
+    },
+    {
+      "latent_idx": 2085,
+      "k1_auc": 0.5012556466124376
+    },
+    {
+      "latent_idx": 4965,
+      "k1_auc": 0.5010660338477771
+    },
+    {
+      "latent_idx": 12940,
+      "k1_auc": 0.5007426288987069
+    },
+    {
+      "latent_idx": 14224,
+      "k1_auc": 0.5004050472943347
+    },
+    {
+      "latent_idx": 3698,
+      "k1_auc": 0.500313531921271
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.5001244254657286
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4828,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1853,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10278,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12746,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13830,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11835,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14941,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3193,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14521,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9279,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5957,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13580,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4730,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8588,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12502,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9046,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16314,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 526,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11688,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7159,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7010,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15314,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10827,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6086,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7114,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15400,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 134,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2458,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15502,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7535,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3405,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8449,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 279,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4603,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.49775629114394476
+    },
+    {
+      "latent_idx": 10032,
+      "k1_auc": 0.49775375959835505
+    },
+    {
+      "latent_idx": 14641,
+      "k1_auc": 0.49489893563697235
+    },
+    {
+      "latent_idx": 5984,
+      "k1_auc": 0.49445414307688096
+    },
+    {
+      "latent_idx": 4995,
+      "k1_auc": 0.49373366520208317
+    },
+    {
+      "latent_idx": 1306,
+      "k1_auc": 0.49136110067551764
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.4880678130180175
+    },
+    {
+      "latent_idx": 14836,
+      "k1_auc": 0.47916968342516086
+    }
+  ]
+}

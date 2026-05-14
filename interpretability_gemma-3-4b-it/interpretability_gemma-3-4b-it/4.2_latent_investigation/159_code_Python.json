@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "159_code_Python",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:52:32.481516"
+  },
+  "best_latent": {
+    "latent_idx": 230,
+    "k1_auc": 0.9788408139358309,
+    "examples": [
+      {
+        "text": "menta, Inc.  Unless you have an agreement\n# with Numenta, Inc., for a separate license for this software code, the\n# following terms and conditions apply:\n#\n# This program is free software: you can redistribute it and/or modify\n# it under the terms of the GNU General Public License version 3 as\n# published by the Free Software Foundation.\n#\n# This program is distributed in the hope that it will be useful,\n# but WITHOUT ANY WARRANTY; without even the implied warranty of\n# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n# See the GNU General Public License for more details.\n#\n# You should have received a copy of the GNU General Public License\n# along with this program.  If not, see http://www.gnu.org/licenses.\n#\n# http://numenta.org/licenses/\n# ----------------------------------------------------------------------\n\n\"\"\"\nMetric class used in monitor mixin framework.\n\"\"\"\n\nimport numpy\n\n\n\nclass Metric(object):\n  \"\"\"\n  A metric computed over a set of data (usually from a `CountsTrace`).\n  \"\"\"\n\n  def __init__(self, monitor, title, data):\n    \"\"\"\n    @param monitor (MonitorMixinBase) Monitor Mixin instance that generated\n                                      this trace\n    @param title   (string)           Title\n    @param data    (list)             List of numbers to compute metric from\n    \"\"\"\n    self.monitor = monitor\n    self.title = title\n\n    self.min = None\n    self.max = None\n    self.sum = None\n    self.mean = None\n    self.standardDeviation = None\n\n    self._computeStats(data)\n\n\n  @staticmethod\n  def createFromTrace(trace, excludeResets=None):\n    data = list(trace.data)\n    if excludeResets is not None:\n      data = [x for i, x in enumerate(trace.data) if not excludeResets.data[i]]\n    return Metric(trace.monitor, trace.title, data)\n\n\n  def copy(self):\n    metric = Metric(self.monitor, self.title, [])\n\n    metric.min = self.min\n    metric.max = self.max\n    metric.sum = self.sum\n    metric.mean = self.mean\n    metric.standardDeviation = self.standardDeviation\n\n    return metric\n\n\n  def prettyPrintTitle(self):\n    return (\"[{0}] {1}\".format(self.monitor.mmName, self.title)\n            if self.monitor.mmName is not None else self.title)\n\n\n  def _computeStats(self, data):\n    if not len(data):\n      return\n\n    self.min = min(data)\n    self.max = max(data)\n    self.sum = sum(data)\n    self.mean = numpy.mean(data)\n    self.standardDeviation = numpy.std(data)\n\n\n  def getStats(self, sigFigs=7):\n    if self.mean is None:\n      return [None, None, None, None, None]\n    return [round(self.mean, sigFigs),\n            round(self.standardDeviation, sigFigs),\n            round(self.min, sigFigs),\n            round(self.max, sigFigs),\n            round(self.sum, sigFigs)]\n",
+        "activation": 4109.5361328125
+      },
+      {
+        "text": "tially funded by the European Community through the\n# 7th Framework Programme project CREW (FP7-ICT-2009-258301).\n#\n# This program is free software: you can redistribute it and/or modify it\n# under the terms of the GNU General Public License as published by the Free\n# Software Foundation, either version 3 of the License, or (at your option)\n# any later version.\n#\n# This program is distributed in the hope that it will be useful, but WITHOUT\n# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\n# FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for\n# more details.\n#\n# You should have received a copy of the GNU General Public License along with\n# this program. If not, see http://www.gnu.org/licenses/\n\nimport logging\nimport Queue\nimport random\nimport time\n\nfrom spectrumwars.testbed import TestbedBase, RadioBase, RadioTimeout, RadioError, TestbedError, RadioPacket\n\nlog = logging.getLogger(__name__)\n\nclass Radio(RadioBase):\n\tRECEIVE_TIMEOUT = 2.\n\n\tdef __init__(self, addr, dispatcher, send_delay):\n\t\tsuper(Radio, self).__init__()\n\n\t\tself.addr = addr\n\t\tself.neighbor = None\n\t\tself.dispatcher = dispatcher\n\t\tself.q = Queue.Queue()\n\n\t\tself.frequency = 0\n\t\tself.bandwidth = 0\n\n\t\tself.send_delay = send_delay\n\n\tdef _recv(self, addr, bindata, frequency, bandwidth):\n\t\tif self.frequency == frequency and self.bandwidth == bandwidth and self.addr == addr:\n\t\t\tself.q.put(bindata)\n\n\tdef set_configuration(self, frequency, bandwidth, power):\n\t\tself.frequency = frequency\n\t\tself.bandwidth = bandwidth\n\n\tdef binsend(self, bindata):\n\t\tself.dispatcher(self.neighbor, bindata, self.frequency, self.bandwidth)\n\t\ttime.sleep(self.send_delay)\n\n\tdef binrecv(self, timeout=None):\n\t\tif timeout is None:\n\t\t\ttimeout = self.RECEIVE_TIMEOUT\n\n\t\ttry:\n\t\t\tbindata = self.q.get(True, timeout)\n\t\texcept Queue.Empty:\n\t\t\traise RadioTimeout\n\t\telse:\n\t\t\treturn bindata\n\nclass Testbed(TestbedBase):\n\n\tRADIO_CLASS = Radio\n\n\tdef __init__(self, send_delay=.1, frequency_range=64, bandwidth_range=10, power_range=10, packet_size=1024):\n\t\tself.send_delay = float(send_delay)\n\t\tself.frequency_range = int(frequency_range)\n\t\tself.bandwidth_range = int(bandwidth_range)\n\t\tself.power_range = int(power_range)\n\n\t\tself.RADIO_CLASS.PACKET_SIZE = int(packet_size) + 1\n\n\t\tself.radios = []\n\n\t\t# for each channel, we keep the timestamp of the last\n\t\t# transmission. we use this for simulated spectrum sensing and\n\t\t# for detecting collisions.\n\t\tself.channels = [0] * self.frequency_range\n\n\t\tself.i = 0\n\n\tdef _get_radio(self):\n\t\tr = Radio(self.i, self._dispatcher, self.send_delay)\n\t\tself.radios.append(r)\n\n\t\tself.i += 1\n\n\t\treturn r\n\n\tdef _dispatcher(self, addr, bindata, frequency, bandwidth):\n\t\tnow = self.time()\n\n\t\thas_collision = (now - self.channels[frequency]) > self.send_delay\n\t\tself.channels[frequency] = now\n\n\t\tif has_collision:\n\t\t\t# note that when packets collide, the first one goes\n\t\t\t# through while the later ones fail. this is different\n\t\t\t# than in reality: all should fail. But this would\n\t\t\t# be complicated to implement in practice.\n\t\t\tfor radio in self.radios:\n\t\t\t\tradio._recv(addr, bindata, frequency, bandwidth)\n\t\telse:\n\t\t\tlog.debug(\"packet collision detected on channel %d\" % (frequency,))\n\n\tdef get_radio_pair(self):\n\t\tdst = self._get_radio()\n\t\tsrc = self._get_radio()\n\n\t\tdst.neighbor = src.addr\n\t\tsrc.neighbor = dst.addr\n\n\t\treturn dst, src\n\n\tdef get_spectrum(self):\n\n\t\tspectrum = []\n\t\tnow = self.time()\n\n\t\tfor time in self.channels:\n\t\t\tif now - time < .5:\n\t\t\t\tp = random.randint(-40, -20)\n\t\t\telse:\n\t\t\t\tp = random.randint(-90, -80)\n\n\t\t\tspectrum.append(p)\n\n\t\treturn tuple(spectrum)\n\n\tdef get_frequency_range(self):\n\t\treturn self.frequency_range\n\n\tdef get_bandwidth_range(self):\n\t\treturn self.bandwidth_range\n\n\tdef get_power_range(self):\n\t\treturn self.power_range\n",
+        "activation": 4036.01708984375
+      },
+      {
+        "text": " defined by a texture image and\n        4 boundary points. Choose the first point as the origin\n        of the surface's coordinate system.\n\n        :param image: image array\n        :param edge_points3d: array of 3d coordinates of 4 corner points in clockwise direction\n        :param edge_points2d: array of 2d coordinates of 4 corner points in clockwise direction\n        \"\"\"\n        assert len(edge_points3d) == 4 and len(edge_points2d) == 4\n\n        self.image = image\n        self.edge_points3d = edge_points3d\n        self.edge_points2d = np.float32(edge_points2d)  # This is required for using cv2's getPerspectiveTransform\n        self.normal = self._get_normal_vector()\n\n    def top_left_corner3d(self):\n        return self.edge_points3d[0]\n\n    def top_right_corner3d(self):\n        return self.edge_points3d[1]\n\n    def bottom_right_corner3d(self):\n        return self.edge_points3d[2]\n\n    def bottom_left_corner3d(self):\n        return self.edge_points3d[3]\n\n    def distance_to_point(self, point):\n        point_to_surface = point - self.top_left_corner3d()\n        distance_to_surface = self.normal.dot(point_to_surface)\n        return distance_to_surface\n\n    def _get_normal_vector(self):\n        \"\"\"\n        :return: the normal vector of the surface. It determined the front side\n        of the surface and it's not necessarily a unit vector\n        \"\"\"\n        p0 = self.edge_points3d[0]\n        p1 = self.edge_points3d[1]\n        p3 = self.edge_points3d[3]\n        v1 = p3 - p0\n        v2 = p1 - p0\n        normal = np.cross(v1, v2)\n        norm = np.linalg.norm(normal)\n        return normal / norm\n\n\nclass Polyhedron(object):\n    def __init__(self, surfaces):\n        self.surfaces = surfaces\n\n\nclass Space(object):\n    def __init__(self, models=None):\n        self.models = models or []\n\n    def add_model(self, model):\n        assert isinstance(model, Polyhedron)\n        self.models.append(model)\n\n\nclass Line2D(object):\n    def __init__(self, point1, point2):\n        \"\"\"\n        Using the line equation a*x + b*y + c = 0 with b >= 0\n        :param point1: starting point\n        :param point2: ending point\n        :return: a Line object\n        \"\"\"\n        assert len(point1) == 2 and len(point2) == 2\n\n        self.a = point2[1] - point1[1]\n        self.b = point1[0] - point2[0]\n        self.c = point1[1] * point2[0] - point1[0] * point2[1]\n\n        if self.b < 0:\n            self.a = -self.a\n            self.b = -self.b\n            self.c = -self.c\n\n    def is_point_on_left(self, point):\n        return self.a * point[0] + self.b * point[1] + self.c > 0\n\n    def is_point_on_right(self, point):\n        return self.a * point[0] + self.b * point[1] + self.c < 0\n\n    def is_point_on_line(self, point):\n        return self.a * point[0] + self.b * point[1] + self.c == 0\n\n    def get_y_from_x(self, x):\n        if self.b == 0:\n            return 0.0\n\n        return 1.0 * (-self.c - self.a * x) / self.b\n\n    def get_x_from_y(self, y):\n        if self.a == 0:\n            return 0.0\n\n        return 1.0 * (-self.c - self.b * y) / self.a\n",
+        "activation": 3948.635009765625
+      },
+      {
+        "text": "t in compliance with the License. You may obtain\n#    a copy of the License at\n#\n#         http://www.apache.org/licenses/LICENSE-2.0\n#\n#    Unless required by applicable law or agreed to in writing, software\n#    distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT\n#    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the\n#    License for the specific language governing permissions and limitations\n#    under the License.\n\nimport webob\n\nfrom nova.api.openstack.compute import flavors as flavors_api\nfrom nova.api.openstack.compute.views import flavors as flavors_view\nfrom nova.api.openstack import extensions\nfrom nova.api.openstack import wsgi\nfrom nova.compute import flavors\nfrom nova import exception\nfrom nova.openstack.common.gettextutils import _\n\n\nauthorize = extensions.extension_authorizer('compute', 'flavormanage')\n\n\nclass FlavorManageController(wsgi.Controller):\n    \"\"\"\n    The Flavor Lifecycle API controller for the OpenStack API.\n    \"\"\"\n    _view_builder_class = flavors_view.ViewBuilder\n\n    def __init__(self):\n        super(FlavorManageController, self).__init__()\n\n    @wsgi.action(\"delete\")\n    def _delete(self, req, id):\n        context = req.environ['nova.context']\n        authorize(context)\n\n        try:\n            flavor = flavors.get_flavor_by_flavor_id(\n                    id, ctxt=context, read_deleted=\"no\")\n        except exception.NotFound as e:\n            raise webob.exc.HTTPNotFound(explanation=e.format_message())\n\n        flavors.destroy(flavor['name'])\n\n        return webob.Response(status_int=202)\n\n    @wsgi.action(\"create\")\n    @wsgi.serializers(xml=flavors_api.FlavorTemplate)\n    def _create(self, req, body):\n        context = req.environ['nova.context']\n        authorize(context)\n        if not self.is_valid_body(body, 'flavor'):\n            msg = _(\"Invalid request body\")\n            raise webob.exc.HTTPBadRequest(explanation=msg)\n        vals = body['flavor']\n        name = vals.get('name')\n        flavorid = vals.get('id')\n        memory = vals.get('ram')\n        vcpus = vals.get('vcpus')\n        root_gb = vals.get('disk')\n        ephemeral_gb = vals.get('OS-FLV-EXT-DATA:ephemeral', 0)\n        swap = vals.get('swap', 0)\n        rxtx_factor = vals.get('rxtx_factor', 1.0)\n        is_public = vals.get('os-flavor-access:is_public', True)\n\n        try:\n            flavor = flavors.create(name, memory, vcpus, root_gb,\n                                    ephemeral_gb=ephemeral_gb,\n                                    flavorid=flavorid, swap=swap,\n                                    rxtx_factor=rxtx_factor,\n                                    is_public=is_public)\n            if not flavor['is_public']:\n                flavors.add_flavor_access(flavor['flavorid'],\n                                          context.project_id, context)\n            req.cache_db_flavor(flavor)\n        except (exception.InstanceTypeExists,\n                exception.InstanceTypeIdExists) as err:\n            raise webob.exc.HTTPConflict(explanation=err.format_message())\n        except exception.InvalidInput as exc:\n            raise webob.exc.HTTPBadRequest(explanation=exc.format_message())\n\n        return self._view_builder.show(req, flavor)\n\n\nclass Flavormanage(extensions.ExtensionDescriptor):\n    \"\"\"\n    Flavor create/delete API support\n    \"\"\"\n\n    name = \"FlavorManage\"\n    alias = \"os-flavor-manage\"\n    namespace = (\"http://docs.openstack.org/compute/ext/\"\n                 \"flavor_manage/api/v1.1\")\n    updated = \"2012-01-19T00:00:00+00:00\"\n\n    def get_controller_extensions(self):\n        controller = FlavorManageController()\n        extension = extensions.ControllerExtension(self, 'flavors', controller)\n        return [extension]\n",
+        "activation": 3906.956787109375
+      },
+      {
+        "text": "s\nfrom kgb import SpyAgency\n\nfrom reviewboard.diffviewer.diffutils import patch\nfrom reviewboard.diffviewer.testing.mixins import DiffParserTestingMixin\nfrom reviewboard.scmtools.core import (Branch, Commit, Revision, HEAD,\n                                       PRE_CREATION)\nfrom reviewboard.scmtools.errors import SCMError, FileNotFoundError\nfrom reviewboard.scmtools.models import Repository, Tool\nfrom reviewboard.scmtools.svn import SVNTool, recompute_svn_backend\nfrom reviewboard.scmtools.svn.utils import (collapse_svn_keywords,\n                                            has_expanded_svn_keywords)\nfrom reviewboard.scmtools.tests.testcases import SCMTestCase\nfrom reviewboard.testing.testcase import TestCase\n\n\nclass _CommonSVNTestCase(DiffParserTestingMixin, SpyAgency, SCMTestCase):\n    \"\"\"Common unit tests for Subversion.\n\n    This is meant to be subclassed for each backend that wants to run\n    the common set of tests.\n    \"\"\"\n\n    backend = None\n    backend_name = None\n    fixtures = ['test_scmtools']\n\n    __test__ = False\n\n    def setUp(self):\n        super(_CommonSVNTestCase, self).setUp()\n\n        self._old_backend_setting = settings.SVNTOOL_BACKENDS\n        settings.SVNTOOL_BACKENDS = [self.backend]\n        recompute_svn_backend()\n\n        self.svn_repo_path = os.path.abspath(\n            os.path.join(os.path.dirname(__file__),\n                         '..', 'testdata', 'svn_repo'))\n        self.svn_ssh_path = ('svn+ssh://localhost%s'\n                             % self.svn_repo_path.replace('\\\\', '/'))\n        self.repository = Repository.objects.create(\n            name='Subversion SVN',\n            path='file://%s' % self.svn_repo_path,\n            tool=Tool.objects.get(name='Subversion'))\n\n        try:\n            self.tool = self.repository.get_scmtool()\n        except ImportError:\n            raise unittest.SkipTest('The %s backend could not be used. A '\n                                    'dependency may be missing.'\n                                    % self.backend)\n\n        assert self.tool.client.__class__.__module__ == self.backend\n\n    def tearDown(self):\n        super(_CommonSVNTestCase, self).tearDown()\n\n        settings.SVNTOOL_BACKENDS = self._old_backend_setting\n        recompute_svn_backend()\n\n    def shortDescription(self):\n        desc = super(_CommonSVNTestCase, self).shortDescription()\n        desc = desc.replace('<backend>', self.backend_name)\n\n        return desc\n\n    def test_get_repository_info(self):\n        \"\"\"Testing SVN (<backend>) get_repository_info\"\"\"\n        info = self.tool.get_repository_info()\n\n        self.assertIn('uuid', info)\n        self.assertIsInstance(info['uuid'], str)\n        self.assertEqual(info['uuid'], '41215d38-f5a5-421f-ba17-e0be11e6c705')\n\n        self.assertIn('root_url', info)\n        self.assertIsInstance(info['root_url'], str)\n        self.assertEqual(info['root_url'], self.repository.path)\n\n        self.assertIn('url', info)\n        self.assertIsInstance(info['url'], str)\n        self.assertEqual(info['url'], self.repository.path)\n\n    def test_ssh(self):\n        \"\"\"Testing SVN (<backend>) with a SSH-backed Subversion repository\"\"\"\n        self._test_ssh(self.svn_ssh_path, 'trunk/doc/misc-docs/Makefile')\n\n    def test_ssh_with_site(self):\n        \"\"\"Testing SVN (<backend>) with a SSH-backed Subversion repository\n        with a LocalSite\n        \"\"\"\n        self._test_ssh_with_site(self.svn_ssh_path,\n                                 'trunk/doc/misc-docs/Makefile')\n\n    def test_get_file(self):\n        \"\"\"Testing SVN (<backend>) get_file\"\"\"\n        tool = self.tool\n\n        expected = (b'include ../tools/Makefile.base-vars\\n'\n                    b'NAME = misc-docs\\n'\n                    b'OUTNAME = svn-misc-docs\\n'\n                    b'INSTALL_DIR = $(DESTDIR)/usr/share/doc/subversion\\n'\n                    b'include ../tools/Makefile.base-rules\\n')\n\n        # There are 3 versions of this test in order to get 100% coverage of\n        # the svn module.\n        rev = Revision('2')\n        filename = 'trunk/doc/misc-docs/Makefile'\n\n        value = tool.get_file(filename, rev)\n        self.assertIsInstance(value, bytes)\n        self.assertEqual(value, expected)\n\n        value = tool.get_file('/%s' % filename, rev)\n        self.assertIsInstance(value, bytes)\n        self.assertEqual(value, expected)\n\n        value = tool.get_file('%s/%s' % (self.repository.path, filename), rev)\n        self.assertIsInstance(value, bytes)\n        self.assertEqual(value, expected)\n\n        with self.assertRaises(FileNotFoundError):\n            tool.get_file('')\n\n    def test_file_exists(self):\n        \"\"\"Testing SVN (<backend>) file_exists\"\"\"\n        tool = self.tool\n\n        self.assertTrue(tool.file_exists('trunk/doc/misc-docs/Makefile'))\n        self.assertFalse(tool.file_exists('trunk/doc/misc-docs/Makefile2'))\n\n        with self.assertRaises(FileNotFoundError):\n            tool.get_file('hello', PRE_CREATION)\n\n    def test_get_file_with_special_url_chars(self):\n        \"\"\"Testing SVN (<backend>) get_file with filename containing\n        characters that are special in URLs and repository path as a URI\n        \"\"\"\n        value = self.tool.get_file('trunk/crazy& ?#.txt', Revision('12'))\n        self.assertTrue(isinstance(value, bytes))\n        self.assertEqual(value, b'Lots of characters in this one.\\n')\n\n    def test_file_exists_with_special_url_chars(self):\n        \"\"\"Testing SVN (<backend>) file_exists with filename containing\n        characters that are special in URLs\n        \"\"\"\n        self.assertTrue(self.tool.file_exists('trunk/crazy& ?#.txt',\n                                              Revision('12')))\n\n        # These should not crash. We'll be testing both file:// URLs\n        # (which fail for anything lower than ASCII code 32) and for actual\n        # URLs (which support all characters).\n        self.assertFalse(self.tool.file_exists('trunk/%s.txt' % ''.join(\n            chr(c)\n            for c in range(32, 128)\n        )))\n\n        self.tool.client.repopath = 'svn+ssh://localhost:0/svn'\n\n        try:\n            self.assertFalse(self.tool.file_exists('trunk/%s.txt' % ''.join(\n                chr(c)\n                for c in range(128)\n            )))\n        except SCMError:\n            # Couldn't connect. Valid result.\n            pass\n\n    def test_normalize_path_with_special_chars_and_remote_url(self):\n        \"\"\"Testing SVN (<backend>) normalize_path with special characters\n        and remote URL\n        \"\"\"\n        client = self.tool.client\n\n        client.repopath = 'svn+ssh://example.com/svn'\n        path = client.normalize_path(''.join(\n            chr(c)\n            for c in range(128)\n        ))\n\n        # This URL was generated based on modified code that directly used\n        # Subversion's lookup take explicitly, ensuring we're getting the\n        # results we want from urllib.quote() and our list of safe characters.\n        self.assertEqual(\n            path,\n            \"svn+ssh://example.com/svn/%00%01%02%03%04%05%06%07%08%09%0A\"\n            \"%0B%0C%0D%0E%0F%10%11%12%13%14%15%16%17%18%19%1A%1B%1C%1D%1E\"\n            \"%1F%20!%22%23$%25&'()*+,-./0123456789:%3B%3C=%3E%3F@ABCDEFGH\"\n            \"IJKLMNOPQRSTUVWXYZ%5B%5C%5D%5E_%60abcdefghijklmnopqrstuvwxyz\"\n            \"%7B%7C%7D~%7F\")\n\n    def test_normalize_path_with_special_chars_and_file_url(self):\n        \"\"\"Testing SVN (<backend>) normalize_path with special characters\n        and local file:// URL\n        \"\"\"\n        client = self.tool.client\n\n        client.repopath = 'file:///tmp/svn'\n        path = client.normalize_path(''.join(\n            chr(c)\n            for c in range(32, 128)\n        ))\n\n        # This URL was generated based on modified code that directly used\n        # Subversion's lookup take explicitly, ensuring we're getting the\n        # results we want from urllib.quote() and our list of safe characters.\n        self.assertEqual(\n            path,\n            \"file:///tmp/svn/%20!%22%23$%25&'()*+,-./0123456789:%3B%3C=%3E\"\n            \"%3F@ABCDEFGHIJKLMNOPQRSTUVWXYZ%5B%5C%5D%5E_%60abcdefghijklmno\"\n            \"pqrstuvwxyz%7B%7C%7D~%7F\")\n\n        # This should provide a reasonable error for each code in 0..32.\n        for i in range(32):\n            c = chr(i)\n\n            message = (\n                'Invalid character code %s found in path %r.'\n                % (i, c)\n            )\n\n            with self.assertRaisesMessage(SCMError, message):\n                client.normalize_path(c)\n\n    def test_normalize_path_with_absolute_repo_path(self):\n        \"\"\"Testing SVN (<backend>) normalize_path with absolute path\"\"\"\n        client = self.tool.client\n\n        client.repopath = '/var/lib/svn'\n        path = '/var/lib/svn/foo/bar'\n        self.assertEqual(client.normalize_path(path), path)\n\n        client.repopath = 'svn+ssh://example.com/svn/'\n        path = 'svn+ssh://example.com/svn/foo/bar'\n        self.assertEqual(client.normalize_path(path), path)\n\n    def test_normalize_path_with_rel_path(self):\n        \"\"\"Testing SVN (<backend>) normalize_path with relative path\"\"\"\n        client = self.tool.client\n        client.repopath = 'svn+ssh://example.com/svn'\n\n        self.assertEqual(client.normalize_path('foo/bar'),\n                         'svn+ssh://example.com/svn/foo/bar')\n        self.assertEqual(client.normalize_path('/foo/bar'),\n                         'svn+ssh://example.com/svn/foo/bar')\n        self.assertEqual(client.normalize_path('//foo/bar'),\n                         'svn+ssh://example.com/svn/foo/bar')\n        self.assertEqual(client.normalize_path('foo&/b ar?/#file#.txt'),\n                         'svn+ssh://example.com/svn/foo&/b%20ar%3F/'\n                         '%23file%23.txt')\n\n    def test_revision_parsing(self):\n        \"\"\"Testing SVN (<backend>) revision number parsing\"\"\"\n        self.assertEqual(\n            self.tool.parse_diff_revision(filename=b'',\n                                          revision=b'(working copy)'),\n            (b'', HEAD))\n        self.assertEqual(\n            self.tool.parse_diff_revision(filename=b'',\n                                          revision=b'   (revision 0)'),\n            (b'', PRE_CREATION))\n\n        self.assertEqual(\n            self.tool.parse_diff_revision(filename=b'',\n                                          revision=b'(revision 1)'),\n            (b'', b'1'))\n        self.assertEqual(\n            self.tool.parse_diff_revision(filename=b'',\n                                          revision=b'(revision 23)'),\n            (b'', b'23'))\n\n        # Fix for bug 2176\n        self.assertEqual(\n            self.tool.parse_diff_revision(filename=b'',\n                                          revision=b'\\t(revision 4)'),\n            (b'', b'4'))\n\n        self.assertEqual(\n            self.tool.parse_diff_revision(\n                filename=b'',\n                revision=b'2007-06-06 15:32:23 UTC (rev 10958)'),\n            (b'', b'10958'))\n\n        # Fix for bug 2632\n        self.assertEqual(\n            self.tool.parse_diff_revision(filename=b'',\n                                          revision=b'(revision )'),\n            (b'', PRE_CREATION))\n\n        with self.assertRaises(SCMError):\n            self.tool.parse_diff_revision(filename=b'',\n                                          revision=b'hello')\n\n        # Verify that 'svn diff' localized revision strings parse correctly.\n        self.assertEqual(\n            self.tool.parse_diff_revision(\n                filename=b'',\n                revision='(revisi\u00f3n: 5)'.encode('utf-8')),\n            (b'', b'5'))\n        self.assertEqual(\n            self.tool.parse_diff_revision(\n                filename=b'',\n                revision='(\u30ea\u30d3\u30b8\u30e7\u30f3 6)'.encode('utf-8')),\n            (b'', b'6'))\n        self.assertEqual(\n            self.tool.parse_diff_revision(\n                filename=b'',\n                revision='(\u7248\u672c 7)'.encode('utf-8')),\n            (b'', b'7'))\n\n    def test_revision_parsing_with_nonexistent(self):\n        \"\"\"Testing SVN (<backend>) revision parsing with \"(nonexistent)\"\n        revision indicator\n        \"\"\"\n        # English\n        self.assertEqual(\n            self.tool.parse_diff_revision(filename=b'',\n                                          revision=b'(nonexistent)'),\n            (b'', PRE_CREATION))\n\n        # German\n        self.assertEqual(\n            self.tool.parse_diff_revision(filename=b'',\n                                          revision=b'(nicht existent)'),\n            (b'', PRE_CREATION))\n\n        # Simplified Chinese\n        self.assertEqual(\n            self.tool.parse_diff_revision(\n                filename=b'',\n                revision='(\u4e0d\u5b58\u5728\u7684)'.encode('utf-8')),\n            (b'', PRE_CREATION))\n\n    def test_revision_parsing_with_nonexistent_and_branches(self):\n        \"\"\"Testing SVN (<backend>) revision parsing with relocation\n        information and nonexistent revision specifier\n        \"\"\"\n        self.assertEqual(\n            self.tool.parse_diff_revision(\n                filename=b'',\n                revision=b'(.../trunk) (nonexistent)'),\n            (b'trunk/', PRE_CREATION))\n\n        self.assertEqual(\n            self.tool.parse_diff_revision(\n                filename=b'',\n                revision=b'(.../branches/branch-1.0)     (nicht existent)'),\n            (b'branches/branch-1.0/', PRE_CREATION))\n\n        self.assertEqual(\n            self.tool.parse_diff_revision(\n                filename=b'',\n                revision='        (.../trunk)     (\u4e0d\u5b58\u5728\u7684)'.encode('utf-8')),\n            (b'trunk/', PRE_CREATION))\n\n    def test_interface(self):\n        \"\"\"Testing SVN (<backend>) with basic SVNTool API\"\"\"\n        self.assertFalse(self.tool.diffs_use_absolute_paths)\n\n        self.assertRaises(NotImplementedError,\n                          lambda: self.tool.get_changeset(1))\n\n    def test_binary_diff(self):\n        \"\"\"Testing SVN (<backend>) parsing SVN diff with binary file\"\"\"\n        diff = (\n            b'Index: binfile\\n'\n            b'============================================================'\n            b'=======\\n'\n            b'Cannot display: file marked as a binary type.\\n'\n            b'svn:mime-type = application/octet-stream\\n'\n        )\n\n        parsed_files = self.tool.get_parser(diff).parse()\n        self.assertEqual(len(parsed_files), 1)\n\n        self.assert_parsed_diff_file(\n            parsed_files[0],\n            orig_filename=b'binfile',\n            orig_file_details=b'(unknown)',\n            modified_filename=b'binfile',\n            modified_file_details=b'(working copy)',\n            index_header_value=b'binfile',\n            binary=True,\n            data=diff)\n\n    def test_binary_diff_with_property_change(self):\n        \"\"\"Testing SVN (<backend>) parsing SVN diff with binary file with\n        property change\n        \"\"\"\n        diff = (\n            b'Index: binfile\\n'\n            b'============================================================'\n            b'=======\\n'\n            b'Cannot display: file marked as a binary type.\\n'\n            b'svn:mime-type = application/octet-stream\\n'\n            b'\\n'\n            b'Property changes on: binfile\\n'\n            b'____________________________________________________________'\n            b'_______\\n'\n            b'Added: svn:mime-type\\n'\n            b'## -0,0 +1 ##\\n'\n            b'+application/octet-stream\\n'\n            b'\\\\ No newline at end of property\\n'\n        )\n\n        parsed_files = self.tool.get_parser(diff).parse()\n        self.assertEqual(len(parsed_files), 1)\n\n        self.assert_parsed_diff_file(\n            parsed_files[0],\n            orig_filename=b'binfile',\n            orig_file_details=b'(unknown)',\n            modified_filename=b'binfile',\n            modified_file_details=b'(working copy)',\n            index_header_value=b'binfile',\n            binary=True,\n            insert_count=1,\n            data=diff)\n\n    def test_keyword_diff(self):\n        \"\"\"Testing SVN (<backend>) parsing diff with keywords\"\"\"\n        # 'svn cat' will expand special variables in svn:keywords,\n        # but 'svn diff' doesn't expand anything.  This causes the\n        # patch to fail if those variables appear in the patch context.\n        diff = (b'Index: Makefile\\n'\n                b'==========================================================='\n                b'========\\n'\n                b'--- Makefile    (revision 4)\\n'\n                b'+++ Makefile    (working copy)\\n'\n                b'@@ -1,6 +1,7 @@\\n'\n                b' # $Id$\\n'\n                b' # $Rev$\\n'\n                b' # $Revision::     $\\n'\n                b'+# foo\\n'\n                b' include ../tools/Makefile.base-vars\\n'\n                b' NAME = misc-docs\\n'\n                b' OUTNAME = svn-misc-docs\\n')\n\n        filename = 'trunk/doc/misc-docs/Makefile'\n        rev = Revision('4')\n        file = self.tool.get_file(filename, rev)\n        patch(diff, file, filename)\n\n    def test_unterminated_keyword_diff(self):\n        \"\"\"Testing SVN (<backend>) parsing diff with unterminated keywords\"\"\"\n        diff = (b'Index: Makefile\\n'\n                b'==========================================================='\n                b'========\\n'\n                b'--- Makefile    (revision 4)\\n'\n                b'+++ Makefile    (working copy)\\n'\n                b'@@ -1,6 +1,7 @@\\n'\n                b' # $Id$\\n'\n                b' # $Id:\\n'\n                b' # $Rev$\\n'\n                b' # $Revision::     $\\n'\n                b'+# foo\\n'\n                b' include ../tools/Makefile.base-vars\\n'\n                b' NAME = misc-docs\\n'\n                b' OUTNAME = svn-misc-docs\\n')\n\n        filename = 'trunk/doc/misc-docs/Makefile'\n        rev = Revision('5')\n        file = self.tool.get_file(filename, rev)\n        patch(diff, file, filename)\n\n    def test_svn16_property_diff(self):\n        \"\"\"Testing SVN (<backend>) parsing SVN 1.6 diff with property changes\n        \"\"\"\n        diff = (\n            b'Index:\\n'\n            b'======================================================'\n            b'=============\\n'\n            b'--- (revision 123)\\n'\n            b'+++ (working copy)\\n'\n            b'Property changes on: .\\n'\n            b'______________________________________________________'\n            b'_____________\\n'\n            b'Modified: reviewboard:url\\n'\n            b'## -1 +1 ##\\n'\n            b'-http://reviews.reviewboard.org\\n'\n            b'+http://reviews.reviewboard.org\\n'\n            b'Index: binfile\\n'\n            b'======================================================='\n            b'============\\nCannot display: file marked as a '\n            b'binary type.\\nsvn:mime-type = application/octet-stream\\n'\n        )\n\n        parsed_files = self.tool.get_parser(diff).parse()\n        self.assertEqual(len(parsed_files), 1)\n\n        self.assert_parsed_diff_file(\n            parsed_files[0],\n            orig_filename=b'binfile',\n            orig_file_details=b'(unknown)',\n            modified_filename=b'binfile',\n            modified_file_details=b'(working copy)',\n            index_header_value=b'binfile',\n            binary=True,\n            data=diff)\n\n    def test_svn17_property_diff(self):\n        \"\"\"Testing SVN (<backend>) parsing SVN 1.7+ diff with property changes\n        \"\"\"\n        diff = (\n            b'Index .:\\n'\n            b'======================================================'\n            b'=============\\n'\n            b'--- .  (revision 123)\\n'\n            b'+++ .  (working copy)\\n'\n            b'\\n'\n            b'Property changes on: .\\n'\n            b'______________________________________________________'\n            b'_____________\\n'\n            b'Modified: reviewboard:url\\n'\n            b'## -0,0 +1,3 ##\\n'\n            b'-http://reviews.reviewboard.org\\n'\n            b'+http://reviews.reviewboard.org\\n'\n            b'Added: myprop\\n'\n            b'## -0,0 +1 ##\\n'\n            b'+Property test.\\n'\n            b'Index: binfile\\n'\n            b'======================================================='\n            b'============\\nCannot display: file marked as a '\n            b'binary type.\\nsvn:mime-type = application/octet-stream\\n'\n        )\n\n        parsed_files = self.tool.get_parser(diff).parse()\n        self.assertEqual(len(parsed_files), 1)\n\n        self.assert_parsed_diff_file(\n            parsed_files[0],\n            orig_filename=b'binfile',\n            orig_file_details=b'(unknown)',\n            modified_filename=b'binfile',\n            modified_file_details=b'(working copy)',\n            index_header_value=b'binfile',\n            binary=True,\n            data=diff)\n\n    def test_unicode_diff(self):\n        \"\"\"Testing SVN (<backend>) parsing diff with unicode characters\"\"\"\n        diff = (\n            'Index: Fil\u00e9\\n'\n            '==========================================================='\n            '========\\n'\n            '--- Fil\u00e9    (revision 4)\\n'\n            '+++ Fil\u00e9    (working copy)\\n'\n            '@@ -1,6 +1,7 @@\\n'\n            '+# fo\u00f3\\n'\n            ' include ../tools/Makefile.base-vars\\n'\n            ' NAME = misc-docs\\n'\n            ' OUTNAME = svn-misc-docs\\n'\n        ).encode('utf-8')\n\n        parsed_files = self.tool.get_parser(diff).parse()\n        self.assertEqual(len(parsed_files), 1)\n\n        self.assert_parsed_diff_file(\n            parsed_files[0],\n            orig_filename='Fil\u00e9'.encode('utf-8'),\n            orig_file_details=b'(revision 4)',\n            modified_filename='Fil\u00e9'.encode('utf-8'),\n            modified_file_details=b'(working copy)',\n            index_header_value='Fil\u00e9'.encode('utf-8'),\n            insert_count=1,\n            data=diff)\n\n    def test_diff_with_spaces_in_filenames(self):\n        \"\"\"Testing SVN (<backend>) parsing diff with spaces in filenames\"\"\"\n        diff = (\n            b'Index: File with spaces\\n'\n            b'==========================================================='\n            b'========\\n'\n            b'--- File with spaces    (revision 4)\\n'\n            b'+++ File with spaces    (working copy)\\n'\n            b'@@ -1,6 +1,7 @@\\n'\n            b'+# foo\\n'\n            b' include ../tools/Makefile.base-vars\\n'\n            b' NAME = misc-docs\\n'\n            b' OUTNAME = svn-misc-docs\\n'\n        )\n\n        parsed_files = self.tool.get_parser(diff).parse()\n        self.assertEqual(len(parsed_files), 1)\n\n        self.assert_parsed_diff_file(\n            parsed_files[0],\n            orig_filename=b'File with spaces',\n            orig_file_details=b'(revision 4)',\n            modified_filename=b'File with spaces',\n            modified_file_details=b'(working copy)',\n            index_header_value=b'File with spaces',\n            insert_count=1,\n            data=diff)\n\n    def test_diff_with_added_empty_file(self):\n        \"\"\"Testing parsing SVN diff with added empty file\"\"\"\n        diff = (\n            b'Index: empty-file\\t(added)\\n'\n            b'==========================================================='\n            b'========\\n'\n            b'--- empty-file\\t(revision 0)\\n'\n            b'+++ empty-file\\t(revision 0)\\n'\n        )\n\n        parsed_files = self.tool.get_parser(diff).parse()\n        self.assertEqual(len(parsed_files), 1)\n\n        self.assert_parsed_diff_file(\n            parsed_files[0],\n            orig_filename=b'empty-file',\n            orig_file_details=b'(revision 0)',\n            modified_filename=b'empty-file',\n            modified_file_details=b'(revision 0)',\n            index_header_value=b'empty-file\\t(added)',\n            data=diff)\n\n    def test_diff_with_deleted_empty_file(self):\n        \"\"\"Testing parsing SVN diff with deleted empty file\"\"\"\n        diff = (\n            b'Index: empty-file\\t(deleted)\\n'\n            b'==========================================================='\n            b'========\\n'\n            b'--- empty-file\\t(revision 4)\\n'\n            b'+++ empty-file\\t(working copy)\\n'\n        )\n\n        parsed_files = self.tool.get_parser(diff).parse()\n        self.assertEqual(len(parsed_files), 1)\n\n        self.assert_parsed_diff_file(\n            parsed_files[0],\n            orig_filename=b'empty-file',\n            orig_file_details=b'(revision 4)',\n            modified_filename=b'empty-file',\n            modified_file_details=b'(working copy)',\n            index_header_value=b'empty-file\\t(deleted)',\n            deleted=True,\n            data=diff)\n\n    def test_diff_with_nonexistent_revision_for_dest_file(self):\n        \"\"\"Testing parsing SVN diff with deleted file using \"nonexistent\"\n        destination revision\n        \"\"\"\n        diff = (\n            b'Index: deleted-file\\n'\n            b'==========================================================='\n            b'========\\n'\n            b'--- deleted-file\\t(revision 4)\\n'\n            b'+++ deleted-file\\t(nonexistent)\\n'\n            b'@@ -1,2 +0,0 @@\\n'\n            b'-line 1\\n'\n            b'-line 2\\n'\n        )\n\n        parsed_files = self.tool.get_parser(diff).parse()\n        self.assertEqual(len(parsed_files), 1)\n\n        self.assert_parsed_diff_file(\n            parsed_files[0],\n            orig_filename=b'deleted-file',\n            orig_file_details=b'(revision 4)',\n            modified_filename=b'deleted-file',\n            modified_file_details=b'(nonexistent)',\n            index_header_value=b'deleted-file',\n            deleted=True,\n            delete_count=2,\n            data=diff)\n\n    def test_idea_diff(self):\n        \"\"\"Testing parsing SVN diff with multi-file diff generated by IDEA\n        IDEs\n        \"\"\"\n        diff1 = (\n            b'Index: path/to/README\\n'\n            b'IDEA additional info:\\n'\n            b'Subsystem: org.reviewboard.org.test\\n'\n            b'<+>ISO-8859-1\\n'\n            b'=============================================================='\n            b'=====\\n'\n            b'--- path/to/README\\t(revision 4)\\n'\n            b'+++ path/to/README\\t(revision )\\n'\n            b'@@ -1,6 +1,7 @@\\n'\n            b' #\\n'\n            b' #\\n'\n            b' #\\n'\n            b'+# test\\n'\n            b' #\\n'\n            b' #\\n'\n            b' #\\n'\n        )\n        diff2 = (\n            b'Index: path/to/README2\\n'\n            b'IDEA additional info:\\n'\n            b'Subsystem: org.reviewboard.org.test\\n'\n            b'<+>ISO-8859-1\\n'\n            b'=============================================================='\n            b'=====\\n'\n            b'--- path/to/README2\\t(revision 4)\\n'\n            b'+++ path/to/README2\\t(revision )\\n'\n            b'@@ -1,6 +1,7 @@\\n'\n            b' #\\n'\n            b' #\\n'\n            b' #\\n'\n            b'+# test\\n'\n            b' #\\n'\n            b' #\\n'\n            b' #\\n'\n        )\n        diff = diff1 + diff2\n\n        parsed_files = self.tool.get_parser(diff).parse()\n        self.assertEqual(len(parsed_files), 2)\n\n        self.assert_parsed_diff_file(\n            parsed_files[0],\n            orig_filename=b'path/to/README',\n            orig_file_details=b'(revision 4)',\n            modified_filename=b'path/to/README',\n            modified_file_details=b'(revision )',\n            index_header_value=b'path/to/README',\n            insert_count=1,\n            data=diff1)\n\n        self.assert_parsed_diff_file(\n            parsed_files[1],\n            orig_filename=b'path/to/README2',\n            orig_file_details=b'(revision 4)',\n            modified_filename=b'path/to/README2',\n            modified_file_details=b'(revision )',\n            index_header_value=b'path/to/README2',\n            insert_count=1,\n            data=diff2)\n\n    def test_get_branches(self):\n        \"\"\"Testing SVN (<backend>) get_branches\"\"\"\n        branches = self.tool.get_branches()\n\n        self.assertEqual(len(branches), 3)\n        self.assertEqual(branches[0], Branch(id='trunk', name='trunk',\n                                             commit='12', default=True))\n        self.assertEqual(branches[1], Branch(id='branches/branch1',\n                                             name='branch1',\n                                             commit='7', default=False))\n        self.assertEqual(branches[2], Branch(id='top-level-branch',\n                                             name='top-level-branch',\n                                             commit='10', default=False))\n\n    def test_get_commits(self):\n        \"\"\"Testing SVN (<backend>) get_commits\"\"\"\n        commits = self.tool.get_commits(start='5')\n\n        self.assertEqual(len(commits), 5)\n        self.assertEqual(\n            commits[0],\n            Commit('chipx86',\n                   '5',\n                   '2010-05-21T09:33:40.893946',\n                   'Add an unterminated keyword for testing bug #1523\\n',\n                   '4'))\n\n        commits = self.tool.get_commits(start='7')\n        self.assertEqual(len(commits), 7)\n        self.assertEqual(\n            commits[1],\n            Commit('david',\n                   '6',\n                   '2013-06-13T07:43:04.725088',\n                   'Add a branches directory',\n                   '5'))\n\n    def test_get_commits_with_branch(self):\n        \"\"\"Testing SVN (<backend>) get_commits with branch\"\"\"\n        commits = self.tool.get_commits(branch='/branches/branch1', start='5')\n\n        self.assertEqual(len(commits), 5)\n        self.assertEqual(\n            commits[0],\n            Commit('chipx86',\n                   '5',\n                   '2010-05-21T09:33:40.893946',\n                   'Add an unterminated keyword for testing bug #1523\\n',\n                   '4'))\n\n        commits = self.tool.get_commits(branch='/branches/branch1', start='7')\n        self.assertEqual(len(commits), 6)\n        self.assertEqual(\n            commits[0],\n            Commit('david',\n                   '7',\n                   '2013-06-13T07:43:27.259554',\n                   'Add a branch',\n                   '5'))\n        self.assertEqual(\n            commits[1],\n            Commit('chipx86',\n                   '5',\n                   '2010-05-21T09:33:40.893946',\n                   'Add an unterminated keyword for testing bug #1523\\n',\n                   '4'))\n\n    def test_get_commits_with_no_date(self):\n        \"\"\"Testing SVN (<backend>) get_commits with no date in commit\"\"\"\n        def _get_log(*args, **kwargs):\n            return [\n                {\n                    'author': 'chipx86',\n                    'revision': '5',\n                    'message': 'Commit 1',\n                },\n            ]\n\n        self.spy_on(self.tool.client.get_log, _get_log)\n\n        commits = self.tool.get_commits(start='5')\n\n        self.assertEqual(len(commits), 1)\n        self.assertEqual(\n            commits[0],\n            Commit('chipx86',\n                   '5',\n                   '',\n                   'Commit 1'))\n\n    def test_get_commits_with_exception(self):\n        \"\"\"Testing SVN (<backend>) get_commits with exception\"\"\"\n        def _get_log(*args, **kwargs):\n            raise Exception('Bad things happened')\n\n        self.spy_on(self.tool.client.get_log, _get_log)\n\n        with self.assertRaisesMessage(SCMError, 'Bad things happened'):\n            self.tool.get_commits(start='5')\n\n    def test_get_change(self):\n        \"\"\"Testing SVN (<backend>) get_change\"\"\"\n        commit = self.tool.get_change('5')\n\n        self.assertEqual(md5(commit.message.encode('utf-8')).hexdigest(),\n                         '928336c082dd756e3f7af4cde4724ebf')\n        self.assertEqual(md5(commit.diff).hexdigest(),\n                         '56e50374056931c03a333f234fa63375')\n\n    def test_utf8_keywords(self):\n        \"\"\"Testing SVN (<backend>) with UTF-8 files with keywords\"\"\"\n        self.repository.get_file('trunk/utf8-file.txt', '9')\n\n    def test_normalize_patch_with_svn_and_expanded_keywords(self):\n        \"\"\"Testing SVN (<backend>) normalize_patch with expanded keywords\"\"\"\n        diff = (\n            b'Index: Makefile\\n'\n            b'==========================================================='\n            b'========\\n'\n            b'--- Makefile    (revision 4)\\n'\n            b'+++ Makefile    (working copy)\\n'\n            b'@@ -1,6 +1,7 @@\\n'\n            b' # $Id$\\n'\n            b' # $Rev: 123$\\n'\n            b' # $Revision:: 123   $\\n'\n            b'+# foo\\n'\n            b' include ../tools/Makefile.base-vars\\n'\n            b' NAME = misc-docs\\n'\n            b' OUTNAME = svn-misc-docs\\n'\n        )\n\n        normalized = self.tool.normalize_patch(\n            patch=diff,\n            filename='trunk/doc/misc-docs/Makefile',\n            revision='4')\n\n        self.assertEqual(\n            normalized,\n            b'Index: Makefile\\n'\n            b'==========================================================='\n            b'========\\n'\n            b'--- Makefile    (revision 4)\\n'\n            b'+++ Makefile    (working copy)\\n'\n            b'@@ -1,6 +1,7 @@\\n'\n            b' # $Id$\\n'\n            b' # $Rev$\\n'\n            b' # $Revision::       $\\n'\n            b'+# foo\\n'\n            b' include ../tools/Makefile.base-vars\\n'\n            b' NAME = misc-docs\\n'\n            b' OUTNAME = svn-misc-docs\\n')\n\n    def test_normalize_patch_with_svn_and_no_expanded_keywords(self):\n        \"\"\"Testing SVN (<backend>) normalize_patch with no expanded keywords\"\"\"\n        diff = (\n            b'Index: Makefile\\n'\n            b'==========================================================='\n            b'========\\n'\n            b'--- Makefile    (revision 4)\\n'\n            b'+++ Makefile    (working copy)\\n'\n            b'@@ -1,6 +1,7 @@\\n'\n            b' # $Id$\\n'\n            b' # $Rev$\\n'\n            b' # $Revision::    $\\n'\n            b'+# foo\\n'\n            b' include ../tools/Makefile.base-vars\\n'\n            b' NAME = misc-docs\\n'\n            b' OUTNAME = svn-misc-docs\\n'\n        )\n\n        normalized = self.tool.normalize_patch(\n            patch=diff,\n            filename='trunk/doc/misc-docs/Makefile',\n            revision='4')\n\n        self.assertEqual(\n            normalized,\n            b'Index: Makefile\\n'\n            b'==========================================================='\n            b'========\\n'\n            b'--- Makefile    (revision 4)\\n'\n            b'+++ Makefile    (working copy)\\n'\n            b'@@ -1,6 +1,7 @@\\n'\n            b' # $Id$\\n'\n            b' # $Rev$\\n'\n            b' # $Revision::    $\\n'\n            b'+# foo\\n'\n            b' include ../tools/Makefile.base-vars\\n'\n            b' NAME = misc-docs\\n'\n            b' OUTNAME = svn-misc-docs\\n')\n\n\nclass PySVNTests(_CommonSVNTestCase):\n    backend = 'reviewboard.scmtools.svn.pysvn'\n    backend_name = 'pysvn'\n\n\nclass SubvertpyTests(_CommonSVNTestCase):\n    backend = 'reviewboard.scmtools.svn.subvertpy'\n    backend_name = 'subvertpy'\n\n\nclass UtilsTests(SCMTestCase):\n    \"\"\"Unit tests for reviewboard.scmtools.svn.utils.\"\"\"\n\n    def test_collapse_svn_keywords(self):\n        \"\"\"Testing collapse_svn_keywords\"\"\"\n        keyword_test_data = [\n            (b'Id',\n             b'/* $Id: test2.c 3 2014-08-04 22:55:09Z david $ */',\n             b'/* $Id$ */'),\n            (b'id',\n             b'/* $Id: test2.c 3 2014-08-04 22:55:09Z david $ */',\n             b'/* $Id$ */'),\n            (b'id',\n             b'/* $id: test2.c 3 2014-08-04 22:55:09Z david $ */',\n             b'/* $id$ */'),\n            (b'Id',\n             b'/* $id: test2.c 3 2014-08-04 22:55:09Z david $ */',\n             b'/* $id$ */')\n        ]\n\n        for keyword, data, result in keyword_test_data:\n            self.assertEqual(collapse_svn_keywords(data, keyword),\n                             result)\n\n    def test_has_expanded_svn_keywords(self):\n        \"\"\"Testing has_expanded_svn_keywords\"\"\"\n        self.assertTrue(has_expanded_svn_keywords(b'.. $ID: 123$ ..'))\n        self.assertTrue(has_expanded_svn_keywords(b'.. $id::  123$ ..'))\n\n        self.assertFalse(has_expanded_svn_keywords(b'.. $Id::   $ ..'))\n        self.assertFalse(has_expanded_svn_keywords(b'.. $Id$ ..'))\n        self.assertFalse(has_expanded_svn_keywords(b'.. $Id ..'))\n        self.assertFalse(has_expanded_svn_keywords(b'.. $Id Here$ ..'))\n\n\nclass SVNAuthFormTests(TestCase):\n    \"\"\"Unit tests for SVNTool's authentication form.\"\"\"\n\n    def test_fields(self):\n        \"\"\"Testing SVNTool authentication form fields\"\"\"\n        form = SVNTool.create_auth_form()\n\n        self.assertEqual(list(form.fields), ['username', 'password'])\n        self.assertEqual(form['username'].help_text, '')\n        self.assertEqual(form['username'].label, 'Username')\n        self.assertEqual(form['password'].help_text, '')\n        self.assertEqual(form['password'].label, 'Password')\n\n    @add_fixtures(['test_scmtools'])\n    def test_load(self):\n        \"\"\"Tetting SVNTool authentication form load\"\"\"\n        repository = self.create_repository(\n            tool_name='Subversion',\n            username='test-user',\n            password='test-pass')\n\n        form = SVNTool.create_auth_form(repository=repository)\n        form.load()\n\n        self.assertEqual(form['username'].value(), 'test-user')\n        self.assertEqual(form['password'].value(), 'test-pass')\n\n    @add_fixtures(['test_scmtools'])\n    def test_save(self):\n        \"\"\"Tetting SVNTool authentication form save\"\"\"\n        repository = self.create_repository(tool_name='Subversion')\n\n        form = SVNTool.create_auth_form(\n            repository=repository,\n            data={\n                'username': 'test-user',\n                'password': 'test-pass',\n            })\n        self.assertTrue(form.is_valid())\n        form.save()\n\n        self.assertEqual(repository.username, 'test-user')\n        self.assertEqual(repository.password, 'test-pass')\n\n\nclass SVNRepositoryFormTests(TestCase):\n    \"\"\"Unit tests for SVNTool's repository form.\"\"\"\n\n    def test_fields(self):\n        \"\"\"Testing SVNTool repository form fields\"\"\"\n        form = SVNTool.create_repository_form()\n\n        self.assertEqual(list(form.fields), ['path', 'mirror_path'])\n        self.assertEqual(form['path'].help_text,\n                         'The path to the repository. This will generally be '\n                         'the URL you would use to check out the repository.')\n        self.assertEqual(form['path'].label, 'Path')\n        self.assertEqual(form['mirror_path'].help_text, '')\n        self.assertEqual(form['mirror_path'].label, 'Mirror Path')\n\n    @add_fixtures(['test_scmtools'])\n    def test_load(self):\n        \"\"\"Tetting SVNTool repository form load\"\"\"\n        repository = self.create_repository(\n            tool_name='Subversion',\n            path='https://svn.example.com/',\n            mirror_path='https://svn.mirror.example.com')\n\n        form = SVNTool.create_repository_form(repository=repository)\n        form.load()\n\n        self.assertEqual(form['path'].value(), 'https://svn.example.com/')\n        self.assertEqual(form['mirror_path'].value(),\n                         'https://svn.mirror.example.com')\n\n    @add_fixtures(['test_scmtools'])\n    def test_save(self):\n        \"\"\"Tetting SVNTool repository form save\"\"\"\n        repository = self.create_repository(tool_name='Subversion')\n\n        form = SVNTool.create_repository_form(\n            repository=repository,\n            data={\n                'path': 'https://svn.example.com/',\n                'mirror_path': 'https://svn.mirror.example.com',\n            })\n        self.assertTrue(form.is_valid())\n        form.save()\n\n        self.assertEqual(repository.path, 'https://svn.example.com/')\n        self.assertEqual(repository.mirror_path,\n                         'https://svn.mirror.example.com')\n",
+        "activation": 3804.595947265625
+      },
+      {
+        "text": "c import FoobotClient\nimport voluptuous as vol\n\nfrom homeassistant.const import (\n    ATTR_TEMPERATURE,\n    ATTR_TIME,\n    CONF_TOKEN,\n    CONF_USERNAME,\n    TEMP_CELSIUS,\n)\nfrom homeassistant.exceptions import PlatformNotReady\nfrom homeassistant.helpers.aiohttp_client import async_get_clientsession\nimport homeassistant.helpers.config_validation as cv\nfrom homeassistant.helpers.config_validation import PLATFORM_SCHEMA\nfrom homeassistant.helpers.entity import Entity\nfrom homeassistant.util import Throttle\n\n_LOGGER = logging.getLogger(__name__)\n\nATTR_HUMIDITY = \"humidity\"\nATTR_PM2_5 = \"PM2.5\"\nATTR_CARBON_DIOXIDE = \"CO2\"\nATTR_VOLATILE_ORGANIC_COMPOUNDS = \"VOC\"\nATTR_FOOBOT_INDEX = \"index\"\n\nSENSOR_TYPES = {\n    \"time\": [ATTR_TIME, \"s\"],\n    \"pm\": [ATTR_PM2_5, \"\u00b5g/m3\", \"mdi:cloud\"],\n    \"tmp\": [ATTR_TEMPERATURE, TEMP_CELSIUS, \"mdi:thermometer\"],\n    \"hum\": [ATTR_HUMIDITY, \"%\", \"mdi:water-percent\"],\n    \"co2\": [ATTR_CARBON_DIOXIDE, \"ppm\", \"mdi:periodic-table-co2\"],\n    \"voc\": [ATTR_VOLATILE_ORGANIC_COMPOUNDS, \"ppb\", \"mdi:cloud\"],\n    \"allpollu\": [ATTR_FOOBOT_INDEX, \"%\", \"mdi:percent\"],\n}\n\nSCAN_INTERVAL = timedelta(minutes=10)\nPARALLEL_UPDATES = 1\n\nTIMEOUT = 10\n\nPLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(\n    {vol.Required(CONF_TOKEN): cv.string, vol.Required(CONF_USERNAME): cv.string}\n)\n\n\nasync def async_setup_platform(hass, config, async_add_entities, discovery_info=None):\n    \"\"\"Set up the devices associated with the account.\"\"\"\n    token = config.get(CONF_TOKEN)\n    username = config.get(CONF_USERNAME)\n\n    client = FoobotClient(\n        token, username, async_get_clientsession(hass), timeout=TIMEOUT\n    )\n    dev = []\n    try:\n        devices = await client.get_devices()\n        _LOGGER.debug(\"The following devices were found: %s\", devices)\n        for device in devices:\n            foobot_data = FoobotData(client, device[\"uuid\"])\n            for sensor_type in SENSOR_TYPES:\n                if sensor_type == \"time\":\n                    continue\n                foobot_sensor = FoobotSensor(foobot_data, device, sensor_type)\n                dev.append(foobot_sensor)\n    except (\n        aiohttp.client_exceptions.ClientConnectorError,\n        asyncio.TimeoutError,\n        FoobotClient.TooManyRequests,\n        FoobotClient.InternalError,\n    ):\n        _LOGGER.exception(\"Failed to connect to foobot servers.\")\n        raise PlatformNotReady\n    except FoobotClient.ClientError:\n        _LOGGER.error(\"Failed to fetch data from foobot servers.\")\n        return\n    async_add_entities(dev, True)\n\n\nclass FoobotSensor(Entity):\n    \"\"\"Implementation of a Foobot sensor.\"\"\"\n\n    def __init__(self, data, device, sensor_type):\n        \"\"\"Initialize the sensor.\"\"\"\n        self._uuid = device[\"uuid\"]\n        self.foobot_data = data\n        self._name = \"Foobot {} {}\".format(device[\"name\"], SENSOR_TYPES[sensor_type][0])\n        self.type = sensor_type\n        self._unit_of_measurement = SENSOR_TYPES[sensor_type][1]\n\n    @property\n    def name(self):\n        \"\"\"Return the name of the sensor.\"\"\"\n        return self._name\n\n    @property\n    def icon(self):\n        \"\"\"Icon to use in the frontend.\"\"\"\n        return SENSOR_TYPES[self.type][2]\n\n    @property\n    def state(self):\n        \"\"\"Return the state of the device.\"\"\"\n        try:\n            data = self.foobot_data.data[self.type]\n        except (KeyError, TypeError):\n            data = None\n        return data\n\n    @property\n    def unique_id(self):\n        \"\"\"Return the unique id of this entity.\"\"\"\n        return f\"{self._uuid}_{self.type}\"\n\n    @property\n    def unit_of_measurement(self):\n        \"\"\"Return the unit of measurement of this entity.\"\"\"\n        return self._unit_of_measurement\n\n    async def async_update(self):\n        \"\"\"Get the latest data.\"\"\"\n        await self.foobot_data.async_update()\n\n\nclass FoobotData(Entity):\n    \"\"\"Get data from Foobot API.\"\"\"\n\n    def __init__(self, client, uuid):\n        \"\"\"Initialize the data object.\"\"\"\n        self._client = client\n        self._uuid = uuid\n        self.data = {}\n\n    @Throttle(SCAN_INTERVAL)\n    async def async_update(self):\n        \"\"\"Get the data from Foobot API.\"\"\"\n        interval = SCAN_INTERVAL.total_seconds()\n        try:\n            response = await self._client.get_last_data(\n                self._uuid, interval, interval + 1\n            )\n        except (\n            aiohttp.client_exceptions.ClientConnectorError,\n            asyncio.TimeoutError,\n            self._client.TooManyRequests,\n            self._client.InternalError,\n        ):\n            _LOGGER.debug(\"Couldn't fetch data\")\n            return False\n        _LOGGER.debug(\"The data response is: %s\", response)\n        self.data = {k: round(v, 1) for k, v in response[0].items()}\n        return True\n",
+        "activation": 3786.83544921875
+      },
+      {
+        "text": "grideditor\n\n\nclass SimpleOverlay(urwid.Overlay):\n    def __init__(self, master, widget, parent, width, valign=\"middle\"):\n        self.widget = widget\n        self.master = master\n        super().__init__(\n            widget,\n            parent,\n            align=\"center\",\n            width=width,\n            valign=valign,\n            height=\"pack\"\n        )\n\n    def keypress(self, size, key):\n        key = super().keypress(size, key)\n        if key == \"esc\":\n            signals.pop_view_state.send(self)\n        if key == \"?\":\n            self.master.view_help(self.widget.make_help())\n        else:\n            return key\n\n\nclass Choice(urwid.WidgetWrap):\n    def __init__(self, txt, focus, current):\n        if current:\n            s = \"option_active_selected\" if focus else \"option_active\"\n        else:\n            s = \"option_selected\" if focus else \"text\"\n        return super().__init__(\n            urwid.AttrWrap(\n                urwid.Padding(urwid.Text(txt)),\n                s,\n            )\n        )\n\n    def selectable(self):\n        return True\n\n    def keypress(self, size, key):\n        return key\n\n\nclass ChooserListWalker(urwid.ListWalker):\n    def __init__(self, choices, current):\n        self.index = 0\n        self.choices = choices\n        self.current = current\n\n    def _get(self, idx, focus):\n        c = self.choices[idx]\n        return Choice(c, focus, c == self.current)\n\n    def set_focus(self, index):\n        self.index = index\n\n    def get_focus(self):\n        return self._get(self.index, True), self.index\n\n    def get_next(self, pos):\n        if pos >= len(self.choices) - 1:\n            return None, None\n        pos = pos + 1\n        return self._get(pos, False), pos\n\n    def get_prev(self, pos):\n        pos = pos - 1\n        if pos < 0:\n            return None, None\n        return self._get(pos, False), pos\n\n\nclass Chooser(urwid.WidgetWrap):\n    def __init__(self, title, choices, current, callback):\n        self.choices = choices\n        self.callback = callback\n        choicewidth = max([len(i) for i in choices])\n        self.width = max(choicewidth, len(title) + 5)\n        self.walker = ChooserListWalker(choices, current)\n        super().__init__(\n            urwid.AttrWrap(\n                urwid.LineBox(\n                    urwid.BoxAdapter(\n                        urwid.ListBox(self.walker),\n                        len(choices)\n                    ),\n                    title= title\n                ),\n                \"background\"\n            )\n        )\n\n    def selectable(self):\n        return True\n\n    def keypress(self, size, key):\n        key = common.shortcuts(key)\n        if key == \"enter\":\n            self.callback(self.choices[self.walker.index])\n            signals.pop_view_state.send(self)\n        return super().keypress(size, key)\n\n    def make_help(self):\n        text = []\n        keys = [\n            (\"enter\", \"choose option\"),\n            (\"esc\", \"exit chooser\"),\n        ]\n        text.extend(common.format_keyvals(keys, key=\"key\", val=\"text\", indent=4))\n        return text\n\n\nclass OptionsOverlay(urwid.WidgetWrap):\n    def __init__(self, master, name, vals, vspace):\n        \"\"\"\n            vspace: how much vertical space to keep clear\n        \"\"\"\n        cols, rows = master.ui.get_cols_rows()\n        self.ge = grideditor.OptionsEditor(master, name, vals)\n        super().__init__(\n            urwid.AttrWrap(\n                urwid.LineBox(\n                    urwid.BoxAdapter(self.ge, rows - vspace),\n                    title=name\n                ),\n                \"background\"\n            )\n        )\n        self.width = math.ceil(cols * 0.8)\n\n    def make_help(self):\n        return self.ge.make_help()\n",
+        "activation": 3779.17578125
+      },
+      {
+        "text": "go.template.defaultfilters import slugify\r\nfrom django.utils.encoding import smart_text\r\nfrom unidecode import unidecode\r\nfrom django.forms.widgets import FILE_INPUT_CONTRADICTION, CheckboxInput, ClearableFileInput\r\n\r\n\r\nclass ImagePreviewWidget(AdminFileWidget):\r\n\r\n    template_name = 'admin/attachment/widgets/preview_image_input.html'\r\n\r\n    def render(self, name, value, attrs=None, renderer=None):\r\n        output = []\r\n        output.append(super(AdminFileWidget, self).render(name, value, attrs)) # really for AdminFileWidget\r\n        instance = getattr(value, 'instance', None)\r\n        if instance is not None and value:\r\n            output = ['<a target=\"_blank\" href=\"%s\"><img src=\"%s\" alt=\"%s\"/></a>' % \\\r\n                (instance.image.url, instance.thumb.url, instance.image)] + output\r\n        return mark_safe(u''.join(output))\r\n\r\n    def value_from_datadict(self, data, files, name):\r\n\r\n        for key, file in files.items():\r\n            filename = file._get_name()\r\n            ext = u\"\"\r\n            if '.' in filename:\r\n                ext = u\".\" + filename.rpartition('.')[2]\r\n            filename = filename.rpartition('.')[0]\r\n            filename = re.sub(r'[_.,:;@#$%^&?*|()\\[\\]]', '-', filename)\r\n            filename = slugify(unidecode(smart_text(filename))) + ext\r\n            files[key]._set_name(filename)\r\n\r\n        upload = super(ImagePreviewWidget, self).value_from_datadict(data, files, name)\r\n        if not self.is_required and CheckboxInput().value_from_datadict(\r\n                data, files, self.clear_checkbox_name(name)):\r\n\r\n            if upload:\r\n                # If the user contradicts themselves (uploads a new file AND\r\n                # checks the \"clear\" checkbox), we return a unique marker\r\n                # object that FileField will turn into a ValidationError.\r\n                return FILE_INPUT_CONTRADICTION\r\n            # False signals to clear any existing value, as opposed to just None\r\n            return False\r\n        return upload\r\n\r\n\r\nclass ImagePreviewWidgetHorizontal(ImagePreviewWidget):\r\n\r\n    template_name = 'admin/attachment/widgets/preview_image_input_horizontal.html'\r\n\r\n\r\nclass ImagePreviewWidgetVertical(ImagePreviewWidget):\r\n\r\n    template_name = 'admin/attachment/widgets/preview_image_input_vertical.html'\r\n\r\n\r\nclass FileWidget(ClearableFileInput):\r\n\r\n    def value_from_datadict(self, data, files, name):\r\n        for key, file in files.items():\r\n            filename = file._get_name()\r\n            ext = u\"\"\r\n            if '.' in filename:\r\n                ext = u\".\" + filename.rpartition('.')[2]\r\n            filename = filename.rpartition('.')[0]\r\n            filename = re.sub(r'[_.,:;@#$%^&?*|()\\[\\]]', '-', filename)\r\n            filename = slugify(unidecode(smart_text(filename))) + ext\r\n            files[key]._set_name(filename)\r\n\r\n        return files.get(name, None)\r\n",
+        "activation": 3773.6982421875
+      },
+      {
+        "text": "d/or modify\n# it under the terms of the GNU Affero General Public License as published by\n# the Free Software Foundation, either version 3 of the License, or\n# (at your option) any later version.\n#\n# weboob is distributed in the hope that it will be useful,\n# but WITHOUT ANY WARRANTY; without even the implied warranty of\n# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the\n# GNU Affero General Public License for more details.\n#\n# You should have received a copy of the GNU Affero General Public License\n# along with weboob. If not, see <http://www.gnu.org/licenses/>.\n\nimport requests.cookies\ntry:\n    import cookielib\nexcept ImportError:\n    import http.cookiejar as cookielib\n\n\n__all__ = ['WeboobCookieJar']\n\n\nclass WeboobCookieJar(requests.cookies.RequestsCookieJar):\n    @classmethod\n    def from_cookiejar(klass, cj):\n        \"\"\"\n        Create a WeboobCookieJar from another CookieJar instance.\n        \"\"\"\n        return requests.cookies.merge_cookies(klass(), cj)\n\n    def export(self, filename):\n        \"\"\"\n        Export all cookies to a file, regardless of expiration, etc.\n        \"\"\"\n        cj = requests.cookies.merge_cookies(cookielib.LWPCookieJar(), self)\n        cj.save(filename, ignore_discard=True, ignore_expires=True)\n\n    def _cookies_from_attrs_set(self, attrs_set, request):\n        for tup in self._normalized_cookie_tuples(attrs_set):\n            cookie = self._cookie_from_cookie_tuple(tup, request)\n            if cookie:\n                yield cookie\n\n    def make_cookies(self, response, request):\n        \"\"\"Return sequence of Cookie objects extracted from response object.\"\"\"\n        # get cookie-attributes for RFC 2965 and Netscape protocols\n        headers = response.info()\n        rfc2965_hdrs = headers.getheaders(\"Set-Cookie2\")\n        ns_hdrs = headers.getheaders(\"Set-Cookie\")\n\n        rfc2965 = self._policy.rfc2965\n        netscape = self._policy.netscape\n\n        if netscape:\n            for cookie in self._cookies_from_attrs_set(cookielib.parse_ns_headers(ns_hdrs), request):\n                self._process_rfc2109_cookies([cookie])\n                yield cookie\n\n        if rfc2965:\n            for cookie in self._cookies_from_attrs_set(cookielib.split_header_words(rfc2965_hdrs), request):\n                yield cookie\n\n    def copy(self):\n        new_cj = type(self)()\n        new_cj.update(self)\n        return new_cj\n",
+        "activation": 3756.08447265625
+      },
+      {
+        "text": "the License.\n# You may obtain a copy of the License at\n#\n#     https://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n\nfrom __future__ import absolute_import\n\nimport collections\nimport io\nimport json\nimport time\n\ntry:\n    import fastavro\nexcept ImportError:  # pragma: NO COVER\n    fastavro = None\nimport google.api_core.exceptions\nimport google.rpc.error_details_pb2\n\ntry:\n    import pandas\nexcept ImportError:  # pragma: NO COVER\n    pandas = None\ntry:\n    import pyarrow\nexcept ImportError:  # pragma: NO COVER\n    pyarrow = None\n\ntry:\n    import pyarrow\nexcept ImportError:  # pragma: NO COVER\n    pyarrow = None\n\n\n_STREAM_RESUMPTION_EXCEPTIONS = (\n    google.api_core.exceptions.ServiceUnavailable,\n    # Caused by transport-level error. No status code was received.\n    # https://github.com/googleapis/python-bigquery-storage/issues/262\n    google.api_core.exceptions.Unknown,\n)\n\n# The Google API endpoint can unexpectedly close long-running HTTP/2 streams.\n# Unfortunately, this condition is surfaced to the caller as an internal error\n# by gRPC. We don't want to resume on all internal errors, so instead we look\n# for error message that we know are caused by problems that are safe to\n# reconnect.\n_STREAM_RESUMPTION_INTERNAL_ERROR_MESSAGES = (\n    # See: https://github.com/googleapis/google-cloud-python/pull/9994\n    \"RST_STREAM\",\n)\n\n_FASTAVRO_REQUIRED = (\n    \"fastavro is required to parse ReadRowResponse messages with Avro bytes.\"\n)\n_PANDAS_REQUIRED = \"pandas is required to create a DataFrame\"\n_PYARROW_REQUIRED = (\n    \"pyarrow is required to parse ReadRowResponse messages with Arrow bytes.\"\n)\n\n\nclass ReadRowsStream(object):\n    \"\"\"A stream of results from a read rows request.\n\n    This stream is an iterable of\n    :class:`~google.cloud.bigquery_storage_v1.types.ReadRowsResponse`.\n    Iterate over it to fetch all row messages.\n\n    If the fastavro library is installed, use the\n    :func:`~google.cloud.bigquery_storage_v1.reader.ReadRowsStream.rows()`\n    method to parse all messages into a stream of row dictionaries.\n\n    If the pandas and fastavro libraries are installed, use the\n    :func:`~google.cloud.bigquery_storage_v1.reader.ReadRowsStream.to_dataframe()`\n    method to parse all messages into a :class:`pandas.DataFrame`.\n\n    This object should not be created directly, but is returned by\n    other methods in this library.\n    \"\"\"\n\n    def __init__(\n        self, client, name, offset, read_rows_kwargs, retry_delay_callback=None\n    ):\n        \"\"\"Construct a ReadRowsStream.\n\n        Args:\n            client ( \\\n                ~google.cloud.bigquery_storage_v1.services. \\\n                    big_query_read.BigQueryReadClient \\\n            ):\n                A GAPIC client used to reconnect to a ReadRows stream. This\n                must be the GAPIC client to avoid a circular dependency on\n                this class.\n            name (str):\n                Required. Stream ID from which rows are being read.\n            offset (int):\n                Required. Position in the stream to start\n                reading from. The offset requested must be less than the last\n                row read from ReadRows. Requesting a larger offset is\n                undefined.\n            read_rows_kwargs (dict):\n                Keyword arguments to use when reconnecting to a ReadRows\n                stream.\n            retry_delay_callback (Optional[Callable[[float], None]]):\n                If the client receives a retryable error that asks the client to\n                delay its next attempt and retry_delay_callback is not None,\n                ReadRowsStream will call retry_delay_callback with the delay\n                duration (in seconds) before it starts sleeping until the next\n                attempt.\n\n        Returns:\n            Iterable[ \\\n                ~google.cloud.bigquery_storage.types.ReadRowsResponse \\\n            ]:\n                A sequence of row messages.\n        \"\"\"\n\n        # Make a copy of the read position so that we can update it without\n        # mutating the original input.\n        self._client = client\n        self._name = name\n        self._offset = offset\n        self._read_rows_kwargs = read_rows_kwargs\n        self._retry_delay_callback = retry_delay_callback\n        self._wrapped = None\n\n    def __iter__(self):\n        \"\"\"An iterable of messages.\n\n        Returns:\n            Iterable[ \\\n                ~google.cloud.bigquery_storage_v1.types.ReadRowsResponse \\\n            ]:\n                A sequence of row messages.\n        \"\"\"\n        # Infinite loop to reconnect on reconnectable errors while processing\n        # the row stream.\n\n        if self._wrapped is None:\n            self._reconnect()\n\n        while True:\n            try:\n                for message in self._wrapped:\n                    rowcount = message.row_count\n                    self._offset += rowcount\n                    yield message\n\n                return  # Made it through the whole stream.\n            except google.api_core.exceptions.InternalServerError as exc:\n                resumable_error = any(\n                    resumable_message in exc.message\n                    for resumable_message in _STREAM_RESUMPTION_INTERNAL_ERROR_MESSAGES\n                )\n                if not resumable_error:\n                    raise\n            except _STREAM_RESUMPTION_EXCEPTIONS:\n                # Transient error, so reconnect to the stream.\n                pass\n            except Exception as exc:\n                if not self._resource_exhausted_exception_is_retryable(exc):\n                    raise\n\n            self._reconnect()\n\n    def _reconnect(self):\n        \"\"\"Reconnect to the ReadRows stream using the most recent offset.\"\"\"\n        while True:\n            try:\n                self._wrapped = self._client.read_rows(\n                    read_stream=self._name,\n                    offset=self._offset,\n                    **self._read_rows_kwargs\n                )\n                break\n            except Exception as exc:\n                if not self._resource_exhausted_exception_is_retryable(exc):\n                    raise\n\n    def _resource_exhausted_exception_is_retryable(self, exc):\n        if isinstance(exc, google.api_core.exceptions.ResourceExhausted):\n            # ResourceExhausted errors are only retried if a valid\n            # RetryInfo is provided with the error.\n            #\n            # TODO: Remove hasattr logic when we require google-api-core >= 2.2.0.\n            #       ResourceExhausted added details/_details in google-api-core 2.2.0.\n            details = None\n            if hasattr(exc, \"details\"):\n                details = exc.details\n            elif hasattr(exc, \"_details\"):\n                details = exc._details\n            if details is not None:\n                for detail in details:\n                    if isinstance(detail, google.rpc.error_details_pb2.RetryInfo):\n                        retry_delay = detail.retry_delay\n                        if retry_delay is not None:\n                            delay = max(\n                                0,\n                                float(retry_delay.seconds)\n                                + (float(retry_delay.nanos) / 1e9),\n                            )\n                            if self._retry_delay_callback:\n                                self._retry_delay_callback(delay)\n                            time.sleep(delay)\n                            return True\n        return False\n\n    def rows(self, read_session=None):\n        \"\"\"Iterate over all rows in the stream.\n\n        This method requires the fastavro library in order to parse row\n        messages in avro format.  For arrow format messages, the pyarrow\n        library is required.\n\n        .. warning::\n            DATETIME columns are not supported. They are currently parsed as\n            strings in the fastavro library.\n\n        Args:\n            read_session ( \\\n                Optional[~google.cloud.bigquery_storage_v1.types.ReadSession] \\\n            ):\n                DEPRECATED.\n\n                This argument was used to specify the schema of the rows in the\n                stream, but now the first message in a read stream contains\n                this information.\n\n        Returns:\n            Iterable[Mapping]:\n                A sequence of rows, represented as dictionaries.\n        \"\"\"\n        return ReadRowsIterable(self, read_session=read_session)\n\n    def to_arrow(self, read_session=None):\n        \"\"\"Create a :class:`pyarrow.Table` of all rows in the stream.\n\n        This method requires the pyarrow library and a stream using the Arrow\n        format.\n\n        Args:\n            read_session ( \\\n                ~google.cloud.bigquery_storage_v1.types.ReadSession \\\n            ):\n                DEPRECATED.\n\n                This argument was used to specify the schema of the rows in the\n                stream, but now the first message in a read stream contains\n                this information.\n\n        Returns:\n            pyarrow.Table:\n                A table of all rows in the stream.\n        \"\"\"\n        return self.rows(read_session=read_session).to_arrow()\n\n    def to_dataframe(self, read_session=None, dtypes=None):\n        \"\"\"Create a :class:`pandas.DataFrame` of all rows in the stream.\n\n        This method requires the pandas libary to create a data frame and the\n        fastavro library to parse row messages.\n\n        .. warning::\n            DATETIME columns are not supported. They are currently parsed as\n            strings.\n\n        Args:\n            read_session ( \\\n                ~google.cloud.bigquery_storage_v1.types.ReadSession \\\n            ):\n                DEPRECATED.\n\n                This argument was used to specify the schema of the rows in the\n                stream, but now the first message in a read stream contains\n                this information.\n            dtypes ( \\\n                Map[str, Union[str, pandas.Series.dtype]] \\\n            ):\n                Optional. A dictionary of column names pandas ``dtype``s. The\n                provided ``dtype`` is used when constructing the series for\n                the column specified. Otherwise, the default pandas behavior\n                is used.\n\n        Returns:\n            pandas.DataFrame:\n                A data frame of all rows in the stream.\n        \"\"\"\n        if pandas is None:\n            raise ImportError(_PANDAS_REQUIRED)\n\n        return self.rows(read_session=read_session).to_dataframe(dtypes=dtypes)\n\n\nclass ReadRowsIterable(object):\n    \"\"\"An iterable of rows from a read session.\n\n    Args:\n        reader (google.cloud.bigquery_storage_v1.reader.ReadRowsStream):\n            A read rows stream.\n        read_session ( \\\n            Optional[~google.cloud.bigquery_storage_v1.types.ReadSession] \\\n        ):\n            DEPRECATED.\n\n            This argument was used to specify the schema of the rows in the\n            stream, but now the first message in a read stream contains\n            this information.\n    \"\"\"\n\n    # This class is modelled after the google.cloud.bigquery.table.RowIterator\n    # and aims to be API compatible where possible.\n\n    def __init__(self, reader, read_session=None):\n        self._reader = reader\n        if read_session is not None:\n            self._stream_parser = _StreamParser.from_read_session(read_session)\n        else:\n            self._stream_parser = None\n\n    @property\n    def pages(self):\n        \"\"\"A generator of all pages in the stream.\n\n        Returns:\n            types.GeneratorType[google.cloud.bigquery_storage_v1.ReadRowsPage]:\n                A generator of pages.\n        \"\"\"\n        # Each page is an iterator of rows. But also has num_items, remaining,\n        # and to_dataframe.\n        for message in self._reader:\n            # Only the first message contains the schema, which is needed to\n            # decode the messages.\n            if not self._stream_parser:\n                self._stream_parser = _StreamParser.from_read_rows_response(message)\n            yield ReadRowsPage(self._stream_parser, message)\n\n    def __iter__(self):\n        \"\"\"Iterator for each row in all pages.\"\"\"\n        for page in self.pages:\n            for row in page:\n                yield row\n\n    def to_arrow(self):\n        \"\"\"Create a :class:`pyarrow.Table` of all rows in the stream.\n\n        This method requires the pyarrow library and a stream using the Arrow\n        format.\n\n        Returns:\n            pyarrow.Table:\n                A table of all rows in the stream.\n        \"\"\"\n        record_batches = []\n        for page in self.pages:\n            record_batches.append(page.to_arrow())\n\n        if record_batches:\n            return pyarrow.Table.from_batches(record_batches)\n\n        # No data, return an empty Table.\n        self._stream_parser._parse_arrow_schema()\n        return pyarrow.Table.from_batches([], schema=self._stream_parser._schema)\n\n    def to_dataframe(self, dtypes=None):\n        \"\"\"Create a :class:`pandas.DataFrame` of all rows in the stream.\n\n        This method requires the pandas libary to create a data frame and the\n        fastavro library to parse row messages.\n\n        .. warning::\n            DATETIME columns are not supported. They are currently parsed as\n            strings in the fastavro library.\n\n        Args:\n            dtypes ( \\\n                Map[str, Union[str, pandas.Series.dtype]] \\\n            ):\n                Optional. A dictionary of column names pandas ``dtype``s. The\n                provided ``dtype`` is used when constructing the series for\n                the column specified. Otherwise, the default pandas behavior\n                is used.\n\n        Returns:\n            pandas.DataFrame:\n                A data frame of all rows in the stream.\n        \"\"\"\n        if pandas is None:\n            raise ImportError(_PANDAS_REQUIRED)\n\n        if dtypes is None:\n            dtypes = {}\n\n        # If it's an Arrow stream, calling to_arrow, then converting to a\n        # pandas dataframe is about 2x faster. This is because pandas.concat is\n        # rarely no-copy, whereas pyarrow.Table.from_batches + to_pandas is\n        # usually no-copy.\n        try:\n            record_batch = self.to_arrow()\n        except NotImplementedError:\n            pass\n        else:\n            df = record_batch.to_pandas()\n            for column in dtypes:\n                df[column] = pandas.Series(df[column], dtype=dtypes[column])\n            return df\n\n        frames = [page.to_dataframe(dtypes=dtypes) for page in self.pages]\n\n        if frames:\n            return pandas.concat(frames)\n\n        # No data, construct an empty dataframe with columns matching the schema.\n        # The result should be consistent with what an empty ARROW stream would produce.\n        self._stream_parser._parse_avro_schema()\n        schema = self._stream_parser._avro_schema_json\n\n        column_dtypes = self._dtypes_from_avro(schema[\"fields\"])\n        column_dtypes.update(dtypes)\n\n        df = pandas.DataFrame(columns=column_dtypes.keys())\n        for column in df:\n            df[column] = pandas.Series([], dtype=column_dtypes[column])\n\n        return df\n\n    def _dtypes_from_avro(self, avro_fields):\n        \"\"\"Determine Pandas dtypes for columns in Avro schema.\n\n        Args:\n            avro_fields (Iterable[Mapping[str, Any]]):\n                Avro fields' metadata.\n\n        Returns:\n            colelctions.OrderedDict[str, str]:\n                Column names with their corresponding Pandas dtypes.\n        \"\"\"\n        result = collections.OrderedDict()\n\n        type_map = {\"long\": \"int64\", \"double\": \"float64\", \"boolean\": \"bool\"}\n\n        for field_info in avro_fields:\n            # If a type is an union of multiple types, pick the first type\n            # that is not \"null\".\n            if isinstance(field_info[\"type\"], list):\n                type_info = next(item for item in field_info[\"type\"] if item != \"null\")\n\n            if isinstance(type_info, str):\n                field_dtype = type_map.get(type_info, \"object\")\n            else:\n                logical_type = type_info.get(\"logicalType\")\n                if logical_type == \"timestamp-micros\":\n                    field_dtype = \"datetime64[ns, UTC]\"\n                else:\n                    field_dtype = \"object\"\n\n            result[field_info[\"name\"]] = field_dtype\n\n        return result\n\n\nclass ReadRowsPage(object):\n    \"\"\"An iterator of rows from a read session message.\n\n    Args:\n        stream_parser (google.cloud.bigquery_storage_v1.reader._StreamParser):\n            A helper for parsing messages into rows.\n        message (google.cloud.bigquery_storage_v1.types.ReadRowsResponse):\n            A message of data from a read rows stream.\n    \"\"\"\n\n    # This class is modeled after google.api_core.page_iterator.Page and aims\n    # to provide API compatibility where possible.\n\n    def __init__(self, stream_parser, message):\n        self._stream_parser = stream_parser\n        self._message = message\n        self._iter_rows = None\n        self._num_items = self._message.row_count\n        self._remaining = self._message.row_count\n\n    def _parse_rows(self):\n        \"\"\"Parse rows from the message only once.\"\"\"\n        if self._iter_rows is not None:\n            return\n\n        rows = self._stream_parser.to_rows(self._message)\n        self._iter_rows = iter(rows)\n\n    @property\n    def num_items(self):\n        \"\"\"int: Total items in the page.\"\"\"\n        return self._num_items\n\n    @property\n    def remaining(self):\n        \"\"\"int: Remaining items in the page.\"\"\"\n        return self._remaining\n\n    def __iter__(self):\n        \"\"\"A ``ReadRowsPage`` is an iterator.\"\"\"\n        return self\n\n    def next(self):\n        \"\"\"Get the next row in the page.\"\"\"\n        self._parse_rows()\n        if self._remaining > 0:\n            self._remaining -= 1\n        return next(self._iter_rows)\n\n    # Alias needed for Python 2/3 support.\n    __next__ = next\n\n    def to_arrow(self):\n        \"\"\"Create an :class:`pyarrow.RecordBatch` of rows in the page.\n\n        Returns:\n            pyarrow.RecordBatch:\n                Rows from the message, as an Arrow record batch.\n        \"\"\"\n        return self._stream_parser.to_arrow(self._message)\n\n    def to_dataframe(self, dtypes=None):\n        \"\"\"Create a :class:`pandas.DataFrame` of rows in the page.\n\n        This method requires the pandas libary to create a data frame and the\n        fastavro library to parse row messages.\n\n        .. warning::\n            DATETIME columns are not supported. They are currently parsed as\n            strings in the fastavro library.\n\n        Args:\n            dtypes ( \\\n                Map[str, Union[str, pandas.Series.dtype]] \\\n            ):\n                Optional. A dictionary of column names pandas ``dtype``s. The\n                provided ``dtype`` is used when constructing the series for\n                the column specified. Otherwise, the default pandas behavior\n                is used.\n\n        Returns:\n            pandas.DataFrame:\n                A data frame of all rows in the stream.\n        \"\"\"\n        if pandas is None:\n            raise ImportError(_PANDAS_REQUIRED)\n\n        return self._stream_parser.to_dataframe(self._message, dtypes=dtypes)\n\n\nclass _StreamParser(object):\n    def to_arrow(self, message):\n        raise NotImplementedError(\"Not implemented.\")\n\n    def to_dataframe(self, message, dtypes=None):\n        raise NotImplementedError(\"Not implemented.\")\n\n    def to_rows(self, message):\n        raise NotImplementedError(\"Not implemented.\")\n\n    def _parse_avro_schema(self):\n        raise NotImplementedError(\"Not implemented.\")\n\n    def _parse_arrow_schema(self):\n        raise NotImplementedError(\"Not implemented.\")\n\n    @staticmethod\n    def from_read_session(read_session):\n        schema_type = read_session._pb.WhichOneof(\"schema\")\n        if schema_type == \"avro_schema\":\n            return _AvroStreamParser(read_session)\n        elif schema_type == \"arrow_schema\":\n            return _ArrowStreamParser(read_session)\n        else:\n            raise TypeError(\n                \"Unsupported schema type in read_session: {0}\".format(schema_type)\n            )\n\n    @staticmethod\n    def from_read_rows_response(message):\n        schema_type = message._pb.WhichOneof(\"schema\")\n        if schema_type == \"avro_schema\":\n            return _AvroStreamParser(message)\n        elif schema_type == \"arrow_schema\":\n            return _ArrowStreamParser(message)\n        else:\n            raise TypeError(\n                \"Unsupported schema type in message: {0}\".format(schema_type)\n            )\n\n\nclass _AvroStreamParser(_StreamParser):\n    \"\"\"Helper to parse Avro messages into useful representations.\"\"\"\n\n    def __init__(self, message):\n        \"\"\"Construct an _AvroStreamParser.\n\n        Args:\n            message (Union[\n                google.cloud.bigquery_storage_v1.types.ReadSession, \\\n                google.cloud.bigquery_storage_v1.types.ReadRowsResponse, \\\n            ]):\n                Either the first message of data from a read rows stream or a\n                read session. Both types contain a oneof \"schema\" field, which\n                can be used to determine how to deserialize rows.\n        \"\"\"\n        if fastavro is None:\n            raise ImportError(_FASTAVRO_REQUIRED)\n\n        self._first_message = message\n        self._avro_schema_json = None\n        self._fastavro_schema = None\n        self._column_names = None\n\n    def to_arrow(self, message):\n        \"\"\"Create an :class:`pyarrow.RecordBatch` of rows in the page.\n\n        Args:\n            message (google.cloud.bigquery_storage_v1.types.ReadRowsResponse):\n                Protocol buffer from the read rows stream, to convert into an\n                Arrow record batch.\n\n        Returns:\n            pyarrow.RecordBatch:\n                Rows from the message, as an Arrow record batch.\n        \"\"\"\n        raise NotImplementedError(\"to_arrow not implemented for Avro streams.\")\n\n    def to_dataframe(self, message, dtypes=None):\n        \"\"\"Create a :class:`pandas.DataFrame` of rows in the page.\n\n        This method requires the pandas libary to create a data frame and the\n        fastavro library to parse row messages.\n\n        .. warning::\n            DATETIME columns are not supported. They are currently parsed as\n            strings in the fastavro library.\n\n        Args:\n            message ( \\\n                ~google.cloud.bigquery_storage_v1.types.ReadRowsResponse \\\n            ):\n                A message containing Avro bytes to parse into a pandas DataFrame.\n            dtypes ( \\\n                Map[str, Union[str, pandas.Series.dtype]] \\\n            ):\n                Optional. A dictionary of column names pandas ``dtype``s. The\n                provided ``dtype`` is used when constructing the series for\n                the column specified. Otherwise, the default pandas behavior\n                is used.\n\n        Returns:\n            pandas.DataFrame:\n                A data frame of all rows in the stream.\n        \"\"\"\n        self._parse_avro_schema()\n\n        if dtypes is None:\n            dtypes = {}\n\n        columns = collections.defaultdict(list)\n        for row in self.to_rows(message):\n            for column in row:\n                columns[column].append(row[column])\n        for column in dtypes:\n            columns[column] = pandas.Series(columns[column], dtype=dtypes[column])\n        return pandas.DataFrame(columns, columns=self._column_names)\n\n    def _parse_avro_schema(self):\n        \"\"\"Extract and parse Avro schema from a read session.\"\"\"\n        if self._avro_schema_json:\n            return\n\n        self._avro_schema_json = json.loads(self._first_message.avro_schema.schema)\n        self._column_names = tuple(\n            (field[\"name\"] for field in self._avro_schema_json[\"fields\"])\n        )\n        self._first_message = None\n\n    def _parse_fastavro(self):\n        \"\"\"Convert parsed Avro schema to fastavro format.\"\"\"\n        self._parse_avro_schema()\n        self._fastavro_schema = fastavro.parse_schema(self._avro_schema_json)\n\n    def to_rows(self, message):\n        \"\"\"Parse all rows in a stream message.\n\n        Args:\n            message ( \\\n                ~google.cloud.bigquery_storage_v1.types.ReadRowsResponse \\\n            ):\n                A message containing Avro bytes to parse into rows.\n\n        Returns:\n            Iterable[Mapping]:\n                A sequence of rows, represented as dictionaries.\n        \"\"\"\n        self._parse_fastavro()\n        messageio = io.BytesIO(message.avro_rows.serialized_binary_rows)\n        while True:\n            # Loop in a while loop because schemaless_reader can only read\n            # a single record.\n            try:\n                # TODO: Parse DATETIME into datetime.datetime (no timezone),\n                #       instead of as a string.\n                yield fastavro.schemaless_reader(messageio, self._fastavro_schema)\n            except StopIteration:\n                break  # Finished with message\n\n\nclass _ArrowStreamParser(_StreamParser):\n    def __init__(self, message):\n        \"\"\"Construct an _ArrowStreamParser.\n\n        Args:\n            message (Union[\n                google.cloud.bigquery_storage_v1.types.ReadSession, \\\n                google.cloud.bigquery_storage_v1.types.ReadRowsResponse, \\\n            ]):\n                Either the first message of data from a read rows stream or a\n                read session. Both types contain a oneof \"schema\" field, which\n                can be used to determine how to deserialize rows.\n        \"\"\"\n        if pyarrow is None:\n            raise ImportError(_PYARROW_REQUIRED)\n\n        self._first_message = message\n        self._schema = None\n\n    def to_arrow(self, message):\n        return self._parse_arrow_message(message)\n\n    def to_rows(self, message):\n        record_batch = self._parse_arrow_message(message)\n\n        # Iterate through each column simultaneously, and make a dict from the\n        # row values\n        for row in zip(*record_batch.columns):\n            yield dict(zip(self._column_names, row))\n\n    def to_dataframe(self, message, dtypes=None):\n        record_batch = self._parse_arrow_message(message)\n\n        if dtypes is None:\n            dtypes = {}\n\n        df = record_batch.to_pandas()\n\n        for column in dtypes:\n            df[column] = pandas.Series(df[column], dtype=dtypes[column])\n\n        return df\n\n    def _parse_arrow_message(self, message):\n        self._parse_arrow_schema()\n\n        return pyarrow.ipc.read_record_batch(\n            pyarrow.py_buffer(message.arrow_record_batch.serialized_record_batch),\n            self._schema,\n        )\n\n    def _parse_arrow_schema(self):\n        if self._schema:\n            return\n\n        self._schema = pyarrow.ipc.read_schema(\n            pyarrow.py_buffer(self._first_message.arrow_schema.serialized_schema)\n        )\n        self._column_names = [field.name for field in self._schema]\n        self._first_message = None\n",
+        "activation": 3749.191162109375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 230\n\nTop activating examples (format: [activation] text):\n  [4109.536] menta, Inc.  Unless you have an agreement\n# with Numenta, Inc., for a separate license for this software code, the\n# following terms and conditions apply:\n#\n# This program is free software: you can redistribute it and/or modify\n# it under the terms of the GNU General Public License version 3 as\n# pu\n  [4036.017] tially funded by the European Community through the\n# 7th Framework Programme project CREW (FP7-ICT-2009-258301).\n#\n# This program is free software: you can redistribute it and/or modify it\n# under the terms of the GNU General Public License as published by the Free\n# Software Foundation, either ver\n  [3948.635] defined by a texture image and\n        4 boundary points. Choose the first point as the origin\n        of the surface's coordinate system.\n\n        :param image: image array\n        :param edge_points3d: array of 3d coordinates of 4 corner points in clockwise direction\n        :param edge_points2d:\n  [3906.957] t in compliance with the License. You may obtain\n#    a copy of the License at\n#\n#         http://www.apache.org/licenses/LICENSE-2.0\n#\n#    Unless required by applicable law or agreed to in writing, software\n#    distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT\n#    WARRANT\n  [3804.596] s\nfrom kgb import SpyAgency\n\nfrom reviewboard.diffviewer.diffutils import patch\nfrom reviewboard.diffviewer.testing.mixins import DiffParserTestingMixin\nfrom reviewboard.scmtools.core import (Branch, Commit, Revision, HEAD,\n                                       PRE_CREATION)\nfrom reviewboard.scmtoo\n  [3786.835] c import FoobotClient\nimport voluptuous as vol\n\nfrom homeassistant.const import (\n    ATTR_TEMPERATURE,\n    ATTR_TIME,\n    CONF_TOKEN,\n    CONF_USERNAME,\n    TEMP_CELSIUS,\n)\nfrom homeassistant.exceptions import PlatformNotReady\nfrom homeassistant.helpers.aiohttp_client import async_get_clientsession\n  [3779.176] grideditor\n\n\nclass SimpleOverlay(urwid.Overlay):\n    def __init__(self, master, widget, parent, width, valign=\"middle\"):\n        self.widget = widget\n        self.master = master\n        super().__init__(\n            widget,\n            parent,\n            align=\"center\",\n            width=width,\n  [3773.698] go.template.defaultfilters import slugify\r\nfrom django.utils.encoding import smart_text\r\nfrom unidecode import unidecode\r\nfrom django.forms.widgets import FILE_INPUT_CONTRADICTION, CheckboxInput, ClearableFileInput\r\n\r\n\r\nclass ImagePreviewWidget(AdminFileWidget):\r\n\r\n    template_name = 'admin/attachm\n  [3756.084] d/or modify\n# it under the terms of the GNU Affero General Public License as published by\n# the Free Software Foundation, either version 3 of the License, or\n# (at your option) any later version.\n#\n# weboob is distributed in the hope that it will be useful,\n# but WITHOUT ANY WARRANTY; without even t\n  [3749.191] the License.\n# You may obtain a copy of the License at\n#\n#     https://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, eithe\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 230,
+      "k1_auc": 0.9788408139358309
+    },
+    {
+      "latent_idx": 2232,
+      "k1_auc": 0.9772047710986252
+    },
+    {
+      "latent_idx": 16076,
+      "k1_auc": 0.9725510879232923
+    },
+    {
+      "latent_idx": 15219,
+      "k1_auc": 0.9714067618283185
+    },
+    {
+      "latent_idx": 11697,
+      "k1_auc": 0.9650939865934876
+    },
+    {
+      "latent_idx": 434,
+      "k1_auc": 0.9177608268072398
+    },
+    {
+      "latent_idx": 2920,
+      "k1_auc": 0.8758003955427324
+    },
+    {
+      "latent_idx": 8338,
+      "k1_auc": 0.7974113463638269
+    },
+    {
+      "latent_idx": 13320,
+      "k1_auc": 0.7603757655957364
+    },
+    {
+      "latent_idx": 7650,
+      "k1_auc": 0.7585935183779133
+    },
+    {
+      "latent_idx": 7400,
+      "k1_auc": 0.7451533360811622
+    },
+    {
+      "latent_idx": 1143,
+      "k1_auc": 0.738231338264963
+    },
+    {
+      "latent_idx": 9404,
+      "k1_auc": 0.7217280951038029
+    },
+    {
+      "latent_idx": 9216,
+      "k1_auc": 0.7103512701477319
+    },
+    {
+      "latent_idx": 8071,
+      "k1_auc": 0.708383951233269
+    },
+    {
+      "latent_idx": 5556,
+      "k1_auc": 0.7021981726938124
+    },
+    {
+      "latent_idx": 12902,
+      "k1_auc": 0.6882615282267104
+    },
+    {
+      "latent_idx": 5841,
+      "k1_auc": 0.6746692662573849
+    },
+    {
+      "latent_idx": 7497,
+      "k1_auc": 0.6730757063004822
+    },
+    {
+      "latent_idx": 6234,
+      "k1_auc": 0.6726522333340564
+    },
+    {
+      "latent_idx": 2046,
+      "k1_auc": 0.6515011822895199
+    },
+    {
+      "latent_idx": 1484,
+      "k1_auc": 0.6407281565683957
+    },
+    {
+      "latent_idx": 3564,
+      "k1_auc": 0.62965119747489
+    },
+    {
+      "latent_idx": 12092,
+      "k1_auc": 0.6243216297517553
+    },
+    {
+      "latent_idx": 8504,
+      "k1_auc": 0.6202794288854662
+    },
+    {
+      "latent_idx": 2119,
+      "k1_auc": 0.6182795698924731
+    },
+    {
+      "latent_idx": 9599,
+      "k1_auc": 0.6165813845441858
+    },
+    {
+      "latent_idx": 11135,
+      "k1_auc": 0.6165142706322175
+    },
+    {
+      "latent_idx": 7230,
+      "k1_auc": 0.6100681714645204
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.610034275549385
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.6094160140573139
+    },
+    {
+      "latent_idx": 13850,
+      "k1_auc": 0.6066727046590161
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.6051186899364385
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.6040340206521031
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.6034241201524322
+    },
+    {
+      "latent_idx": 10027,
+      "k1_auc": 0.6018967702164277
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5994336670499165
+    },
+    {
+      "latent_idx": 7013,
+      "k1_auc": 0.599225320158217
+    },
+    {
+      "latent_idx": 6575,
+      "k1_auc": 0.5964381720430108
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5957984431380206
+    },
+    {
+      "latent_idx": 14803,
+      "k1_auc": 0.594758064516129
+    },
+    {
+      "latent_idx": 4559,
+      "k1_auc": 0.5924822927739332
+    },
+    {
+      "latent_idx": 9581,
+      "k1_auc": 0.5904618702590914
+    },
+    {
+      "latent_idx": 485,
+      "k1_auc": 0.5896024958240234
+    },
+    {
+      "latent_idx": 6977,
+      "k1_auc": 0.5891055817081372
+    },
+    {
+      "latent_idx": 4561,
+      "k1_auc": 0.5879108636859955
+    },
+    {
+      "latent_idx": 7631,
+      "k1_auc": 0.5874243443174176
+    },
+    {
+      "latent_idx": 1596,
+      "k1_auc": 0.5873655913978495
+    },
+    {
+      "latent_idx": 15557,
+      "k1_auc": 0.5866842835036263
+    },
+    {
+      "latent_idx": 15865,
+      "k1_auc": 0.5863839656955261
+    },
+    {
+      "latent_idx": 1469,
+      "k1_auc": 0.5863428386518283
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5845626251889132
+    },
+    {
+      "latent_idx": 12496,
+      "k1_auc": 0.5837256220578346
+    },
+    {
+      "latent_idx": 4073,
+      "k1_auc": 0.5833392086252902
+    },
+    {
+      "latent_idx": 6800,
+      "k1_auc": 0.5780297524784693
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5778320263068457
+    },
+    {
+      "latent_idx": 6356,
+      "k1_auc": 0.5772277751263639
+    },
+    {
+      "latent_idx": 14560,
+      "k1_auc": 0.5768013645139598
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5754857510611681
+    },
+    {
+      "latent_idx": 11294,
+      "k1_auc": 0.5750952701188075
+    },
+    {
+      "latent_idx": 7724,
+      "k1_auc": 0.5749831876260928
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5743762247724002
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5742144282708201
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5730036661821811
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5709568048535336
+    },
+    {
+      "latent_idx": 9628,
+      "k1_auc": 0.5682403862145764
+    },
+    {
+      "latent_idx": 7889,
+      "k1_auc": 0.5673690352228272
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5657969426788438
+    },
+    {
+      "latent_idx": 9435,
+      "k1_auc": 0.5656240735116529
+    },
+    {
+      "latent_idx": 16181,
+      "k1_auc": 0.5646031285477724
+    },
+    {
+      "latent_idx": 5523,
+      "k1_auc": 0.5635855731754054
+    },
+    {
+      "latent_idx": 3524,
+      "k1_auc": 0.563351013442668
+    },
+    {
+      "latent_idx": 1545,
+      "k1_auc": 0.5630997317251304
+    },
+    {
+      "latent_idx": 14510,
+      "k1_auc": 0.5623998940639665
+    },
+    {
+      "latent_idx": 7791,
+      "k1_auc": 0.5612822327555662
+    },
+    {
+      "latent_idx": 4064,
+      "k1_auc": 0.5610126472438554
+    },
+    {
+      "latent_idx": 200,
+      "k1_auc": 0.5605534705801534
+    },
+    {
+      "latent_idx": 5282,
+      "k1_auc": 0.5596710469227933
+    },
+    {
+      "latent_idx": 2444,
+      "k1_auc": 0.5582749871647468
+    },
+    {
+      "latent_idx": 3207,
+      "k1_auc": 0.5570838847068861
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5564141014238092
+    },
+    {
+      "latent_idx": 4975,
+      "k1_auc": 0.5561908403294502
+    },
+    {
+      "latent_idx": 6892,
+      "k1_auc": 0.5557782140558677
+    },
+    {
+      "latent_idx": 5642,
+      "k1_auc": 0.5552263885574621
+    },
+    {
+      "latent_idx": 1004,
+      "k1_auc": 0.5549147721109834
+    },
+    {
+      "latent_idx": 16322,
+      "k1_auc": 0.55450779515659
+    },
+    {
+      "latent_idx": 1053,
+      "k1_auc": 0.5537702200432423
+    },
+    {
+      "latent_idx": 6239,
+      "k1_auc": 0.5531745558279282
+    },
+    {
+      "latent_idx": 6098,
+      "k1_auc": 0.5525942577608087
+    },
+    {
+      "latent_idx": 6837,
+      "k1_auc": 0.5522900984156598
+    },
+    {
+      "latent_idx": 11652,
+      "k1_auc": 0.5504262750287438
+    },
+    {
+      "latent_idx": 11377,
+      "k1_auc": 0.5501438090692815
+    },
+    {
+      "latent_idx": 9967,
+      "k1_auc": 0.5499892436962637
+    },
+    {
+      "latent_idx": 11063,
+      "k1_auc": 0.5497646267652992
+    },
+    {
+      "latent_idx": 6852,
+      "k1_auc": 0.5497137828925961
+    },
+    {
+      "latent_idx": 4810,
+      "k1_auc": 0.5487558843308675
+    },
+    {
+      "latent_idx": 2698,
+      "k1_auc": 0.548689448337202
+    },
+    {
+      "latent_idx": 5696,
+      "k1_auc": 0.5485977033935687
+    },
+    {
+      "latent_idx": 12324,
+      "k1_auc": 0.5485084441503786
+    },
+    {
+      "latent_idx": 14421,
+      "k1_auc": 0.5480833893745797
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5469248269952491
+    },
+    {
+      "latent_idx": 7313,
+      "k1_auc": 0.5464387595722064
+    },
+    {
+      "latent_idx": 12748,
+      "k1_auc": 0.5429836359560636
+    },
+    {
+      "latent_idx": 12732,
+      "k1_auc": 0.5404466396945571
+    },
+    {
+      "latent_idx": 8224,
+      "k1_auc": 0.5397761784931774
+    },
+    {
+      "latent_idx": 14261,
+      "k1_auc": 0.5383064516129032
+    },
+    {
+      "latent_idx": 3609,
+      "k1_auc": 0.5377333846743462
+    },
+    {
+      "latent_idx": 15067,
+      "k1_auc": 0.5373490049967098
+    },
+    {
+      "latent_idx": 15506,
+      "k1_auc": 0.5369872225958305
+    },
+    {
+      "latent_idx": 15669,
+      "k1_auc": 0.536886664714262
+    },
+    {
+      "latent_idx": 860,
+      "k1_auc": 0.536639224533773
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5365212667491015
+    },
+    {
+      "latent_idx": 8709,
+      "k1_auc": 0.5364317815331439
+    },
+    {
+      "latent_idx": 3237,
+      "k1_auc": 0.5360026592475288
+    },
+    {
+      "latent_idx": 3150,
+      "k1_auc": 0.5342082095002567
+    },
+    {
+      "latent_idx": 9609,
+      "k1_auc": 0.5326297897187814
+    },
+    {
+      "latent_idx": 11607,
+      "k1_auc": 0.5326160053799596
+    },
+    {
+      "latent_idx": 14966,
+      "k1_auc": 0.531271015467384
+    },
+    {
+      "latent_idx": 10851,
+      "k1_auc": 0.5285939160899842
+    },
+    {
+      "latent_idx": 12911,
+      "k1_auc": 0.5273582969969122
+    },
+    {
+      "latent_idx": 16068,
+      "k1_auc": 0.5265942830697588
+    },
+    {
+      "latent_idx": 10890,
+      "k1_auc": 0.5263000665263827
+    },
+    {
+      "latent_idx": 6047,
+      "k1_auc": 0.5245460659045057
+    },
+    {
+      "latent_idx": 3047,
+      "k1_auc": 0.5243684513091958
+    },
+    {
+      "latent_idx": 13565,
+      "k1_auc": 0.5242098184263618
+    },
+    {
+      "latent_idx": 7220,
+      "k1_auc": 0.5240493777613872
+    },
+    {
+      "latent_idx": 5820,
+      "k1_auc": 0.5228648285137861
+    },
+    {
+      "latent_idx": 9475,
+      "k1_auc": 0.5
+    }
+  ]
+}

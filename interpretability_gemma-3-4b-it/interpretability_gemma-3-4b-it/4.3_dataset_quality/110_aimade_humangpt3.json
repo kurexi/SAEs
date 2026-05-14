@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "dataset": "110_aimade_humangpt3",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.3",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:54:18.556397"
+  },
+  "top_latent": {
+    "latent_idx": 14407,
+    "k1_auc": 0.6522957574333773,
+    "examples": [
+      {
+        "text": "Currently enjoying @mitchelmusso's incredible new album! Hurry and give it a listen! Meanwhile, I'm preparing for a tedious chemistry test.",
+        "activation": 6115.990234375
+      },
+      {
+        "text": "@lyndseyparker oh no that's terrible! I actually have such admiration for him, so I genuinely empathize with his situation.",
+        "activation": 5940.47119140625
+      },
+      {
+        "text": "Carrying one for allergies isn't a bad idea! Even grown men can be affected with a closed throat and little air!",
+        "activation": 5866.55859375
+      },
+      {
+        "text": "Alright, you have won. I have removed chocolate from my diet, but replacing it with jam isn't always a successful alternative!",
+        "activation": 5524.7353515625
+      },
+      {
+        "text": "I work, but soon I'm heading to the barn to prepare my horse for tomorrow's show in Colombus, NE! Exciting!",
+        "activation": 5506.875
+      },
+      {
+        "text": "Hooray! Successfully completed my internet marketing test! Now awaiting my task outcomes.",
+        "activation": 5427.75732421875
+      },
+      {
+        "text": "Phew, I feared my bag was forgotten at McD's, but it was just at a friend's.",
+        "activation": 5373.794921875
+      },
+      {
+        "text": "I recall watching Clueless and singing \"Rollin with the Homies\" LOL.",
+        "activation": 5314.421875
+      },
+      {
+        "text": "Working hard and taking a break now! Yay! Haha! I desperately need a nap soon!",
+        "activation": 5308.9384765625
+      },
+      {
+        "text": "Decoder ring party cancelled, but I'm chilling with Noah tonight, so not a total loss.",
+        "activation": 5263.7490234375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 14407\n\nTop activating examples (format: [activation] text):\n  [6115.990] Currently enjoying @mitchelmusso's incredible new album! Hurry and give it a listen! Meanwhile, I'm preparing for a tedious chemistry test.\n  [5940.471] @lyndseyparker oh no that's terrible! I actually have such admiration for him, so I genuinely empathize with his situation.\n  [5866.559] Carrying one for allergies isn't a bad idea! Even grown men can be affected with a closed throat and little air!\n  [5524.735] Alright, you have won. I have removed chocolate from my diet, but replacing it with jam isn't always a successful alternative!\n  [5506.875] I work, but soon I'm heading to the barn to prepare my horse for tomorrow's show in Colombus, NE! Exciting!\n  [5427.757] Hooray! Successfully completed my internet marketing test! Now awaiting my task outcomes.\n  [5373.795] Phew, I feared my bag was forgotten at McD's, but it was just at a friend's.\n  [5314.422] I recall watching Clueless and singing \"Rollin with the Homies\" LOL.\n  [5308.938] Working hard and taking a break now! Yay! Haha! I desperately need a nap soon!\n  [5263.749] Decoder ring party cancelled, but I'm chilling with Noah tonight, so not a total loss.\n\nDescription:"
+    },
+    "description": null
+  },
+  "label_disagreements": [
+    {
+      "text": "Day 2 of migraine. My preventative meds have stopped working  time to call Dr. And up the dose!",
+      "activation": 6015.6435546875,
+      "label": 0
+    },
+    {
+      "text": "@mattchew03  awww... poor baby!! I would bring you one if it wasn't a 10 hr drive... at least I would have plenty of places to pick it up!",
+      "activation": 5807.30419921875,
+      "label": 0
+    },
+    {
+      "text": "@StarSlay3r I remember that airport well.  Glad you made it safe!",
+      "activation": 5713.021484375,
+      "label": 0
+    },
+    {
+      "text": "@Gailporter  Oh no!  Unless you just mean he dropped you off somewhere and went on to another appointment, that's horrible, i'm so sorry.",
+      "activation": 5706.896484375,
+      "label": 0
+    },
+    {
+      "text": "@XLoubyX OME I wish I were there. I'm so ill  but so happy for you hunny!",
+      "activation": 5618.11376953125,
+      "label": 0
+    },
+    {
+      "text": "@nareejo got your text. yup, i agree.  LOVE the concert pics!",
+      "activation": 5529.4091796875,
+      "label": 0
+    },
+    {
+      "text": "Aww. My friend got an infected mosquito bite and had surgery and now he'll be in the hospital for a while.  Mosquitoes = scary shit.",
+      "activation": 5513.9052734375,
+      "label": 0
+    },
+    {
+      "text": "@JennAgustin Nope.  I didn't know you were one! D'oh!",
+      "activation": 5493.8056640625,
+      "label": 0
+    },
+    {
+      "text": "@finchmonster Hey Finchy! Sorry I didn't reply earlier, my twitter got flooded!  I'm new to this, trying to learn!",
+      "activation": 5270.65625,
+      "label": 0
+    },
+    {
+      "text": "Just watched @paulkehler rock the crap out of sweeney todd. Now we're stuck in traffic. A terrible accident  6 car pile up.",
+      "activation": 5222.822265625,
+      "label": 0
+    }
+  ],
+  "last_token_distribution": {
+    "ai_top10": [
+      [
+        ".",
+        1571
+      ],
+      [
+        "?",
+        505
+      ],
+      [
+        "!",
+        220
+      ],
+      [
+        "\"",
+        80
+      ],
+      [
+        ")",
+        15
+      ],
+      [
+        "*",
+        10
+      ],
+      [
+        "3",
+        7
+      ],
+      [
+        "x",
+        6
+      ],
+      [
+        ":",
+        5
+      ],
+      [
+        "b",
+        5
+      ]
+    ],
+    "human_top10": [
+      [
+        " ",
+        960
+      ],
+      [
+        ".",
+        470
+      ],
+      [
+        "?",
+        456
+      ],
+      [
+        "e",
+        73
+      ],
+      [
+        "!",
+        71
+      ],
+      [
+        "s",
+        50
+      ],
+      [
+        "t",
+        41
+      ],
+      [
+        "n",
+        38
+      ],
+      [
+        "d",
+        32
+      ],
+      [
+        "o",
+        26
+      ]
+    ]
+  }
+}

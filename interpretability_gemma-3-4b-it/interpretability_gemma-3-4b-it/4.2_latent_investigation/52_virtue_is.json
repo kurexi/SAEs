@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "52_virtue_is",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:36:31.051545"
+  },
+  "best_latent": {
+    "latent_idx": 1506,
+    "k1_auc": 0.6688834056360177,
+    "examples": [
+      {
+        "text": "James was known for showing up on time every day. [SEP] dependable",
+        "activation": 1741.4091796875
+      },
+      {
+        "text": "He always watched out for bugs in his code. [SEP] attentive",
+        "activation": 1731.38525390625
+      },
+      {
+        "text": "James had zero missing assignments by the end of the semester. [SEP] diligent",
+        "activation": 1692.40673828125
+      },
+      {
+        "text": "James was known for complimenting the host on the tablecloth. [SEP] courteous",
+        "activation": 1687.13916015625
+      },
+      {
+        "text": "James was known for giving personal greetings to anyone who visited his cafe. [SEP] amiable",
+        "activation": 1679.5836181640625
+      },
+      {
+        "text": "She never checked her work over carefully. [SEP] careless",
+        "activation": 1658.555419921875
+      },
+      {
+        "text": "Jen's best friend told her a secret, and Jen never told another soul. [SEP] trustworthy",
+        "activation": 1655.4127197265625
+      },
+      {
+        "text": "John decided to always answer his wife's phone calls. [SEP] faithful",
+        "activation": 1634.9091796875
+      },
+      {
+        "text": "When James won an Oscar, he used his acceptance speech to thank the people who helped him. [SEP] grateful",
+        "activation": 1626.269287109375
+      },
+      {
+        "text": "When he heard the woman scream in the house, he ran straight in to save her.  [SEP] heroic",
+        "activation": 1621.29296875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 1506\n\nTop activating examples (format: [activation] text):\n  [1741.409] James was known for showing up on time every day. [SEP] dependable\n  [1731.385] He always watched out for bugs in his code. [SEP] attentive\n  [1692.407] James had zero missing assignments by the end of the semester. [SEP] diligent\n  [1687.139] James was known for complimenting the host on the tablecloth. [SEP] courteous\n  [1679.584] James was known for giving personal greetings to anyone who visited his cafe. [SEP] amiable\n  [1658.555] She never checked her work over carefully. [SEP] careless\n  [1655.413] Jen's best friend told her a secret, and Jen never told another soul. [SEP] trustworthy\n  [1634.909] John decided to always answer his wife's phone calls. [SEP] faithful\n  [1626.269] When James won an Oscar, he used his acceptance speech to thank the people who helped him. [SEP] grateful\n  [1621.293] When he heard the woman scream in the house, he ran straight in to save her.  [SEP] heroic\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 1506,
+      "k1_auc": 0.6688834056360177
+    },
+    {
+      "latent_idx": 12595,
+      "k1_auc": 0.6667083850669124
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.6666908412363455
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.6663648298966764
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.6538591177912123
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.6453259091157744
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.6359682785440887
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.6355213943560254
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.6333333885894926
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.6269144187079674
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.6245343977879854
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.6232239979709938
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.6231006385954326
+    },
+    {
+      "latent_idx": 5232,
+      "k1_auc": 0.6188387310312512
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.6165652163582545
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.6044878776274994
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.6030244182493412
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.602266580025009
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.6013145164008569
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5956801839809079
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5922301275367412
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5918697192379292
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5846720519319487
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.581521069449809
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5766723414742233
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5748932312862585
+    },
+    {
+      "latent_idx": 15039,
+      "k1_auc": 0.5646433518828259
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5608580286923133
+    },
+    {
+      "latent_idx": 6873,
+      "k1_auc": 0.5543744091044469
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5426132737450912
+    },
+    {
+      "latent_idx": 4103,
+      "k1_auc": 0.5325889776118619
+    },
+    {
+      "latent_idx": 5749,
+      "k1_auc": 0.5278207854884064
+    },
+    {
+      "latent_idx": 4030,
+      "k1_auc": 0.5267036440884475
+    },
+    {
+      "latent_idx": 11038,
+      "k1_auc": 0.5259840707544069
+    },
+    {
+      "latent_idx": 13264,
+      "k1_auc": 0.5204643948649347
+    },
+    {
+      "latent_idx": 4595,
+      "k1_auc": 0.519839447703637
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5182088384436992
+    },
+    {
+      "latent_idx": 4711,
+      "k1_auc": 0.5180392020347528
+    },
+    {
+      "latent_idx": 12671,
+      "k1_auc": 0.5179745523284116
+    },
+    {
+      "latent_idx": 1821,
+      "k1_auc": 0.5148569998226278
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5136747942951331
+    },
+    {
+      "latent_idx": 8791,
+      "k1_auc": 0.5135736755236764
+    },
+    {
+      "latent_idx": 7464,
+      "k1_auc": 0.5134214448048988
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.513159254329182
+    },
+    {
+      "latent_idx": 9610,
+      "k1_auc": 0.512626308673062
+    },
+    {
+      "latent_idx": 1979,
+      "k1_auc": 0.5118349023319757
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.511831034400827
+    },
+    {
+      "latent_idx": 12411,
+      "k1_auc": 0.5115880454404551
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.5115742314006386
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5099886559105026
+    },
+    {
+      "latent_idx": 65,
+      "k1_auc": 0.5095062696401111
+    },
+    {
+      "latent_idx": 10387,
+      "k1_auc": 0.5082099601437324
+    },
+    {
+      "latent_idx": 14796,
+      "k1_auc": 0.5076460710384235
+    },
+    {
+      "latent_idx": 13387,
+      "k1_auc": 0.5076264551018841
+    },
+    {
+      "latent_idx": 16106,
+      "k1_auc": 0.5070986206404962
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5070977917981072
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5063094245457807
+    },
+    {
+      "latent_idx": 6134,
+      "k1_auc": 0.5063083194225952
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5060462670872765
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5057828333479762
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5055691301520151
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5049970907632146
+    },
+    {
+      "latent_idx": 8948,
+      "k1_auc": 0.5049921177088808
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5047318611987381
+    },
+    {
+      "latent_idx": 11305,
+      "k1_auc": 0.5047144555085694
+    },
+    {
+      "latent_idx": 12759,
+      "k1_auc": 0.5044767158833277
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5044681511786415
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5044003242431426
+    },
+    {
+      "latent_idx": 8318,
+      "k1_auc": 0.5042121770208421
+    },
+    {
+      "latent_idx": 212,
+      "k1_auc": 0.5039432176656151
+    },
+    {
+      "latent_idx": 4043,
+      "k1_auc": 0.5039421125424298
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5037438810710634
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5034156594850236
+    },
+    {
+      "latent_idx": 1888,
+      "k1_auc": 0.5028983236938963
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5028885157256267
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5028868580408486
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5026315745850402
+    },
+    {
+      "latent_idx": 8449,
+      "k1_auc": 0.5026288117770767
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5026105772445191
+    },
+    {
+      "latent_idx": 15502,
+      "k1_auc": 0.5023695222497214
+    },
+    {
+      "latent_idx": 12177,
+      "k1_auc": 0.5021165871806815
+    },
+    {
+      "latent_idx": 15632,
+      "k1_auc": 0.5021033257024576
+    },
+    {
+      "latent_idx": 14836,
+      "k1_auc": 0.5021024968600687
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5021013917368834
+    },
+    {
+      "latent_idx": 9453,
+      "k1_auc": 0.5021002866136981
+    },
+    {
+      "latent_idx": 4069,
+      "k1_auc": 0.5018473515446582
+    },
+    {
+      "latent_idx": 2344,
+      "k1_auc": 0.5018401682439537
+    },
+    {
+      "latent_idx": 15370,
+      "k1_auc": 0.5018398919631575
+    },
+    {
+      "latent_idx": 1306,
+      "k1_auc": 0.50183367564524
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5015803261550057
+    },
+    {
+      "latent_idx": 9520,
+      "k1_auc": 0.5015775633470424
+    },
+    {
+      "latent_idx": 6537,
+      "k1_auc": 0.501577287066246
+    },
+    {
+      "latent_idx": 4462,
+      "k1_auc": 0.501577287066246
+    },
+    {
+      "latent_idx": 12940,
+      "k1_auc": 0.5015759056622644
+    },
+    {
+      "latent_idx": 9580,
+      "k1_auc": 0.5015736954158938
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5015731428543011
+    },
+    {
+      "latent_idx": 2429,
+      "k1_auc": 0.5013144058885384
+    },
+    {
+      "latent_idx": 997,
+      "k1_auc": 0.5013144058885384
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5013103998169915
+    },
+    {
+      "latent_idx": 7641,
+      "k1_auc": 0.5010587080115353
+    },
+    {
+      "latent_idx": 14281,
+      "k1_auc": 0.5010426837253482
+    },
+    {
+      "latent_idx": 2809,
+      "k1_auc": 0.5009733372454693
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5007981752205964
+    },
+    {
+      "latent_idx": 4969,
+      "k1_auc": 0.5007898867967066
+    },
+    {
+      "latent_idx": 3171,
+      "k1_auc": 0.5007814602324185
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.500523828389841
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5002587369657627
+    },
+    {
+      "latent_idx": 15877,
+      "k1_auc": 0.5002510011034655
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6963,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10901,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5067,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11489,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16092,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 388,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14645,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10926,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12872,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6452,
+      "k1_auc": 0.49974540724618216
+    },
+    {
+      "latent_idx": 12408,
+      "k1_auc": 0.49973435601432903
+    },
+    {
+      "latent_idx": 11654,
+      "k1_auc": 0.4994764478909553
+    },
+    {
+      "latent_idx": 16190,
+      "k1_auc": 0.49896615726013444
+    },
+    {
+      "latent_idx": 6086,
+      "k1_auc": 0.4986150043679994
+    },
+    {
+      "latent_idx": 12142,
+      "k1_auc": 0.4975673475883174
+    },
+    {
+      "latent_idx": 13879,
+      "k1_auc": 0.4970849613179258
+    },
+    {
+      "latent_idx": 6409,
+      "k1_auc": 0.4924010348373508
+    }
+  ]
+}

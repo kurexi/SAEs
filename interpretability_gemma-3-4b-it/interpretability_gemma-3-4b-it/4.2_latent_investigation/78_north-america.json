@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "78_north-america",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:41:36.670788"
+  },
+  "best_latent": {
+    "latent_idx": 7644,
+    "k1_auc": 0.8773781217868932,
+    "examples": [
+      {
+        "text": "s 6,000 spoken languages will disappear by the end of this century. There were nearly 300 spoken languages in North America",
+        "activation": 4232.10498046875
+      },
+      {
+        "text": "s 6,000 spoken languages will disappear by the end of this century. There were nearly 300 spoken languages in North America",
+        "activation": 4232.10498046875
+      },
+      {
+        "text": " countries in which the respondents stated they were currently residing at the time of the survey. Over 76% were from North America",
+        "activation": 4212.00634765625
+      },
+      {
+        "text": "The United Kingdom resident champions causes of the voiceless, the powerless and the weak, particularly in North America",
+        "activation": 4203.3037109375
+      },
+      {
+        "text": " depicts the global distribution of negative interactions involving a category J drug. These drugs have significantly more interactions with recipes from North America",
+        "activation": 4201.890625
+      },
+      {
+        "text": " a year of stories regarding its new outreach emphasis to the under-reached, under-served areas of North America",
+        "activation": 4173.203125
+      },
+      {
+        "text": " a year of stories regarding its new outreach emphasis to the under-reached, under-served areas of North America",
+        "activation": 4173.203125
+      },
+      {
+        "text": " the issues that are discussed tend to sort out on a continent-by-continent basis.In North America",
+        "activation": 4123.00537109375
+      },
+      {
+        "text": " the issues that are discussed tend to sort out on a continent-by-continent basis.In North America",
+        "activation": 4123.00537109375
+      },
+      {
+        "text": "ky enough to appeal to my bent brain.Charlie was the Rhinoceros Party coordinator for all of North America",
+        "activation": 4111.38134765625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 7644\n\nTop activating examples (format: [activation] text):\n  [4232.105] s 6,000 spoken languages will disappear by the end of this century. There were nearly 300 spoken languages in North America\n  [4232.105] s 6,000 spoken languages will disappear by the end of this century. There were nearly 300 spoken languages in North America\n  [4212.006] countries in which the respondents stated they were currently residing at the time of the survey. Over 76% were from North America\n  [4203.304] The United Kingdom resident champions causes of the voiceless, the powerless and the weak, particularly in North America\n  [4201.891] depicts the global distribution of negative interactions involving a category J drug. These drugs have significantly more interactions with recipes from North America\n  [4173.203] a year of stories regarding its new outreach emphasis to the under-reached, under-served areas of North America\n  [4173.203] a year of stories regarding its new outreach emphasis to the under-reached, under-served areas of North America\n  [4123.005] the issues that are discussed tend to sort out on a continent-by-continent basis.In North America\n  [4123.005] the issues that are discussed tend to sort out on a continent-by-continent basis.In North America\n  [4111.381] ky enough to appeal to my bent brain.Charlie was the Rhinoceros Party coordinator for all of North America\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 7644,
+      "k1_auc": 0.8773781217868932
+    },
+    {
+      "latent_idx": 14452,
+      "k1_auc": 0.7200517310189946
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.6923052857297474
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.6608168393852482
+    },
+    {
+      "latent_idx": 8908,
+      "k1_auc": 0.6602274879593051
+    },
+    {
+      "latent_idx": 98,
+      "k1_auc": 0.642763829887981
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.6269451979273769
+    },
+    {
+      "latent_idx": 5801,
+      "k1_auc": 0.6238542737702257
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.6186312841603983
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.6012153999134152
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5955759747551275
+    },
+    {
+      "latent_idx": 4181,
+      "k1_auc": 0.5910974958060501
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5891053696087452
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5870997145408301
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5787972157584286
+    },
+    {
+      "latent_idx": 13949,
+      "k1_auc": 0.5787972157584285
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5781321872125116
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5753224098977217
+    },
+    {
+      "latent_idx": 6359,
+      "k1_auc": 0.5751727467665999
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5745322392986634
+    },
+    {
+      "latent_idx": 8732,
+      "k1_auc": 0.5728187232804806
+    },
+    {
+      "latent_idx": 15183,
+      "k1_auc": 0.5618988108122733
+    },
+    {
+      "latent_idx": 4607,
+      "k1_auc": 0.5610984935602575
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5600838282645165
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5591118634666379
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5586180596893772
+    },
+    {
+      "latent_idx": 1634,
+      "k1_auc": 0.5577205036798529
+    },
+    {
+      "latent_idx": 7033,
+      "k1_auc": 0.5524023891985498
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5513166973321068
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5469168549434493
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.54636513068889
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5463321540667785
+    },
+    {
+      "latent_idx": 1586,
+      "k1_auc": 0.5430560534931544
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5425960718924184
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.542531386979815
+    },
+    {
+      "latent_idx": 3264,
+      "k1_auc": 0.5421500419394989
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5414998105958115
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.541488818388441
+    },
+    {
+      "latent_idx": 7247,
+      "k1_auc": 0.54123092429244
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5396674941825856
+    },
+    {
+      "latent_idx": 13568,
+      "k1_auc": 0.5384997835380703
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5377552728773203
+    },
+    {
+      "latent_idx": 6787,
+      "k1_auc": 0.5376356269278639
+    },
+    {
+      "latent_idx": 525,
+      "k1_auc": 0.5369532645164782
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5366818415498673
+    },
+    {
+      "latent_idx": 2464,
+      "k1_auc": 0.5366370271659723
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5366006683262081
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5363427742302072
+    },
+    {
+      "latent_idx": 16110,
+      "k1_auc": 0.5361926883218788
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5355149764597652
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.5339946696249798
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.5326286764705882
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5322756575031116
+    },
+    {
+      "latent_idx": 15539,
+      "k1_auc": 0.5318376603171167
+    },
+    {
+      "latent_idx": 10660,
+      "k1_auc": 0.5313074977000921
+    },
+    {
+      "latent_idx": 12539,
+      "k1_auc": 0.5312694477515016
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5307781806374805
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5300928587856486
+    },
+    {
+      "latent_idx": 919,
+      "k1_auc": 0.53000914889875
+    },
+    {
+      "latent_idx": 4191,
+      "k1_auc": 0.5298945762757724
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5298556807727691
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5297246198387359
+    },
+    {
+      "latent_idx": 8392,
+      "k1_auc": 0.5273866618864658
+    },
+    {
+      "latent_idx": 1395,
+      "k1_auc": 0.5272539098436062
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5272103637913307
+    },
+    {
+      "latent_idx": 3448,
+      "k1_auc": 0.5270315290329564
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5268556537150278
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5263288733156557
+    },
+    {
+      "latent_idx": 8977,
+      "k1_auc": 0.526152152443314
+    },
+    {
+      "latent_idx": 10017,
+      "k1_auc": 0.5259699354672872
+    },
+    {
+      "latent_idx": 14984,
+      "k1_auc": 0.525755587423562
+    },
+    {
+      "latent_idx": 4301,
+      "k1_auc": 0.5257352941176471
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.525159471562314
+    },
+    {
+      "latent_idx": 9401,
+      "k1_auc": 0.5248161764705882
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5247392310189944
+    },
+    {
+      "latent_idx": 10059,
+      "k1_auc": 0.5242027267438714
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5239152382434115
+    },
+    {
+      "latent_idx": 9439,
+      "k1_auc": 0.5228933857351589
+    },
+    {
+      "latent_idx": 4761,
+      "k1_auc": 0.5225750344986201
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5218930948644407
+    },
+    {
+      "latent_idx": 4339,
+      "k1_auc": 0.521626322447102
+    },
+    {
+      "latent_idx": 1163,
+      "k1_auc": 0.521406055522485
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5211447792088316
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5208416479517289
+    },
+    {
+      "latent_idx": 7339,
+      "k1_auc": 0.5207055136912171
+    },
+    {
+      "latent_idx": 5828,
+      "k1_auc": 0.5207055136912171
+    },
+    {
+      "latent_idx": 5166,
+      "k1_auc": 0.5197792088316469
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5194807281238162
+    },
+    {
+      "latent_idx": 14469,
+      "k1_auc": 0.5193014705882353
+    },
+    {
+      "latent_idx": 5718,
+      "k1_auc": 0.5191002286379133
+    },
+    {
+      "latent_idx": 1496,
+      "k1_auc": 0.5189298494236702
+    },
+    {
+      "latent_idx": 3991,
+      "k1_auc": 0.5188495217544239
+    },
+    {
+      "latent_idx": 11664,
+      "k1_auc": 0.5184779005898589
+    },
+    {
+      "latent_idx": 1354,
+      "k1_auc": 0.5182402997997727
+    },
+    {
+      "latent_idx": 3776,
+      "k1_auc": 0.5182297303696088
+    },
+    {
+      "latent_idx": 16196,
+      "k1_auc": 0.5179227941176471
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5174919841441638
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5174699997294226
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5166024609015639
+    },
+    {
+      "latent_idx": 997,
+      "k1_auc": 0.5165441176470589
+    },
+    {
+      "latent_idx": 2149,
+      "k1_auc": 0.5162253436333135
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.516197017560474
+    },
+    {
+      "latent_idx": 6221,
+      "k1_auc": 0.5160845588235294
+    },
+    {
+      "latent_idx": 6502,
+      "k1_auc": 0.5151726283889821
+    },
+    {
+      "latent_idx": 12133,
+      "k1_auc": 0.5148098855457547
+    },
+    {
+      "latent_idx": 5401,
+      "k1_auc": 0.5137867647058824
+    },
+    {
+      "latent_idx": 4711,
+      "k1_auc": 0.5133610280588776
+    },
+    {
+      "latent_idx": 155,
+      "k1_auc": 0.5133449625250285
+    },
+    {
+      "latent_idx": 14408,
+      "k1_auc": 0.5129209169868499
+    },
+    {
+      "latent_idx": 4380,
+      "k1_auc": 0.5128773709345743
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5124693909302451
+    },
+    {
+      "latent_idx": 805,
+      "k1_auc": 0.5120381581795552
+    },
+    {
+      "latent_idx": 7593,
+      "k1_auc": 0.5119485294117647
+    },
+    {
+      "latent_idx": 6564,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 1870,
+      "k1_auc": 0.5098688883327019
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.5087476831809081
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5082669854970506
+    },
+    {
+      "latent_idx": 11258,
+      "k1_auc": 0.5073597056117755
+    },
+    {
+      "latent_idx": 13700,
+      "k1_auc": 0.5073529411764706
+    },
+    {
+      "latent_idx": 12726,
+      "k1_auc": 0.5050754403647383
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2247,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5
+    }
+  ]
+}

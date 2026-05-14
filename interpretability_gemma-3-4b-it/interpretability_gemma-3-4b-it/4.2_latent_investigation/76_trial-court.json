@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "76_trial-court",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:41:06.510643"
+  },
+  "best_latent": {
+    "latent_idx": 2747,
+    "k1_auc": 0.930590129336003,
+    "examples": [
+      {
+        "text": "\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0The State charged Petitioner Douglas E. Wilson with first degree murder in 2001. The trial court",
+        "activation": 2518.95068359375
+      },
+      {
+        "text": "ruction of justice.    Finding no reversible error, we affirm.            Johnson first argues on appeal that the trial court",
+        "activation": 2326.0439453125
+      },
+      {
+        "text": " into evidence and published to the jury. Defendant did not call any witnesses.At defendant's request, the trial court",
+        "activation": 2308.1123046875
+      },
+      {
+        "text": "d 1070, 1072 (10th Cir.1978).  Our review of the record shows that the trial court",
+        "activation": 2306.604248046875
+      },
+      {
+        "text": " for the limited purpose of showing that plaintiff had billed defendant.OPINIONDefendant first contends that the trial court",
+        "activation": 2300.714111328125
+      },
+      {
+        "text": "354 Ill. App. 3d 523, 537-38 (2004). \u201cIn determining whether the trial court",
+        "activation": 2285.170166015625
+      },
+      {
+        "text": ". App.3d 729, 392 N.E.2d 375.) In the instant case the trial court",
+        "activation": 2281.20751953125
+      },
+      {
+        "text": "App. 680, 684, 550 S.E.2d 174, 177 (2001).The trial court",
+        "activation": 2276.2939453125
+      },
+      {
+        "text": "App. 680, 684, 550 S.E.2d 174, 177 (2001).The trial court",
+        "activation": 2276.2939453125
+      },
+      {
+        "text": ", claiming (1) the state failed to prove the elements of first degree murder;  (2) the trial court",
+        "activation": 2270.8037109375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 2747\n\nTop activating examples (format: [activation] text):\n  [2518.951] \u00c2\u00a0\u00c2\u00a0\u00c2\u00a0The State charged Petitioner Douglas E. Wilson with first degree murder in 2001. The trial court\n  [2326.044] ruction of justice.    Finding no reversible error, we affirm.            Johnson first argues on appeal that the trial court\n  [2308.112] into evidence and published to the jury. Defendant did not call any witnesses.At defendant's request, the trial court\n  [2306.604] d 1070, 1072 (10th Cir.1978).  Our review of the record shows that the trial court\n  [2300.714] for the limited purpose of showing that plaintiff had billed defendant.OPINIONDefendant first contends that the trial court\n  [2285.170] 354 Ill. App. 3d 523, 537-38 (2004). \u201cIn determining whether the trial court\n  [2281.208] . App.3d 729, 392 N.E.2d 375.) In the instant case the trial court\n  [2276.294] App. 680, 684, 550 S.E.2d 174, 177 (2001).The trial court\n  [2276.294] App. 680, 684, 550 S.E.2d 174, 177 (2001).The trial court\n  [2270.804] , claiming (1) the state failed to prove the elements of first degree murder;  (2) the trial court\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 2747,
+      "k1_auc": 0.930590129336003
+    },
+    {
+      "latent_idx": 11402,
+      "k1_auc": 0.9058766877266085
+    },
+    {
+      "latent_idx": 4184,
+      "k1_auc": 0.8987609245630175
+    },
+    {
+      "latent_idx": 16323,
+      "k1_auc": 0.8873260694572218
+    },
+    {
+      "latent_idx": 3432,
+      "k1_auc": 0.8587391430813356
+    },
+    {
+      "latent_idx": 111,
+      "k1_auc": 0.8205429135775746
+    },
+    {
+      "latent_idx": 10229,
+      "k1_auc": 0.7982456437036637
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.7070255425077114
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.7065490725959196
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.7031516349640132
+    },
+    {
+      "latent_idx": 15595,
+      "k1_auc": 0.6858520144488338
+    },
+    {
+      "latent_idx": 9916,
+      "k1_auc": 0.6837098023432003
+    },
+    {
+      "latent_idx": 6502,
+      "k1_auc": 0.6813528194166352
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.6696325896964122
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.6425410263001246
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.641786368986417
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.6289335191298231
+    },
+    {
+      "latent_idx": 8139,
+      "k1_auc": 0.6234458709886898
+    },
+    {
+      "latent_idx": 5828,
+      "k1_auc": 0.6232885978678501
+    },
+    {
+      "latent_idx": 37,
+      "k1_auc": 0.6228328440391797
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.6166619879322476
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.6108991118296445
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.6033119520807403
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5925163361112614
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5884285033010443
+    },
+    {
+      "latent_idx": 8319,
+      "k1_auc": 0.5845643196330971
+    },
+    {
+      "latent_idx": 14436,
+      "k1_auc": 0.5835771348557823
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5794660492992045
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5691955226202716
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5689338235294118
+    },
+    {
+      "latent_idx": 11878,
+      "k1_auc": 0.5678130411548244
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5653262656258455
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5652856790140159
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5591938822447101
+    },
+    {
+      "latent_idx": 14219,
+      "k1_auc": 0.5514705882352942
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5489897315872071
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5468234211807999
+    },
+    {
+      "latent_idx": 2541,
+      "k1_auc": 0.5459897045294659
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5456514827642189
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.5431985294117647
+    },
+    {
+      "latent_idx": 14356,
+      "k1_auc": 0.5421690669137941
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5414051085015422
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5397372524216678
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5397165363385465
+    },
+    {
+      "latent_idx": 3830,
+      "k1_auc": 0.5360155446723307
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5358997037177335
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.535399135505168
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5350651415119866
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5345895171546079
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5342466448400888
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5340242640294388
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.533724092212782
+    },
+    {
+      "latent_idx": 13295,
+      "k1_auc": 0.5335477941176471
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5332937050165052
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5321691176470589
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5321682720926457
+    },
+    {
+      "latent_idx": 8908,
+      "k1_auc": 0.5319805590129336
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5308948671464906
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.5307904411764706
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5303308823529411
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5298713235294118
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5298713235294118
+    },
+    {
+      "latent_idx": 11532,
+      "k1_auc": 0.5298713235294118
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5298632907624871
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5292659065696195
+    },
+    {
+      "latent_idx": 16330,
+      "k1_auc": 0.5288042338600575
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.528147238081065
+    },
+    {
+      "latent_idx": 12909,
+      "k1_auc": 0.5278381879430706
+    },
+    {
+      "latent_idx": 3556,
+      "k1_auc": 0.5275735294117647
+    },
+    {
+      "latent_idx": 15134,
+      "k1_auc": 0.5275735294117647
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5266603306455977
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5243595770875047
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5239841509280805
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5238818388440932
+    },
+    {
+      "latent_idx": 16342,
+      "k1_auc": 0.5237194923967747
+    },
+    {
+      "latent_idx": 11267,
+      "k1_auc": 0.5232121597489042
+    },
+    {
+      "latent_idx": 10240,
+      "k1_auc": 0.5230878632501759
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.522639296634017
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5216089885816332
+    },
+    {
+      "latent_idx": 14557,
+      "k1_auc": 0.5215992647058824
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5202468004221008
+    },
+    {
+      "latent_idx": 6068,
+      "k1_auc": 0.5202205882352942
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5202087504735105
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5201597083175497
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5197610294117647
+    },
+    {
+      "latent_idx": 9426,
+      "k1_auc": 0.5197610294117647
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5197610294117647
+    },
+    {
+      "latent_idx": 13682,
+      "k1_auc": 0.5174632352941176
+    },
+    {
+      "latent_idx": 1586,
+      "k1_auc": 0.5166438930678067
+    },
+    {
+      "latent_idx": 10718,
+      "k1_auc": 0.5160672249580605
+    },
+    {
+      "latent_idx": 1382,
+      "k1_auc": 0.5159408145732994
+    },
+    {
+      "latent_idx": 3145,
+      "k1_auc": 0.515179392824287
+    },
+    {
+      "latent_idx": 4865,
+      "k1_auc": 0.5151654411764706
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5142463235294118
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.5133272058823529
+    },
+    {
+      "latent_idx": 12090,
+      "k1_auc": 0.5132388454461821
+    },
+    {
+      "latent_idx": 5952,
+      "k1_auc": 0.512871029276476
+    },
+    {
+      "latent_idx": 2084,
+      "k1_auc": 0.5128676470588235
+    },
+    {
+      "latent_idx": 5984,
+      "k1_auc": 0.5126917717408951
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5124359915309271
+    },
+    {
+      "latent_idx": 12048,
+      "k1_auc": 0.5124080882352942
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.5119569849558959
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.5114889705882353
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5114889705882353
+    },
+    {
+      "latent_idx": 959,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 5441,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 3448,
+      "k1_auc": 0.5101102941176471
+    },
+    {
+      "latent_idx": 13183,
+      "k1_auc": 0.5096507352941176
+    },
+    {
+      "latent_idx": 10961,
+      "k1_auc": 0.5091911764705882
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5091911764705882
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5082720588235294
+    },
+    {
+      "latent_idx": 11305,
+      "k1_auc": 0.5082720588235294
+    },
+    {
+      "latent_idx": 1001,
+      "k1_auc": 0.5078357527463607
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 4737,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 16094,
+      "k1_auc": 0.5073529411764706
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5068980329022132
+    },
+    {
+      "latent_idx": 14178,
+      "k1_auc": 0.5068933823529411
+    },
+    {
+      "latent_idx": 5085,
+      "k1_auc": 0.5068933823529411
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5066870670761405
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.5050551470588235
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.504667460360409
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5034828386276313
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.50278271957357
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5026013481519562
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9439,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.4819072494453163
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "146_disease_class_cardiovascular diseases",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:50:29.477071"
+  },
+  "best_latent": {
+    "latent_idx": 1983,
+    "k1_auc": 0.5877551020408163,
+    "examples": [
+      {
+        "text": "Kinetic abnormalities of the red blood cell sodium-proton exchange in hypertensive patients. The present study was designed to examine the kinetics of Na(+)-H+ exchange in red blood cells of normotensive and hypertensive subjects and its relation to the previously reported abnormalities in Na(+)-Li+ exchange. The Na(+)-H+ antiporter activation kinetics were studied by varying cell pH and measuring net Na+ influx (mmol/l cell x hr = units) driven by an outward H+ gradient. The Na(+)-Li+ exchange was determined at pH 7.4 as sodium-stimulated Li+ efflux. Untreated hypertensive patients (n = 30) had a higher maximal rate of Na(+)-Li+ exchange (0.43 +/- 0.05 versus 0.26 +/- 0.02 units, p less than 0.0003), a higher maximal rate of Na(+)-H+ exchange (62.3 +/- 6.2 versus 47 +/- 4 units; p less than 0.02), but a similar affinity for cell pH compared with normotensive subjects (n = 46). The cell pH activation of the Na(+)-H+ antiporter exhibited a lower Hill coefficient than that of normotensive subjects (1.61 +/- 0.12 versus 2.56 +/- 0.14; p less than 0.0001). This index of occupancy of internal H+ regulatory sites was found reduced in most of the hypertensive patients (73%) whether their hypertension was untreated or treated. Hypertensive patients with Na(+)-Li+ exchange above 0.35 units (0.68 +/- 0.057 units, n = 16) did not exhibit elevated maximal rates of Na(+)-H+ exchange (57.3 +/- 10 units, NS) in comparison with those with Na(+)-Li+ exchange below 0.35 units (66.4 +/- 7.6 units, n = 26), but both groups exhibited reduced Hill coefficients. Hypertensive patients with enhanced Na(+)-H+ exchange activity (more than 90 units) had normal maximal rates of Na(+)-Li+ exchange.",
+        "activation": 5360.91796875
+      },
+      {
+        "text": "Regional cardiac adrenergic function using I-123 meta-iodobenzylguanidine tomographic imaging after acute myocardial infarction. The effect of acute myocardial infarction (AMI) on regional cardiac adrenergic function was studied in 27 patients mean +/- standard deviation 10 +/- 4 days after AMI. Regional adrenergic function was evaluated noninvasively with I-123 meta-iodobenzylguanidine (MIBG) using a dedicated 3-detector tomograph. Four hours after its administration, there was reduced MIBG uptake in the region of infarction, 0.38 +/- 0.31 counts/pixel/mCi x 103 compared with 0.60 +/- 0.30 counts/pixel/mCi x 103 and 0.92 +/- 0.35 counts/pixel/mCi x 103 in the zones bordering and distant from the infarct area, respectively, p less than 0.001. In all patients, the area of reduced MIBG uptake after 4 hours was more extensive that the associated thallium-201 perfusion defect with defect scores of 52 +/- 22 and 23 +/- 18%, respectively, p less than 0.001. After anterior wall AMI, the 4-hour MIBG defect score was 70 +/- 13% and the degree of mismatch between myocardial perfusion and MIBG uptake was 30 +/- 9% compared with 39 +/- 17 and 21 +/- 17% after inferior AMI, p less than 0.001 and p = 0.016, respectively. The 4-hour MIBG defect score correlated inversely with the predischarge left ventricular ejection fraction, r = -0.73, p less than 0.001. Patients with ventricular arrhythmia of greater than or equal to 1 ventricular premature complexes per hour, paired ventricular premature complexes or ventricular tachycardia detected during the late hospital phase had higher 4-hour MIBG defect scores, 62.5 +/- 15.0%, than patients with no detectable complex ventricular ectopic activity and a ventricular premature complex frequency of less than 1 per hour, 44.6 +/- 23.4%, p = 0.036.",
+        "activation": 4826.86181640625
+      },
+      {
+        "text": "The influence of neutralizing heparin after carotid endarterectomy on postoperative stroke and wound hematoma. The influence of neutralizing or not neutralizing heparin after carotid endarterectomy on postoperative stroke and wound hematoma is unknown. During the past 6 years some of the authors frequently gave protamine sulfate to neutralize heparin, whereas others did not unless a patch was used or wound hemostasis was not readily obtained. To determine the influence of protamine sulfate on stroke and wound hematoma the records of 697 patients having a carotid endarterectomy from January 1984 to September 1989 were reviewed. Protamine sulfate was given to 328 patients, and 369 did not receive protamine sulfate. The incidence of stroke in the two groups was 1.8% (n = 6) and 2.7% (n = 10), respectively, and the difference was not significant (p = 0.6019). Excluding three strokes that could not be related to neutralizing or not neutralizing heparin, the difference remained insignificant (1.5% vs 2.2%, p = 0.7290). The incidence of wound hematoma was 1.8% (n = 6) in patients given protamine sulfate and 6.5% (n = 24) in patients not given protamine sulfate, and this difference was significant (p = 0.0044). The difference remained significant when three hematomas not related to protamine sulfate were excluded (1.2% vs 6.2%, p = 0.0013). In patients not given protamine sulfate draining the wound lessened the incidence of wound hematoma (4.4% vs 8.6%), but this difference was not statistically significant (p = 0.1475). In patients given protamine sulfate the dose of protamine sulfate (15 to 45 mg vs 50 to 75 mg) had no statistically significant effect on the incidence of stroke (0.8% vs 2.0%, p = 0.6530) or wound hematoma (1.6% vs 1.0%, p = 1.000).",
+        "activation": 4786.8466796875
+      },
+      {
+        "text": "Obesity, glucose intolerance, hyperinsulinemia, and response to antihypertensive drugs. Responsiveness to antihypertensive medications was investigated cross-sectionally in 559 individuals comprising all treated hypertensive patients identified within a representative sample (n = 3,532, aged 40-70 years) of the Jewish population in Israel. A rate of dosage score (a summed ranking of dosages of all drugs taken) of two or more increased significantly with increasing levels of body mass index (BMI) from 37.5% in levels less than 23, 54.9% in levels 23.0-29.9, and 76.4% in levels of 30 or greater (p less than 0.0001). Multivariate analyses, adjusting for age, gender, arm circumference, and ethnic group, confirmed the independent effect of BMI on dosage score (p less than 0.001). At each level of dosage score, mean blood pressure levels were equivalent at all levels of BMI after adjusting for potential confounders. This indicates that achieved blood pressure level and not BMI itself was the main determinant of the higher dosing regimens prescribed at higher levels of BMI. In representative subgroups, glucose tolerance (n = 372) and hyperinsulinemia (n = 190) were determined and were found to be positively associated with a dosage score of two or more (p less than 0.05) independently of BMI. These effects could not be accounted for by poor compliance or by altered drug absorption or disposition since overnight urinary drug excretion and plasma drug concentrations 2 hours after ingestion, measured in 80 randomly selected patients from the study group, were not different across BMI categories at similar dosages.",
+        "activation": 4349.70556640625
+      },
+      {
+        "text": "Obesity, glucose intolerance, hyperinsulinemia, and response to antihypertensive drugs. Responsiveness to antihypertensive medications was investigated cross-sectionally in 559 individuals comprising all treated hypertensive patients identified within a representative sample (n = 3,532, aged 40-70 years) of the Jewish population in Israel. A rate of dosage score (a summed ranking of dosages of all drugs taken) of two or more increased significantly with increasing levels of body mass index (BMI) from 37.5% in levels less than 23, 54.9% in levels 23.0-29.9, and 76.4% in levels of 30 or greater (p less than 0.0001). Multivariate analyses, adjusting for age, gender, arm circumference, and ethnic group, confirmed the independent effect of BMI on dosage score (p less than 0.001). At each level of dosage score, mean blood pressure levels were equivalent at all levels of BMI after adjusting for potential confounders. This indicates that achieved blood pressure level and not BMI itself was the main determinant of the higher dosing regimens prescribed at higher levels of BMI. In representative subgroups, glucose tolerance (n = 372) and hyperinsulinemia (n = 190) were determined and were found to be positively associated with a dosage score of two or more (p less than 0.05) independently of BMI. These effects could not be accounted for by poor compliance or by altered drug absorption or disposition since overnight urinary drug excretion and plasma drug concentrations 2 hours after ingestion, measured in 80 randomly selected patients from the study group, were not different across BMI categories at similar dosages.",
+        "activation": 4349.70556640625
+      },
+      {
+        "text": "Carotid artery disease in patients with head and neck carcinoma. Irradiation has been shown experimentally to cause accelerated development of atherosclerosis in exposed large arteries. However, occurrence of such an entity in carotid arteries of patients after treatment for head and neck carcinoma is unknown. Therefore, we reviewed 179 patient charts who had undergone head and neck operations with or without irradiation between 1979-1987. Of these 179 patients, 107 (59.8%) were dead at time of follow-up. Cause of death was unknown in 42 (40%) patients; in the remainder included: respiratory arrest--33; carcinoma-related--18; cardiac--6;pneumonia--7; and trauma--1. Average interval from treatment to death was 23.5 months. Of the 72 patients known to be alive, follow-up was obtained in 52 patients. Their average age was 64.9 years. Risk factors for atherosclerosis included: male gender--43; smoking--50; hypertension--9; diabetes--4; coronary artery disease--12; and peripheral vascular disease--4. Seventy-five per cent of these patients received postoperative irradiation. Average follow-up was 64.5 months. Duplex scans were performed on 34 patients. Three patients had common or internal carotid stenoses greater than 75 per cent. All of these patients had received irradiation and none of them were symptomatic. Seven patients had carotid stenoses between 50 to 75 per cent; five of these had received irradiation. Of these five patients, one had a stroke 60 months postoperatively, and one had a TIA 36 months postoperatively. The remaining 58 patients (of which 48 had irradiation) had carotid stenoses less than 50 per cent and none were symptomatic.",
+        "activation": 4227.9296875
+      },
+      {
+        "text": "Brain magnetic resonance imaging and neuropsychologic evaluation of patients with idiopathic dilated cardiomyopathy. We compared brain magnetic resonance imaging and neuropsychologic performance in 20 neurologically asymptomatic patients suffering from idiopathic dilated cardiomyopathy (mean age 41 [range 18-49] years) and 20 age-matched controls (mean age 38 [range 28-49] years). Patients exhibited a significantly higher rate of cerebral infarcts (20% versus 0%, p less than 0.05) and cortical (50% versus 5%, p less than 0.01) and ventricular (55% versus 15%, p less than 0.02) atrophy than controls. Accordingly, semiquantitative volumetric measurements yielded a significantly increased ventricular-to-intracranial cavity ratio in the patients (6.2 +/- 2.9% versus 4.1 +/- 1.3%, p less than 0.01). This ratio and the cortical atrophy ratings correlated positively with disease duration (r = 0.63 and 0.54, p less than 0.05). Cognitive test performance was significantly worse in patients than in controls and was most impaired in those patients with morphologic cerebral abnormalities.",
+        "activation": 4189.8935546875
+      },
+      {
+        "text": "The effect of Ca and Mg supplementation and the role of the opioidergic system on the development of DOCA-salt hypertension. The effect of calcium and magnesium supplementation and the role of opioidergic system was examined in deoxycorticosterone acetate (DOCA)-salt hypertensive rats. The rats were divided into four groups receiving standard laboratory rat diet (control group; n = 9); a calcium-rich diet with 2% CaCl2 added (Ca-group; n = 12); a magnesium-rich diet with 0.5% MgO added (Mg-group; n = 11); and a calcium and magnesium-rich diet with 2% CaCl2 and 0.5% MgO added (Ca/Mg-group; n = 11); each diet contained 7% NaCl. After four weeks on these diets, the rats were decapitated and blood was obtained for the measurement of plasma electrolytes, intraerythrocyte sodium, potassium and magnesium content (RBC-Na, -K, in mEq/L cells and RBC-Mg, in mg/dL cells) and plasma beta-endorphin concentration (beta-END, in pg/mL). In the control group, systolic blood pressure and RBC-Na were obviously higher than in the other groups. Plasma beta-endorphin concentration was 45.1 +/- 13.4 in the control group, 70.7 +/- 17.4 in the Ca-group (P less than .05 v control group), 58.0 +/- 20.1 in the Mg-group and 83.8 +/- 24.8 in the Ca/Mg-group (P less than .01 v control group). The blood pressure correlated significantly with both RBC-Na (r = 0.416, P less than .01) and beta-END (r = 0.436, P less than .005). A negative correlation was also observed between RBC-Na and beta-END (r = 0.437, P less than .005).",
+        "activation": 4027.869140625
+      },
+      {
+        "text": "Boron neutron capture therapy of intracerebral rat gliosarcomas. The efficacy of boron neutron capture therapy (BNCT) for the treatment of intracerebrally implanted rat gliosarcomas was tested. Preferential accumulation of 10B in tumors was achieved by continuous infusion of the sulfhydryl borane dimer, Na4(10)B24H22S2, at a rate of 45-50 micrograms of 10B per g of body weight per day from day 11 to day 14 after tumor initiation (day 0). This infusion schedule resulted in average blood 10B concentrations of 35 micrograms/ml in a group of 12 gliosarcoma-bearing rats and 45 micrograms/ml in a group of 10 similar gliosarcoma-bearing rats treated by BNCT. Estimated tumor 10B levels in these two groups were 26 and 34 micrograms/g, respectively. On day 14, boron-treated and non-boron-treated rats were exposed to 5.0 or 7.5 MW.min of radiation from the Brookhaven Medical Research Reactor that yielded thermal neutron fluences of approximately 2.0 x 10(12) or approximately 3.0 x 10(12) n/cm2, respectively, in the tumors. Untreated rats had a median postinitiation survival time of 21 days. Reactor radiation alone increased median postinitiation survival time to 26 (5.0 MW.min) or 28 (7.5 MW.min) days. The 12 rats that received 5 MW.min of BNCT had a median postinitiation survival time of 60 days. Two of these animals survived greater than 15 months. In the 7.5 MW.min group, the median survival time is not calculable since 6 of the 10 animals remain alive greater than 10 months after BNCT. The estimated radiation doses to tumors in the two BNCT groups were 14.2 and 25.6 Gy equivalents, respectively. Similar gliosarcoma-bearing rats treated with 15.0 or 22.5 Gy of 250-kilovolt peak x-rays had median survival times of only 26 or 31 days, respectively, after tumor initiation.",
+        "activation": 3910.09912109375
+      },
+      {
+        "text": "Elevated alpha-tumor necrosis factor levels in spinal fluid from HIV-1-infected patients with central nervous system involvement. To assess the role of alpha-tumor necrosis factor in the pathogenesis of central nervous system involvement during human immunodeficiency virus type 1 infection, we recorded clinical data and measured alpha-tumor necrosis factor levels in serum and cerebrospinal fluid samples from 45 patients infected with human immunodeficiency virus type 1, classified as group II/III (10), group IV A (5), group IV B (10), and group IV C-1 (20) of the Centers for Disease Control acquired immunodeficiency syndrome classification system and 42 controls. Alpha-tumor necrosis factor was above the limit of detection in only 3 of 15 sera and 3 of 15 cerebrospinal fluid samples from patients in group II/III and group IV A, whereas it was detected in 17 of 30 sera (p less than 0.05) and 22 of 30 cerebrospinal fluid (p less than 0.0002) samples from clinically more advanced patients (group IV B and group IV C-1). Alpha-tumor necrosis factor mean values were 21.5 pg/ml in sera and 50.0 pg/ml in cerebrospinal fluid from group IV B patients and 30.4 pg/ml in sera and 24 pg/ml in cerebrospinal fluid from group IV C-1 patients.",
+        "activation": 3883.251953125
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 1983\n\nTop activating examples (format: [activation] text):\n  [5360.918] Kinetic abnormalities of the red blood cell sodium-proton exchange in hypertensive patients. The present study was designed to examine the kinetics of Na(+)-H+ exchange in red blood cells of normotensive and hypertensive subjects and its relation to the previously reported abnormalities in Na(+)-Li+\n  [4826.862] Regional cardiac adrenergic function using I-123 meta-iodobenzylguanidine tomographic imaging after acute myocardial infarction. The effect of acute myocardial infarction (AMI) on regional cardiac adrenergic function was studied in 27 patients mean +/- standard deviation 10 +/- 4 days after AMI. Reg\n  [4786.847] The influence of neutralizing heparin after carotid endarterectomy on postoperative stroke and wound hematoma. The influence of neutralizing or not neutralizing heparin after carotid endarterectomy on postoperative stroke and wound hematoma is unknown. During the past 6 years some of the authors fre\n  [4349.706] Obesity, glucose intolerance, hyperinsulinemia, and response to antihypertensive drugs. Responsiveness to antihypertensive medications was investigated cross-sectionally in 559 individuals comprising all treated hypertensive patients identified within a representative sample (n = 3,532, aged 40-70 y\n  [4349.706] Obesity, glucose intolerance, hyperinsulinemia, and response to antihypertensive drugs. Responsiveness to antihypertensive medications was investigated cross-sectionally in 559 individuals comprising all treated hypertensive patients identified within a representative sample (n = 3,532, aged 40-70 y\n  [4227.930] Carotid artery disease in patients with head and neck carcinoma. Irradiation has been shown experimentally to cause accelerated development of atherosclerosis in exposed large arteries. However, occurrence of such an entity in carotid arteries of patients after treatment for head and neck carcinoma\n  [4189.894] Brain magnetic resonance imaging and neuropsychologic evaluation of patients with idiopathic dilated cardiomyopathy. We compared brain magnetic resonance imaging and neuropsychologic performance in 20 neurologically asymptomatic patients suffering from idiopathic dilated cardiomyopathy (mean age 41\n  [4027.869] The effect of Ca and Mg supplementation and the role of the opioidergic system on the development of DOCA-salt hypertension. The effect of calcium and magnesium supplementation and the role of opioidergic system was examined in deoxycorticosterone acetate (DOCA)-salt hypertensive rats. The rats were\n  [3910.099] Boron neutron capture therapy of intracerebral rat gliosarcomas. The efficacy of boron neutron capture therapy (BNCT) for the treatment of intracerebrally implanted rat gliosarcomas was tested. Preferential accumulation of 10B in tumors was achieved by continuous infusion of the sulfhydryl borane di\n  [3883.252] Elevated alpha-tumor necrosis factor levels in spinal fluid from HIV-1-infected patients with central nervous system involvement. To assess the role of alpha-tumor necrosis factor in the pathogenesis of central nervous system involvement during human immunodeficiency virus type 1 infection, we recor\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 1983,
+      "k1_auc": 0.5877551020408163
+    },
+    {
+      "latent_idx": 4266,
+      "k1_auc": 0.53
+    },
+    {
+      "latent_idx": 10489,
+      "k1_auc": 0.53
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5287755102040816
+    },
+    {
+      "latent_idx": 3958,
+      "k1_auc": 0.5204081632653061
+    },
+    {
+      "latent_idx": 10603,
+      "k1_auc": 0.5146938775510204
+    },
+    {
+      "latent_idx": 6410,
+      "k1_auc": 0.5110204081632653
+    },
+    {
+      "latent_idx": 8898,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5099999999999999
+    },
+    {
+      "latent_idx": 2155,
+      "k1_auc": 0.5044897959183674
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2556,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5085,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15348,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7776,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3994,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15139,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12074,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5988,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9567,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4641,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6821,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2050,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1288,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14320,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12048,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11055,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1999,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13682,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6157,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8035,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6552,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4865,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4709,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8258,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13357,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2497,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12200,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3077,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14920,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2275,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9647,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14711,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4737,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3349,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1104,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6472,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14491,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13609,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14462,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8854,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7778,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4609,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13897,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 659,
+      "k1_auc": 0.4987755102040816
+    },
+    {
+      "latent_idx": 8514,
+      "k1_auc": 0.4981632653061225
+    },
+    {
+      "latent_idx": 12799,
+      "k1_auc": 0.4971428571428572
+    },
+    {
+      "latent_idx": 4972,
+      "k1_auc": 0.49571428571428566
+    },
+    {
+      "latent_idx": 6500,
+      "k1_auc": 0.49326530612244895
+    },
+    {
+      "latent_idx": 14760,
+      "k1_auc": 0.49102040816326536
+    },
+    {
+      "latent_idx": 13183,
+      "k1_auc": 0.4906122448979592
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.4902040816326531
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.4897959183673469
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.4897959183673469
+    },
+    {
+      "latent_idx": 9443,
+      "k1_auc": 0.4897959183673469
+    },
+    {
+      "latent_idx": 8052,
+      "k1_auc": 0.4897959183673469
+    },
+    {
+      "latent_idx": 5919,
+      "k1_auc": 0.4897959183673469
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.48938775510204086
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.4883673469387756
+    },
+    {
+      "latent_idx": 16189,
+      "k1_auc": 0.4844897959183674
+    },
+    {
+      "latent_idx": 563,
+      "k1_auc": 0.48285714285714293
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.48
+    },
+    {
+      "latent_idx": 5490,
+      "k1_auc": 0.47959183673469385
+    },
+    {
+      "latent_idx": 2958,
+      "k1_auc": 0.4791836734693877
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.47795918367346935
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.4771428571428571
+    },
+    {
+      "latent_idx": 5231,
+      "k1_auc": 0.4738775510204082
+    },
+    {
+      "latent_idx": 146,
+      "k1_auc": 0.4726530612244898
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.4683673469387756
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.4595918367346939
+    },
+    {
+      "latent_idx": 9601,
+      "k1_auc": 0.4514285714285714
+    },
+    {
+      "latent_idx": 8800,
+      "k1_auc": 0.4510204081632653
+    },
+    {
+      "latent_idx": 12862,
+      "k1_auc": 0.446530612244898
+    },
+    {
+      "latent_idx": 5446,
+      "k1_auc": 0.4440816326530612
+    },
+    {
+      "latent_idx": 10472,
+      "k1_auc": 0.4420408163265306
+    },
+    {
+      "latent_idx": 9047,
+      "k1_auc": 0.42979591836734693
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "113_movie_sent",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:45:34.848454"
+  },
+  "best_latent": {
+    "latent_idx": 14620,
+    "k1_auc": 0.6698446846149873,
+    "examples": [
+      {
+        "text": "when the first few villians are introduced as \" spider \" and \" snake \" you know you're in for a real winner , creativity at its peak .",
+        "activation": 1212.8330078125
+      },
+      {
+        "text": "it's not just a feel-good movie , it's a feel movie . you feel good , you feel sad , you feel pissed off , but in the end , you feel alive - which is what they did .",
+        "activation": 1166.53173828125
+      },
+      {
+        "text": "all the actors are good in pauline & paulette but van der groen , described as 'belgium's national treasure , ' is especially terrific as pauline .",
+        "activation": 1097.414794921875
+      },
+      {
+        "text": "a true pleasure .",
+        "activation": 1048.3153076171875
+      },
+      {
+        "text": "a true pleasure .",
+        "activation": 1048.3153076171875
+      },
+      {
+        "text": "i couldn't recommend this film more .",
+        "activation": 976.87841796875
+      },
+      {
+        "text": "at just over an hour , home movie will leave you wanting more , not to mention leaving you with some laughs and a smile on your face .",
+        "activation": 968.6633911132812
+      },
+      {
+        "text": "one of the finest , most humane and important holocaust movies ever made .",
+        "activation": 910.0608520507812
+      },
+      {
+        "text": "it's not so much enjoyable to watch as it is enlightening to listen to new sides of a previous reality , and to visit with some of the people who were able to make an impact in the theater world .",
+        "activation": 892.5693359375
+      },
+      {
+        "text": "entirely suspenseful , extremely well-paced and ultimately . . . dare i say , entertaining !",
+        "activation": 876.8870849609375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 14620\n\nTop activating examples (format: [activation] text):\n  [1212.833] when the first few villians are introduced as \" spider \" and \" snake \" you know you're in for a real winner , creativity at its peak .\n  [1166.532] it's not just a feel-good movie , it's a feel movie . you feel good , you feel sad , you feel pissed off , but in the end , you feel alive - which is what they did .\n  [1097.415] all the actors are good in pauline & paulette but van der groen , described as 'belgium's national treasure , ' is especially terrific as pauline .\n  [1048.315] a true pleasure .\n  [1048.315] a true pleasure .\n  [976.878] i couldn't recommend this film more .\n  [968.663] at just over an hour , home movie will leave you wanting more , not to mention leaving you with some laughs and a smile on your face .\n  [910.061] one of the finest , most humane and important holocaust movies ever made .\n  [892.569] it's not so much enjoyable to watch as it is enlightening to listen to new sides of a previous reality , and to visit with some of the people who were able to make an impact in the theater world .\n  [876.887] entirely suspenseful , extremely well-paced and ultimately . . . dare i say , entertaining !\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 14620,
+      "k1_auc": 0.6698446846149873
+    },
+    {
+      "latent_idx": 3630,
+      "k1_auc": 0.6637350524890662
+    },
+    {
+      "latent_idx": 3115,
+      "k1_auc": 0.5984269988324512
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.596873515881398
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.570649108541536
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5643180927538051
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5571734382135795
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.5558741224397216
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5553978121370395
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5536264896880022
+    },
+    {
+      "latent_idx": 1821,
+      "k1_auc": 0.552771839896956
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5527103233391288
+    },
+    {
+      "latent_idx": 8475,
+      "k1_auc": 0.5521268020807282
+    },
+    {
+      "latent_idx": 7535,
+      "k1_auc": 0.5497633511182849
+    },
+    {
+      "latent_idx": 7803,
+      "k1_auc": 0.5485704868364693
+    },
+    {
+      "latent_idx": 2692,
+      "k1_auc": 0.5465729707890017
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5423722506149123
+    },
+    {
+      "latent_idx": 14711,
+      "k1_auc": 0.5415089935688616
+    },
+    {
+      "latent_idx": 11532,
+      "k1_auc": 0.5393527496129267
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5387918856875525
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5369741093769461
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.5367299418048299
+    },
+    {
+      "latent_idx": 12502,
+      "k1_auc": 0.5352406335344732
+    },
+    {
+      "latent_idx": 2458,
+      "k1_auc": 0.5331275524308406
+    },
+    {
+      "latent_idx": 2751,
+      "k1_auc": 0.5330032535423918
+    },
+    {
+      "latent_idx": 2281,
+      "k1_auc": 0.5321169594314756
+    },
+    {
+      "latent_idx": 9384,
+      "k1_auc": 0.5313371168126018
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.5305853743497725
+    },
+    {
+      "latent_idx": 4582,
+      "k1_auc": 0.5302071614386874
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.5287851922810137
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5263235173496945
+    },
+    {
+      "latent_idx": 16244,
+      "k1_auc": 0.5254096293918519
+    },
+    {
+      "latent_idx": 5749,
+      "k1_auc": 0.5253989969003756
+    },
+    {
+      "latent_idx": 6111,
+      "k1_auc": 0.5245663715559588
+    },
+    {
+      "latent_idx": 16314,
+      "k1_auc": 0.5241580332523577
+    },
+    {
+      "latent_idx": 15029,
+      "k1_auc": 0.5234327454409395
+    },
+    {
+      "latent_idx": 10407,
+      "k1_auc": 0.5232190829931779
+    },
+    {
+      "latent_idx": 10993,
+      "k1_auc": 0.5227375830220377
+    },
+    {
+      "latent_idx": 12802,
+      "k1_auc": 0.521978372499719
+    },
+    {
+      "latent_idx": 9422,
+      "k1_auc": 0.5216819285111779
+    },
+    {
+      "latent_idx": 7615,
+      "k1_auc": 0.5214410519483281
+    },
+    {
+      "latent_idx": 2886,
+      "k1_auc": 0.5214287739522185
+    },
+    {
+      "latent_idx": 2376,
+      "k1_auc": 0.5212556162338905
+    },
+    {
+      "latent_idx": 14031,
+      "k1_auc": 0.5210211951122944
+    },
+    {
+      "latent_idx": 9121,
+      "k1_auc": 0.5206647534932797
+    },
+    {
+      "latent_idx": 12872,
+      "k1_auc": 0.5203938781151934
+    },
+    {
+      "latent_idx": 14786,
+      "k1_auc": 0.52014173617447
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5187025525067871
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5185374957343457
+    },
+    {
+      "latent_idx": 11641,
+      "k1_auc": 0.5183576294202052
+    },
+    {
+      "latent_idx": 12194,
+      "k1_auc": 0.517875369985388
+    },
+    {
+      "latent_idx": 6271,
+      "k1_auc": 0.5178675221940602
+    },
+    {
+      "latent_idx": 15399,
+      "k1_auc": 0.5173781744315921
+    },
+    {
+      "latent_idx": 708,
+      "k1_auc": 0.5166023822856616
+    },
+    {
+      "latent_idx": 7339,
+      "k1_auc": 0.5165963065762467
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.516187588540807
+    },
+    {
+      "latent_idx": 10499,
+      "k1_auc": 0.5158688669510774
+    },
+    {
+      "latent_idx": 8083,
+      "k1_auc": 0.5156133074238081
+    },
+    {
+      "latent_idx": 12496,
+      "k1_auc": 0.515601409159537
+    },
+    {
+      "latent_idx": 8318,
+      "k1_auc": 0.5139928650919102
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.5136417397186338
+    },
+    {
+      "latent_idx": 13665,
+      "k1_auc": 0.5135931340433137
+    },
+    {
+      "latent_idx": 15103,
+      "k1_auc": 0.5133632697037789
+    },
+    {
+      "latent_idx": 4744,
+      "k1_auc": 0.5130860654617184
+    },
+    {
+      "latent_idx": 7247,
+      "k1_auc": 0.5130772050521548
+    },
+    {
+      "latent_idx": 6787,
+      "k1_auc": 0.5129506277726753
+    },
+    {
+      "latent_idx": 4824,
+      "k1_auc": 0.5122997674015911
+    },
+    {
+      "latent_idx": 13274,
+      "k1_auc": 0.5121050915457517
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5120939527451573
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5120807887080916
+    },
+    {
+      "latent_idx": 9541,
+      "k1_auc": 0.5116028329007767
+    },
+    {
+      "latent_idx": 13030,
+      "k1_auc": 0.5115925801411387
+    },
+    {
+      "latent_idx": 2089,
+      "k1_auc": 0.5115780237539986
+    },
+    {
+      "latent_idx": 4056,
+      "k1_auc": 0.5107838779025435
+    },
+    {
+      "latent_idx": 12943,
+      "k1_auc": 0.5101294733676341
+    },
+    {
+      "latent_idx": 6472,
+      "k1_auc": 0.5100347935625834
+    },
+    {
+      "latent_idx": 10641,
+      "k1_auc": 0.5098031571411358
+    },
+    {
+      "latent_idx": 2920,
+      "k1_auc": 0.5097901196813492
+    },
+    {
+      "latent_idx": 7428,
+      "k1_auc": 0.509772145707663
+    },
+    {
+      "latent_idx": 14300,
+      "k1_auc": 0.509742020315147
+    },
+    {
+      "latent_idx": 15884,
+      "k1_auc": 0.5095631666192424
+    },
+    {
+      "latent_idx": 6080,
+      "k1_auc": 0.5095143077893632
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5094264631574045
+    },
+    {
+      "latent_idx": 9447,
+      "k1_auc": 0.5093084931329295
+    },
+    {
+      "latent_idx": 1181,
+      "k1_auc": 0.5092986201051299
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5092917849320381
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.5090419213823454
+    },
+    {
+      "latent_idx": 16084,
+      "k1_auc": 0.5085358654189861
+    },
+    {
+      "latent_idx": 6704,
+      "k1_auc": 0.5085009300898495
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5083196714256347
+    },
+    {
+      "latent_idx": 3264,
+      "k1_auc": 0.508315241220853
+    },
+    {
+      "latent_idx": 10479,
+      "k1_auc": 0.5080363914741595
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5080351257013647
+    },
+    {
+      "latent_idx": 8576,
+      "k1_auc": 0.5078300705086077
+    },
+    {
+      "latent_idx": 1001,
+      "k1_auc": 0.5077848824198335
+    },
+    {
+      "latent_idx": 11305,
+      "k1_auc": 0.5072708520878668
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5068916265585461
+    },
+    {
+      "latent_idx": 3984,
+      "k1_auc": 0.5065389822579159
+    },
+    {
+      "latent_idx": 8720,
+      "k1_auc": 0.5060425461677969
+    },
+    {
+      "latent_idx": 334,
+      "k1_auc": 0.506035457840146
+    },
+    {
+      "latent_idx": 5101,
+      "k1_auc": 0.5059624227498863
+    },
+    {
+      "latent_idx": 6413,
+      "k1_auc": 0.5058143273328952
+    },
+    {
+      "latent_idx": 506,
+      "k1_auc": 0.5050577749334457
+    },
+    {
+      "latent_idx": 2579,
+      "k1_auc": 0.5050106881854792
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.5045719713348029
+    },
+    {
+      "latent_idx": 12408,
+      "k1_auc": 0.5042872990332534
+    },
+    {
+      "latent_idx": 7449,
+      "k1_auc": 0.5037602312415004
+    },
+    {
+      "latent_idx": 10849,
+      "k1_auc": 0.5005065622724774
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3441,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6452,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10467,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14557,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14975,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6116,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6977,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14937,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12656,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12415,
+      "k1_auc": 0.49955773898549827
+    },
+    {
+      "latent_idx": 7114,
+      "k1_auc": 0.4970439142150335
+    }
+  ]
+}

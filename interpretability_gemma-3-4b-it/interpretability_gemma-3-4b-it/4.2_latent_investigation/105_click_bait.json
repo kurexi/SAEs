@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "105_click_bait",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:45:05.938151"
+  },
+  "best_latent": {
+    "latent_idx": 12794,
+    "k1_auc": 0.9908066369629644,
+    "examples": [
+      {
+        "text": "Revolutionizing Transportation: Autonomous Electric Vehicles Gain Momentum",
+        "activation": 4040.363037109375
+      },
+      {
+        "text": "Revolutionizing Transportation: Autonomous Electric Vehicles Gain Momentum",
+        "activation": 4040.363037109375
+      },
+      {
+        "text": "Amazon Rainforest: Efforts to Combat Deforestation Gain Momentum",
+        "activation": 3808.18701171875
+      },
+      {
+        "text": "The Rise of Renewable Energy: Solar and Wind Power Lead Global Transition",
+        "activation": 3709.22802734375
+      },
+      {
+        "text": "Innovations in Renewable Energy: Solar and Wind Power Leading the Charge",
+        "activation": 3662.86572265625
+      },
+      {
+        "text": "Innovations in Renewable Energy: Solar and Wind Power Leading the Charge",
+        "activation": 3662.86572265625
+      },
+      {
+        "text": "Revolutionizing Education: Virtual Reality Classrooms Gain Popularity",
+        "activation": 3617.12451171875
+      },
+      {
+        "text": "Climate Change Acceleration: Recent Studies Showing Rapid Environmental Degradation",
+        "activation": 3607.05419921875
+      },
+      {
+        "text": "Breakthrough in Quantum Computing: The Latest Advancements",
+        "activation": 3583.92138671875
+      },
+      {
+        "text": "Breakthrough in Quantum Computing: The Latest Advancements",
+        "activation": 3583.92138671875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 12794\n\nTop activating examples (format: [activation] text):\n  [4040.363] Revolutionizing Transportation: Autonomous Electric Vehicles Gain Momentum\n  [4040.363] Revolutionizing Transportation: Autonomous Electric Vehicles Gain Momentum\n  [3808.187] Amazon Rainforest: Efforts to Combat Deforestation Gain Momentum\n  [3709.228] The Rise of Renewable Energy: Solar and Wind Power Lead Global Transition\n  [3662.866] Innovations in Renewable Energy: Solar and Wind Power Leading the Charge\n  [3662.866] Innovations in Renewable Energy: Solar and Wind Power Leading the Charge\n  [3617.125] Revolutionizing Education: Virtual Reality Classrooms Gain Popularity\n  [3607.054] Climate Change Acceleration: Recent Studies Showing Rapid Environmental Degradation\n  [3583.921] Breakthrough in Quantum Computing: The Latest Advancements\n  [3583.921] Breakthrough in Quantum Computing: The Latest Advancements\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 12794,
+      "k1_auc": 0.9908066369629644
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.9791519660221905
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.9788982749003716
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.9755734091382565
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.9749820232118975
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.9745956062713789
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.9729676149002371
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.9716285961976573
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.9710271298293717
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.9706961553194491
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.9705693097585398
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.969226930908651
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.9670772766678091
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.9660969536904497
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.9656139325148015
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.9626528026988702
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.9551924356363783
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.9515265149224141
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.9479529982594437
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.9443979624066718
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.9442736369562441
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.9391183309476288
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.9361370402478445
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.9341033110891581
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.9273670557717251
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.9259230324657433
+    },
+    {
+      "latent_idx": 5359,
+      "k1_auc": 0.9222747525251507
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.9169909208819714
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.915265485238873
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.9148059850943866
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.9096498390489439
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.9035604120884659
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.9009193363037036
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.8992753842328448
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.8891731013487633
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.8599221789883269
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.8528591493451072
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.8506582528578054
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.8335735838659166
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.8242542153047989
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.8164721141374838
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.7929729239329851
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.77659892609692
+    },
+    {
+      "latent_idx": 1588,
+      "k1_auc": 0.7723584201931413
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.7431024576117418
+    },
+    {
+      "latent_idx": 12502,
+      "k1_auc": 0.7094682230869002
+    },
+    {
+      "latent_idx": 3405,
+      "k1_auc": 0.6682518161596205
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.661310591856347
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.6582746987627939
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.651132705657816
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.6510352613858592
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.6508983353830233
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.6449441543517268
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.6429188255613125
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.6385842355328857
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.6278720859122464
+    },
+    {
+      "latent_idx": 6795,
+      "k1_auc": 0.6170742525352312
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5998299765461718
+    },
+    {
+      "latent_idx": 12562,
+      "k1_auc": 0.5927367055771725
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.5893614376054247
+    },
+    {
+      "latent_idx": 9121,
+      "k1_auc": 0.5859433277554889
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5793792799876346
+    },
+    {
+      "latent_idx": 15999,
+      "k1_auc": 0.5654262682876017
+    },
+    {
+      "latent_idx": 3989,
+      "k1_auc": 0.56349670369549
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5573770354092324
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5486381322957199
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.5428015564202335
+    },
+    {
+      "latent_idx": 1869,
+      "k1_auc": 0.542098445595855
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.540269685423009
+    },
+    {
+      "latent_idx": 3115,
+      "k1_auc": 0.5402075226977952
+    },
+    {
+      "latent_idx": 12926,
+      "k1_auc": 0.5389105058365758
+    },
+    {
+      "latent_idx": 4761,
+      "k1_auc": 0.5389054656156126
+    },
+    {
+      "latent_idx": 6106,
+      "k1_auc": 0.5375714871339959
+    },
+    {
+      "latent_idx": 14031,
+      "k1_auc": 0.5363013514512476
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5343264248704663
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5318012741678595
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.5311284046692607
+    },
+    {
+      "latent_idx": 1172,
+      "k1_auc": 0.5311284046692607
+    },
+    {
+      "latent_idx": 13949,
+      "k1_auc": 0.5304177335134374
+    },
+    {
+      "latent_idx": 8702,
+      "k1_auc": 0.5285276506522045
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.5283546030657984
+    },
+    {
+      "latent_idx": 506,
+      "k1_auc": 0.5274893651337675
+    },
+    {
+      "latent_idx": 5749,
+      "k1_auc": 0.5272373540856031
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.5271869518759702
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5271063083405576
+    },
+    {
+      "latent_idx": 3969,
+      "k1_auc": 0.525118781207368
+    },
+    {
+      "latent_idx": 6452,
+      "k1_auc": 0.5239948119325551
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5239948119325551
+    },
+    {
+      "latent_idx": 4050,
+      "k1_auc": 0.5233160621761658
+    },
+    {
+      "latent_idx": 15103,
+      "k1_auc": 0.5226860345557549
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5220224054622554
+    },
+    {
+      "latent_idx": 4711,
+      "k1_auc": 0.5218695187597024
+    },
+    {
+      "latent_idx": 2584,
+      "k1_auc": 0.5216343084480823
+    },
+    {
+      "latent_idx": 7644,
+      "k1_auc": 0.5213730569948186
+    },
+    {
+      "latent_idx": 6116,
+      "k1_auc": 0.5201037613488975
+    },
+    {
+      "latent_idx": 11664,
+      "k1_auc": 0.5195241359381195
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5193124466576615
+    },
+    {
+      "latent_idx": 9384,
+      "k1_auc": 0.5181582360570687
+    },
+    {
+      "latent_idx": 10977,
+      "k1_auc": 0.5181582360570687
+    },
+    {
+      "latent_idx": 5485,
+      "k1_auc": 0.5181347150259067
+    },
+    {
+      "latent_idx": 3098,
+      "k1_auc": 0.51802215009106
+    },
+    {
+      "latent_idx": 3838,
+      "k1_auc": 0.514912333756712
+    },
+    {
+      "latent_idx": 13568,
+      "k1_auc": 0.51396897239975
+    },
+    {
+      "latent_idx": 7535,
+      "k1_auc": 0.5136186770428015
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5129668084648832
+    },
+    {
+      "latent_idx": 4043,
+      "k1_auc": 0.5123056994818653
+    },
+    {
+      "latent_idx": 1748,
+      "k1_auc": 0.5117504351390766
+    },
+    {
+      "latent_idx": 14717,
+      "k1_auc": 0.5103626943005182
+    },
+    {
+      "latent_idx": 11982,
+      "k1_auc": 0.5103626943005182
+    },
+    {
+      "latent_idx": 12142,
+      "k1_auc": 0.5090959187650788
+    },
+    {
+      "latent_idx": 4696,
+      "k1_auc": 0.5090673575129534
+    },
+    {
+      "latent_idx": 14178,
+      "k1_auc": 0.5090673575129534
+    },
+    {
+      "latent_idx": 11489,
+      "k1_auc": 0.5090589571446813
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.5084524505554324
+    },
+    {
+      "latent_idx": 1428,
+      "k1_auc": 0.5077720207253886
+    },
+    {
+      "latent_idx": 6787,
+      "k1_auc": 0.5073730032324617
+    },
+    {
+      "latent_idx": 3264,
+      "k1_auc": 0.5053241534108857
+    },
+    {
+      "latent_idx": 12543,
+      "k1_auc": 0.505258630538363
+    },
+    {
+      "latent_idx": 12177,
+      "k1_auc": 0.505172946781987
+    },
+    {
+      "latent_idx": 2809,
+      "k1_auc": 0.5048596130454359
+    },
+    {
+      "latent_idx": 3105,
+      "k1_auc": 0.5045126778357963
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15400,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4603,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12395,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14641,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14348,
+      "k1_auc": 0.4987197838753251
+    },
+    {
+      "latent_idx": 6249,
+      "k1_auc": 0.49847953334274175
+    }
+  ]
+}

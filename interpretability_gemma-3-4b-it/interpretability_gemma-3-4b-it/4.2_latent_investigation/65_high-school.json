@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "65_high-school",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:38:01.177958"
+  },
+  "best_latent": {
+    "latent_idx": 9262,
+    "k1_auc": 0.9462011776881866,
+    "examples": [
+      {
+        "text": " domestic animals on 52 secluded acres in the remote Tillman hills south of Advance. She graduated from Dexter High School",
+        "activation": 2985.54345703125
+      },
+      {
+        "text": " had siblings Barbara Jean (deceased) and PhilipOtis. Shegraduated from Massena High School",
+        "activation": 2872.494140625
+      },
+      {
+        "text": " because...Gerald Bradley was born in Madison, Michigan on April 22, 1922. He graduated from high school",
+        "activation": 2815.1103515625
+      },
+      {
+        "text": " German descent on her mother's side and English and Cherokee on her father's side. Following her graduation from Murray High School",
+        "activation": 2793.71728515625
+      },
+      {
+        "text": " Spencer, Iowa. His family moved to Mason City in 1942 where he went through the public school system until completing high school",
+        "activation": 2753.973388671875
+      },
+      {
+        "text": "ville, Kentucky, to Mr. and Mrs. Morris J. Hubbard. Mauricegraduated from Fort Myers High School",
+        "activation": 2729.7734375
+      },
+      {
+        "text": " killing, there was a character assassination campaign conducted in the media, complete with stories about his suspension from his Miami high school",
+        "activation": 2707.30712890625
+      },
+      {
+        "text": " in second grade at Waltham Road School, later renamed Barrington Elementary School. They graduated from Upper Arlington High School",
+        "activation": 2694.2607421875
+      },
+      {
+        "text": " in second grade at Waltham Road School, later renamed Barrington Elementary School. They graduated from Upper Arlington High School",
+        "activation": 2694.2607421875
+      },
+      {
+        "text": " back into an area from which her husband worked so hard to escape.Kramer, who was in high school",
+        "activation": 2688.29345703125
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 9262\n\nTop activating examples (format: [activation] text):\n  [2985.543] domestic animals on 52 secluded acres in the remote Tillman hills south of Advance. She graduated from Dexter High School\n  [2872.494] had siblings Barbara Jean (deceased) and PhilipOtis. Shegraduated from Massena High School\n  [2815.110] because...Gerald Bradley was born in Madison, Michigan on April 22, 1922. He graduated from high school\n  [2793.717] German descent on her mother's side and English and Cherokee on her father's side. Following her graduation from Murray High School\n  [2753.973] Spencer, Iowa. His family moved to Mason City in 1942 where he went through the public school system until completing high school\n  [2729.773] ville, Kentucky, to Mr. and Mrs. Morris J. Hubbard. Mauricegraduated from Fort Myers High School\n  [2707.307] killing, there was a character assassination campaign conducted in the media, complete with stories about his suspension from his Miami high school\n  [2694.261] in second grade at Waltham Road School, later renamed Barrington Elementary School. They graduated from Upper Arlington High School\n  [2694.261] in second grade at Waltham Road School, later renamed Barrington Elementary School. They graduated from Upper Arlington High School\n  [2688.293] back into an area from which her husband worked so hard to escape.Kramer, who was in high school\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 9262,
+      "k1_auc": 0.9462011776881866
+    },
+    {
+      "latent_idx": 6614,
+      "k1_auc": 0.8451422053411981
+    },
+    {
+      "latent_idx": 7544,
+      "k1_auc": 0.818701718843011
+    },
+    {
+      "latent_idx": 4309,
+      "k1_auc": 0.7282582593755074
+    },
+    {
+      "latent_idx": 2080,
+      "k1_auc": 0.6739085583635478
+    },
+    {
+      "latent_idx": 10240,
+      "k1_auc": 0.666399612397857
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.6582598828399805
+    },
+    {
+      "latent_idx": 8917,
+      "k1_auc": 0.6527646247091293
+    },
+    {
+      "latent_idx": 997,
+      "k1_auc": 0.6520560501109367
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.649412847015531
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.6254718193625196
+    },
+    {
+      "latent_idx": 8931,
+      "k1_auc": 0.613373626819633
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.598920565236214
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5948631723848693
+    },
+    {
+      "latent_idx": 9666,
+      "k1_auc": 0.5946297993668488
+    },
+    {
+      "latent_idx": 15257,
+      "k1_auc": 0.5935310014070025
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5846061745765462
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5710823772931435
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.56378016938146
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.559091570160723
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5586831673791872
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5564284965366092
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5555706815845013
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.55351175658856
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5533739312192218
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5478503470155313
+    },
+    {
+      "latent_idx": 816,
+      "k1_auc": 0.546875
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5433312814546242
+    },
+    {
+      "latent_idx": 2772,
+      "k1_auc": 0.5422794117647058
+    },
+    {
+      "latent_idx": 8270,
+      "k1_auc": 0.5416816047946317
+    },
+    {
+      "latent_idx": 4696,
+      "k1_auc": 0.5404411764705882
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5397702290437795
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5383065743546729
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5379400265165863
+    },
+    {
+      "latent_idx": 3463,
+      "k1_auc": 0.5378427877590778
+    },
+    {
+      "latent_idx": 4920,
+      "k1_auc": 0.537322349017804
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5361356133989934
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.53403271957357
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5330066392932518
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5326417825639915
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5320701877807241
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5317763576221657
+    },
+    {
+      "latent_idx": 15103,
+      "k1_auc": 0.5317543732074247
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5309929514584122
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5308859888251529
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5307528140050869
+    },
+    {
+      "latent_idx": 14796,
+      "k1_auc": 0.5300366294171762
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5295758022620272
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5287374350614211
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5275929771632663
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5269571202446021
+    },
+    {
+      "latent_idx": 10953,
+      "k1_auc": 0.5261948529411765
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.5251768054277829
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5249260985442935
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5221315412089399
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5215252786947346
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5212999384436388
+    },
+    {
+      "latent_idx": 542,
+      "k1_auc": 0.5206898709345744
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5204476195952162
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5196823928513448
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5196067157313707
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5194236532009309
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5190499181503329
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5189383049678012
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5186943625196169
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5183975729206126
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5179743729368472
+    },
+    {
+      "latent_idx": 4050,
+      "k1_auc": 0.5176835022187348
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5164675949726717
+    },
+    {
+      "latent_idx": 2247,
+      "k1_auc": 0.5161154215596083
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5156985632339413
+    },
+    {
+      "latent_idx": 5984,
+      "k1_auc": 0.5154711090968125
+    },
+    {
+      "latent_idx": 8167,
+      "k1_auc": 0.5154106519562747
+    },
+    {
+      "latent_idx": 15029,
+      "k1_auc": 0.5151299278911197
+    },
+    {
+      "latent_idx": 70,
+      "k1_auc": 0.5147058823529411
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5147033456897019
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5145236653769143
+    },
+    {
+      "latent_idx": 9649,
+      "k1_auc": 0.5142535107419233
+    },
+    {
+      "latent_idx": 386,
+      "k1_auc": 0.5142497057470643
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5127598388711511
+    },
+    {
+      "latent_idx": 11804,
+      "k1_auc": 0.5125640930245143
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5125087092104552
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5124220398831106
+    },
+    {
+      "latent_idx": 5491,
+      "k1_auc": 0.5124080882352942
+    },
+    {
+      "latent_idx": 9227,
+      "k1_auc": 0.5119197805617186
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5118783483954761
+    },
+    {
+      "latent_idx": 4266,
+      "k1_auc": 0.5114889705882353
+    },
+    {
+      "latent_idx": 16329,
+      "k1_auc": 0.5114695228367336
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5105381446506846
+    },
+    {
+      "latent_idx": 134,
+      "k1_auc": 0.5102836327723361
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5102760227826181
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5101682145949457
+    },
+    {
+      "latent_idx": 8779,
+      "k1_auc": 0.5097090785486227
+    },
+    {
+      "latent_idx": 4423,
+      "k1_auc": 0.5096655324963472
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5096587680610423
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5092182342118079
+    },
+    {
+      "latent_idx": 9831,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 6377,
+      "k1_auc": 0.5086944132528817
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.5073580145029493
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.5073267289896639
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5069901983332431
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5060609340332268
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5059742647058824
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5055172425455924
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5055147058823529
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5055147058823529
+    },
+    {
+      "latent_idx": 1888,
+      "k1_auc": 0.5055147058823529
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.50448059283511
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5036984550029764
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5036908450132583
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5036798528058878
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5036764705882353
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.5032773689052437
+    },
+    {
+      "latent_idx": 9616,
+      "k1_auc": 0.5023197785323881
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5021472854321122
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5007356323394123
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1586,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4567,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8053,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.4951232649223443
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.49415975566859677
+    }
+  ]
+}

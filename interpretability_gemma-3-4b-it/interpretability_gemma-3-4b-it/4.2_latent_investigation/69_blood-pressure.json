@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "69_blood-pressure",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:38:55.474761"
+  },
+  "best_latent": {
+    "latent_idx": 8240,
+    "k1_auc": 0.9789824767303426,
+    "examples": [
+      {
+        "text": ") risk factors. The risk factors of VPP classified as moderate include age (> or = 35 years), increased blood pressure",
+        "activation": 2775.1416015625
+      },
+      {
+        "text": "--360\u2009\u03bcmol/L). Patients with PKU (*n*\u2009=\u2009100) had higher blood pressure",
+        "activation": 2750.875732421875
+      },
+      {
+        "text": "^; *n*= 40). These subjects tended to be older and have higher waist\u2010to\u2010hip ratios, blood pressure",
+        "activation": 2739.926025390625
+      },
+      {
+        "text": " well as in a study conducted with Chilean children, in which no direct association was found between children with high blood pressure",
+        "activation": 2681.131591796875
+      },
+      {
+        "text": " ischemia, coronary artery disease, or hypertension \\[[@B392]\\]. In this sense, type 2 diabetic patients exhibit high blood pressure",
+        "activation": 2671.066162109375
+      },
+      {
+        "text": "2.71--4.22\\]) and did not contribute to an increased risk of CVD. Conversely, high blood pressure",
+        "activation": 2612.1865234375
+      },
+      {
+        "text": " the time of day it is measured, and due to illness ([@B34]). Patients also tend to have higher blood pressure",
+        "activation": 2598.345458984375
+      },
+      {
+        "text": " be quickly lowered with medication, the damage to the heart and blood vessels that is caused by time spent with elevated blood pressure",
+        "activation": 2586.706298828125
+      },
+      {
+        "text": " from four urban sites including Chicago, Birmingham, Minneapolis, and Oakland.The highest risk group had elevated blood pressure",
+        "activation": 2563.027099609375
+      },
+      {
+        "text": " vitamin D were observed in women, older individuals, hypertensive individuals, diabetics, smokers, and those with higher blood pressure",
+        "activation": 2562.8134765625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 8240\n\nTop activating examples (format: [activation] text):\n  [2775.142] ) risk factors. The risk factors of VPP classified as moderate include age (> or = 35 years), increased blood pressure\n  [2750.876] --360\u2009\u03bcmol/L). Patients with PKU (*n*\u2009=\u2009100) had higher blood pressure\n  [2739.926] ^; *n*= 40). These subjects tended to be older and have higher waist\u2010to\u2010hip ratios, blood pressure\n  [2681.132] well as in a study conducted with Chilean children, in which no direct association was found between children with high blood pressure\n  [2671.066] ischemia, coronary artery disease, or hypertension \\[[@B392]\\]. In this sense, type 2 diabetic patients exhibit high blood pressure\n  [2612.187] 2.71--4.22\\]) and did not contribute to an increased risk of CVD. Conversely, high blood pressure\n  [2598.345] the time of day it is measured, and due to illness ([@B34]). Patients also tend to have higher blood pressure\n  [2586.706] be quickly lowered with medication, the damage to the heart and blood vessels that is caused by time spent with elevated blood pressure\n  [2563.027] from four urban sites including Chicago, Birmingham, Minneapolis, and Oakland.The highest risk group had elevated blood pressure\n  [2562.813] vitamin D were observed in women, older individuals, hypertensive individuals, diabetics, smokers, and those with higher blood pressure\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 8240,
+      "k1_auc": 0.9789824767303426
+    },
+    {
+      "latent_idx": 6389,
+      "k1_auc": 0.9688096115861248
+    },
+    {
+      "latent_idx": 12311,
+      "k1_auc": 0.9584680583364901
+    },
+    {
+      "latent_idx": 908,
+      "k1_auc": 0.9124618654959684
+    },
+    {
+      "latent_idx": 9831,
+      "k1_auc": 0.9059024771362088
+    },
+    {
+      "latent_idx": 3984,
+      "k1_auc": 0.8449392722820499
+    },
+    {
+      "latent_idx": 9671,
+      "k1_auc": 0.7940297093998594
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.7870251366415931
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.7262948820282483
+    },
+    {
+      "latent_idx": 816,
+      "k1_auc": 0.7241416777152443
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.7027563382758808
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.7005803039937225
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.6161741030358785
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.6112804568699604
+    },
+    {
+      "latent_idx": 5160,
+      "k1_auc": 0.6076031407273121
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.6061187699550841
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.6037173954218301
+    },
+    {
+      "latent_idx": 1269,
+      "k1_auc": 0.5962046444612804
+    },
+    {
+      "latent_idx": 11982,
+      "k1_auc": 0.5922761986579359
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5860537637318036
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5817879417176254
+    },
+    {
+      "latent_idx": 3861,
+      "k1_auc": 0.5817067684939662
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5748425577682774
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5693959190161806
+    },
+    {
+      "latent_idx": 15042,
+      "k1_auc": 0.5589385248119487
+    },
+    {
+      "latent_idx": 13761,
+      "k1_auc": 0.5583639705882353
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5534863899561664
+    },
+    {
+      "latent_idx": 15275,
+      "k1_auc": 0.5533088235294118
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5526569010768981
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5509108312138102
+    },
+    {
+      "latent_idx": 1175,
+      "k1_auc": 0.5505514705882353
+    },
+    {
+      "latent_idx": 11641,
+      "k1_auc": 0.548126420531414
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5478317448184427
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5427816710860978
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.542533078088641
+    },
+    {
+      "latent_idx": 10474,
+      "k1_auc": 0.5419276611288489
+    },
+    {
+      "latent_idx": 3412,
+      "k1_auc": 0.5405815385031658
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5400551808810001
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5397486674062449
+    },
+    {
+      "latent_idx": 2247,
+      "k1_auc": 0.5364387446560962
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5360053980193733
+    },
+    {
+      "latent_idx": 6731,
+      "k1_auc": 0.5354304210184534
+    },
+    {
+      "latent_idx": 2552,
+      "k1_auc": 0.5336150156934899
+    },
+    {
+      "latent_idx": 10268,
+      "k1_auc": 0.5322240786839115
+    },
+    {
+      "latent_idx": 14720,
+      "k1_auc": 0.5317467632177064
+    },
+    {
+      "latent_idx": 4696,
+      "k1_auc": 0.5298713235294118
+    },
+    {
+      "latent_idx": 11347,
+      "k1_auc": 0.5276437104280535
+    },
+    {
+      "latent_idx": 9938,
+      "k1_auc": 0.5275912860544402
+    },
+    {
+      "latent_idx": 12442,
+      "k1_auc": 0.5271630127441962
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.5271604760809567
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5271321500081173
+    },
+    {
+      "latent_idx": 609,
+      "k1_auc": 0.5271143933654419
+    },
+    {
+      "latent_idx": 6914,
+      "k1_auc": 0.5261948529411765
+    },
+    {
+      "latent_idx": 1586,
+      "k1_auc": 0.5255289788408464
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5254998072135938
+    },
+    {
+      "latent_idx": 12797,
+      "k1_auc": 0.5252757352941176
+    },
+    {
+      "latent_idx": 4046,
+      "k1_auc": 0.5252757352941176
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.524958229611992
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5244597752854592
+    },
+    {
+      "latent_idx": 2405,
+      "k1_auc": 0.5243587315330915
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5240222008766707
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5238970588235294
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5225678472861086
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5221729733751825
+    },
+    {
+      "latent_idx": 5491,
+      "k1_auc": 0.521643656312571
+    },
+    {
+      "latent_idx": 5126,
+      "k1_auc": 0.5215037170572
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5213595500297635
+    },
+    {
+      "latent_idx": 7834,
+      "k1_auc": 0.5202391904323826
+    },
+    {
+      "latent_idx": 2181,
+      "k1_auc": 0.5188592456301747
+    },
+    {
+      "latent_idx": 5516,
+      "k1_auc": 0.5177118282915741
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5176822338871151
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5175579373883868
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5173376704637697
+    },
+    {
+      "latent_idx": 997,
+      "k1_auc": 0.5170827358082147
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5170036764705882
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.51672210685102
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5165441176470589
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5159539206667028
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5153104537583203
+    },
+    {
+      "latent_idx": 7618,
+      "k1_auc": 0.5151730511661886
+    },
+    {
+      "latent_idx": 14268,
+      "k1_auc": 0.5149866064180961
+    },
+    {
+      "latent_idx": 13335,
+      "k1_auc": 0.5142864873640349
+    },
+    {
+      "latent_idx": 2809,
+      "k1_auc": 0.5138966867795877
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5137867647058824
+    },
+    {
+      "latent_idx": 7338,
+      "k1_auc": 0.5137867647058824
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5135259111694356
+    },
+    {
+      "latent_idx": 9108,
+      "k1_auc": 0.5130967923047784
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5128676470588235
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5128676470588235
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5124080882352942
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5120136371015747
+    },
+    {
+      "latent_idx": 2041,
+      "k1_auc": 0.5119485294117647
+    },
+    {
+      "latent_idx": 330,
+      "k1_auc": 0.511149057714162
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.511037867308837
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 13274,
+      "k1_auc": 0.5105504051896748
+    },
+    {
+      "latent_idx": 2464,
+      "k1_auc": 0.5101838573515884
+    },
+    {
+      "latent_idx": 11305,
+      "k1_auc": 0.5101119852264733
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.5100988791330701
+    },
+    {
+      "latent_idx": 542,
+      "k1_auc": 0.5083177187618378
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5082720588235294
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 16190,
+      "k1_auc": 0.5070168332972563
+    },
+    {
+      "latent_idx": 16094,
+      "k1_auc": 0.5068933823529411
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.5064338235294118
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5052614623356243
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.5045786771470318
+    },
+    {
+      "latent_idx": 8120,
+      "k1_auc": 0.5036798528058878
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5030363858975053
+    },
+    {
+      "latent_idx": 12872,
+      "k1_auc": 0.5022977941176471
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.5018382352941176
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5001483947995022
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.49776266302289085
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.4956842902754478
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.49354546038746683
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.48371081700849616
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.4772148452297202
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+dataset,sae_wins,baseline_wins,total,sae_win_rate
+67_social-security,1,0,1,100.0%
+7_hist_fig_ispolitician,1,0,1,100.0%
+5_hist_fig_ismale,0,1,1,0.0%
+66_living-room,0,1,1,0.0%
+6_hist_fig_isamerican,0,1,1,0.0%
+73_control-group,0,1,1,0.0%
+87_glue_cola,0,1,1,0.0%
+90_glue_qnli,0,1,1,0.0%

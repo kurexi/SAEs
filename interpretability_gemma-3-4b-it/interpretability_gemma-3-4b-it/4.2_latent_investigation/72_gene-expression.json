@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "72_gene-expression",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:39:56.156772"
+  },
+  "best_latent": {
+    "latent_idx": 13716,
+    "k1_auc": 0.85902240380973,
+    "examples": [
+      {
+        "text": " and atrazine showed dose-related increases in DNA strand breaks at environmentally relevant concentrations (<100 ppb). Gene expression",
+        "activation": 2127.047119140625
+      },
+      {
+        "text": ", ovarian steroidogenesis, retinol metabolism, and in general as metabolic pathways regulators.Comparisons of gene expression",
+        "activation": 2060.97216796875
+      },
+      {
+        "text": " transforming growth factor beta 1 and connective tissue growth factor were increased in RAGE null mice compared to WT mice. Gene expression",
+        "activation": 2055.080322265625
+      },
+      {
+        "text": ", Mammary Artery and Carotid Plaque Tissues {#s4c2}Individual gene expression",
+        "activation": 2042.5064697265625
+      },
+      {
+        "text": " values were comparable to previously reported results [22-24].Effects of a black cohosh extract on gene expression",
+        "activation": 2042.066650390625
+      },
+      {
+        "text": " of the mammary tissue by immunohistochemistry, which showed less cell proliferation and more apoptosis in ODM udder halves. Gene expression",
+        "activation": 2038.420654296875
+      },
+      {
+        "text": " after HD exposure, with hepatic macrovesicular degeneration evident after 4 h, and severe necrosis by 36 h. Gene expression",
+        "activation": 2030.047607421875
+      },
+      {
+        "text": "brainsci-07-00020-t026){ref-type=\"table\"}.3.16. Gene Expression",
+        "activation": 2026.9228515625
+      },
+      {
+        "text": "82\u00b10.11Values are mean ng/mL \u00b1 S.E.M.Gene expression",
+        "activation": 1990.306640625
+      },
+      {
+        "text": "82\u00b10.11Values are mean ng/mL \u00b1 S.E.M.Gene expression",
+        "activation": 1990.306640625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 13716\n\nTop activating examples (format: [activation] text):\n  [2127.047] and atrazine showed dose-related increases in DNA strand breaks at environmentally relevant concentrations (<100 ppb). Gene expression\n  [2060.972] , ovarian steroidogenesis, retinol metabolism, and in general as metabolic pathways regulators.Comparisons of gene expression\n  [2055.080] transforming growth factor beta 1 and connective tissue growth factor were increased in RAGE null mice compared to WT mice. Gene expression\n  [2042.506] , Mammary Artery and Carotid Plaque Tissues {#s4c2}Individual gene expression\n  [2042.067] values were comparable to previously reported results [22-24].Effects of a black cohosh extract on gene expression\n  [2038.421] of the mammary tissue by immunohistochemistry, which showed less cell proliferation and more apoptosis in ODM udder halves. Gene expression\n  [2030.048] after HD exposure, with hepatic macrovesicular degeneration evident after 4 h, and severe necrosis by 36 h. Gene expression\n  [2026.923] brainsci-07-00020-t026){ref-type=\"table\"}.3.16. Gene Expression\n  [1990.307] 82\u00b10.11Values are mean ng/mL \u00b1 S.E.M.Gene expression\n  [1990.307] 82\u00b10.11Values are mean ng/mL \u00b1 S.E.M.Gene expression\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 13716,
+      "k1_auc": 0.85902240380973
+    },
+    {
+      "latent_idx": 4474,
+      "k1_auc": 0.8435868079982682
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.7705110361762001
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.7549921532550462
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.7527556618323502
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.7475305583364901
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.7411013853563505
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.7389219688565398
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.7381356032523405
+    },
+    {
+      "latent_idx": 14819,
+      "k1_auc": 0.72678488081065
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.724307829157422
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.7241201160777098
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.7220134172574274
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.7216375683207966
+    },
+    {
+      "latent_idx": 13243,
+      "k1_auc": 0.720705767357541
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.7183711916229233
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.7152375669679096
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.6995457681692732
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.6993098584880135
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.6986291871854537
+    },
+    {
+      "latent_idx": 2432,
+      "k1_auc": 0.6960113507224417
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.6941223821635369
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.6907139523242599
+    },
+    {
+      "latent_idx": 6804,
+      "k1_auc": 0.688550178581092
+    },
+    {
+      "latent_idx": 242,
+      "k1_auc": 0.6858739988635749
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.6638790146923536
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.6555541087180041
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.6526826059310569
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.6351157902213322
+    },
+    {
+      "latent_idx": 13357,
+      "k1_auc": 0.6171875
+    },
+    {
+      "latent_idx": 10953,
+      "k1_auc": 0.6062223503706909
+    },
+    {
+      "latent_idx": 10166,
+      "k1_auc": 0.6035347556685968
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.602593653606797
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5966553249634721
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5959285709453974
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5958161122084529
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5891785100654797
+    },
+    {
+      "latent_idx": 10400,
+      "k1_auc": 0.5867784038638455
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5769323455002977
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5602022058823529
+    },
+    {
+      "latent_idx": 2517,
+      "k1_auc": 0.551976652551545
+    },
+    {
+      "latent_idx": 9616,
+      "k1_auc": 0.5487791885383408
+    },
+    {
+      "latent_idx": 10084,
+      "k1_auc": 0.5437096670544943
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5378774554900158
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.535068523729639
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5344762128632502
+    },
+    {
+      "latent_idx": 8748,
+      "k1_auc": 0.5335477941176471
+    },
+    {
+      "latent_idx": 5709,
+      "k1_auc": 0.5313768331619677
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5312449266735213
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5310901902159209
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5303537123220953
+    },
+    {
+      "latent_idx": 15116,
+      "k1_auc": 0.5295013934736728
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5294362857838628
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5289779952919531
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5289729219654744
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5285205503544563
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5285137859191515
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5281235625574978
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5281235625574977
+    },
+    {
+      "latent_idx": 5603,
+      "k1_auc": 0.5280330882352942
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.526460779804102
+    },
+    {
+      "latent_idx": 1586,
+      "k1_auc": 0.5251810331998484
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5251180393960713
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5243566176470589
+    },
+    {
+      "latent_idx": 11036,
+      "k1_auc": 0.5239833053736674
+    },
+    {
+      "latent_idx": 2100,
+      "k1_auc": 0.522534870663997
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5221053290221332
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5220723524000216
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5220588235294118
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5211397058823529
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5206801470588235
+    },
+    {
+      "latent_idx": 11596,
+      "k1_auc": 0.5206801470588235
+    },
+    {
+      "latent_idx": 6967,
+      "k1_auc": 0.5202205882352942
+    },
+    {
+      "latent_idx": 28,
+      "k1_auc": 0.5193124627956058
+    },
+    {
+      "latent_idx": 10474,
+      "k1_auc": 0.5183899629308946
+    },
+    {
+      "latent_idx": 7338,
+      "k1_auc": 0.5183595229720223
+    },
+    {
+      "latent_idx": 11641,
+      "k1_auc": 0.5174319497808324
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5170036764705882
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5169994486985228
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5165441176470589
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5165441176470589
+    },
+    {
+      "latent_idx": 11419,
+      "k1_auc": 0.515718856539856
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5156156989014558
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5151574084095459
+    },
+    {
+      "latent_idx": 14268,
+      "k1_auc": 0.5145866591806916
+    },
+    {
+      "latent_idx": 1175,
+      "k1_auc": 0.5142721129390119
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5133272058823529
+    },
+    {
+      "latent_idx": 12812,
+      "k1_auc": 0.5129259903133286
+    },
+    {
+      "latent_idx": 5085,
+      "k1_auc": 0.5128676470588235
+    },
+    {
+      "latent_idx": 8791,
+      "k1_auc": 0.5124249993235565
+    },
+    {
+      "latent_idx": 8898,
+      "k1_auc": 0.5124080882352942
+    },
+    {
+      "latent_idx": 8255,
+      "k1_auc": 0.5119485294117647
+    },
+    {
+      "latent_idx": 1934,
+      "k1_auc": 0.5119485294117647
+    },
+    {
+      "latent_idx": 4266,
+      "k1_auc": 0.511580290464852
+    },
+    {
+      "latent_idx": 1241,
+      "k1_auc": 0.5114923528058878
+    },
+    {
+      "latent_idx": 11748,
+      "k1_auc": 0.5114889705882353
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.5110522417338601
+    },
+    {
+      "latent_idx": 5347,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5110285662102928
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5105698529411765
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5101102941176471
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5092089331132638
+    },
+    {
+      "latent_idx": 7161,
+      "k1_auc": 0.5087396504139835
+    },
+    {
+      "latent_idx": 2809,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 997,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 14491,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 11254,
+      "k1_auc": 0.50735547783971
+    },
+    {
+      "latent_idx": 13682,
+      "k1_auc": 0.5073529411764706
+    },
+    {
+      "latent_idx": 8473,
+      "k1_auc": 0.5068933823529411
+    },
+    {
+      "latent_idx": 10472,
+      "k1_auc": 0.5068933823529411
+    },
+    {
+      "latent_idx": 12048,
+      "k1_auc": 0.5068933823529411
+    },
+    {
+      "latent_idx": 14614,
+      "k1_auc": 0.5064541168353266
+    },
+    {
+      "latent_idx": 1999,
+      "k1_auc": 0.5064338235294118
+    },
+    {
+      "latent_idx": 4603,
+      "k1_auc": 0.5064338235294118
+    },
+    {
+      "latent_idx": 10037,
+      "k1_auc": 0.5059742647058824
+    },
+    {
+      "latent_idx": 4865,
+      "k1_auc": 0.5055147058823529
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5050657164889875
+    },
+    {
+      "latent_idx": 9567,
+      "k1_auc": 0.5050551470588235
+    },
+    {
+      "latent_idx": 4737,
+      "k1_auc": 0.5050551470588235
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5041220777639484
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5022834196926241
+    },
+    {
+      "latent_idx": 14530,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12304,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 500,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12794,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.4984348787813193
+    }
+  ]
+}

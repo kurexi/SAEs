@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "56_wikidatasex_or_gender",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:36:45.346172"
+  },
+  "best_latent": {
+    "latent_idx": 10499,
+    "k1_auc": 0.7289334902216518,
+    "examples": [
+      {
+        "text": " of garbage\u2014in the vast informal economies of the global South (J. Smith 2016; Ness 2016).  The preceding description of surplus labor extraction helps us correct some common misunderstandings about the connections between and among commodity fetishism, exploitation, and productive labor. One is the notion that commodity fetishism manifests itself principally in the sphere of consumption, where the articles produced by abstract human labor confront one another in the marketplace as quasi-mystical embodiments of value. To be sure, commodities need to be made into desirable objects of consumption if the capitalist is to realize profit from their production: as Theodore Dreiser",
+        "activation": 4401.44775390625
+      },
+      {
+        "text": "ytes of data every moment resulting from transactions, surveys, online interactions and a lot more, it becomes a grueling task to paint a rosy picture from those numbers. Drastic times call for drastic measures which is necessary when considering what the future has in store as more data is produced at larger rates with faster frequencies.  To the average eye, it\u2019s just a cavalcade of numbers but if processed and studied under the tenets of data analysis, the results are highly useful to everyone from corporations to marketing groups to even politicians.  What Does Data Analytics Entail?  The polymath Francis Galton",
+        "activation": 3795.46337890625
+      },
+      {
+        "text": " calls itself \u201cThe Legion of Boom\u201d and which prides itself on finding creative ways to commit pass interference without a penalty being called. There\u2019s irony in the casting of Saints players as, somehow, illegitimate cheaters, with the Seahawks as upright heroes, even though the Seahawks lead the NFL in suspensions for the use of performance-enhancing drugs.  This sort of writing\u2013bombastic, accusatory, agenda-driven\u2013offers little critical analysis, beyond the self-serving opinion of the author, and no insight. Its only value is in the way it appeals to what David Foster Wallace",
+        "activation": 3586.72607421875
+      },
+      {
+        "text": "rence Dupnik who said:  When you look at unbalanced people, how they respond to the vitriol that comes out of certain mouths about tearing down the government...The anger, the hatred, the bigotry that goes on this country is getting to be outrageous and unfortunately Arizona has become sort of the capital. We have become the Mecca for prejudice and bigotry....The vitriolic rhetoric that we hear day in and day out from people in the radio business and some people in the TV business... This has not become the nice United States that most of us grew up in.  Hannah Arendt",
+        "activation": 3524.10888671875
+      },
+      {
+        "text": " through which Uncle Wiggily wanders, the same Central Park for Holden; it simply doesn't change. And that's why what seems dated on the page defies the calendrical pedant; you're not tarting up or lifting face or letting your characters age. A good working definition of lastingness, J. D.; the stories and the novel and novellas are what they were and will be.  Like you I'm drawn to brevity and prey to distraction, long-windedness; in your honor I'll keep these lines brief. More and more it seems that Ezra Pound",
+        "activation": 3423.599609375
+      },
+      {
+        "text": " unaccounted for outside factors etc. could all influence your results. But that does not put scientists and conspiracy theorists on equal footing, as scientists have a different attitude and will eventually change their mind if refutations are repeated and convincing.  Dicken links Hume\u2019s \u201cproblem of induction\u201d and the idea that you can never have enough data with the failures of the Big Data revolution, pointing out that more data is not always better. You can find all sorts of correlations in large datasets, but you still need educated guesswork (conjecture) and explanation to tell apart correlation and causation. And Thomas Kuhn",
+        "activation": 3387.71875
+      },
+      {
+        "text": " beautiful glint of gold \u2026 well, you may be making money, but you sure aren\u2019t diversified. Diversification is undeniably effective, but it\u2019s effective like a rat is effective, wonderfully adapted to do pretty well in pretty much any possible environment without calling too much attention to itself. That\u2019s actually one of the rat\u2019s primary survival mechanisms. It\u2019s not flashy. It\u2019s not pretty. It\u2019s a freakin\u2019 rat.  Diversification doesn\u2019t make us feel good like a winning value or growth investment makes us feel good, and as Maya Angelou",
+        "activation": 3332.595703125
+      },
+      {
+        "text": " beautiful glint of gold \u2026 well, you may be making money, but you sure aren\u2019t diversified. Diversification is undeniably effective, but it\u2019s effective like a rat is effective, wonderfully adapted to do pretty well in pretty much any possible environment without calling too much attention to itself. That\u2019s actually one of the rat\u2019s primary survival mechanisms. It\u2019s not flashy. It\u2019s not pretty. It\u2019s a freakin\u2019 rat.  Diversification doesn\u2019t make us feel good like a winning value or growth investment makes us feel good, and as Maya Angelou",
+        "activation": 3332.595703125
+      },
+      {
+        "text": " deflected into a pseudo-Oriental fatalism: \"Why fret over the plight of the world when it's all part of the Divine Dance?\" This slipshod philosophy was partially due to the effects of heavy acid tripping--\"the haze that blurs the corner of the inner screen,\" as David Mairowitz said, \"a magic that insinuates itself 'cosmically,' establishing spectrum upon confusing spectrum in the broadening of personal horizons. It could cloud up your telescope on the known world and bring on a delirium of vague 'universal' thinking.\" Or it might just reinforce what poet John Ashbery",
+        "activation": 3285.67724609375
+      },
+      {
+        "text": ". Whereas in the earlier regulations of 1956 and 1963 a general sanction by the association was the withdrawal of a license to participate, in 1968 the sanctions were differentiated, ranging from a ban of one month for the first doping offense up to a lifetime ban when an athlete tested positively four times.  The change from vague doping controls external to the athlete's body, like food and drink, to substances inside the body marks a paradigm shift. Controls no longer stop outside the body, so to speak. With some respect, controls of an athlete's body include the violation of his bodily integrity. This change is reminiscent of Michel Foucault",
+        "activation": 3255.203125
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 10499\n\nTop activating examples (format: [activation] text):\n  [4401.448] of garbage\u2014in the vast informal economies of the global South (J. Smith 2016; Ness 2016).  The preceding description of surplus labor extraction helps us correct some common misunderstandings about the connections between and among commodity fetishism, exploitation, and productive labor. One is the\n  [3795.463] ytes of data every moment resulting from transactions, surveys, online interactions and a lot more, it becomes a grueling task to paint a rosy picture from those numbers. Drastic times call for drastic measures which is necessary when considering what the future has in store as more data is produced\n  [3586.726] calls itself \u201cThe Legion of Boom\u201d and which prides itself on finding creative ways to commit pass interference without a penalty being called. There\u2019s irony in the casting of Saints players as, somehow, illegitimate cheaters, with the Seahawks as upright heroes, even though the Seahawks lead the NF\n  [3524.109] rence Dupnik who said:  When you look at unbalanced people, how they respond to the vitriol that comes out of certain mouths about tearing down the government...The anger, the hatred, the bigotry that goes on this country is getting to be outrageous and unfortunately Arizona has become sort of the c\n  [3423.600] through which Uncle Wiggily wanders, the same Central Park for Holden; it simply doesn't change. And that's why what seems dated on the page defies the calendrical pedant; you're not tarting up or lifting face or letting your characters age. A good working definition of lastingness, J. D.; the stor\n  [3387.719] unaccounted for outside factors etc. could all influence your results. But that does not put scientists and conspiracy theorists on equal footing, as scientists have a different attitude and will eventually change their mind if refutations are repeated and convincing.  Dicken links Hume\u2019s \u201cproblem\n  [3332.596] beautiful glint of gold \u2026 well, you may be making money, but you sure aren\u2019t diversified. Diversification is undeniably effective, but it\u2019s effective like a rat is effective, wonderfully adapted to do pretty well in pretty much any possible environment without calling too much attention to itself.\n  [3332.596] beautiful glint of gold \u2026 well, you may be making money, but you sure aren\u2019t diversified. Diversification is undeniably effective, but it\u2019s effective like a rat is effective, wonderfully adapted to do pretty well in pretty much any possible environment without calling too much attention to itself.\n  [3285.677] deflected into a pseudo-Oriental fatalism: \"Why fret over the plight of the world when it's all part of the Divine Dance?\" This slipshod philosophy was partially due to the effects of heavy acid tripping--\"the haze that blurs the corner of the inner screen,\" as David Mairowitz said, \"a magic that i\n  [3255.203] . Whereas in the earlier regulations of 1956 and 1963 a general sanction by the association was the withdrawal of a license to participate, in 1968 the sanctions were differentiated, ranging from a ban of one month for the first doping offense up to a lifetime ban when an athlete tested positively f\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 10499,
+      "k1_auc": 0.7289334902216518
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.6753448471402141
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.6650771513833884
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.6452510989439404
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.6354262970880138
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.6328198177489699
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.6310503939591247
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.6291578104763458
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.6195421142861193
+    },
+    {
+      "latent_idx": 7114,
+      "k1_auc": 0.6184616506284815
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.6127333958456325
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.6124930255919007
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.6110482725239206
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.6051267342353062
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5992951923924018
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5980658738540959
+    },
+    {
+      "latent_idx": 6111,
+      "k1_auc": 0.5962906275093947
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5902252974312914
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5888011764598664
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5860482472084647
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5858996454823556
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5666588863832213
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5637625450741691
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.562275008885725
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5598308016189741
+    },
+    {
+      "latent_idx": 11306,
+      "k1_auc": 0.5593427196293007
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5580207465224157
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5578640438504201
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5572412836353806
+    },
+    {
+      "latent_idx": 7615,
+      "k1_auc": 0.5571924248055014
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5555160353160736
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5547906209273761
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.553503962881466
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5534526990832767
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5525129893604203
+    },
+    {
+      "latent_idx": 13532,
+      "k1_auc": 0.5523800832169666
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5516611242695226
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5506645813481797
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5494256429366334
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5457731289599702
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5456473111441674
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5456149073606208
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5447268411677919
+    },
+    {
+      "latent_idx": 5718,
+      "k1_auc": 0.5437147292410731
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5434163865933396
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5412405231590853
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5411204013208593
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5409921785367464
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5402843583898965
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5401224660494421
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5397872894133801
+    },
+    {
+      "latent_idx": 10838,
+      "k1_auc": 0.5390389645370968
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.538423545804267
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.537297894057855
+    },
+    {
+      "latent_idx": 8362,
+      "k1_auc": 0.5369532241258319
+    },
+    {
+      "latent_idx": 1095,
+      "k1_auc": 0.5361261681817124
+    },
+    {
+      "latent_idx": 15999,
+      "k1_auc": 0.5348367254356537
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5340842235091475
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5335933568193256
+    },
+    {
+      "latent_idx": 10345,
+      "k1_auc": 0.533488677409196
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5326406096366827
+    },
+    {
+      "latent_idx": 1625,
+      "k1_auc": 0.5310113068952214
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.5269181774086897
+    },
+    {
+      "latent_idx": 296,
+      "k1_auc": 0.5246562414243893
+    },
+    {
+      "latent_idx": 7540,
+      "k1_auc": 0.5244101751930811
+    },
+    {
+      "latent_idx": 357,
+      "k1_auc": 0.5241387935058767
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5237742509409755
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.523541601901292
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5232350317303924
+    },
+    {
+      "latent_idx": 11413,
+      "k1_auc": 0.5222740570245832
+    },
+    {
+      "latent_idx": 5101,
+      "k1_auc": 0.5221920349474806
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5200735110208305
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5197999775198753
+    },
+    {
+      "latent_idx": 1496,
+      "k1_auc": 0.5188592551787828
+    },
+    {
+      "latent_idx": 9225,
+      "k1_auc": 0.5187316652810674
+    },
+    {
+      "latent_idx": 2464,
+      "k1_auc": 0.5182377607365379
+    },
+    {
+      "latent_idx": 3991,
+      "k1_auc": 0.5158849422655714
+    },
+    {
+      "latent_idx": 5126,
+      "k1_auc": 0.515365215956028
+    },
+    {
+      "latent_idx": 12177,
+      "k1_auc": 0.5153287616995379
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5152799028696587
+    },
+    {
+      "latent_idx": 16132,
+      "k1_auc": 0.514118682907713
+    },
+    {
+      "latent_idx": 2579,
+      "k1_auc": 0.512855568235786
+    },
+    {
+      "latent_idx": 13062,
+      "k1_auc": 0.5118290264992067
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5114368900873788
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.5112133546118178
+    },
+    {
+      "latent_idx": 16157,
+      "k1_auc": 0.510319465864133
+    },
+    {
+      "latent_idx": 6226,
+      "k1_auc": 0.5100023897790366
+    },
+    {
+      "latent_idx": 1519,
+      "k1_auc": 0.5098330293790928
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5094049450198929
+    },
+    {
+      "latent_idx": 212,
+      "k1_auc": 0.5093103917921217
+    },
+    {
+      "latent_idx": 12366,
+      "k1_auc": 0.5090586295832367
+    },
+    {
+      "latent_idx": 11889,
+      "k1_auc": 0.5085768764575372
+    },
+    {
+      "latent_idx": 9314,
+      "k1_auc": 0.5082422061305933
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5082179032929333
+    },
+    {
+      "latent_idx": 15415,
+      "k1_auc": 0.5080867692313924
+    },
+    {
+      "latent_idx": 4537,
+      "k1_auc": 0.5072784467246357
+    },
+    {
+      "latent_idx": 10029,
+      "k1_auc": 0.5072223729898263
+    },
+    {
+      "latent_idx": 11732,
+      "k1_auc": 0.5067960607125389
+    },
+    {
+      "latent_idx": 16094,
+      "k1_auc": 0.506786567416578
+    },
+    {
+      "latent_idx": 6221,
+      "k1_auc": 0.5063773430720204
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5062996246224201
+    },
+    {
+      "latent_idx": 5544,
+      "k1_auc": 0.5058326810384197
+    },
+    {
+      "latent_idx": 4254,
+      "k1_auc": 0.5042881850742097
+    },
+    {
+      "latent_idx": 9362,
+      "k1_auc": 0.5037703574238588
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5027692577204547
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5022347218692123
+    },
+    {
+      "latent_idx": 2247,
+      "k1_auc": 0.5019586568226673
+    },
+    {
+      "latent_idx": 4423,
+      "k1_auc": 0.5017690440580068
+    },
+    {
+      "latent_idx": 12356,
+      "k1_auc": 0.5016024683582117
+    },
+    {
+      "latent_idx": 8806,
+      "k1_auc": 0.5007527550810652
+    },
+    {
+      "latent_idx": 13724,
+      "k1_auc": 0.500515422682041
+    },
+    {
+      "latent_idx": 4353,
+      "k1_auc": 0.5002021439153288
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5828,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8908,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4127,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2411,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4582,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12726,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 604,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14642,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5579,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2858,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15229,
+      "k1_auc": 0.4999872156947725
+    },
+    {
+      "latent_idx": 10553,
+      "k1_auc": 0.499748997254792
+    },
+    {
+      "latent_idx": 10059,
+      "k1_auc": 0.4972259323429252
+    }
+  ]
+}

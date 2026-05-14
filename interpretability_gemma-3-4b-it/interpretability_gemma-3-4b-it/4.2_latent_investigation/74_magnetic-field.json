@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "74_magnetic-field",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:40:29.004109"
+  },
+  "best_latent": {
+    "latent_idx": 2041,
+    "k1_auc": 0.9125798203365982,
+    "examples": [
+      {
+        "text": " for each plume and $|\\tan i| < 2|\\tan \\lambda|$ in all cases. Therefore the magnetic field",
+        "activation": 2809.0224609375
+      },
+      {
+        "text": ", a strong laser beam with frequency $\\omega $ and transverse magnetic (TM) polarization (i.e. magnetic field",
+        "activation": 2768.833740234375
+      },
+      {
+        "text": "see Appendix A), while for the Roberts flow this contribution is not zero. Therefore, the equation for the mean magnetic field",
+        "activation": 2699.442626953125
+      },
+      {
+        "text": " be found below.In MHD, the cascade takes place preferentially in planes orthogonal to the local mean magnetic field",
+        "activation": 2692.169921875
+      },
+      {
+        "text": " can be only truncated by assuming some form of closure. We assume below, for analytic tractability, that the magnetic field",
+        "activation": 2613.862548828125
+      },
+      {
+        "text": " the stocahstic turbulent velocity field ${\\bf v}_T$.The time evolution of the mean magnetic field",
+        "activation": 2574.91064453125
+      },
+      {
+        "text": "$, and $c_2$ are real parameters, $b$ is the $z$ component of the magnetic field",
+        "activation": 2568.796875
+      },
+      {
+        "text": "$ with the wire.![We consider an infinite superconducting wire along the $x$-axis. A magnetic field",
+        "activation": 2552.26123046875
+      },
+      {
+        "text": " assumed that only the matter in the polar cap regions is stripped out. This can be justified as follows. The magnetic field",
+        "activation": 2534.77001953125
+      },
+      {
+        "text": " the geometric phase is in fact equal in size to precisely half the solid angle subtended at the origin by the magnetic field",
+        "activation": 2525.247314453125
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 2041\n\nTop activating examples (format: [activation] text):\n  [2809.022] for each plume and $|\\tan i| < 2|\\tan \\lambda|$ in all cases. Therefore the magnetic field\n  [2768.834] , a strong laser beam with frequency $\\omega $ and transverse magnetic (TM) polarization (i.e. magnetic field\n  [2699.443] see Appendix A), while for the Roberts flow this contribution is not zero. Therefore, the equation for the mean magnetic field\n  [2692.170] be found below.In MHD, the cascade takes place preferentially in planes orthogonal to the local mean magnetic field\n  [2613.863] can be only truncated by assuming some form of closure. We assume below, for analytic tractability, that the magnetic field\n  [2574.911] the stocahstic turbulent velocity field ${\\bf v}_T$.The time evolution of the mean magnetic field\n  [2568.797] $, and $c_2$ are real parameters, $b$ is the $z$ component of the magnetic field\n  [2552.261] $ with the wire.![We consider an infinite superconducting wire along the $x$-axis. A magnetic field\n  [2534.770] assumed that only the matter in the polar cap regions is stripped out. This can be justified as follows. The magnetic field\n  [2525.247] the geometric phase is in fact equal in size to precisely half the solid angle subtended at the origin by the magnetic field\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 2041,
+      "k1_auc": 0.9125798203365982
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.9040185819037826
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.8937252252556955
+    },
+    {
+      "latent_idx": 9938,
+      "k1_auc": 0.8930593511553655
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.8896644501866985
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.8879242992045023
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.8783644610097949
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.8684173588938795
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.8678964973753991
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.8673578792142431
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.8649514313545106
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.8617484712376211
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.8613442962281508
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.8609993100275988
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.8598852920883163
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.8531466461929758
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.8480986863466639
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.840154702635424
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.8326626677579956
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.825147802911413
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.8222619256994426
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.8051500182639753
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.8042068023161426
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.8007243864657179
+    },
+    {
+      "latent_idx": 6365,
+      "k1_auc": 0.7864729896098274
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.778967425861789
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.7673490854483467
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.7585688484225337
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.7399209913956383
+    },
+    {
+      "latent_idx": 14303,
+      "k1_auc": 0.7095731979544347
+    },
+    {
+      "latent_idx": 5172,
+      "k1_auc": 0.7056675821202446
+    },
+    {
+      "latent_idx": 4826,
+      "k1_auc": 0.693317414362249
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.6693730044915851
+    },
+    {
+      "latent_idx": 10707,
+      "k1_auc": 0.6401654411764706
+    },
+    {
+      "latent_idx": 761,
+      "k1_auc": 0.6363139408247199
+    },
+    {
+      "latent_idx": 2405,
+      "k1_auc": 0.627566257643812
+    },
+    {
+      "latent_idx": 2525,
+      "k1_auc": 0.6234395293305914
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.6132459481032523
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.6078800597976081
+    },
+    {
+      "latent_idx": 5709,
+      "k1_auc": 0.5896617444125765
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5896499066507928
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.586876488175767
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5863141944910439
+    },
+    {
+      "latent_idx": 11596,
+      "k1_auc": 0.5842675300340928
+    },
+    {
+      "latent_idx": 5726,
+      "k1_auc": 0.5825962917365659
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5801323461767411
+    },
+    {
+      "latent_idx": 7834,
+      "k1_auc": 0.5759544618215272
+    },
+    {
+      "latent_idx": 4696,
+      "k1_auc": 0.5728905954055956
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5720725215109043
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5580388549163915
+    },
+    {
+      "latent_idx": 5603,
+      "k1_auc": 0.5574647234698847
+    },
+    {
+      "latent_idx": 2100,
+      "k1_auc": 0.5560661764705882
+    },
+    {
+      "latent_idx": 9362,
+      "k1_auc": 0.5504669151469236
+    },
+    {
+      "latent_idx": 5919,
+      "k1_auc": 0.5470711686238433
+    },
+    {
+      "latent_idx": 3872,
+      "k1_auc": 0.5438001413766979
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5432315060338764
+    },
+    {
+      "latent_idx": 542,
+      "k1_auc": 0.5420257454407705
+    },
+    {
+      "latent_idx": 10377,
+      "k1_auc": 0.5395220588235294
+    },
+    {
+      "latent_idx": 7846,
+      "k1_auc": 0.5381433823529411
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5381433823529411
+    },
+    {
+      "latent_idx": 9443,
+      "k1_auc": 0.5376838235294118
+    },
+    {
+      "latent_idx": 5346,
+      "k1_auc": 0.5376838235294118
+    },
+    {
+      "latent_idx": 2595,
+      "k1_auc": 0.5372242647058824
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5372242647058824
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5372242647058824
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5367765436441365
+    },
+    {
+      "latent_idx": 15007,
+      "k1_auc": 0.5367647058823529
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5366759226689756
+    },
+    {
+      "latent_idx": 9562,
+      "k1_auc": 0.5363609536500893
+    },
+    {
+      "latent_idx": 2965,
+      "k1_auc": 0.5358455882352942
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5358455882352942
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5358455882352942
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5335477941176471
+    },
+    {
+      "latent_idx": 6196,
+      "k1_auc": 0.5327906001407003
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5326286764705882
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5322020942691704
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5317514137669787
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.53125
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5308276455706478
+    },
+    {
+      "latent_idx": 8075,
+      "k1_auc": 0.5303308823529411
+    },
+    {
+      "latent_idx": 134,
+      "k1_auc": 0.5298713235294118
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5293813247470102
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5289758814059203
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5281468153038585
+    },
+    {
+      "latent_idx": 6537,
+      "k1_auc": 0.5271139705882353
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5270192684939661
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5263686143730721
+    },
+    {
+      "latent_idx": 2992,
+      "k1_auc": 0.5257352941176471
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5238970588235294
+    },
+    {
+      "latent_idx": 10037,
+      "k1_auc": 0.5225078129227771
+    },
+    {
+      "latent_idx": 8890,
+      "k1_auc": 0.521653380188322
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5183823529411765
+    },
+    {
+      "latent_idx": 15862,
+      "k1_auc": 0.5179227941176471
+    },
+    {
+      "latent_idx": 3122,
+      "k1_auc": 0.5174632352941176
+    },
+    {
+      "latent_idx": 15169,
+      "k1_auc": 0.5155683478543212
+    },
+    {
+      "latent_idx": 7092,
+      "k1_auc": 0.5154000825261108
+    },
+    {
+      "latent_idx": 239,
+      "k1_auc": 0.5151654411764706
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5137867647058824
+    },
+    {
+      "latent_idx": 3861,
+      "k1_auc": 0.5137867647058824
+    },
+    {
+      "latent_idx": 7281,
+      "k1_auc": 0.5128735659397154
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.5128676470588235
+    },
+    {
+      "latent_idx": 904,
+      "k1_auc": 0.5128676470588235
+    },
+    {
+      "latent_idx": 616,
+      "k1_auc": 0.5124080882352942
+    },
+    {
+      "latent_idx": 11140,
+      "k1_auc": 0.5114889705882353
+    },
+    {
+      "latent_idx": 14141,
+      "k1_auc": 0.5114889705882353
+    },
+    {
+      "latent_idx": 5718,
+      "k1_auc": 0.5096507352941176
+    },
+    {
+      "latent_idx": 5314,
+      "k1_auc": 0.5096507352941176
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5091243776719518
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 816,
+      "k1_auc": 0.5087087876779046
+    },
+    {
+      "latent_idx": 11944,
+      "k1_auc": 0.5082720588235294
+    },
+    {
+      "latent_idx": 10474,
+      "k1_auc": 0.5082720588235294
+    },
+    {
+      "latent_idx": 2432,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 6221,
+      "k1_auc": 0.5073529411764706
+    },
+    {
+      "latent_idx": 16196,
+      "k1_auc": 0.5068933823529411
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5059176125602035
+    },
+    {
+      "latent_idx": 1126,
+      "k1_auc": 0.5055163969911792
+    },
+    {
+      "latent_idx": 2464,
+      "k1_auc": 0.5055147058823529
+    },
+    {
+      "latent_idx": 3939,
+      "k1_auc": 0.5050551470588235
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5050500737323448
+    },
+    {
+      "latent_idx": 7338,
+      "k1_auc": 0.5045955882352942
+    },
+    {
+      "latent_idx": 4711,
+      "k1_auc": 0.5032169117647058
+    },
+    {
+      "latent_idx": 13295,
+      "k1_auc": 0.5027573529411765
+    },
+    {
+      "latent_idx": 16190,
+      "k1_auc": 0.5018213242058552
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14321,
+      "k1_auc": 0.5
+    }
+  ]
+}

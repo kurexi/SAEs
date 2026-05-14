@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "136_glue_mnli_entailment",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:48:46.318681"
+  },
+  "best_latent": {
+    "latent_idx": 6704,
+    "k1_auc": 0.6100095298077052,
+    "examples": [
+      {
+        "text": "There was also a growing Maoist uprising taking place in the central hills of the kingdom. | The kingdom has a growing Maoist movement in the central hills.",
+        "activation": 3791.58447265625
+      },
+      {
+        "text": "There are heartening exceptions. | There are exceptions that are heartening.",
+        "activation": 3765.36669921875
+      },
+      {
+        "text": "She looks neither relaxed nor nervous. | She doesn't look relaxed or nervous.",
+        "activation": 3707.29736328125
+      },
+      {
+        "text": "A half whimsical thought flashed across the Premier's mind. | The Premier had a sudden half-thought in his mind.",
+        "activation": 3705.5830078125
+      },
+      {
+        "text": "The American people expect and deserve this linkage as well. | The American people deserve this connection too.",
+        "activation": 3628.317626953125
+      },
+      {
+        "text": "However, most possessed considerable clout across their organizations due largely to the support they received from their organization's senior management. | Most had lots of clout due to support from management.",
+        "activation": 3520.066650390625
+      },
+      {
+        "text": "I was at a party at the vice-president's private resort. | The party was at the private resort of the vice president.",
+        "activation": 3500.53076171875
+      },
+      {
+        "text": "You'll need to walk down a long steep corridor to reach it. | It's very difficult to walk down the corridor because of how steep it is.",
+        "activation": 3455.207763671875
+      },
+      {
+        "text": "The first, as many of you did, is to take the competition improbably downscale--mixing implausible amounts of sex and/or violence into the competition. | Mixing a lot of sex and/or violence into the competition downscaled the competition.",
+        "activation": 3447.757568359375
+      },
+      {
+        "text": "The focus was on creating a true system of equal justice in Illinois. | We focused on creating equal justice in the state.",
+        "activation": 3446.47021484375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 6704\n\nTop activating examples (format: [activation] text):\n  [3791.584] There was also a growing Maoist uprising taking place in the central hills of the kingdom. | The kingdom has a growing Maoist movement in the central hills.\n  [3765.367] There are heartening exceptions. | There are exceptions that are heartening.\n  [3707.297] She looks neither relaxed nor nervous. | She doesn't look relaxed or nervous.\n  [3705.583] A half whimsical thought flashed across the Premier's mind. | The Premier had a sudden half-thought in his mind.\n  [3628.318] The American people expect and deserve this linkage as well. | The American people deserve this connection too.\n  [3520.067] However, most possessed considerable clout across their organizations due largely to the support they received from their organization's senior management. | Most had lots of clout due to support from management.\n  [3500.531] I was at a party at the vice-president's private resort. | The party was at the private resort of the vice president.\n  [3455.208] You'll need to walk down a long steep corridor to reach it. | It's very difficult to walk down the corridor because of how steep it is.\n  [3447.758] The first, as many of you did, is to take the competition improbably downscale--mixing implausible amounts of sex and/or violence into the competition. | Mixing a lot of sex and/or violence into the competition downscaled the competition.\n  [3446.470] The focus was on creating a true system of equal justice in Illinois. | We focused on creating equal justice in the state.\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 6704,
+      "k1_auc": 0.6100095298077052
+    },
+    {
+      "latent_idx": 14711,
+      "k1_auc": 0.5667864406168222
+    },
+    {
+      "latent_idx": 11532,
+      "k1_auc": 0.5662915369595705
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.563500986801066
+    },
+    {
+      "latent_idx": 7618,
+      "k1_auc": 0.5619869649065583
+    },
+    {
+      "latent_idx": 4160,
+      "k1_auc": 0.5594748685142068
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5588082329121077
+    },
+    {
+      "latent_idx": 13463,
+      "k1_auc": 0.5510780407076108
+    },
+    {
+      "latent_idx": 14224,
+      "k1_auc": 0.550305059065267
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5482709561824253
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5476024416750216
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5468632803281621
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5432230891908832
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5431114822157854
+    },
+    {
+      "latent_idx": 3989,
+      "k1_auc": 0.5399068213281306
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5394367192209006
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5391015225145465
+    },
+    {
+      "latent_idx": 8944,
+      "k1_auc": 0.5371376906900994
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5362219122446004
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5349675550631988
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5334738253459816
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5324802602208691
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5322228501941286
+    },
+    {
+      "latent_idx": 8052,
+      "k1_auc": 0.531831662109695
+    },
+    {
+      "latent_idx": 14589,
+      "k1_auc": 0.5317861926013218
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5287863323918764
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5285480871992436
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.526783419337092
+    },
+    {
+      "latent_idx": 6452,
+      "k1_auc": 0.5252276857448207
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5247917797141358
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5246828032064645
+    },
+    {
+      "latent_idx": 16094,
+      "k1_auc": 0.5246377094791523
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5240939542839792
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5226998065479098
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5204278342534958
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5204071662951445
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.5199314274720006
+    },
+    {
+      "latent_idx": 11305,
+      "k1_auc": 0.5196356877770446
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5193805324366696
+    },
+    {
+      "latent_idx": 1382,
+      "k1_auc": 0.5190505966651685
+    },
+    {
+      "latent_idx": 13652,
+      "k1_auc": 0.5190445841681935
+    },
+    {
+      "latent_idx": 9175,
+      "k1_auc": 0.518132563533304
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5174377443516349
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5171510234021414
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5170510656399325
+    },
+    {
+      "latent_idx": 3958,
+      "k1_auc": 0.5158872716942164
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5143150037352636
+    },
+    {
+      "latent_idx": 12768,
+      "k1_auc": 0.5139880742122502
+    },
+    {
+      "latent_idx": 6249,
+      "k1_auc": 0.5128100005862185
+    },
+    {
+      "latent_idx": 6800,
+      "k1_auc": 0.512512006204897
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5124082906320789
+    },
+    {
+      "latent_idx": 659,
+      "k1_auc": 0.5123323828577698
+    },
+    {
+      "latent_idx": 919,
+      "k1_auc": 0.5112929724432231
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5105951470130667
+    },
+    {
+      "latent_idx": 4339,
+      "k1_auc": 0.5104166510091224
+    },
+    {
+      "latent_idx": 13568,
+      "k1_auc": 0.5100284691731765
+    },
+    {
+      "latent_idx": 5756,
+      "k1_auc": 0.509973229357219
+    },
+    {
+      "latent_idx": 11267,
+      "k1_auc": 0.5099100981389818
+    },
+    {
+      "latent_idx": 805,
+      "k1_auc": 0.5099059645473116
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5092209156732267
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5085896034908558
+    },
+    {
+      "latent_idx": 725,
+      "k1_auc": 0.5084934035392562
+    },
+    {
+      "latent_idx": 6409,
+      "k1_auc": 0.5082514005360141
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5075396712066029
+    },
+    {
+      "latent_idx": 12226,
+      "k1_auc": 0.5073499017708306
+    },
+    {
+      "latent_idx": 5471,
+      "k1_auc": 0.5071097776728931
+    },
+    {
+      "latent_idx": 12656,
+      "k1_auc": 0.506977502739444
+    },
+    {
+      "latent_idx": 12802,
+      "k1_auc": 0.5066520763406743
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5066205107315556
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.5065100310996407
+    },
+    {
+      "latent_idx": 14779,
+      "k1_auc": 0.5064363780116973
+    },
+    {
+      "latent_idx": 5603,
+      "k1_auc": 0.506056087578031
+    },
+    {
+      "latent_idx": 11407,
+      "k1_auc": 0.5052271145576079
+    },
+    {
+      "latent_idx": 15103,
+      "k1_auc": 0.5043335071947042
+    },
+    {
+      "latent_idx": 13567,
+      "k1_auc": 0.5043297493840948
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5043218579818153
+    },
+    {
+      "latent_idx": 16196,
+      "k1_auc": 0.5038585199336821
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5032993577150107
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.503002490676872
+    },
+    {
+      "latent_idx": 2920,
+      "k1_auc": 0.5026041627522806
+    },
+    {
+      "latent_idx": 7110,
+      "k1_auc": 0.5022813668209374
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.5022355215315032
+    },
+    {
+      "latent_idx": 12142,
+      "k1_auc": 0.5021738934375098
+    },
+    {
+      "latent_idx": 186,
+      "k1_auc": 0.5014903476876688
+    },
+    {
+      "latent_idx": 15070,
+      "k1_auc": 0.5010439197872779
+    },
+    {
+      "latent_idx": 16109,
+      "k1_auc": 0.5008680542507601
+    },
+    {
+      "latent_idx": 6873,
+      "k1_auc": 0.5008312277067886
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5004216263503691
+    },
+    {
+      "latent_idx": 8549,
+      "k1_auc": 0.5000285593606311
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13030,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2751,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14770,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9121,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15449,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3969,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6116,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16244,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11976,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7778,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5101,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10513,
+      "k1_auc": 0.49958964708145887
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.499101883264365
+    },
+    {
+      "latent_idx": 2084,
+      "k1_auc": 0.49900418018852183
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.4989519466210519
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.4986967912806769
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.4984427632834847
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.4980850197134744
+    },
+    {
+      "latent_idx": 8035,
+      "k1_auc": 0.4976630175820443
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.4976393433752054
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.4976002621448681
+    },
+    {
+      "latent_idx": 10961,
+      "k1_auc": 0.49732519040826356
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.49672694695925484
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.49558682722037756
+    },
+    {
+      "latent_idx": 8898,
+      "k1_auc": 0.4943505075299009
+    },
+    {
+      "latent_idx": 8854,
+      "k1_auc": 0.4935320563791841
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.4934888415571766
+    }
+  ]
+}

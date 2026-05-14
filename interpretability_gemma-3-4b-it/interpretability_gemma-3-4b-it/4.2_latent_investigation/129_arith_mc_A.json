@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "129_arith_mc_A",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:47:44.439772"
+  },
+  "best_latent": {
+    "latent_idx": 15070,
+    "k1_auc": 0.5835060920167302,
+    "examples": [
+      {
+        "text": "Calculate 8 - 397 =\nA.-388 B.-390 C.389 D.-389",
+        "activation": 456.167236328125
+      },
+      {
+        "text": "Calculate 599 * 858 =\nA.517649 B.513952 C.510235 D.513942",
+        "activation": 440.41937255859375
+      },
+      {
+        "text": "Calculate 878 * 817 =\nA.724739 B.717336 C.709913 D.717326",
+        "activation": 437.004150390625
+      },
+      {
+        "text": "Calculate 58 * 160 =\nA.9280 B.9290 C.10164 D.8396",
+        "activation": 435.735595703125
+      },
+      {
+        "text": "Calculate 878 * 605 =\nA.531200 B.527483 C.531190 D.534897",
+        "activation": 434.2526550292969
+      },
+      {
+        "text": "Calculate 902 * 346 =\nA.312102 B.312092 C.283809 D.340375",
+        "activation": 433.4654541015625
+      },
+      {
+        "text": "Calculate 5 - 393 =\nA.-387 B.-389 C.388 D.-388",
+        "activation": 429.933349609375
+      },
+      {
+        "text": "Calculate 36 - 66 =\nA.30 B.-29 C.-31 D.-30",
+        "activation": 427.6025695800781
+      },
+      {
+        "text": "Calculate 40 / 1 =\nA.40 B.50 C.41 D.39",
+        "activation": 426.56402587890625
+      },
+      {
+        "text": "Calculate 39 - 98 =\nA.-58 B.-59 C.59 D.-60",
+        "activation": 425.031494140625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 15070\n\nTop activating examples (format: [activation] text):\n  [456.167] Calculate 8 - 397 =\nA.-388 B.-390 C.389 D.-389\n  [440.419] Calculate 599 * 858 =\nA.517649 B.513952 C.510235 D.513942\n  [437.004] Calculate 878 * 817 =\nA.724739 B.717336 C.709913 D.717326\n  [435.736] Calculate 58 * 160 =\nA.9280 B.9290 C.10164 D.8396\n  [434.253] Calculate 878 * 605 =\nA.531200 B.527483 C.531190 D.534897\n  [433.465] Calculate 902 * 346 =\nA.312102 B.312092 C.283809 D.340375\n  [429.933] Calculate 5 - 393 =\nA.-387 B.-389 C.388 D.-388\n  [427.603] Calculate 36 - 66 =\nA.30 B.-29 C.-31 D.-30\n  [426.564] Calculate 40 / 1 =\nA.40 B.50 C.41 D.39\n  [425.031] Calculate 39 - 98 =\nA.-58 B.-59 C.59 D.-60\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 15070,
+      "k1_auc": 0.5835060920167302
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5804328059647208
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5790689216221131
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.5689398072376797
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.564602655028187
+    },
+    {
+      "latent_idx": 6167,
+      "k1_auc": 0.562493180578287
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5517821422076741
+    },
+    {
+      "latent_idx": 16244,
+      "k1_auc": 0.5487270412802328
+    },
+    {
+      "latent_idx": 12905,
+      "k1_auc": 0.5466630296417531
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5452718676122932
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5445717403164213
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5407437715948353
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5405346426623022
+    },
+    {
+      "latent_idx": 2759,
+      "k1_auc": 0.5392434988179668
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5388888888888889
+    },
+    {
+      "latent_idx": 4874,
+      "k1_auc": 0.5380432805964721
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5341880341880342
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5334788143298781
+    },
+    {
+      "latent_idx": 2281,
+      "k1_auc": 0.5306146572104019
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5302418621567558
+    },
+    {
+      "latent_idx": 14802,
+      "k1_auc": 0.5288688852518639
+    },
+    {
+      "latent_idx": 659,
+      "k1_auc": 0.5280414620840153
+    },
+    {
+      "latent_idx": 7261,
+      "k1_auc": 0.5279050736497546
+    },
+    {
+      "latent_idx": 14282,
+      "k1_auc": 0.5278596108383342
+    },
+    {
+      "latent_idx": 6164,
+      "k1_auc": 0.5266593926168395
+    },
+    {
+      "latent_idx": 6265,
+      "k1_auc": 0.5262956901254774
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5220767412256774
+    },
+    {
+      "latent_idx": 11648,
+      "k1_auc": 0.5214948172394981
+    },
+    {
+      "latent_idx": 2751,
+      "k1_auc": 0.5210765593744318
+    },
+    {
+      "latent_idx": 15551,
+      "k1_auc": 0.5194853609747228
+    },
+    {
+      "latent_idx": 279,
+      "k1_auc": 0.5191671212947808
+    },
+    {
+      "latent_idx": 9230,
+      "k1_auc": 0.5186761229314422
+    },
+    {
+      "latent_idx": 5799,
+      "k1_auc": 0.5178032369521732
+    },
+    {
+      "latent_idx": 273,
+      "k1_auc": 0.5173849790871068
+    },
+    {
+      "latent_idx": 4213,
+      "k1_auc": 0.5171485724677215
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5156028368794326
+    },
+    {
+      "latent_idx": 1406,
+      "k1_auc": 0.5153391525731952
+    },
+    {
+      "latent_idx": 11876,
+      "k1_auc": 0.5150936533915257
+    },
+    {
+      "latent_idx": 11725,
+      "k1_auc": 0.5147026732133115
+    },
+    {
+      "latent_idx": 14619,
+      "k1_auc": 0.514238952536825
+    },
+    {
+      "latent_idx": 7199,
+      "k1_auc": 0.5140934715402801
+    },
+    {
+      "latent_idx": 3671,
+      "k1_auc": 0.5128750681942171
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.512856883069649
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5126386615748317
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5125841062011276
+    },
+    {
+      "latent_idx": 6787,
+      "k1_auc": 0.5123476995817421
+    },
+    {
+      "latent_idx": 6433,
+      "k1_auc": 0.511274777232224
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5111474813602472
+    },
+    {
+      "latent_idx": 2340,
+      "k1_auc": 0.5109929078014185
+    },
+    {
+      "latent_idx": 9513,
+      "k1_auc": 0.5107746863066012
+    },
+    {
+      "latent_idx": 10650,
+      "k1_auc": 0.510747408619749
+    },
+    {
+      "latent_idx": 12002,
+      "k1_auc": 0.510738316057465
+    },
+    {
+      "latent_idx": 12288,
+      "k1_auc": 0.5106837606837606
+    },
+    {
+      "latent_idx": 2688,
+      "k1_auc": 0.5103473358792507
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5101291143844335
+    },
+    {
+      "latent_idx": 1001,
+      "k1_auc": 0.5092198581560283
+    },
+    {
+      "latent_idx": 15100,
+      "k1_auc": 0.5086924895435534
+    },
+    {
+      "latent_idx": 15177,
+      "k1_auc": 0.5085833787961447
+    },
+    {
+      "latent_idx": 10646,
+      "k1_auc": 0.5085288234224404
+    },
+    {
+      "latent_idx": 3871,
+      "k1_auc": 0.5082196763047826
+    },
+    {
+      "latent_idx": 3516,
+      "k1_auc": 0.5071831242044008
+    },
+    {
+      "latent_idx": 9379,
+      "k1_auc": 0.5064466266593926
+    },
+    {
+      "latent_idx": 7542,
+      "k1_auc": 0.5064102564102564
+    },
+    {
+      "latent_idx": 10993,
+      "k1_auc": 0.5063557010365521
+    },
+    {
+      "latent_idx": 13682,
+      "k1_auc": 0.5063557010365521
+    },
+    {
+      "latent_idx": 12223,
+      "k1_auc": 0.506355701036552
+    },
+    {
+      "latent_idx": 12897,
+      "k1_auc": 0.5061465721040189
+    },
+    {
+      "latent_idx": 10658,
+      "k1_auc": 0.5061192944171667
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5060829241680305
+    },
+    {
+      "latent_idx": 10819,
+      "k1_auc": 0.5060738316057465
+    },
+    {
+      "latent_idx": 4793,
+      "k1_auc": 0.5053646117475905
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.505091834879069
+    },
+    {
+      "latent_idx": 4744,
+      "k1_auc": 0.5045280960174576
+    },
+    {
+      "latent_idx": 7172,
+      "k1_auc": 0.5044553555191853
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5044371703946172
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5042553191489362
+    },
+    {
+      "latent_idx": 4141,
+      "k1_auc": 0.5042553191489362
+    },
+    {
+      "latent_idx": 5488,
+      "k1_auc": 0.5042553191489362
+    },
+    {
+      "latent_idx": 61,
+      "k1_auc": 0.5042553191489361
+    },
+    {
+      "latent_idx": 13215,
+      "k1_auc": 0.5042007637752318
+    },
+    {
+      "latent_idx": 2114,
+      "k1_auc": 0.5036097472267684
+    },
+    {
+      "latent_idx": 7263,
+      "k1_auc": 0.5029459901800327
+    },
+    {
+      "latent_idx": 8910,
+      "k1_auc": 0.5021913075104565
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5021367521367522
+    },
+    {
+      "latent_idx": 3044,
+      "k1_auc": 0.502127659574468
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5020821967630479
+    },
+    {
+      "latent_idx": 13149,
+      "k1_auc": 0.5019821785779233
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5012547735951991
+    },
+    {
+      "latent_idx": 4520,
+      "k1_auc": 0.5004364429896345
+    },
+    {
+      "latent_idx": 77,
+      "k1_auc": 0.5002909619930896
+    },
+    {
+      "latent_idx": 12502,
+      "k1_auc": 0.5002182214948173
+    },
+    {
+      "latent_idx": 6532,
+      "k1_auc": 0.5001454809965449
+    },
+    {
+      "latent_idx": 10950,
+      "k1_auc": 0.5001091107474085
+    },
+    {
+      "latent_idx": 7758,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5009,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16196,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1454,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1155,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3264,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2874,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14469,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16094,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7364,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9686,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8556,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6114,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12133,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6326,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3811,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10266,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16313,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.4995090016366612
+    },
+    {
+      "latent_idx": 16057,
+      "k1_auc": 0.49829969085288234
+    },
+    {
+      "latent_idx": 8802,
+      "k1_auc": 0.4979723586106565
+    },
+    {
+      "latent_idx": 9502,
+      "k1_auc": 0.49782687761411165
+    },
+    {
+      "latent_idx": 13423,
+      "k1_auc": 0.4976813966175669
+    },
+    {
+      "latent_idx": 919,
+      "k1_auc": 0.4956901254773595
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.4956719403527915
+    },
+    {
+      "latent_idx": 5139,
+      "k1_auc": 0.4956355701036552
+    },
+    {
+      "latent_idx": 6124,
+      "k1_auc": 0.4954537188579741
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.49380796508456093
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.4936533915257319
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.4934442625931988
+    },
+    {
+      "latent_idx": 8569,
+      "k1_auc": 0.49068921622113115
+    },
+    {
+      "latent_idx": 15642,
+      "k1_auc": 0.484860883797054
+    },
+    {
+      "latent_idx": 13264,
+      "k1_auc": 0.47423167848699765
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "metadata": {
+    "dataset": "7_hist_fig_ispolitician",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.1",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:31:09.568869"
+  },
+  "task_description": "Classify whether a named historical figure is a politician.",
+  "ood_transform": "Names are replaced with syntactical alterations or cartoon characters.",
+  "latents": [
+    {
+      "latent_idx": 7540,
+      "rank_by_diff": 0,
+      "k1_auc_id": 0.5826759338378906,
+      "k1_auc_ood": 0.5117076210826211,
+      "examples": [
+        {
+          "text": "Sophia of Bavaria",
+          "activation": 3632.021240234375
+        },
+        {
+          "text": "Adelaide of Habsburg",
+          "activation": 3417.498046875
+        },
+        {
+          "text": "Yolande of Aragon",
+          "activation": 3262.6142578125
+        },
+        {
+          "text": "Maria Francisca of Savoy",
+          "activation": 3256.755859375
+        },
+        {
+          "text": "Rudolph II of Burgundy",
+          "activation": 3183.735107421875
+        },
+        {
+          "text": "Catherine of Portugal",
+          "activation": 3169.81591796875
+        },
+        {
+          "text": "Mary I of Hungary",
+          "activation": 3119.08154296875
+        },
+        {
+          "text": "Joan II, Countess of Burgundy",
+          "activation": 3116.7890625
+        },
+        {
+          "text": "Gertrude of Poland",
+          "activation": 3106.13232421875
+        },
+        {
+          "text": "Mary of Hungary",
+          "activation": 3063.23681640625
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 7540\n\nTop activating examples (format: [activation] text):\n  [3632.021] Sophia of Bavaria\n  [3417.498] Adelaide of Habsburg\n  [3262.614] Yolande of Aragon\n  [3256.756] Maria Francisca of Savoy\n  [3183.735] Rudolph II of Burgundy\n  [3169.816] Catherine of Portugal\n  [3119.082] Mary I of Hungary\n  [3116.789] Joan II, Countess of Burgundy\n  [3106.132] Gertrude of Poland\n  [3063.237] Mary of Hungary\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 6226,
+      "rank_by_diff": 1,
+      "k1_auc_id": 0.5878620147705078,
+      "k1_auc_ood": 0.5692218660968661,
+      "examples": [
+        {
+          "text": "Georg Kuphaldt",
+          "activation": 3041.88525390625
+        },
+        {
+          "text": "Istv\u00e1n Guly\u00e1s",
+          "activation": 2981.72216796875
+        },
+        {
+          "text": "Andreas R\u00f6schlaub",
+          "activation": 2904.85546875
+        },
+        {
+          "text": "Wolfgang Windgassen",
+          "activation": 2886.017333984375
+        },
+        {
+          "text": "J\u00fcrgen von Farensbach",
+          "activation": 2791.783203125
+        },
+        {
+          "text": "Friedrich-Wilhelm Kr\u00fcger",
+          "activation": 2725.460693359375
+        },
+        {
+          "text": "Milo\u0161 Kopeck\u00fd",
+          "activation": 2667.84375
+        },
+        {
+          "text": "Christoph Herwart",
+          "activation": 2577.2255859375
+        },
+        {
+          "text": "Klemens Kurowski",
+          "activation": 2564.7021484375
+        },
+        {
+          "text": "Stanis\u0142aw Kazimierczyk",
+          "activation": 2530.0283203125
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 6226\n\nTop activating examples (format: [activation] text):\n  [3041.885] Georg Kuphaldt\n  [2981.722] Istv\u00e1n Guly\u00e1s\n  [2904.855] Andreas R\u00f6schlaub\n  [2886.017] Wolfgang Windgassen\n  [2791.783] J\u00fcrgen von Farensbach\n  [2725.461] Friedrich-Wilhelm Kr\u00fcger\n  [2667.844] Milo\u0161 Kopeck\u00fd\n  [2577.226] Christoph Herwart\n  [2564.702] Klemens Kurowski\n  [2530.028] Stanis\u0142aw Kazimierczyk\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 9688,
+      "rank_by_diff": 2,
+      "k1_auc_id": 0.5730953216552734,
+      "k1_auc_ood": 0.46051460113960113,
+      "examples": [
+        {
+          "text": "Michael Alberti",
+          "activation": 2951.64404296875
+        },
+        {
+          "text": "Peter Nigri",
+          "activation": 2899.443359375
+        },
+        {
+          "text": "Max Verworn",
+          "activation": 2892.77197265625
+        },
+        {
+          "text": "Alexander Guagnini",
+          "activation": 2710.65234375
+        },
+        {
+          "text": "Nicole de Savigny",
+          "activation": 2628.482421875
+        },
+        {
+          "text": "Christian Ehregott Weinlig",
+          "activation": 2603.046142578125
+        },
+        {
+          "text": "Anton Winckler",
+          "activation": 2595.551025390625
+        },
+        {
+          "text": "Arnaud Esquerrier",
+          "activation": 2564.732177734375
+        },
+        {
+          "text": "Eduard Mezger",
+          "activation": 2546.58935546875
+        },
+        {
+          "text": "Bernardin Frankopan",
+          "activation": 2539.923583984375
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 9688\n\nTop activating examples (format: [activation] text):\n  [2951.644] Michael Alberti\n  [2899.443] Peter Nigri\n  [2892.772] Max Verworn\n  [2710.652] Alexander Guagnini\n  [2628.482] Nicole de Savigny\n  [2603.046] Christian Ehregott Weinlig\n  [2595.551] Anton Winckler\n  [2564.732] Arnaud Esquerrier\n  [2546.589] Eduard Mezger\n  [2539.924] Bernardin Frankopan\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 11011,
+      "rank_by_diff": 3,
+      "k1_auc_id": 0.5735836029052734,
+      "k1_auc_ood": 0.44751602564102566,
+      "examples": [
+        {
+          "text": "Karl Friedrich St\u00e4udlin",
+          "activation": 2944.000244140625
+        },
+        {
+          "text": "Otto Hofmann",
+          "activation": 2895.7392578125
+        },
+        {
+          "text": "Johann Heinrich Meibom",
+          "activation": 2867.16259765625
+        },
+        {
+          "text": "Johannes Scotus Eriugena",
+          "activation": 2855.20556640625
+        },
+        {
+          "text": "Bernardin Frankopan",
+          "activation": 2849.868896484375
+        },
+        {
+          "text": "Athanasius Kircher",
+          "activation": 2811.160400390625
+        },
+        {
+          "text": "Ferdinand Kettler",
+          "activation": 2807.88037109375
+        },
+        {
+          "text": "Wilhelm Br\u00fcckner",
+          "activation": 2806.185302734375
+        },
+        {
+          "text": "Kurt Graebe",
+          "activation": 2804.63330078125
+        },
+        {
+          "text": "Friedrich von Bieberstein",
+          "activation": 2802.82568359375
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 11011\n\nTop activating examples (format: [activation] text):\n  [2944.000] Karl Friedrich St\u00e4udlin\n  [2895.739] Otto Hofmann\n  [2867.163] Johann Heinrich Meibom\n  [2855.206] Johannes Scotus Eriugena\n  [2849.869] Bernardin Frankopan\n  [2811.160] Athanasius Kircher\n  [2807.880] Ferdinand Kettler\n  [2806.185] Wilhelm Br\u00fcckner\n  [2804.633] Kurt Graebe\n  [2802.826] Friedrich von Bieberstein\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 8691,
+      "rank_by_diff": 4,
+      "k1_auc_id": 0.5,
+      "k1_auc_ood": 0.5,
+      "examples": [
+        {
+          "text": "Gao Xiang",
+          "activation": 3059.530029296875
+        },
+        {
+          "text": "Chen Xi",
+          "activation": 2800.378173828125
+        },
+        {
+          "text": "Han Jian",
+          "activation": 2759.228759765625
+        },
+        {
+          "text": "Li Zhong",
+          "activation": 2700.31689453125
+        },
+        {
+          "text": "Li Ying",
+          "activation": 2682.37841796875
+        },
+        {
+          "text": "Zhu Zhen",
+          "activation": 2656.718505859375
+        },
+        {
+          "text": "Wang Ji",
+          "activation": 2640.7509765625
+        },
+        {
+          "text": "Gao Chen",
+          "activation": 2564.3017578125
+        },
+        {
+          "text": "Liu Liang",
+          "activation": 2557.798828125
+        },
+        {
+          "text": "Yang Hong",
+          "activation": 2538.23828125
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 8691\n\nTop activating examples (format: [activation] text):\n  [3059.530] Gao Xiang\n  [2800.378] Chen Xi\n  [2759.229] Han Jian\n  [2700.317] Li Zhong\n  [2682.378] Li Ying\n  [2656.719] Zhu Zhen\n  [2640.751] Wang Ji\n  [2564.302] Gao Chen\n  [2557.799] Liu Liang\n  [2538.238] Yang Hong\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 1647,
+      "rank_by_diff": 5,
+      "k1_auc_id": 0.5600032806396484,
+      "k1_auc_ood": 0.4682603276353276,
+      "examples": [
+        {
+          "text": "Peter Nigri",
+          "activation": 3422.999267578125
+        },
+        {
+          "text": "Michael Alberti",
+          "activation": 3229.221923828125
+        },
+        {
+          "text": "Alexander Guagnini",
+          "activation": 3100.7685546875
+        },
+        {
+          "text": "Nicole de Savigny",
+          "activation": 3032.668212890625
+        },
+        {
+          "text": "Alexandra Velyaminova",
+          "activation": 3007.429443359375
+        },
+        {
+          "text": "Arnaud Esquerrier",
+          "activation": 2955.70361328125
+        },
+        {
+          "text": "Christian Ehregott Weinlig",
+          "activation": 2938.407470703125
+        },
+        {
+          "text": "Andreas Neunhaber",
+          "activation": 2917.05224609375
+        },
+        {
+          "text": "Clara Immerwahr",
+          "activation": 2907.757080078125
+        },
+        {
+          "text": "Francesco Ferrucci",
+          "activation": 2898.43408203125
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 1647\n\nTop activating examples (format: [activation] text):\n  [3422.999] Peter Nigri\n  [3229.222] Michael Alberti\n  [3100.769] Alexander Guagnini\n  [3032.668] Nicole de Savigny\n  [3007.429] Alexandra Velyaminova\n  [2955.704] Arnaud Esquerrier\n  [2938.407] Christian Ehregott Weinlig\n  [2917.052] Andreas Neunhaber\n  [2907.757] Clara Immerwahr\n  [2898.434] Francesco Ferrucci\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 9470,
+      "rank_by_diff": 6,
+      "k1_auc_id": 0.5659770965576172,
+      "k1_auc_ood": 0.43002136752136755,
+      "examples": [
+        {
+          "text": "Franz Beer",
+          "activation": 2929.391357421875
+        },
+        {
+          "text": "Otto Hofmann",
+          "activation": 2905.858642578125
+        },
+        {
+          "text": "Francesco Ferrucci",
+          "activation": 2825.101806640625
+        },
+        {
+          "text": "Peter Nigri",
+          "activation": 2811.81005859375
+        },
+        {
+          "text": "Johnny Nash",
+          "activation": 2764.626708984375
+        },
+        {
+          "text": "Kurt Tank",
+          "activation": 2754.484619140625
+        },
+        {
+          "text": "Bernardin Frankopan",
+          "activation": 2696.04833984375
+        },
+        {
+          "text": "Carlo Conti",
+          "activation": 2657.061767578125
+        },
+        {
+          "text": "Max August Zorn",
+          "activation": 2642.20263671875
+        },
+        {
+          "text": "Ferdinand Kettler",
+          "activation": 2562.77490234375
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 9470\n\nTop activating examples (format: [activation] text):\n  [2929.391] Franz Beer\n  [2905.859] Otto Hofmann\n  [2825.102] Francesco Ferrucci\n  [2811.810] Peter Nigri\n  [2764.627] Johnny Nash\n  [2754.485] Kurt Tank\n  [2696.048] Bernardin Frankopan\n  [2657.062] Carlo Conti\n  [2642.203] Max August Zorn\n  [2562.775] Ferdinand Kettler\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 6340,
+      "rank_by_diff": 7,
+      "k1_auc_id": 0.5489139556884766,
+      "k1_auc_ood": 0.6240206552706553,
+      "examples": [
+        {
+          "text": "Gao Xiang",
+          "activation": 2272.20849609375
+        },
+        {
+          "text": "Li Ying",
+          "activation": 2213.3642578125
+        },
+        {
+          "text": "Xiahou Ying",
+          "activation": 2141.285400390625
+        },
+        {
+          "text": "Guan Ning",
+          "activation": 2060.15869140625
+        },
+        {
+          "text": "Guan Ning",
+          "activation": 2060.15869140625
+        },
+        {
+          "text": "Dugu Ji",
+          "activation": 2056.08251953125
+        },
+        {
+          "text": "Li Xiao",
+          "activation": 1975.259033203125
+        },
+        {
+          "text": "Chen Xi",
+          "activation": 1955.2652587890625
+        },
+        {
+          "text": "Wang Ji",
+          "activation": 1930.8353271484375
+        },
+        {
+          "text": "Han Jian",
+          "activation": 1902.9207763671875
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 6340\n\nTop activating examples (format: [activation] text):\n  [2272.208] Gao Xiang\n  [2213.364] Li Ying\n  [2141.285] Xiahou Ying\n  [2060.159] Guan Ning\n  [2060.159] Guan Ning\n  [2056.083] Dugu Ji\n  [1975.259] Li Xiao\n  [1955.265] Chen Xi\n  [1930.835] Wang Ji\n  [1902.921] Han Jian\n\nDescription:"
+      },
+      "description": null
+    }
+  ],
+  "ood_auc_by_k_diff_order": {
+    "1": 0.5117076210826211,
+    "2": 0.5730279558404558,
+    "3": 0.5594061609686609,
+    "4": 0.588363603988604,
+    "5": 0.6528445512820513,
+    "6": 0.6606570512820513,
+    "7": 0.6559383903133903,
+    "8": 0.6551371082621082
+  },
+  "ranking_prompt_stub": {
+    "note": "Rebuild with actual descriptions after autointerp step.",
+    "task_description": "Classify whether a named historical figure is a politician.",
+    "ood_transform": "Names are replaced with syntactical alterations or cartoon characters.",
+    "latent_order": [
+      7540,
+      6226,
+      9688,
+      11011,
+      8691,
+      1647,
+      9470,
+      6340
+    ]
+  }
+}

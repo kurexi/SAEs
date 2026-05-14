@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "157_amazon_5star",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:52:06.109283"
+  },
+  "best_latent": {
+    "latent_idx": 8475,
+    "k1_auc": 0.7329943279361767,
+    "examples": [
+      {
+        "text": "Title: So sorry I made this purchase!\nReview: I hate it! First, the description says 27.5 but it is actually a 26. What  a lie and a huge disappointment. It is a rough ride, the gears don't work correctly, and virtually NO suspension. The 1st speed is super fast which is kind of amazing but it's too fast to get any kind of workout and I have to push on and off to not pass cars. I haven't even tried the 5th speed as it is fast. It does go up hills well and battery last a long time. This was my chance to get an E bike but now I'm stuck with this heap of uselessness.",
+        "activation": 2665.0556640625
+      },
+      {
+        "text": "Title: Zero UV or sun protection\nReview: This neck gator is a complete JOKE! Per the description... \"SUN PROTECTION MASK: Too hot to go outside in summer day? Don't worry, you can enjoy outdoor activities comfortably, as this face mask can protect you from the hot air and sunburn and keep you cool in the hot weather.\"<br />That's a complete lie!! Our son has very fair skin & burns easy. So we always take extra precautions. I spent hours reading reviews & thought this would be the best one. He was out side for about 3 hours from 8am to 10am for football camp. As soon as he came home he was saying he didn't feel that great, sun burns make us sick. I honestly thought he never had the neck gator on after looking at him. However I confirmed with the coach in fact he did the whole time!",
+        "activation": 2415.684814453125
+      },
+      {
+        "text": "Title: Missing Pieces\nReview: This is the second puzzle from this company I have bought. The first one was fine. The second was was missing 2pcs. and looked everywhere and could not find it. One was an end piece so I knew right off the bat I was in trouble. So I go online and fill out a missing piece form and my puzzle isn't listed as a replacement? What? I've had this 2 months and you can't replace my missing pieces when you say your warranty is 4 years if in stock? I've had this 3 months! They must be throwing their leftovers on Amazon. Now I'm stuck with a puzzle with 2 missing pcs!",
+        "activation": 2370.86865234375
+      },
+      {
+        "text": "Title: TOO SMALL!\nReview: I've bought similar socks in the past so I ordered 2 of these 6 packs. I wear a 6.5-7 women's shoe and these are MUCH too small for me to wear comfortably. There is almost no stretch/give whatsoever, they pinch my toes throughout the day and the front begins to rip within a few hours (and this is at a desk job where I am barely even moving around). I literally just took off the pair I was wearing just now and threw them away because my feet were in so much pain from being pinched all day and my toes were sticking out of holes that had ripped in the socks.",
+        "activation": 2330.984619140625
+      },
+      {
+        "text": "Title: Impression substance solidified within 5 minutes\nReview: It says to mix 2 components thoroughly before imprinting with nose. Once i got sunstances substantially mixed and after 2 attempts of doing the impression the substance was as hard as a rubber ball. I called for assistance and was told they would send me a different substance to try again. My pup passed yesterday! I cannot wait another few days to re-do impression. I have to get my boy to the vets. They recommended I purchase a product locally. Which i will do, crying my broken hearted eyes out because my boy is gone and i really want this remebrance!",
+        "activation": 2221.37060546875
+      },
+      {
+        "text": "Title: Sub-standard waste of money\nReview: I was trying to save some money on what I consider to be over-priced OEM filters. I also wanted a product made in the USA. So, I ordered this product which seemed to satisfy what I wanted. First of all, the filters that arrived were in different packaging, and were labeled differently than the filter pictured here. Next I have to say that once this filter was installed, the water flow was severely restricted and the filter made a loud screaching noise when the water was trying to run. It took an inordinate amount of time to fill a drinking glass because the water barely trickled. So, I learned my lesson, and went back to Home Depot and paid the outrageous price for a filter that actually works. It appears that Amazon shipped the wrong item.",
+        "activation": 2182.7607421875
+      },
+      {
+        "text": "Title: Not even close to the photo online\nReview: First, this is CANVAS, not cotton. This is what your lawn furniture is made from. Second, and the most important part of this review, the snowflake pattern looks NOTHING like the one shown online. In my photo, the left side is the pic from Amazon. The right side is what I received. Not even remotely close.<br />So, this review is not for the quality of the canvas, which is nice. This is for the rotten representation of the fabric. For what was expected and what was received, this is bait and switch.",
+        "activation": 2140.654052734375
+      },
+      {
+        "text": "Title: Don't buy!\nReview: If I could give 0 stars I would..<br />I wish I would have tested it out the day I received it. However, I had just moved & had a lot of health & personal issues going on. So, I finally got it out last weekend..<br />It's a total joke!!<br />1st, the big pen.. When you push the needle into the fabric, the needle don't stay locked, it pushes right out of the pen holder..<br />2nd.. The smaller pen, os just totally broken period<br />3rd.. The scissors don't close flush, there for they won't cut..<br />4th.. It didn't come with everything listed..<br />I'm so frustrated & annoyed that I waisted even a penny on this item!",
+        "activation": 2118.389892578125
+      },
+      {
+        "text": "Title: Broke after a less than a week\nReview: Bought this for making smoothies while I travel because it is very light, compact and easy to clean. I only blend basic ingredients like protein powder, spinach and berries. No ice. And it barely even worked for that. I ended up with pretty chunky pieces of spinach in my smoothies. Made it work for about 5 days and then had to recharge and now it will not stay on to blend. Starts up for a couple seconds and then dies. Have tried recharging multiple times and no luck. Waste of time - find a better product from a reliable company that guarantees their products!",
+        "activation": 2087.691162109375
+      },
+      {
+        "text": "Title: Poor quality, rips before getting them on\nReview: I have worked in the medical field for over 20 years and I have never seen such shoddy equipment.  There must be no quality control at the manufacturer and don't be misled by the name \"MedPride' or \"NitriPride\".  We use these gloves for daily treatments and nearly 50% tear before we get them on.  This is multiple people that are having this problem.  Our visiting nurse won't even try anymore, he brings his own gloves. We ordered large and X-large and they both are crap.  Unless you have a lot of disposable income, look elsewhere because there is zero value for your money in these gloves.",
+        "activation": 2081.861328125
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 8475\n\nTop activating examples (format: [activation] text):\n  [2665.056] Title: So sorry I made this purchase!\nReview: I hate it! First, the description says 27.5 but it is actually a 26. What  a lie and a huge disappointment. It is a rough ride, the gears don't work correctly, and virtually NO suspension. The 1st speed is super fast which is kind of amazing but it's too\n  [2415.685] Title: Zero UV or sun protection\nReview: This neck gator is a complete JOKE! Per the description... \"SUN PROTECTION MASK: Too hot to go outside in summer day? Don't worry, you can enjoy outdoor activities comfortably, as this face mask can protect you from the hot air and sunburn and keep you cool i\n  [2370.869] Title: Missing Pieces\nReview: This is the second puzzle from this company I have bought. The first one was fine. The second was was missing 2pcs. and looked everywhere and could not find it. One was an end piece so I knew right off the bat I was in trouble. So I go online and fill out a missing piec\n  [2330.985] Title: TOO SMALL!\nReview: I've bought similar socks in the past so I ordered 2 of these 6 packs. I wear a 6.5-7 women's shoe and these are MUCH too small for me to wear comfortably. There is almost no stretch/give whatsoever, they pinch my toes throughout the day and the front begins to rip within a\n  [2221.371] Title: Impression substance solidified within 5 minutes\nReview: It says to mix 2 components thoroughly before imprinting with nose. Once i got sunstances substantially mixed and after 2 attempts of doing the impression the substance was as hard as a rubber ball. I called for assistance and was told\n  [2182.761] Title: Sub-standard waste of money\nReview: I was trying to save some money on what I consider to be over-priced OEM filters. I also wanted a product made in the USA. So, I ordered this product which seemed to satisfy what I wanted. First of all, the filters that arrived were in different packaging,\n  [2140.654] Title: Not even close to the photo online\nReview: First, this is CANVAS, not cotton. This is what your lawn furniture is made from. Second, and the most important part of this review, the snowflake pattern looks NOTHING like the one shown online. In my photo, the left side is the pic from Amazon. Th\n  [2118.390] Title: Don't buy!\nReview: If I could give 0 stars I would..<br />I wish I would have tested it out the day I received it. However, I had just moved & had a lot of health & personal issues going on. So, I finally got it out last weekend..<br />It's a total joke!!<br />1st, the big pen.. When you push\n  [2087.691] Title: Broke after a less than a week\nReview: Bought this for making smoothies while I travel because it is very light, compact and easy to clean. I only blend basic ingredients like protein powder, spinach and berries. No ice. And it barely even worked for that. I ended up with pretty chunky pieces\n  [2081.861] Title: Poor quality, rips before getting them on\nReview: I have worked in the medical field for over 20 years and I have never seen such shoddy equipment.  There must be no quality control at the manufacturer and don't be misled by the name \"MedPride' or \"NitriPride\".  We use these gloves for daily\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 8475,
+      "k1_auc": 0.7329943279361767
+    },
+    {
+      "latent_idx": 16111,
+      "k1_auc": 0.6901845524623826
+    },
+    {
+      "latent_idx": 2692,
+      "k1_auc": 0.6721521863533848
+    },
+    {
+      "latent_idx": 12291,
+      "k1_auc": 0.6714999831689501
+    },
+    {
+      "latent_idx": 14620,
+      "k1_auc": 0.6617379742148315
+    },
+    {
+      "latent_idx": 9541,
+      "k1_auc": 0.6520432894603965
+    },
+    {
+      "latent_idx": 5009,
+      "k1_auc": 0.611371057326556
+    },
+    {
+      "latent_idx": 9721,
+      "k1_auc": 0.6071590870838522
+    },
+    {
+      "latent_idx": 3630,
+      "k1_auc": 0.6063469889251691
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5927559161140472
+    },
+    {
+      "latent_idx": 7535,
+      "k1_auc": 0.5924024640657085
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5891666947184165
+    },
+    {
+      "latent_idx": 11211,
+      "k1_auc": 0.5812350624431952
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5789292086040327
+    },
+    {
+      "latent_idx": 3648,
+      "k1_auc": 0.5786010031305753
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.578180226882553
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.57511276803447
+    },
+    {
+      "latent_idx": 14937,
+      "k1_auc": 0.5742165146261824
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5732634564244117
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5710228229036927
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5634067728144881
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5617215639411586
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5606401689837411
+    },
+    {
+      "latent_idx": 8944,
+      "k1_auc": 0.5586583128555559
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5585531187935504
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5582017706264516
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5539245800653044
+    },
+    {
+      "latent_idx": 3115,
+      "k1_auc": 0.550998081260309
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5503500858383545
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5473962365772378
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5466767091931194
+    },
+    {
+      "latent_idx": 12194,
+      "k1_auc": 0.5388797253172654
+    },
+    {
+      "latent_idx": 4436,
+      "k1_auc": 0.5358732790251456
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5350212071229002
+    },
+    {
+      "latent_idx": 14770,
+      "k1_auc": 0.5339776820278049
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5338556569158783
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5323072003231561
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5309607163294847
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5300286969401151
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5296710371292961
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5293828053994007
+    },
+    {
+      "latent_idx": 14711,
+      "k1_auc": 0.5275945063453058
+    },
+    {
+      "latent_idx": 4828,
+      "k1_auc": 0.5264247483758038
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5249562392702057
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.524678526946511
+    },
+    {
+      "latent_idx": 5583,
+      "k1_auc": 0.5245901639344263
+    },
+    {
+      "latent_idx": 14224,
+      "k1_auc": 0.5245396707846636
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5217541320227556
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5205422964284513
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5197827953007709
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5192925909718248
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5176578752482579
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5168857508331369
+    },
+    {
+      "latent_idx": 186,
+      "k1_auc": 0.5164271047227926
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5145294038442118
+    },
+    {
+      "latent_idx": 1821,
+      "k1_auc": 0.5103048103140674
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5097914632914802
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.508301915373481
+    },
+    {
+      "latent_idx": 9422,
+      "k1_auc": 0.5064126300198607
+    },
+    {
+      "latent_idx": 4965,
+      "k1_auc": 0.5061938263708892
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5061685797960077
+    },
+    {
+      "latent_idx": 7768,
+      "k1_auc": 0.5061643720335275
+    },
+    {
+      "latent_idx": 1714,
+      "k1_auc": 0.5061601642710473
+    },
+    {
+      "latent_idx": 14758,
+      "k1_auc": 0.5061222944087251
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.50527022250648
+    },
+    {
+      "latent_idx": 16260,
+      "k1_auc": 0.5050240684013869
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5044391894166357
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5042245935301444
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5042077624802235
+    },
+    {
+      "latent_idx": 1104,
+      "k1_auc": 0.5041320227555796
+    },
+    {
+      "latent_idx": 2956,
+      "k1_auc": 0.5041025684182179
+    },
+    {
+      "latent_idx": 11098,
+      "k1_auc": 0.504047867505975
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5037617396573197
+    },
+    {
+      "latent_idx": 8113,
+      "k1_auc": 0.5030527316794021
+    },
+    {
+      "latent_idx": 2759,
+      "k1_auc": 0.502844447436631
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5012854714377083
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5000042077624802
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 641,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11279,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16131,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 56,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14557,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15822,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7788,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3405,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4744,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4761,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15155,
+      "k1_auc": 0.49801814387181476
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.4979466119096509
+    },
+    {
+      "latent_idx": 10902,
+      "k1_auc": 0.4979003265223685
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.4975931598613122
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.4959437169690646
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.49454042818191
+    },
+    {
+      "latent_idx": 13356,
+      "k1_auc": 0.4938903288787154
+    },
+    {
+      "latent_idx": 14975,
+      "k1_auc": 0.4897162284983338
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "84_clinical-trials",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:43:08.609325"
+  },
+  "best_latent": {
+    "latent_idx": 13295,
+    "k1_auc": 0.8694802207911684,
+    "examples": [
+      {
+        "text": "### Evidence {#ss54}The panel conducted a Medline search on 5 March 2013 for prospective randomized clinical trials",
+        "activation": 3721.903564453125
+      },
+      {
+        "text": " not eligible. The impact of this evolution on long-term outcome and cost-effectiveness has mainly been assessed in clinical trials",
+        "activation": 3691.037109375
+      },
+      {
+        "text": "-12-011]--[@b37-ce-12-011] To date, there have been two randomized clinical trials",
+        "activation": 3669.57666015625
+      },
+      {
+        "text": ", CINAHL, Google Scholar, and 2 clinical trial registries from inception to April 2012. Randomized clinical trials",
+        "activation": 3599.90966796875
+      },
+      {
+        "text": "yotrophic lateral sclerosis. We contacted authors of trials for further information. We included all randomised and quasi-randomised trials",
+        "activation": 3582.50732421875
+      },
+      {
+        "text": " evaluate health care interventions.[@B19]1. Inclusion Criteria---------------------We included randomized clinical trials",
+        "activation": 3572.1318359375
+      },
+      {
+        "text": " rate).2. Materials and methods {#sec0002}========================We have searched for randomized controlled trials",
+        "activation": 3531.37646484375
+      },
+      {
+        "text": " 2 [HER2]) inhibitors added to ET for hormone receptor-positive breast cancer patients. Eligible randomized clinical trials",
+        "activation": 3488.3623046875
+      },
+      {
+        "text": " safety of intervention and reducing the 30-day incidence of ischemic events. A similar pattern of benefit has emerged from clinical trials",
+        "activation": 3464.0380859375
+      },
+      {
+        "text": " role of early ERCP in the treatment of patients with predicted severe ABP without cholangitis. We reviewed randomized trials",
+        "activation": 3451.51025390625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 13295\n\nTop activating examples (format: [activation] text):\n  [3721.904] ### Evidence {#ss54}The panel conducted a Medline search on 5 March 2013 for prospective randomized clinical trials\n  [3691.037] not eligible. The impact of this evolution on long-term outcome and cost-effectiveness has mainly been assessed in clinical trials\n  [3669.577] -12-011]--[@b37-ce-12-011] To date, there have been two randomized clinical trials\n  [3599.910] , CINAHL, Google Scholar, and 2 clinical trial registries from inception to April 2012. Randomized clinical trials\n  [3582.507] yotrophic lateral sclerosis. We contacted authors of trials for further information. We included all randomised and quasi-randomised trials\n  [3572.132] evaluate health care interventions.[@B19]1. Inclusion Criteria---------------------We included randomized clinical trials\n  [3531.376] rate).2. Materials and methods {#sec0002}========================We have searched for randomized controlled trials\n  [3488.362] 2 [HER2]) inhibitors added to ET for hormone receptor-positive breast cancer patients. Eligible randomized clinical trials\n  [3464.038] safety of intervention and reducing the 30-day incidence of ischemic events. A similar pattern of benefit has emerged from clinical trials\n  [3451.510] role of early ERCP in the treatment of patients with predicted severe ABP without cholangitis. We reviewed randomized trials\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 13295,
+      "k1_auc": 0.8694802207911684
+    },
+    {
+      "latent_idx": 14178,
+      "k1_auc": 0.8646859272687916
+    },
+    {
+      "latent_idx": 5903,
+      "k1_auc": 0.8424491145354185
+    },
+    {
+      "latent_idx": 12599,
+      "k1_auc": 0.7952058755885059
+    },
+    {
+      "latent_idx": 1869,
+      "k1_auc": 0.7472291181882136
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.7403606796904595
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.7328546931652146
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.7274215832837274
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.6812509301098544
+    },
+    {
+      "latent_idx": 3145,
+      "k1_auc": 0.6676134057578874
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.6664947372693328
+    },
+    {
+      "latent_idx": 14219,
+      "k1_auc": 0.6608460110125007
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.6572519819795444
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.649353658206613
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.643375165728665
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.6317361092321012
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.6301633780237026
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.6296133448779696
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.6281336246550138
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.620002773418475
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.6156312571026571
+    },
+    {
+      "latent_idx": 1586,
+      "k1_auc": 0.6153809729963743
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.6055184263217706
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5977346751718167
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5969817089669354
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5904688260998973
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5881524297851615
+    },
+    {
+      "latent_idx": 959,
+      "k1_auc": 0.5833192407597814
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5815186326370474
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5744092111315546
+    },
+    {
+      "latent_idx": 609,
+      "k1_auc": 0.5743183140321446
+    },
+    {
+      "latent_idx": 9443,
+      "k1_auc": 0.5712316176470589
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.565533849234266
+    },
+    {
+      "latent_idx": 15134,
+      "k1_auc": 0.5622577486606418
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.559867789111965
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5497837071811246
+    },
+    {
+      "latent_idx": 1888,
+      "k1_auc": 0.5432661737648141
+    },
+    {
+      "latent_idx": 3412,
+      "k1_auc": 0.541046170653174
+    },
+    {
+      "latent_idx": 8586,
+      "k1_auc": 0.5372242647058824
+    },
+    {
+      "latent_idx": 14268,
+      "k1_auc": 0.5337477677363494
+    },
+    {
+      "latent_idx": 7630,
+      "k1_auc": 0.5317095588235294
+    },
+    {
+      "latent_idx": 15801,
+      "k1_auc": 0.5294117647058824
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.525187374857947
+    },
+    {
+      "latent_idx": 12909,
+      "k1_auc": 0.5248161764705882
+    },
+    {
+      "latent_idx": 2152,
+      "k1_auc": 0.5234375
+    },
+    {
+      "latent_idx": 9520,
+      "k1_auc": 0.5220266924617133
+    },
+    {
+      "latent_idx": 330,
+      "k1_auc": 0.5216385829860923
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5216187124573841
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.521297824557606
+    },
+    {
+      "latent_idx": 931,
+      "k1_auc": 0.5202205882352942
+    },
+    {
+      "latent_idx": 4247,
+      "k1_auc": 0.5202205882352942
+    },
+    {
+      "latent_idx": 5603,
+      "k1_auc": 0.5197610294117647
+    },
+    {
+      "latent_idx": 7213,
+      "k1_auc": 0.5190740164511066
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.5189057511228962
+    },
+    {
+      "latent_idx": 5405,
+      "k1_auc": 0.5188419117647058
+    },
+    {
+      "latent_idx": 13781,
+      "k1_auc": 0.5183992640294388
+    },
+    {
+      "latent_idx": 10878,
+      "k1_auc": 0.5182918786189729
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5179718362736079
+    },
+    {
+      "latent_idx": 2747,
+      "k1_auc": 0.5174632352941176
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.517451397532334
+    },
+    {
+      "latent_idx": 12812,
+      "k1_auc": 0.5173588093240976
+    },
+    {
+      "latent_idx": 15951,
+      "k1_auc": 0.5170197420044375
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5160625744087883
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.515179392824287
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5151654411764706
+    },
+    {
+      "latent_idx": 6389,
+      "k1_auc": 0.5142463235294118
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5138028302397316
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5133449625250285
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5133441169706153
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.51298602467666
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5129369825206993
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5129158436603712
+    },
+    {
+      "latent_idx": 4043,
+      "k1_auc": 0.5124199259970778
+    },
+    {
+      "latent_idx": 12032,
+      "k1_auc": 0.5124080882352942
+    },
+    {
+      "latent_idx": 13304,
+      "k1_auc": 0.5111004383354077
+    },
+    {
+      "latent_idx": 8565,
+      "k1_auc": 0.5109655724065155
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5105698529411765
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5105698529411765
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5101669462633259
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5100823908220141
+    },
+    {
+      "latent_idx": 4756,
+      "k1_auc": 0.5096854030250554
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5096748335948915
+    },
+    {
+      "latent_idx": 14482,
+      "k1_auc": 0.5096579225066292
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5096507352941176
+    },
+    {
+      "latent_idx": 1614,
+      "k1_auc": 0.5089091840738135
+    },
+    {
+      "latent_idx": 14691,
+      "k1_auc": 0.5087485287353212
+    },
+    {
+      "latent_idx": 9649,
+      "k1_auc": 0.508718934330862
+    },
+    {
+      "latent_idx": 5756,
+      "k1_auc": 0.5084039653119757
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5083346298501001
+    },
+    {
+      "latent_idx": 6615,
+      "k1_auc": 0.5082796688132476
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5078678838140591
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5073935277883004
+    },
+    {
+      "latent_idx": 15275,
+      "k1_auc": 0.5073529411764706
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5065335989501597
+    },
+    {
+      "latent_idx": 11889,
+      "k1_auc": 0.5064388968558904
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.5060427546133448
+    },
+    {
+      "latent_idx": 10236,
+      "k1_auc": 0.5059852569132528
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5059772241463283
+    },
+    {
+      "latent_idx": 3706,
+      "k1_auc": 0.5059755330375021
+    },
+    {
+      "latent_idx": 12395,
+      "k1_auc": 0.5059742647058824
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.5055147058823529
+    },
+    {
+      "latent_idx": 12543,
+      "k1_auc": 0.5055147058823529
+    },
+    {
+      "latent_idx": 8643,
+      "k1_auc": 0.5055147058823529
+    },
+    {
+      "latent_idx": 1013,
+      "k1_auc": 0.505058529276476
+    },
+    {
+      "latent_idx": 8791,
+      "k1_auc": 0.5050551470588235
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.504162664375778
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5041402571838303
+    },
+    {
+      "latent_idx": 500,
+      "k1_auc": 0.5032169117647058
+    },
+    {
+      "latent_idx": 13355,
+      "k1_auc": 0.5027573529411765
+    },
+    {
+      "latent_idx": 9428,
+      "k1_auc": 0.5027573529411765
+    },
+    {
+      "latent_idx": 5817,
+      "k1_auc": 0.5018111775528978
+    },
+    {
+      "latent_idx": 5952,
+      "k1_auc": 0.5014729557876508
+    },
+    {
+      "latent_idx": 1354,
+      "k1_auc": 0.5005593342442772
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4266,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3344,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12808,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.49865852792358906
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.4958229611991991
+    }
+  ]
+}

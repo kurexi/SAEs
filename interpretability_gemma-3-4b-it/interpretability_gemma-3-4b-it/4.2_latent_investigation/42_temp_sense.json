@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "42_temp_sense",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:35:26.085047"
+  },
+  "best_latent": {
+    "latent_idx": 4247,
+    "k1_auc": 0.6345979410127991,
+    "examples": [
+      {
+        "text": "While these laws were met with skepticism and ridicule, they've often become standard practice in other states.\nHow long have the laws been subject to ridicule?\n2 hours",
+        "activation": 4158.47900390625
+      },
+      {
+        "text": "When I was in college, I thought I wanted to be a doctor, she said.\nHow long was she in college?\n10 minutes",
+        "activation": 4025.59130859375
+      },
+      {
+        "text": "When I was in college, I thought I wanted to be a doctor, she said.\nHow long was she in college?\n10 minutes",
+        "activation": 4025.59130859375
+      },
+      {
+        "text": "The mindwipe will take its creation from my future self --but time too often does that without aid.\nHow long did it take the mindwipe to take its creation?\none minute",
+        "activation": 4013.0849609375
+      },
+      {
+        "text": "At the same time, the Sudanese regime began to change.\nHow long did it take for differences to become apparent?\nsix minutes",
+        "activation": 4003.30859375
+      },
+      {
+        "text": "At the same time, the Sudanese regime began to change.\nHow long did it take for differences to become apparent?\nsix minutes",
+        "activation": 4003.30859375
+      },
+      {
+        "text": "Several tenants blame other neighbors as perpetrators of the rift, however.\nHow long has there been a rift between neighbors?\n900 years",
+        "activation": 3954.72021484375
+      },
+      {
+        "text": "Several tenants blame other neighbors as perpetrators of the rift, however.\nHow long has there been a rift between neighbors?\n900 years",
+        "activation": 3954.72021484375
+      },
+      {
+        "text": "Sarawak's coast and jungle interior were controlled by the Iban\u2002\u2014\u2002Sea Dayak pirates and Land Dayak slash-and-burn farmers.\nHow long did it take for the Iban to take control of Sarawak's coast?\n18 years",
+        "activation": 3912.0126953125
+      },
+      {
+        "text": "At the same time, the Sudanese regime began to change.\nHow long did it take for differences to become apparent?\na couple centuries",
+        "activation": 3872.0830078125
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 4247\n\nTop activating examples (format: [activation] text):\n  [4158.479] While these laws were met with skepticism and ridicule, they've often become standard practice in other states.\nHow long have the laws been subject to ridicule?\n2 hours\n  [4025.591] When I was in college, I thought I wanted to be a doctor, she said.\nHow long was she in college?\n10 minutes\n  [4025.591] When I was in college, I thought I wanted to be a doctor, she said.\nHow long was she in college?\n10 minutes\n  [4013.085] The mindwipe will take its creation from my future self --but time too often does that without aid.\nHow long did it take the mindwipe to take its creation?\none minute\n  [4003.309] At the same time, the Sudanese regime began to change.\nHow long did it take for differences to become apparent?\nsix minutes\n  [4003.309] At the same time, the Sudanese regime began to change.\nHow long did it take for differences to become apparent?\nsix minutes\n  [3954.720] Several tenants blame other neighbors as perpetrators of the rift, however.\nHow long has there been a rift between neighbors?\n900 years\n  [3954.720] Several tenants blame other neighbors as perpetrators of the rift, however.\nHow long has there been a rift between neighbors?\n900 years\n  [3912.013] Sarawak's coast and jungle interior were controlled by the Iban\u2002\u2014\u2002Sea Dayak pirates and Land Dayak slash-and-burn farmers.\nHow long did it take for the Iban to take control of Sarawak's coast?\n18 years\n  [3872.083] At the same time, the Sudanese regime began to change.\nHow long did it take for differences to become apparent?\na couple centuries\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 4247,
+      "k1_auc": 0.6345979410127991
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.6174179187534781
+    },
+    {
+      "latent_idx": 12032,
+      "k1_auc": 0.5967250973845297
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5905926544240401
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5894031719532554
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5834307178631052
+    },
+    {
+      "latent_idx": 5406,
+      "k1_auc": 0.5760336672231496
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5709488035614914
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5678018920422927
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5658555926544241
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5656705620478575
+    },
+    {
+      "latent_idx": 5780,
+      "k1_auc": 0.5629827490261547
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5620895937673901
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5609460211463551
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5584641068447413
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5580745687256539
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5576516416249304
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5570464663327768
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5566165831942126
+    },
+    {
+      "latent_idx": 15665,
+      "k1_auc": 0.5552420701168614
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5537576516416249
+    },
+    {
+      "latent_idx": 7381,
+      "k1_auc": 0.5522593210907067
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5519560378408459
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5517362270450751
+    },
+    {
+      "latent_idx": 6442,
+      "k1_auc": 0.5496410684474125
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5493224819143017
+    },
+    {
+      "latent_idx": 7187,
+      "k1_auc": 0.5478241513633834
+    },
+    {
+      "latent_idx": 6059,
+      "k1_auc": 0.5477977184195881
+    },
+    {
+      "latent_idx": 8216,
+      "k1_auc": 0.5463717306622148
+    },
+    {
+      "latent_idx": 2273,
+      "k1_auc": 0.5434307178631053
+    },
+    {
+      "latent_idx": 134,
+      "k1_auc": 0.5426585976627712
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5421869782971619
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5390692821368949
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5378018920422926
+    },
+    {
+      "latent_idx": 5770,
+      "k1_auc": 0.5334808013355593
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5310197551474679
+    },
+    {
+      "latent_idx": 14349,
+      "k1_auc": 0.5275918196994992
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5271341124095714
+    },
+    {
+      "latent_idx": 13008,
+      "k1_auc": 0.525978018920423
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5221883695047301
+    },
+    {
+      "latent_idx": 6963,
+      "k1_auc": 0.5219643850862549
+    },
+    {
+      "latent_idx": 14796,
+      "k1_auc": 0.5212479131886477
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5194866444073456
+    },
+    {
+      "latent_idx": 14482,
+      "k1_auc": 0.519449081803005
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.519070673344463
+    },
+    {
+      "latent_idx": 14816,
+      "k1_auc": 0.5183277685030606
+    },
+    {
+      "latent_idx": 12459,
+      "k1_auc": 0.5180843071786311
+    },
+    {
+      "latent_idx": 4883,
+      "k1_auc": 0.5175389538119086
+    },
+    {
+      "latent_idx": 5393,
+      "k1_auc": 0.5174332220367279
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5172982749026155
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.516677796327212
+    },
+    {
+      "latent_idx": 14142,
+      "k1_auc": 0.5158597662771285
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5158430717863105
+    },
+    {
+      "latent_idx": 4681,
+      "k1_auc": 0.515025041736227
+    },
+    {
+      "latent_idx": 15701,
+      "k1_auc": 0.5125375626043406
+    },
+    {
+      "latent_idx": 8449,
+      "k1_auc": 0.512384529771842
+    },
+    {
+      "latent_idx": 8549,
+      "k1_auc": 0.5117417918753479
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5117139677239844
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5115386755703951
+    },
+    {
+      "latent_idx": 6086,
+      "k1_auc": 0.5110336672231498
+    },
+    {
+      "latent_idx": 11267,
+      "k1_auc": 0.510954368391764
+    },
+    {
+      "latent_idx": 3969,
+      "k1_auc": 0.510872287145242
+    },
+    {
+      "latent_idx": 12011,
+      "k1_auc": 0.5108695047301058
+    },
+    {
+      "latent_idx": 3743,
+      "k1_auc": 0.5108347245409016
+    },
+    {
+      "latent_idx": 5801,
+      "k1_auc": 0.5105258764607679
+    },
+    {
+      "latent_idx": 6249,
+      "k1_auc": 0.5100695603784084
+    },
+    {
+      "latent_idx": 16131,
+      "k1_auc": 0.5091889259877573
+    },
+    {
+      "latent_idx": 12288,
+      "k1_auc": 0.5091819699499165
+    },
+    {
+      "latent_idx": 1821,
+      "k1_auc": 0.5091791875347802
+    },
+    {
+      "latent_idx": 5688,
+      "k1_auc": 0.509152754590985
+    },
+    {
+      "latent_idx": 9121,
+      "k1_auc": 0.5084140233722871
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5079716193656094
+    },
+    {
+      "latent_idx": 9282,
+      "k1_auc": 0.5075055648302728
+    },
+    {
+      "latent_idx": 15208,
+      "k1_auc": 0.5075041736227045
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5074763494713411
+    },
+    {
+      "latent_idx": 5911,
+      "k1_auc": 0.5067223149693934
+    },
+    {
+      "latent_idx": 11489,
+      "k1_auc": 0.5066805787423484
+    },
+    {
+      "latent_idx": 3115,
+      "k1_auc": 0.5066583194212576
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5061964385086255
+    },
+    {
+      "latent_idx": 13264,
+      "k1_auc": 0.5058458542014468
+    },
+    {
+      "latent_idx": 4352,
+      "k1_auc": 0.5058430717863105
+    },
+    {
+      "latent_idx": 14392,
+      "k1_auc": 0.5058333333333334
+    },
+    {
+      "latent_idx": 2540,
+      "k1_auc": 0.5057985531441291
+    },
+    {
+      "latent_idx": 16190,
+      "k1_auc": 0.5051919866444073
+    },
+    {
+      "latent_idx": 8996,
+      "k1_auc": 0.5050361713967724
+    },
+    {
+      "latent_idx": 506,
+      "k1_auc": 0.5050333889816361
+    },
+    {
+      "latent_idx": 6111,
+      "k1_auc": 0.5050111296605454
+    },
+    {
+      "latent_idx": 2141,
+      "k1_auc": 0.5050083472454091
+    },
+    {
+      "latent_idx": 16109,
+      "k1_auc": 0.5041958820255982
+    },
+    {
+      "latent_idx": 10279,
+      "k1_auc": 0.5041889259877573
+    },
+    {
+      "latent_idx": 12408,
+      "k1_auc": 0.5041736227045075
+    },
+    {
+      "latent_idx": 557,
+      "k1_auc": 0.5041666666666667
+    },
+    {
+      "latent_idx": 2429,
+      "k1_auc": 0.5041430161380078
+    },
+    {
+      "latent_idx": 15103,
+      "k1_auc": 0.503347245409015
+    },
+    {
+      "latent_idx": 14770,
+      "k1_auc": 0.5033444629938787
+    },
+    {
+      "latent_idx": 3225,
+      "k1_auc": 0.5033361157484697
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5033096828046745
+    },
+    {
+      "latent_idx": 12543,
+      "k1_auc": 0.5025180856983862
+    },
+    {
+      "latent_idx": 14641,
+      "k1_auc": 0.5017028380634391
+    },
+    {
+      "latent_idx": 4909,
+      "k1_auc": 0.50169449081803
+    },
+    {
+      "latent_idx": 2041,
+      "k1_auc": 0.5016666666666667
+    },
+    {
+      "latent_idx": 11222,
+      "k1_auc": 0.5008681135225376
+    },
+    {
+      "latent_idx": 13607,
+      "k1_auc": 0.5008347245409015
+    },
+    {
+      "latent_idx": 5285,
+      "k1_auc": 0.5007540345019477
+    },
+    {
+      "latent_idx": 9580,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6873,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14779,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12539,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12940,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11237,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8088,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7618,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.499991652754591
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.4991680578742349
+    },
+    {
+      "latent_idx": 5749,
+      "k1_auc": 0.4991652754590985
+    },
+    {
+      "latent_idx": 11780,
+      "k1_auc": 0.498347245409015
+    },
+    {
+      "latent_idx": 1559,
+      "k1_auc": 0.498330550918197
+    },
+    {
+      "latent_idx": 2877,
+      "k1_auc": 0.49733722871452424
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.4970548135781859
+    },
+    {
+      "latent_idx": 10729,
+      "k1_auc": 0.4953505843071786
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.48971202003338893
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.4885253199777407
+    },
+    {
+      "latent_idx": 210,
+      "k1_auc": 0.4671480244852532
+    }
+  ]
+}

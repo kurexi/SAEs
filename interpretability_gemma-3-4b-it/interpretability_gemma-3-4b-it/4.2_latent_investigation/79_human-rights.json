@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "79_human-rights",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:41:54.315162"
+  },
+  "best_latent": {
+    "latent_idx": 453,
+    "k1_auc": 0.9252901942745819,
+    "examples": [
+      {
+        "text": "50 If so, how does it implement this standard (for example, through active investigation of a government\u2019s human rights",
+        "activation": 2111.268310546875
+      },
+      {
+        "text": "), which represents more than 200 churches and other Christian organisations.In its 2018 report on Sri Lanka's human rights",
+        "activation": 2052.75
+      },
+      {
+        "text": " \"has that effect\" and \"cannot be justified on other, ... (more...)Congo's human rights",
+        "activation": 2046.502197265625
+      },
+      {
+        "text": "Universal Periodic ReviewAll member states of the United Nations undergo a Universal Periodic Review of the human rights",
+        "activation": 2032.24365234375
+      },
+      {
+        "text": " MUST WATCH N. Korean officials make surprise visit 03:23He adamantly defended the country's human rights",
+        "activation": 2024.718994140625
+      },
+      {
+        "text": ". Perhaps overturning these sentences will send your country on the path towards abolishing the death penalty and improving your human rights",
+        "activation": 1991.064453125
+      },
+      {
+        "text": " where Sri Lanka is expected to figure yet again, with a possibility of a third resolution on the country\u2019s human rights",
+        "activation": 1978.419189453125
+      },
+      {
+        "text": " economy. Along with these economic reforms came a slight opening to the West, which provided some opportunity for scrutiny of human rights",
+        "activation": 1961.875244140625
+      },
+      {
+        "text": " commenced, Human Rights Watch issued a report urging that no military support be given to the Northern Alliance due to their human rights",
+        "activation": 1960.7681884765625
+      },
+      {
+        "text": " this. Amid considerable international pressure following the U.N.-mandated international probe into the country\u2019s human rights",
+        "activation": 1957.3968505859375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 453\n\nTop activating examples (format: [activation] text):\n  [2111.268] 50 If so, how does it implement this standard (for example, through active investigation of a government\u2019s human rights\n  [2052.750] ), which represents more than 200 churches and other Christian organisations.In its 2018 report on Sri Lanka's human rights\n  [2046.502] \"has that effect\" and \"cannot be justified on other, ... (more...)Congo's human rights\n  [2032.244] Universal Periodic ReviewAll member states of the United Nations undergo a Universal Periodic Review of the human rights\n  [2024.719] MUST WATCH N. Korean officials make surprise visit 03:23He adamantly defended the country's human rights\n  [1991.064] . Perhaps overturning these sentences will send your country on the path towards abolishing the death penalty and improving your human rights\n  [1978.419] where Sri Lanka is expected to figure yet again, with a possibility of a third resolution on the country\u2019s human rights\n  [1961.875] economy. Along with these economic reforms came a slight opening to the West, which provided some opportunity for scrutiny of human rights\n  [1960.768] commenced, Human Rights Watch issued a report urging that no military support be given to the Northern Alliance due to their human rights\n  [1957.397] this. Amid considerable international pressure following the U.N.-mandated international probe into the country\u2019s human rights\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 453,
+      "k1_auc": 0.9252901942745819
+    },
+    {
+      "latent_idx": 11752,
+      "k1_auc": 0.8729148628172521
+    },
+    {
+      "latent_idx": 13784,
+      "k1_auc": 0.870110158828941
+    },
+    {
+      "latent_idx": 7731,
+      "k1_auc": 0.8150857053953136
+    },
+    {
+      "latent_idx": 322,
+      "k1_auc": 0.7896192975810379
+    },
+    {
+      "latent_idx": 6665,
+      "k1_auc": 0.7177209602792358
+    },
+    {
+      "latent_idx": 12818,
+      "k1_auc": 0.6896553181990368
+    },
+    {
+      "latent_idx": 2870,
+      "k1_auc": 0.6526559709670436
+    },
+    {
+      "latent_idx": 6537,
+      "k1_auc": 0.6504816277937118
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.6457904919097354
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.6399291087180043
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.6346152220087666
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.6319859705611776
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.6252206897018237
+    },
+    {
+      "latent_idx": 9904,
+      "k1_auc": 0.6214427525840144
+    },
+    {
+      "latent_idx": 1748,
+      "k1_auc": 0.6212406650792792
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.6048927160560637
+    },
+    {
+      "latent_idx": 4630,
+      "k1_auc": 0.5991733860057362
+    },
+    {
+      "latent_idx": 7775,
+      "k1_auc": 0.5949883144380107
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5852513325937551
+    },
+    {
+      "latent_idx": 4089,
+      "k1_auc": 0.5852496414849289
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5803192137020401
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5759451607229829
+    },
+    {
+      "latent_idx": 7165,
+      "k1_auc": 0.5754336003030467
+    },
+    {
+      "latent_idx": 205,
+      "k1_auc": 0.5667518703663619
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5666182727690894
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5664411291195411
+    },
+    {
+      "latent_idx": 1013,
+      "k1_auc": 0.5661498356242222
+    },
+    {
+      "latent_idx": 6544,
+      "k1_auc": 0.560717571297148
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5567028789436658
+    },
+    {
+      "latent_idx": 1729,
+      "k1_auc": 0.5492556584501326
+    },
+    {
+      "latent_idx": 1101,
+      "k1_auc": 0.547378104875805
+    },
+    {
+      "latent_idx": 15831,
+      "k1_auc": 0.5459812489853347
+    },
+    {
+      "latent_idx": 2402,
+      "k1_auc": 0.5446592246604253
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5446363946912712
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5444440310622869
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5440305549542723
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5436458276963039
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5421382041777153
+    },
+    {
+      "latent_idx": 13607,
+      "k1_auc": 0.5415585766275232
+    },
+    {
+      "latent_idx": 10474,
+      "k1_auc": 0.5413602941176471
+    },
+    {
+      "latent_idx": 3000,
+      "k1_auc": 0.5409007352941176
+    },
+    {
+      "latent_idx": 15046,
+      "k1_auc": 0.5399816176470589
+    },
+    {
+      "latent_idx": 7957,
+      "k1_auc": 0.5376838235294118
+    },
+    {
+      "latent_idx": 12027,
+      "k1_auc": 0.5370860165593376
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5357809033226906
+    },
+    {
+      "latent_idx": 9439,
+      "k1_auc": 0.5345189133611126
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5340504762162455
+    },
+    {
+      "latent_idx": 7213,
+      "k1_auc": 0.5336040234861193
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5334399859299745
+    },
+    {
+      "latent_idx": 8222,
+      "k1_auc": 0.5330882352941176
+    },
+    {
+      "latent_idx": 13853,
+      "k1_auc": 0.5330882352941176
+    },
+    {
+      "latent_idx": 14850,
+      "k1_auc": 0.5330882352941176
+    },
+    {
+      "latent_idx": 5428,
+      "k1_auc": 0.5330882352941176
+    },
+    {
+      "latent_idx": 2349,
+      "k1_auc": 0.5326286764705882
+    },
+    {
+      "latent_idx": 4596,
+      "k1_auc": 0.532242680881
+    },
+    {
+      "latent_idx": 6934,
+      "k1_auc": 0.5321691176470589
+    },
+    {
+      "latent_idx": 7129,
+      "k1_auc": 0.5321691176470589
+    },
+    {
+      "latent_idx": 2660,
+      "k1_auc": 0.5321691176470589
+    },
+    {
+      "latent_idx": 5628,
+      "k1_auc": 0.5321691176470589
+    },
+    {
+      "latent_idx": 13309,
+      "k1_auc": 0.5321691176470589
+    },
+    {
+      "latent_idx": 11284,
+      "k1_auc": 0.5321691176470589
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5320473578115699
+    },
+    {
+      "latent_idx": 11691,
+      "k1_auc": 0.5317687476324476
+    },
+    {
+      "latent_idx": 6354,
+      "k1_auc": 0.531738730450782
+    },
+    {
+      "latent_idx": 6182,
+      "k1_auc": 0.531738730450782
+    },
+    {
+      "latent_idx": 2451,
+      "k1_auc": 0.5317095588235294
+    },
+    {
+      "latent_idx": 15880,
+      "k1_auc": 0.5317095588235294
+    },
+    {
+      "latent_idx": 2246,
+      "k1_auc": 0.5317095588235294
+    },
+    {
+      "latent_idx": 3647,
+      "k1_auc": 0.5317095588235294
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5310178953135992
+    },
+    {
+      "latent_idx": 10463,
+      "k1_auc": 0.5307904411764706
+    },
+    {
+      "latent_idx": 14647,
+      "k1_auc": 0.5307904411764706
+    },
+    {
+      "latent_idx": 2762,
+      "k1_auc": 0.5294117647058824
+    },
+    {
+      "latent_idx": 4266,
+      "k1_auc": 0.5294117647058824
+    },
+    {
+      "latent_idx": 475,
+      "k1_auc": 0.5284926470588235
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5267330483251258
+    },
+    {
+      "latent_idx": 2218,
+      "k1_auc": 0.5266544117647058
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5263910215650197
+    },
+    {
+      "latent_idx": 12177,
+      "k1_auc": 0.5262189512419503
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5253801612641377
+    },
+    {
+      "latent_idx": 3733,
+      "k1_auc": 0.5248888941501163
+    },
+    {
+      "latent_idx": 887,
+      "k1_auc": 0.5243857892743113
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5243731059581146
+    },
+    {
+      "latent_idx": 1175,
+      "k1_auc": 0.5243566176470589
+    },
+    {
+      "latent_idx": 12613,
+      "k1_auc": 0.5243566176470589
+    },
+    {
+      "latent_idx": 1036,
+      "k1_auc": 0.5238970588235294
+    },
+    {
+      "latent_idx": 11804,
+      "k1_auc": 0.5234742816169706
+    },
+    {
+      "latent_idx": 3453,
+      "k1_auc": 0.5234375
+    },
+    {
+      "latent_idx": 8791,
+      "k1_auc": 0.5230126089074085
+    },
+    {
+      "latent_idx": 279,
+      "k1_auc": 0.5220588235294118
+    },
+    {
+      "latent_idx": 7998,
+      "k1_auc": 0.5216060291411871
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.521499912062341
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5213959088695275
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5211202581308512
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5195035580929703
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5189395732994209
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5183823529411765
+    },
+    {
+      "latent_idx": 9892,
+      "k1_auc": 0.5179705679419881
+    },
+    {
+      "latent_idx": 33,
+      "k1_auc": 0.5179227941176471
+    },
+    {
+      "latent_idx": 1934,
+      "k1_auc": 0.5179227941176471
+    },
+    {
+      "latent_idx": 13357,
+      "k1_auc": 0.5174632352941176
+    },
+    {
+      "latent_idx": 2497,
+      "k1_auc": 0.5170036764705882
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5162422547215758
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.5161509348449591
+    },
+    {
+      "latent_idx": 13724,
+      "k1_auc": 0.5152030683478543
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5147836733589479
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5147819822501217
+    },
+    {
+      "latent_idx": 2429,
+      "k1_auc": 0.5142754951566643
+    },
+    {
+      "latent_idx": 5010,
+      "k1_auc": 0.5142695762757725
+    },
+    {
+      "latent_idx": 15595,
+      "k1_auc": 0.5138527179501056
+    },
+    {
+      "latent_idx": 7338,
+      "k1_auc": 0.5137867647058824
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5137804230477839
+    },
+    {
+      "latent_idx": 13949,
+      "k1_auc": 0.5133272058823529
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5133272058823529
+    },
+    {
+      "latent_idx": 6576,
+      "k1_auc": 0.5124317637588613
+    },
+    {
+      "latent_idx": 11993,
+      "k1_auc": 0.5115024994588452
+    },
+    {
+      "latent_idx": 4603,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 13274,
+      "k1_auc": 0.5106015612316684
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5101187496617783
+    },
+    {
+      "latent_idx": 13175,
+      "k1_auc": 0.5096507352941176
+    },
+    {
+      "latent_idx": 9869,
+      "k1_auc": 0.5081021023864929
+    },
+    {
+      "latent_idx": 340,
+      "k1_auc": 0.5045955882352942
+    },
+    {
+      "latent_idx": 3991,
+      "k1_auc": 0.502692668028573
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5021312198982628
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5011279695870988
+    },
+    {
+      "latent_idx": 15029,
+      "k1_auc": 0.5
+    }
+  ]
+}

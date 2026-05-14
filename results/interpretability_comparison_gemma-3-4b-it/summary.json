@@ -1,0 +1,72 @@
+{
+  "k": 16,
+  "layer": 24,
+  "sae_id": "layer_24/width_16k/batch_topk_32",
+  "n_datasets": 113,
+  "selectivity": {
+    "mean_sae_gini": 0.632441163053949,
+    "mean_logreg_gini": 0.3936113505164374,
+    "delta_gini": 0.23882981253751162,
+    "sae_wins_pct_features": 0.8202433628318584,
+    "sae_wins_pct_datasets": 0.9380530973451328,
+    "mean_sae_frac_active": 0.4786058542234022,
+    "mean_logreg_frac_active": 0.4993024395717191
+  },
+  "feature_reuse": {
+    "n_pairs": 326,
+    "mean_sae_jaccard": 0.17923747362144637,
+    "mean_logreg_jaccard": 0.02427408132460811,
+    "delta_jaccard": 0.15496339229683825,
+    "sae_wins_pct": 0.7699386503067485,
+    "by_group": {
+      "sae_jaccard": {
+        "agnews": 0.5492063492063491,
+        "art_types": 0.2266459362911137,
+        "athlete_sports": 0.3930610452349583,
+        "cancer_categories": 0.9215686274509803,
+        "code_languages": 0.19321291735084836,
+        "context_types": 0.22045855379188714,
+        "disease_classes": 0.22048066875653083,
+        "ethics_categories": 0.19211772135910066,
+        "glue_misc": 0.27756194422861086,
+        "glue_nli": 0.2497625830959164,
+        "historical_figures": 0.5853775853775854,
+        "it_tickets": 0.14383020130146565,
+        "news_headlines": 0.3602084871650089,
+        "news_topics": 0.2014652014652015,
+        "nyc_boroughs": 0.21025641025641026,
+        "phrases_in_context": 0.10041606855583278,
+        "temporal_reasoning": 0.2444055866215754,
+        "twitter_emotions": 0.6941176470588234,
+        "us_states": 0.355959595959596,
+        "us_timezones": 0.4603174603174603,
+        "wikidata_person": 0.2658901750807694,
+        "world_countries": 0.746588693957115
+      },
+      "logreg_jaccard": {
+        "agnews": 0.4123847167325428,
+        "art_types": 0.0,
+        "athlete_sports": 0.02150537634408602,
+        "cancer_categories": 0.07892720306513411,
+        "code_languages": 0.02150537634408602,
+        "context_types": 0.0,
+        "disease_classes": 0.0,
+        "ethics_categories": 0.0,
+        "glue_misc": 0.005376344086021505,
+        "glue_nli": 0.044444444444444446,
+        "historical_figures": 0.0,
+        "it_tickets": 0.03225806451612903,
+        "news_headlines": 0.0032258064516129032,
+        "news_topics": 0.01075268817204301,
+        "nyc_boroughs": 0.0,
+        "phrases_in_context": 0.023229567524286527,
+        "temporal_reasoning": 0.03372883450747744,
+        "twitter_emotions": 0.02150537634408602,
+        "us_states": 0.0,
+        "us_timezones": 0.02150537634408602,
+        "wikidata_person": 0.015736473800989928,
+        "world_countries": 0.06912442396313363
+      }
+    }
+  }
+}

@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "161_agnews_0",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:53:14.927189"
+  },
+  "best_latent": {
+    "latent_idx": 2084,
+    "k1_auc": 0.9324897317974415,
+    "examples": [
+      {
+        "text": "Allies agree to set up military training academy in Iraq BRUSSELS -- NATO allies agreed yesterday to create a military training academy in Iraq, expanding the alliance's small presence in the country after two years of feuding over the US-led war.",
+        "activation": 4188.1435546875
+      },
+      {
+        "text": "Prosecutors summon Yukos lawyer in latest move against the oil giant (Canadian Press) Canadian Press - MOSCOW (AP) - Prosecutors tightened the screws on Yukos on Monday, calling in the oil giant's top in-house lawyer for questioning after searching his office and apartment on the same day the company challenged a freeze on its subsidiaries' bank accounts.",
+        "activation": 4100.41357421875
+      },
+      {
+        "text": "Sick Arafat Leaves for Treatment in Paris RAMALLAH, West Bank - Palestinian leader Yasser Arafat left the West Bank early Friday in a Jordanian military helicopter on his way to receive treatment in Paris for an ailment that has left him haggard and weak.",
+        "activation": 4045.63671875
+      },
+      {
+        "text": "EU prepares green light for Turkey #39;s entry BRUSSELS: The EU sought Wednesday to keep pressure on Turkey over its bid to start talks on joining the bloc, as last-minute haggling seemed set to go down to the wire at a summit poised to give a green light to Ankara.",
+        "activation": 4039.4931640625
+      },
+      {
+        "text": "World Bank in Caribbean to Assess Damage from Ivan The president of the World Bank says his staff is in the Caribbean to assess the damage caused there by Hurricane Ivan, and to ensure that the international financial community provides swift and coordinated relief.",
+        "activation": 4030.66259765625
+      },
+      {
+        "text": "Lawyers file Abu Ghraib complaint BERLIN -- A group of American civil rights lawyers filed a criminal complaint in a German court yesterday against top US officials, including Defense Secretary Donald H. Rumsfeld, for acts of torture committed at Abu Ghraib prison in Iraq.",
+        "activation": 4007.920654296875
+      },
+      {
+        "text": "US bid to resolve Iran standoff The Bush administration says it will host a meeting of G8 diplomats this week in Washington in a bid to resolve a nuclear impasse with Iran.",
+        "activation": 3953.21337890625
+      },
+      {
+        "text": "US to withdraw up to 70,000 troops from Europe and Asia: Bush (AFP) AFP - The United States will withdraw up to 70,000 troops from Europe and Asia over the next decade, President George W. Bush said, in a move aimed at increasing the capability to fight the \"war on terror\" and meet other new threats.",
+        "activation": 3934.76171875
+      },
+      {
+        "text": "Iran Says It Won't Halt Nuclear Technology Drive  TEHRAN (Reuters) - Iran Sunday rejected European demands it  abandon sensitive nuclear activities but reiterated its  readiness to provide assurances that its atomic ambitions are  entirely peaceful.",
+        "activation": 3916.37841796875
+      },
+      {
+        "text": "U.S. Discourages North Korea WMD Attack (AP) AP - The United States promised South Korea on Friday that any North Korean use of weapons of mass destruction after a planned U.S. troop pullout \"would have the gravest consequences.\"",
+        "activation": 3915.752685546875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 2084\n\nTop activating examples (format: [activation] text):\n  [4188.144] Allies agree to set up military training academy in Iraq BRUSSELS -- NATO allies agreed yesterday to create a military training academy in Iraq, expanding the alliance's small presence in the country after two years of feuding over the US-led war.\n  [4100.414] Prosecutors summon Yukos lawyer in latest move against the oil giant (Canadian Press) Canadian Press - MOSCOW (AP) - Prosecutors tightened the screws on Yukos on Monday, calling in the oil giant's top in-house lawyer for questioning after searching his office and apartment on the same day the compan\n  [4045.637] Sick Arafat Leaves for Treatment in Paris RAMALLAH, West Bank - Palestinian leader Yasser Arafat left the West Bank early Friday in a Jordanian military helicopter on his way to receive treatment in Paris for an ailment that has left him haggard and weak.\n  [4039.493] EU prepares green light for Turkey #39;s entry BRUSSELS: The EU sought Wednesday to keep pressure on Turkey over its bid to start talks on joining the bloc, as last-minute haggling seemed set to go down to the wire at a summit poised to give a green light to Ankara.\n  [4030.663] World Bank in Caribbean to Assess Damage from Ivan The president of the World Bank says his staff is in the Caribbean to assess the damage caused there by Hurricane Ivan, and to ensure that the international financial community provides swift and coordinated relief.\n  [4007.921] Lawyers file Abu Ghraib complaint BERLIN -- A group of American civil rights lawyers filed a criminal complaint in a German court yesterday against top US officials, including Defense Secretary Donald H. Rumsfeld, for acts of torture committed at Abu Ghraib prison in Iraq.\n  [3953.213] US bid to resolve Iran standoff The Bush administration says it will host a meeting of G8 diplomats this week in Washington in a bid to resolve a nuclear impasse with Iran.\n  [3934.762] US to withdraw up to 70,000 troops from Europe and Asia: Bush (AFP) AFP - The United States will withdraw up to 70,000 troops from Europe and Asia over the next decade, President George W. Bush said, in a move aimed at increasing the capability to fight the \"war on terror\" and meet other new threats\n  [3916.378] Iran Says It Won't Halt Nuclear Technology Drive  TEHRAN (Reuters) - Iran Sunday rejected European demands it  abandon sensitive nuclear activities but reiterated its  readiness to provide assurances that its atomic ambitions are  entirely peaceful.\n  [3915.753] U.S. Discourages North Korea WMD Attack (AP) AP - The United States promised South Korea on Friday that any North Korean use of weapons of mass destruction after a planned U.S. troop pullout \"would have the gravest consequences.\"\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 2084,
+      "k1_auc": 0.9324897317974415
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.9243031903739217
+    },
+    {
+      "latent_idx": 10961,
+      "k1_auc": 0.9240062621573348
+    },
+    {
+      "latent_idx": 9426,
+      "k1_auc": 0.9184536593126089
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.8180485353349097
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.7944922301523599
+    },
+    {
+      "latent_idx": 13320,
+      "k1_auc": 0.7887197558047884
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.782678373863809
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.7808945448366127
+    },
+    {
+      "latent_idx": 7650,
+      "k1_auc": 0.777067921990585
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.775889699980476
+    },
+    {
+      "latent_idx": 2920,
+      "k1_auc": 0.7578579770194734
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.7548028252019294
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.7482783134838854
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.7316948499902379
+    },
+    {
+      "latent_idx": 1143,
+      "k1_auc": 0.7289845326160054
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.7221102150537635
+    },
+    {
+      "latent_idx": 9475,
+      "k1_auc": 0.7156749625789097
+    },
+    {
+      "latent_idx": 5556,
+      "k1_auc": 0.7098184263618024
+    },
+    {
+      "latent_idx": 12902,
+      "k1_auc": 0.7010759919300605
+    },
+    {
+      "latent_idx": 9404,
+      "k1_auc": 0.6985102971270727
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.6916895351107448
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.6871639784946236
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.6865644727422608
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.6855900781684997
+    },
+    {
+      "latent_idx": 7497,
+      "k1_auc": 0.6785474108944183
+    },
+    {
+      "latent_idx": 4353,
+      "k1_auc": 0.6784940813212719
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.6732474456038355
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.6732060925873702
+    },
+    {
+      "latent_idx": 13759,
+      "k1_auc": 0.6671104771821738
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.6664138031397561
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.6587309550151492
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.6578433339841349
+    },
+    {
+      "latent_idx": 6795,
+      "k1_auc": 0.6570619201538783
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.6566926806516692
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.6547637771076932
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.6468852365663709
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.6448252688172043
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.6444463124859896
+    },
+    {
+      "latent_idx": 506,
+      "k1_auc": 0.643776303230145
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.6353138490574224
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.6274759836142627
+    },
+    {
+      "latent_idx": 230,
+      "k1_auc": 0.6263413743482946
+    },
+    {
+      "latent_idx": 6800,
+      "k1_auc": 0.6190316072629456
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.6171379554707104
+    },
+    {
+      "latent_idx": 16076,
+      "k1_auc": 0.6167190019596358
+    },
+    {
+      "latent_idx": 5696,
+      "k1_auc": 0.6116341627437794
+    },
+    {
+      "latent_idx": 1469,
+      "k1_auc": 0.6102891728312038
+    },
+    {
+      "latent_idx": 3564,
+      "k1_auc": 0.6102891728312038
+    },
+    {
+      "latent_idx": 1855,
+      "k1_auc": 0.6099420786602164
+    },
+    {
+      "latent_idx": 8504,
+      "k1_auc": 0.6087435191010262
+    },
+    {
+      "latent_idx": 2232,
+      "k1_auc": 0.6073350308407632
+    },
+    {
+      "latent_idx": 485,
+      "k1_auc": 0.6062542030934768
+    },
+    {
+      "latent_idx": 13850,
+      "k1_auc": 0.6048165643461976
+    },
+    {
+      "latent_idx": 11697,
+      "k1_auc": 0.6017496619447398
+    },
+    {
+      "latent_idx": 15219,
+      "k1_auc": 0.6012726334323998
+    },
+    {
+      "latent_idx": 11135,
+      "k1_auc": 0.5999875263032302
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.5948977156864872
+    },
+    {
+      "latent_idx": 3207,
+      "k1_auc": 0.5948217888365837
+    },
+    {
+      "latent_idx": 9599,
+      "k1_auc": 0.5947359191849072
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5937884153704869
+    },
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.590920143031723
+    },
+    {
+      "latent_idx": 5841,
+      "k1_auc": 0.5873039008323029
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5873000592952542
+    },
+    {
+      "latent_idx": 7791,
+      "k1_auc": 0.5868083425530222
+    },
+    {
+      "latent_idx": 434,
+      "k1_auc": 0.5864156018829858
+    },
+    {
+      "latent_idx": 4073,
+      "k1_auc": 0.5847836265555965
+    },
+    {
+      "latent_idx": 1748,
+      "k1_auc": 0.5846774193548387
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.5836693548387096
+    },
+    {
+      "latent_idx": 10900,
+      "k1_auc": 0.5833645175752579
+    },
+    {
+      "latent_idx": 4561,
+      "k1_auc": 0.5827168796234028
+    },
+    {
+      "latent_idx": 9581,
+      "k1_auc": 0.5806993947545394
+    },
+    {
+      "latent_idx": 15557,
+      "k1_auc": 0.5776731674512441
+    },
+    {
+      "latent_idx": 3237,
+      "k1_auc": 0.5758522788901663
+    },
+    {
+      "latent_idx": 7631,
+      "k1_auc": 0.5758050505817442
+    },
+    {
+      "latent_idx": 9435,
+      "k1_auc": 0.5729657027572292
+    },
+    {
+      "latent_idx": 7220,
+      "k1_auc": 0.571702966932049
+    },
+    {
+      "latent_idx": 12324,
+      "k1_auc": 0.5709482178883658
+    },
+    {
+      "latent_idx": 6837,
+      "k1_auc": 0.5685944855413585
+    },
+    {
+      "latent_idx": 6356,
+      "k1_auc": 0.5682582380632145
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.568152934753527
+    },
+    {
+      "latent_idx": 15865,
+      "k1_auc": 0.568055766463472
+    },
+    {
+      "latent_idx": 10163,
+      "k1_auc": 0.5679884265787362
+    },
+    {
+      "latent_idx": 14560,
+      "k1_auc": 0.5642232683254875
+    },
+    {
+      "latent_idx": 1545,
+      "k1_auc": 0.5636163054717951
+    },
+    {
+      "latent_idx": 2444,
+      "k1_auc": 0.5635507733691998
+    },
+    {
+      "latent_idx": 14510,
+      "k1_auc": 0.5628782784129118
+    },
+    {
+      "latent_idx": 6239,
+      "k1_auc": 0.5618695359784802
+    },
+    {
+      "latent_idx": 8338,
+      "k1_auc": 0.5615728337346609
+    },
+    {
+      "latent_idx": 7400,
+      "k1_auc": 0.5612277733185818
+    },
+    {
+      "latent_idx": 7724,
+      "k1_auc": 0.5595158036314727
+    },
+    {
+      "latent_idx": 11294,
+      "k1_auc": 0.5595158036314727
+    },
+    {
+      "latent_idx": 2698,
+      "k1_auc": 0.5594954660823914
+    },
+    {
+      "latent_idx": 5523,
+      "k1_auc": 0.5585070611970411
+    },
+    {
+      "latent_idx": 6032,
+      "k1_auc": 0.5585070611970411
+    },
+    {
+      "latent_idx": 8709,
+      "k1_auc": 0.5571620712844654
+    },
+    {
+      "latent_idx": 6234,
+      "k1_auc": 0.5564895763281775
+    },
+    {
+      "latent_idx": 4874,
+      "k1_auc": 0.5558170813718897
+    },
+    {
+      "latent_idx": 1053,
+      "k1_auc": 0.5553922525688584
+    },
+    {
+      "latent_idx": 6098,
+      "k1_auc": 0.5525242062028621
+    },
+    {
+      "latent_idx": 200,
+      "k1_auc": 0.5504371217215871
+    },
+    {
+      "latent_idx": 3150,
+      "k1_auc": 0.549458433665242
+    },
+    {
+      "latent_idx": 12748,
+      "k1_auc": 0.5491192485411198
+    },
+    {
+      "latent_idx": 12732,
+      "k1_auc": 0.5491052382295304
+    },
+    {
+      "latent_idx": 9216,
+      "k1_auc": 0.5490921318090114
+    },
+    {
+      "latent_idx": 4064,
+      "k1_auc": 0.5477778741928252
+    },
+    {
+      "latent_idx": 10939,
+      "k1_auc": 0.547460156481622
+    },
+    {
+      "latent_idx": 9967,
+      "k1_auc": 0.5464021519838601
+    },
+    {
+      "latent_idx": 11377,
+      "k1_auc": 0.5443846671149966
+    },
+    {
+      "latent_idx": 12092,
+      "k1_auc": 0.5440484196368527
+    },
+    {
+      "latent_idx": 8071,
+      "k1_auc": 0.5437121721587088
+    },
+    {
+      "latent_idx": 3524,
+      "k1_auc": 0.543375924680565
+    },
+    {
+      "latent_idx": 16322,
+      "k1_auc": 0.543039677202421
+    },
+    {
+      "latent_idx": 9647,
+      "k1_auc": 0.5426747311827957
+    },
+    {
+      "latent_idx": 16181,
+      "k1_auc": 0.5407128356147544
+    },
+    {
+      "latent_idx": 3888,
+      "k1_auc": 0.5396772024209818
+    },
+    {
+      "latent_idx": 5642,
+      "k1_auc": 0.5395802601036944
+    },
+    {
+      "latent_idx": 7313,
+      "k1_auc": 0.5393888611695627
+    },
+    {
+      "latent_idx": 9026,
+      "k1_auc": 0.5383520981119523
+    },
+    {
+      "latent_idx": 2534,
+      "k1_auc": 0.5383299527807305
+    },
+    {
+      "latent_idx": 10421,
+      "k1_auc": 0.5370062043083064
+    },
+    {
+      "latent_idx": 2458,
+      "k1_auc": 0.5359784801613988
+    },
+    {
+      "latent_idx": 13159,
+      "k1_auc": 0.5359543010752689
+    },
+    {
+      "latent_idx": 9336,
+      "k1_auc": 0.5356648299600117
+    },
+    {
+      "latent_idx": 8224,
+      "k1_auc": 0.5316280524401443
+    },
+    {
+      "latent_idx": 6852,
+      "k1_auc": 0.5314298743229856
+    },
+    {
+      "latent_idx": 3609,
+      "k1_auc": 0.5292535305985205
+    },
+    {
+      "latent_idx": 15067,
+      "k1_auc": 0.5272548014693653
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "82_federal-government",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:42:38.142998"
+  },
+  "best_latent": {
+    "latent_idx": 7670,
+    "k1_auc": 0.7422720554413118,
+    "examples": [
+      {
+        "text": " to a new public opinion survey conducted by RealClear Opinion Research, 55 percent of respondents said it is unnecessary for the government",
+        "activation": 3174.61328125
+      },
+      {
+        "text": " to a new public opinion survey conducted by RealClear Opinion Research, 55 percent of respondents said it is unnecessary for the government",
+        "activation": 3174.61328125
+      },
+      {
+        "text": " everyone deserves a second chance, debtors, especially the relatively poor, were protected by state laws against their rich creditors. Government",
+        "activation": 3145.1533203125
+      },
+      {
+        "text": "363;    on progress, Ch. XXII;    on standard of living, 323;    government",
+        "activation": 3066.73681640625
+      },
+      {
+        "text": " on key faith and family issues.The CC survey summarizes candidate stances on the following topic: \"Federal government",
+        "activation": 3010.91015625
+      },
+      {
+        "text": " on key faith and family issues.The CC survey summarizes candidate stances on the following topic: \"Federal government",
+        "activation": 3010.91015625
+      },
+      {
+        "text": " that sexual preference, sexual activity, medicaltreatment, counseling, and personal financial matters are atissue in the government",
+        "activation": 2947.00830078125
+      },
+      {
+        "text": " phenomena might be studied with the same precision as natural phenomena, and lead to exact knowledge that might be fruitful both for government",
+        "activation": 2933.0087890625
+      },
+      {
+        "text": " quickly become a lightning rod for broader debates around the role of Internet services in the public interest, states rights and federal government",
+        "activation": 2910.127685546875
+      },
+      {
+        "text": " quickly become a lightning rod for broader debates around the role of Internet services in the public interest, states rights and federal government",
+        "activation": 2910.127685546875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 7670\n\nTop activating examples (format: [activation] text):\n  [3174.613] to a new public opinion survey conducted by RealClear Opinion Research, 55 percent of respondents said it is unnecessary for the government\n  [3174.613] to a new public opinion survey conducted by RealClear Opinion Research, 55 percent of respondents said it is unnecessary for the government\n  [3145.153] everyone deserves a second chance, debtors, especially the relatively poor, were protected by state laws against their rich creditors. Government\n  [3066.737] 363;    on progress, Ch. XXII;    on standard of living, 323;    government\n  [3010.910] on key faith and family issues.The CC survey summarizes candidate stances on the following topic: \"Federal government\n  [3010.910] on key faith and family issues.The CC survey summarizes candidate stances on the following topic: \"Federal government\n  [2947.008] that sexual preference, sexual activity, medicaltreatment, counseling, and personal financial matters are atissue in the government\n  [2933.009] phenomena might be studied with the same precision as natural phenomena, and lead to exact knowledge that might be fruitful both for government\n  [2910.128] quickly become a lightning rod for broader debates around the role of Internet services in the public interest, states rights and federal government\n  [2910.128] quickly become a lightning rod for broader debates around the role of Internet services in the public interest, states rights and federal government\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 7670,
+      "k1_auc": 0.7422720554413118
+    },
+    {
+      "latent_idx": 6502,
+      "k1_auc": 0.7040559554088425
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.655379924508902
+    },
+    {
+      "latent_idx": 15385,
+      "k1_auc": 0.6523274730775475
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.6489545565236214
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.6456247632447643
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.6444439465068457
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.6442460867741762
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.6332065283565128
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.6258797993668489
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.6238995109313275
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.6226595053844906
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.6224785567400833
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.6215966434872018
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.6197702459548677
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.6146132095892635
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.6145979896098275
+    },
+    {
+      "latent_idx": 5828,
+      "k1_auc": 0.6062608230964879
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.6036294577628659
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5976277125385573
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5909630526543644
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.587062510146653
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5853578724498079
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5849714540830131
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5791058431192164
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5700347353752908
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5696504308945289
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.567810504491585
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.567330652362141
+    },
+    {
+      "latent_idx": 9439,
+      "k1_auc": 0.566080922939553
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5651630736241138
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5637852427079388
+    },
+    {
+      "latent_idx": 3991,
+      "k1_auc": 0.5630119831971427
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5623384991070944
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5618239792467125
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5607344823854106
+    },
+    {
+      "latent_idx": 16330,
+      "k1_auc": 0.5606617647058824
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5587503889550302
+    },
+    {
+      "latent_idx": 6326,
+      "k1_auc": 0.5578376129660697
+    },
+    {
+      "latent_idx": 15595,
+      "k1_auc": 0.5500948712051518
+    },
+    {
+      "latent_idx": 1001,
+      "k1_auc": 0.5488472556685968
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5484984644731858
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5466120325775203
+    },
+    {
+      "latent_idx": 1870,
+      "k1_auc": 0.5459668745603117
+    },
+    {
+      "latent_idx": 13059,
+      "k1_auc": 0.5444254288651983
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5435468978299691
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.540736697737973
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5391263393581904
+    },
+    {
+      "latent_idx": 2747,
+      "k1_auc": 0.5378064289193139
+    },
+    {
+      "latent_idx": 1454,
+      "k1_auc": 0.5374364988635748
+    },
+    {
+      "latent_idx": 10554,
+      "k1_auc": 0.5363051470588235
+    },
+    {
+      "latent_idx": 12909,
+      "k1_auc": 0.5344669117647058
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5334454820336598
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5332488906326099
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5306851696520375
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5304205111207316
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.5293322825910493
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5289602386492775
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5267017628118406
+    },
+    {
+      "latent_idx": 11402,
+      "k1_auc": 0.5262578467449537
+    },
+    {
+      "latent_idx": 8899,
+      "k1_auc": 0.5259602115915363
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5258511350722441
+    },
+    {
+      "latent_idx": 10392,
+      "k1_auc": 0.5257547418691487
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5252558647654094
+    },
+    {
+      "latent_idx": 9453,
+      "k1_auc": 0.5249912062341036
+    },
+    {
+      "latent_idx": 14670,
+      "k1_auc": 0.5248161764705882
+    },
+    {
+      "latent_idx": 53,
+      "k1_auc": 0.5243566176470589
+    },
+    {
+      "latent_idx": 4198,
+      "k1_auc": 0.5234590616375345
+    },
+    {
+      "latent_idx": 2123,
+      "k1_auc": 0.5229779411764706
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5227369581687321
+    },
+    {
+      "latent_idx": 4630,
+      "k1_auc": 0.5225183823529411
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5221319639861465
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5211312503382217
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5207854185832567
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5206492843227448
+    },
+    {
+      "latent_idx": 11985,
+      "k1_auc": 0.5202180515720548
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5198861714649062
+    },
+    {
+      "latent_idx": 13920,
+      "k1_auc": 0.5197610294117647
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5194409870663997
+    },
+    {
+      "latent_idx": 5485,
+      "k1_auc": 0.5193217638941502
+    },
+    {
+      "latent_idx": 2541,
+      "k1_auc": 0.519314153904432
+    },
+    {
+      "latent_idx": 1953,
+      "k1_auc": 0.5184423873045079
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5170062131338276
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5170053675794144
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5163103218518318
+    },
+    {
+      "latent_idx": 4390,
+      "k1_auc": 0.5156013244764327
+    },
+    {
+      "latent_idx": 3830,
+      "k1_auc": 0.5151654411764706
+    },
+    {
+      "latent_idx": 15029,
+      "k1_auc": 0.5148640010281942
+    },
+    {
+      "latent_idx": 12415,
+      "k1_auc": 0.5144226216245468
+    },
+    {
+      "latent_idx": 6771,
+      "k1_auc": 0.5142463235294118
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.5142272985551166
+    },
+    {
+      "latent_idx": 11132,
+      "k1_auc": 0.5133474991882678
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.51305113236647
+    },
+    {
+      "latent_idx": 12177,
+      "k1_auc": 0.512878639266194
+    },
+    {
+      "latent_idx": 14380,
+      "k1_auc": 0.5124347231993073
+    },
+    {
+      "latent_idx": 9013,
+      "k1_auc": 0.5123590460793332
+    },
+    {
+      "latent_idx": 7050,
+      "k1_auc": 0.5119485294117647
+    },
+    {
+      "latent_idx": 13654,
+      "k1_auc": 0.5115105322257698
+    },
+    {
+      "latent_idx": 5538,
+      "k1_auc": 0.5110716894853617
+    },
+    {
+      "latent_idx": 3432,
+      "k1_auc": 0.5110294117647058
+    },
+    {
+      "latent_idx": 16323,
+      "k1_auc": 0.5106861166729801
+    },
+    {
+      "latent_idx": 9916,
+      "k1_auc": 0.5106358061853996
+    },
+    {
+      "latent_idx": 2033,
+      "k1_auc": 0.5101610273824341
+    },
+    {
+      "latent_idx": 1131,
+      "k1_auc": 0.5097314857405705
+    },
+    {
+      "latent_idx": 15211,
+      "k1_auc": 0.5096507352941176
+    },
+    {
+      "latent_idx": 1095,
+      "k1_auc": 0.5092148519941555
+    },
+    {
+      "latent_idx": 10203,
+      "k1_auc": 0.5087379593051572
+    },
+    {
+      "latent_idx": 12283,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.50870075491098
+    },
+    {
+      "latent_idx": 7405,
+      "k1_auc": 0.5081249323556469
+    },
+    {
+      "latent_idx": 931,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 380,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 6463,
+      "k1_auc": 0.5078125
+    },
+    {
+      "latent_idx": 11717,
+      "k1_auc": 0.5074544077060448
+    },
+    {
+      "latent_idx": 8034,
+      "k1_auc": 0.5074002922236052
+    },
+    {
+      "latent_idx": 10499,
+      "k1_auc": 0.5068980329022132
+    },
+    {
+      "latent_idx": 3386,
+      "k1_auc": 0.5068933823529411
+    },
+    {
+      "latent_idx": 12521,
+      "k1_auc": 0.5064338235294118
+    },
+    {
+      "latent_idx": 13616,
+      "k1_auc": 0.5059797608095676
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.504336003030467
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5041174272146761
+    },
+    {
+      "latent_idx": 999,
+      "k1_auc": 0.5036806983603009
+    },
+    {
+      "latent_idx": 16094,
+      "k1_auc": 0.5033056949780833
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2378,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9930,
+      "k1_auc": 0.5
+    }
+  ]
+}

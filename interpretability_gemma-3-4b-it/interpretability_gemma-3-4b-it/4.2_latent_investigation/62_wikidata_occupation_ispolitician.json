@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "62_wikidata_occupation_ispolitician",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:37:34.170138"
+  },
+  "best_latent": {
+    "latent_idx": 7114,
+    "k1_auc": 0.6858652842764331,
+    "examples": [
+      {
+        "text": " a woman who unwittingly marries her half-brother. Lawrence Van Gelder of The New York Times wrote that the film served \"as a reminder that Miss Turner was never one of our subtler actresses.\"  In the early 1970s, Turner transitioned to theater, beginning with a production of Forty Carats, which toured various East Coast cities in 1971. A review in The Philadelphia Inquirer noted: \"Miss Turner always could wear clothes well, and her Forty Carats is a fashion show in the guise of a frothy, little comedy. It wasn't much of a play even when Julie Harris",
+        "activation": 3931.58740234375
+      },
+      {
+        "text": "The Irishman (Netflix, R)  Based on the book I Heard You Paint Houses by Charles Brandt, The Irishman examines mafia hitman Frank Sheeran\u2019s (Robert De Niro) career, focusing particularly on his relationship to the Buffalino crime family in Pennsylvania and racketeering union president Jimmy Hoffa (Al Pacino), who famously vanished in 1975.  De Niro, Pacino, Joe Pesci, and Harvey Keitel",
+        "activation": 3740.307373046875
+      },
+      {
+        "text": "  1 / 28 Among the new characters in \u201cStar Wars: Episode VII -- The Force Awakens\u201d is Finn (John Boyega), who may or may not have the power of the Force. (Lucasfilm / Disney) 2 / 28 BB-8 pops up in \u201cForce Awakens.\u201d (Disney) 3 / 28 A firefight in the sky in \u201cStar Wars: The Force Awakens.\u201d (Disney) 4 / 28 \u201cStar Wars: The Force Awakens\u201d shows the back end of a new X-Wing. (Disney) 5 / 28 Daisy Ridley",
+        "activation": 3585.86865234375
+      },
+      {
+        "text": " on light\u201d.  While we may giggle a bit at the names, Stanton hooks us with visual spectacle and grand conflict. Before the exposition on Mars threatens to lose us, we\u2019re moved to Earth and meet Carter. It\u2019s a bit of a gamble to show the spectacle and then hit us with the familiar rather than vice-versa, but it\u2019s the pattern of John Carter\u2018s excellent pacing. Before the movie starts feeling like Dune, we get to see Carter be a badass, get some great laughs as he tries to escape from a U.S. colonel (Bryan Cranston",
+        "activation": 3324.32958984375
+      },
+      {
+        "text": " the Best Picture Oscar (more on that later this week), and a great deal of that had to do with Manville, who manages to transcend her 1950s London milieu through sheer force of will, laying waste to musty patriarchal conventions. She\u2019s a big reason, too, why I ranked the exquisite Phantom Thread as my No. 1 movie of the year.  Kevin: Phantom Thread is the weirdest movie. That\u2019s not to say I didn\u2019t love it. But I still giggle every time I think about the plot\u2014kinky mushrooms!\u2014or remember that Daniel Day-Lewis",
+        "activation": 3123.925048828125
+      },
+      {
+        "text": "'s Broadway play Golda. The Australian actress Judy Davis played a young Meir in the television film A Woman Called Golda (1982), opposite Leonard Nimoy. Ingrid Bergman played the older Meir in the same film. Actress Colleen Dewhurst portrayed Meir in the 1986 TV movie Sword of Gideon.  In 2003, American Jewish actress Tovah Feldshuh portrayed her on Broadway in Golda's Balcony, Gibson's second play about Meir's life. The play was controversial for implying that Meir considered using nuclear weapons during the Yom Kippur War. Valerie Harper",
+        "activation": 2786.59814453125
+      },
+      {
+        "text": " Schreiber returning as the iconic brawler Ross \u201cThe Boss\u201d Rhea and Seann William Scott as lovable enforcer Doug \u201cThe Thug\u201d Glatt. Jay Baruchel, who co-wrote the script with Jesse Chabot, will direct as he reprises his role as Dougthe Thug\u2019s best pal, Pat. Also reprising will be Marc-Andr\u00e9 Grondin as superstar Xavier LaFlamme, Kim Coates as Highlanders Coach Ronnie Hortense, and Alison Pill as Glatt\u2019s love interest, Eva. Elisha Cuthbert",
+        "activation": 2695.83203125
+      },
+      {
+        "text": "on. In 2002, the Lincoln Center Theater mounted a well-received production with Elizabeth Franz, Frances Sternhagen, Piper Laurie and Estelle Parsons as the four sisters. The play received numerous nominations for awards, as did the acting ensemble, with Elizabeth Franz cited in particular  Osborn's dramatization of On Borrowed Time has had three productions on Broadway, Joshua Logan directed the premiere in 1938 with Dudley Digges, Frank Conroy and Dorothy Stickney leading the cast. The 1953 revival featured Victor Moore, Leo G. Carroll and Beulah Bondi; and in 1991 George C. Scott",
+        "activation": 2682.7177734375
+      },
+      {
+        "text": " understand the value of putting their characters in as many different media as possible.\"  The Lego Movie also brings together the Justice League on screen for the first time, with Batman (Will Arnett), Superman (Channing Tatum), Wonder Woman (Cobie Smulders), Green Lantern (Jonah Hill) and The Flash (in a fleeting glimpse) all appearing.  Morgan Freeman (the voice of Vitruvius) named Batman as his favourite cameo, adding that he thought the Dark Knight didn't stand a chance in the forthcoming Batman vs Superman film showdown.  Elizabeth Banks",
+        "activation": 2642.12158203125
+      },
+      {
+        "text": "Browsing Category 'USA'  Wilco played at the Fillmore in Miami Beach to kick off their tour in support of their new album Wilco [The Album]. The show took place on Monday March 26. Wilco performed their unbelievably chaotic and beautiful music before a sold out crowd. And the crowd was into it to! Even Jeff Tweedy",
+        "activation": 2476.082275390625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 7114\n\nTop activating examples (format: [activation] text):\n  [3931.587] a woman who unwittingly marries her half-brother. Lawrence Van Gelder of The New York Times wrote that the film served \"as a reminder that Miss Turner was never one of our subtler actresses.\"  In the early 1970s, Turner transitioned to theater, beginning with a production of Forty Carats, which tou\n  [3740.307] The Irishman (Netflix, R)  Based on the book I Heard You Paint Houses by Charles Brandt, The Irishman examines mafia hitman Frank Sheeran\u2019s (Robert De Niro) career, focusing particularly on his relationship to the Buffalino crime family in Pennsylvania and racketeering union president Jimmy Hoffa (A\n  [3585.869] 1 / 28 Among the new characters in \u201cStar Wars: Episode VII -- The Force Awakens\u201d is Finn (John Boyega), who may or may not have the power of the Force. (Lucasfilm / Disney) 2 / 28 BB-8 pops up in \u201cForce Awakens.\u201d (Disney) 3 / 28 A firefight in the sky in \u201cStar Wars: The Force Awakens.\u201d (Disney) 4\n  [3324.330] on light\u201d.  While we may giggle a bit at the names, Stanton hooks us with visual spectacle and grand conflict. Before the exposition on Mars threatens to lose us, we\u2019re moved to Earth and meet Carter. It\u2019s a bit of a gamble to show the spectacle and then hit us with the familiar rather than vice-ve\n  [3123.925] the Best Picture Oscar (more on that later this week), and a great deal of that had to do with Manville, who manages to transcend her 1950s London milieu through sheer force of will, laying waste to musty patriarchal conventions. She\u2019s a big reason, too, why I ranked the exquisite Phantom Thread as\n  [2786.598] 's Broadway play Golda. The Australian actress Judy Davis played a young Meir in the television film A Woman Called Golda (1982), opposite Leonard Nimoy. Ingrid Bergman played the older Meir in the same film. Actress Colleen Dewhurst portrayed Meir in the 1986 TV movie Sword of Gideon.  In 2003, Ame\n  [2695.832] Schreiber returning as the iconic brawler Ross \u201cThe Boss\u201d Rhea and Seann William Scott as lovable enforcer Doug \u201cThe Thug\u201d Glatt. Jay Baruchel, who co-wrote the script with Jesse Chabot, will direct as he reprises his role as Dougthe Thug\u2019s best pal, Pat. Also reprising will be Marc-Andr\u00e9 Grondin a\n  [2682.718] on. In 2002, the Lincoln Center Theater mounted a well-received production with Elizabeth Franz, Frances Sternhagen, Piper Laurie and Estelle Parsons as the four sisters. The play received numerous nominations for awards, as did the acting ensemble, with Elizabeth Franz cited in particular  Osborn's\n  [2642.122] understand the value of putting their characters in as many different media as possible.\"  The Lego Movie also brings together the Justice League on screen for the first time, with Batman (Will Arnett), Superman (Channing Tatum), Wonder Woman (Cobie Smulders), Green Lantern (Jonah Hill) and The Fla\n  [2476.082] Browsing Category 'USA'  Wilco played at the Fillmore in Miami Beach to kick off their tour in support of their new album Wilco [The Album]. The show took place on Monday March 26. Wilco performed their unbelievably chaotic and beautiful music before a sold out crowd. And the crowd was into it to! E\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 7114,
+      "k1_auc": 0.6858652842764331
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.667712996936749
+    },
+    {
+      "latent_idx": 1095,
+      "k1_auc": 0.6606418520887334
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.6605345541454877
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.6596340929747198
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.6589945130777257
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.6550434241087959
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.6502465748813411
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.6480101491231023
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.647065506446292
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.6438970612986838
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.6433079745514525
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.6327506984885718
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.6262749520315076
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.6194373380011444
+    },
+    {
+      "latent_idx": 6111,
+      "k1_auc": 0.6154736257447739
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.6040769010670886
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.6031785437775607
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.6027619752920187
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.6024506008684821
+    },
+    {
+      "latent_idx": 10499,
+      "k1_auc": 0.6016006328474771
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5993747264954387
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5991096374591847
+    },
+    {
+      "latent_idx": 11306,
+      "k1_auc": 0.5938541421213854
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5922341535664994
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5898946376274952
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5892382266805803
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5855143568855825
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5690746288753491
+    },
+    {
+      "latent_idx": 8362,
+      "k1_auc": 0.5680479348301747
+    },
+    {
+      "latent_idx": 5718,
+      "k1_auc": 0.5616689669101558
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5591737637593832
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5578777729154745
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5562072912108257
+    },
+    {
+      "latent_idx": 9453,
+      "k1_auc": 0.5544000572255697
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5537836200222169
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5536405560978893
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5524160972161444
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5518122833002322
+    },
+    {
+      "latent_idx": 5126,
+      "k1_auc": 0.5516734271383849
+    },
+    {
+      "latent_idx": 7615,
+      "k1_auc": 0.5498577776281683
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5493486383680614
+    },
+    {
+      "latent_idx": 8549,
+      "k1_auc": 0.5473078735651531
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5452439660686034
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5441688827549063
+    },
+    {
+      "latent_idx": 296,
+      "k1_auc": 0.5430959033224494
+    },
+    {
+      "latent_idx": 13616,
+      "k1_auc": 0.5419787423839499
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5418882754906251
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5417031339414953
+    },
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.5415011613424445
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.541021476419699
+    },
+    {
+      "latent_idx": 5544,
+      "k1_auc": 0.5400095095432053
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5388081933551014
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5380802504460228
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5379834719089776
+    },
+    {
+      "latent_idx": 3991,
+      "k1_auc": 0.5371692698690544
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5361173292489985
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5350548692227421
+    },
+    {
+      "latent_idx": 443,
+      "k1_auc": 0.5350506614602619
+    },
+    {
+      "latent_idx": 15229,
+      "k1_auc": 0.5350422459353014
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5347645336116066
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5343690039384656
+    },
+    {
+      "latent_idx": 15535,
+      "k1_auc": 0.5329720267950315
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5328626249705457
+    },
+    {
+      "latent_idx": 15999,
+      "k1_auc": 0.5326732756589356
+    },
+    {
+      "latent_idx": 13532,
+      "k1_auc": 0.5321409937051873
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5315771535328375
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5314635439458714
+    },
+    {
+      "latent_idx": 1625,
+      "k1_auc": 0.5310448715790892
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5309312619921231
+    },
+    {
+      "latent_idx": 7540,
+      "k1_auc": 0.5308597300299593
+    },
+    {
+      "latent_idx": 9013,
+      "k1_auc": 0.5307503282054735
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5295847779984516
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5286190965092402
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5279858282559666
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5278217255192379
+    },
+    {
+      "latent_idx": 12378,
+      "k1_auc": 0.5276639344262295
+    },
+    {
+      "latent_idx": 7182,
+      "k1_auc": 0.5268034469990238
+    },
+    {
+      "latent_idx": 12905,
+      "k1_auc": 0.5256147540983607
+    },
+    {
+      "latent_idx": 13062,
+      "k1_auc": 0.523607651395294
+    },
+    {
+      "latent_idx": 8424,
+      "k1_auc": 0.5231805635035514
+    },
+    {
+      "latent_idx": 4127,
+      "k1_auc": 0.5213943683306964
+    },
+    {
+      "latent_idx": 15029,
+      "k1_auc": 0.519860638906655
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.5185309859629045
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.5184804928131417
+    },
+    {
+      "latent_idx": 2579,
+      "k1_auc": 0.5173717473996028
+    },
+    {
+      "latent_idx": 5828,
+      "k1_auc": 0.5166837782340863
+    },
+    {
+      "latent_idx": 5801,
+      "k1_auc": 0.5163555727606288
+    },
+    {
+      "latent_idx": 12653,
+      "k1_auc": 0.5163345339482277
+    },
+    {
+      "latent_idx": 2011,
+      "k1_auc": 0.5155624095331067
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5155603056518666
+    },
+    {
+      "latent_idx": 15158,
+      "k1_auc": 0.5153688524590164
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5146388056686977
+    },
+    {
+      "latent_idx": 2843,
+      "k1_auc": 0.5145504426566129
+    },
+    {
+      "latent_idx": 10059,
+      "k1_auc": 0.5145167805567712
+    },
+    {
+      "latent_idx": 2980,
+      "k1_auc": 0.5144662874070085
+    },
+    {
+      "latent_idx": 14453,
+      "k1_auc": 0.5143779243949238
+    },
+    {
+      "latent_idx": 10069,
+      "k1_auc": 0.5143737166324436
+    },
+    {
+      "latent_idx": 10029,
+      "k1_auc": 0.5135027097990372
+    },
+    {
+      "latent_idx": 1523,
+      "k1_auc": 0.5123077052546539
+    },
+    {
+      "latent_idx": 13,
+      "k1_auc": 0.5122656276298516
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5115503080082137
+    },
+    {
+      "latent_idx": 8463,
+      "k1_auc": 0.5112936344969199
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5103090180765476
+    },
+    {
+      "latent_idx": 9225,
+      "k1_auc": 0.5092865317938533
+    },
+    {
+      "latent_idx": 15922,
+      "k1_auc": 0.5092381425253307
+    },
+    {
+      "latent_idx": 11954,
+      "k1_auc": 0.5092234153566499
+    },
+    {
+      "latent_idx": 5579,
+      "k1_auc": 0.5091350523445652
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5089478069141953
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.5082977076110007
+    },
+    {
+      "latent_idx": 12985,
+      "k1_auc": 0.507228935941024
+    },
+    {
+      "latent_idx": 9359,
+      "k1_auc": 0.5067324199683576
+    },
+    {
+      "latent_idx": 698,
+      "k1_auc": 0.5061265021712055
+    },
+    {
+      "latent_idx": 16157,
+      "k1_auc": 0.5051124314134716
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.504746356077692
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10838,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11413,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4582,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3675,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8908,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8052,
+      "k1_auc": 0.49995371461271754
+    },
+    {
+      "latent_idx": 15595,
+      "k1_auc": 0.4999495068502373
+    },
+    {
+      "latent_idx": 2942,
+      "k1_auc": 0.49898172147978587
+    }
+  ]
+}

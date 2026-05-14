@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "148_twt_emotion_worry",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:50:45.792809"
+  },
+  "best_latent": {
+    "latent_idx": 14770,
+    "k1_auc": 0.5685954926035014,
+    "examples": [
+      {
+        "text": "@luluberry_0981 LOL I was going to do some homework, but kind of got distracted... Again...  Goodnight!",
+        "activation": 3242.255615234375
+      },
+      {
+        "text": "@R1CC1 that's funny...well, i'll say bye again b/c i'm really THAT delirious...lol... i worked 13 hrs i think...crazy...anyhoo bye lady!",
+        "activation": 3069.07763671875
+      },
+      {
+        "text": "feeling hot hot hot! honestly us scots are so not used to sun the minute we get some, we fry!!  x",
+        "activation": 2995.078857421875
+      },
+      {
+        "text": "@RubyRose1 you must love sydney more  dont leave us sydney kids  xx",
+        "activation": 2956.830078125
+      },
+      {
+        "text": "@Beverleyknight Hiyaaaaaa  just got back from the scan! wow, was amazing, i cried haha, xx",
+        "activation": 2952.952392578125
+      },
+      {
+        "text": "@chrlttgrc nope im nott! i was planning on doing but my aunties come over from america and we're havin this big family meal so i cant  xx",
+        "activation": 2873.459228515625
+      },
+      {
+        "text": "10.11PM~ todays a drag for me. so bored. im about to get into the romance book so i prob wont be on til the morn  night twitter babes ;)",
+        "activation": 2820.621337890625
+      },
+      {
+        "text": "aw that wee lassie made me cry  tears streamin doon ma face lol thats a wee shame x",
+        "activation": 2806.4326171875
+      },
+      {
+        "text": "Going to bed! Happy mother's day for every mom here!",
+        "activation": 2791.293212890625
+      },
+      {
+        "text": "you can learn a lot from another person.. dont try to out better oneself when its all about love and happiness  goodnight",
+        "activation": 2761.56201171875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 14770\n\nTop activating examples (format: [activation] text):\n  [3242.256] @luluberry_0981 LOL I was going to do some homework, but kind of got distracted... Again...  Goodnight!\n  [3069.078] @R1CC1 that's funny...well, i'll say bye again b/c i'm really THAT delirious...lol... i worked 13 hrs i think...crazy...anyhoo bye lady!\n  [2995.079] feeling hot hot hot! honestly us scots are so not used to sun the minute we get some, we fry!!  x\n  [2956.830] @RubyRose1 you must love sydney more  dont leave us sydney kids  xx\n  [2952.952] @Beverleyknight Hiyaaaaaa  just got back from the scan! wow, was amazing, i cried haha, xx\n  [2873.459] @chrlttgrc nope im nott! i was planning on doing but my aunties come over from america and we're havin this big family meal so i cant  xx\n  [2820.621] 10.11PM~ todays a drag for me. so bored. im about to get into the romance book so i prob wont be on til the morn  night twitter babes ;)\n  [2806.433] aw that wee lassie made me cry  tears streamin doon ma face lol thats a wee shame x\n  [2791.293] Going to bed! Happy mother's day for every mom here!\n  [2761.562] you can learn a lot from another person.. dont try to out better oneself when its all about love and happiness  goodnight\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 14770,
+      "k1_auc": 0.5685954926035014
+    },
+    {
+      "latent_idx": 5749,
+      "k1_auc": 0.566917813004453
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5603036186399856
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5552236967417165
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5533437763142897
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5504802300397496
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5477766378749269
+    },
+    {
+      "latent_idx": 12502,
+      "k1_auc": 0.5473684791121994
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5459114258713822
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5446014568693855
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5433328553095571
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5432087529830522
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5426902810412093
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5414308722463073
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5411394615981439
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5408333425260982
+    },
+    {
+      "latent_idx": 10819,
+      "k1_auc": 0.5378061650358703
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5375450905119634
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5364382816148378
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5363261298827371
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5342145517791678
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5337962809750214
+    },
+    {
+      "latent_idx": 6452,
+      "k1_auc": 0.532086426698731
+    },
+    {
+      "latent_idx": 14224,
+      "k1_auc": 0.5310761418333315
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5290601684849956
+    },
+    {
+      "latent_idx": 15502,
+      "k1_auc": 0.528352325585671
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5275369273367089
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5259640452578203
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5255650792600192
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5254308648920955
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.522498372880608
+    },
+    {
+      "latent_idx": 4828,
+      "k1_auc": 0.5208142583461113
+    },
+    {
+      "latent_idx": 8944,
+      "k1_auc": 0.520086191363949
+    },
+    {
+      "latent_idx": 7535,
+      "k1_auc": 0.5186089140402937
+    },
+    {
+      "latent_idx": 10926,
+      "k1_auc": 0.5177732917084938
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5170084536666263
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5162298264773693
+    },
+    {
+      "latent_idx": 1354,
+      "k1_auc": 0.5158207484381493
+    },
+    {
+      "latent_idx": 14620,
+      "k1_auc": 0.5156663099873875
+    },
+    {
+      "latent_idx": 11532,
+      "k1_auc": 0.5155284185134932
+    },
+    {
+      "latent_idx": 11378,
+      "k1_auc": 0.5150678609906859
+    },
+    {
+      "latent_idx": 186,
+      "k1_auc": 0.5148904406276085
+    },
+    {
+      "latent_idx": 3648,
+      "k1_auc": 0.5133488139494692
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5107923060234671
+    },
+    {
+      "latent_idx": 10827,
+      "k1_auc": 0.510413564108504
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5101635209025088
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5085933966530981
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.508328645023221
+    },
+    {
+      "latent_idx": 5471,
+      "k1_auc": 0.5081392740657393
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5076437840362121
+    },
+    {
+      "latent_idx": 3225,
+      "k1_auc": 0.5074985383503766
+    },
+    {
+      "latent_idx": 134,
+      "k1_auc": 0.5074783142675389
+    },
+    {
+      "latent_idx": 2281,
+      "k1_auc": 0.5073827095123055
+    },
+    {
+      "latent_idx": 4603,
+      "k1_auc": 0.5067897761745597
+    },
+    {
+      "latent_idx": 14717,
+      "k1_auc": 0.506052516427471
+    },
+    {
+      "latent_idx": 4103,
+      "k1_auc": 0.5054255698594978
+    },
+    {
+      "latent_idx": 13159,
+      "k1_auc": 0.5047747221027162
+    },
+    {
+      "latent_idx": 4984,
+      "k1_auc": 0.5047471438079375
+    },
+    {
+      "latent_idx": 9579,
+      "k1_auc": 0.5041018117101117
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5038269480388156
+    },
+    {
+      "latent_idx": 2458,
+      "k1_auc": 0.5034656723772123
+    },
+    {
+      "latent_idx": 2809,
+      "k1_auc": 0.5034178699995955
+    },
+    {
+      "latent_idx": 3344,
+      "k1_auc": 0.5033369736682441
+    },
+    {
+      "latent_idx": 12142,
+      "k1_auc": 0.5027541523719171
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.5020224082837844
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5020076998599023
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5017567373774146
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5011343871919044
+    },
+    {
+      "latent_idx": 15930,
+      "k1_auc": 0.5006940537519351
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6114,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5334,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12119,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2455,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3405,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16131,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4965,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9121,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16281,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15750,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 279,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12706,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15208,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11267,
+      "k1_auc": 0.4999742602582064
+    },
+    {
+      "latent_idx": 1821,
+      "k1_auc": 0.4997674230473648
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.4994107437682247
+    },
+    {
+      "latent_idx": 8996,
+      "k1_auc": 0.4993243317779175
+    },
+    {
+      "latent_idx": 11398,
+      "k1_auc": 0.49927377157082287
+    },
+    {
+      "latent_idx": 7110,
+      "k1_auc": 0.49917540898611157
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.49901913198236464
+    },
+    {
+      "latent_idx": 14641,
+      "k1_auc": 0.4986707261916583
+    },
+    {
+      "latent_idx": 4069,
+      "k1_auc": 0.49860269973120347
+    },
+    {
+      "latent_idx": 2540,
+      "k1_auc": 0.4985291576117932
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.4984556154923828
+    },
+    {
+      "latent_idx": 7135,
+      "k1_auc": 0.4979683989512894
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.4977477725930584
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.49713185734299675
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.49710244049523267
+    },
+    {
+      "latent_idx": 12940,
+      "k1_auc": 0.4965949998713013
+    },
+    {
+      "latent_idx": 12177,
+      "k1_auc": 0.49596805330332816
+    },
+    {
+      "latent_idx": 5472,
+      "k1_auc": 0.4959202509257114
+    },
+    {
+      "latent_idx": 10729,
+      "k1_auc": 0.49575110405106765
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.49520045743198277
+    },
+    {
+      "latent_idx": 12011,
+      "k1_auc": 0.49454317473975284
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.4938031571631863
+    },
+    {
+      "latent_idx": 16314,
+      "k1_auc": 0.49306313958661974
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.49120987817747924
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.48154276658099016
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "metadata": {
+    "dataset": "66_living-room",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.1",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:31:19.137887"
+  },
+  "task_description": "Classify whether the phrase 'living room' appears in an English sentence.",
+  "ood_transform": "Sentences are translated to French.",
+  "latents": [
+    {
+      "latent_idx": 14438,
+      "rank_by_diff": 0,
+      "k1_auc_id": 0.9555149078369141,
+      "k1_auc_ood": 0.6908222222222222,
+      "examples": [
+        {
+          "text": "2QuartosLarge first floor master with dual head double person shower in master bath. Living room",
+          "activation": 5112.291015625
+        },
+        {
+          "text": " allows your family to grow and enjoy ample room to spread out? This 5 bedroom home offers just that! With living room",
+          "activation": 5043.85888671875
+        },
+        {
+          "text": " square feet of living space. The main level is airy and bright with lots of windows and contains a huge living room",
+          "activation": 5021.28173828125
+        },
+        {
+          "text": " you will see the home has been completly remodeled in granite and beautiful modern colors. It boasts a large living room",
+          "activation": 4871.4306640625
+        },
+        {
+          "text": " the left. The space can accommodate a conference table for 8 as well as an office/writing desk. The living room",
+          "activation": 4868.6328125
+        },
+        {
+          "text": " the left. The space can accommodate a conference table for 8 as well as an office/writing desk. The living room",
+          "activation": 4868.6328125
+        },
+        {
+          "text": " the left. The space can accommodate a conference table for 8 as well as an office/writing desk. The living room",
+          "activation": 4868.6328125
+        },
+        {
+          "text": " of a unique opportunity to dream of the perfect home. A gem for the whole family. It has a large living room",
+          "activation": 4775.2509765625
+        },
+        {
+          "text": "uary to name a few. The villa consists of 4 spacious bedrooms, 3 large bathrooms, a large open concept living room",
+          "activation": 4691.26611328125
+        },
+        {
+          "text": " all the comforts, fully equipped kitchen (including washing machine), two large bedrooms with a double bed each, living room",
+          "activation": 4685.0966796875
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 14438\n\nTop activating examples (format: [activation] text):\n  [5112.291] 2QuartosLarge first floor master with dual head double person shower in master bath. Living room\n  [5043.859] allows your family to grow and enjoy ample room to spread out? This 5 bedroom home offers just that! With living room\n  [5021.282] square feet of living space. The main level is airy and bright with lots of windows and contains a huge living room\n  [4871.431] you will see the home has been completly remodeled in granite and beautiful modern colors. It boasts a large living room\n  [4868.633] the left. The space can accommodate a conference table for 8 as well as an office/writing desk. The living room\n  [4868.633] the left. The space can accommodate a conference table for 8 as well as an office/writing desk. The living room\n  [4868.633] the left. The space can accommodate a conference table for 8 as well as an office/writing desk. The living room\n  [4775.251] of a unique opportunity to dream of the perfect home. A gem for the whole family. It has a large living room\n  [4691.266] uary to name a few. The villa consists of 4 spacious bedrooms, 3 large bathrooms, a large open concept living room\n  [4685.097] all the comforts, fully equipped kitchen (including washing machine), two large bedrooms with a double bed each, living room\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 134,
+      "rank_by_diff": 1,
+      "k1_auc_id": 0.8592910766601562,
+      "k1_auc_ood": 0.5991111111111111,
+      "examples": [
+        {
+          "text": " Saturday morning cartoons the next morning, while her husband slept and she prepared breakfast. Kenta stumbled into the living room",
+          "activation": 4855.451171875
+        },
+        {
+          "text": ". Whatever Brianna\u2019s answer was, I just wanted to finally know.I went into the living room",
+          "activation": 4756.32958984375
+        },
+        {
+          "text": " hospital, I would have died. I underwent 12 blood transfusions in order to survive.\u201d Sitting in the living room",
+          "activation": 4614.310546875
+        },
+        {
+          "text": "Wanna beer?\"\"Uh, no, I'm fine.\" I said.She walked into the living room",
+          "activation": 4592.51220703125
+        },
+        {
+          "text": " kindness, took a quick shower, and gave the tub a wide berth. Then I stole back into the living room",
+          "activation": 4538.294921875
+        },
+        {
+          "text": " listen to it at her mother's house. Max was looking better, Harry thought, as they settled in the living room",
+          "activation": 4518.4404296875
+        },
+        {
+          "text": " with a start, knowing in his heart he had done and said much too much. He ran into the small living room",
+          "activation": 4508.26416015625
+        },
+        {
+          "text": " could see his gift was not for comedy. His gift was for breaking news. She knew, sitting in his living room",
+          "activation": 4478.6240234375
+        },
+        {
+          "text": ".After Fern finally went to bed that night, Sam and Fern Lea sat up together in the living room",
+          "activation": 4472.45068359375
+        },
+        {
+          "text": " she was always being followed by soldiers. It wasn't her idea of a vacation, she said, sitting in her room",
+          "activation": 4420.298828125
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 134\n\nTop activating examples (format: [activation] text):\n  [4855.451] Saturday morning cartoons the next morning, while her husband slept and she prepared breakfast. Kenta stumbled into the living room\n  [4756.330] . Whatever Brianna\u2019s answer was, I just wanted to finally know.I went into the living room\n  [4614.311] hospital, I would have died. I underwent 12 blood transfusions in order to survive.\u201d Sitting in the living room\n  [4592.512] Wanna beer?\"\"Uh, no, I'm fine.\" I said.She walked into the living room\n  [4538.295] kindness, took a quick shower, and gave the tub a wide berth. Then I stole back into the living room\n  [4518.440] listen to it at her mother's house. Max was looking better, Harry thought, as they settled in the living room\n  [4508.264] with a start, knowing in his heart he had done and said much too much. He ran into the small living room\n  [4478.624] could see his gift was not for comedy. His gift was for breaking news. She knew, sitting in his living room\n  [4472.451] .After Fern finally went to bed that night, Sam and Fern Lea sat up together in the living room\n  [4420.299] she was always being followed by soldiers. It wasn't her idea of a vacation, she said, sitting in her room\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 11672,
+      "rank_by_diff": 2,
+      "k1_auc_id": 0.7054862976074219,
+      "k1_auc_ood": 0.49426666666666674,
+      "examples": [
+        {
+          "text": " daily lives, but can also accommodate different events and parties that takes place. A bad lighting design can make your living room",
+          "activation": 4059.2412109375
+        },
+        {
+          "text": " Shadowspawn were constructs. There were some creatures, like those called Gray Men, who were in truth ordinary living men",
+          "activation": 4021.5537109375
+        },
+        {
+          "text": " vintage lenses instead. Matthew also brought a set of cheap prisms that he found online, and after some early hotel room",
+          "activation": 3871.57568359375
+        },
+        {
+          "text": " after.\" \"And what did you find?\" \"A house with no visible signs of forced entry.\" \"A sitting room",
+          "activation": 3791.450927734375
+        },
+        {
+          "text": " teams. Then the VCR came along. A TV set isn't the same as a movie screen. Your living room",
+          "activation": 3761.69482421875
+        },
+        {
+          "text": " teams. Then the VCR came along. A TV set isn't the same as a movie screen. Your living room",
+          "activation": 3761.69482421875
+        },
+        {
+          "text": " Valley, but nicer.I heard Steven say something from a room down the hall. It was a narrow room",
+          "activation": 3745.74267578125
+        },
+        {
+          "text": " England\u201d St. George\u2019s flags which come free with The Sun, slowly yellowing at the edges in living room",
+          "activation": 3713.38818359375
+        },
+        {
+          "text": ". I got up and went to the bathroom without even looking at them. The last party guests were in the living room",
+          "activation": 3694.777587890625
+        },
+        {
+          "text": "'t there as reinforcement.\"All right, ladies,\" Tilda called out, and the voices in the room",
+          "activation": 3616.56103515625
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 11672\n\nTop activating examples (format: [activation] text):\n  [4059.241] daily lives, but can also accommodate different events and parties that takes place. A bad lighting design can make your living room\n  [4021.554] Shadowspawn were constructs. There were some creatures, like those called Gray Men, who were in truth ordinary living men\n  [3871.576] vintage lenses instead. Matthew also brought a set of cheap prisms that he found online, and after some early hotel room\n  [3791.451] after.\" \"And what did you find?\" \"A house with no visible signs of forced entry.\" \"A sitting room\n  [3761.695] teams. Then the VCR came along. A TV set isn't the same as a movie screen. Your living room\n  [3761.695] teams. Then the VCR came along. A TV set isn't the same as a movie screen. Your living room\n  [3745.743] Valley, but nicer.I heard Steven say something from a room down the hall. It was a narrow room\n  [3713.388] England\u201d St. George\u2019s flags which come free with The Sun, slowly yellowing at the edges in living room\n  [3694.778] . I got up and went to the bathroom without even looking at them. The last party guests were in the living room\n  [3616.561] 't there as reinforcement.\"All right, ladies,\" Tilda called out, and the voices in the room\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 3153,
+      "rank_by_diff": 3,
+      "k1_auc_id": 0.7122993469238281,
+      "k1_auc_ood": 0.6224666666666667,
+      "examples": [
+        {
+          "text": " daily lives, but can also accommodate different events and parties that takes place. A bad lighting design can make your living room",
+          "activation": 4091.869873046875
+        },
+        {
+          "text": " after.\" \"And what did you find?\" \"A house with no visible signs of forced entry.\" \"A sitting room",
+          "activation": 3933.03466796875
+        },
+        {
+          "text": " Shadowspawn were constructs. There were some creatures, like those called Gray Men, who were in truth ordinary living men",
+          "activation": 3853.960693359375
+        },
+        {
+          "text": " vintage lenses instead. Matthew also brought a set of cheap prisms that he found online, and after some early hotel room",
+          "activation": 3784.826171875
+        },
+        {
+          "text": "'t there as reinforcement.\"All right, ladies,\" Tilda called out, and the voices in the room",
+          "activation": 3712.679931640625
+        },
+        {
+          "text": " being on Cromwell would restore him to her. \"I'll tell you more about it later. Is the blue room",
+          "activation": 3554.341796875
+        },
+        {
+          "text": " being on Cromwell would restore him to her. \"I'll tell you more about it later. Is the blue room",
+          "activation": 3554.341796875
+        },
+        {
+          "text": ". I got up and went to the bathroom without even looking at them. The last party guests were in the living room",
+          "activation": 3518.63623046875
+        },
+        {
+          "text": " Valley, but nicer.I heard Steven say something from a room down the hall. It was a narrow room",
+          "activation": 3464.06005859375
+        },
+        {
+          "text": " Is this a living space for one person or more than one?2. What are the various sizes of living spaces",
+          "activation": 3460.52685546875
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 3153\n\nTop activating examples (format: [activation] text):\n  [4091.870] daily lives, but can also accommodate different events and parties that takes place. A bad lighting design can make your living room\n  [3933.035] after.\" \"And what did you find?\" \"A house with no visible signs of forced entry.\" \"A sitting room\n  [3853.961] Shadowspawn were constructs. There were some creatures, like those called Gray Men, who were in truth ordinary living men\n  [3784.826] vintage lenses instead. Matthew also brought a set of cheap prisms that he found online, and after some early hotel room\n  [3712.680] 't there as reinforcement.\"All right, ladies,\" Tilda called out, and the voices in the room\n  [3554.342] being on Cromwell would restore him to her. \"I'll tell you more about it later. Is the blue room\n  [3554.342] being on Cromwell would restore him to her. \"I'll tell you more about it later. Is the blue room\n  [3518.636] . I got up and went to the bathroom without even looking at them. The last party guests were in the living room\n  [3464.060] Valley, but nicer.I heard Steven say something from a room down the hall. It was a narrow room\n  [3460.527] Is this a living space for one person or more than one?2. What are the various sizes of living spaces\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 4646,
+      "rank_by_diff": 4,
+      "k1_auc_id": 0.6850719451904297,
+      "k1_auc_ood": 0.5903999999999999,
+      "examples": [
+        {
+          "text": "'t there as reinforcement.\"All right, ladies,\" Tilda called out, and the voices in the room",
+          "activation": 4337.78857421875
+        },
+        {
+          "text": " daily lives, but can also accommodate different events and parties that takes place. A bad lighting design can make your living room",
+          "activation": 4254.369140625
+        },
+        {
+          "text": " after.\" \"And what did you find?\" \"A house with no visible signs of forced entry.\" \"A sitting room",
+          "activation": 4000.068359375
+        },
+        {
+          "text": " vintage lenses instead. Matthew also brought a set of cheap prisms that he found online, and after some early hotel room",
+          "activation": 3998.061279296875
+        },
+        {
+          "text": " teams. Then the VCR came along. A TV set isn't the same as a movie screen. Your living room",
+          "activation": 3904.1083984375
+        },
+        {
+          "text": " teams. Then the VCR came along. A TV set isn't the same as a movie screen. Your living room",
+          "activation": 3904.1083984375
+        },
+        {
+          "text": ".2 million each, roll out several product changes and open up a more direct line of communication, everyone in the room",
+          "activation": 3902.293212890625
+        },
+        {
+          "text": " know,\" I said, \"I have a photo of Arthur and Mr. Finnerman too.\"The living room",
+          "activation": 3801.491455078125
+        },
+        {
+          "text": " know,\" I said, \"I have a photo of Arthur and Mr. Finnerman too.\"The living room",
+          "activation": 3801.491455078125
+        },
+        {
+          "text": " from the vast inequality so visible in America, but are among the most income-equal in the world, with living standards",
+          "activation": 3722.4345703125
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 4646\n\nTop activating examples (format: [activation] text):\n  [4337.789] 't there as reinforcement.\"All right, ladies,\" Tilda called out, and the voices in the room\n  [4254.369] daily lives, but can also accommodate different events and parties that takes place. A bad lighting design can make your living room\n  [4000.068] after.\" \"And what did you find?\" \"A house with no visible signs of forced entry.\" \"A sitting room\n  [3998.061] vintage lenses instead. Matthew also brought a set of cheap prisms that he found online, and after some early hotel room\n  [3904.108] teams. Then the VCR came along. A TV set isn't the same as a movie screen. Your living room\n  [3904.108] teams. Then the VCR came along. A TV set isn't the same as a movie screen. Your living room\n  [3902.293] .2 million each, roll out several product changes and open up a more direct line of communication, everyone in the room\n  [3801.491] know,\" I said, \"I have a photo of Arthur and Mr. Finnerman too.\"The living room\n  [3801.491] know,\" I said, \"I have a photo of Arthur and Mr. Finnerman too.\"The living room\n  [3722.435] from the vast inequality so visible in America, but are among the most income-equal in the world, with living standards\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 13436,
+      "rank_by_diff": 5,
+      "k1_auc_id": 0.6458683013916016,
+      "k1_auc_ood": 0.5469111111111111,
+      "examples": [
+        {
+          "text": " single, religiousfemale preferring not to have a male housemate. It also bearsnoting that even if Room",
+          "activation": 3302.052490234375
+        },
+        {
+          "text": " making arrangements for that man and for our trip.\"\"Let's send for some drinks.\" Mackenzie called room",
+          "activation": 3300.03125
+        },
+        {
+          "text": " and better crust flavor. It is also possible to take a dough ball from the freezer and let it warm up at room",
+          "activation": 3263.835693359375
+        },
+        {
+          "text": " freeze.STORAGE TIME: 12 monthsTo thaw and serveThaw at room",
+          "activation": 3219.98095703125
+        },
+        {
+          "text": " a desire to help the oldparty can go hand in hand, and when possible in a manly way, room",
+          "activation": 3195.192138671875
+        },
+        {
+          "text": " the frozen dough ball in an oiled container; spray some oil on top and cover. 2. Leave out at room",
+          "activation": 3191.63623046875
+        },
+        {
+          "text": " 4-hydroxybenzoate, 0.38% v/v propionic acid) at 18\u00b0C or room",
+          "activation": 3183.208984375
+        },
+        {
+          "text": " discrimination laws\u2014theinformation about sex, family status and sexual orientation\u2014is provided by subscribers in response to Room",
+          "activation": 3121.3369140625
+        },
+        {
+          "text": " at 650 W for two cycles of 10 minutes each to enhance antigenicity. Slides were then allowed to cool at room",
+          "activation": 3115.971923828125
+        },
+        {
+          "text": " Alexa Fluor\u00ae 488-conjugated anti-mouse or Alexa Fluor\u00ae 488-conjugated anti-goat secondary antibodies at room",
+          "activation": 3061.2421875
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 13436\n\nTop activating examples (format: [activation] text):\n  [3302.052] single, religiousfemale preferring not to have a male housemate. It also bearsnoting that even if Room\n  [3300.031] making arrangements for that man and for our trip.\"\"Let's send for some drinks.\" Mackenzie called room\n  [3263.836] and better crust flavor. It is also possible to take a dough ball from the freezer and let it warm up at room\n  [3219.981] freeze.STORAGE TIME: 12 monthsTo thaw and serveThaw at room\n  [3195.192] a desire to help the oldparty can go hand in hand, and when possible in a manly way, room\n  [3191.636] the frozen dough ball in an oiled container; spray some oil on top and cover. 2. Leave out at room\n  [3183.209] 4-hydroxybenzoate, 0.38% v/v propionic acid) at 18\u00b0C or room\n  [3121.337] discrimination laws\u2014theinformation about sex, family status and sexual orientation\u2014is provided by subscribers in response to Room\n  [3115.972] at 650 W for two cycles of 10 minutes each to enhance antigenicity. Slides were then allowed to cool at room\n  [3061.242] Alexa Fluor\u00ae 488-conjugated anti-mouse or Alexa Fluor\u00ae 488-conjugated anti-goat secondary antibodies at room\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 7686,
+      "rank_by_diff": 6,
+      "k1_auc_id": 0.6567268371582031,
+      "k1_auc_ood": 0.5646666666666667,
+      "examples": [
+        {
+          "text": " vintage lenses instead. Matthew also brought a set of cheap prisms that he found online, and after some early hotel room",
+          "activation": 4010.711669921875
+        },
+        {
+          "text": " daily lives, but can also accommodate different events and parties that takes place. A bad lighting design can make your living room",
+          "activation": 3983.7373046875
+        },
+        {
+          "text": "'t there as reinforcement.\"All right, ladies,\" Tilda called out, and the voices in the room",
+          "activation": 3856.646484375
+        },
+        {
+          "text": " late in the mission. Researchers will include these findings in the design specifications of future spacecraft to make work stations and living areas",
+          "activation": 3681.996826171875
+        },
+        {
+          "text": " after.\" \"And what did you find?\" \"A house with no visible signs of forced entry.\" \"A sitting room",
+          "activation": 3679.96875
+        },
+        {
+          "text": " Shadowspawn were constructs. There were some creatures, like those called Gray Men, who were in truth ordinary living men",
+          "activation": 3676.1162109375
+        },
+        {
+          "text": " used to it,\" Alvirah continued happily. \"I mean, one minute, I'm sitting in my living room",
+          "activation": 3581.22900390625
+        },
+        {
+          "text": " they were hit with an Israeli missile.\u201d\u201cIt was 1.25 am. I was in the living room",
+          "activation": 3546.000732421875
+        },
+        {
+          "text": " changed companies where I could be home on the weekends. I began to notice when I would be sitting in the living room",
+          "activation": 3524.72021484375
+        },
+        {
+          "text": " England\u201d St. George\u2019s flags which come free with The Sun, slowly yellowing at the edges in living room",
+          "activation": 3479.562744140625
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 7686\n\nTop activating examples (format: [activation] text):\n  [4010.712] vintage lenses instead. Matthew also brought a set of cheap prisms that he found online, and after some early hotel room\n  [3983.737] daily lives, but can also accommodate different events and parties that takes place. A bad lighting design can make your living room\n  [3856.646] 't there as reinforcement.\"All right, ladies,\" Tilda called out, and the voices in the room\n  [3681.997] late in the mission. Researchers will include these findings in the design specifications of future spacecraft to make work stations and living areas\n  [3679.969] after.\" \"And what did you find?\" \"A house with no visible signs of forced entry.\" \"A sitting room\n  [3676.116] Shadowspawn were constructs. There were some creatures, like those called Gray Men, who were in truth ordinary living men\n  [3581.229] used to it,\" Alvirah continued happily. \"I mean, one minute, I'm sitting in my living room\n  [3546.001] they were hit with an Israeli missile.\u201d\u201cIt was 1.25 am. I was in the living room\n  [3524.720] changed companies where I could be home on the weekends. I began to notice when I would be sitting in the living room\n  [3479.563] England\u201d St. George\u2019s flags which come free with The Sun, slowly yellowing at the edges in living room\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 11579,
+      "rank_by_diff": 7,
+      "k1_auc_id": 0.6583595275878906,
+      "k1_auc_ood": 0.518511111111111,
+      "examples": [
+        {
+          "text": " daily lives, but can also accommodate different events and parties that takes place. A bad lighting design can make your living room",
+          "activation": 3634.31689453125
+        },
+        {
+          "text": " Is this a living space for one person or more than one?2. What are the various sizes of living spaces",
+          "activation": 3525.98095703125
+        },
+        {
+          "text": " from the vast inequality so visible in America, but are among the most income-equal in the world, with living standards",
+          "activation": 3506.46337890625
+        },
+        {
+          "text": " Shadowspawn were constructs. There were some creatures, like those called Gray Men, who were in truth ordinary living men",
+          "activation": 3482.418212890625
+        },
+        {
+          "text": " Valley, but nicer.I heard Steven say something from a room down the hall. It was a narrow room",
+          "activation": 3459.32568359375
+        },
+        {
+          "text": " late in the mission. Researchers will include these findings in the design specifications of future spacecraft to make work stations and living areas",
+          "activation": 3402.623291015625
+        },
+        {
+          "text": " after.\" \"And what did you find?\" \"A house with no visible signs of forced entry.\" \"A sitting room",
+          "activation": 3348.83935546875
+        },
+        {
+          "text": " top of a rock over to another rock, where neither of those positions allows you much (if any) wiggle room",
+          "activation": 3329.8955078125
+        },
+        {
+          "text": " contact with me. It was not merely the company of written words that distilled my boredom. It was a living voice",
+          "activation": 3248.511962890625
+        },
+        {
+          "text": " for their education. They provide free books, uniforms,and food to these girls and aim to uplift the living standards",
+          "activation": 3166.87060546875
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 11579\n\nTop activating examples (format: [activation] text):\n  [3634.317] daily lives, but can also accommodate different events and parties that takes place. A bad lighting design can make your living room\n  [3525.981] Is this a living space for one person or more than one?2. What are the various sizes of living spaces\n  [3506.463] from the vast inequality so visible in America, but are among the most income-equal in the world, with living standards\n  [3482.418] Shadowspawn were constructs. There were some creatures, like those called Gray Men, who were in truth ordinary living men\n  [3459.326] Valley, but nicer.I heard Steven say something from a room down the hall. It was a narrow room\n  [3402.623] late in the mission. Researchers will include these findings in the design specifications of future spacecraft to make work stations and living areas\n  [3348.839] after.\" \"And what did you find?\" \"A house with no visible signs of forced entry.\" \"A sitting room\n  [3329.896] top of a rock over to another rock, where neither of those positions allows you much (if any) wiggle room\n  [3248.512] contact with me. It was not merely the company of written words that distilled my boredom. It was a living voice\n  [3166.871] for their education. They provide free books, uniforms,and food to these girls and aim to uplift the living standards\n\nDescription:"
+      },
+      "description": null
+    }
+  ],
+  "ood_auc_by_k_diff_order": {
+    "1": 0.6908222222222222,
+    "2": 0.6908222222222222,
+    "3": 0.7204444444444443,
+    "4": 0.6622666666666667,
+    "5": 0.6596444444444445,
+    "6": 0.7083555555555555,
+    "7": 0.7246444444444444,
+    "8": 0.7299555555555555
+  },
+  "ranking_prompt_stub": {
+    "note": "Rebuild with actual descriptions after autointerp step.",
+    "task_description": "Classify whether the phrase 'living room' appears in an English sentence.",
+    "ood_transform": "Sentences are translated to French.",
+    "latent_order": [
+      14438,
+      134,
+      11672,
+      3153,
+      4646,
+      13436,
+      7686,
+      11579
+    ]
+  }
+}

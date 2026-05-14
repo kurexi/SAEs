@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "141_news_class_Entertainment",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:49:21.475248"
+  },
+  "best_latent": {
+    "latent_idx": 15940,
+    "k1_auc": 0.7835967979761209,
+    "examples": [
+      {
+        "text": "Intel Eyes WiMax Wireless Chip maker will being testing the emerging, high-speed wireless technology.",
+        "activation": 4270.93359375
+      },
+      {
+        "text": "SGI to Ship Intel Linux Workstation Silicon Graphics Inc. announced that it will ship a new Intel Itanium-based Linux workstation that the company says is the most powerful of its kind in the world.",
+        "activation": 4185.53125
+      },
+      {
+        "text": "IBM tops server speed test New top-end Power5-based Unix server has commanding lead in performance test of servers running a large database.",
+        "activation": 4102.6953125
+      },
+      {
+        "text": "Cisco to acquire IT management firm The networking giant will pay \\$128 million in cash for NetSolve, which manages information technology systems.",
+        "activation": 3938.634765625
+      },
+      {
+        "text": "AMD Shows First Dual-Core Processor Company remains on track to ship desktop and server chips in 2005.",
+        "activation": 3842.5078125
+      },
+      {
+        "text": "SonicWall releases stand-alone content filtering device SonicWall Inc. is introducing a stand-alone content filtering appliance for businesses with between 50 and 1,000 users.",
+        "activation": 3663.220458984375
+      },
+      {
+        "text": "ATI launches chipset for AMD desktops The Radeon Xpress 200 has graphics performance equal to ATI's current entry-level graphics chip, the company says.",
+        "activation": 3652.5732421875
+      },
+      {
+        "text": "IBM rolls out midrange eServer i5 IBM is filling in the center of its Power 5-based eServer i5 lineup on Tuesday, unwrapping a four-way system aimed at midsize companies looking to consolidate a variety of business applications.",
+        "activation": 3634.916748046875
+      },
+      {
+        "text": "IBM Reveals Blade With Room For Two SCSI Drives IBM is now offering enterprises the ability to add two small form-factor SCSI drives internally to the five new HS20 models of BladeCenter systems, which are based on the 2.8 GHz to 3.6 GHz Intel Xeon-processor with 64 bit extensions.",
+        "activation": 3617.8818359375
+      },
+      {
+        "text": "Intel Chips In for New Gateway PCs Desktops will be available at several retailers, including CompUSA.",
+        "activation": 3609.62109375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 15940\n\nTop activating examples (format: [activation] text):\n  [4270.934] Intel Eyes WiMax Wireless Chip maker will being testing the emerging, high-speed wireless technology.\n  [4185.531] SGI to Ship Intel Linux Workstation Silicon Graphics Inc. announced that it will ship a new Intel Itanium-based Linux workstation that the company says is the most powerful of its kind in the world.\n  [4102.695] IBM tops server speed test New top-end Power5-based Unix server has commanding lead in performance test of servers running a large database.\n  [3938.635] Cisco to acquire IT management firm The networking giant will pay \\$128 million in cash for NetSolve, which manages information technology systems.\n  [3842.508] AMD Shows First Dual-Core Processor Company remains on track to ship desktop and server chips in 2005.\n  [3663.220] SonicWall releases stand-alone content filtering device SonicWall Inc. is introducing a stand-alone content filtering appliance for businesses with between 50 and 1,000 users.\n  [3652.573] ATI launches chipset for AMD desktops The Radeon Xpress 200 has graphics performance equal to ATI's current entry-level graphics chip, the company says.\n  [3634.917] IBM rolls out midrange eServer i5 IBM is filling in the center of its Power 5-based eServer i5 lineup on Tuesday, unwrapping a four-way system aimed at midsize companies looking to consolidate a variety of business applications.\n  [3617.882] IBM Reveals Blade With Room For Two SCSI Drives IBM is now offering enterprises the ability to add two small form-factor SCSI drives internally to the five new HS20 models of BladeCenter systems, which are based on the 2.8 GHz to 3.6 GHz Intel Xeon-processor with 64 bit extensions.\n  [3609.621] Intel Chips In for New Gateway PCs Desktops will be available at several retailers, including CompUSA.\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.7835967979761209
+    },
+    {
+      "latent_idx": 10163,
+      "k1_auc": 0.6591019404088206
+    },
+    {
+      "latent_idx": 12656,
+      "k1_auc": 0.6248690030998003
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.6032779561174172
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.5964146378234475
+    },
+    {
+      "latent_idx": 12860,
+      "k1_auc": 0.5954503167826795
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5948711725923228
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.5929783822939994
+    },
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.5883764841718974
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5849494214073755
+    },
+    {
+      "latent_idx": 1855,
+      "k1_auc": 0.5835236235673076
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.583098917827713
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.5757998624762367
+    },
+    {
+      "latent_idx": 12234,
+      "k1_auc": 0.5754156049023177
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.573942004684633
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5729776836438649
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5720170397090674
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5712328968608547
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.571036171691432
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5700856397980533
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5672156585880648
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5661345894327329
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5648503601725299
+    },
+    {
+      "latent_idx": 4353,
+      "k1_auc": 0.5646389265792251
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5645166628057054
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5642454762403799
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5630485782469764
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.56293091085592
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5626762712674618
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5615483190110055
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5598559309880752
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.5578215721098867
+    },
+    {
+      "latent_idx": 8576,
+      "k1_auc": 0.5564527694123618
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5556171470805618
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5536269134740194
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5514022643618566
+    },
+    {
+      "latent_idx": 7148,
+      "k1_auc": 0.551218409063331
+    },
+    {
+      "latent_idx": 16002,
+      "k1_auc": 0.5497117148919114
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5496354149430233
+    },
+    {
+      "latent_idx": 13759,
+      "k1_auc": 0.5473850260890669
+    },
+    {
+      "latent_idx": 12326,
+      "k1_auc": 0.5465907711994352
+    },
+    {
+      "latent_idx": 9620,
+      "k1_auc": 0.5458066283512224
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5450849963045085
+    },
+    {
+      "latent_idx": 3062,
+      "k1_auc": 0.5448220832276165
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5430074314311665
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5421938717351895
+    },
+    {
+      "latent_idx": 9781,
+      "k1_auc": 0.541731475659397
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.540999731571264
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5406108776148819
+    },
+    {
+      "latent_idx": 10961,
+      "k1_auc": 0.5396676999334444
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5395748530076888
+    },
+    {
+      "latent_idx": 3074,
+      "k1_auc": 0.5393762892852809
+    },
+    {
+      "latent_idx": 5954,
+      "k1_auc": 0.5390104172412145
+    },
+    {
+      "latent_idx": 14557,
+      "k1_auc": 0.5389166510389664
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5386601728975228
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.5382290322224796
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5379771504634991
+    },
+    {
+      "latent_idx": 506,
+      "k1_auc": 0.5375616374888308
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5370459233764657
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.5327519828793946
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5307295745956103
+    },
+    {
+      "latent_idx": 2084,
+      "k1_auc": 0.5303618639985586
+    },
+    {
+      "latent_idx": 10900,
+      "k1_auc": 0.5273264130198969
+    },
+    {
+      "latent_idx": 12480,
+      "k1_auc": 0.5271315264034593
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.526879644644479
+    },
+    {
+      "latent_idx": 593,
+      "k1_auc": 0.5258868260324394
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5252442517640915
+    },
+    {
+      "latent_idx": 4761,
+      "k1_auc": 0.5244012752203505
+    },
+    {
+      "latent_idx": 15850,
+      "k1_auc": 0.52439759811438
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.5237688129934217
+    },
+    {
+      "latent_idx": 894,
+      "k1_auc": 0.5232301169687409
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5222731501399138
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5222032851264741
+    },
+    {
+      "latent_idx": 10977,
+      "k1_auc": 0.5218456865708413
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5208473522998459
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5208464330233533
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5207793258393915
+    },
+    {
+      "latent_idx": 6116,
+      "k1_auc": 0.518997767996676
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5189168716653245
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5189085981768908
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.5185151478380455
+    },
+    {
+      "latent_idx": 2751,
+      "k1_auc": 0.5184609105249803
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5177015881420687
+    },
+    {
+      "latent_idx": 7134,
+      "k1_auc": 0.5171858740297036
+    },
+    {
+      "latent_idx": 12905,
+      "k1_auc": 0.516922041676319
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5168779164046728
+    },
+    {
+      "latent_idx": 8424,
+      "k1_auc": 0.516282225237449
+    },
+    {
+      "latent_idx": 14031,
+      "k1_auc": 0.5156497630105201
+    },
+    {
+      "latent_idx": 9426,
+      "k1_auc": 0.5154429257996787
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.5149603056410483
+    },
+    {
+      "latent_idx": 4160,
+      "k1_auc": 0.5142405121473195
+    },
+    {
+      "latent_idx": 3115,
+      "k1_auc": 0.5137321522468956
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5136871076987568
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5130279864535416
+    },
+    {
+      "latent_idx": 8732,
+      "k1_auc": 0.512952605781146
+    },
+    {
+      "latent_idx": 5691,
+      "k1_auc": 0.5129057226800219
+    },
+    {
+      "latent_idx": 13949,
+      "k1_auc": 0.5128790636617356
+    },
+    {
+      "latent_idx": 9647,
+      "k1_auc": 0.5119073884090266
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5115553055123497
+    },
+    {
+      "latent_idx": 9098,
+      "k1_auc": 0.5115507091298864
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5102480943398308
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5090842903001621
+    },
+    {
+      "latent_idx": 1748,
+      "k1_auc": 0.5080730861582701
+    },
+    {
+      "latent_idx": 8869,
+      "k1_auc": 0.5074534938022378
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5073588083234972
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5070379808275695
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5070067254268201
+    },
+    {
+      "latent_idx": 1588,
+      "k1_auc": 0.50700672542682
+    },
+    {
+      "latent_idx": 14641,
+      "k1_auc": 0.5067750677506775
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5042562501608734
+    },
+    {
+      "latent_idx": 3928,
+      "k1_auc": 0.5041385827698168
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5013145653844598
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5004826201586304
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6795,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8549,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13772,
+      "k1_auc": 0.4993224932249323
+    },
+    {
+      "latent_idx": 13159,
+      "k1_auc": 0.4985493816946311
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.49823315058116663
+    },
+    {
+      "latent_idx": 6249,
+      "k1_auc": 0.497446249903476
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.4970068357399992
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.49650858788099417
+    }
+  ]
+}

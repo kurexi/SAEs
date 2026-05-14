@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "24_headline_isiran",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:34:51.648599"
+  },
+  "best_latent": {
+    "latent_idx": 16293,
+    "k1_auc": 0.7993443021067331,
+    "examples": [
+      {
+        "text": "Tehran Mayor Quits Race for Iran Presidency.",
+        "activation": 2606.899169921875
+      },
+      {
+        "text": "From Inner Circle of Iran, a Pragmatic Victor.",
+        "activation": 2345.041015625
+      },
+      {
+        "text": "From Inner Circle of Iran, a Pragmatic Victor.",
+        "activation": 2345.041015625
+      },
+      {
+        "text": "From Inner Circle of Iran, a Pragmatic Victor.",
+        "activation": 2345.041015625
+      },
+      {
+        "text": "Jason Rezaian\u2019s Status Unclear After Iran Sentences 2.",
+        "activation": 2188.064208984375
+      },
+      {
+        "text": "Power Struggle in Iran Enters the Mosque.",
+        "activation": 2178.207763671875
+      },
+      {
+        "text": "Power Struggle in Iran Enters the Mosque.",
+        "activation": 2178.207763671875
+      },
+      {
+        "text": "Power Struggle in Iran Enters the Mosque.",
+        "activation": 2178.207763671875
+      },
+      {
+        "text": "Prominent Opposition Leader in Iran Begins Hunger Strike.",
+        "activation": 1822.42333984375
+      },
+      {
+        "text": "Moderate in Iranian Election Leads in Initial Returns.",
+        "activation": 1778.647216796875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 16293\n\nTop activating examples (format: [activation] text):\n  [2606.899] Tehran Mayor Quits Race for Iran Presidency.\n  [2345.041] From Inner Circle of Iran, a Pragmatic Victor.\n  [2345.041] From Inner Circle of Iran, a Pragmatic Victor.\n  [2345.041] From Inner Circle of Iran, a Pragmatic Victor.\n  [2188.064] Jason Rezaian\u2019s Status Unclear After Iran Sentences 2.\n  [2178.208] Power Struggle in Iran Enters the Mosque.\n  [2178.208] Power Struggle in Iran Enters the Mosque.\n  [2178.208] Power Struggle in Iran Enters the Mosque.\n  [1822.423] Prominent Opposition Leader in Iran Begins Hunger Strike.\n  [1778.647] Moderate in Iranian Election Leads in Initial Returns.\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 16293,
+      "k1_auc": 0.7993443021067331
+    },
+    {
+      "latent_idx": 1588,
+      "k1_auc": 0.702795822961569
+    },
+    {
+      "latent_idx": 10660,
+      "k1_auc": 0.6844453888652784
+    },
+    {
+      "latent_idx": 12905,
+      "k1_auc": 0.6802562078805174
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.6710885799283588
+    },
+    {
+      "latent_idx": 6795,
+      "k1_auc": 0.6456499301803169
+    },
+    {
+      "latent_idx": 506,
+      "k1_auc": 0.6431910630805658
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.6001153542590006
+    },
+    {
+      "latent_idx": 6271,
+      "k1_auc": 0.5968672211766135
+    },
+    {
+      "latent_idx": 1748,
+      "k1_auc": 0.5842693218383826
+    },
+    {
+      "latent_idx": 8845,
+      "k1_auc": 0.5810363669479692
+    },
+    {
+      "latent_idx": 6116,
+      "k1_auc": 0.5704419889502763
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5658581749741971
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5576771295003339
+    },
+    {
+      "latent_idx": 3776,
+      "k1_auc": 0.5521522676218809
+    },
+    {
+      "latent_idx": 2751,
+      "k1_auc": 0.5518183473984578
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5499969643616052
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.5448060227065752
+    },
+    {
+      "latent_idx": 894,
+      "k1_auc": 0.5442596077955195
+    },
+    {
+      "latent_idx": 1855,
+      "k1_auc": 0.5439256875720965
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5409355837532633
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.5388865278368041
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5387043895331189
+    },
+    {
+      "latent_idx": 13724,
+      "k1_auc": 0.5386740331491713
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5383401129257482
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.5359723149778399
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5359267804019185
+    },
+    {
+      "latent_idx": 14619,
+      "k1_auc": 0.5358812458259972
+    },
+    {
+      "latent_idx": 5691,
+      "k1_auc": 0.5350616234594135
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5327241818954526
+    },
+    {
+      "latent_idx": 16196,
+      "k1_auc": 0.5326634691275576
+    },
+    {
+      "latent_idx": 15204,
+      "k1_auc": 0.5322688361362394
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5313885010017606
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.5306599477870196
+    },
+    {
+      "latent_idx": 9384,
+      "k1_auc": 0.5303867403314917
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5293242668933277
+    },
+    {
+      "latent_idx": 9121,
+      "k1_auc": 0.5276243093922652
+    },
+    {
+      "latent_idx": 9781,
+      "k1_auc": 0.527502883856475
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5274725274725275
+    },
+    {
+      "latent_idx": 13616,
+      "k1_auc": 0.5270171817133144
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5268805779855503
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5265011231862061
+    },
+    {
+      "latent_idx": 3969,
+      "k1_auc": 0.5246797401493534
+    },
+    {
+      "latent_idx": 12562,
+      "k1_auc": 0.524573492805537
+    },
+    {
+      "latent_idx": 15595,
+      "k1_auc": 0.5245583146135632
+    },
+    {
+      "latent_idx": 593,
+      "k1_auc": 0.5245431364215895
+    },
+    {
+      "latent_idx": 7080,
+      "k1_auc": 0.5240877906623763
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5211432214194645
+    },
+    {
+      "latent_idx": 1870,
+      "k1_auc": 0.5195191548782709
+    },
+    {
+      "latent_idx": 7536,
+      "k1_auc": 0.5195191548782709
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5194584421103758
+    },
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.519382551150507
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5193521947665594
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.517910266529051
+    },
+    {
+      "latent_idx": 1973,
+      "k1_auc": 0.5167263675550968
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5166656547872017
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5165745856353591
+    },
+    {
+      "latent_idx": 9453,
+      "k1_auc": 0.5164835164835164
+    },
+    {
+      "latent_idx": 4353,
+      "k1_auc": 0.5164228037156215
+    },
+    {
+      "latent_idx": 805,
+      "k1_auc": 0.5153299738935099
+    },
+    {
+      "latent_idx": 4603,
+      "k1_auc": 0.5140550057677129
+    },
+    {
+      "latent_idx": 10059,
+      "k1_auc": 0.5138121546961326
+    },
+    {
+      "latent_idx": 13547,
+      "k1_auc": 0.5137817983121852
+    },
+    {
+      "latent_idx": 12259,
+      "k1_auc": 0.5137362637362637
+    },
+    {
+      "latent_idx": 13437,
+      "k1_auc": 0.5136755509683686
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5122639791148078
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5118997025074373
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5116872078198045
+    },
+    {
+      "latent_idx": 9930,
+      "k1_auc": 0.5112925748284864
+    },
+    {
+      "latent_idx": 12142,
+      "k1_auc": 0.5111407929087488
+    },
+    {
+      "latent_idx": 8732,
+      "k1_auc": 0.511049723756906
+    },
+    {
+      "latent_idx": 12480,
+      "k1_auc": 0.511049723756906
+    },
+    {
+      "latent_idx": 10900,
+      "k1_auc": 0.510989010989011
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5101997450063748
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5094408354076863
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5092435189120272
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5089399550725517
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5085605002732074
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5082872928176796
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5082872928176796
+    },
+    {
+      "latent_idx": 11250,
+      "k1_auc": 0.5082265800497845
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5067087608524072
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5066935826604335
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5066784044684598
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5064355533968794
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5056462874142432
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.505524861878453
+    },
+    {
+      "latent_idx": 1798,
+      "k1_auc": 0.505524861878453
+    },
+    {
+      "latent_idx": 4160,
+      "k1_auc": 0.505524861878453
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5054337927266104
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5052820108068726
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5029142128589642
+    },
+    {
+      "latent_idx": 7803,
+      "k1_auc": 0.5028686782830429
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5028079655151478
+    },
+    {
+      "latent_idx": 13030,
+      "k1_auc": 0.5028079655151478
+    },
+    {
+      "latent_idx": 6106,
+      "k1_auc": 0.5027776091312004
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5027624309392265
+    },
+    {
+      "latent_idx": 1625,
+      "k1_auc": 0.5027624309392265
+    },
+    {
+      "latent_idx": 8052,
+      "k1_auc": 0.5027472527472527
+    },
+    {
+      "latent_idx": 1382,
+      "k1_auc": 0.5026865399793577
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5001214255357902
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5000607127678951
+    },
+    {
+      "latent_idx": 3630,
+      "k1_auc": 0.5000303563839475
+    },
+    {
+      "latent_idx": 14359,
+      "k1_auc": 0.5000303563839475
+    },
+    {
+      "latent_idx": 14031,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15039,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6249,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6377,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2281,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.4999392872321049
+    },
+    {
+      "latent_idx": 10163,
+      "k1_auc": 0.4987250318742032
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.4976322020520916
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.4976170238601178
+    },
+    {
+      "latent_idx": 3062,
+      "k1_auc": 0.4972831036366948
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.49711614352498334
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.49663044138182255
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.49544654240786834
+    },
+    {
+      "latent_idx": 3441,
+      "k1_auc": 0.49480905834496997
+    },
+    {
+      "latent_idx": 8549,
+      "k1_auc": 0.49383765405864855
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.4917582417582418
+    }
+  ]
+}

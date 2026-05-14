@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "57_wikidatais_alive",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:36:54.170356"
+  },
+  "best_latent": {
+    "latent_idx": 7114,
+    "k1_auc": 0.7681040951294077,
+    "examples": [
+      {
+        "text": " J.M.W. Turner. Starring always-stellar character actor Timothy Spall in a rare lead as Turner), Black Or White (In what I\u2019m sure was a well-intentioned idea, this movie sees grieving [white] grandpa Kevin Costner fighting for custody of his beloved granddaughter after his son dies. Octavia Spencer is the [black] grandmother who\u2019s doing the same. Man, I sure hope these two can come to some sort of symbolically palatable understanding on race. Just, fingers crossed over here), Mr. Selfridge- season 3(Jeremy Piven",
+        "activation": 4077.3974609375
+      },
+      {
+        "text": " dozens of leaflets flutter down from the sky. A soldier opens one up to see it shows a map of the area with arrows coming in from all sides. \u201cWe surround you,\u201d it threateningly warns.  From there we settle into the siege. The film plays out in three separate branches. In \u2018The Mole\u2019, a group of young Tommies (including Fionn Whitehead, Aneurin Bernard and a perfectly competent Harry Styles, late of One Direction) huddle amongst the hundreds of thousands trapped on the beaches, desperately seeking an escape. In \u2018The Sea\u2019, Mark Rylance",
+        "activation": 3908.928466796875
+      },
+      {
+        "text": " you want your outfit to be the main focus. It also works with all lengths of hair, if you have mid length hair try a neat small bun at the nape of your neck and for ladies with length a long tamed perfected ponytail is the ultimate in minimal-chic styling. Try out different partings to see which is most flattering for your face shape. Using Schwarzkopf\u2019s Ultimate Styling Hairspray to tame any flyaways.  Burning Auburn Tones  Bold glossy burning auburn tones have become a huge winter trend this year with starlets like Emma Stone",
+        "activation": 3196.7978515625
+      },
+      {
+        "text": " the event wore \u201cFree Press\u201d. Like Full Frontal, the show folded heartfelt moments into a tightly written package.  A running gag of saw Bee hosting WHCDs back to the Hoover administration, stuffed with history nerd references and plenty of dick jokes and bookended with a horrifying vision of \u201cMrs Jason Jones\u201d hosting 2018\u2019s dinner for President Pence. A podium was set up in one corner in preparation for a special guest, and to promise CNN producers they could simply show a shot of the empty podium instead of the rest of the show. The special guest lived up to the title: Will Ferrell",
+        "activation": 3011.326904296875
+      },
+      {
+        "text": ", I\u2019m in with this book for the long haul. You should be, too.  The Secret Service #2  Written by Mark Millar  Art by Dave Gibbons, Andy Lanning and Angus McKie  Published by Icon  Review by Brian Bannen  \u2018Rama Rating: 8 out of 10  The Secret Service is a book unlike other Mark Millar books. It\u2019s methodical in its storytelling, deep in its character development, and has a well-rounded mixture of dialogue and action. Maybe this is due to Dave Gibbons and Matthew Vaughn",
+        "activation": 3006.51611328125
+      },
+      {
+        "text": ", I\u2019m in with this book for the long haul. You should be, too.  The Secret Service #2  Written by Mark Millar  Art by Dave Gibbons, Andy Lanning and Angus McKie  Published by Icon  Review by Brian Bannen  \u2018Rama Rating: 8 out of 10  The Secret Service is a book unlike other Mark Millar books. It\u2019s methodical in its storytelling, deep in its character development, and has a well-rounded mixture of dialogue and action. Maybe this is due to Dave Gibbons and Matthew Vaughn",
+        "activation": 3006.51611328125
+      },
+      {
+        "text": "LFF 2019: The Report Review  Here\u2019s a sure-fire contender for film of the year: Scott Z. Burns\u2019 unendingly strident exploration of one man\u2019s quest for justice is electrifying, the kind of gripping drama that only comes around once every political crisis. Adam Driver",
+        "activation": 3001.69189453125
+      },
+      {
+        "text": " its 50 Most Powerful in Tinseltown at a gala on Feb. 21 at the Beverly Wilshire. Marilyn Crawford is organizing, and everyone from Will Smith to the \"Dreamgirls\" cast to Three 6 Mafia is expected.  Halle Berry and Denzel Washington, prom king and queen for Black Hollywood, should be there too if they\u2019re in town. Bravo!...  Don\u2019t miss Philip Haas\u2019 \u201cThe Situation,\u201d which opens Friday in limited release. This searing drama (with a lot of action) is set in Baghdad today. Connie Nielsen",
+        "activation": 2959.4384765625
+      },
+      {
+        "text": " game. Turns out, this is true. But not just horses---Geralt will be able to sail his way around the world also.  \u201cImagine playing a dark fantasy game with the same great nonlinear story as in the previous Witcher titles,\" says Badowski, \"but now told in a world you can explore freely with no artificial boundaries. The war-ravaged world is so huge that to reach further places you will need to ride a horse or sail a boat to get there.\"  I am imagining this right now, actually, with the gentle, lilting voice of Lyle Lovett",
+        "activation": 2809.40234375
+      },
+      {
+        "text": "cs and integrated those images with concept art done by Blizzard. \"There is a translation process between concept artwork and what happens when you create 3-D models, but we had two fantastic teams on either side,\" Jones says. \"The ILM guys did a terrific job of taking this fantastic starting place and turning it into a living, breathing character.\"  Sometimes Actors Had to Sit on Makeshift Rocking Horses and Pretend They Were Wolves  As with any movie made using motion-capture and green screen, oftentimes everyone involved just has to pretend. Like, for example, having Clancy Brown",
+        "activation": 2753.31640625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 7114\n\nTop activating examples (format: [activation] text):\n  [4077.397] J.M.W. Turner. Starring always-stellar character actor Timothy Spall in a rare lead as Turner), Black Or White (In what I\u2019m sure was a well-intentioned idea, this movie sees grieving [white] grandpa Kevin Costner fighting for custody of his beloved granddaughter after his son dies. Octavia Spencer\n  [3908.928] dozens of leaflets flutter down from the sky. A soldier opens one up to see it shows a map of the area with arrows coming in from all sides. \u201cWe surround you,\u201d it threateningly warns.  From there we settle into the siege. The film plays out in three separate branches. In \u2018The Mole\u2019, a group of youn\n  [3196.798] you want your outfit to be the main focus. It also works with all lengths of hair, if you have mid length hair try a neat small bun at the nape of your neck and for ladies with length a long tamed perfected ponytail is the ultimate in minimal-chic styling. Try out different partings to see which is\n  [3011.327] the event wore \u201cFree Press\u201d. Like Full Frontal, the show folded heartfelt moments into a tightly written package.  A running gag of saw Bee hosting WHCDs back to the Hoover administration, stuffed with history nerd references and plenty of dick jokes and bookended with a horrifying vision of \u201cMrs J\n  [3006.516] , I\u2019m in with this book for the long haul. You should be, too.  The Secret Service #2  Written by Mark Millar  Art by Dave Gibbons, Andy Lanning and Angus McKie  Published by Icon  Review by Brian Bannen  \u2018Rama Rating: 8 out of 10  The Secret Service is a book unlike other Mark Millar books. It\u2019s me\n  [3006.516] , I\u2019m in with this book for the long haul. You should be, too.  The Secret Service #2  Written by Mark Millar  Art by Dave Gibbons, Andy Lanning and Angus McKie  Published by Icon  Review by Brian Bannen  \u2018Rama Rating: 8 out of 10  The Secret Service is a book unlike other Mark Millar books. It\u2019s me\n  [3001.692] LFF 2019: The Report Review  Here\u2019s a sure-fire contender for film of the year: Scott Z. Burns\u2019 unendingly strident exploration of one man\u2019s quest for justice is electrifying, the kind of gripping drama that only comes around once every political crisis. Adam Driver\n  [2959.438] its 50 Most Powerful in Tinseltown at a gala on Feb. 21 at the Beverly Wilshire. Marilyn Crawford is organizing, and everyone from Will Smith to the \"Dreamgirls\" cast to Three 6 Mafia is expected.  Halle Berry and Denzel Washington, prom king and queen for Black Hollywood, should be there too if th\n  [2809.402] game. Turns out, this is true. But not just horses---Geralt will be able to sail his way around the world also.  \u201cImagine playing a dark fantasy game with the same great nonlinear story as in the previous Witcher titles,\" says Badowski, \"but now told in a world you can explore freely with no artifi\n  [2753.316] cs and integrated those images with concept art done by Blizzard. \"There is a translation process between concept artwork and what happens when you create 3-D models, but we had two fantastic teams on either side,\" Jones says. \"The ILM guys did a terrific job of taking this fantastic starting place\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 7114,
+      "k1_auc": 0.7681040951294077
+    },
+    {
+      "latent_idx": 10499,
+      "k1_auc": 0.6847567539104784
+    },
+    {
+      "latent_idx": 6111,
+      "k1_auc": 0.6637229010702363
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.6133066643443956
+    },
+    {
+      "latent_idx": 11306,
+      "k1_auc": 0.6116517929924794
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.6112572516123412
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5981542247951726
+    },
+    {
+      "latent_idx": 13532,
+      "k1_auc": 0.5828559682199893
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5807535196078331
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5791218118980618
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5749655203490698
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5737032917180992
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5726483966709163
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5724447338282336
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5697343345427371
+    },
+    {
+      "latent_idx": 10345,
+      "k1_auc": 0.5623791819867368
+    },
+    {
+      "latent_idx": 5718,
+      "k1_auc": 0.5593128473913435
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5571486290668014
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5567630746735066
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5561484154043537
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5549569434726123
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.554447469922707
+    },
+    {
+      "latent_idx": 10838,
+      "k1_auc": 0.5540763453392726
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.549025658733478
+    },
+    {
+      "latent_idx": 10974,
+      "k1_auc": 0.5490018622049357
+    },
+    {
+      "latent_idx": 3991,
+      "k1_auc": 0.5443374894561127
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5442911621718234
+    },
+    {
+      "latent_idx": 5126,
+      "k1_auc": 0.5436234670225683
+    },
+    {
+      "latent_idx": 1095,
+      "k1_auc": 0.5397238741963608
+    },
+    {
+      "latent_idx": 7615,
+      "k1_auc": 0.5368527217659252
+    },
+    {
+      "latent_idx": 296,
+      "k1_auc": 0.5355778354070068
+    },
+    {
+      "latent_idx": 1625,
+      "k1_auc": 0.5343605417102516
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5334552610074134
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.533047682167489
+    },
+    {
+      "latent_idx": 3115,
+      "k1_auc": 0.5330397077988819
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5323502413575565
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.532121009904419
+    },
+    {
+      "latent_idx": 5101,
+      "k1_auc": 0.531448757973103
+    },
+    {
+      "latent_idx": 13062,
+      "k1_auc": 0.5307382797033838
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5294882024912435
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5291112553529532
+    },
+    {
+      "latent_idx": 7536,
+      "k1_auc": 0.5274801805295791
+    },
+    {
+      "latent_idx": 4127,
+      "k1_auc": 0.5273419581403873
+    },
+    {
+      "latent_idx": 15999,
+      "k1_auc": 0.5261083359745793
+    },
+    {
+      "latent_idx": 2579,
+      "k1_auc": 0.5247926917316683
+    },
+    {
+      "latent_idx": 6221,
+      "k1_auc": 0.5240534804195075
+    },
+    {
+      "latent_idx": 2464,
+      "k1_auc": 0.5236076752411805
+    },
+    {
+      "latent_idx": 7540,
+      "k1_auc": 0.5226718894139877
+    },
+    {
+      "latent_idx": 1836,
+      "k1_auc": 0.5224798716810173
+    },
+    {
+      "latent_idx": 443,
+      "k1_auc": 0.5218752120169432
+    },
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.5194646743065338
+    },
+    {
+      "latent_idx": 5801,
+      "k1_auc": 0.5188716597521719
+    },
+    {
+      "latent_idx": 16132,
+      "k1_auc": 0.5186326818485144
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5185063577235937
+    },
+    {
+      "latent_idx": 357,
+      "k1_auc": 0.5176522142416655
+    },
+    {
+      "latent_idx": 13115,
+      "k1_auc": 0.5171661574884636
+    },
+    {
+      "latent_idx": 8362,
+      "k1_auc": 0.516946672485846
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5167306050697745
+    },
+    {
+      "latent_idx": 1821,
+      "k1_auc": 0.5164112505936475
+    },
+    {
+      "latent_idx": 2107,
+      "k1_auc": 0.5158681074874005
+    },
+    {
+      "latent_idx": 15415,
+      "k1_auc": 0.5153615452149231
+    },
+    {
+      "latent_idx": 12726,
+      "k1_auc": 0.5148947282082025
+    },
+    {
+      "latent_idx": 12193,
+      "k1_auc": 0.5148273890955193
+    },
+    {
+      "latent_idx": 9314,
+      "k1_auc": 0.5144614541805437
+    },
+    {
+      "latent_idx": 8917,
+      "k1_auc": 0.5142427286416031
+    },
+    {
+      "latent_idx": 8424,
+      "k1_auc": 0.5141652633465614
+    },
+    {
+      "latent_idx": 4380,
+      "k1_auc": 0.5136703461837963
+    },
+    {
+      "latent_idx": 14764,
+      "k1_auc": 0.5133230181289042
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.513108596217466
+    },
+    {
+      "latent_idx": 2149,
+      "k1_auc": 0.5128164558564269
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5126645631210515
+    },
+    {
+      "latent_idx": 7924,
+      "k1_auc": 0.5118268746854555
+    },
+    {
+      "latent_idx": 2411,
+      "k1_auc": 0.5115608092439893
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5114992926861622
+    },
+    {
+      "latent_idx": 805,
+      "k1_auc": 0.5113239831540831
+    },
+    {
+      "latent_idx": 7831,
+      "k1_auc": 0.5112572769277973
+    },
+    {
+      "latent_idx": 11431,
+      "k1_auc": 0.5110782966546131
+    },
+    {
+      "latent_idx": 10029,
+      "k1_auc": 0.5109295683512246
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.5105608487361004
+    },
+    {
+      "latent_idx": 8380,
+      "k1_auc": 0.510545912617122
+    },
+    {
+      "latent_idx": 4537,
+      "k1_auc": 0.5090973622307574
+    },
+    {
+      "latent_idx": 10190,
+      "k1_auc": 0.5090555917285292
+    },
+    {
+      "latent_idx": 6071,
+      "k1_auc": 0.508821170606933
+    },
+    {
+      "latent_idx": 6547,
+      "k1_auc": 0.5082885334148829
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5073918599670494
+    },
+    {
+      "latent_idx": 14453,
+      "k1_auc": 0.5070422535211268
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5069706107809413
+    },
+    {
+      "latent_idx": 11661,
+      "k1_auc": 0.5065546778405713
+    },
+    {
+      "latent_idx": 10224,
+      "k1_auc": 0.5062906376355769
+    },
+    {
+      "latent_idx": 10765,
+      "k1_auc": 0.506036217303823
+    },
+    {
+      "latent_idx": 15922,
+      "k1_auc": 0.5055450974594421
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5050965075809664
+    },
+    {
+      "latent_idx": 1073,
+      "k1_auc": 0.5050286621591653
+    },
+    {
+      "latent_idx": 3264,
+      "k1_auc": 0.504786266668962
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5046618412032335
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5045139989408014
+    },
+    {
+      "latent_idx": 1496,
+      "k1_auc": 0.5044989362445432
+    },
+    {
+      "latent_idx": 15539,
+      "k1_auc": 0.5043019819976731
+    },
+    {
+      "latent_idx": 698,
+      "k1_auc": 0.5040304737331893
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5039476921924096
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.503675424464249
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5030703850683366
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5030469682716329
+    },
+    {
+      "latent_idx": 134,
+      "k1_auc": 0.5017547408254256
+    },
+    {
+      "latent_idx": 2947,
+      "k1_auc": 0.5007709822093102
+    },
+    {
+      "latent_idx": 15029,
+      "k1_auc": 0.5001818915506122
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5000458209751717
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11763,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4582,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14642,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11878,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2011,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.4997698825059062
+    }
+  ]
+}

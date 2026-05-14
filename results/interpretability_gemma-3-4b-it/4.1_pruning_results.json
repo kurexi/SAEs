@@ -1,0 +1,104 @@
+{
+  "66_living-room": {
+    "task_description": "Classify whether the phrase 'living room' appears in an English sentence.",
+    "ood_transform": "Sentences are translated to French.",
+    "ranked_latent_idxs": [
+      7686,
+      3153,
+      4646,
+      11672,
+      14438,
+      134,
+      11579,
+      13436
+    ],
+    "ood_auc_by_k_diff_order": {
+      "1": 0.6908222222222222,
+      "2": 0.6908222222222222,
+      "3": 0.7204444444444443,
+      "4": 0.6622666666666667,
+      "5": 0.6596444444444445,
+      "6": 0.7083555555555555,
+      "7": 0.7246444444444444,
+      "8": 0.7299555555555555
+    },
+    "latent_descriptions": {
+      "14438": "Activates on the exact English bigram 'living room' at the end of real estate property listing descriptions. It is a strong surface-level token detector for this specific phrase in housing/rental contexts.",
+      "134": "Activates on the phrase 'the living room' in narrative fiction and first-person prose, where characters move into, sit in, or interact within a living room setting.",
+      "11672": "Activates on text fragments ending with the word 'room' or 'living' across diverse contexts, including 'living room', 'hotel room', 'sitting room', and 'living men'. Acts as a broad word-ending detector rather than a specific concept detector.",
+      "3153": "Activates on text ending with 'room' in indoor/domestic contexts (sitting room, living room, hotel room, blue room) and on the word 'living' in spatial/habitation contexts (living spaces, living men). Captures a general indoor-room concept.",
+      "4646": "Activates on text fragments ending with the word 'room' in a variety of domestic and social contexts, including 'living room', 'sitting room', 'hotel room', and 'everyone in the room'. Also weakly activates on 'living standards'.",
+      "13436": "Activates on the standalone word 'room' or 'Room' (often capitalized) in non-domestic contexts, particularly 'room temperature' in scientific/cooking protocols and 'Room' as a proper noun reference. This is a spurious correlate for the living-room detection task.",
+      "7686": "Activates on text about domestic and residential living spaces broadly, including 'living room', 'sitting room', 'hotel room', 'living areas', and descriptions of home interiors. Captures a general habitation/interior-space concept.",
+      "11579": "Activates broadly on the word 'living' across many contexts—'living room', 'living spaces', 'living standards', 'living voice', 'living areas'—and also on standalone 'room'. It is a general 'living' word detector, not specific to the living-room concept."
+    }
+  },
+  "7_hist_fig_ispolitician": {
+    "task_description": "Classify whether a named historical figure is a politician.",
+    "ood_transform": "Names are replaced with syntactical alterations or cartoon characters.",
+    "ranked_latent_idxs": [
+      6340,
+      6226,
+      7540,
+      8691,
+      1647,
+      9688,
+      11011,
+      9470
+    ],
+    "ood_auc_by_k_diff_order": {
+      "1": 0.5117076210826211,
+      "2": 0.5730279558404558,
+      "3": 0.5594061609686609,
+      "4": 0.588363603988604,
+      "5": 0.6528445512820513,
+      "6": 0.6606570512820513,
+      "7": 0.6559383903133903,
+      "8": 0.6551371082621082
+    },
+    "latent_descriptions": {
+      "7540": "Activates on names of European royalty and nobility following the '[FirstName] of [Place/Dynasty]' pattern, such as 'Sophia of Bavaria' and 'Catherine of Portugal'. Captures a specific aristocratic naming convention.",
+      "6226": "Activates on Central and Eastern European personal names containing diacritical marks and Germanic or Slavic naming patterns (e.g., 'István Gulyás', 'Wolfgang Windgassen', 'Stanisław Kazimierczyk').",
+      "9688": "Activates on European personal names with a scholarly or academic tone, often from the Renaissance or early modern period (e.g., 'Michael Alberti', 'Alexander Guagnini', 'Christian Ehregott Weinlig').",
+      "11011": "Activates on formal multi-part Germanic historical names, particularly those suggesting nobility or academic distinction (e.g., 'Karl Friedrich Stäudlin', 'Johann Heinrich Meibom', 'Friedrich von Bieberstein').",
+      "8691": "Activates on short Chinese personal names consisting of a common monosyllabic surname followed by a one- or two-character given name (e.g., 'Gao Xiang', 'Li Zhong', 'Wang Ji'). Not discriminative for politician status (AUC ≈ 0.5).",
+      "1647": "Activates on diverse European personal names spanning multiple regions and periods, with a slight bias toward Latinate and continental naming conventions (e.g., 'Peter Nigri', 'Nicole de Savigny', 'Clara Immerwahr').",
+      "9470": "Activates on relatively short European personal names, often Germanic or Italian, covering a broad mix of historical periods (e.g., 'Franz Beer', 'Kurt Tank', 'Carlo Conti').",
+      "6340": "Activates on classical Chinese historical names, particularly from ancient dynasties (e.g., 'Xiahou Ying', 'Guan Ning', 'Dugu Ji'). Notably shows improved OOD performance, suggesting it captures some structural pattern beyond surface name matching."
+    }
+  },
+  "90_glue_qnli": {
+    "task_description": "Classify whether a sentence entails the answer to a given question (QNLI).",
+    "ood_transform": "Sentences are from the GLUE-X OOD split (harder distribution).",
+    "ranked_latent_idxs": [
+      4160,
+      14557,
+      3349,
+      13463,
+      4353,
+      14864,
+      15967,
+      238
+    ],
+    "ood_auc_by_k_diff_order": {
+      "1": 0.51,
+      "2": 0.4889555555555556,
+      "3": 0.486,
+      "4": 0.4889333333333334,
+      "5": 0.525,
+      "6": 0.5034666666666667,
+      "7": 0.4692,
+      "8": 0.4692
+    },
+    "latent_descriptions": {
+      "4160": "Activates on question-sentence pairs where the sentence is topically related to the question but does not directly answer it (non-entailment). The questions ask for specific facts (counts, names, causes) but the paired sentences discuss tangentially related information.",
+      "14557": "Activates on question-sentence pairs where the sentence directly and explicitly answers the question with a specific fact (clear entailment). Examples include geographic, historical, and definitional questions paired with sentences containing the precise answer.",
+      "13463": "Activates on question-sentence pairs exhibiting non-entailment, where the sentence discusses a related topic area but fails to provide the specific information the question requests. Similar to latent 4160 but with weaker activation strength.",
+      "14864": "Activates on question-sentence pairs where the sentence provides tangentially related information without addressing the question, often involving cultural references, fictional works, or indirect associations. Represents a specific subtype of non-entailment.",
+      "3349": "Activates on question-sentence pairs where the sentence provides a direct, factual answer to a knowledge-based question about events, dates, organizations, or processes (entailment). Covers diverse domains including science, history, and sports.",
+      "15967": "Activates on question-sentence pairs where the answer is absent from the sentence, particularly for questions about specific names, processes, or cultural details. Nearly identical activation pattern to latents 14864 and 238, suggesting a shared surface feature.",
+      "4353": "Activates on question-sentence pairs exhibiting clear entailment, where the sentence contains specific dates, numerical values, or named entities that directly answer the question. Strongest ID AUC among all latents but significant OOD drop.",
+      "238": "Activates on question-sentence pairs where the sentence discusses a related subject but provides a different aspect or fact than what the question asks (non-entailment). Shares nearly identical top-activating examples with latents 14864 and 15967."
+    }
+  }
+}

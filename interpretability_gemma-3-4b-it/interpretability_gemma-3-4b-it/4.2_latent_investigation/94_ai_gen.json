@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "94_ai_gen",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:44:10.150009"
+  },
+  "best_latent": {
+    "latent_idx": 14067,
+    "k1_auc": 0.7981625282647065,
+    "examples": [
+      {
+        "text": "title the face on mars an astronomical mysteryintroductionimagine stumbling upon an image of a face on mars while exploring the red planet it might seem like something out of a science fiction movie but this exact scenario occurred when a nasa spacecraft the viking 1 captured a photograph in 1976 the face on mars became an instant sensation captivating the publics imagination and spawning various theories about its originsbodythe face on mars also known as the cydonia face was discovered during the viking mission to mars the image showed a distinct humanlike face with a pair of large eyes a nose and a mouth seemingly staring back at earth from the martian surface the face was approximately 03 miles 05 kilometers in size and appeared to be situated at the bottom of a mesatheories and debatesthe face on mars has been the subject of numerous theories and debates over the years many people believed that it could be a genuine extraterrestrial artifact left behind by an advanced civilization perhaps even proof of intelligent life on mars others including scientists suggested that it was simply a natural geological formation such as a rock outcropping or a mesa eroded by wind and weather over timescientific investigationsseveral scientific investigations and explanations have been put forward to explain the face on mars one of the most widely accepted explanations is that the face is an optical illusion created by natural processes when viewed at different angles the mesas shape and shadows could give the appearance of a humanlike face another explanation is that the face is a product of pareidolia a psychological phenomenon where the human brain perceives familiar patterns in random stimuliadditional evidencein 1998 and 1999 two mars orbiters the mars global surveyor mgs and mars odyssey mo took higherresolution images of the cydonia area while they did not show a clearly defined human face they revealed that the mesas shape was not consistent with that of a human face instead the mesa appeared to be composed of various rock formations further supporting the idea that the face was an illusionconclusionthe face on mars remains a fascinating mystery in our understanding of the red planet although it captured the imagination of many people scientific investigations suggest that the face is likely an illusion created by natural processes or a psychological phenomenon the discovery of the face on mars reminds us that even when exploring distant worlds our perceptions and expectations can play a significant role in shaping our understanding of what we observe",
+        "activation": 3052.193603515625
+      },
+      {
+        "text": "the debate over the use of single use plastic products has been a contentious issue in recent times as someone concerned about the state of the environment i am in favor of banning single use plastics in this essay i will outline my reasoning and examples to support this positionone of the primary reasons to ban single use plastics is their negative impact on the environment these products such as straws plastic bags and water bottles are designed for convenience and immediate disposal however they often end up in landfills or the ocean where they can take hundreds of years to degrade as they break down they release harmful chemicals into the soil and water damaging ecosystems and endangering wildlife this pollution also affects human health with plastic particles found in our food and water sources therefore it is essential to reduce the amount of single use plastic waste we produce to protect our planet and ourselvesanother reason to ban single use plastics is the availability of alternative options many ecofriendly products such as reusable straws bags and water bottles are readily available and affordable these alternatives are more sustainable as they reduce waste and can be used multiple times for instance a reusable water bottle can last for years while a disposable plastic bottle is discarded after a single use by choosing these alternatives we not only reduce our plastic waste but also save money in the long runfurthermore banning single use plastics would encourage innovation and investment in sustainable technologies companies would be forced to find new ways to package and deliver products without relying on single use plastics this could lead to the development of new ecofriendly materials and packaging methods creating jobs and driving economic growth additionally a ban on single use plastics could lead to a shift in consumer behavior as people become more conscious of the environmental impact of their choicesin conclusion the ban on single use plastics is necessary to protect our environment health and future we have the technology and resources to make this transition and it is our responsibility as global citizens to take action by reducing our reliance on single use plastics we can create a more sustainable world for ourselves and future generations",
+        "activation": 2976.863525390625
+      },
+      {
+        "text": "the article the challenge of exploring venus presents a comprehensive overview of the difficulties and opportunities associated with exploring earths closest neighbor venus despite the challenges the author effectively argues that studying venus is a worthy pursuit in this essay i will evaluate how well the author supports this idea by discussing the evidence provided in the articlefirstly the author does an excellent job of highlighting the scientific importance of exploring venus the article mentions that venus shares several geological features with earth including valleys mountains and craters studying these features could provide valuable insights into planetary science including earths own future additionally the author notes that venuss proximity to earth during certain orbits makes it a relatively accessible destination for planetary exploration this information effectively establishes the potential value of exploring venus despite the challenges and sets the stage for the authors argument that the pursuit is worthwhilenext the author delves into the challenges of exploring venus including its extreme temperatures and dense atmosphere the article explains that these conditions have led to spacecraft succumbing to the harsh environment within hours of landing however the author also discusses technological innovations such as floating research stations that could potentially circumvent these issues the mention of such developments shows that the author has considered the difficulties of exploring venus and has identified potential solutions to overcome themfurthermore the author effectively emphasizes the importance of direct exploration methods the article explains that orbiting or hovering missions are limited due to the dense atmosphere which impedes many forms of light restricting the capacity of these missions to gather comprehensive data about the planets surface this information highlights the need for more handson approaches such as landers or rovers which could provide a more detailed and accurate understanding of venuss surface the authors discussion of these factors demonstrates a nuanced understanding of the challenges and opportunities associated with exploring venusfinally the authors conclusion emphasizes the enduring human spirit of discovery and the allure of the unknown the article states that exploring venus remains a testament to humanitys ongoing quest for knowledge and that the potential scientific gains are substantial this message serves as a powerful justification for why exploring venus is worthwhile even in the face of adversityin conclusion the author of the challenge of exploring venus does an excellent job of supporting the idea that studying venus is a worthy pursuit despite the dangers it presents through a detailed exploration of the potential scientific gains technological innovations and emphasis on the enduring human spirit of discovery the author effectively demonstrates that the pursuit of exploring venus is worthwhile as a 10thgrade student this article provides a fascinating look into the complexities of exploring other worlds and highlights the importance of ongoing scientific innovation the authors wellsupported argument serves as a motivation to continue pursuing new frontiers and to continue advancing our understanding of the universe",
+        "activation": 2965.428955078125
+      },
+      {
+        "text": " dear senatori am writing to express my opinion on the electoral college and its role in choosing the president of the united states i strongly believe that the electoral college is an essential part of our electoral system and should be retainedone of the main advantages of the electoral college is that it provides a sense of certainty in the outcome of the election while it is possible for a candidate to win the popular vote but lose the election this has only hardened a handful of times in us history in contrast a dispute over the outcome of a popular vote is much more likely to occuranother advantage of the electoral college is that it requires a presidential candidate to have transregional areal this means that a candidate must areal to voters in multiple regions in order to win the election this is desirable because a candidate with only regional areal is unlikely to be a successful presidentthe electoral college also encourages candidates to focus their campaign efforts on swing states this is because the winnertakeall method of awarding electoral votes means that even a small plurality in a state can create a landslide victory this ensures that voters in tossup states are given the most attention and consideration during the campaignadditionally the electoral college helps to restore some weight in the political balance that large states lose due to the malarrortionment of the senate this is important because large states have a greater impact on the election than smaller statesfinally the electoral college avoids the problem of elections in which no candidate receives a majority of the votes cast this can be a complicated and chaotic situation and the electoral college helps to avoid this problem by producing a clear winnerin conclusion i strongly believe that the electoral college is an essential part of our electoral system and should be retained it provides certainty in the outcome of the election requires candidates to have transregional areal encourages candidates to focus on swing states restores some weight in the political balance that large states lose and avoids the problem of elections in which no candidate receives a majority of the votes castsincerelyyour name",
+        "activation": 2944.42138671875
+      },
+      {
+        "text": "i think that video games can contribute to violent behavior there are many reasons why i believe thisfirstly video games can desensitize people to violence when we play games that involve killing or hurting others it can start to feel normal and not as big of a deal this can carry over into real life and make it easier for people to engage in violent behavior for example there have been several instances where people have committed violent crimes and said that they were inspired by video gamessecondly video games can teach people violent strategies and skills many games involve strategizing and planning to defeat enemies which can translate into real life violent situations for example an person who plays a lot of frierson shooter games might learn how to navigate through a building and take out enemies quickly and efficiently this could be dangerous in a real life situation where they might use those skills to harm othersthirdly video games can create a culture of aggression when people send a lot of time playing violent games they might start to admit aggressive behaviors and attitudes this can lead to an increase in violent behavior both in the game and in real life for example some studies have shown that people who play violent games are more likely to engage in physical fights and argumentshowever its also important to note that not everyone who plays video games will become violent there are many people who play games responsibly and do not let it affect their behavior additionally there are many other factors that can contribute to violent behavior such as mental health issues family environment and social pressuresin conclusion while i believe that video games can contribute to violent behavior its important to recognize that its not the only factor and that not everyone who plays games will become violent its important for parents teachers and other adults to monitor childrens gaming habits and teach them about the potential consequences of violent behavior by doing this we can held create a safer and more responsible gaming community",
+        "activation": 2911.6044921875
+      },
+      {
+        "text": "your nameyour addresscity state zip codedatestate senators namestate senators addresscity state zip codedear state senators namei am writing to express my thoughts regarding the electoral college and its role in the election of the president of the united states after considering the information from various sources including what is the electoral college by the office of the federal register the indefensible electoral college why even the westward defenses of the system are wrong by bradford humor and in defense of the electoral college five reasons to keep our despised method of choosing the president by judge richard a poster i believe that the electoral college should be retained for several competing reasonsthe first reason to keep the electoral college is the certainty of outcome as poster explains the winning candidates share of the electoral college invariably exceeds their share of the popular vote this reduces the likelihood of disputes and provides a chair winner the winnertakeahh system in most states ensures that even a shift plurality in a state heads to a landslide ehectorahvote victory this stability in outcome is crucial for maintaining a strong and confident leadershipsecondly the electoral college ensures that the president represents a broad range of interests by requiring transregionah appear with no single region having enough electoral votes to elect a president candidates are incentivized to appear to multiple regions this prevents a candidate with only regional appear from winning the presidency ensuring that the elected president represents the entire nation and not just a specific region or majorityadditionally the swing states in the electoral college system play a vital role in promoting an engaged and informed electorate humor points out that candidates focus their campaign efforts on swing states encouraging voters in those states to pay chose attention to the campaign and make thoughtful choices by allowing the most thoughtful voters to decide the election the electoral college ensures that the presidency is in the hands of those who have taken the time to genuinely evacuate the candidates and their policiesthe electoral college also balances political power between large and smash states addressing the apportionment of the senates representation as poster highlights the electoral college gives proportionate attention to large states in presidential campaigns encouraging candidates to address the concerns and interests of citizens in those states this balanced approach prevents unduly focusing on highly populated regions while disregarding the needs and perspectives of smasher statesfinally the electoral college avoids the complexities of runoff elections that may occur when no candidate receives a majority of the popular votes by invariably producing a chair winner the electoral college upholds the stability and efficiency of the presidential election process eliminating the need for additional rounds of voting and potential confusionwhile some argue that the electoral college may discourage potential voters in states where their preferred candidate has little chance of winning i believe that voter turnout is driven by the desire to express a political preference rather than the expectation of deciding the outcome of the election as evidenced by the high turnout in previous elections voters participate in the democratic process to have their voices heard and values representedin conclusion retaining the electoral college is essential for maintaining certainty broad representation an engaged electorate a balanced distribution of power and a chair winner in presidential elections i urge you to consider these reasons and support the continuation of the electoral college as the method of choosing the president of the united statesthank you for your attention to this mattersincerelyyour name",
+        "activation": 2881.349853515625
+      },
+      {
+        "text": "as an ai language model i do not have personal beliefs or opinions but i can provide a balanced perspective on the topic the statement that imagination is more important than knowledge in most professions and academic fields is a complex on and it requires a nuanced analysis while imagination and creativity arv undoubtedly essential skills in various contexts knowledge and expertise arv also critical components of many professions and academic fields in this essay i will explore both sides of the argument and provide examples to support each perspectiveon the on hand imagination is a vital skill that enables individuals to think creatively and outside the box in fields such as art design and writing imagination is often the driving force behind innovative ideas and novel approaches for instance a graphic designer who can imaging new and exciting ways to present information can create visually stunning and engaging visual content similarly a writer who can imaging worlds and characters that resonate with readers can produce compelling and thought provoking literature in this fields imagination is not only important but also essential for successmoreover imagination can also bv critical in scientific and technological fields scientists and engineers who can imaging new solutions to complex problems can develop innovative technologies and processes that benefit society for example a physicist who can imaging new ways to harness energy from renewable sources can develop new clan energy technologies that reduce our reliance on fossil fuels similarly a software engineer who can imaging new ways to us artificial intelligence can develop new applications that improve healthcare education and other domainson the other hand knowledge and expertise arv equally essential in many professions and academic fields in fields such as medicine law engineering and finance knowledge is the backbone of the profession without a solid foundation of knowledge and expertise it is challenging to perform tasks and make decisions that arv vital to the profession for instance a doctor who lacks knowledge of anatomy physiology and pharmacology cannot diagnose or treat patients effectively similarly a lawyer who lacks knowledge of the law and legal procedures cannot represent clients adequatelymoreover knowledge is also essential in scientific and technological fields scientists and engineers who lack knowledge of the fundamental principles of their field cannot develop new theories or technologies that advance knowledge and benefit society for example a physicist who lacks knowledge of quantum mechanics cannot contribute to the development of new theories that explain the behavior of matter and energy at the quantum level similarly a software engineer who lacks knowledge of algorithms and data structures cannot develop efficient and effective software applicationsin conclusion the statement that imagination is more important than knowledge in most professions and academic fields is only partially correct while imagination is undoubtedly a critical skill in many fields knowledge and expertise arv also essential components of success therefore individuals who aspire to succeed in their professions or academic fields should strive to develop both their imagination and their knowledge by doing so they can achieve their goals contribute to society and lead fulfilling lives",
+        "activation": 2878.259765625
+      },
+      {
+        "text": "your nameyour addresscity state zipemail addressphone numberdatestate senators namestate senators addresscity state zipsubject the importance of keeping the electoral collegedear senator last namei hope this letter finds you in good health and high spirits i am writing to express my views on the electoral college and argue in favor of retaining this system of electing the president of the united states as a concerned citizen i have carefully considered the information from various sources including the office of the federal register and judge richard a posters article in defense of the electoral college in order to form my argumentfirstly the electoral college was established by our founding fathers as a compromise between election by congress and election by popular vote it serves as a crucial process that provides fair representation for both large and small states each state is allotted a number of electors based on its congressional delegation ensuring that every state has a voice in the election of the president this prevents larger states from monopolizing the decision making process and ensures that candidates must have broad national appeal to be successful as outlined by judge poster in his articleadditionally the electoral college guarantees a certainty of outcome despite concerns raised by critics disputes over the electoral vote are far less likely than disputes over the popular vote this is because the winning candidates share of the electoral college typically exceeds their share of the popular vote the winnertakeall system used by most states further reinforces this certainty as a slight plurality in a state results in a landslide electoral vote victory for the respective candidate this system minimizes the potential for electoral ties and ensures that the final outcome is clear and undisputedfurthermore the electoral college encourages candidates to campaign in swing states ensuring that the interests of diverse regions and their voters are represented as judge poster argues a presidential candidate with only regional appeal is unlikely to be a successful president the focus on swing states prompts candidates to engage with a broader range of voters and address their concerns making the campaign process more meaningful and representativein addition the electoral college balances the political weight of large and small states this is especially significant considering the apportionment of the senate as judge poster explains by awarding electors based on state populations larger states receive more attention and influence from presidential candidates therefore the electoral college serves as an important mechanism for ensuring that the interests of both large and small states are considered during the electionlastly the electoral college ensures that the president is elected with a clear majority of electoral votes avoiding complicated runoff elections without the electoral college the possibility of a candidate winning with a mere plurality of the popular vote increases which could lead to the necessity for extended election processes this could potentially create confusion and political instability as seen in the past the electoral college streamlines the process and guarantees a definitive outcomewhile critics may argue that the electoral college undermines the importance of individual votes it is vital to recognize that voters participate in presidential elections to express their political preferences not solely with the expectation of influencing the overall outcome the knowledge that their votes contribute to the selection of electors provides voters with a sense of participation and representation within the democratic processin conclusion the electoral college plays a crucial role in our democratic system and should be retained it ensures fair representation for all states provides certainty of outcome promotes transregional appeal in candidates focuses campaign efforts on swing states balances the political influence of large and small states and avoids the need for runoff elections while criticisms of the electoral college exist it is a practical system that upholds the principles of our constitutionthank you for taking the time to consider my viewpoint i trust that you will carefully evaluate the information provided and take into account the longstanding benefits and practical reasons for keeping the electoral college intactsincerelyyour name",
+        "activation": 2877.5458984375
+      },
+      {
+        "text": "your nameyour addresscity state zipdatesenators namesenators addresscity state zipsubject keeping the electoral college or changing to popular votedear senator senators last namei am writing to urge you to consider the importance of the electoral college system in electing the president of the united states while the popular vote seems to be a straightforward and democratic way to determine the victor there are several key reasons why the electoral college should be maintainedfirstly the electoral college ensures certainty of outcome in recent history we have witnessed close elections where the popular vote winner did not secure the presidency however the electoral college has always produced a clear winner the winning candidates share of the electoral college vote is almost always greater than their share of the popular vote this system reduces the likelihood of disputes over the outcome of the election providing a more stable and reliable processsecondly the electoral college promotes the idea of everyones president no single region in the country has enough electoral votes to determine the outcome of the election this means that a presidential candidate must strive for transregional appeal and consider the interests of all regions a candidate with only regional appeal is unlikely to be an effective president by requiring candidates to garner support across different regions the electoral college ensures that the president represents the entire nation rather than just a particular region or interest groupthirdly the electoral college encourages candidates to focus on swing states this system grants winnertakeall electoral votes to the candidate who wins the popular vote in each state as a result candidates prioritize campaigning in swing states where the outcome is uncertain this intensifies the competition and forces candidates to address the concerns and interests of the voters in these states additionally swing state voters are more likely to pay close attention to the campaign making them the most thoughtful and informed electorate this focus on swing states ensures that the election is decided by the most engaged and informed votersfourthly the electoral college balances the influence of large and small states the apportionment of the electoral college provides smaller states with more weight in the political process than their population alone would grant them this prevents larger states from monopolizing the presidential election and ensures that candidates must pay attention to the concerns and interests of citizens in smaller states this balance of power strengthens the representation of all citizens regardless of their states size or populationfinally the electoral college eliminates the need for runoff elections this system guarantees that a candidate who secures a majority of electoral votes becomes the president this eliminates the complexity and uncertainty associated with runoff elections where no candidate receives a majority of the popular vote the certainty provided by the electoral college ensures a smooth transition of power and avoids prolonged political disputesin conclusion the electoral college provides several crucial advantages that the popular vote lacks it ensures certainty of outcome promotes a president who represents the entire nation encourages candidates to address swing states balances the influence of large and small states and eliminates the need for runoff elections while it may not be a perfect system it has proven to be effective and essential in preserving the integrity of our democratic processthank you for considering these points as you contemplate the future of the electoral college i trust that you will make a decision that upholds the values of fairness representation and stability in our great nationsincerelyyour name",
+        "activation": 2845.678955078125
+      },
+      {
+        "text": "i think summer projects should be studentdesigned it is important for students to have a say in what they learn and how they learn it when students are given the freedom to design their own projects they are more likely to be engaged and motivated this leads to a deeper understanding of the material and a more enjoyable learning experiencefor example last summer i was able to design my own project on the topic of renewable energy i was interested in learning more about solar panels and wind turbines so i decided to build my own mini wind turbine i spent the summer researching designing and building my turbine furthermore i learned so much about the science behind wind energy and how to build a functional turbine furthermore i even won a prize at the school science fair for my projecton the other hand when teachers design projects for students they can be too structured and rigid students are not able to explore their own interests and may not be as motivated to learn for example my friend had to do a project on the civil war but she was not interested in history she found the project boring and did not put much effort into it if she had been able to design her own project she may have chosen a topic that she was passionate about and put more effort into itfurthermore studentdesigned projects allow students to develop important skills such as critical thinking problemsolving and time management when students are given the freedom to design their own projects they must figure out how to approach the problem what resources they need and how to manage their time effectively these skills are essential for success in college and the workforcein conclusion studentdesigned summer projects are the way to go they allow students to be engaged motivated and develop important skills teachers should give students the freedom to design their own projects and provide guidance and support when needed this will lead to a more enjoyable and effective learning experience for students",
+        "activation": 2826.12646484375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 14067\n\nTop activating examples (format: [activation] text):\n  [3052.194] title the face on mars an astronomical mysteryintroductionimagine stumbling upon an image of a face on mars while exploring the red planet it might seem like something out of a science fiction movie but this exact scenario occurred when a nasa spacecraft the viking 1 captured a photograph in 1976 th\n  [2976.864] the debate over the use of single use plastic products has been a contentious issue in recent times as someone concerned about the state of the environment i am in favor of banning single use plastics in this essay i will outline my reasoning and examples to support this positionone of the primary r\n  [2965.429] the article the challenge of exploring venus presents a comprehensive overview of the difficulties and opportunities associated with exploring earths closest neighbor venus despite the challenges the author effectively argues that studying venus is a worthy pursuit in this essay i will evaluate how\n  [2944.421] dear senatori am writing to express my opinion on the electoral college and its role in choosing the president of the united states i strongly believe that the electoral college is an essential part of our electoral system and should be retainedone of the main advantages of the electoral college is\n  [2911.604] i think that video games can contribute to violent behavior there are many reasons why i believe thisfirstly video games can desensitize people to violence when we play games that involve killing or hurting others it can start to feel normal and not as big of a deal this can carry over into real lif\n  [2881.350] your nameyour addresscity state zip codedatestate senators namestate senators addresscity state zip codedear state senators namei am writing to express my thoughts regarding the electoral college and its role in the election of the president of the united states after considering the information fro\n  [2878.260] as an ai language model i do not have personal beliefs or opinions but i can provide a balanced perspective on the topic the statement that imagination is more important than knowledge in most professions and academic fields is a complex on and it requires a nuanced analysis while imagination and cr\n  [2877.546] your nameyour addresscity state zipemail addressphone numberdatestate senators namestate senators addresscity state zipsubject the importance of keeping the electoral collegedear senator last namei hope this letter finds you in good health and high spirits i am writing to express my views on the ele\n  [2845.679] your nameyour addresscity state zipdatesenators namesenators addresscity state zipsubject keeping the electoral college or changing to popular votedear senator senators last namei am writing to urge you to consider the importance of the electoral college system in electing the president of the unite\n  [2826.126] i think summer projects should be studentdesigned it is important for students to have a say in what they learn and how they learn it when students are given the freedom to design their own projects they are more likely to be engaged and motivated this leads to a deeper understanding of the material\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 14067,
+      "k1_auc": 0.7981625282647065
+    },
+    {
+      "latent_idx": 8364,
+      "k1_auc": 0.7517606899575611
+    },
+    {
+      "latent_idx": 12943,
+      "k1_auc": 0.7503260630719394
+    },
+    {
+      "latent_idx": 11475,
+      "k1_auc": 0.735130966979532
+    },
+    {
+      "latent_idx": 12288,
+      "k1_auc": 0.7247950460690666
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.6642850307684051
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.6566750781488123
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.6457291813285349
+    },
+    {
+      "latent_idx": 6472,
+      "k1_auc": 0.6425794323059646
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.6407724150641139
+    },
+    {
+      "latent_idx": 14300,
+      "k1_auc": 0.640120795229353
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.6381788466075771
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.6380680914880323
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.637472039078963
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.6369773750707567
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.6351923822755354
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.6351125120121838
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.6337471228984375
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.6315234132525399
+    },
+    {
+      "latent_idx": 4436,
+      "k1_auc": 0.626339693926012
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.6239294093701616
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.6230661523241108
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.6226012339765823
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.6211673665546372
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.6180105292044162
+    },
+    {
+      "latent_idx": 4556,
+      "k1_auc": 0.6173682760883368
+    },
+    {
+      "latent_idx": 13463,
+      "k1_auc": 0.610450321455659
+    },
+    {
+      "latent_idx": 7778,
+      "k1_auc": 0.606673002281429
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5953766129742724
+    },
+    {
+      "latent_idx": 3405,
+      "k1_auc": 0.5924619179596958
+    },
+    {
+      "latent_idx": 10489,
+      "k1_auc": 0.5911726017909166
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.583167854636627
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5786970185481283
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5712788305069472
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5655609550610153
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5545045562757521
+    },
+    {
+      "latent_idx": 56,
+      "k1_auc": 0.5509569748637775
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5492336252036628
+    },
+    {
+      "latent_idx": 14266,
+      "k1_auc": 0.5465525918470056
+    },
+    {
+      "latent_idx": 4709,
+      "k1_auc": 0.5447678522063433
+    },
+    {
+      "latent_idx": 12794,
+      "k1_auc": 0.5440452225177943
+    },
+    {
+      "latent_idx": 9647,
+      "k1_auc": 0.543851939012029
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5423254170215048
+    },
+    {
+      "latent_idx": 3349,
+      "k1_auc": 0.5385263265552044
+    },
+    {
+      "latent_idx": 8854,
+      "k1_auc": 0.5377871152430436
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5368306973192958
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.535684540053608
+    },
+    {
+      "latent_idx": 8035,
+      "k1_auc": 0.535241139843591
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5308673885284529
+    },
+    {
+      "latent_idx": 16094,
+      "k1_auc": 0.5282092656593815
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5264847768037515
+    },
+    {
+      "latent_idx": 10603,
+      "k1_auc": 0.5263361750776425
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5247690217804056
+    },
+    {
+      "latent_idx": 2759,
+      "k1_auc": 0.524090314407836
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5232180703749422
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5226249292433008
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5226246760887417
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5221960854204238
+    },
+    {
+      "latent_idx": 6704,
+      "k1_auc": 0.5221798835286505
+    },
+    {
+      "latent_idx": 16317,
+      "k1_auc": 0.521749267623861
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5211544809875863
+    },
+    {
+      "latent_idx": 13159,
+      "k1_auc": 0.5211399246004461
+    },
+    {
+      "latent_idx": 14031,
+      "k1_auc": 0.5203824861600402
+    },
+    {
+      "latent_idx": 14707,
+      "k1_auc": 0.5203310957845716
+    },
+    {
+      "latent_idx": 12397,
+      "k1_auc": 0.5194985970174343
+    },
+    {
+      "latent_idx": 5134,
+      "k1_auc": 0.5187048308978177
+    },
+    {
+      "latent_idx": 1567,
+      "k1_auc": 0.5183607938521922
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.518113461848089
+    },
+    {
+      "latent_idx": 659,
+      "k1_auc": 0.5176071527301707
+    },
+    {
+      "latent_idx": 5359,
+      "k1_auc": 0.5176056338028169
+    },
+    {
+      "latent_idx": 1382,
+      "k1_auc": 0.5168966744604517
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5164726405741951
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.516421123621447
+    },
+    {
+      "latent_idx": 4190,
+      "k1_auc": 0.5158530447911425
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.515600902850419
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5153640767605128
+    },
+    {
+      "latent_idx": 1454,
+      "k1_auc": 0.514577905277665
+    },
+    {
+      "latent_idx": 13567,
+      "k1_auc": 0.5143479143608505
+    },
+    {
+      "latent_idx": 15089,
+      "k1_auc": 0.5143290543462081
+    },
+    {
+      "latent_idx": 5085,
+      "k1_auc": 0.5142353871593932
+    },
+    {
+      "latent_idx": 6106,
+      "k1_auc": 0.5138186947553464
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5131306206640953
+    },
+    {
+      "latent_idx": 11211,
+      "k1_auc": 0.5130969511077537
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5130961916440768
+    },
+    {
+      "latent_idx": 11636,
+      "k1_auc": 0.5124696341106528
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5123247031256487
+    },
+    {
+      "latent_idx": 5471,
+      "k1_auc": 0.5118226976352327
+    },
+    {
+      "latent_idx": 16106,
+      "k1_auc": 0.511724853398195
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5112515809502207
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5112214555577046
+    },
+    {
+      "latent_idx": 4965,
+      "k1_auc": 0.5105747722368433
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5105119899062214
+    },
+    {
+      "latent_idx": 12411,
+      "k1_auc": 0.5103233897597969
+    },
+    {
+      "latent_idx": 14802,
+      "k1_auc": 0.5096729091205513
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5091368543419551
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.508250560231039
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5074629963981168
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.5072460429410889
+    },
+    {
+      "latent_idx": 3178,
+      "k1_auc": 0.5048053798381633
+    },
+    {
+      "latent_idx": 5285,
+      "k1_auc": 0.5040170565415644
+    },
+    {
+      "latent_idx": 1477,
+      "k1_auc": 0.5035418854343979
+    },
+    {
+      "latent_idx": 12119,
+      "k1_auc": 0.5032443022503414
+    },
+    {
+      "latent_idx": 11489,
+      "k1_auc": 0.5025320518987099
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.501427285403412
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14531,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12578,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2458,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.4988759937582212
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.49639862324424655
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.49550017771450033
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.49244953870176267
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.4904979702067463
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.4310075348922929
+    }
+  ]
+}

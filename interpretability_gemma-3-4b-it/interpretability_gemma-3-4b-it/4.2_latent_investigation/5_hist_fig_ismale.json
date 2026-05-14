@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "5_hist_fig_ismale",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:31:43.130335"
+  },
+  "best_latent": {
+    "latent_idx": 7540,
+    "k1_auc": 0.7570703536771712,
+    "examples": [
+      {
+        "text": "Gertrude of Bavaria",
+        "activation": 3705.9052734375
+      },
+      {
+        "text": "Sibylle of Bavaria",
+        "activation": 3702.7314453125
+      },
+      {
+        "text": "Beatrice of Burgundy",
+        "activation": 3564.23828125
+      },
+      {
+        "text": "Elisabeth of Habsburg",
+        "activation": 3525.982421875
+      },
+      {
+        "text": "Princess Auguste of Bavaria",
+        "activation": 3359.14111328125
+      },
+      {
+        "text": "Gerberge of Lorraine",
+        "activation": 3322.92431640625
+      },
+      {
+        "text": "Blanche I of Navarre",
+        "activation": 3319.59423828125
+      },
+      {
+        "text": "Adela of Flanders",
+        "activation": 3306.08154296875
+      },
+      {
+        "text": "Mafalda of Portugal",
+        "activation": 3299.30224609375
+      },
+      {
+        "text": "Anne of Bavaria",
+        "activation": 3274.860107421875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 7540\n\nTop activating examples (format: [activation] text):\n  [3705.905] Gertrude of Bavaria\n  [3702.731] Sibylle of Bavaria\n  [3564.238] Beatrice of Burgundy\n  [3525.982] Elisabeth of Habsburg\n  [3359.141] Princess Auguste of Bavaria\n  [3322.924] Gerberge of Lorraine\n  [3319.594] Blanche I of Navarre\n  [3306.082] Adela of Flanders\n  [3299.302] Mafalda of Portugal\n  [3274.860] Anne of Bavaria\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 7540,
+      "k1_auc": 0.7570703536771712
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.6716152476003479
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.6673245309805487
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.666311406435594
+    },
+    {
+      "latent_idx": 2411,
+      "k1_auc": 0.6575982062480571
+    },
+    {
+      "latent_idx": 11306,
+      "k1_auc": 0.6463785227722654
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.6421351460549912
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.6381601131702141
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.6343524154489089
+    },
+    {
+      "latent_idx": 6226,
+      "k1_auc": 0.6323012306349419
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.6200355125215309
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.6177999046113624
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.6086115333166588
+    },
+    {
+      "latent_idx": 14462,
+      "k1_auc": 0.6073114580791239
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.6053606490477844
+    },
+    {
+      "latent_idx": 10499,
+      "k1_auc": 0.5991845638501365
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5951496599121655
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5940586903403309
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5875823638357573
+    },
+    {
+      "latent_idx": 15070,
+      "k1_auc": 0.5833572142467286
+    },
+    {
+      "latent_idx": 16244,
+      "k1_auc": 0.5815443744500218
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5690104390813931
+    },
+    {
+      "latent_idx": 2876,
+      "k1_auc": 0.5638277323731012
+    },
+    {
+      "latent_idx": 212,
+      "k1_auc": 0.557709619569455
+    },
+    {
+      "latent_idx": 10190,
+      "k1_auc": 0.5551621252426486
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.5503958577838445
+    },
+    {
+      "latent_idx": 296,
+      "k1_auc": 0.5496618361401422
+    },
+    {
+      "latent_idx": 2340,
+      "k1_auc": 0.5468419475078959
+    },
+    {
+      "latent_idx": 16157,
+      "k1_auc": 0.5390295978184153
+    },
+    {
+      "latent_idx": 15597,
+      "k1_auc": 0.5335636111586479
+    },
+    {
+      "latent_idx": 1625,
+      "k1_auc": 0.5333480500516941
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5323726455360245
+    },
+    {
+      "latent_idx": 15400,
+      "k1_auc": 0.5285055830706433
+    },
+    {
+      "latent_idx": 6433,
+      "k1_auc": 0.5282566055619068
+    },
+    {
+      "latent_idx": 15205,
+      "k1_auc": 0.5268989376622089
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5268276746538617
+    },
+    {
+      "latent_idx": 4127,
+      "k1_auc": 0.5262245339171414
+    },
+    {
+      "latent_idx": 11413,
+      "k1_auc": 0.5250052149839146
+    },
+    {
+      "latent_idx": 7114,
+      "k1_auc": 0.5234718578202988
+    },
+    {
+      "latent_idx": 7644,
+      "k1_auc": 0.5231198464060661
+    },
+    {
+      "latent_idx": 10838,
+      "k1_auc": 0.5228964375077846
+    },
+    {
+      "latent_idx": 3264,
+      "k1_auc": 0.5227765688241174
+    },
+    {
+      "latent_idx": 13568,
+      "k1_auc": 0.5222897526072388
+    },
+    {
+      "latent_idx": 12982,
+      "k1_auc": 0.521833188360156
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5213504226162207
+    },
+    {
+      "latent_idx": 7247,
+      "k1_auc": 0.5212189088228415
+    },
+    {
+      "latent_idx": 525,
+      "k1_auc": 0.5211027108802793
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5195366967785575
+    },
+    {
+      "latent_idx": 16110,
+      "k1_auc": 0.5191078529556807
+    },
+    {
+      "latent_idx": 15539,
+      "k1_auc": 0.5187582465097581
+    },
+    {
+      "latent_idx": 6787,
+      "k1_auc": 0.5184007922725077
+    },
+    {
+      "latent_idx": 14875,
+      "k1_auc": 0.5160740487211137
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5160421512466851
+    },
+    {
+      "latent_idx": 14794,
+      "k1_auc": 0.515650774298534
+    },
+    {
+      "latent_idx": 7536,
+      "k1_auc": 0.5156047001688034
+    },
+    {
+      "latent_idx": 2281,
+      "k1_auc": 0.5153866075162601
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5152176268481549
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.515136617389288
+    },
+    {
+      "latent_idx": 2456,
+      "k1_auc": 0.5151325669163446
+    },
+    {
+      "latent_idx": 2334,
+      "k1_auc": 0.5144861367500423
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5144398094657529
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5143929758723453
+    },
+    {
+      "latent_idx": 10059,
+      "k1_auc": 0.5135471864908627
+    },
+    {
+      "latent_idx": 7795,
+      "k1_auc": 0.5133183347695636
+    },
+    {
+      "latent_idx": 273,
+      "k1_auc": 0.5129498683089984
+    },
+    {
+      "latent_idx": 1095,
+      "k1_auc": 0.5125486183330481
+    },
+    {
+      "latent_idx": 13682,
+      "k1_auc": 0.5123476136132346
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5123272346712383
+    },
+    {
+      "latent_idx": 12502,
+      "k1_auc": 0.5113127177762093
+    },
+    {
+      "latent_idx": 9384,
+      "k1_auc": 0.5111484204674448
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5109984263912615
+    },
+    {
+      "latent_idx": 1395,
+      "k1_auc": 0.510781599511513
+    },
+    {
+      "latent_idx": 8458,
+      "k1_auc": 0.510763119228709
+    },
+    {
+      "latent_idx": 919,
+      "k1_auc": 0.5098758124995569
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5093796295639971
+    },
+    {
+      "latent_idx": 8977,
+      "k1_auc": 0.5089495199683253
+    },
+    {
+      "latent_idx": 4709,
+      "k1_auc": 0.5088371193441474
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5086086473546868
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5080660105575577
+    },
+    {
+      "latent_idx": 4936,
+      "k1_auc": 0.5075518536483116
+    },
+    {
+      "latent_idx": 1999,
+      "k1_auc": 0.5072955346573655
+    },
+    {
+      "latent_idx": 14589,
+      "k1_auc": 0.5072395874998356
+    },
+    {
+      "latent_idx": 2354,
+      "k1_auc": 0.5070442787575985
+    },
+    {
+      "latent_idx": 4191,
+      "k1_auc": 0.5066235358806084
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5060233064213161
+    },
+    {
+      "latent_idx": 4707,
+      "k1_auc": 0.5057092681909272
+    },
+    {
+      "latent_idx": 410,
+      "k1_auc": 0.5055975004531467
+    },
+    {
+      "latent_idx": 9401,
+      "k1_auc": 0.505006131403418
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5043962820708853
+    },
+    {
+      "latent_idx": 7615,
+      "k1_auc": 0.5042732489552312
+    },
+    {
+      "latent_idx": 3991,
+      "k1_auc": 0.504087433508955
+    },
+    {
+      "latent_idx": 10974,
+      "k1_auc": 0.5040747757810071
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5039864248399304
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5033948026356428
+    },
+    {
+      "latent_idx": 16293,
+      "k1_auc": 0.5032724024063859
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5031786086422916
+    },
+    {
+      "latent_idx": 10472,
+      "k1_auc": 0.5027796370573719
+    },
+    {
+      "latent_idx": 875,
+      "k1_auc": 0.5027684982567777
+    },
+    {
+      "latent_idx": 6237,
+      "k1_auc": 0.5025153436978185
+    },
+    {
+      "latent_idx": 5503,
+      "k1_auc": 0.5025150905432595
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5025069895973728
+    },
+    {
+      "latent_idx": 2691,
+      "k1_auc": 0.5024935724057481
+    },
+    {
+      "latent_idx": 4339,
+      "k1_auc": 0.5024097782467325
+    },
+    {
+      "latent_idx": 8981,
+      "k1_auc": 0.501991313760773
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.501954100040606
+    },
+    {
+      "latent_idx": 11944,
+      "k1_auc": 0.5013841225511093
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5012184328922706
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5000253154558959
+    },
+    {
+      "latent_idx": 2579,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8691,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6377,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9187,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7034,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5101,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6340,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4879,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14259,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12653,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 357,
+      "k1_auc": 0.49784869255796477
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.4972579563946335
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.4967319012211164
+    },
+    {
+      "latent_idx": 2107,
+      "k1_auc": 0.49653076992402323
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.4952409474461262
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.4896738255400546
+    }
+  ]
+}

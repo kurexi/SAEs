@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "75_cell-lines",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:40:50.277698"
+  },
+  "best_latent": {
+    "latent_idx": 12030,
+    "k1_auc": 0.9775568719898263,
+    "examples": [
+      {
+        "text": " Hyperpolarized [5-(13) C]glutamine is used to measure glutamine metabolism in two prostate cancer cell lines",
+        "activation": 2125.99462890625
+      },
+      {
+        "text": " HPA3P in colon cancer cell lines, we evaluated the distribution of HPA3P in colon cancer cell lines",
+        "activation": 2119.384033203125
+      },
+      {
+        "text": "K and is expressed in glioblastoma. Here we demonstrate the biologic relevance of PTN in 2 glioblastoma cell lines",
+        "activation": 2110.6201171875
+      },
+      {
+        "text": " Liamocins from A. pullulans strains RSU 9 and RSU 21 inhibited two human breast cancer cell lines",
+        "activation": 2106.06103515625
+      },
+      {
+        "text": " an MTT assay. We found that cell viability decreased significantly with increasing HPA3P concentrations in six colon cancer cell lines",
+        "activation": 2096.58251953125
+      },
+      {
+        "text": " an excellent inhibitory profile for the enzyme hystone deacetylase (HDAC), and anticancer activity for three cancer cell lines",
+        "activation": 2086.891845703125
+      },
+      {
+        "text": " detect changes in PR gene expression following the expression of antisense RNAs against miR-423-5p in the two cell lines",
+        "activation": 2070.814697265625
+      },
+      {
+        "text": " strategies for prostate cancer. In this study we aimed to investigate the apoptotic efficiency of CDK inhibitors in three prostate cancer cell lines",
+        "activation": 2063.2041015625
+      },
+      {
+        "text": ". We examined the effect of GFs alone, and in combination with cytotoxic chemotherapy, in a panel of seven cell lines",
+        "activation": 2062.456787109375
+      },
+      {
+        "text": ". caffra seed oils suggest a potential antiproliferative effect of these tree seed oils on the two cell lines",
+        "activation": 2056.81591796875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 12030\n\nTop activating examples (format: [activation] text):\n  [2125.995] Hyperpolarized [5-(13) C]glutamine is used to measure glutamine metabolism in two prostate cancer cell lines\n  [2119.384] HPA3P in colon cancer cell lines, we evaluated the distribution of HPA3P in colon cancer cell lines\n  [2110.620] K and is expressed in glioblastoma. Here we demonstrate the biologic relevance of PTN in 2 glioblastoma cell lines\n  [2106.061] Liamocins from A. pullulans strains RSU 9 and RSU 21 inhibited two human breast cancer cell lines\n  [2096.583] an MTT assay. We found that cell viability decreased significantly with increasing HPA3P concentrations in six colon cancer cell lines\n  [2086.892] an excellent inhibitory profile for the enzyme hystone deacetylase (HDAC), and anticancer activity for three cancer cell lines\n  [2070.815] detect changes in PR gene expression following the expression of antisense RNAs against miR-423-5p in the two cell lines\n  [2063.204] strategies for prostate cancer. In this study we aimed to investigate the apoptotic efficiency of CDK inhibitors in three prostate cancer cell lines\n  [2062.457] . We examined the effect of GFs alone, and in combination with cytotoxic chemotherapy, in a panel of seven cell lines\n  [2056.816] . caffra seed oils suggest a potential antiproliferative effect of these tree seed oils on the two cell lines\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 12030,
+      "k1_auc": 0.9775568719898263
+    },
+    {
+      "latent_idx": 6576,
+      "k1_auc": 0.969519454515937
+    },
+    {
+      "latent_idx": 7338,
+      "k1_auc": 0.9692370393419556
+    },
+    {
+      "latent_idx": 11537,
+      "k1_auc": 0.9665600140700255
+    },
+    {
+      "latent_idx": 4035,
+      "k1_auc": 0.9621174711835054
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.7908986214080848
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.7666083797824558
+    },
+    {
+      "latent_idx": 14268,
+      "k1_auc": 0.7379495812814546
+    },
+    {
+      "latent_idx": 5603,
+      "k1_auc": 0.7358327358082146
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.725761337193571
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.7107552830239732
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.7032755086855349
+    },
+    {
+      "latent_idx": 1873,
+      "k1_auc": 0.6898954556523621
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.6871389482655987
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.6776611288489638
+    },
+    {
+      "latent_idx": 10130,
+      "k1_auc": 0.6769838397640564
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.654103560122301
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.6450772667622706
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.6357550293576493
+    },
+    {
+      "latent_idx": 1586,
+      "k1_auc": 0.6278203467449537
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.6232666134531089
+    },
+    {
+      "latent_idx": 330,
+      "k1_auc": 0.6220261851290654
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.6089839310839331
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.6089184006169165
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5997771118567021
+    },
+    {
+      "latent_idx": 1175,
+      "k1_auc": 0.5957429717517181
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5954022133232317
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5908793427674658
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5886424285675631
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5848826708696357
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5827577926294711
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5766038476108015
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5646367160019482
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5634656231397802
+    },
+    {
+      "latent_idx": 4266,
+      "k1_auc": 0.5617508387899779
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5606617647058824
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5593448137074518
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5551808810000541
+    },
+    {
+      "latent_idx": 5180,
+      "k1_auc": 0.5546875
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5536309797608095
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5523622253639267
+    },
+    {
+      "latent_idx": 12794,
+      "k1_auc": 0.5500517479300828
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5473819098706639
+    },
+    {
+      "latent_idx": 5709,
+      "k1_auc": 0.5453453920666703
+    },
+    {
+      "latent_idx": 4696,
+      "k1_auc": 0.5446774040803073
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5422794117647058
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5386029411764706
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5386029411764706
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5383805603658207
+    },
+    {
+      "latent_idx": 2432,
+      "k1_auc": 0.5376888968558904
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5326286764705882
+    },
+    {
+      "latent_idx": 11641,
+      "k1_auc": 0.5323246996590725
+    },
+    {
+      "latent_idx": 11596,
+      "k1_auc": 0.5317095588235294
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.530023523323773
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5299186745765464
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5294037319389577
+    },
+    {
+      "latent_idx": 542,
+      "k1_auc": 0.5289522058823529
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5289522058823529
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5288909031874018
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5285323881162401
+    },
+    {
+      "latent_idx": 98,
+      "k1_auc": 0.5282110774392554
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5262147234698847
+    },
+    {
+      "latent_idx": 16190,
+      "k1_auc": 0.5257631974132799
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.52508379444234
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5243988953677148
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5243566176470589
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5238970588235294
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5234227027977705
+    },
+    {
+      "latent_idx": 2100,
+      "k1_auc": 0.5220782712809133
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5220588235294118
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5216280135559284
+    },
+    {
+      "latent_idx": 8473,
+      "k1_auc": 0.5211397058823529
+    },
+    {
+      "latent_idx": 134,
+      "k1_auc": 0.5211397058823529
+    },
+    {
+      "latent_idx": 14169,
+      "k1_auc": 0.5202205882352942
+    },
+    {
+      "latent_idx": 1419,
+      "k1_auc": 0.5193014705882353
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5188947589155257
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5188774250500569
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5188419117647058
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5179227941176471
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5179227941176471
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5179227941176471
+    },
+    {
+      "latent_idx": 10474,
+      "k1_auc": 0.5163496401320418
+    },
+    {
+      "latent_idx": 12396,
+      "k1_auc": 0.5160845588235294
+    },
+    {
+      "latent_idx": 242,
+      "k1_auc": 0.5160845588235294
+    },
+    {
+      "latent_idx": 5467,
+      "k1_auc": 0.5151654411764706
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5147058823529411
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5142463235294118
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5142463235294118
+    },
+    {
+      "latent_idx": 14321,
+      "k1_auc": 0.5142450551977921
+    },
+    {
+      "latent_idx": 4247,
+      "k1_auc": 0.5137867647058824
+    },
+    {
+      "latent_idx": 14219,
+      "k1_auc": 0.5133272058823529
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5128676470588235
+    },
+    {
+      "latent_idx": 11664,
+      "k1_auc": 0.5128676470588235
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5126541445695114
+    },
+    {
+      "latent_idx": 1888,
+      "k1_auc": 0.5124994081119109
+    },
+    {
+      "latent_idx": 997,
+      "k1_auc": 0.5124080882352942
+    },
+    {
+      "latent_idx": 729,
+      "k1_auc": 0.5119485294117647
+    },
+    {
+      "latent_idx": 11140,
+      "k1_auc": 0.5105698529411765
+    },
+    {
+      "latent_idx": 8113,
+      "k1_auc": 0.5105698529411765
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5101102941176471
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5101102941176471
+    },
+    {
+      "latent_idx": 11599,
+      "k1_auc": 0.5096507352941176
+    },
+    {
+      "latent_idx": 12167,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 3122,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 2809,
+      "k1_auc": 0.5087316176470589
+    },
+    {
+      "latent_idx": 1620,
+      "k1_auc": 0.5082720588235294
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5082720588235294
+    },
+    {
+      "latent_idx": 14875,
+      "k1_auc": 0.5082720588235294
+    },
+    {
+      "latent_idx": 10084,
+      "k1_auc": 0.5078188416580983
+    },
+    {
+      "latent_idx": 10037,
+      "k1_auc": 0.5073529411764706
+    },
+    {
+      "latent_idx": 14919,
+      "k1_auc": 0.5068933823529411
+    },
+    {
+      "latent_idx": 5575,
+      "k1_auc": 0.5064338235294118
+    },
+    {
+      "latent_idx": 7526,
+      "k1_auc": 0.5059742647058824
+    },
+    {
+      "latent_idx": 7281,
+      "k1_auc": 0.5059742647058824
+    },
+    {
+      "latent_idx": 4598,
+      "k1_auc": 0.5059742647058824
+    },
+    {
+      "latent_idx": 816,
+      "k1_auc": 0.5059742647058824
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5059729963742626
+    },
+    {
+      "latent_idx": 239,
+      "k1_auc": 0.5050551470588235
+    },
+    {
+      "latent_idx": 12940,
+      "k1_auc": 0.5045955882352942
+    },
+    {
+      "latent_idx": 1354,
+      "k1_auc": 0.5031978867904108
+    },
+    {
+      "latent_idx": 10890,
+      "k1_auc": 0.5027573529411765
+    },
+    {
+      "latent_idx": 9616,
+      "k1_auc": 0.5015393318090806
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13355,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2497,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9520,
+      "k1_auc": 0.49955481560149356
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "66_living-room",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:38:13.596491"
+  },
+  "best_latent": {
+    "latent_idx": 14438,
+    "k1_auc": 0.9481149820757111,
+    "examples": [
+      {
+        "text": "2QuartosLarge first floor master with dual head double person shower in master bath. Living room",
+        "activation": 5112.291015625
+      },
+      {
+        "text": " allows your family to grow and enjoy ample room to spread out? This 5 bedroom home offers just that! With living room",
+        "activation": 5043.85888671875
+      },
+      {
+        "text": " square feet of living space. The main level is airy and bright with lots of windows and contains a huge living room",
+        "activation": 5021.28173828125
+      },
+      {
+        "text": " you will see the home has been completly remodeled in granite and beautiful modern colors. It boasts a large living room",
+        "activation": 4871.4306640625
+      },
+      {
+        "text": " the left. The space can accommodate a conference table for 8 as well as an office/writing desk. The living room",
+        "activation": 4868.6328125
+      },
+      {
+        "text": " the left. The space can accommodate a conference table for 8 as well as an office/writing desk. The living room",
+        "activation": 4868.6328125
+      },
+      {
+        "text": " the left. The space can accommodate a conference table for 8 as well as an office/writing desk. The living room",
+        "activation": 4868.6328125
+      },
+      {
+        "text": " of a unique opportunity to dream of the perfect home. A gem for the whole family. It has a large living room",
+        "activation": 4775.2509765625
+      },
+      {
+        "text": "uary to name a few. The villa consists of 4 spacious bedrooms, 3 large bathrooms, a large open concept living room",
+        "activation": 4691.26611328125
+      },
+      {
+        "text": " all the comforts, fully equipped kitchen (including washing machine), two large bedrooms with a double bed each, living room",
+        "activation": 4685.0966796875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 14438\n\nTop activating examples (format: [activation] text):\n  [5112.291] 2QuartosLarge first floor master with dual head double person shower in master bath. Living room\n  [5043.859] allows your family to grow and enjoy ample room to spread out? This 5 bedroom home offers just that! With living room\n  [5021.282] square feet of living space. The main level is airy and bright with lots of windows and contains a huge living room\n  [4871.431] you will see the home has been completly remodeled in granite and beautiful modern colors. It boasts a large living room\n  [4868.633] the left. The space can accommodate a conference table for 8 as well as an office/writing desk. The living room\n  [4868.633] the left. The space can accommodate a conference table for 8 as well as an office/writing desk. The living room\n  [4868.633] the left. The space can accommodate a conference table for 8 as well as an office/writing desk. The living room\n  [4775.251] of a unique opportunity to dream of the perfect home. A gem for the whole family. It has a large living room\n  [4691.266] uary to name a few. The villa consists of 4 spacious bedrooms, 3 large bathrooms, a large open concept living room\n  [4685.097] all the comforts, fully equipped kitchen (including washing machine), two large bedrooms with a double bed each, living room\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 14438,
+      "k1_auc": 0.9481149820757111
+    },
+    {
+      "latent_idx": 134,
+      "k1_auc": 0.8736958550424503
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.6962285031803515
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.691108712683603
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.6652705261869933
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.6500020088352225
+    },
+    {
+      "latent_idx": 13436,
+      "k1_auc": 0.6439741335071888
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.6373020612475597
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.631672300536359
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.6265958826182794
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.6167754177007603
+    },
+    {
+      "latent_idx": 7556,
+      "k1_auc": 0.6157207792089208
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.6106630799826875
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.6095714606606146
+    },
+    {
+      "latent_idx": 12230,
+      "k1_auc": 0.5992802891261748
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5941244309061124
+    },
+    {
+      "latent_idx": 3448,
+      "k1_auc": 0.5884334920313158
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5865771456642943
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5837866909187864
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5820440263632229
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.578909786862583
+    },
+    {
+      "latent_idx": 10799,
+      "k1_auc": 0.5746889501279264
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5738694366678172
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5732247831827619
+    },
+    {
+      "latent_idx": 13228,
+      "k1_auc": 0.5728412782766386
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5675653464966827
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5638658938129701
+    },
+    {
+      "latent_idx": 10838,
+      "k1_auc": 0.560950799972972
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5591136288512567
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5589346598950657
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5543723211725754
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5512006442882423
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.550336845142545
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.5489781420465648
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5471555806355589
+    },
+    {
+      "latent_idx": 14829,
+      "k1_auc": 0.5463228271251194
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.545923799401367
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5440779537639181
+    },
+    {
+      "latent_idx": 11305,
+      "k1_auc": 0.5426630945923981
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5410715492319857
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.538598399140949
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.536950697704997
+    },
+    {
+      "latent_idx": 5831,
+      "k1_auc": 0.5349989316649044
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5343702575509378
+    },
+    {
+      "latent_idx": 15029,
+      "k1_auc": 0.5335165025813532
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5335000666568052
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5318477996862565
+    },
+    {
+      "latent_idx": 7567,
+      "k1_auc": 0.5316026304784133
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.531498992843068
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5298426168913823
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5280771246628353
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5277684945240978
+    },
+    {
+      "latent_idx": 1381,
+      "k1_auc": 0.5272644595046212
+    },
+    {
+      "latent_idx": 5984,
+      "k1_auc": 0.5269352844601987
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5262299093650072
+    },
+    {
+      "latent_idx": 7421,
+      "k1_auc": 0.5253104106972302
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.5252227524329733
+    },
+    {
+      "latent_idx": 14517,
+      "k1_auc": 0.5248328557784145
+    },
+    {
+      "latent_idx": 12177,
+      "k1_auc": 0.5248328557784145
+    },
+    {
+      "latent_idx": 11416,
+      "k1_auc": 0.5243785850860421
+    },
+    {
+      "latent_idx": 2979,
+      "k1_auc": 0.5243553008595988
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5241461993750696
+    },
+    {
+      "latent_idx": 12943,
+      "k1_auc": 0.5229801618390704
+    },
+    {
+      "latent_idx": 9439,
+      "k1_auc": 0.5226838586437439
+    },
+    {
+      "latent_idx": 8882,
+      "k1_auc": 0.5224450811843362
+    },
+    {
+      "latent_idx": 2247,
+      "k1_auc": 0.5222944185426449
+    },
+    {
+      "latent_idx": 2648,
+      "k1_auc": 0.5220086160768909
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5217328577872498
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5215036679504951
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5211000746921461
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5210717683776463
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5209676741888415
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.520586908603476
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5196879548413842
+    },
+    {
+      "latent_idx": 9726,
+      "k1_auc": 0.5196135366274579
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5186406212048994
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5184593694814101
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5182986626636058
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5181909160471236
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.5179498558204174
+    },
+    {
+      "latent_idx": 15103,
+      "k1_auc": 0.5176257028640512
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5172846574296771
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5164879716425514
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5162697390888289
+    },
+    {
+      "latent_idx": 5118,
+      "k1_auc": 0.515774378585086
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5157597688743767
+    },
+    {
+      "latent_idx": 6886,
+      "k1_auc": 0.5157332887737157
+    },
+    {
+      "latent_idx": 11976,
+      "k1_auc": 0.5154534215029375
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5153187382323346
+    },
+    {
+      "latent_idx": 1111,
+      "k1_auc": 0.5147937017537132
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5143339524198246
+    },
+    {
+      "latent_idx": 14641,
+      "k1_auc": 0.5133879736513868
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5129337029590142
+    },
+    {
+      "latent_idx": 11364,
+      "k1_auc": 0.5128939828080229
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.5128939828080229
+    },
+    {
+      "latent_idx": 7825,
+      "k1_auc": 0.5128939828080229
+    },
+    {
+      "latent_idx": 7697,
+      "k1_auc": 0.5124164278892073
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5119822455490602
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5119731144798669
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5114882547056966
+    },
+    {
+      "latent_idx": 16094,
+      "k1_auc": 0.511464057372334
+    },
+    {
+      "latent_idx": 16359,
+      "k1_auc": 0.5109974597365504
+    },
+    {
+      "latent_idx": 4369,
+      "k1_auc": 0.5109942638623326
+    },
+    {
+      "latent_idx": 1634,
+      "k1_auc": 0.5109837631327603
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5109741755101073
+    },
+    {
+      "latent_idx": 11532,
+      "k1_auc": 0.5105345145284442
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5100482850938948
+    },
+    {
+      "latent_idx": 1354,
+      "k1_auc": 0.5096369304267314
+    },
+    {
+      "latent_idx": 3412,
+      "k1_auc": 0.5095510983763133
+    },
+    {
+      "latent_idx": 5709,
+      "k1_auc": 0.5091662238098108
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5086151637839882
+    },
+    {
+      "latent_idx": 4043,
+      "k1_auc": 0.5085886836833272
+    },
+    {
+      "latent_idx": 2100,
+      "k1_auc": 0.5081216294940839
+    },
+    {
+      "latent_idx": 6579,
+      "k1_auc": 0.5076408787010506
+    },
+    {
+      "latent_idx": 1799,
+      "k1_auc": 0.5071633237822349
+    },
+    {
+      "latent_idx": 931,
+      "k1_auc": 0.5071633237822349
+    },
+    {
+      "latent_idx": 14906,
+      "k1_auc": 0.5070957538702037
+    },
+    {
+      "latent_idx": 5718,
+      "k1_auc": 0.5062155187999584
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5057470949503361
+    },
+    {
+      "latent_idx": 12390,
+      "k1_auc": 0.505730659025788
+    },
+    {
+      "latent_idx": 8449,
+      "k1_auc": 0.5047846802573501
+    },
+    {
+      "latent_idx": 1586,
+      "k1_auc": 0.5040724568602637
+    },
+    {
+      "latent_idx": 9930,
+      "k1_auc": 0.5009605884791475
+    },
+    {
+      "latent_idx": 12119,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12415,
+      "k1_auc": 0.49834271094139493
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.4950358942329993
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+dataset,layer,method,baseline_test_auc,sae_best_test_auc,sae_best_k,sae_best_sae_id,sae_better
+7_hist_fig_ispolitician,24,logreg,0.5969106125356125,0.6793981481481481,16,layer_24/width_16k/standard_new,True
+5_hist_fig_ismale,24,logreg,0.9661556392325624,0.9008427469965932,128,layer_24/width_16k/topk_32,False
+90_glue_qnli,24,logreg,0.5905777777777779,0.5651555555555555,128,layer_24/width_16k/matryoshka_batch_topk_32,False
+73_control-group,24,logreg,0.8762222222222222,0.8720444444444444,128,layer_24/width_16k/p_anneal,False
+6_hist_fig_isamerican,24,logreg,0.9183555555555556,0.9163111111111111,128,layer_24/width_16k/topk_32,False
+67_social-security,24,logreg,0.8819555555555556,0.9059555555555555,16,layer_24/width_16k/standard_new,True
+87_glue_cola,24,logreg,0.6598888888888889,0.6321777777777777,128,layer_24/width_16k/p_anneal,False
+66_living-room,24,logreg,0.8263111111111111,0.7478222222222222,16,layer_24/width_16k/batch_topk_32,False

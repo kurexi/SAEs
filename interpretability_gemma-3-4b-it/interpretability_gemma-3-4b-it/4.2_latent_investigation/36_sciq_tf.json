@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "36_sciq_tf",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:35:06.961489"
+  },
+  "best_latent": {
+    "latent_idx": 6963,
+    "k1_auc": 0.6988456911575138,
+    "examples": [
+      {
+        "text": "Q: If water from a spring can't flow downwards, it can spread out to form one of 2 things.  what are they?\nA: lake or ocean",
+        "activation": 2060.232421875
+      },
+      {
+        "text": "Q: The energy for an ecosystem can come from sunlight or _________?\nA: chemical compounds",
+        "activation": 1755.3173828125
+      },
+      {
+        "text": "Q: Lactic acid fermentation is common in muscle cells that have run out of what?\nA: oxygen",
+        "activation": 1737.8338623046875
+      },
+      {
+        "text": "Q: Because all animals require an external source of what, they are called heterotrophic?\nA: food",
+        "activation": 1700.1378173828125
+      },
+      {
+        "text": "Q: What two forces tend to keep an animal stationary and thus oppose locomotion?\nA: friction and gravity",
+        "activation": 1695.3927001953125
+      },
+      {
+        "text": "Q: Generally speaking, electronegativity values ______ from left to right across a row in the periodic table and _______ down a column.\nA: reverse, descend",
+        "activation": 1622.3695068359375
+      },
+      {
+        "text": "Q: Temperature and pressure affect changes in phases or states of what?\nA: matter",
+        "activation": 1611.565673828125
+      },
+      {
+        "text": "Q: Squamata is the largest order of what broad animal group, and includes lizards and snakes?\nA: reptiles",
+        "activation": 1601.6015625
+      },
+      {
+        "text": "Q: Squamata is the largest order of what broad animal group, and includes lizards and snakes?\nA: reptiles",
+        "activation": 1601.6015625
+      },
+      {
+        "text": "Q: A quarry, which produces rocks and minerals used to make buildings and roads, is an example of what type of mine?\nA: open-pit mine",
+        "activation": 1594.280517578125
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 6963\n\nTop activating examples (format: [activation] text):\n  [2060.232] Q: If water from a spring can't flow downwards, it can spread out to form one of 2 things.  what are they?\nA: lake or ocean\n  [1755.317] Q: The energy for an ecosystem can come from sunlight or _________?\nA: chemical compounds\n  [1737.834] Q: Lactic acid fermentation is common in muscle cells that have run out of what?\nA: oxygen\n  [1700.138] Q: Because all animals require an external source of what, they are called heterotrophic?\nA: food\n  [1695.393] Q: What two forces tend to keep an animal stationary and thus oppose locomotion?\nA: friction and gravity\n  [1622.370] Q: Generally speaking, electronegativity values ______ from left to right across a row in the periodic table and _______ down a column.\nA: reverse, descend\n  [1611.566] Q: Temperature and pressure affect changes in phases or states of what?\nA: matter\n  [1601.602] Q: Squamata is the largest order of what broad animal group, and includes lizards and snakes?\nA: reptiles\n  [1601.602] Q: Squamata is the largest order of what broad animal group, and includes lizards and snakes?\nA: reptiles\n  [1594.281] Q: A quarry, which produces rocks and minerals used to make buildings and roads, is an example of what type of mine?\nA: open-pit mine\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 6963,
+      "k1_auc": 0.6988456911575138
+    },
+    {
+      "latent_idx": 13264,
+      "k1_auc": 0.6608697226134866
+    },
+    {
+      "latent_idx": 16190,
+      "k1_auc": 0.655930170859075
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5839932650761135
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5831188692294684
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5812308425287509
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5769191140805578
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5768492434222852
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5768336744169091
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5711894669476345
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5707015115352407
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5701144461130143
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5683298330496315
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5671046915615484
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5641630355864427
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5577089866830576
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5564120758775095
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5529265173324802
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5511029184670175
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5462510847672851
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5437977639364117
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5435944808255675
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5425036378310122
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.542232002989249
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5372513136190065
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5362688207756858
+    },
+    {
+      "latent_idx": 14802,
+      "k1_auc": 0.5346677447675484
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5313819251695376
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5305420849201905
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5283928027146271
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5254686144040893
+    },
+    {
+      "latent_idx": 11948,
+      "k1_auc": 0.5252893809763463
+    },
+    {
+      "latent_idx": 5603,
+      "k1_auc": 0.5239625979328411
+    },
+    {
+      "latent_idx": 9580,
+      "k1_auc": 0.52376830180884
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5236921022865932
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5232212348069292
+    },
+    {
+      "latent_idx": 14875,
+      "k1_auc": 0.5219696386674348
+    },
+    {
+      "latent_idx": 12032,
+      "k1_auc": 0.5213873831818289
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.5209898039469834
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5199436427320845
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5199273142630316
+    },
+    {
+      "latent_idx": 12794,
+      "k1_auc": 0.5189896297766468
+    },
+    {
+      "latent_idx": 1175,
+      "k1_auc": 0.5173356444656869
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5167699706036926
+    },
+    {
+      "latent_idx": 9384,
+      "k1_auc": 0.5158565889549679
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5155963460683578
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.515334077945276
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.515269396955462
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5150267483106996
+    },
+    {
+      "latent_idx": 12288,
+      "k1_auc": 0.5138266691239536
+    },
+    {
+      "latent_idx": 8586,
+      "k1_auc": 0.5133726364224602
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.51281329142444
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5128010134283304
+    },
+    {
+      "latent_idx": 904,
+      "k1_auc": 0.512561276060996
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5120105383179804
+    },
+    {
+      "latent_idx": 5824,
+      "k1_auc": 0.511432713037156
+    },
+    {
+      "latent_idx": 7959,
+      "k1_auc": 0.5110107043873711
+    },
+    {
+      "latent_idx": 14667,
+      "k1_auc": 0.5109055186681236
+    },
+    {
+      "latent_idx": 11748,
+      "k1_auc": 0.5108517233243445
+    },
+    {
+      "latent_idx": 9616,
+      "k1_auc": 0.5104702194039932
+    },
+    {
+      "latent_idx": 2281,
+      "k1_auc": 0.5104385750841233
+    },
+    {
+      "latent_idx": 14816,
+      "k1_auc": 0.5103302249328887
+    },
+    {
+      "latent_idx": 15979,
+      "k1_auc": 0.5097577158978026
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5090477439372014
+    },
+    {
+      "latent_idx": 8802,
+      "k1_auc": 0.5090247068723361
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.5088049687151597
+    },
+    {
+      "latent_idx": 1126,
+      "k1_auc": 0.5084846016207967
+    },
+    {
+      "latent_idx": 9649,
+      "k1_auc": 0.5082119541607977
+    },
+    {
+      "latent_idx": 2540,
+      "k1_auc": 0.508194866228068
+    },
+    {
+      "latent_idx": 2424,
+      "k1_auc": 0.5080417077198977
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5075424869296301
+    },
+    {
+      "latent_idx": 2429,
+      "k1_auc": 0.507292749957217
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5072603461736701
+    },
+    {
+      "latent_idx": 10369,
+      "k1_auc": 0.5072546501960935
+    },
+    {
+      "latent_idx": 816,
+      "k1_auc": 0.506879728294275
+    },
+    {
+      "latent_idx": 3792,
+      "k1_auc": 0.5065491084402742
+    },
+    {
+      "latent_idx": 16244,
+      "k1_auc": 0.5064475934621316
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5058062263870086
+    },
+    {
+      "latent_idx": 7269,
+      "k1_auc": 0.5057896447633966
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5056224361772041
+    },
+    {
+      "latent_idx": 14452,
+      "k1_auc": 0.5055724381518097
+    },
+    {
+      "latent_idx": 9654,
+      "k1_auc": 0.5054691510917543
+    },
+    {
+      "latent_idx": 9831,
+      "k1_auc": 0.5053205493656452
+    },
+    {
+      "latent_idx": 932,
+      "k1_auc": 0.505309916874169
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5051742260305669
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5050408135779952
+    },
+    {
+      "latent_idx": 11734,
+      "k1_auc": 0.5047560146991663
+    },
+    {
+      "latent_idx": 4247,
+      "k1_auc": 0.5045742497258335
+    },
+    {
+      "latent_idx": 16372,
+      "k1_auc": 0.5037725092376099
+    },
+    {
+      "latent_idx": 13357,
+      "k1_auc": 0.5037666866827538
+    },
+    {
+      "latent_idx": 4868,
+      "k1_auc": 0.5035464422164593
+    },
+    {
+      "latent_idx": 13274,
+      "k1_auc": 0.5032873385253646
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5030277285251519
+    },
+    {
+      "latent_idx": 1873,
+      "k1_auc": 0.503021905970296
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5027815357165641
+    },
+    {
+      "latent_idx": 1269,
+      "k1_auc": 0.5027576126107424
+    },
+    {
+      "latent_idx": 12599,
+      "k1_auc": 0.5022654801481258
+    },
+    {
+      "latent_idx": 10499,
+      "k1_auc": 0.5022482656381165
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5016793007668557
+    },
+    {
+      "latent_idx": 2464,
+      "k1_auc": 0.5015029786165407
+    },
+    {
+      "latent_idx": 14641,
+      "k1_auc": 0.5011993197230692
+    },
+    {
+      "latent_idx": 12543,
+      "k1_auc": 0.5011962818683616
+    },
+    {
+      "latent_idx": 4745,
+      "k1_auc": 0.5011883074997545
+    },
+    {
+      "latent_idx": 7699,
+      "k1_auc": 0.5010118587721599
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5010050235990681
+    },
+    {
+      "latent_idx": 11628,
+      "k1_auc": 0.5007599699859956
+    },
+    {
+      "latent_idx": 9938,
+      "k1_auc": 0.5005673193666276
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5001096159240294
+    },
+    {
+      "latent_idx": 4614,
+      "k1_auc": 0.500105565451086
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6086,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6873,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 279,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4603,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11648,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5516,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3073,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2552,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8996,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14347,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7644,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1535,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9121,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4201,
+      "k1_auc": 0.4987261262593173
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.4982925990770998
+    },
+    {
+      "latent_idx": 6389,
+      "k1_auc": 0.49762186607313735
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.49263839200274623
+    }
+  ]
+}

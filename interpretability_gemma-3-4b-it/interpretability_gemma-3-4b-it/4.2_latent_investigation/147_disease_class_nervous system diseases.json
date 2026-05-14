@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "147_disease_class_nervous system diseases",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:50:38.636356"
+  },
+  "best_latent": {
+    "latent_idx": 10472,
+    "k1_auc": 0.6046938775510203,
+    "examples": [
+      {
+        "text": "Clentiazem reduces infarct size in rabbit middle cerebral artery occlusion. We assessed the value of pretreatment with clentiazem (8-chlorodiltiazem), a diltiazem derivative with cerebroselective properties, on the consequences of surgical occlusion of the middle cerebral artery via a transorbital approach in 38 rabbits. Nineteen rabbits received 1.7 (n = 5), 5 (n = 8), or 15 (n = 6) mg/kg clentiazem orally four times a day for 24 hours before and 48 hours after occlusion. Upon sacrifice, a segment of the right middle cerebral artery distal to the occlusion and a corresponding segment from the nonoccluded left middle cerebral artery were mounted on myographs for in vitro study of their reactivity to histamine, acetylcholine, serotonin, norepinephrine, and electrical stimulation of intramural sympathetic nerves. Morphometric measurements of 2,3,5-triphenyltetrazolium chloride-stained brain slices permitted us to estimate infarct volume. Pretreatment with 1.7, 5, and 15 mg/kg clentiazem significantly reduced infarct volume (p less than 0.05, p less than 0.01, and p less than 0.01, respectively). Mean infarct volume of the 15 mg/kg-treated group was only 4% that of the untreated group. There were no postoperative deaths in any treated group compared with a death rate of 36% in the untreated group. Mean values for vascular smooth muscle contractility to histamine and relaxation to acetylcholine were significantly enhanced in vessels from treated rabbits. These studies indicate that pretreatment with clentiazem offers cerebral protection and significantly reduces infarct volume as well as arterial wall damage beyond the occlusion.",
+        "activation": 3940.637939453125
+      },
+      {
+        "text": "Association of pneumothorax and hypotension with intraventricular haemorrhage. To test the hypothesis that acute hypotension resulting from pneumothorax would be associated with severe brain injury (grade 3 or 4 intraventricular haemorrhage), 67 very low birthweight (VLBW) infants of 32 weeks' gestation or less with respiratory distress syndrome and pneumothorax were studied. Thirty six had pneumothorax associated with systemic hypotension and 31 had pneumothorax with normal blood pressure. The groups were similar in gestational age and severity of their respiratory distress syndrome. Thirty two of 36 of infants with pneumothorax associated with hypotension (89%) had grade 3 or 4 intraventricular haemorrhage. This percentage was significantly greater than the percentage for infants with pneumothorax and normal blood pressure (three of 31, 10%). The risk ratio for grade 3 or 4 intraventricular haemorrhage for infants with pneumothorax associated with hypotension was 9.8 compared with neonates with pneumothorax and normal blood pressure. These observations are consistent with the hypothesis that systemic hypotension and cerebral hypoperfusion are important factors leading to intraventricular haemorrhage in VLBW infants.",
+        "activation": 3768.411865234375
+      },
+      {
+        "text": "Intracatheter streptokinase for recurrent peritonitis in CAPD. Intracatheter streptokinase (SK) is advocated as effective treatment with minimal adverse effects in both recurrent bacterial peritonitis and catheter fibrin blockage in continuous ambulatory peritoneal dialysis (CAPD) patients. We reviewed 35 instillations in 20 patients noting a high (86%) side effect profile consisting of fever, onset of turbid dialysis effluent and/or abdominal pain. SK probably releases fibrin clot containing bacteria, leukocytes and debris from the colonized catheter into the peritoneal cavity causing a \"peritonitis-like syndrome\" of 1 to 3 days duration. Fungal peritonitis occurred after SK in 2 patients. Failure of SK therapy was encountered in Staphylococcus epidermidis infection (p less than 0.05 versus other organisms), which may be related to its protective capsular polysaccharide slime and ability to adhere to plastic prosthetic devices. SK, in this study, was useful treatment in relapsing bacterial peritonitis (50% overall cure) but failed to correct catheter malfunction.",
+        "activation": 3693.4140625
+      },
+      {
+        "text": "The role of beta-blockade therapy for ventricular tachycardia induced with isoproterenol: a prospective analysis. Isoproterenol is sometimes required for ventricular tachycardia (VT) induction. However, the role of beta-blockade for treatment of such VT has not been critically assessed. The use of beta-blockade was evaluated prospectively in 14 consecutive patients who required isoproterenol 2.4 +/- 1.3 (+/- S.D.) micrograms/min to induce sustained monomorphic VT (greater than 30 seconds, or requiring termination due to hemodynamic collapse) after a negative baseline study. The VT mechanisms were enhanced automaticity (group A, six patients), triggered automaticity (group B, three patients), and reentry (group C, five patients). Groups A and B had serial intravenous electropharmacologic tests with propranolol alone (0.2 mg/kg), verapamil alone (0.15 mg/kg), and propranolol plus verapamil, and group C had serial tests with propranolol alone, procainamide or quinidine (class Ia drug) alone, and propranolol plus a class Ia drug until VT could no longer be induced. All six patients in group A responded to propranolol alone. In group B, one patient responded to verapamil alone, and two patients responded to propranolol plus verapamil. In group C, three patients responded to propranolol alone, one patient responded to a class Ia drug alone, and one patient responded to propranolol plus a class Ia drug. During a follow-up of 7 to 37 (17.9 +/- 10.7) (+/- S.D.) months, VT has not recurred in any patient. Three patients treated initially with propranolol alone have required substitution of amiodarone due to refractory congestive heart failure. In patients requiring isoproterenol for VT induction, beta-blockade alone appears to be effective in preventing reinduction of VT caused by enhanced automaticity. A heterogeneous response occurs when the VT mechanisms are triggered automaticity or reentry.",
+        "activation": 3684.8115234375
+      },
+      {
+        "text": "Diarrhea in ciguatera fish poisoning: preliminary evaluation of pathophysiological mechanisms. Ciguatera fish poisoning is a clinical syndrome consisting of a combination of gastrointestinal and neurological symptoms occurring after eating toxin-containing tropical reef fish; it is a major cause of morbidity in Hawaii, the South Pacific, Australia, and the Caribbean. In an effort to define pathophysiological mechanisms responsible for the diarrheal component of the illness, we examined the effect of crude and fractionated toxin preparations on isolated rabbit ileal tissue in a Ussing chamber model. Both the crude toxin preparation (prepared from toxic Ctenochaetus strigosus) and 10% and 50% methanol-chloroform toxin fraction (prepared from a pool of toxic fish samples) gave a striking increase in transepithelial electrical potential difference and short-circuit current. Enterotoxic activity seemed to be mediated by calcium. When examined by light microscopy, the intestinal mucosa was not damaged by the toxin preparations used. Our data demonstrate that toxins involved in ciguatera fish poisoning directly stimulate intestinal fluid secretion without accompanying tissue damage and suggest that calcium is the \"second messenger\" mediating the process.",
+        "activation": 3682.6396484375
+      },
+      {
+        "text": "Blood pressure reactivity predicts myocardial infarction among treated hypertensive patients. High blood pressure (BP) defines a prognostically heterogeneous group. Because BP varies according to time, setting and means of observation, it has been postulated that BP reactivity might better predict cardiovascular disease (CVD) than does unidimensional measurements. To assess BP reactivity, the difference between pretreatment nurse (RN) and physician (MD) diastolic BP (DBP)--systematically recorded in that order--or MD-RN DBP, was obtained in 1737 previously untreated patients with sustained, RN BP greater than or equal to 160 and/or 95 mmHg. Patients stratified by tertiles of MD-RN DBP [(I) less than or equal to - 3, (II) -2 to 3 and (III) greater than or equal to 4 mmHg] were similar by sex, race, age, body mass index, cholesterol, electrocardiography, prior CVD, smoking and pretreatment or attained in-treatment BPs. During 14 years of followup, myocardial infarction (MI) incidence per 1000/year were, tertile I (3.2), II (3.7), III (7.6) (relative risk = 2.4, III vs I + II, p less than 0.05), whereas stroke incidence and non-CVD mortality were evenly distributed. By Cox survival analysis, controlling for other entry characteristics only age, sex and DBP reactivity remained predictive (p less than or equal to 0.03) of MI or total CVD. Thus, BP reactivity, probably a centrally-mediated phenomenon, identifies a subgroup of hypertensives with an increased propensity for MI despite successful BP control.",
+        "activation": 3677.09423828125
+      },
+      {
+        "text": "Nerve growth factor corrects developmental impairments of basal forebrain cholinergic neurons in the trisomy 16 mouse. The trisomy 16 (Ts16) mouse, which shares genetic and phenotypic homologies with Down syndrome, exhibits impaired development of the basal forebrain cholinergic system. Basal forebrains obtained from Ts16 and euploid littermate fetuses at 15 days of gestation were dissociated and cultured in completely defined medium, with cholinergic neurons identified by choline acetyltransferase (ChAT) immunoreactivity. The Ts16 cultures exhibited fewer ChAT-immunoreactive neurons, which were smaller and emitted shorter, smoother, and more simplified neurites than those from euploid littermates. Whereas the addition of beta-nerve growth factor (100 ng/ml) augmented the specific activity of ChAT and neuritic extension for both Ts16 and euploid cholinergic neurons, only Ts16 cultures exhibited an increase in the number and size of ChAT-immunoreactive neurons. Furthermore, Ts16 ChAT-immunoreactive neurites formed varicosities only in the presence of beta-nerve growth factor.",
+        "activation": 3658.268310546875
+      },
+      {
+        "text": "Omeprazole in the management of intractable esophageal ulceration following injection sclerotherapy. Transient esophageal ulceration is a common finding after sclerotherapy of varices. A small proportion of these ulcers become chronic and resistant to conventional therapy. Such chronic ulcers have been associated with pain, stricture formation, and recurrent hemorrhage. The use of omeprazole, a proton pump inhibitor, was examined in the current study in the treatment of 10 patients (6 women, 4 men; age range, 27-86 years) with cirrhosis (PBC, 4; sclerosing cholangitis, 2; chronic active liver disease, 2; alcohol, 1; and cryptogenic, 1) who developed an esophageal ulcer after a mean of 13 (range, 8-21) sessions of sclerotherapy. The ulcers had been present for 3-54 months despite prolonged treatment with high-dose H2-receptor antagonists and sucralfate. In each case one or more complications had occurred: severe pain in 3, stricture formation in 4, and recurrent hemorrhage in 7 cases. After an 8-week course of omeprazole, 40 mg daily, endoscopy confirmed complete healing of the ulceration in all 10 cases with symptom resolution. In 2 cases the ulcer recurred, with associated bleeding within 6 weeks of discontinuing the treatment in 1 patient. Both cases responded to repeat therapy. These results confirm the efficacy of omeprazole for postsclerotherapy ulceration and imply that acid-pepsin has a role in perpetuating such ulcers.",
+        "activation": 3643.78173828125
+      },
+      {
+        "text": "Mucocele of the cystic duct remnant in eight liver transplant recipients: findings at cholangiography, CT, and US. The case histories and radiologic studies of eight liver transplant recipients who developed a mucocele of the allograft cystic duct remnant were retrospectively evaluated. All patients had clinical and/or laboratory evidence of biliary obstruction or cholangitis from 2 weeks to 3.3 years following transplantation. Cholangiographic, ultrasound (US), and computed tomography (CT) images were available for review in eight, five, and four patients, respectively. Cholangiograms demonstrated an extrinsic mass compressing the common hepatic duct in seven of eight patients. US and CT showed fairly well- to well-defined round fluid collections adjacent to the common hepatic duct in three and two patients, respectively. The findings of this study suggest that the detection at cholangiography of an extrinsic mass compressing the common hepatic duct appears to be specific for a mucocele of the allograft cystic duct remnant. CT and US images may offer confirmatory evidence.",
+        "activation": 3634.09814453125
+      },
+      {
+        "text": "Immunophenotypic characteristics of cerebrospinal fluid cells in children with acute lymphoblastic leukemia at diagnosis. The presence of meningeal involvement in children with acute lymphoblastic leukemia (ALL) may have important prognostic and therapeutic implications. Conventional methods of diagnosing central nervous system (CNS) leukemia rely on the interpretation of cerebrospinal fluid (CSF) cell morphology, which may produce ambiguous results in the presence of minimal leukemic involvement. A methodology has been developed for immunophenotyping small numbers of CSF cells while preserving cell morphology. CSF samples from 33 children with CD10 (common ALL antigen [CALLA]) positive ALL were examined at initial presentation using both conventional morphology and this combined immunohistopathologic technique. Six (18%) of the samples contained lymphoblasts or cells considered morphologically suspicious for leukemic involvement. Nine additional samples (27% of the total) had normal CSF morphology, but contained increased numbers of CALLA positive cells. Twelve of the 33 samples were also examined for the simultaneous presence of nuclear terminal deoxynucleotidyl transferase (TdT) and demonstrated increased numbers of cells positive for both TdT and CD10. These data suggest that a large proportion of children with ALL may have abnormalities of CSF cells at initial diagnosis consistent with the presence of occult leukemic involvement.",
+        "activation": 3632.456298828125
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 10472\n\nTop activating examples (format: [activation] text):\n  [3940.638] Clentiazem reduces infarct size in rabbit middle cerebral artery occlusion. We assessed the value of pretreatment with clentiazem (8-chlorodiltiazem), a diltiazem derivative with cerebroselective properties, on the consequences of surgical occlusion of the middle cerebral artery via a transorbital a\n  [3768.412] Association of pneumothorax and hypotension with intraventricular haemorrhage. To test the hypothesis that acute hypotension resulting from pneumothorax would be associated with severe brain injury (grade 3 or 4 intraventricular haemorrhage), 67 very low birthweight (VLBW) infants of 32 weeks' gesta\n  [3693.414] Intracatheter streptokinase for recurrent peritonitis in CAPD. Intracatheter streptokinase (SK) is advocated as effective treatment with minimal adverse effects in both recurrent bacterial peritonitis and catheter fibrin blockage in continuous ambulatory peritoneal dialysis (CAPD) patients. We revie\n  [3684.812] The role of beta-blockade therapy for ventricular tachycardia induced with isoproterenol: a prospective analysis. Isoproterenol is sometimes required for ventricular tachycardia (VT) induction. However, the role of beta-blockade for treatment of such VT has not been critically assessed. The use of b\n  [3682.640] Diarrhea in ciguatera fish poisoning: preliminary evaluation of pathophysiological mechanisms. Ciguatera fish poisoning is a clinical syndrome consisting of a combination of gastrointestinal and neurological symptoms occurring after eating toxin-containing tropical reef fish; it is a major cause of\n  [3677.094] Blood pressure reactivity predicts myocardial infarction among treated hypertensive patients. High blood pressure (BP) defines a prognostically heterogeneous group. Because BP varies according to time, setting and means of observation, it has been postulated that BP reactivity might better predict c\n  [3658.268] Nerve growth factor corrects developmental impairments of basal forebrain cholinergic neurons in the trisomy 16 mouse. The trisomy 16 (Ts16) mouse, which shares genetic and phenotypic homologies with Down syndrome, exhibits impaired development of the basal forebrain cholinergic system. Basal forebr\n  [3643.782] Omeprazole in the management of intractable esophageal ulceration following injection sclerotherapy. Transient esophageal ulceration is a common finding after sclerotherapy of varices. A small proportion of these ulcers become chronic and resistant to conventional therapy. Such chronic ulcers have b\n  [3634.098] Mucocele of the cystic duct remnant in eight liver transplant recipients: findings at cholangiography, CT, and US. The case histories and radiologic studies of eight liver transplant recipients who developed a mucocele of the allograft cystic duct remnant were retrospectively evaluated. All patients\n  [3632.456] Immunophenotypic characteristics of cerebrospinal fluid cells in children with acute lymphoblastic leukemia at diagnosis. The presence of meningeal involvement in children with acute lymphoblastic leukemia (ALL) may have important prognostic and therapeutic implications. Conventional methods of diag\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 10472,
+      "k1_auc": 0.6046938775510203
+    },
+    {
+      "latent_idx": 9047,
+      "k1_auc": 0.593265306122449
+    },
+    {
+      "latent_idx": 8258,
+      "k1_auc": 0.5875510204081632
+    },
+    {
+      "latent_idx": 8854,
+      "k1_auc": 0.5867346938775511
+    },
+    {
+      "latent_idx": 13682,
+      "k1_auc": 0.5810204081632653
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5753061224489796
+    },
+    {
+      "latent_idx": 8035,
+      "k1_auc": 0.5716326530612245
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5702040816326531
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5693877551020409
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5681632653061225
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5669387755102041
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5669387755102041
+    },
+    {
+      "latent_idx": 12048,
+      "k1_auc": 0.5659183673469387
+    },
+    {
+      "latent_idx": 8800,
+      "k1_auc": 0.5655102040816327
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5616326530612246
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.56
+    },
+    {
+      "latent_idx": 7778,
+      "k1_auc": 0.5591836734693877
+    },
+    {
+      "latent_idx": 13183,
+      "k1_auc": 0.5565306122448981
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5561224489795918
+    },
+    {
+      "latent_idx": 1991,
+      "k1_auc": 0.5559183673469388
+    },
+    {
+      "latent_idx": 6500,
+      "k1_auc": 0.5555102040816327
+    },
+    {
+      "latent_idx": 56,
+      "k1_auc": 0.553265306122449
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5520408163265306
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5520408163265306
+    },
+    {
+      "latent_idx": 9647,
+      "k1_auc": 0.5499999999999999
+    },
+    {
+      "latent_idx": 14760,
+      "k1_auc": 0.5495918367346938
+    },
+    {
+      "latent_idx": 8514,
+      "k1_auc": 0.5475510204081633
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5469387755102042
+    },
+    {
+      "latent_idx": 14708,
+      "k1_auc": 0.5463265306122449
+    },
+    {
+      "latent_idx": 12074,
+      "k1_auc": 0.5459183673469388
+    },
+    {
+      "latent_idx": 563,
+      "k1_auc": 0.5459183673469388
+    },
+    {
+      "latent_idx": 2155,
+      "k1_auc": 0.5455102040816326
+    },
+    {
+      "latent_idx": 6552,
+      "k1_auc": 0.5424489795918368
+    },
+    {
+      "latent_idx": 16189,
+      "k1_auc": 0.5375510204081633
+    },
+    {
+      "latent_idx": 4641,
+      "k1_auc": 0.5371428571428571
+    },
+    {
+      "latent_idx": 659,
+      "k1_auc": 0.5330612244897959
+    },
+    {
+      "latent_idx": 7776,
+      "k1_auc": 0.5318367346938775
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5312244897959184
+    },
+    {
+      "latent_idx": 14320,
+      "k1_auc": 0.5289795918367346
+    },
+    {
+      "latent_idx": 5231,
+      "k1_auc": 0.5228571428571429
+    },
+    {
+      "latent_idx": 4709,
+      "k1_auc": 0.5204081632653061
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5104081632653061
+    },
+    {
+      "latent_idx": 2275,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 4266,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 4603,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 3958,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.509795918367347
+    },
+    {
+      "latent_idx": 12799,
+      "k1_auc": 0.5093877551020407
+    },
+    {
+      "latent_idx": 1104,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5446,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4737,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15139,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 146,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1288,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9601,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6157,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9567,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2556,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12862,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1999,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13609,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2050,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5441,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4865,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15348,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10603,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11055,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5085,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14711,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6821,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14557,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1983,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 53,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14462,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2497,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10489,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6472,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5516,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14126,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13355,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6704,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11636,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5919,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3077,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1634,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6754,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10985,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1614,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4972,
+      "k1_auc": 0.4989795918367347
+    },
+    {
+      "latent_idx": 5988,
+      "k1_auc": 0.4987755102040816
+    },
+    {
+      "latent_idx": 2958,
+      "k1_auc": 0.4942857142857143
+    },
+    {
+      "latent_idx": 8898,
+      "k1_auc": 0.49020408163265305
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.4897959183673469
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.4897959183673469
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.4897959183673469
+    },
+    {
+      "latent_idx": 1382,
+      "k1_auc": 0.4897959183673469
+    },
+    {
+      "latent_idx": 9443,
+      "k1_auc": 0.4897959183673469
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.4779591836734694
+    },
+    {
+      "latent_idx": 6410,
+      "k1_auc": 0.44244897959183677
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.4387755102040817
+    }
+  ]
+}

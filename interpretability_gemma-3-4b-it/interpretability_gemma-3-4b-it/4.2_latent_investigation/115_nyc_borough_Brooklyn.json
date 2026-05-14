@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "115_nyc_borough_Brooklyn",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:45:52.782989"
+  },
+  "best_latent": {
+    "latent_idx": 12356,
+    "k1_auc": 0.5297299458040193,
+    "examples": [
+      {
+        "text": "GLENMORE AVE OVER LIRR BAY RIDGE",
+        "activation": 3007.4814453125
+      },
+      {
+        "text": "PS 277 GERRITSEN BEACH",
+        "activation": 2988.97412109375
+      },
+      {
+        "text": "BROOKLYN SUPREME COURT CRIMINAL",
+        "activation": 2847.611328125
+      },
+      {
+        "text": "BRONX COMMUNITY COLLEGE",
+        "activation": 2783.609375
+      },
+      {
+        "text": "AVENUE H OVER LIRR BAY RIDGE",
+        "activation": 2771.111328125
+      },
+      {
+        "text": "18 AVENUE OVER LIRR BAY RIDGE",
+        "activation": 2679.68896484375
+      },
+      {
+        "text": "NYC HEALTH + HOSPITALS KINGS COUNTY",
+        "activation": 2676.5078125
+      },
+      {
+        "text": "TORAH ACADEMY OF BROOKLYN",
+        "activation": 2619.380859375
+      },
+      {
+        "text": "TRANSIT BOROUGH BROOKLYN",
+        "activation": 2441.52294921875
+      },
+      {
+        "text": "HYDE LEADERSHIP CHARTER SCHOOL BROOKLYN",
+        "activation": 2404.875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 12356\n\nTop activating examples (format: [activation] text):\n  [3007.481] GLENMORE AVE OVER LIRR BAY RIDGE\n  [2988.974] PS 277 GERRITSEN BEACH\n  [2847.611] BROOKLYN SUPREME COURT CRIMINAL\n  [2783.609] BRONX COMMUNITY COLLEGE\n  [2771.111] AVENUE H OVER LIRR BAY RIDGE\n  [2679.689] 18 AVENUE OVER LIRR BAY RIDGE\n  [2676.508] NYC HEALTH + HOSPITALS KINGS COUNTY\n  [2619.381] TORAH ACADEMY OF BROOKLYN\n  [2441.523] TRANSIT BOROUGH BROOKLYN\n  [2404.875] HYDE LEADERSHIP CHARTER SCHOOL BROOKLYN\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 12356,
+      "k1_auc": 0.5297299458040193
+    },
+    {
+      "latent_idx": 7585,
+      "k1_auc": 0.5235003534520485
+    },
+    {
+      "latent_idx": 2838,
+      "k1_auc": 0.5217015349917528
+    },
+    {
+      "latent_idx": 15103,
+      "k1_auc": 0.5201930521425927
+    },
+    {
+      "latent_idx": 9666,
+      "k1_auc": 0.5200121183559431
+    },
+    {
+      "latent_idx": 13962,
+      "k1_auc": 0.5190106708856498
+    },
+    {
+      "latent_idx": 10788,
+      "k1_auc": 0.5182869357390514
+    },
+    {
+      "latent_idx": 4043,
+      "k1_auc": 0.5180975864274413
+    },
+    {
+      "latent_idx": 2325,
+      "k1_auc": 0.5178598478473087
+    },
+    {
+      "latent_idx": 2886,
+      "k1_auc": 0.5155560978893863
+    },
+    {
+      "latent_idx": 13292,
+      "k1_auc": 0.5155224357895446
+    },
+    {
+      "latent_idx": 11976,
+      "k1_auc": 0.5146135590938162
+    },
+    {
+      "latent_idx": 14569,
+      "k1_auc": 0.5138940317096982
+    },
+    {
+      "latent_idx": 3468,
+      "k1_auc": 0.5136415659608846
+    },
+    {
+      "latent_idx": 15449,
+      "k1_auc": 0.5135658262362406
+    },
+    {
+      "latent_idx": 1154,
+      "k1_auc": 0.5132860100313058
+    },
+    {
+      "latent_idx": 7515,
+      "k1_auc": 0.5127516241963174
+    },
+    {
+      "latent_idx": 7231,
+      "k1_auc": 0.5127495203150773
+    },
+    {
+      "latent_idx": 11337,
+      "k1_auc": 0.5113841013902447
+    },
+    {
+      "latent_idx": 5304,
+      "k1_auc": 0.5113483354091628
+    },
+    {
+      "latent_idx": 16238,
+      "k1_auc": 0.5110643114417478
+    },
+    {
+      "latent_idx": 10707,
+      "k1_auc": 0.5104983673881578
+    },
+    {
+      "latent_idx": 13619,
+      "k1_auc": 0.5102290705894235
+    },
+    {
+      "latent_idx": 9261,
+      "k1_auc": 0.5101954084895817
+    },
+    {
+      "latent_idx": 7100,
+      "k1_auc": 0.5095453091863872
+    },
+    {
+      "latent_idx": 4835,
+      "k1_auc": 0.5094253879557008
+    },
+    {
+      "latent_idx": 884,
+      "k1_auc": 0.5092718046251725
+    },
+    {
+      "latent_idx": 4309,
+      "k1_auc": 0.5092633891002121
+    },
+    {
+      "latent_idx": 9902,
+      "k1_auc": 0.5092465580502912
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5084281482478876
+    },
+    {
+      "latent_idx": 5342,
+      "k1_auc": 0.5082009290739556
+    },
+    {
+      "latent_idx": 14229,
+      "k1_auc": 0.507832749856936
+    },
+    {
+      "latent_idx": 10705,
+      "k1_auc": 0.5077822567071734
+    },
+    {
+      "latent_idx": 2080,
+      "k1_auc": 0.507416181371394
+    },
+    {
+      "latent_idx": 4769,
+      "k1_auc": 0.5070480021543744
+    },
+    {
+      "latent_idx": 13200,
+      "k1_auc": 0.5069386003298885
+    },
+    {
+      "latent_idx": 4506,
+      "k1_auc": 0.5063074359578551
+    },
+    {
+      "latent_idx": 10407,
+      "k1_auc": 0.5062106574208098
+    },
+    {
+      "latent_idx": 826,
+      "k1_auc": 0.5061685797960077
+    },
+    {
+      "latent_idx": 12068,
+      "k1_auc": 0.5061349176961659
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5057541151917057
+    },
+    {
+      "latent_idx": 8682,
+      "k1_auc": 0.5051397818695931
+    },
+    {
+      "latent_idx": 1997,
+      "k1_auc": 0.5042203857676641
+    },
+    {
+      "latent_idx": 7033,
+      "k1_auc": 0.504047867505975
+    },
+    {
+      "latent_idx": 16173,
+      "k1_auc": 0.503460884639984
+    },
+    {
+      "latent_idx": 226,
+      "k1_auc": 0.5031179519978457
+    },
+    {
+      "latent_idx": 11892,
+      "k1_auc": 0.5030800821355237
+    },
+    {
+      "latent_idx": 4909,
+      "k1_auc": 0.503069562729323
+    },
+    {
+      "latent_idx": 6319,
+      "k1_auc": 0.5029622647860774
+    },
+    {
+      "latent_idx": 6221,
+      "k1_auc": 0.5021207122900326
+    },
+    {
+      "latent_idx": 8031,
+      "k1_auc": 0.5020786346652304
+    },
+    {
+      "latent_idx": 1748,
+      "k1_auc": 0.502053388090349
+    },
+    {
+      "latent_idx": 7998,
+      "k1_auc": 0.502053388090349
+    },
+    {
+      "latent_idx": 5169,
+      "k1_auc": 0.502053388090349
+    },
+    {
+      "latent_idx": 15616,
+      "k1_auc": 0.5020407648029085
+    },
+    {
+      "latent_idx": 9401,
+      "k1_auc": 0.5010792910761773
+    },
+    {
+      "latent_idx": 10922,
+      "k1_auc": 0.5010561483825361
+    },
+    {
+      "latent_idx": 14348,
+      "k1_auc": 0.501054044501296
+    },
+    {
+      "latent_idx": 2281,
+      "k1_auc": 0.5010372134513751
+    },
+    {
+      "latent_idx": 2236,
+      "k1_auc": 0.5000252465748813
+    },
+    {
+      "latent_idx": 14520,
+      "k1_auc": 0.5000042077624802
+    },
+    {
+      "latent_idx": 2385,
+      "k1_auc": 0.5000042077624802
+    },
+    {
+      "latent_idx": 2255,
+      "k1_auc": 0.5000042077624802
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8766,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8213,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 386,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2429,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1428,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5924,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8981,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10303,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 494,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2107,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1222,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15400,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7434,
+      "k1_auc": 0.4999957922375198
+    },
+    {
+      "latent_idx": 11315,
+      "k1_auc": 0.49997475342511866
+    },
+    {
+      "latent_idx": 12574,
+      "k1_auc": 0.4997938196384691
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.49904904567946945
+    },
+    {
+      "latent_idx": 5551,
+      "k1_auc": 0.4989922408859864
+    },
+    {
+      "latent_idx": 8516,
+      "k1_auc": 0.498983825361026
+    },
+    {
+      "latent_idx": 9162,
+      "k1_auc": 0.49896699431110514
+    },
+    {
+      "latent_idx": 3838,
+      "k1_auc": 0.49888283906150066
+    },
+    {
+      "latent_idx": 9262,
+      "k1_auc": 0.49790874204732893
+    },
+    {
+      "latent_idx": 15204,
+      "k1_auc": 0.49786245666004647
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.4977698858854815
+    },
+    {
+      "latent_idx": 2659,
+      "k1_auc": 0.49739118726226134
+    },
+    {
+      "latent_idx": 10974,
+      "k1_auc": 0.4969472683205978
+    },
+    {
+      "latent_idx": 1177,
+      "k1_auc": 0.49693674891439726
+    },
+    {
+      "latent_idx": 6360,
+      "k1_auc": 0.49691991786447637
+    },
+    {
+      "latent_idx": 8732,
+      "k1_auc": 0.4968694247147137
+    },
+    {
+      "latent_idx": 12885,
+      "k1_auc": 0.49683576261487195
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.49593109368162386
+    },
+    {
+      "latent_idx": 7556,
+      "k1_auc": 0.4957711987073754
+    },
+    {
+      "latent_idx": 9649,
+      "k1_auc": 0.495371461271754
+    },
+    {
+      "latent_idx": 16196,
+      "k1_auc": 0.4951063722354999
+    },
+    {
+      "latent_idx": 14572,
+      "k1_auc": 0.49491281516140967
+    },
+    {
+      "latent_idx": 14166,
+      "k1_auc": 0.494841283199246
+    },
+    {
+      "latent_idx": 4761,
+      "k1_auc": 0.49287415423974146
+    },
+    {
+      "latent_idx": 12159,
+      "k1_auc": 0.4927815834651766
+    },
+    {
+      "latent_idx": 1559,
+      "k1_auc": 0.49259433803480657
+    },
+    {
+      "latent_idx": 8931,
+      "k1_auc": 0.4908775709428754
+    },
+    {
+      "latent_idx": 10224,
+      "k1_auc": 0.49042313259501114
+    },
+    {
+      "latent_idx": 3479,
+      "k1_auc": 0.4896783586360116
+    },
+    {
+      "latent_idx": 2145,
+      "k1_auc": 0.48959841114888747
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.4883571212172216
+    },
+    {
+      "latent_idx": 10017,
+      "k1_auc": 0.487086376948194
+    },
+    {
+      "latent_idx": 13738,
+      "k1_auc": 0.4870400915609116
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.48667401622513207
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.48032871040495506
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.4781659204901202
+    },
+    {
+      "latent_idx": 15701,
+      "k1_auc": 0.4774842629683239
+    }
+  ]
+}

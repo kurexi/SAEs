@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "70_prime-factors",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:39:18.625753"
+  },
+  "best_latent": {
+    "latent_idx": 12462,
+    "k1_auc": 0.999525643974241,
+    "examples": [
+      {
+        "text": "What are the prime factors of 149116838?2, 13, 5735263List the prime factors",
+        "activation": 2015.7662353515625
+      },
+      {
+        "text": "61What are the prime factors of 9987800?2, 5, 49939List the prime factors",
+        "activation": 2011.5902099609375
+      },
+      {
+        "text": " the prime factors of 141353667?3, 7, 13, 127, 151List the prime factors",
+        "activation": 2008.77734375
+      },
+      {
+        "text": "What are the prime factors of 91349854?2, 101, 452227List the prime factors",
+        "activation": 2002.1329345703125
+      },
+      {
+        "text": " are the prime factors of 881440311?3, 1277, 230081List the prime factors",
+        "activation": 2002.06591796875
+      },
+      {
+        "text": ", 1621What are the prime factors of 156236?2, 139, 281List the prime factors",
+        "activation": 1998.01025390625
+      },
+      {
+        "text": "What are the prime factors of 2725615?5, 23, 137, 173List the prime factors",
+        "activation": 1995.938720703125
+      },
+      {
+        "text": ", 599What are the prime factors of 3531229?13, 61, 73List the prime factors",
+        "activation": 1993.29345703125
+      },
+      {
+        "text": " prime factors of 1451014804?2, 17, 79, 257, 1051List the prime factors",
+        "activation": 1991.7381591796875
+      },
+      {
+        "text": "What are the prime factors of 190795634?2, 2137, 44641List the prime factors",
+        "activation": 1991.138671875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 12462\n\nTop activating examples (format: [activation] text):\n  [2015.766] What are the prime factors of 149116838?2, 13, 5735263List the prime factors\n  [2011.590] 61What are the prime factors of 9987800?2, 5, 49939List the prime factors\n  [2008.777] the prime factors of 141353667?3, 7, 13, 127, 151List the prime factors\n  [2002.133] What are the prime factors of 91349854?2, 101, 452227List the prime factors\n  [2002.066] are the prime factors of 881440311?3, 1277, 230081List the prime factors\n  [1998.010] , 1621What are the prime factors of 156236?2, 139, 281List the prime factors\n  [1995.939] What are the prime factors of 2725615?5, 23, 137, 173List the prime factors\n  [1993.293] , 599What are the prime factors of 3531229?13, 61, 73List the prime factors\n  [1991.738] prime factors of 1451014804?2, 17, 79, 257, 1051List the prime factors\n  [1991.139] What are the prime factors of 190795634?2, 2137, 44641List the prime factors\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 12462,
+      "k1_auc": 0.999525643974241
+    },
+    {
+      "latent_idx": 365,
+      "k1_auc": 0.9994334785432113
+    },
+    {
+      "latent_idx": 1146,
+      "k1_auc": 0.9986149818713135
+    },
+    {
+      "latent_idx": 9097,
+      "k1_auc": 0.9976899453433627
+    },
+    {
+      "latent_idx": 4494,
+      "k1_auc": 0.9970570478651443
+    },
+    {
+      "latent_idx": 15635,
+      "k1_auc": 0.9967742099139564
+    },
+    {
+      "latent_idx": 2391,
+      "k1_auc": 0.9962905527896531
+    },
+    {
+      "latent_idx": 13329,
+      "k1_auc": 0.9792238825152877
+    },
+    {
+      "latent_idx": 6305,
+      "k1_auc": 0.9655013799448022
+    },
+    {
+      "latent_idx": 488,
+      "k1_auc": 0.9645480173440122
+    },
+    {
+      "latent_idx": 10105,
+      "k1_auc": 0.9569464831700849
+    },
+    {
+      "latent_idx": 7244,
+      "k1_auc": 0.9358630066562044
+    },
+    {
+      "latent_idx": 7616,
+      "k1_auc": 0.9290977257968505
+    },
+    {
+      "latent_idx": 13630,
+      "k1_auc": 0.8979703311867525
+    },
+    {
+      "latent_idx": 4956,
+      "k1_auc": 0.8790248390064397
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.8489095730288435
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.8466443327561017
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.8193139002381081
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.8122201214892582
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.8035878564857406
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.7954963235294117
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.7943696222739327
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.7852672290167216
+    },
+    {
+      "latent_idx": 8674,
+      "k1_auc": 0.7836737817252015
+    },
+    {
+      "latent_idx": 7917,
+      "k1_auc": 0.779208831646734
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.7771139705882353
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.7720588235294117
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.7687476324476432
+    },
+    {
+      "latent_idx": 12309,
+      "k1_auc": 0.7640294388224471
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.7628676470588236
+    },
+    {
+      "latent_idx": 5903,
+      "k1_auc": 0.7601293190919421
+    },
+    {
+      "latent_idx": 1859,
+      "k1_auc": 0.7308448103252341
+    },
+    {
+      "latent_idx": 8586,
+      "k1_auc": 0.7293198529411764
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.7218819335461876
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.7199654844688566
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.7198365374208561
+    },
+    {
+      "latent_idx": 16370,
+      "k1_auc": 0.7101397194112236
+    },
+    {
+      "latent_idx": 945,
+      "k1_auc": 0.703311867525299
+    },
+    {
+      "latent_idx": 4615,
+      "k1_auc": 0.7011975587152984
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.6976102941176471
+    },
+    {
+      "latent_idx": 14284,
+      "k1_auc": 0.6816927322907084
+    },
+    {
+      "latent_idx": 7388,
+      "k1_auc": 0.6672819484279453
+    },
+    {
+      "latent_idx": 886,
+      "k1_auc": 0.6659007352941176
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.6631433823529411
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.6575673737756372
+    },
+    {
+      "latent_idx": 6326,
+      "k1_auc": 0.6448942042318307
+    },
+    {
+      "latent_idx": 8202,
+      "k1_auc": 0.640754369825207
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.6230349315439148
+    },
+    {
+      "latent_idx": 5777,
+      "k1_auc": 0.6145354185832567
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.6078927431138048
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.6055133529952919
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.6024655521132095
+    },
+    {
+      "latent_idx": 4444,
+      "k1_auc": 0.6023061651063369
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.6005639002381081
+    },
+    {
+      "latent_idx": 13861,
+      "k1_auc": 0.5939233386546892
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5887172601331242
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5861882068834894
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5845588235294118
+    },
+    {
+      "latent_idx": 11597,
+      "k1_auc": 0.5804227941176471
+    },
+    {
+      "latent_idx": 7281,
+      "k1_auc": 0.5770333892526652
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5767463235294118
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5764085245413713
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5762867647058824
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5762816913794037
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5745990380972996
+    },
+    {
+      "latent_idx": 14476,
+      "k1_auc": 0.5744485294117647
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5697751501704638
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.5693933823529411
+    },
+    {
+      "latent_idx": 7630,
+      "k1_auc": 0.5684742647058824
+    },
+    {
+      "latent_idx": 9013,
+      "k1_auc": 0.5657169117647058
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5625
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5597426470588235
+    },
+    {
+      "latent_idx": 14779,
+      "k1_auc": 0.5592830882352942
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5592830882352942
+    },
+    {
+      "latent_idx": 16109,
+      "k1_auc": 0.5588235294117647
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5583639705882353
+    },
+    {
+      "latent_idx": 1888,
+      "k1_auc": 0.5583639705882353
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5565257352941176
+    },
+    {
+      "latent_idx": 5709,
+      "k1_auc": 0.5565257352941176
+    },
+    {
+      "latent_idx": 9616,
+      "k1_auc": 0.5546875
+    },
+    {
+      "latent_idx": 2396,
+      "k1_auc": 0.5542279411764706
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5523897058823529
+    },
+    {
+      "latent_idx": 11237,
+      "k1_auc": 0.5523897058823529
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5505514705882353
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5491727941176471
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5487132352941176
+    },
+    {
+      "latent_idx": 5603,
+      "k1_auc": 0.5483373863574869
+    },
+    {
+      "latent_idx": 8088,
+      "k1_auc": 0.5473345588235294
+    },
+    {
+      "latent_idx": 15810,
+      "k1_auc": 0.5464154411764706
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5450367647058824
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5436580882352942
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5436580882352942
+    },
+    {
+      "latent_idx": 10037,
+      "k1_auc": 0.543628493830835
+    },
+    {
+      "latent_idx": 609,
+      "k1_auc": 0.5422794117647058
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5415852115915364
+    },
+    {
+      "latent_idx": 5463,
+      "k1_auc": 0.5413602941176471
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5404411764705882
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5396484692082905
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.5386029411764706
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5386029411764706
+    },
+    {
+      "latent_idx": 11254,
+      "k1_auc": 0.5372242647058824
+    },
+    {
+      "latent_idx": 5514,
+      "k1_auc": 0.5367647058823529
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5358455882352942
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5353860294117647
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5353860294117647
+    },
+    {
+      "latent_idx": 1586,
+      "k1_auc": 0.5340073529411765
+    },
+    {
+      "latent_idx": 5911,
+      "k1_auc": 0.5330882352941176
+    },
+    {
+      "latent_idx": 3122,
+      "k1_auc": 0.5330882352941176
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.5321691176470589
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5303308823529411
+    },
+    {
+      "latent_idx": 6115,
+      "k1_auc": 0.5289522058823529
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5289522058823529
+    },
+    {
+      "latent_idx": 14584,
+      "k1_auc": 0.5289522058823529
+    },
+    {
+      "latent_idx": 3412,
+      "k1_auc": 0.5261948529411765
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5243566176470589
+    },
+    {
+      "latent_idx": 5828,
+      "k1_auc": 0.5238970588235294
+    },
+    {
+      "latent_idx": 1175,
+      "k1_auc": 0.5234375
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5225183823529411
+    },
+    {
+      "latent_idx": 13532,
+      "k1_auc": 0.5220588235294118
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5206801470588235
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5202205882352942
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5174632352941176
+    },
+    {
+      "latent_idx": 5247,
+      "k1_auc": 0.5172197156231398
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5170036764705882
+    },
+    {
+      "latent_idx": 8732,
+      "k1_auc": 0.5151654411764706
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5137867647058824
+    },
+    {
+      "latent_idx": 13008,
+      "k1_auc": 0.5119485294117647
+    },
+    {
+      "latent_idx": 2747,
+      "k1_auc": 0.5105698529411765
+    }
+  ]
+}

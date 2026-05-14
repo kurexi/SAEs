@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "47_reasoning_tf",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:35:42.826554"
+  },
+  "best_latent": {
+    "latent_idx": 11579,
+    "k1_auc": 0.5381099045927284,
+    "examples": [
+      {
+        "text": "If there is more food in a place then more people will\nA. live there B. die",
+        "activation": 1900.7623291015625
+      },
+      {
+        "text": "If there is more food in a place then more people will\nA. live there B. die",
+        "activation": 1900.7623291015625
+      },
+      {
+        "text": "For dating the age of a fossil, and compared to the isotope Carbon 14 with its 5730 year half-life, would Francium with a 22 minute half-life be a\nA. less useful isotope? B. more useful isotope",
+        "activation": 1523.649658203125
+      },
+      {
+        "text": "Which object likely contains less energy?\nA. a pinhead B. the sun",
+        "activation": 1458.3858642578125
+      },
+      {
+        "text": "Compared to an undeveloped patch of Yellowstone national park, would the city of Detroit, which is a highly developed industrial city, consume\nA. fewer natural resources? B. more natural resources",
+        "activation": 1437.6900634765625
+      },
+      {
+        "text": "Chris sees a particle with low energy. Chris knows it has not a lot of energy because it vibrates\nA. weakly B. powerfully",
+        "activation": 1375.1170654296875
+      },
+      {
+        "text": "When we have a lot of blocks we can make\nA. many arrangements B. few arrangements",
+        "activation": 1310.755126953125
+      },
+      {
+        "text": "Will measures water at a pH of 7, while a bleach solution measures at 12. Which substance is less basic?\nA. water B. bleach",
+        "activation": 1301.6700439453125
+      },
+      {
+        "text": "Will measures water at a pH of 7, while a bleach solution measures at 12. Which substance is less basic?\nA. water B. bleach",
+        "activation": 1301.6700439453125
+      },
+      {
+        "text": "Jeff should add _____ to his engine to decrease the friction in its processes.\nA. oil B. gas",
+        "activation": 1202.334716796875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 11579\n\nTop activating examples (format: [activation] text):\n  [1900.762] If there is more food in a place then more people will\nA. live there B. die\n  [1900.762] If there is more food in a place then more people will\nA. live there B. die\n  [1523.650] For dating the age of a fossil, and compared to the isotope Carbon 14 with its 5730 year half-life, would Francium with a 22 minute half-life be a\nA. less useful isotope? B. more useful isotope\n  [1458.386] Which object likely contains less energy?\nA. a pinhead B. the sun\n  [1437.690] Compared to an undeveloped patch of Yellowstone national park, would the city of Detroit, which is a highly developed industrial city, consume\nA. fewer natural resources? B. more natural resources\n  [1375.117] Chris sees a particle with low energy. Chris knows it has not a lot of energy because it vibrates\nA. weakly B. powerfully\n  [1310.755] When we have a lot of blocks we can make\nA. many arrangements B. few arrangements\n  [1301.670] Will measures water at a pH of 7, while a bleach solution measures at 12. Which substance is less basic?\nA. water B. bleach\n  [1301.670] Will measures water at a pH of 7, while a bleach solution measures at 12. Which substance is less basic?\nA. water B. bleach\n  [1202.335] Jeff should add _____ to his engine to decrease the friction in its processes.\nA. oil B. gas\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5381099045927284
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5335572873391972
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5335193249863908
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.529187319141621
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5285147408532218
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5265672005271753
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5262441623929175
+    },
+    {
+      "latent_idx": 7364,
+      "k1_auc": 0.5240086812021889
+    },
+    {
+      "latent_idx": 12119,
+      "k1_auc": 0.5214186459616652
+    },
+    {
+      "latent_idx": 4614,
+      "k1_auc": 0.5208907543764146
+    },
+    {
+      "latent_idx": 7379,
+      "k1_auc": 0.515891900409707
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5156634100220611
+    },
+    {
+      "latent_idx": 1306,
+      "k1_auc": 0.5141957711371515
+    },
+    {
+      "latent_idx": 15029,
+      "k1_auc": 0.513807552359396
+    },
+    {
+      "latent_idx": 14667,
+      "k1_auc": 0.5133212044809902
+    },
+    {
+      "latent_idx": 7581,
+      "k1_auc": 0.5129401484113113
+    },
+    {
+      "latent_idx": 5680,
+      "k1_auc": 0.5126120963813999
+    },
+    {
+      "latent_idx": 2961,
+      "k1_auc": 0.5125841618199009
+    },
+    {
+      "latent_idx": 10327,
+      "k1_auc": 0.5122912070595651
+    },
+    {
+      "latent_idx": 3038,
+      "k1_auc": 0.5114990115462854
+    },
+    {
+      "latent_idx": 1279,
+      "k1_auc": 0.5109689711486118
+    },
+    {
+      "latent_idx": 4722,
+      "k1_auc": 0.5084333724894708
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5077020599948429
+    },
+    {
+      "latent_idx": 6675,
+      "k1_auc": 0.5076827206830358
+    },
+    {
+      "latent_idx": 14683,
+      "k1_auc": 0.5076755579749592
+    },
+    {
+      "latent_idx": 14531,
+      "k1_auc": 0.5069635847921382
+    },
+    {
+      "latent_idx": 8802,
+      "k1_auc": 0.5060295676589405
+    },
+    {
+      "latent_idx": 4979,
+      "k1_auc": 0.5059679683694811
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.5059507778700971
+    },
+    {
+      "latent_idx": 15682,
+      "k1_auc": 0.5057867518551414
+    },
+    {
+      "latent_idx": 6963,
+      "k1_auc": 0.5057738589806033
+    },
+    {
+      "latent_idx": 12994,
+      "k1_auc": 0.5053863564736556
+    },
+    {
+      "latent_idx": 111,
+      "k1_auc": 0.5053763286823483
+    },
+    {
+      "latent_idx": 2247,
+      "k1_auc": 0.5052080050425465
+    },
+    {
+      "latent_idx": 1983,
+      "k1_auc": 0.5050110305704381
+    },
+    {
+      "latent_idx": 14265,
+      "k1_auc": 0.5049723519468241
+    },
+    {
+      "latent_idx": 6000,
+      "k1_auc": 0.5047932842449073
+    },
+    {
+      "latent_idx": 8782,
+      "k1_auc": 0.5047832564536
+    },
+    {
+      "latent_idx": 2080,
+      "k1_auc": 0.5047818239119847
+    },
+    {
+      "latent_idx": 13325,
+      "k1_auc": 0.5041250035813539
+    },
+    {
+      "latent_idx": 9272,
+      "k1_auc": 0.5036844970346388
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5035985445377189
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.5035827865799501
+    },
+    {
+      "latent_idx": 3734,
+      "k1_auc": 0.5035784889551042
+    },
+    {
+      "latent_idx": 13647,
+      "k1_auc": 0.503333524338882
+    },
+    {
+      "latent_idx": 3676,
+      "k1_auc": 0.5030398533077386
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5029761052058562
+    },
+    {
+      "latent_idx": 3349,
+      "k1_auc": 0.5029080594791279
+    },
+    {
+      "latent_idx": 9337,
+      "k1_auc": 0.5025169756181417
+    },
+    {
+      "latent_idx": 9226,
+      "k1_auc": 0.5023930607684154
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5022175744205369
+    },
+    {
+      "latent_idx": 8449,
+      "k1_auc": 0.5019081454316248
+    },
+    {
+      "latent_idx": 8935,
+      "k1_auc": 0.5018472624129732
+    },
+    {
+      "latent_idx": 2200,
+      "k1_auc": 0.5018264905595509
+    },
+    {
+      "latent_idx": 3405,
+      "k1_auc": 0.5017971234564365
+    },
+    {
+      "latent_idx": 2848,
+      "k1_auc": 0.501793542102398
+    },
+    {
+      "latent_idx": 919,
+      "k1_auc": 0.5017813654986677
+    },
+    {
+      "latent_idx": 15642,
+      "k1_auc": 0.501698994355786
+    },
+    {
+      "latent_idx": 8157,
+      "k1_auc": 0.5016187720253273
+    },
+    {
+      "latent_idx": 12802,
+      "k1_auc": 0.5012549064550326
+    },
+    {
+      "latent_idx": 1664,
+      "k1_auc": 0.5011961722488038
+    },
+    {
+      "latent_idx": 8784,
+      "k1_auc": 0.5011259777096525
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.500647508810131
+    },
+    {
+      "latent_idx": 2557,
+      "k1_auc": 0.5006181417070166
+    },
+    {
+      "latent_idx": 6787,
+      "k1_auc": 0.5006109789989399
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5006002349368248
+    },
+    {
+      "latent_idx": 13008,
+      "k1_auc": 0.5005959373119789
+    },
+    {
+      "latent_idx": 4339,
+      "k1_auc": 0.5005909234163252
+    },
+    {
+      "latent_idx": 72,
+      "k1_auc": 0.5005558261467495
+    },
+    {
+      "latent_idx": 4482,
+      "k1_auc": 0.5004877804200213
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11483,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14099,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9887,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14024,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8620,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6873,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15070,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3706,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11889,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11551,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11765,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5851,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14717,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 816,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 939,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6090,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3314,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3403,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7644,
+      "k1_auc": 0.4999899722086926
+    },
+    {
+      "latent_idx": 4891,
+      "k1_auc": 0.49989041056642697
+    },
+    {
+      "latent_idx": 12415,
+      "k1_auc": 0.49968555711543416
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.4995415866830932
+    },
+    {
+      "latent_idx": 12845,
+      "k1_auc": 0.4987880697934275
+    },
+    {
+      "latent_idx": 2699,
+      "k1_auc": 0.4987809070853507
+    },
+    {
+      "latent_idx": 6628,
+      "k1_auc": 0.49871930779589146
+    },
+    {
+      "latent_idx": 12408,
+      "k1_auc": 0.49824871787525427
+    },
+    {
+      "latent_idx": 3264,
+      "k1_auc": 0.4982150531472939
+    },
+    {
+      "latent_idx": 12142,
+      "k1_auc": 0.49780391370369315
+    },
+    {
+      "latent_idx": 12940,
+      "k1_auc": 0.49762771108500703
+    },
+    {
+      "latent_idx": 11023,
+      "k1_auc": 0.4976162507520844
+    },
+    {
+      "latent_idx": 7831,
+      "k1_auc": 0.4970568432512964
+    },
+    {
+      "latent_idx": 12988,
+      "k1_auc": 0.4964014554622812
+    },
+    {
+      "latent_idx": 5126,
+      "k1_auc": 0.4952181760880153
+    },
+    {
+      "latent_idx": 12870,
+      "k1_auc": 0.49473827464687853
+    },
+    {
+      "latent_idx": 10428,
+      "k1_auc": 0.4940334641721342
+    },
+    {
+      "latent_idx": 15994,
+      "k1_auc": 0.4933279374265823
+    },
+    {
+      "latent_idx": 16370,
+      "k1_auc": 0.49280720854940835
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.4916554450906799
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.49138827607942015
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.4912930120620004
+    },
+    {
+      "latent_idx": 5085,
+      "k1_auc": 0.4911139443600837
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.48937340629745296
+    },
+    {
+      "latent_idx": 14937,
+      "k1_auc": 0.4856151333696243
+    },
+    {
+      "latent_idx": 13264,
+      "k1_auc": 0.48208535082944165
+    }
+  ]
+}

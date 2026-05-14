@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "100_news_fake",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:44:49.410220"
+  },
+  "best_latent": {
+    "latent_idx": 3489,
+    "k1_auc": 0.9906202381212772,
+    "examples": [
+      {
+        "text": "Syria Ceasefire Deal: A Cynical Ploy by Washington\u2019s \u2018Coalition\u2019 to Buy Time for Terrorists\n21st Century Wire says This latest diplomatic development certainly appears positive on its surface, this week s declared  Syrian Ceasefire    a three-way agreement between Washington, Russia and the Syrian government (and begrudgingly by the West s other regional  stakeholders ) looks increasingly like it may just be the latest attempt to buy time   so that Washington, Turkey and Saudi Arabia can re-arm and replenish various militant fighting groups currently laying waste to Syria.Since the entrance of the Russian Air Force into the Syrian conflict theatre last October, the Washington-led Axis has gradually lost proxy-control of a number of key terrorist strongholds in Northern Syria, namely in Aleppo, and thus are unable to dictate crucial  facts on the ground  required to dictate the international media and political narratives. Unable to craft and package these narratives, the West and its dubious  coalition  are completely unable to sell an escalation of military violence in Syria.The fact that the Washington Axis has already threatened to move to a  Plan B    even before the agreement has been implemented, indicates that this diplomatic effort may in fact be  dead on arrival . Before the ink was even dry on the agreement, sources inside the CIA and the Pentagon went public with a preemptive statement claiming that,  Russia cannot be trusted to uphold the ceasefire . The scene is now set.Watch as 21WIRE founder and editor Patrick Henningsen speaks to Sean Thomas from RT International about why the ceasefire deal may not survive the spring . Patrick Henningsen talks Syria Ceasefire with RT International (2016) from 21wire on Vimeo.READ MORE SYRIA NEWS AT: 21st Century Wire Syria Files",
+        "activation": 4743.099609375
+      },
+      {
+        "text": "US BOOTS: US Marines Deployed For Ground Combat in Iraq (to defend oil fields)\n21st Century Wire says Back to square one. Quietly, president Barack Obama is deploying more and more US troops in Iraq, not necessarily to  fight ISIS , but firstly to guard the Iraqi oil fields.Notice how this announcement is perfectly timed with the Iraqi Army s military offensive this week to retake the supposed  ISIS stronghold  of Mosul in Northern Iraq.Will a new Kurdistan rise from the ashes of this geopolitical conundrum, or will it just be more instability?There s more to this new trend than meets the eye. Watch this space  Fighting Centers on Key Town of MakhmurJason Ditz  Antiwar.comEven as Pentagon officials have sought to emphasize their claims of ISIS being  on the run,  ever more US ground troops are being deployed into Iraq to try to cope with ISIS offensives, with the battle of Makhmur leading to the introduction of US Marines in front-line combat roles.Officials are trying to downplay the operation as  force protection  for Iraqi ground troops, who have been massing in the area in an effort to ultimately launch an attack on the ISIS-held city of Mosul, not far away.The explanation is unsatisfying for several reasons, but primarily because this  tactical assembly area  already includes thousands of Iraqi troops and Kurdish Peshmerga, and these are the same troops who are supposed to attack Mosul. Yet these troops are apparently unable to even hold Makhmur, let alone advance toward Mosul.The Makhmur District is also a key to holding oil fields around Kirkuk, and the ISIS offensive is seen by many analysts as part of an effort to ultimately regain control over those lucrative oil fields, and have been  outgunning  the thousands of Iraqi troops in the area.Whether they re trying to save Iraqi ground troops who still can t stand up to ISIS, or save oil fields, however, the latest escalation puts US troops even further in harm s way, and has put the war even further afield from the  no boots on the ground  affair initially promised by the Obama Administration.READ MORE IRAQ NEWS AT: 21st Century Wire Iraq Files",
+        "activation": 4690.42724609375
+      },
+      {
+        "text": "FALSE PROFITS: The U.S. Military\u2019s War Over Russia\n21st Century Wire says We ve said it many times during the last two years here at 21WIRE and on the SUNDAY WIRE radio show   that the present anti-Russia hysteria being rolled out in the US and Britain is simply a cheap facade to gin up a new arms race.  Not small ticket items, but big ticket items   including the next generation of  next generation tactical nuclear weapons. The only problem is: the out-of-control rhetoric, mixed with Washington s careless and belligerent military posturing  might inadvertently lead to belligerent military action.Watch US Army Chief of Staff Gen. Mark Milley last week, threatening to  destroy any enemy, anytime,  meaning Russia.. General Milley performed his duty for the corporations. All smiles at the AGM. Indeed, business has never been better. Bravo, encore!  says Lockheed Martin, Boeing, Northrop Grumman, Raytheon, General Dynamics, BAE Systems, Airbus and General Electric.When will it end? How much profit is enough for the US  defense  industry?The sad truth: it s never enough  Mark Perry PoliticoDuring the Battle of the Wilderness in 1864, a unit of Robert E. Lee s army rolled up some artillery pieces and began shelling the headquarters of Union commander Ulysses S. Grant. When one of his officers pleaded that Grant move, insisting that he knew exactly what Lee was going to do, Grant, normally a taciturn man, lost his temper:  Oh, I am heartily tired of hearing about what Lee is going to do,  he said.  Some of you always seem to think he is going to turn a double somersault, and land in our rear and on both of our flanks at the same time. Go back to your command and try to think what we are going to do ourselves, instead of what Lee is going to do. The story was recalled to me a few weeks ago by a senior Pentagon officer in citing the April 5 testimony of Army leaders before a Senate Armed Services Subcommittee. The panel delivered a grim warning about the future of the U.S. armed forces: Unless the Army budget was increased, allowing both for more men and more materiel, members of the panel said, the United States was in danger of being  outranged and outgunned  in the next war and, in particular, in a confrontation with Russia. Vladimir Putin s military, the panel averred, had outstripped the U.S. in modern weapons capabilities. And the Army s shrinking size meant that  the Army of the future will be too small to secure the nation.  It was a sobering assessment delivered by four of the most respected officers in the Army including Lt. Gen. H.R. McMaster, his service s leading intellectual. The claim is the prevailing view among senior Army officers, who fear that Army readiness and modernization programs are being weakened by successive cuts to the U.S. defense budget.But not everyone was buying it. This is the  Chicken-Little, sky-is-falling  set in the Army,  the senior Pentagon officer said. These guys want us to believe the Russians are 10 feet tall. There s a simpler explanation: The Army is looking for a purpose, and a bigger chunk of the budget. And the best way to get that is to paint the Russians as being able to land in our rear and on both of our flanks at the same time. What a crock. ( ) The fight over the Army panel s testimony is the latest example of a deepening feud in the military community over how to respond to shrinking budget numbers. At issue is the military s strategic future: Facing cuts, will the Army opt to modernize its weapons  arsenal, or defer modernization in favor of increased numbers of soldiers? On April 5, the Army s top brass made its choice clear: It wants to do both, and Russia s the reason. But a growing chorus of military voices says that demand is both backward and dangerously close-minded that those same senior military officers have not only failed to understand the lessons of Afghanistan and Iraq and embrace service reform, they are inflating foreign threats to win a bigger slice of the defense budget Continue this story at Politico.comREAD MORE RUSSIA NEWS AT: 21st Century Wire Russia Files",
+        "activation": 4660.4404296875
+      },
+      {
+        "text": "FLASHBACK: Florida Couple Nearly \u2018Forecloses\u2019 on Bank of America\n21st Century Wire says After the great crash of 2008, things went a little quiet for the first 24 months, but in the background nothing really changed. In other words, little or reform took placing to prevent a new housing bubble which many experts are warning is due to manifest this year or next. But that s not the worst of it After all the trouble and strife, still, if you have a mortgage, banks are selling those loans to third parties many times and these new corporate  owners  of your home are then foreclosing, and evicting residents, sometimes for no reason at all. After they remove the residents, they then sell the property for well below market value   leaving the ex-homeowner to cover the difference in the price short-fall. Sound like a good deal?How do you fight this international racket? Here is one story from 2011 which we hope will still inspire some folks to start taking the ponzi banks to task  CBS NewsWarren and Maureen Nyerges paid cash when they bought a home from Bank of America in the Golden Gate Estates section of Collier, County, Fla., according to CBS affiliate WINK-TV in Ft. Myers.But that didn t stop Bank of America from trying to foreclose on them.They took their case to court and, a year-and-a-half later, the foreclosure action was dropped.A Collier County judge said Bank of America had to pay the couple s $2,534 legal fees, since it had made the mistake.After more than five months, the bank still hadn t paid up. So, the homeowners  lawyer, Todd Allen, began proceedings to did just what a bank would have to get its money: legally seize bank assets.On Friday, sheriff s deputies and moving vans showed up at the bank. I instructed the deputy to go in and take desks, computers, copiers, and filing cabinets, including cash in the drawers,  Allen says.Inside, says WINK,  The homeowners  attorney was locked out of the bank manager s office by deputies while the bank manger tried to figure out what to do. Continue this story at CBS News READ MORE FINANCIAL NEWS AT: 21st Century Wire Financial Files",
+        "activation": 4551.81884765625
+      },
+      {
+        "text": "New Evidence Shows Foul Play, Cover-up by FBI and OSP in Shooting of LaVoy Finicum \u2013 DOJ Opens New Investigation\n21st Century Wire says The mainstream media called it  case closed  after the FBI released its aerial footage of the ambush and shooting of LaVoy Finicum. Now, new evidence reveals that there was likely foul play and a misrepresentation by Federal and State authorities involved in the recent killing of rancher and protester LaVoy Finicum.As 21WIRE reported at the time (although ignored by the Oregonian and other mainstream media outlets) that without any audio track to synch with the FBI s aerial footage, it was impossible to really tell when shots were fired and if the official story was actually true. At the time, FBI Special Agent in Charge, Greg Bretzing, insisted that their footage provided an  honest and unfiltered view  of what happened. However, new evidence tells different story, and appears to demonstrate exactly how the official story was intentionally distorted by authorities   in order to cover-up what really happened that day.At yesterday s Deschutes County Sheriff s Office press conference, officials claimed that the state trooper tactical team members were  justified  in killing Finicum because the officers  feared for their lives.  However, authorities are now saying that the FBI agents involved are now being investigated for firing shots  and never reporting them.Mike Arnold, an attorney representing the Bundys explained on Tuesday,  The public deserved to have the video, with audio and sound, released immediately after the shooting. Now we know why it wasn t released: the public would have heard the shots that the government didn t want it to hear. The following presentation revealed at yesterday s press conference shows previously released FBI aerial footage synched together with a newly released cellphone video from passenger Shauna Cox recorded while inside Finicum s truck. Among other things, this new video proves that police fired first on the vehicle before anyone had even exited the vehicle. Watch: Most importantly, this new evidence reveals what happened immediately after that crash, and this could very well lead to criminal charges against the FBI agents and members of the Oregon State Police tactical units. According to today s Washington Post: Deschutes County Sheriff Shane Nelson said two bullets believed to be fired by FBI agents did not strike Finicum, who was hit by three rounds fired by state troopers. But Nelson announced at a news conference Tuesday that because the FBI agents  did not disclose their shots to investigators, nor did they disclose specific actions they took after the shooting,  his office and the Justice Department would both investigate. The new video, combined with a brand new disclosure by a team of local investigators points towards a conspiracy by agents and members of an  elite national unit  who appear to have lied about events at the police ambush and LaVoy Finicum s death   has now prompted a new investigation by the U.S. Justice Department, led by Inspector General Michael Horowitz.Finicum Shot in the BackAmong other details, newly released findings show that two state troopers shot Finicum three times in the back during the police ambush Jan. 26, 2016. An autopsy revealed that one of the bullets pierced Finicum s heart.Another shocking point of this investigation shows the complete incompetence and negligence on the part of officers positioned in front and behind LaVoy Finicum   creating a dangerous  cross-fire  situation, something which professional officers are taught to avoid, for obvious reasons.Mainstream Yellow JournalismThe mainstream media are still standing by their slanted terminology by describing the incident as a  traffic stop , presumably to downplay the premeditated operation by Federal and State authorities to intercept the two vehicles (both the Oregonian, the Washington Post and many other mainstream media outlets all used this skewed language at the time).Clearly, by any sober estimation of the incident, this was an elaborate, staged ambush involving dozens of vehicles and special tactical teams, and yet every mainstream media news outlet covered the incident with a pro-government bias where the victim was assumed guilty while the government was assumed innocent. Not surprisingly, this coverage quickly turned public opinion against Finicum and anyone else protesting similar issues. One example of the public hate that was generated against Finicum can be found in the comment section of many articles on the website Gawker where Gawker readers celebrated Finicum s death:Tens of thousands of similar hate comments can be found throughout many mainstream media articles and on social media. This fact proves how pivotal the mainstream media s skewed coverage was in turning sections of the population against the protesters in Oregon   despite the fact that Finicum s killing was an obvious ambush and a clear escalation of violence on the part of the government.Stay tuned for more updates at 21WIRE.SEE MORE OREGON STANDOFF NEWS AT: 21st Century Wire Oregon Standoff Files",
+        "activation": 4479.7158203125
+      },
+      {
+        "text": "EXPOSED: How US-Backed War on Syria Helped ISIS to Expand Their Operations\nABC News PhotoDaniel Lazare Consortium NewsWhy are Islamic militants wreaking havoc from Brussels to Lahore? The best way to answer this question is by taking a close look at how The New York Times covered this weekend s liberation of Palmyra from Abu Bakr al-Baghdadi s Islamic State.The article, entitled  Syrian Troops Said to Recapture Historic Palmyra From ISIS,  began on a snide note. While the victory may have netted Bashar al-Assad  a strategic prize,  reporters Hwaida Saad and Kareem Fahim wrote that it also provided the Syrian president with  something more rare: a measure of international praise. The article noted that  Mr. Assad s contention that his government is a bulwark against the transnational extremist group  has been bolstered, but added that  his foes and some allies argue that he must leave power as part of a political settlement to end the war in Syria    without, of course, specifying who those allies might be.Then it offered a bit of background:  Lost in the celebrations was a discussion of how Palmyra had fallen in the first place. When the Islamic State captured the city in May [2015], the militants faced little resistance from Syrian troops. At the time, residents said officers and militiamen had fled into orchards outside the city, leaving conscripted soldiers and residents to face the militants alone. Since the Times claims to have  several hundred  surreptitious contacts inside Syria, the charge that Assad s troops fled without a fight may conceivably be correct. But it s hard to square with reports that the Islamic State (also known as ISIS, ISIL and Daesh) had to battle for seven or eight days before entering the city and then had to deal with a counter-offensive on the city s outskirts. But even if true, it s only part of the story and a small one at that.The real story began two months earlier when Syrian rebels launched a major offensive in Syria s northern Idlib province with heavy backing from Turkey and Saudi Arabia. Led by Al Nusra, the local Al Qaeda affiliate, but with the full participation of U.S.-backed rebel forces, the assault proved highly successful because of the large numbers of U.S.-made optically guided TOW missiles supplied by the Saudis. [See Consortiumnews.com s  Climbing into Bed with Al-Qaeda. ]The missiles gave the rebels the edge they needed to destroy dozens of government tanks and other vehicles according to videos posted on social media websites. Indeed, one pro-U.S. commander told The Wall Street Journal that the TOWs completely  flipped the balance of power,  enabling the rebels to dislodge the Syrian army s heavily dug-in forces and drive them out of town. Although the government soon counter-attacked, Al Nusra and its allies continued to advance to the point where they posed a direct threat to the Damascus regime s stronghold in Latakia province 50 or 60 miles to the west.Official Washington was jubilant. The trend lines for Assad are bad and getting worse,  a senior official crowed a month after the offensive began. The Times happily observed that  [t]he Syrian Army has suffered a string of defeats from re-energized insurgents   [which] raise newly urgent questions about the durability of President Bashar al-Assad s rule. Assad was on the ropes, or so everyone said. Indeed, ISIS thought so as well, according to the Associated Press, which is why it decided that the opportunity was ripe to launch an offensive of its own 200 miles or so to the southeast. Worn-out and depleted after four years of civil war, the Syrian Arab Army retreated before the onslaught.But considering the billions of dollars that the U.S. and Saudis were pouring into the rebel forces, blaming Damascus for not putting up a stiffer fight is a little like beating up a 12-year-old girl and then blaming her for not having a better right hook.So the U.S. and its allies helped Islamic State by tying down Assad s forces in the north so that it could punch through in the center. But that s not all the U.S. did. It also helped by suspending bombing as the Islamic State neared Palmyra.As the Times put it at the time:  Any airstrikes against Islamic State militants in and around Palmyra would probably benefit the forces of President Bashar al-Assad. So far, United States-led airstrikes in Syria have largely focused on areas far outside government control, to avoid the perception of aiding a leader whose ouster President Obama has called for. The upshot was a clear message to ISIS to the effect that it had nothing to worry about from U.S. jet bombers as long as it engaged Assad s troops in close combat. The U.S. thus incentivized ISIS to press forward with the assault. Although residents later wondered why the U.S. had not bombed ISIS forces  while they were traversing miles of open desert roads,  the answer, simply, is that Washington had other things on its mind. Rather than defeating ISIS, it preferred to use it to accomplish its primary goal, which was driving out Assad.The BlowbackBut what does this have to do with Brussels and Lahore? Simply that America s fundamental ambivalence toward ISIS, Al Qaeda, and similar groups   its policy of battling them on one hand and seeking to make use of them on the other  is what allows Sunni terrorism to fester and grow.The administration is shocked, SHOCKED, when Islamists kill innocent people in Belgium but not when they kill innocent people in Syria. This is why the White House long regarded ISIS as a lesser threat: because it thought its violence would remain safely contained. Where Al Qaeda s principal ambition is to launch attacks against the West and U.S. homeland,  Deputy National Security Adviser Ben Rhodes explained in August 2014,  ISIL s primary focus is consolidating territory in the Middle East region to establish their own Islamic State. Since the only people in harm s way were Syrians, there was no cause for alarm. The rest of the world could relax.Hence the confusion when ISIS did the unexpected by striking out at Western targets after all. As the Times observed in a major takeout this week on Islamic State s Western operations, officials were slow to connect the dots because Euro-terrorism was not supposed to be ISIS s thing:  Even as the group began aggressively recruiting foreigners, especially Europeans, policymakers in the United States and Europe continued to see it as a lower-profile branch of Al Qaeda that was mostly interested in gaining and governing territory. Turkish officials made essentially the same point last week in response to widespread complaints that they have done little to prevent Sunni terrorists from making their way to Syria. Not so, they countered. When they tried to return the jihadis from whence they came, they found that members of the European Union were none too eager to have them. We were suspicious that the reason they want these people to come is because they don t want them in their own countries,  a senior Turkish security official told the London Guardian. Instead, they preferred to see them continue on their way. And why not? At home, they would only cause trouble, whereas in Syria they would advance Western interests by waging war against Assad s Baathist government.Thus, Brussels was unresponsive when Turkish officials informed it that they had detained a Belgian citizen named Ibrahim el-Bakraoui in the border town of Gaziantep on suspicion of traveling to Syria to join the jihad. The Turks deported him anyway, but the Belgians remained unconcerned until El-Bakraoui turned up among the suicide bombers at Zaventem airport.The same thing happened when the Turks intercepted a Syria-bound French national named Omar Ismail Mostefai. Paris was also unresponsive until Mostefai wound up among the ISIS militants who stormed the Bataclan concert hall last November, at which point its attitude turned distinctly less blas .In June 2014, Turkish security officers in Istanbul intercepted a Norwegian citizen traveling to Syria with a camouflage outfit, a first-aid kit, knives, a gun magazine and parts of an AK-47, all of which E.U. customs officials had somehow overlooked.Two months later, they intercepted a German citizen with a suitcase containing a bulletproof vest, military camouflage and binoculars that customs had also failed to notice. When they apprehended a Danish-Turkish dual citizen on his way to Syria, they sent him back to Copenhagen. But the Danes gave him another passport regardless so he could continue on his way. Everyone figured that what happens in Syria stays in Syria, so why worry?Now, of course, everyone is worried big time. With the AP reporting that Islamic State has armed and trained 400 to 600 fighters for its European operations, talk of ISIS sleeper cells is ubiquitous. Referring to the Brussels district where the March 22 bombing plot was hatched, Patrick Kanner, the French social-democratic minister of youth, warned ominously:  There are today, as is well known, hundreds of neighborhoods in France that present potential similarities to what happened in Molenbeek. The implication was that the state of emergency should not only continue but deepen. As hundreds of neo-Nazis descended on Brussels chanting anti-immigrant slogans, paranoia took a giant leap forward as did its handmaidens racism and Islamophobia.But as much everyone would like to blame it all on Donald Trump, Marine Le Pen and others of that ilk, none of this is really their fault. To the contrary, the West s disastrous Syria policy is entirely the creation of nice-guy liberals like Barack Obama. Desperate to appease both Israel and the Sunni oil sheiks, all of whom for various reasons wanted Assad to go, he signed on to a massive Sunni jihad that has turned Syria into a charnel house.With death estimates now running as high as 470,000, which is to say one person in nine, the idea that massive violence like this could remain confined to a single country was absurd to begin with. Yet Obama went along regardless.Indeed, the administration is still unwilling to back down despite all that has happened since. When a reporter asked point-blank at a State Department press briefing,  Do you want to see the [Damascus] regime retake Palmyra or would you prefer that it stays in Daesh s hands,  spokesman Mark Toner hemmed and hawed before finally admitting that a takeover was preferable because  we think Daesh is probably the greater evil in this case. (Exchange starts at 1:05.)But the next day he walked back even that mealy-mouthed statement. Refusing to endorse Palmyra s fall at all, he declared:  I m not going to laud it because it s important to remember that one of the reasons Daesh is in Syria is because Assad s brutal crackdown on his own people created the kind of vacuum, if you will, that has allowed a group like ISIL or Daesh to flourish. Just because he s now, given the cessation of hostilities, willing and-or able to divert his forces to take on Daesh doesn t exonerate him or his regime from the gross abuses that they ve carried out against the Syrian people. Since Assad is the only one to blame, the U.S. doesn t have to ponder its own contribution to the problem. Instead, it gives itself a clean bill of health and moves on. Rather, it would like to move on if only ISIS would let it.But the more aid the U.S. and its allies funnel into the hands of Sunni terrorists, the more groups like ISIS and Al Qaeda will grow and the farther their reach will extend. The upshot will be more bombings and shootings in Paris, Brussels, and who knows where else. Racism and Islamophobia will continue to surge regardless of what bien-pensant liberals do to talk it down.The liberal center is engineering its own demise.***Daniel Lazare is the author of several books including The Frozen Republic: How the Constitution Is Paralyzing Democracy (Harcourt Brace).READ MORE SYRIA NEWS AT: 21st Century Wire Syria Files",
+        "activation": 4474.68701171875
+      },
+      {
+        "text": "Cruz & Kasich Quit: Trump Crushes Elite Establishment, #DropOutHillary Now Trending\n21st Century Wire says The field is now clear for Trump to become the GOP presidential nominee.Watch a video of this report here:Ted Cruz and John Kasich have both now bowed out of the presidential race, leaving Donald Trump as the last Republican candidate standing.The two failing candidates made their decision after Trump swept to victory in Indiana last night.Dr. Inderjeet Parmar, Head of the Department of International Politics at City University London, says that,  it has exposed a deeply divided Republican party whose leadership has lost all credibility and whose conservative philosophy, which it has held dear since 1980, is in tatters. It is, indeed, the elite leadership of both political parties that appears to have provoked this realignment in US politics towards outsiders and those not embroiled in what many see as a corrupt and broken system.Bernie Sanders, the Democratic outsider, also shocked the world with a victory over Hillary Clinton last night.Just two weeks ago Cruz and Kasich were publicising that they had made a deal to stop Trump, yet even their combined efforts were useless.Yesterday, a Rasmussen poll emerged showing that Donald Trump can indeed beat Hillary Clinton at the general election, and that scenario is looking ever more likely with the political establishment in such dramatic retreat.It is possible that Bernie voters will not support Hillary in the general election, and in many ways their anti-establishment position gels much better with the politics of Trump than it does with Wall Street insider Clinton.Immediately after Kasich s announcement today, #DropOutHillary began trending on Twitter. At the time of writing it is the number two trending hashtag in the US with 102,000 tweets.With such an immediate response taking aim at another establishment figure, the chances of Trump, or perhaps even Sanders, taking the presidency seem higher than ever.GET THE FULL STORY ON THE ELECTION: 21st Century Wire 2016 Election Files",
+        "activation": 4473.974609375
+      },
+      {
+        "text": "Patrick Henningsen LIVE with guest Sean Stone \u2013 \u2018Project for a New Global Government?\u2019\nJoin Patrick every week here at 21WIRE.TV for news, views and analysis on all top stories domestically and abroad THIS WEEK: Episode 4 The New World Order  Did Great Britain regain control of its former American colonies by stealth? From Cecil Rhodes and his Round Table, to H.G. Wells, to Henry Kissinger and Zbigniew Brzezinski   many have worked to steer the world beyond the modern nation state and into Technetronic Era of global government. But to what end?Host Patrick Henningsen talks to Sean Stone, author of the new book, New World Order: A Strategy for Imperialism. Listen:   END 927 Download Link  START 999 Download Link Download this podcast  END 999 Download Link This program broadcasts LIVE every Wednesday night from 8pm to 9pm MST, right after the Savage Nation, on Independent Talk 1100 KFNX over the terrestrial AM band across the greater Phoenix and central Arizona region, and live over global satellite and online via www.1100kfnx.com.READ MORE NWO NEWS AT: 21st Century Wire NWO Files",
+        "activation": 4388.005859375
+      },
+      {
+        "text": "Patrick Henningsen LIVE with guest Sean Stone \u2013 \u2018Project for a New Global Government?\u2019\nJoin Patrick every week here at 21WIRE.TV for news, views and analysis on all top stories domestically and abroad THIS WEEK: Episode 4 The New World Order  Did Great Britain regain control of its former American colonies by stealth? From Cecil Rhodes and his Round Table, to H.G. Wells, to Henry Kissinger and Zbigniew Brzezinski   many have worked to steer the world beyond the modern nation state and into Technetronic Era of global government. But to what end?Host Patrick Henningsen talks to Sean Stone, author of the new book, New World Order: A Strategy for Imperialism. Listen:   END 927 Download Link  START 999 Download Link Download this podcast  END 999 Download Link This program broadcasts LIVE every Wednesday night from 8pm to 9pm MST, right after the Savage Nation, on Independent Talk 1100 KFNX over the terrestrial AM band across the greater Phoenix and central Arizona region, and live over global satellite and online via www.1100kfnx.com.READ MORE NWO NEWS AT: 21st Century Wire NWO Files",
+        "activation": 4388.005859375
+      },
+      {
+        "text": "Patrick Henningsen LIVE with guest Sean Stone \u2013 \u2018Project for a New Global Government?\u2019\nJoin Patrick every week here at 21WIRE.TV for news, views and analysis on all top stories domestically and abroad THIS WEEK: Episode 4 The New World Order  Did Great Britain regain control of its former American colonies by stealth? From Cecil Rhodes and his Round Table, to H.G. Wells, to Henry Kissinger and Zbigniew Brzezinski   many have worked to steer the world beyond the modern nation state and into Technetronic Era of global government. But to what end?Host Patrick Henningsen talks to Sean Stone, author of the new book, New World Order: A Strategy for Imperialism. Listen:   END 927 Download Link  START 999 Download Link Download this podcast  END 999 Download Link This program broadcasts LIVE every Wednesday night from 8pm to 9pm MST, right after the Savage Nation, on Independent Talk 1100 KFNX over the terrestrial AM band across the greater Phoenix and central Arizona region, and live over global satellite and online via www.1100kfnx.com.READ MORE NWO NEWS AT: 21st Century Wire NWO Files",
+        "activation": 4388.005859375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 3489\n\nTop activating examples (format: [activation] text):\n  [4743.100] Syria Ceasefire Deal: A Cynical Ploy by Washington\u2019s \u2018Coalition\u2019 to Buy Time for Terrorists\n21st Century Wire says This latest diplomatic development certainly appears positive on its surface, this week s declared  Syrian Ceasefire    a three-way agreement between Washington, Russia and the Syrian g\n  [4690.427] US BOOTS: US Marines Deployed For Ground Combat in Iraq (to defend oil fields)\n21st Century Wire says Back to square one. Quietly, president Barack Obama is deploying more and more US troops in Iraq, not necessarily to  fight ISIS , but firstly to guard the Iraqi oil fields.Notice how this announcem\n  [4660.440] FALSE PROFITS: The U.S. Military\u2019s War Over Russia\n21st Century Wire says We ve said it many times during the last two years here at 21WIRE and on the SUNDAY WIRE radio show   that the present anti-Russia hysteria being rolled out in the US and Britain is simply a cheap facade to gin up a new arms r\n  [4551.819] FLASHBACK: Florida Couple Nearly \u2018Forecloses\u2019 on Bank of America\n21st Century Wire says After the great crash of 2008, things went a little quiet for the first 24 months, but in the background nothing really changed. In other words, little or reform took placing to prevent a new housing bubble which\n  [4479.716] New Evidence Shows Foul Play, Cover-up by FBI and OSP in Shooting of LaVoy Finicum \u2013 DOJ Opens New Investigation\n21st Century Wire says The mainstream media called it  case closed  after the FBI released its aerial footage of the ambush and shooting of LaVoy Finicum. Now, new evidence reveals that t\n  [4474.687] EXPOSED: How US-Backed War on Syria Helped ISIS to Expand Their Operations\nABC News PhotoDaniel Lazare Consortium NewsWhy are Islamic militants wreaking havoc from Brussels to Lahore? The best way to answer this question is by taking a close look at how The New York Times covered this weekend s libe\n  [4473.975] Cruz & Kasich Quit: Trump Crushes Elite Establishment, #DropOutHillary Now Trending\n21st Century Wire says The field is now clear for Trump to become the GOP presidential nominee.Watch a video of this report here:Ted Cruz and John Kasich have both now bowed out of the presidential race, leaving Dona\n  [4388.006] Patrick Henningsen LIVE with guest Sean Stone \u2013 \u2018Project for a New Global Government?\u2019\nJoin Patrick every week here at 21WIRE.TV for news, views and analysis on all top stories domestically and abroad THIS WEEK: Episode 4 The New World Order  Did Great Britain regain control of its former American c\n  [4388.006] Patrick Henningsen LIVE with guest Sean Stone \u2013 \u2018Project for a New Global Government?\u2019\nJoin Patrick every week here at 21WIRE.TV for news, views and analysis on all top stories domestically and abroad THIS WEEK: Episode 4 The New World Order  Did Great Britain regain control of its former American c\n  [4388.006] Patrick Henningsen LIVE with guest Sean Stone \u2013 \u2018Project for a New Global Government?\u2019\nJoin Patrick every week here at 21WIRE.TV for news, views and analysis on all top stories domestically and abroad THIS WEEK: Episode 4 The New World Order  Did Great Britain regain control of its former American c\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 3489,
+      "k1_auc": 0.9906202381212772
+    },
+    {
+      "latent_idx": 10888,
+      "k1_auc": 0.9856551251485524
+    },
+    {
+      "latent_idx": 4353,
+      "k1_auc": 0.9789520403625043
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.9728541015041158
+    },
+    {
+      "latent_idx": 7903,
+      "k1_auc": 0.9685843595295902
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.9654109888667732
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.9568459867159532
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.948362095992184
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.944726207922308
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.9436111536414473
+    },
+    {
+      "latent_idx": 11948,
+      "k1_auc": 0.8759004279766982
+    },
+    {
+      "latent_idx": 2084,
+      "k1_auc": 0.8678435114503817
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.8231078253388452
+    },
+    {
+      "latent_idx": 2384,
+      "k1_auc": 0.820370998199144
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.8169346989216737
+    },
+    {
+      "latent_idx": 9426,
+      "k1_auc": 0.7973731745372092
+    },
+    {
+      "latent_idx": 10961,
+      "k1_auc": 0.7810114503816794
+    },
+    {
+      "latent_idx": 16019,
+      "k1_auc": 0.762657028077313
+    },
+    {
+      "latent_idx": 10279,
+      "k1_auc": 0.7615269362846957
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.7591938435515505
+    },
+    {
+      "latent_idx": 4848,
+      "k1_auc": 0.7586060135465197
+    },
+    {
+      "latent_idx": 2028,
+      "k1_auc": 0.7583617679010186
+    },
+    {
+      "latent_idx": 7206,
+      "k1_auc": 0.7576440684762717
+    },
+    {
+      "latent_idx": 3576,
+      "k1_auc": 0.7576395116545273
+    },
+    {
+      "latent_idx": 16095,
+      "k1_auc": 0.7571829181157359
+    },
+    {
+      "latent_idx": 13829,
+      "k1_auc": 0.7562278082781047
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.755382517844514
+    },
+    {
+      "latent_idx": 16366,
+      "k1_auc": 0.755255838200019
+    },
+    {
+      "latent_idx": 3684,
+      "k1_auc": 0.755255838200019
+    },
+    {
+      "latent_idx": 9626,
+      "k1_auc": 0.7545367717287488
+    },
+    {
+      "latent_idx": 5550,
+      "k1_auc": 0.7540592168099332
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.7540501031664444
+    },
+    {
+      "latent_idx": 706,
+      "k1_auc": 0.7535816618911175
+    },
+    {
+      "latent_idx": 6427,
+      "k1_auc": 0.7533465298891051
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.7438792770328894
+    },
+    {
+      "latent_idx": 1296,
+      "k1_auc": 0.7411652340019101
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.7309483839687365
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.7307720349672273
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.7226731956808622
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.721256935482695
+    },
+    {
+      "latent_idx": 8787,
+      "k1_auc": 0.7145296995414014
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.7101387461084743
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.7076871760099741
+    },
+    {
+      "latent_idx": 14589,
+      "k1_auc": 0.7068669480959777
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.7045370451380536
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.7022982786150179
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.7019984397442347
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.6963197284863332
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.6952461412833468
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.6919342432394993
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.6806387934994202
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.679722872328791
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.6759621273431178
+    },
+    {
+      "latent_idx": 9039,
+      "k1_auc": 0.6728748806112703
+    },
+    {
+      "latent_idx": 566,
+      "k1_auc": 0.6700095510983763
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.6680118404456208
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.6647664719992417
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.6643199034682883
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.6625591475462426
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.6617006423295931
+    },
+    {
+      "latent_idx": 6084,
+      "k1_auc": 0.6606124732970245
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.6571392637634245
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.655370305562239
+    },
+    {
+      "latent_idx": 10656,
+      "k1_auc": 0.6552053486150907
+    },
+    {
+      "latent_idx": 3404,
+      "k1_auc": 0.6542502387774594
+    },
+    {
+      "latent_idx": 9887,
+      "k1_auc": 0.6509073543457498
+    },
+    {
+      "latent_idx": 13113,
+      "k1_auc": 0.650429799426934
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.6503938005351532
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.650206059479283
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.640402968860503
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.6386968947993906
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.637161701553694
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.6350796896986665
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.634141895783664
+    },
+    {
+      "latent_idx": 10977,
+      "k1_auc": 0.6228774324314472
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.6219013612137916
+    },
+    {
+      "latent_idx": 9072,
+      "k1_auc": 0.619416526316557
+    },
+    {
+      "latent_idx": 4548,
+      "k1_auc": 0.6189111747851003
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.617612024905765
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.615961999752109
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.6090442886618984
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.6059160305343512
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.602933135020451
+    },
+    {
+      "latent_idx": 14802,
+      "k1_auc": 0.6024683392025199
+    },
+    {
+      "latent_idx": 3306,
+      "k1_auc": 0.602196752626552
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.6019092171744789
+    },
+    {
+      "latent_idx": 12288,
+      "k1_auc": 0.5954180245995465
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5928953680818332
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5919015252593745
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.5905996412869923
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5901717557251909
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.5887623307596405
+    },
+    {
+      "latent_idx": 14557,
+      "k1_auc": 0.5874982684077371
+    },
+    {
+      "latent_idx": 506,
+      "k1_auc": 0.584965586882186
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5782442748091603
+    },
+    {
+      "latent_idx": 7000,
+      "k1_auc": 0.5773638968481375
+    },
+    {
+      "latent_idx": 12926,
+      "k1_auc": 0.5755001567546679
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.5749045801526718
+    },
+    {
+      "latent_idx": 714,
+      "k1_auc": 0.5740401510677544
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5739503816793893
+    },
+    {
+      "latent_idx": 9026,
+      "k1_auc": 0.5739244077954461
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5672709923664122
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5655425898787522
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.5615467128910665
+    },
+    {
+      "latent_idx": 8854,
+      "k1_auc": 0.5615458015267175
+    },
+    {
+      "latent_idx": 8035,
+      "k1_auc": 0.5596374045801527
+    },
+    {
+      "latent_idx": 10163,
+      "k1_auc": 0.5596374045801527
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5572519083969466
+    },
+    {
+      "latent_idx": 7778,
+      "k1_auc": 0.5553435114503816
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.5525310410697231
+    },
+    {
+      "latent_idx": 56,
+      "k1_auc": 0.5524809160305344
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.5523223386338284
+    },
+    {
+      "latent_idx": 9647,
+      "k1_auc": 0.5511380206624525
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5511152365537304
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5510282012584119
+    },
+    {
+      "latent_idx": 6472,
+      "k1_auc": 0.5507124135115233
+    },
+    {
+      "latent_idx": 10603,
+      "k1_auc": 0.5491412213740458
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.5490195542334697
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5436251886524202
+    },
+    {
+      "latent_idx": 12794,
+      "k1_auc": 0.5430118404456208
+    },
+    {
+      "latent_idx": 659,
+      "k1_auc": 0.541030534351145
+    },
+    {
+      "latent_idx": 3958,
+      "k1_auc": 0.5377081556172852
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5330720451745081
+    },
+    {
+      "latent_idx": 4709,
+      "k1_auc": 0.5300572519083969
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5279478991229031
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5270228643087848
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5251295048739765
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5086119374147875
+    }
+  ]
+}

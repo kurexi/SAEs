@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "60_wikidata_occupation_isathlete",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:37:17.361223"
+  },
+  "best_latent": {
+    "latent_idx": 7748,
+    "k1_auc": 0.6988104655468408,
+    "examples": [
+      {
+        "text": " one of his best performances since moving to the capital. He picked up two assists and earned a penalty for Edinson Cavani\u2019s opener. Despite their limp exit from the Champions League, there is still more to come from PSG and their young star in particular.  \u2022 After a frustrating defeat to Lyon a fortnight ago, Marseille managed to right the ship with a gritty 3-1 win over Dijon. It was not without cost, however, as Steve Mandanda and Adil Rami both picked up injuries. With Rami set to be out for a month and Florian Thauvin",
+        "activation": 1685.9019775390625
+      },
+      {
+        "text": " one of his best performances since moving to the capital. He picked up two assists and earned a penalty for Edinson Cavani\u2019s opener. Despite their limp exit from the Champions League, there is still more to come from PSG and their young star in particular.  \u2022 After a frustrating defeat to Lyon a fortnight ago, Marseille managed to right the ship with a gritty 3-1 win over Dijon. It was not without cost, however, as Steve Mandanda and Adil Rami both picked up injuries. With Rami set to be out for a month and Florian Thauvin",
+        "activation": 1685.9019775390625
+      },
+      {
+        "text": " one of his best performances since moving to the capital. He picked up two assists and earned a penalty for Edinson Cavani\u2019s opener. Despite their limp exit from the Champions League, there is still more to come from PSG and their young star in particular.  \u2022 After a frustrating defeat to Lyon a fortnight ago, Marseille managed to right the ship with a gritty 3-1 win over Dijon. It was not without cost, however, as Steve Mandanda and Adil Rami both picked up injuries. With Rami set to be out for a month and Florian Thauvin",
+        "activation": 1685.9019775390625
+      },
+      {
+        "text": " are. He looks after his bats very well, which is what you expect from a professional they the tools of his trade after all but Suzuki goes to extreme lengths: He has a humidor, a special box which is fitted out with chemical rods which reduce the chances of harmful moisture getting into the timber in the bats..  He has also won more than a two dozen regional and local awards since he started working at WTOP. I believe in him. Williams II, president of the Michigan NAN, said Etue is unfit for the position. \u201cThere\u2019s so much talent in this state. Pep Guardiola",
+        "activation": 1673.87060546875
+      },
+      {
+        "text": " Rockets won by just four points. (more...)  The 25-year-old has managed to rack up 44 goals in all competitions in his debut season with the Reds and will be looking to add to his tally when he meets the Spanish giants in Kiev. The Real Madrid star has played a total of 3,588 minutes, 501 minutes less than Salah, who has played 4,089. Surprisingly, Sawiris replied to Elmansi saying, \"yes I can, I used to fast in the past for a couple of days in solidarity with my best friend\". (more...)  Ryan Giggs",
+        "activation": 1553.1068115234375
+      },
+      {
+        "text": " Rockets won by just four points. (more...)  The 25-year-old has managed to rack up 44 goals in all competitions in his debut season with the Reds and will be looking to add to his tally when he meets the Spanish giants in Kiev. The Real Madrid star has played a total of 3,588 minutes, 501 minutes less than Salah, who has played 4,089. Surprisingly, Sawiris replied to Elmansi saying, \"yes I can, I used to fast in the past for a couple of days in solidarity with my best friend\". (more...)  Ryan Giggs",
+        "activation": 1553.1068115234375
+      },
+      {
+        "text": "You'll have plenty to celebrate when you subscribe to the Liverpool FC newsletter Sign me up Thank you for subscribing We have more newsletters Show me See our privacy notice Invalid Email  Daniel Sturridge",
+        "activation": 1486.835693359375
+      },
+      {
+        "text": " new national manager. The 68-year-old Frenchman has said he wants to stay in the game. (Mail) external-link  'He can be above the stars' Zlatan Ibrahimovic on Pogba, Rooney & Manchester United  Chelsea will target 19-year-old AC Milan and Italy goalkeeper Gianluigi Donnarumma if 26-year-old Belgium international Thibaut Courtois - a Real Madrid target - leaves Stamford Bridge this summer. (London Evening Standard) external-link  Costa Rica goalkeeper Keylor Navas",
+        "activation": 1484.86376953125
+      },
+      {
+        "text": " Where the state ruling party Congress is dealing with a wave of anti- incumbency sentiment, the BJP is struggling to contain party infighting, and contend with its biggest drawback: the lack of a strong [\u2026]  0  Maurice  11 \u0441\u0435\u043d\u0442\u044f\u0431\u0440\u044c 2016 16:47  I've only just arrived writing an intro to an essay \u201cThirty years ago, we did not have the event villages that we have now \u2014 there were just the members-only yacht clubs, which were relatively posh, and the pubs,\u201d said Mr Quarrie. esl websites Andy Murray",
+        "activation": 1484.4189453125
+      },
+      {
+        "text": "belief.  The focus on Wayne Rooney may have distracted everyone in the build-up, but his only contribution to the tournament so far has been his criticism of the England fans who failed to appreciate what they saw against Algeria. His temperament was called into question in the pre-tournament friendlies, but his outburst underlined the lack of understanding modern players have of those who support them. He has looked unfit and uninterested on the pitch; and now seems petulant and arrogant off it. Given what was expected of him, Rooney has been the biggest disappointment of them all.  John Terry",
+        "activation": 1471.06005859375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 7748\n\nTop activating examples (format: [activation] text):\n  [1685.902] one of his best performances since moving to the capital. He picked up two assists and earned a penalty for Edinson Cavani\u2019s opener. Despite their limp exit from the Champions League, there is still more to come from PSG and their young star in particular.  \u2022 After a frustrating defeat to Lyon a fo\n  [1685.902] one of his best performances since moving to the capital. He picked up two assists and earned a penalty for Edinson Cavani\u2019s opener. Despite their limp exit from the Champions League, there is still more to come from PSG and their young star in particular.  \u2022 After a frustrating defeat to Lyon a fo\n  [1685.902] one of his best performances since moving to the capital. He picked up two assists and earned a penalty for Edinson Cavani\u2019s opener. Despite their limp exit from the Champions League, there is still more to come from PSG and their young star in particular.  \u2022 After a frustrating defeat to Lyon a fo\n  [1673.871] are. He looks after his bats very well, which is what you expect from a professional they the tools of his trade after all but Suzuki goes to extreme lengths: He has a humidor, a special box which is fitted out with chemical rods which reduce the chances of harmful moisture getting into the timber\n  [1553.107] Rockets won by just four points. (more...)  The 25-year-old has managed to rack up 44 goals in all competitions in his debut season with the Reds and will be looking to add to his tally when he meets the Spanish giants in Kiev. The Real Madrid star has played a total of 3,588 minutes, 501 minutes l\n  [1553.107] Rockets won by just four points. (more...)  The 25-year-old has managed to rack up 44 goals in all competitions in his debut season with the Reds and will be looking to add to his tally when he meets the Spanish giants in Kiev. The Real Madrid star has played a total of 3,588 minutes, 501 minutes l\n  [1486.836] You'll have plenty to celebrate when you subscribe to the Liverpool FC newsletter Sign me up Thank you for subscribing We have more newsletters Show me See our privacy notice Invalid Email  Daniel Sturridge\n  [1484.864] new national manager. The 68-year-old Frenchman has said he wants to stay in the game. (Mail) external-link  'He can be above the stars' Zlatan Ibrahimovic on Pogba, Rooney & Manchester United  Chelsea will target 19-year-old AC Milan and Italy goalkeeper Gianluigi Donnarumma if 26-year-old Belgium\n  [1484.419] Where the state ruling party Congress is dealing with a wave of anti- incumbency sentiment, the BJP is struggling to contain party infighting, and contend with its biggest drawback: the lack of a strong [\u2026]  0  Maurice  11 \u0441\u0435\u043d\u0442\u044f\u0431\u0440\u044c 2016 16:47  I've only just arrived writing an intro to an essay \u201cTh\n  [1471.060] belief.  The focus on Wayne Rooney may have distracted everyone in the build-up, but his only contribution to the tournament so far has been his criticism of the England fans who failed to appreciate what they saw against Algeria. His temperament was called into question in the pre-tournament friend\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.6988104655468408
+    },
+    {
+      "latent_idx": 8424,
+      "k1_auc": 0.6583633487056921
+    },
+    {
+      "latent_idx": 443,
+      "k1_auc": 0.6583486215370116
+    },
+    {
+      "latent_idx": 10029,
+      "k1_auc": 0.650191873969098
+    },
+    {
+      "latent_idx": 2011,
+      "k1_auc": 0.633903625408153
+    },
+    {
+      "latent_idx": 10499,
+      "k1_auc": 0.6070328542094456
+    },
+    {
+      "latent_idx": 7182,
+      "k1_auc": 0.6038033965058741
+    },
+    {
+      "latent_idx": 3675,
+      "k1_auc": 0.5998964890429864
+    },
+    {
+      "latent_idx": 6111,
+      "k1_auc": 0.5637097317130642
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5603077557478036
+    },
+    {
+      "latent_idx": 8362,
+      "k1_auc": 0.5576715925539434
+    },
+    {
+      "latent_idx": 7114,
+      "k1_auc": 0.554536809506177
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.5543516679570472
+    },
+    {
+      "latent_idx": 5579,
+      "k1_auc": 0.5504468643753997
+    },
+    {
+      "latent_idx": 4537,
+      "k1_auc": 0.5480358164742317
+    },
+    {
+      "latent_idx": 9225,
+      "k1_auc": 0.5476108324637291
+    },
+    {
+      "latent_idx": 15999,
+      "k1_auc": 0.5465168142188709
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.5464305550880263
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.5462580368263372
+    },
+    {
+      "latent_idx": 7615,
+      "k1_auc": 0.5418356784596223
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5407605951459252
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5402640791732588
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5397507321506716
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5390080620729121
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5374701248863905
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5372408018312183
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5365864947655435
+    },
+    {
+      "latent_idx": 4582,
+      "k1_auc": 0.5365822870030633
+    },
+    {
+      "latent_idx": 1836,
+      "k1_auc": 0.5343269263136634
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5337294240414716
+    },
+    {
+      "latent_idx": 9785,
+      "k1_auc": 0.5312131820782982
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.5309775473794056
+    },
+    {
+      "latent_idx": 12366,
+      "k1_auc": 0.5307377049180327
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5302033190830444
+    },
+    {
+      "latent_idx": 11889,
+      "k1_auc": 0.5299129834719091
+    },
+    {
+      "latent_idx": 12656,
+      "k1_auc": 0.5296731410105363
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5289199515265762
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5287137711650453
+    },
+    {
+      "latent_idx": 11413,
+      "k1_auc": 0.5257451947352476
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5249983168950079
+    },
+    {
+      "latent_idx": 5544,
+      "k1_auc": 0.5249520315077254
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5245838522907059
+    },
+    {
+      "latent_idx": 1918,
+      "k1_auc": 0.5235803009391726
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5233614972902011
+    },
+    {
+      "latent_idx": 11306,
+      "k1_auc": 0.5228144881677719
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.5227639950180092
+    },
+    {
+      "latent_idx": 15029,
+      "k1_auc": 0.522494698219275
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5223137644326254
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5206979836402196
+    },
+    {
+      "latent_idx": 2886,
+      "k1_auc": 0.5205717507658127
+    },
+    {
+      "latent_idx": 9453,
+      "k1_auc": 0.5205338809034907
+    },
+    {
+      "latent_idx": 10974,
+      "k1_auc": 0.5196250042077625
+    },
+    {
+      "latent_idx": 11248,
+      "k1_auc": 0.5194735247584744
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5192042279597402
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5191831891473391
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5185730635877066
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5178219779849867
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5177777964789444
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5162209243612615
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.5162040933113408
+    },
+    {
+      "latent_idx": 10526,
+      "k1_auc": 0.5154109300838187
+    },
+    {
+      "latent_idx": 5984,
+      "k1_auc": 0.5153646446965361
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5151816070286465
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5149165179923924
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5146724677685395
+    },
+    {
+      "latent_idx": 10838,
+      "k1_auc": 0.5146051435688558
+    },
+    {
+      "latent_idx": 15643,
+      "k1_auc": 0.514344262295082
+    },
+    {
+      "latent_idx": 6336,
+      "k1_auc": 0.514344262295082
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5137215134480089
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5135868650486417
+    },
+    {
+      "latent_idx": 11763,
+      "k1_auc": 0.5134438011243141
+    },
+    {
+      "latent_idx": 5126,
+      "k1_auc": 0.5134122429057124
+    },
+    {
+      "latent_idx": 8691,
+      "k1_auc": 0.513347022587269
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5129178308142863
+    },
+    {
+      "latent_idx": 3115,
+      "k1_auc": 0.5113630625778436
+    },
+    {
+      "latent_idx": 16040,
+      "k1_auc": 0.5112936344969199
+    },
+    {
+      "latent_idx": 9620,
+      "k1_auc": 0.5112704918032787
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.5112410374659171
+    },
+    {
+      "latent_idx": 10485,
+      "k1_auc": 0.5102669404517454
+    },
+    {
+      "latent_idx": 16002,
+      "k1_auc": 0.5092213114754098
+    },
+    {
+      "latent_idx": 14642,
+      "k1_auc": 0.5088152623960682
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5083566162857239
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5082934998485206
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5081230854680715
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.5080768000807891
+    },
+    {
+      "latent_idx": 1131,
+      "k1_auc": 0.5074898172147978
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5073088834281483
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5052660147439998
+    },
+    {
+      "latent_idx": 13062,
+      "k1_auc": 0.5051986905443162
+    },
+    {
+      "latent_idx": 1712,
+      "k1_auc": 0.5051334702258727
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5051229508196722
+    },
+    {
+      "latent_idx": 15103,
+      "k1_auc": 0.5041193994681389
+    },
+    {
+      "latent_idx": 273,
+      "k1_auc": 0.5030990170666847
+    },
+    {
+      "latent_idx": 2464,
+      "k1_auc": 0.5030106540546
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5029517453798769
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5023226848890834
+    },
+    {
+      "latent_idx": 13616,
+      "k1_auc": 0.5009130844582086
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5007826438213216
+    },
+    {
+      "latent_idx": 14453,
+      "k1_auc": 0.5000168310499209
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5718,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10345,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2247,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 306,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13115,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13532,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.4999768573063588
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.4999179486316357
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.49860723061904605
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.4981527922711818
+    },
+    {
+      "latent_idx": 6221,
+      "k1_auc": 0.49708402060120505
+    },
+    {
+      "latent_idx": 1095,
+      "k1_auc": 0.49549769414616085
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.4950853334230989
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.49500538593597465
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.4945677786380315
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.491773824351163
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.4907597535934291
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.4898087992728986
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.4847363416029892
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.4845869660349412
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.4831121452856229
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.47501220251119264
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.47310818998889154
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.4688709731713064
+    }
+  ]
+}

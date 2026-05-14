@@ -1,0 +1,325 @@
+{
+  "layer": 24,
+  "n_concepts": 108,
+  "samples_per_concept": 64,
+  "logreg_top_k": 100,
+  "tau": 0.1,
+  "concept_names": [
+    "100_news_fake",
+    "105_click_bait",
+    "106_hate_hate",
+    "107_hate_offensive",
+    "110_aimade_humangpt3",
+    "113_movie_sent",
+    "114_nyc_borough_Manhattan",
+    "115_nyc_borough_Brooklyn",
+    "116_nyc_borough_Bronx",
+    "120_us_timezone_Chicago",
+    "121_us_timezone_New_York",
+    "122_us_timezone_Los_Angeles",
+    "123_world_country_United_Kingdom",
+    "124_world_country_United_States",
+    "125_world_country_Italy",
+    "126_art_type_book",
+    "127_art_type_song",
+    "128_art_type_movie",
+    "129_arith_mc_A",
+    "130_temp_cat_Frequency",
+    "131_temp_cat_Typical Time",
+    "132_temp_cat_Event Ordering",
+    "133_context_type_Causality",
+    "134_context_type_Belief_states",
+    "135_context_type_Event_duration",
+    "136_glue_mnli_entailment",
+    "137_glue_mnli_neutral",
+    "138_glue_mnli_contradiction",
+    "139_news_class_Politics",
+    "140_news_class_Technology",
+    "141_news_class_Entertainment",
+    "142_cancer_cat_Thyroid_Cancer",
+    "143_cancer_cat_Lung_Cancer",
+    "144_cancer_cat_Colon_Cancer",
+    "145_disease_class_digestive system diseases",
+    "146_disease_class_cardiovascular diseases",
+    "147_disease_class_nervous system diseases",
+    "148_twt_emotion_worry",
+    "149_twt_emotion_happiness",
+    "150_twt_emotion_sadness",
+    "151_it_tick_HR Support",
+    "152_it_tick_Hardware",
+    "153_it_tick_Administrative rights",
+    "154_athlete_sport_football",
+    "155_athlete_sport_basketball",
+    "156_athlete_sport_baseball",
+    "157_amazon_5star",
+    "158_code_C",
+    "159_code_Python",
+    "160_code_HTML",
+    "161_agnews_0",
+    "162_agnews_1",
+    "163_agnews_2",
+    "21_headline_istrump",
+    "22_headline_isobama",
+    "23_headline_ischina",
+    "24_headline_isiran",
+    "26_headline_isfrontpage",
+    "36_sciq_tf",
+    "42_temp_sense",
+    "44_phys_tf",
+    "47_reasoning_tf",
+    "48_cm_correct",
+    "49_cm_isshort",
+    "50_deon_isvalid",
+    "51_just_is",
+    "52_virtue_is",
+    "54_cs_tf",
+    "56_wikidatasex_or_gender",
+    "57_wikidatais_alive",
+    "58_wikidatapolitical_party",
+    "59_wikidata_occupation_isjournalist",
+    "5_hist_fig_ismale",
+    "60_wikidata_occupation_isathlete",
+    "61_wikidata_occupation_isactor",
+    "62_wikidata_occupation_ispolitician",
+    "63_wikidata_occupation_issinger",
+    "64_wikidata_occupation_isresearcher",
+    "65_high-school",
+    "66_living-room",
+    "67_social-security",
+    "68_credit-card",
+    "69_blood-pressure",
+    "6_hist_fig_isamerican",
+    "70_prime-factors",
+    "71_social-media",
+    "72_gene-expression",
+    "73_control-group",
+    "74_magnetic-field",
+    "75_cell-lines",
+    "76_trial-court",
+    "77_second-derivative",
+    "78_north-america",
+    "79_human-rights",
+    "7_hist_fig_ispolitician",
+    "80_side-effects",
+    "81_public-health",
+    "82_federal-government",
+    "83_third-party",
+    "84_clinical-trials",
+    "85_mental-health",
+    "87_glue_cola",
+    "89_glue_mrpc",
+    "90_glue_qnli",
+    "91_glue_qqp",
+    "92_glue_sst2",
+    "94_ai_gen",
+    "96_spam_is"
+  ],
+  "metrics_raw": {
+    "ch": 21.172079181069027,
+    "neg_db": -6.737924980165724,
+    "silhouette": -0.06602855771780014,
+    "mpcd_ratio": 65.32647375066085
+  },
+  "metrics_logreg": {
+    "ch": 21.98128806119269,
+    "neg_db": -9.650229955538798,
+    "silhouette": -0.24673855304718018,
+    "mpcd_ratio": 25.38868526593366
+  },
+  "mean_pairwise_sep_ratio_raw": 66.13657545338651,
+  "mean_pairwise_sep_ratio_logreg": 25.570627182736477,
+  "sae_results": [
+    {
+      "sae_id": "layer_24/width_16k/batch_topk_32",
+      "sae_type": "batch_topk_32",
+      "n_latents_after_tau": 66,
+      "metrics_sae": {
+        "ch": 40.8149464734944,
+        "neg_db": -10.971712743667352,
+        "silhouette": -0.31298211216926575,
+        "mpcd_ratio": 13.097263109280476
+      },
+      "deltas_vs_logreg": {
+        "ch": 18.833658412301713,
+        "neg_db": -1.321482788128554,
+        "silhouette": -0.06624355912208557,
+        "mpcd_ratio": -12.291422156653184
+      },
+      "deltas_vs_raw": {
+        "ch": 19.642867292425375,
+        "neg_db": -4.233787763501628,
+        "silhouette": -0.2469535544514656,
+        "mpcd_ratio": -52.22921064138038
+      },
+      "mean_pairwise_sep_ratio": 14.416635316198924
+    },
+    {
+      "sae_id": "layer_24/width_16k/gated",
+      "sae_type": "gated",
+      "n_latents_after_tau": 5636,
+      "metrics_sae": {
+        "ch": 27.59658503245576,
+        "neg_db": -7.107623606598213,
+        "silhouette": -0.07554498314857483,
+        "mpcd_ratio": 90.31624006265876
+      },
+      "deltas_vs_logreg": {
+        "ch": 5.615296971263071,
+        "neg_db": 2.542606348940585,
+        "silhouette": 0.17119356989860535,
+        "mpcd_ratio": 64.9275547967251
+      },
+      "deltas_vs_raw": {
+        "ch": 6.4245058513867335,
+        "neg_db": -0.36969862643248863,
+        "silhouette": -0.009516425430774689,
+        "mpcd_ratio": 24.98976631199791
+      },
+      "mean_pairwise_sep_ratio": 94.74299824533753
+    },
+    {
+      "sae_id": "layer_24/width_16k/jumprelu_32",
+      "sae_type": "jumprelu_32",
+      "n_latents_after_tau": 4246,
+      "metrics_sae": {
+        "ch": 22.955394203249917,
+        "neg_db": -6.801707493838859,
+        "silhouette": -0.05603662133216858,
+        "mpcd_ratio": 70.54435844614457
+      },
+      "deltas_vs_logreg": {
+        "ch": 0.9741061420572272,
+        "neg_db": 2.8485224616999387,
+        "silhouette": 0.1907019317150116,
+        "mpcd_ratio": 45.15567318021091
+      },
+      "deltas_vs_raw": {
+        "ch": 1.78331502218089,
+        "neg_db": -0.06378251367313492,
+        "silhouette": 0.009991936385631561,
+        "mpcd_ratio": 5.217884695483718
+      },
+      "mean_pairwise_sep_ratio": 74.66272082684651
+    },
+    {
+      "sae_id": "layer_24/width_16k/matryoshka_batch_topk_32",
+      "sae_type": "matryoshka_batch_topk_32",
+      "n_latents_after_tau": 67,
+      "metrics_sae": {
+        "ch": 44.1396816529657,
+        "neg_db": -9.42828835228431,
+        "silhouette": -0.18606044352054596,
+        "mpcd_ratio": 14.840813470906307
+      },
+      "deltas_vs_logreg": {
+        "ch": 22.15839359177301,
+        "neg_db": 0.22194160325448742,
+        "silhouette": 0.060678109526634216,
+        "mpcd_ratio": -10.547871795027353
+      },
+      "deltas_vs_raw": {
+        "ch": 22.967602471896672,
+        "neg_db": -2.6903633721185862,
+        "silhouette": -0.12003188580274582,
+        "mpcd_ratio": -50.48566027975455
+      },
+      "mean_pairwise_sep_ratio": 16.910865354137762
+    },
+    {
+      "sae_id": "layer_24/width_16k/p_anneal",
+      "sae_type": "p_anneal",
+      "n_latents_after_tau": 13696,
+      "metrics_sae": {
+        "ch": 22.183243931021185,
+        "neg_db": -8.272947216810415,
+        "silhouette": -0.15724104642868042,
+        "mpcd_ratio": 109.6502074554079
+      },
+      "deltas_vs_logreg": {
+        "ch": 0.20195586982849534,
+        "neg_db": 1.3772827387283826,
+        "silhouette": 0.08949750661849976,
+        "mpcd_ratio": 84.26152218947423
+      },
+      "deltas_vs_raw": {
+        "ch": 1.011164749952158,
+        "neg_db": -1.535022236644691,
+        "silhouette": -0.09121248871088028,
+        "mpcd_ratio": 44.32373370474704
+      },
+      "mean_pairwise_sep_ratio": 114.48879922646933
+    },
+    {
+      "sae_id": "layer_24/width_16k/standard",
+      "sae_type": "standard",
+      "n_latents_after_tau": 13697,
+      "metrics_sae": {
+        "ch": 22.164932860445983,
+        "neg_db": -8.252274804971952,
+        "silhouette": -0.15590521693229675,
+        "mpcd_ratio": 109.68682716428594
+      },
+      "deltas_vs_logreg": {
+        "ch": 0.1836447992532939,
+        "neg_db": 1.3979551505668457,
+        "silhouette": 0.09083333611488342,
+        "mpcd_ratio": 84.29814189835228
+      },
+      "deltas_vs_raw": {
+        "ch": 0.9928536793769567,
+        "neg_db": -1.514349824806228,
+        "silhouette": -0.08987665921449661,
+        "mpcd_ratio": 44.36035341362509
+      },
+      "mean_pairwise_sep_ratio": 114.5058375561387
+    },
+    {
+      "sae_id": "layer_24/width_16k/standard_new",
+      "sae_type": "standard_new",
+      "n_latents_after_tau": 13959,
+      "metrics_sae": {
+        "ch": 16.566492149621606,
+        "neg_db": -6.304811912745593,
+        "silhouette": -0.06391148269176483,
+        "mpcd_ratio": 92.19960452352292
+      },
+      "deltas_vs_logreg": {
+        "ch": -5.414795911571083,
+        "neg_db": 3.345418042793205,
+        "silhouette": 0.18282707035541534,
+        "mpcd_ratio": 66.81091925758926
+      },
+      "deltas_vs_raw": {
+        "ch": -4.6055870314474205,
+        "neg_db": 0.43311306742013134,
+        "silhouette": 0.002117075026035309,
+        "mpcd_ratio": 26.87313077286207
+      },
+      "mean_pairwise_sep_ratio": 94.73851795931543
+    },
+    {
+      "sae_id": "layer_24/width_16k/topk_32",
+      "sae_type": "topk_32",
+      "n_latents_after_tau": 54,
+      "metrics_sae": {
+        "ch": 32.417321737621975,
+        "neg_db": -10.182752794368772,
+        "silhouette": -0.2564499080181122,
+        "mpcd_ratio": 12.012879979211805
+      },
+      "deltas_vs_logreg": {
+        "ch": 10.436033676429286,
+        "neg_db": -0.5325228388299745,
+        "silhouette": -0.009711354970932007,
+        "mpcd_ratio": -13.375805286721855
+      },
+      "deltas_vs_raw": {
+        "ch": 11.245242556552949,
+        "neg_db": -3.444827814203048,
+        "silhouette": -0.19042135030031204,
+        "mpcd_ratio": -53.31359377144905
+      },
+      "mean_pairwise_sep_ratio": 13.125348280211748
+    }
+  ]
+}

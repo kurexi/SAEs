@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "140_news_class_Technology",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:49:14.006416"
+  },
+  "best_latent": {
+    "latent_idx": 7134,
+    "k1_auc": 0.7416253911521477,
+    "examples": [
+      {
+        "text": "Brown-Forman Earnings Jump 67 Percent Brown-Forman Corp. , which sells products ranging from Jack Daniels whiskey to Lenox china, on Thursday posted a better-than-expected 67 percent jump in earnings as aggressive marketing boosted sales of premium spirits and new wines.",
+        "activation": 4209.01171875
+      },
+      {
+        "text": "Higher metals prices boost Falconbridge TORONTO - Falconbridge Ltd. said higher prices for nickel, copper and zinc helped it post a big increase in its third-quarter results.",
+        "activation": 3963.6240234375
+      },
+      {
+        "text": "Six Flags Posts 60 Pct. Drop in 3Q Profit Six Flags Inc., the world #39;s second-largest amusement park operator, said Monday that third-quarter profit fell 60 percent as storms and wet weather led to lower attendance.",
+        "activation": 3888.481201171875
+      },
+      {
+        "text": "ConocoPhillips Profit Up on Oil Prices ConocoPhillips (COP.N: Quote, Profile, Research) , the No. 3 US oil company, on Wednesday reported a 53 percent jump in quarterly profit, as soaring oil and gas prices offset the impact of lower production volumes.",
+        "activation": 3793.9638671875
+      },
+      {
+        "text": "Merck Profit Falls, Hurt by Vioxx Recall  NEW YORK (Reuters) - Merck   Co. &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=MRK.N target=/stocks/quickinfo/fullquote\"&gt;MRK.N&lt;/A&gt; on Thursday said  its third-quarter profit fell, hurt by big charges for the  recall of the company's Vioxx arthritis drug in late September  after it was linked to heart attacks and strokes.",
+        "activation": 3693.99658203125
+      },
+      {
+        "text": "Alcoa Third-Quarter Profit Rises Aluminum producer Alcoa Inc. said Thursday that third-quarter profit rose 1.1 percent in the third quarter compared with a year ago, but fell significantly compared with the previous three months.",
+        "activation": 3656.670166015625
+      },
+      {
+        "text": "Borders Posts 3rd-Quarter Loss Vs Yr. Ago  SAN FRANCISCO (Reuters) - No 2. U.S. book retailer Borders  Group Inc. &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=BGP.N target=/stocks/quickinfo/fullquote\"&gt;BGP.N&lt;/A&gt; on Tuesday posted a quarterly loss versus a  year-ago profit, hurt by sluggish store traffic and a slowdown  in sales of bestsellers.",
+        "activation": 3647.34375
+      },
+      {
+        "text": "Janus Capital earnings dip on lower revenue DENVER -- Third-quarter revenue fell 7 percent at Janus Capital Group Inc. as assets under management and investment-management fees fell.",
+        "activation": 3543.9375
+      },
+      {
+        "text": "Santander Posts 64 Percent Profit Rise Santander Central Hispano SA said Wednesday that net profit for the third quarter nearly doubled to euro1.17 billion (\\$1.49 billion), with much of the gain coming from the sale of its stake in the Royal Bank of Scotland.",
+        "activation": 3455.564697265625
+      },
+      {
+        "text": "Home Depot Quarterly Profit Rises (Reuters) Reuters - Home Depot Inc. (HD.N), the world's\\largest home improvement retailer, on Tuesday said quarterly\\profit rose, topping estimates, as technology upgrades and\\other store improvements helped boost sales.",
+        "activation": 3347.03076171875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 7134\n\nTop activating examples (format: [activation] text):\n  [4209.012] Brown-Forman Earnings Jump 67 Percent Brown-Forman Corp. , which sells products ranging from Jack Daniels whiskey to Lenox china, on Thursday posted a better-than-expected 67 percent jump in earnings as aggressive marketing boosted sales of premium spirits and new wines.\n  [3963.624] Higher metals prices boost Falconbridge TORONTO - Falconbridge Ltd. said higher prices for nickel, copper and zinc helped it post a big increase in its third-quarter results.\n  [3888.481] Six Flags Posts 60 Pct. Drop in 3Q Profit Six Flags Inc., the world #39;s second-largest amusement park operator, said Monday that third-quarter profit fell 60 percent as storms and wet weather led to lower attendance.\n  [3793.964] ConocoPhillips Profit Up on Oil Prices ConocoPhillips (COP.N: Quote, Profile, Research) , the No. 3 US oil company, on Wednesday reported a 53 percent jump in quarterly profit, as soaring oil and gas prices offset the impact of lower production volumes.\n  [3693.997] Merck Profit Falls, Hurt by Vioxx Recall  NEW YORK (Reuters) - Merck   Co. &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=MRK.N target=/stocks/quickinfo/fullquote\"&gt;MRK.N&lt;/A&gt; on Thursday said  its third-quarter profit fell, hurt by big charges for the  recall of the compan\n  [3656.670] Alcoa Third-Quarter Profit Rises Aluminum producer Alcoa Inc. said Thursday that third-quarter profit rose 1.1 percent in the third quarter compared with a year ago, but fell significantly compared with the previous three months.\n  [3647.344] Borders Posts 3rd-Quarter Loss Vs Yr. Ago  SAN FRANCISCO (Reuters) - No 2. U.S. book retailer Borders  Group Inc. &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=BGP.N target=/stocks/quickinfo/fullquote\"&gt;BGP.N&lt;/A&gt; on Tuesday posted a quarterly loss versus a  year-ago profi\n  [3543.938] Janus Capital earnings dip on lower revenue DENVER -- Third-quarter revenue fell 7 percent at Janus Capital Group Inc. as assets under management and investment-management fees fell.\n  [3455.565] Santander Posts 64 Percent Profit Rise Santander Central Hispano SA said Wednesday that net profit for the third quarter nearly doubled to euro1.17 billion (\\$1.49 billion), with much of the gain coming from the sale of its stake in the Royal Bank of Scotland.\n  [3347.031] Home Depot Quarterly Profit Rises (Reuters) Reuters - Home Depot Inc. (HD.N), the world's\\largest home improvement retailer, on Tuesday said quarterly\\profit rose, topping estimates, as technology upgrades and\\other store improvements helped boost sales.\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 7134,
+      "k1_auc": 0.7416253911521477
+    },
+    {
+      "latent_idx": 10163,
+      "k1_auc": 0.728232451931032
+    },
+    {
+      "latent_idx": 5954,
+      "k1_auc": 0.6521871426312634
+    },
+    {
+      "latent_idx": 7148,
+      "k1_auc": 0.647536522855052
+    },
+    {
+      "latent_idx": 9781,
+      "k1_auc": 0.6441076215375451
+    },
+    {
+      "latent_idx": 12326,
+      "k1_auc": 0.629283368817406
+    },
+    {
+      "latent_idx": 9426,
+      "k1_auc": 0.623012983861182
+    },
+    {
+      "latent_idx": 12656,
+      "k1_auc": 0.6223317999801437
+    },
+    {
+      "latent_idx": 1855,
+      "k1_auc": 0.6215329487080488
+    },
+    {
+      "latent_idx": 2084,
+      "k1_auc": 0.6163473100131274
+    },
+    {
+      "latent_idx": 6249,
+      "k1_auc": 0.6148360194592448
+    },
+    {
+      "latent_idx": 12860,
+      "k1_auc": 0.5964633594775568
+    },
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.5829886046485974
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.5813026515611154
+    },
+    {
+      "latent_idx": 9522,
+      "k1_auc": 0.5793988299448801
+    },
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.5756408276430118
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.5699790037249084
+    },
+    {
+      "latent_idx": 15850,
+      "k1_auc": 0.5691884259412471
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.5687802671785198
+    },
+    {
+      "latent_idx": 4353,
+      "k1_auc": 0.5637941114824988
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5632388684809507
+    },
+    {
+      "latent_idx": 16002,
+      "k1_auc": 0.5589099954771597
+    },
+    {
+      "latent_idx": 894,
+      "k1_auc": 0.5553625074921035
+    },
+    {
+      "latent_idx": 8576,
+      "k1_auc": 0.5538640868091178
+    },
+    {
+      "latent_idx": 9620,
+      "k1_auc": 0.5526736237511629
+    },
+    {
+      "latent_idx": 12480,
+      "k1_auc": 0.546603641070332
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5459298114012346
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5410484532253735
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5383899056086896
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5363334840946782
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.531126702040426
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5304942398134971
+    },
+    {
+      "latent_idx": 3074,
+      "k1_auc": 0.5300566642030057
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5298323607388041
+    },
+    {
+      "latent_idx": 831,
+      "k1_auc": 0.5294186863171209
+    },
+    {
+      "latent_idx": 8052,
+      "k1_auc": 0.5292817141197191
+    },
+    {
+      "latent_idx": 11132,
+      "k1_auc": 0.5292219611476983
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5276886079579928
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.527370538291543
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5261920258279923
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5253518071137292
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5252709107823778
+    },
+    {
+      "latent_idx": 15204,
+      "k1_auc": 0.5251321000319908
+    },
+    {
+      "latent_idx": 12131,
+      "k1_auc": 0.525094409695793
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.5241604247792818
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5240979139777829
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5233606542306943
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.522818281100043
+    },
+    {
+      "latent_idx": 3608,
+      "k1_auc": 0.521715149308888
+    },
+    {
+      "latent_idx": 10421,
+      "k1_auc": 0.5210459160222539
+    },
+    {
+      "latent_idx": 9026,
+      "k1_auc": 0.5205108971035436
+    },
+    {
+      "latent_idx": 10330,
+      "k1_auc": 0.5204759645968237
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5187946078918049
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5181630649413685
+    },
+    {
+      "latent_idx": 9336,
+      "k1_auc": 0.5177567447316264
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5177365206487886
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5171619728408954
+    },
+    {
+      "latent_idx": 2534,
+      "k1_auc": 0.5170295970259566
+    },
+    {
+      "latent_idx": 12562,
+      "k1_auc": 0.5163355432740216
+    },
+    {
+      "latent_idx": 9098,
+      "k1_auc": 0.5163061264262575
+    },
+    {
+      "latent_idx": 2458,
+      "k1_auc": 0.5162730324725229
+    },
+    {
+      "latent_idx": 13159,
+      "k1_auc": 0.5161792662702747
+    },
+    {
+      "latent_idx": 13759,
+      "k1_auc": 0.5160652759851886
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5159071604284564
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5145760480671292
+    },
+    {
+      "latent_idx": 8424,
+      "k1_auc": 0.514246947082768
+    },
+    {
+      "latent_idx": 12520,
+      "k1_auc": 0.5135685210312075
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5135666824782223
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5130610804072763
+    },
+    {
+      "latent_idx": 9175,
+      "k1_auc": 0.5129829419054027
+    },
+    {
+      "latent_idx": 1748,
+      "k1_auc": 0.5127862167359801
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5125628325482712
+    },
+    {
+      "latent_idx": 5485,
+      "k1_auc": 0.5115314043235413
+    },
+    {
+      "latent_idx": 14557,
+      "k1_auc": 0.5110497034414035
+    },
+    {
+      "latent_idx": 10660,
+      "k1_auc": 0.510889749331686
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5108768794607892
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5107923060234671
+    },
+    {
+      "latent_idx": 8732,
+      "k1_auc": 0.5102168389390813
+    },
+    {
+      "latent_idx": 12234,
+      "k1_auc": 0.5098252271532213
+    },
+    {
+      "latent_idx": 1588,
+      "k1_auc": 0.5098197114942655
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.509558636970359
+    },
+    {
+      "latent_idx": 3062,
+      "k1_auc": 0.5095328972285652
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5087993145874471
+    },
+    {
+      "latent_idx": 3175,
+      "k1_auc": 0.5087827676105797
+    },
+    {
+      "latent_idx": 14945,
+      "k1_auc": 0.5087827676105797
+    },
+    {
+      "latent_idx": 7797,
+      "k1_auc": 0.508222008950076
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5081411126187245
+    },
+    {
+      "latent_idx": 7910,
+      "k1_auc": 0.5081337584067835
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.508130081300813
+    },
+    {
+      "latent_idx": 9930,
+      "k1_auc": 0.5079848356149776
+    },
+    {
+      "latent_idx": 10977,
+      "k1_auc": 0.5076235599533743
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.5073560504940192
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5068522869760583
+    },
+    {
+      "latent_idx": 593,
+      "k1_auc": 0.5064606751901983
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5059320912069366
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5057133034016907
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5040135611668193
+    },
+    {
+      "latent_idx": 13724,
+      "k1_auc": 0.5034105157876545
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5033902917048168
+    },
+    {
+      "latent_idx": 6002,
+      "k1_auc": 0.5027137042062415
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.5021731696285755
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5020573407905042
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5018376337087659
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5006434935448405
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.500376903361978
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6795,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10961,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4709,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9647,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7778,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.499665383356683
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.4991138174611054
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.4959662147503428
+    }
+  ]
+}

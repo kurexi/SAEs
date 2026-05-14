@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "153_it_tick_Administrative rights",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:51:26.754459"
+  },
+  "best_latent": {
+    "latent_idx": 10225,
+    "k1_auc": 0.6470001477759715,
+    "examples": [
+      {
+        "text": "new purchase po pm purchase po dear purchased lightning cable apple micro premium electronic black please log allocation please take consideration mandatory receipts section order receive item ordered how video please explorer kind regards administrator",
+        "activation": 2548.264404296875
+      },
+      {
+        "text": "new purchase po purchase po dear purchased monitor inch please log allocation after receive item please take consideration mandatory receipts section order make receipt item ordered how video link kind regards administrator",
+        "activation": 2527.8017578125
+      },
+      {
+        "text": "retrieve old device po purchase po dear purchased micro sd please log allocation please log retrieve old device xxx after receive item please take consideration mandatory receipts section order receive item ordered how video link kind regards administrator",
+        "activation": 2525.98583984375
+      },
+      {
+        "text": "new purchase po purchase po dear purchased adaptor please log allocation after receive item please take consideration mandatory receipts section order receive item ordered how video link kind regards administrator",
+        "activation": 2525.00244140625
+      },
+      {
+        "text": "new purchase po pm purchase po dear purchased change fan please log allocation please take consideration mandatory receipts section order receive item ordered how video kind regards administrator",
+        "activation": 2474.300537109375
+      },
+      {
+        "text": "new purchase po wednesday purchase po dear purchased xxx lh lh transceiver module nm dom please log allocation please take consideration mandatory receipts section order receive item ordered how video kind regards administrator",
+        "activation": 2443.254638671875
+      },
+      {
+        "text": "new purchase po purchase po dear purchased requested by protective protection galaxy please log allocation please take consideration mandatory receipts section order receive item ordered how video please explorer kind regards administrator",
+        "activation": 2439.9072265625
+      },
+      {
+        "text": "new purchase po purchase po dear purchased has please log allocation please take consideration mandatory receipts section order receive item ordered how video please explorer kind regards administrator",
+        "activation": 2431.39013671875
+      },
+      {
+        "text": "new purchase po purchase po hello please log retrieval old assign queue thank mobile purchase po dear purchased please log allocation please take consideration mandatory receipts section order receive item ordered how video please explorer kind regards administrator",
+        "activation": 2429.520263671875
+      },
+      {
+        "text": "new purchase po february pm purchase po dear purchased please log installation please take consideration mandatory receipts section order receive item ordered encounter multiple items select by ctrl key clicking how video feature kind regards administrator",
+        "activation": 2425.892822265625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 10225\n\nTop activating examples (format: [activation] text):\n  [2548.264] new purchase po pm purchase po dear purchased lightning cable apple micro premium electronic black please log allocation please take consideration mandatory receipts section order receive item ordered how video please explorer kind regards administrator\n  [2527.802] new purchase po purchase po dear purchased monitor inch please log allocation after receive item please take consideration mandatory receipts section order make receipt item ordered how video link kind regards administrator\n  [2525.986] retrieve old device po purchase po dear purchased micro sd please log allocation please log retrieve old device xxx after receive item please take consideration mandatory receipts section order receive item ordered how video link kind regards administrator\n  [2525.002] new purchase po purchase po dear purchased adaptor please log allocation after receive item please take consideration mandatory receipts section order receive item ordered how video link kind regards administrator\n  [2474.301] new purchase po pm purchase po dear purchased change fan please log allocation please take consideration mandatory receipts section order receive item ordered how video kind regards administrator\n  [2443.255] new purchase po wednesday purchase po dear purchased xxx lh lh transceiver module nm dom please log allocation please take consideration mandatory receipts section order receive item ordered how video kind regards administrator\n  [2439.907] new purchase po purchase po dear purchased requested by protective protection galaxy please log allocation please take consideration mandatory receipts section order receive item ordered how video please explorer kind regards administrator\n  [2431.390] new purchase po purchase po dear purchased has please log allocation please take consideration mandatory receipts section order receive item ordered how video please explorer kind regards administrator\n  [2429.520] new purchase po purchase po hello please log retrieval old assign queue thank mobile purchase po dear purchased please log allocation please take consideration mandatory receipts section order receive item ordered how video please explorer kind regards administrator\n  [2425.893] new purchase po february pm purchase po dear purchased please log installation please take consideration mandatory receipts section order receive item ordered encounter multiple items select by ctrl key clicking how video feature kind regards administrator\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 10225,
+      "k1_auc": 0.6470001477759715
+    },
+    {
+      "latent_idx": 532,
+      "k1_auc": 0.6021255110585685
+    },
+    {
+      "latent_idx": 14531,
+      "k1_auc": 0.5905004679572435
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5799468006502142
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5767696172602335
+    },
+    {
+      "latent_idx": 1022,
+      "k1_auc": 0.5765356386384908
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5641347716861239
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5583715087926703
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5573617063198858
+    },
+    {
+      "latent_idx": 10926,
+      "k1_auc": 0.5572755036697701
+    },
+    {
+      "latent_idx": 12076,
+      "k1_auc": 0.5566228264617507
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5549480321166446
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5540490616225802
+    },
+    {
+      "latent_idx": 13967,
+      "k1_auc": 0.5519555686911976
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5518693660410817
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5506132702822522
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5484212600364514
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5475592335352938
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5466725777055317
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5457859218757697
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5446406580956604
+    },
+    {
+      "latent_idx": 12447,
+      "k1_auc": 0.5445051967883356
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5443081621594995
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5441603861878725
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.543987980887641
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.543002807743461
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5429781784148565
+    },
+    {
+      "latent_idx": 12657,
+      "k1_auc": 0.5422392985567215
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5408107974976601
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5398009950248757
+    },
+    {
+      "latent_idx": 9918,
+      "k1_auc": 0.5381754593369785
+    },
+    {
+      "latent_idx": 14856,
+      "k1_auc": 0.5373257475001231
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5370425102211714
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.5369932515639625
+    },
+    {
+      "latent_idx": 8790,
+      "k1_auc": 0.5369193635781488
+    },
+    {
+      "latent_idx": 3378,
+      "k1_auc": 0.5346534653465347
+    },
+    {
+      "latent_idx": 7065,
+      "k1_auc": 0.5312299886705089
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5286562238313384
+    },
+    {
+      "latent_idx": 6319,
+      "k1_auc": 0.5282867839022709
+    },
+    {
+      "latent_idx": 2411,
+      "k1_auc": 0.5248756218905473
+    },
+    {
+      "latent_idx": 14770,
+      "k1_auc": 0.5246046992758978
+    },
+    {
+      "latent_idx": 3178,
+      "k1_auc": 0.5246046992758977
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5240135953893896
+    },
+    {
+      "latent_idx": 8856,
+      "k1_auc": 0.5223880597014925
+    },
+    {
+      "latent_idx": 11767,
+      "k1_auc": 0.5199004975124378
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5197527215408108
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5176715432737303
+    },
+    {
+      "latent_idx": 6780,
+      "k1_auc": 0.5172035860302449
+    },
+    {
+      "latent_idx": 741,
+      "k1_auc": 0.5148761144771193
+    },
+    {
+      "latent_idx": 1888,
+      "k1_auc": 0.5148514851485149
+    },
+    {
+      "latent_idx": 4127,
+      "k1_auc": 0.5148514851485149
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.513780109354219
+    },
+    {
+      "latent_idx": 8009,
+      "k1_auc": 0.5129057681887592
+    },
+    {
+      "latent_idx": 626,
+      "k1_auc": 0.5125979015812029
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.5124747549381804
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.5123762376237624
+    },
+    {
+      "latent_idx": 12377,
+      "k1_auc": 0.5123762376237624
+    },
+    {
+      "latent_idx": 5285,
+      "k1_auc": 0.5123762376237624
+    },
+    {
+      "latent_idx": 13048,
+      "k1_auc": 0.5123392936308556
+    },
+    {
+      "latent_idx": 4901,
+      "k1_auc": 0.509999507413428
+    },
+    {
+      "latent_idx": 6472,
+      "k1_auc": 0.5099256194276144
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5099009900990099
+    },
+    {
+      "latent_idx": 5464,
+      "k1_auc": 0.5098271021131964
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5097778434559874
+    },
+    {
+      "latent_idx": 2231,
+      "k1_auc": 0.5096793261415693
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.50940840352692
+    },
+    {
+      "latent_idx": 14485,
+      "k1_auc": 0.5084109157184376
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5075488892172799
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.507499630560071
+    },
+    {
+      "latent_idx": 11279,
+      "k1_auc": 0.5074750012314665
+    },
+    {
+      "latent_idx": 12564,
+      "k1_auc": 0.5074626865671642
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5074626865671642
+    },
+    {
+      "latent_idx": 2639,
+      "k1_auc": 0.5074626865671642
+    },
+    {
+      "latent_idx": 15236,
+      "k1_auc": 0.5074257425742574
+    },
+    {
+      "latent_idx": 8075,
+      "k1_auc": 0.5073764839170484
+    },
+    {
+      "latent_idx": 9439,
+      "k1_auc": 0.5073272252598394
+    },
+    {
+      "latent_idx": 14903,
+      "k1_auc": 0.5072533372740259
+    },
+    {
+      "latent_idx": 14224,
+      "k1_auc": 0.5072163932811192
+    },
+    {
+      "latent_idx": 1419,
+      "k1_auc": 0.5062312201369391
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5050982710211319
+    },
+    {
+      "latent_idx": 4050,
+      "k1_auc": 0.5050243830353185
+    },
+    {
+      "latent_idx": 12066,
+      "k1_auc": 0.5049751243781095
+    },
+    {
+      "latent_idx": 12119,
+      "k1_auc": 0.5048766070636914
+    },
+    {
+      "latent_idx": 3405,
+      "k1_auc": 0.5033126446973056
+    },
+    {
+      "latent_idx": 2429,
+      "k1_auc": 0.5024875621890547
+    },
+    {
+      "latent_idx": 14645,
+      "k1_auc": 0.5023767302103345
+    },
+    {
+      "latent_idx": 12288,
+      "k1_auc": 0.5007881385153441
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5002462932860451
+    },
+    {
+      "latent_idx": 11299,
+      "k1_auc": 0.5000246293286045
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2759,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10104,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6904,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16238,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7033,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14061,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9272,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6628,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15183,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 399,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10939,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1992,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6137,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11421,
+      "k1_auc": 0.4975740111324566
+    },
+    {
+      "latent_idx": 7729,
+      "k1_auc": 0.4926358307472538
+    },
+    {
+      "latent_idx": 6086,
+      "k1_auc": 0.49257425742574257
+    },
+    {
+      "latent_idx": 10605,
+      "k1_auc": 0.4853701788089257
+    },
+    {
+      "latent_idx": 3122,
+      "k1_auc": 0.48472981626520867
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "156_athlete_sport_baseball",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:51:58.350619"
+  },
+  "best_latent": {
+    "latent_idx": 12656,
+    "k1_auc": 0.6844919786096256,
+    "examples": [
+      {
+        "text": "Jeimer Candelario",
+        "activation": 987.4976806640625
+      },
+      {
+        "text": "Ronald Acu\u00f1a Jr.",
+        "activation": 857.2391357421875
+      },
+      {
+        "text": "Ronald Acu\u00f1a Jr.",
+        "activation": 857.2391357421875
+      },
+      {
+        "text": "Salvador Perez",
+        "activation": 847.7363891601562
+      },
+      {
+        "text": "Salvador Perez",
+        "activation": 847.7363891601562
+      },
+      {
+        "text": "Whit Merrifield",
+        "activation": 804.103759765625
+      },
+      {
+        "text": "Whit Merrifield",
+        "activation": 804.103759765625
+      },
+      {
+        "text": "Shin-Soo Choo",
+        "activation": 764.64697265625
+      },
+      {
+        "text": "Dave Martinez",
+        "activation": 763.22802734375
+      },
+      {
+        "text": "Edwin Encarnaci\u00f3n",
+        "activation": 746.4078369140625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 12656\n\nTop activating examples (format: [activation] text):\n  [987.498] Jeimer Candelario\n  [857.239] Ronald Acu\u00f1a Jr.\n  [857.239] Ronald Acu\u00f1a Jr.\n  [847.736] Salvador Perez\n  [847.736] Salvador Perez\n  [804.104] Whit Merrifield\n  [804.104] Whit Merrifield\n  [764.647] Shin-Soo Choo\n  [763.228] Dave Martinez\n  [746.408] Edwin Encarnaci\u00f3n\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 12656,
+      "k1_auc": 0.6844919786096256
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.6391019483591633
+    },
+    {
+      "latent_idx": 13383,
+      "k1_auc": 0.6224928674857708
+    },
+    {
+      "latent_idx": 7182,
+      "k1_auc": 0.6011598400022938
+    },
+    {
+      "latent_idx": 16002,
+      "k1_auc": 0.5871636248942668
+    },
+    {
+      "latent_idx": 273,
+      "k1_auc": 0.5830955828590271
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5830669094349902
+    },
+    {
+      "latent_idx": 6433,
+      "k1_auc": 0.5805508164757495
+    },
+    {
+      "latent_idx": 443,
+      "k1_auc": 0.5777479892761395
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.571565282218176
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5703932560106665
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5692714082952217
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.568593998652349
+    },
+    {
+      "latent_idx": 8380,
+      "k1_auc": 0.5425943714068615
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5418560307379107
+    },
+    {
+      "latent_idx": 10059,
+      "k1_auc": 0.536207366202635
+    },
+    {
+      "latent_idx": 13532,
+      "k1_auc": 0.5281859758283035
+    },
+    {
+      "latent_idx": 4711,
+      "k1_auc": 0.527780963713782
+    },
+    {
+      "latent_idx": 15643,
+      "k1_auc": 0.5266806210663646
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.5264942438101246
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5258024974552337
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5241000129030409
+    },
+    {
+      "latent_idx": 7707,
+      "k1_auc": 0.5240641711229946
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5239458932488423
+    },
+    {
+      "latent_idx": 9785,
+      "k1_auc": 0.5214477211796247
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5210821350231538
+    },
+    {
+      "latent_idx": 2119,
+      "k1_auc": 0.5202183481240412
+    },
+    {
+      "latent_idx": 6704,
+      "k1_auc": 0.5200534759358288
+    },
+    {
+      "latent_idx": 357,
+      "k1_auc": 0.5199997132657597
+    },
+    {
+      "latent_idx": 1969,
+      "k1_auc": 0.5187667560321716
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5187058250060931
+    },
+    {
+      "latent_idx": 5544,
+      "k1_auc": 0.5175839772906481
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5173581740763574
+    },
+    {
+      "latent_idx": 399,
+      "k1_auc": 0.5173187481183065
+    },
+    {
+      "latent_idx": 8042,
+      "k1_auc": 0.5160857908847185
+    },
+    {
+      "latent_idx": 1127,
+      "k1_auc": 0.5160212756806353
+    },
+    {
+      "latent_idx": 1095,
+      "k1_auc": 0.5159424237645338
+    },
+    {
+      "latent_idx": 10838,
+      "k1_auc": 0.5149997849493197
+    },
+    {
+      "latent_idx": 4423,
+      "k1_auc": 0.5145732677667704
+    },
+    {
+      "latent_idx": 4261,
+      "k1_auc": 0.5145553468767473
+    },
+    {
+      "latent_idx": 15324,
+      "k1_auc": 0.513390489025247
+    },
+    {
+      "latent_idx": 10534,
+      "k1_auc": 0.5133833206692378
+    },
+    {
+      "latent_idx": 11248,
+      "k1_auc": 0.5133689839572193
+    },
+    {
+      "latent_idx": 9235,
+      "k1_auc": 0.5133689839572193
+    },
+    {
+      "latent_idx": 7034,
+      "k1_auc": 0.5133403105331822
+    },
+    {
+      "latent_idx": 13254,
+      "k1_auc": 0.5120643431635389
+    },
+    {
+      "latent_idx": 4380,
+      "k1_auc": 0.5117740247451649
+    },
+    {
+      "latent_idx": 12356,
+      "k1_auc": 0.5113009132485554
+    },
+    {
+      "latent_idx": 15884,
+      "k1_auc": 0.5107381973018308
+    },
+    {
+      "latent_idx": 7822,
+      "k1_auc": 0.5107238605898125
+    },
+    {
+      "latent_idx": 10326,
+      "k1_auc": 0.5107238605898123
+    },
+    {
+      "latent_idx": 8791,
+      "k1_auc": 0.5106951871657754
+    },
+    {
+      "latent_idx": 15677,
+      "k1_auc": 0.5106951871657754
+    },
+    {
+      "latent_idx": 14875,
+      "k1_auc": 0.5094443090421643
+    },
+    {
+      "latent_idx": 14252,
+      "k1_auc": 0.5093833780160859
+    },
+    {
+      "latent_idx": 13964,
+      "k1_auc": 0.5093833780160858
+    },
+    {
+      "latent_idx": 6177,
+      "k1_auc": 0.5093582887700535
+    },
+    {
+      "latent_idx": 2905,
+      "k1_auc": 0.5093582887700535
+    },
+    {
+      "latent_idx": 8714,
+      "k1_auc": 0.5093582887700535
+    },
+    {
+      "latent_idx": 1936,
+      "k1_auc": 0.5093331995240212
+    },
+    {
+      "latent_idx": 15070,
+      "k1_auc": 0.5084335708448624
+    },
+    {
+      "latent_idx": 10499,
+      "k1_auc": 0.5082471935886224
+    },
+    {
+      "latent_idx": 6920,
+      "k1_auc": 0.5081575891385071
+    },
+    {
+      "latent_idx": 6226,
+      "k1_auc": 0.5080966581124284
+    },
+    {
+      "latent_idx": 11633,
+      "k1_auc": 0.5080428954423593
+    },
+    {
+      "latent_idx": 10673,
+      "k1_auc": 0.50803572708635
+    },
+    {
+      "latent_idx": 3888,
+      "k1_auc": 0.5080142220183224
+    },
+    {
+      "latent_idx": 14209,
+      "k1_auc": 0.5079927169502947
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5078851916101561
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5073547332654729
+    },
+    {
+      "latent_idx": 9508,
+      "k1_auc": 0.5067167495806512
+    },
+    {
+      "latent_idx": 3675,
+      "k1_auc": 0.5067024128686327
+    },
+    {
+      "latent_idx": 10489,
+      "k1_auc": 0.5067024128686327
+    },
+    {
+      "latent_idx": 8576,
+      "k1_auc": 0.5067024128686327
+    },
+    {
+      "latent_idx": 11023,
+      "k1_auc": 0.5066880761566143
+    },
+    {
+      "latent_idx": 9767,
+      "k1_auc": 0.5066844919786097
+    },
+    {
+      "latent_idx": 6399,
+      "k1_auc": 0.5066844919786097
+    },
+    {
+      "latent_idx": 9651,
+      "k1_auc": 0.506680907800605
+    },
+    {
+      "latent_idx": 9314,
+      "k1_auc": 0.506680907800605
+    },
+    {
+      "latent_idx": 10707,
+      "k1_auc": 0.5066737394445958
+    },
+    {
+      "latent_idx": 13613,
+      "k1_auc": 0.5066486501985635
+    },
+    {
+      "latent_idx": 6221,
+      "k1_auc": 0.5066378976645496
+    },
+    {
+      "latent_idx": 6271,
+      "k1_auc": 0.5054407822110077
+    },
+    {
+      "latent_idx": 13974,
+      "k1_auc": 0.5053619302949062
+    },
+    {
+      "latent_idx": 11928,
+      "k1_auc": 0.5053619302949062
+    },
+    {
+      "latent_idx": 7999,
+      "k1_auc": 0.5040393686112027
+    },
+    {
+      "latent_idx": 4707,
+      "k1_auc": 0.5040250318991842
+    },
+    {
+      "latent_idx": 2980,
+      "k1_auc": 0.5040250318991842
+    },
+    {
+      "latent_idx": 2255,
+      "k1_auc": 0.5040214477211796
+    },
+    {
+      "latent_idx": 2737,
+      "k1_auc": 0.5040214477211796
+    },
+    {
+      "latent_idx": 12892,
+      "k1_auc": 0.5027454803515362
+    },
+    {
+      "latent_idx": 7817,
+      "k1_auc": 0.5027024702154808
+    },
+    {
+      "latent_idx": 535,
+      "k1_auc": 0.5026737967914439
+    },
+    {
+      "latent_idx": 4986,
+      "k1_auc": 0.5026522917234162
+    },
+    {
+      "latent_idx": 14024,
+      "k1_auc": 0.502645123367407
+    },
+    {
+      "latent_idx": 3310,
+      "k1_auc": 0.5025375980272684
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5021863485828161
+    },
+    {
+      "latent_idx": 15999,
+      "k1_auc": 0.5015053547619389
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5014229186678327
+    },
+    {
+      "latent_idx": 13160,
+      "k1_auc": 0.5013763243537728
+    },
+    {
+      "latent_idx": 7033,
+      "k1_auc": 0.5013440667517312
+    },
+    {
+      "latent_idx": 4981,
+      "k1_auc": 0.5013225616837035
+    },
+    {
+      "latent_idx": 11306,
+      "k1_auc": 0.5012903040816619
+    },
+    {
+      "latent_idx": 11522,
+      "k1_auc": 0.5000143367120186
+    },
+    {
+      "latent_idx": 7114,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8362,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15284,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 306,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14909,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2429,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6377,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11889,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1625,
+      "k1_auc": 0.4988817364625596
+    },
+    {
+      "latent_idx": 15787,
+      "k1_auc": 0.49879930036845355
+    },
+    {
+      "latent_idx": 1382,
+      "k1_auc": 0.4986846066723058
+    },
+    {
+      "latent_idx": 11642,
+      "k1_auc": 0.4986523490702643
+    },
+    {
+      "latent_idx": 2281,
+      "k1_auc": 0.49734770827658387
+    },
+    {
+      "latent_idx": 4537,
+      "k1_auc": 0.4971469943083253
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.49483161531734315
+    },
+    {
+      "latent_idx": 16244,
+      "k1_auc": 0.4946810798411492
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.4933011713093719
+    },
+    {
+      "latent_idx": 11413,
+      "k1_auc": 0.48435147883184476
+    }
+  ]
+}

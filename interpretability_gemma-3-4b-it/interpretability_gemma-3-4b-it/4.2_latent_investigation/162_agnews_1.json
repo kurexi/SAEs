@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "162_agnews_1",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:53:45.008646"
+  },
+  "best_latent": {
+    "latent_idx": 10986,
+    "k1_auc": 0.9101211394812388,
+    "examples": [
+      {
+        "text": "NHL Lockout Forces All-Star Cancellation NEW YORK Nov 3, 2004 - In another sign the NHL season is slipping away, the league canceled its All-Star game Wednesday because of the lockout.",
+        "activation": 3462.90283203125
+      },
+      {
+        "text": "Warne says new ICC rules on chucking could cause confusion Australian leg-spinner Shane Warne said Thursday a new proposal on bowling deliveries in cricket - brought about by the  quot;chucking quot; controversy involving Sri Lanka #39;s Muttiah Muralitharan - could cause confusion for umpires.",
+        "activation": 3406.12353515625
+      },
+      {
+        "text": "Holyfield appeals medical suspension NEW YORK (AFP) - Former world heavyweight champion Evander Holyfield is appealing a medical suspension imposed upon him by the New York State Athletic Commission following his loss to fellow American Larry Donald.",
+        "activation": 3345.515625
+      },
+      {
+        "text": "Barcelona defender Belletti out for two weeks Barcelona defender Juliano Belletti will be out of action for about two weeks after suffering a slight ankle strain during Saturday #39;s 2-1 victory over Deportivo Coruna.",
+        "activation": 3158.694580078125
+      },
+      {
+        "text": "Wait-and-see for Schumacher at new Shanghai circuit World champion Michael Schumacher arrived in Shanghai yesterday, along with a host of other Formula One stars, saying he looks forward to evaluating the challenges of the city #39;s brand new circuit.",
+        "activation": 3157.803466796875
+      },
+      {
+        "text": "Nets get Carter from Raptors INDIANAPOLIS -- All-Star Vince Carter was traded by the Toronto Raptors to the New Jersey Nets for Alonzo Mourning, Eric Williams, Aaron Williams, and a pair of first-round draft picks yesterday.",
+        "activation": 3154.329345703125
+      },
+      {
+        "text": "Yankees' Sheffield Will Have Surgery  NEW YORK (Sports Network) - New York Yankees outfielder  Gary Sheffield will have arthroscopic surgery Tuesday on his  ailing left shoulder.",
+        "activation": 3136.27197265625
+      },
+      {
+        "text": "US Furious at Proposal That Hamm Return His Gold US Olympic chiefs reacted furiously Friday to a suggestion gold medallist Paul Hamm should give his medal to a South Korean rival under a plan floated by world gymnastics officials.",
+        "activation": 3116.32080078125
+      },
+      {
+        "text": "Formula One legislates changes to make racing more competitive Formula One #39;s governing body imposed sweeping technical changes Friday designed to slash costs and improve the qualify of racing starting next year.",
+        "activation": 3086.19921875
+      },
+      {
+        "text": "Jaguars Release Sack Leader Brackens (AP) AP - The Jacksonville Jaguars on Sunday released defensive end Tony Brackens, the team's all-time sack leader.",
+        "activation": 3079.752197265625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 10986\n\nTop activating examples (format: [activation] text):\n  [3462.903] NHL Lockout Forces All-Star Cancellation NEW YORK Nov 3, 2004 - In another sign the NHL season is slipping away, the league canceled its All-Star game Wednesday because of the lockout.\n  [3406.124] Warne says new ICC rules on chucking could cause confusion Australian leg-spinner Shane Warne said Thursday a new proposal on bowling deliveries in cricket - brought about by the  quot;chucking quot; controversy involving Sri Lanka #39;s Muttiah Muralitharan - could cause confusion for umpires.\n  [3345.516] Holyfield appeals medical suspension NEW YORK (AFP) - Former world heavyweight champion Evander Holyfield is appealing a medical suspension imposed upon him by the New York State Athletic Commission following his loss to fellow American Larry Donald.\n  [3158.695] Barcelona defender Belletti out for two weeks Barcelona defender Juliano Belletti will be out of action for about two weeks after suffering a slight ankle strain during Saturday #39;s 2-1 victory over Deportivo Coruna.\n  [3157.803] Wait-and-see for Schumacher at new Shanghai circuit World champion Michael Schumacher arrived in Shanghai yesterday, along with a host of other Formula One stars, saying he looks forward to evaluating the challenges of the city #39;s brand new circuit.\n  [3154.329] Nets get Carter from Raptors INDIANAPOLIS -- All-Star Vince Carter was traded by the Toronto Raptors to the New Jersey Nets for Alonzo Mourning, Eric Williams, Aaron Williams, and a pair of first-round draft picks yesterday.\n  [3136.272] Yankees' Sheffield Will Have Surgery  NEW YORK (Sports Network) - New York Yankees outfielder  Gary Sheffield will have arthroscopic surgery Tuesday on his  ailing left shoulder.\n  [3116.321] US Furious at Proposal That Hamm Return His Gold US Olympic chiefs reacted furiously Friday to a suggestion gold medallist Paul Hamm should give his medal to a South Korean rival under a plan floated by world gymnastics officials.\n  [3086.199] Formula One legislates changes to make racing more competitive Formula One #39;s governing body imposed sweeping technical changes Friday designed to slash costs and improve the qualify of racing starting next year.\n  [3079.752] Jaguars Release Sack Leader Brackens (AP) AP - The Jacksonville Jaguars on Sunday released defensive end Tony Brackens, the team's all-time sack leader.\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.9101211394812388
+    },
+    {
+      "latent_idx": 10961,
+      "k1_auc": 0.9058498022286338
+    },
+    {
+      "latent_idx": 2084,
+      "k1_auc": 0.9001024108582627
+    },
+    {
+      "latent_idx": 12656,
+      "k1_auc": 0.879909032402687
+    },
+    {
+      "latent_idx": 9426,
+      "k1_auc": 0.8183072741537771
+    },
+    {
+      "latent_idx": 12860,
+      "k1_auc": 0.8140483654033885
+    },
+    {
+      "latent_idx": 13320,
+      "k1_auc": 0.789172831203766
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.7810604088480089
+    },
+    {
+      "latent_idx": 7650,
+      "k1_auc": 0.7749103340058283
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.7706236306050285
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.7700266105531091
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.7627710769319769
+    },
+    {
+      "latent_idx": 2920,
+      "k1_auc": 0.758388787050495
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.7491693241064133
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.7422353497335329
+    },
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.7354846392751516
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.7326337668394907
+    },
+    {
+      "latent_idx": 1143,
+      "k1_auc": 0.7289845326160054
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.7194220430107527
+    },
+    {
+      "latent_idx": 9475,
+      "k1_auc": 0.7158708809683927
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.7103029119754719
+    },
+    {
+      "latent_idx": 5556,
+      "k1_auc": 0.7096116612794758
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.7039650537634409
+    },
+    {
+      "latent_idx": 12902,
+      "k1_auc": 0.7010759919300605
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.6985887096774194
+    },
+    {
+      "latent_idx": 9404,
+      "k1_auc": 0.698110325328474
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.6962568966888663
+    },
+    {
+      "latent_idx": 7497,
+      "k1_auc": 0.6785474108944183
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.6709474947755097
+    },
+    {
+      "latent_idx": 8576,
+      "k1_auc": 0.6706989247311828
+    },
+    {
+      "latent_idx": 16002,
+      "k1_auc": 0.6679646542435879
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.6623607555806235
+    },
+    {
+      "latent_idx": 9620,
+      "k1_auc": 0.6503986611565467
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.6463806393763875
+    },
+    {
+      "latent_idx": 230,
+      "k1_auc": 0.6274174566674621
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.6270387263090149
+    },
+    {
+      "latent_idx": 16076,
+      "k1_auc": 0.6213853396099529
+    },
+    {
+      "latent_idx": 6800,
+      "k1_auc": 0.6190316072629456
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.6183527850691657
+    },
+    {
+      "latent_idx": 5696,
+      "k1_auc": 0.611095443665893
+    },
+    {
+      "latent_idx": 1469,
+      "k1_auc": 0.6102891728312038
+    },
+    {
+      "latent_idx": 3564,
+      "k1_auc": 0.6102891728312038
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.6094133023841031
+    },
+    {
+      "latent_idx": 8504,
+      "k1_auc": 0.6084804867995748
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.6083428693841249
+    },
+    {
+      "latent_idx": 2232,
+      "k1_auc": 0.6073323191675525
+    },
+    {
+      "latent_idx": 485,
+      "k1_auc": 0.6059832617451606
+    },
+    {
+      "latent_idx": 13850,
+      "k1_auc": 0.6059179556153329
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.6042245156951646
+    },
+    {
+      "latent_idx": 3074,
+      "k1_auc": 0.6041666666666666
+    },
+    {
+      "latent_idx": 11697,
+      "k1_auc": 0.6025554808338938
+    },
+    {
+      "latent_idx": 15219,
+      "k1_auc": 0.6007325585179077
+    },
+    {
+      "latent_idx": 11135,
+      "k1_auc": 0.6002663766984113
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.600147289049902
+    },
+    {
+      "latent_idx": 4353,
+      "k1_auc": 0.5974484962868155
+    },
+    {
+      "latent_idx": 9599,
+      "k1_auc": 0.5958305312710155
+    },
+    {
+      "latent_idx": 3207,
+      "k1_auc": 0.5948217888365837
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5892583392990145
+    },
+    {
+      "latent_idx": 5841,
+      "k1_auc": 0.58849161369865
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5881022626201271
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5877759579437563
+    },
+    {
+      "latent_idx": 7791,
+      "k1_auc": 0.5870880968392738
+    },
+    {
+      "latent_idx": 434,
+      "k1_auc": 0.5864156018829858
+    },
+    {
+      "latent_idx": 2751,
+      "k1_auc": 0.5854009841565974
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5847678084618666
+    },
+    {
+      "latent_idx": 4073,
+      "k1_auc": 0.5845047761604154
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5834955817804484
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5830632958760873
+    },
+    {
+      "latent_idx": 4561,
+      "k1_auc": 0.5827168796234028
+    },
+    {
+      "latent_idx": 9581,
+      "k1_auc": 0.5806993947545394
+    },
+    {
+      "latent_idx": 15557,
+      "k1_auc": 0.5768140189889437
+    },
+    {
+      "latent_idx": 3237,
+      "k1_auc": 0.576427153610864
+    },
+    {
+      "latent_idx": 7631,
+      "k1_auc": 0.5763772136292311
+    },
+    {
+      "latent_idx": 9435,
+      "k1_auc": 0.5729657027572292
+    },
+    {
+      "latent_idx": 506,
+      "k1_auc": 0.5717298576913898
+    },
+    {
+      "latent_idx": 12324,
+      "k1_auc": 0.5709482178883658
+    },
+    {
+      "latent_idx": 15865,
+      "k1_auc": 0.5689307330195024
+    },
+    {
+      "latent_idx": 6837,
+      "k1_auc": 0.5685944855413585
+    },
+    {
+      "latent_idx": 7220,
+      "k1_auc": 0.5678862868877945
+    },
+    {
+      "latent_idx": 6356,
+      "k1_auc": 0.5670845355084568
+    },
+    {
+      "latent_idx": 6977,
+      "k1_auc": 0.5655682582380632
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.5642874445914775
+    },
+    {
+      "latent_idx": 14560,
+      "k1_auc": 0.5642232683254875
+    },
+    {
+      "latent_idx": 1545,
+      "k1_auc": 0.5639276959455062
+    },
+    {
+      "latent_idx": 2444,
+      "k1_auc": 0.5635507733691998
+    },
+    {
+      "latent_idx": 14510,
+      "k1_auc": 0.5628782784129118
+    },
+    {
+      "latent_idx": 2698,
+      "k1_auc": 0.5618695359784802
+    },
+    {
+      "latent_idx": 8338,
+      "k1_auc": 0.5615728337346609
+    },
+    {
+      "latent_idx": 7400,
+      "k1_auc": 0.5615332885003362
+    },
+    {
+      "latent_idx": 6239,
+      "k1_auc": 0.5609812370291631
+    },
+    {
+      "latent_idx": 12496,
+      "k1_auc": 0.5605995690247376
+    },
+    {
+      "latent_idx": 7724,
+      "k1_auc": 0.5595158036314727
+    },
+    {
+      "latent_idx": 11294,
+      "k1_auc": 0.5595158036314727
+    },
+    {
+      "latent_idx": 5523,
+      "k1_auc": 0.5585070611970411
+    },
+    {
+      "latent_idx": 6032,
+      "k1_auc": 0.5585070611970411
+    },
+    {
+      "latent_idx": 8424,
+      "k1_auc": 0.5585034456327599
+    },
+    {
+      "latent_idx": 9647,
+      "k1_auc": 0.5577956989247311
+    },
+    {
+      "latent_idx": 1053,
+      "k1_auc": 0.5571977749817414
+    },
+    {
+      "latent_idx": 8709,
+      "k1_auc": 0.5571620712844654
+    },
+    {
+      "latent_idx": 6234,
+      "k1_auc": 0.5564895763281775
+    },
+    {
+      "latent_idx": 4874,
+      "k1_auc": 0.5549116084922373
+    },
+    {
+      "latent_idx": 12732,
+      "k1_auc": 0.5524744921939966
+    },
+    {
+      "latent_idx": 6098,
+      "k1_auc": 0.5519172433491695
+    },
+    {
+      "latent_idx": 200,
+      "k1_auc": 0.5504371217215871
+    },
+    {
+      "latent_idx": 3150,
+      "k1_auc": 0.549454818100961
+    },
+    {
+      "latent_idx": 12748,
+      "k1_auc": 0.5491174407589792
+    },
+    {
+      "latent_idx": 9216,
+      "k1_auc": 0.5484711586437296
+    },
+    {
+      "latent_idx": 4064,
+      "k1_auc": 0.5477774222472901
+    },
+    {
+      "latent_idx": 10939,
+      "k1_auc": 0.5461549377761388
+    },
+    {
+      "latent_idx": 9967,
+      "k1_auc": 0.546095958883803
+    },
+    {
+      "latent_idx": 11377,
+      "k1_auc": 0.5443846671149966
+    },
+    {
+      "latent_idx": 12092,
+      "k1_auc": 0.5440484196368527
+    },
+    {
+      "latent_idx": 8071,
+      "k1_auc": 0.5437121721587088
+    },
+    {
+      "latent_idx": 3524,
+      "k1_auc": 0.543375924680565
+    },
+    {
+      "latent_idx": 16322,
+      "k1_auc": 0.5424182520916039
+    },
+    {
+      "latent_idx": 13798,
+      "k1_auc": 0.5423671822461331
+    },
+    {
+      "latent_idx": 5642,
+      "k1_auc": 0.5411035425298827
+    },
+    {
+      "latent_idx": 16181,
+      "k1_auc": 0.5410221923335574
+    },
+    {
+      "latent_idx": 10695,
+      "k1_auc": 0.5399470139054603
+    },
+    {
+      "latent_idx": 7313,
+      "k1_auc": 0.5397011555343443
+    },
+    {
+      "latent_idx": 3888,
+      "k1_auc": 0.5396772024209818
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5386115148491225
+    },
+    {
+      "latent_idx": 6852,
+      "k1_auc": 0.5336247478143914
+    },
+    {
+      "latent_idx": 8224,
+      "k1_auc": 0.5319435104236718
+    },
+    {
+      "latent_idx": 3609,
+      "k1_auc": 0.5289371687239228
+    },
+    {
+      "latent_idx": 15067,
+      "k1_auc": 0.527572293207801
+    },
+    {
+      "latent_idx": 2046,
+      "k1_auc": 0.5269160682907781
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5243465319507417
+    }
+  ]
+}

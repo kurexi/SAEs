@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "83_third-party",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:42:55.140383"
+  },
+  "best_latent": {
+    "latent_idx": 2887,
+    "k1_auc": 0.9421141904323826,
+    "examples": [
+      {
+        "text": "239, (S.D.N.Y. Feb. 28, 1992), the district court considered a third party",
+        "activation": 2873.15673828125
+      },
+      {
+        "text": " privately paid by the individual or by the individual's family. An individual's private health insurance and/or a third party",
+        "activation": 2824.31884765625
+      },
+      {
+        "text": " Kaw Valley with directions to enter judgment in favor of the Power Company for $18,450.00 as a third party",
+        "activation": 2791.77734375
+      },
+      {
+        "text": " party to the settlement agreement.                                             14\f       The same analysis applies if defendants are assumed to be third party",
+        "activation": 2770.844970703125
+      },
+      {
+        "text": "JCIAK, Respondent,v.NORTHERN PACKAGE CORPORATION, Defendant and third party",
+        "activation": 2768.10498046875
+      },
+      {
+        "text": " attorneys, Stephen Schaetzel, told the jury that Meunier had paid all costsfrom the third party",
+        "activation": 2756.89306640625
+      },
+      {
+        "text": " attorneys, Stephen Schaetzel, told the jury that Meunier had paid all costsfrom the third party",
+        "activation": 2756.89306640625
+      },
+      {
+        "text": " Privacy Rule, the Security Rule or the HITECH Act.No Beneficiary. There are no third party",
+        "activation": 2747.926025390625
+      },
+      {
+        "text": " The court went on to state that if a trustee refuses to pursue the 506(c) surcharge, the third party",
+        "activation": 2744.30029296875
+      },
+      {
+        "text": " Id. at 636-37. The situation in Belcufine, however, was somewhat unique. The third party",
+        "activation": 2743.1591796875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 2887\n\nTop activating examples (format: [activation] text):\n  [2873.157] 239, (S.D.N.Y. Feb. 28, 1992), the district court considered a third party\n  [2824.319] privately paid by the individual or by the individual's family. An individual's private health insurance and/or a third party\n  [2791.777] Kaw Valley with directions to enter judgment in favor of the Power Company for $18,450.00 as a third party\n  [2770.845] party to the settlement agreement.                                             14\f       The same analysis applies if defendants are assumed to be third party\n  [2768.105] JCIAK, Respondent,v.NORTHERN PACKAGE CORPORATION, Defendant and third party\n  [2756.893] attorneys, Stephen Schaetzel, told the jury that Meunier had paid all costsfrom the third party\n  [2756.893] attorneys, Stephen Schaetzel, told the jury that Meunier had paid all costsfrom the third party\n  [2747.926] Privacy Rule, the Security Rule or the HITECH Act.No Beneficiary. There are no third party\n  [2744.300] The court went on to state that if a trustee refuses to pursue the 506(c) surcharge, the third party\n  [2743.159] Id. at 636-37. The situation in Belcufine, however, was somewhat unique. The third party\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 2887,
+      "k1_auc": 0.9421141904323826
+    },
+    {
+      "latent_idx": 7641,
+      "k1_auc": 0.9383341394285405
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.6593464202608367
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.6561502245792521
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.65297093998593
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.652863554575464
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.6473475803614914
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.6455393622490394
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.6455190689431246
+    },
+    {
+      "latent_idx": 7280,
+      "k1_auc": 0.6438947589155257
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.6435912048812166
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.6433755885058715
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.6409387006872667
+    },
+    {
+      "latent_idx": 9453,
+      "k1_auc": 0.640556932869744
+    },
+    {
+      "latent_idx": 9439,
+      "k1_auc": 0.6339485023540236
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.633790806455977
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.6329630086855349
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.6317673947453868
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.623669097353753
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.6223918874127388
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.6201676565290329
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.6166002624600898
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.6125086246550138
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.6021531197575626
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5998637811840467
+    },
+    {
+      "latent_idx": 4864,
+      "k1_auc": 0.5967424170680232
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5894406319335461
+    },
+    {
+      "latent_idx": 8157,
+      "k1_auc": 0.5872324665836897
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5837360990854483
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5800274974295146
+    },
+    {
+      "latent_idx": 6730,
+      "k1_auc": 0.5754002009037286
+    },
+    {
+      "latent_idx": 7958,
+      "k1_auc": 0.575200650062233
+    },
+    {
+      "latent_idx": 14305,
+      "k1_auc": 0.5721093031278749
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.5704646997943611
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5698292656529034
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5696001204069484
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5681106763082417
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5611864312192218
+    },
+    {
+      "latent_idx": 5149,
+      "k1_auc": 0.5600347861085557
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5588801815574436
+    },
+    {
+      "latent_idx": 14800,
+      "k1_auc": 0.5459558823529411
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5432704015368797
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5403718410087126
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5395829387412738
+    },
+    {
+      "latent_idx": 9829,
+      "k1_auc": 0.5395338965853129
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5389496184858488
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5382275150170464
+    },
+    {
+      "latent_idx": 11748,
+      "k1_auc": 0.5376838235294118
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5364573468531847
+    },
+    {
+      "latent_idx": 134,
+      "k1_auc": 0.5363368553493155
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5362311610476758
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5361064417717408
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.535355166675686
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5351306719790031
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5332226784458033
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.53310514638238
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5328967172195465
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5322067448184427
+    },
+    {
+      "latent_idx": 8262,
+      "k1_auc": 0.5321691176470589
+    },
+    {
+      "latent_idx": 945,
+      "k1_auc": 0.5317095588235294
+    },
+    {
+      "latent_idx": 3562,
+      "k1_auc": 0.5307904411764706
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5306361274960767
+    },
+    {
+      "latent_idx": 10105,
+      "k1_auc": 0.5303308823529411
+    },
+    {
+      "latent_idx": 14891,
+      "k1_auc": 0.5298713235294118
+    },
+    {
+      "latent_idx": 4099,
+      "k1_auc": 0.5298713235294118
+    },
+    {
+      "latent_idx": 12459,
+      "k1_auc": 0.5296595121489258
+    },
+    {
+      "latent_idx": 4498,
+      "k1_auc": 0.5294117647058824
+    },
+    {
+      "latent_idx": 13078,
+      "k1_auc": 0.5294117647058824
+    },
+    {
+      "latent_idx": 9458,
+      "k1_auc": 0.5294117647058824
+    },
+    {
+      "latent_idx": 3520,
+      "k1_auc": 0.5294117647058824
+    },
+    {
+      "latent_idx": 15526,
+      "k1_auc": 0.5294117647058824
+    },
+    {
+      "latent_idx": 2132,
+      "k1_auc": 0.5294117647058824
+    },
+    {
+      "latent_idx": 14841,
+      "k1_auc": 0.5289522058823529
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.528595804697224
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5285323881162401
+    },
+    {
+      "latent_idx": 640,
+      "k1_auc": 0.5280330882352942
+    },
+    {
+      "latent_idx": 12205,
+      "k1_auc": 0.5280330882352942
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5279430366902971
+    },
+    {
+      "latent_idx": 3434,
+      "k1_auc": 0.5275735294117647
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5268818659018346
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5264895286541479
+    },
+    {
+      "latent_idx": 11267,
+      "k1_auc": 0.5252757352941176
+    },
+    {
+      "latent_idx": 16323,
+      "k1_auc": 0.5245680062503382
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5244246847773147
+    },
+    {
+      "latent_idx": 4105,
+      "k1_auc": 0.5243790248390064
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5240864630120678
+    },
+    {
+      "latent_idx": 13008,
+      "k1_auc": 0.5236493113804859
+    },
+    {
+      "latent_idx": 13166,
+      "k1_auc": 0.52168677958764
+    },
+    {
+      "latent_idx": 14382,
+      "k1_auc": 0.5211397058823529
+    },
+    {
+      "latent_idx": 13329,
+      "k1_auc": 0.5183823529411765
+    },
+    {
+      "latent_idx": 3568,
+      "k1_auc": 0.5179566162941717
+    },
+    {
+      "latent_idx": 7898,
+      "k1_auc": 0.5175444085177769
+    },
+    {
+      "latent_idx": 2089,
+      "k1_auc": 0.517501285242708
+    },
+    {
+      "latent_idx": 12624,
+      "k1_auc": 0.5174793008279669
+    },
+    {
+      "latent_idx": 14062,
+      "k1_auc": 0.5174632352941176
+    },
+    {
+      "latent_idx": 9006,
+      "k1_auc": 0.5161141532279885
+    },
+    {
+      "latent_idx": 3261,
+      "k1_auc": 0.516110771010336
+    },
+    {
+      "latent_idx": 3273,
+      "k1_auc": 0.516099356025759
+    },
+    {
+      "latent_idx": 10571,
+      "k1_auc": 0.516099356025759
+    },
+    {
+      "latent_idx": 3671,
+      "k1_auc": 0.5160845588235294
+    },
+    {
+      "latent_idx": 741,
+      "k1_auc": 0.5160845588235294
+    },
+    {
+      "latent_idx": 10271,
+      "k1_auc": 0.5156393744250231
+    },
+    {
+      "latent_idx": 3195,
+      "k1_auc": 0.5151941900265166
+    },
+    {
+      "latent_idx": 449,
+      "k1_auc": 0.5147354767574004
+    },
+    {
+      "latent_idx": 6483,
+      "k1_auc": 0.5147194112235511
+    },
+    {
+      "latent_idx": 10833,
+      "k1_auc": 0.5147194112235511
+    },
+    {
+      "latent_idx": 11417,
+      "k1_auc": 0.514259429622815
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.5142568929595758
+    },
+    {
+      "latent_idx": 15500,
+      "k1_auc": 0.5142463235294118
+    },
+    {
+      "latent_idx": 5221,
+      "k1_auc": 0.5138273513177121
+    },
+    {
+      "latent_idx": 7368,
+      "k1_auc": 0.513807058011797
+    },
+    {
+      "latent_idx": 15668,
+      "k1_auc": 0.5137994480220791
+    },
+    {
+      "latent_idx": 15150,
+      "k1_auc": 0.5137994480220791
+    },
+    {
+      "latent_idx": 7550,
+      "k1_auc": 0.5137994480220791
+    },
+    {
+      "latent_idx": 529,
+      "k1_auc": 0.5133394664213432
+    },
+    {
+      "latent_idx": 14214,
+      "k1_auc": 0.5133394664213432
+    },
+    {
+      "latent_idx": 5397,
+      "k1_auc": 0.5129040058985875
+    },
+    {
+      "latent_idx": 5336,
+      "k1_auc": 0.5128896314735646
+    },
+    {
+      "latent_idx": 3827,
+      "k1_auc": 0.5124317637588615
+    },
+    {
+      "latent_idx": 11758,
+      "k1_auc": 0.5124195032198713
+    },
+    {
+      "latent_idx": 7436,
+      "k1_auc": 0.5119595216191353
+    },
+    {
+      "latent_idx": 7352,
+      "k1_auc": 0.5114995400183993
+    },
+    {
+      "latent_idx": 14142,
+      "k1_auc": 0.5112458736944641
+    },
+    {
+      "latent_idx": 13031,
+      "k1_auc": 0.5110505506250338
+    },
+    {
+      "latent_idx": 433,
+      "k1_auc": 0.5110395584176632
+    },
+    {
+      "latent_idx": 13104,
+      "k1_auc": 0.5110395584176632
+    },
+    {
+      "latent_idx": 10069,
+      "k1_auc": 0.510533916878619
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.5
+    }
+  ]
+}

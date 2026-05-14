@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "64_wikidata_occupation_isresearcher",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:37:50.424693"
+  },
+  "best_latent": {
+    "latent_idx": 7114,
+    "k1_auc": 0.719492944600011,
+    "examples": [
+      {
+        "text": " as he did with Buffy.  \"The Gift\" (522)  Buffy sacrifices herself to save the world. Need I say more?  \"Smashed\" (609)  Back and utterly haunted by the happiness she saw on the other side, Buffy gives in to her attraction to Spike. As a building collapses around them, they have, passionate, darkness-filled sex for the first time.  \"Grave\" (622)  Willow gives into her rage after Tara's death, nearly destroying the world in the process. Alyson Hannigan",
+        "activation": 3725.217529296875
+      },
+      {
+        "text": " Cable and Avery have had an affair in the past. She\u2019s put a stop to it, but if anyone was hoping that Sheriff Cable wasn\u2019t under the thumb of Sunderland at the end of the day, they\u2019d be sorely mistaken. On a personal note, living in West Virginia, fat cats like Avery Sunderland have ruled over the Southern coal fields with an iron fist, poisoning the environment and killing the people while being treated like benevolent lords in some type of serfdom. People like Avery are the absolute worst type of scum.  Virginia Madsen",
+        "activation": 3072.044677734375
+      },
+      {
+        "text": " Schreiber returning as the iconic brawler Ross \u201cThe Boss\u201d Rhea and Seann William Scott as lovable enforcer Doug \u201cThe Thug\u201d Glatt. Jay Baruchel, who co-wrote the script with Jesse Chabot, will direct as he reprises his role as Dougthe Thug\u2019s best pal, Pat. Also reprising will be Marc-Andr\u00e9 Grondin as superstar Xavier LaFlamme, Kim Coates as Highlanders Coach Ronnie Hortense, and Alison Pill as Glatt\u2019s love interest, Eva. Elisha Cuthbert",
+        "activation": 2695.83203125
+      },
+      {
+        "text": "ett and Rocky, their Weimaraner.) Apparently, the comedian had opportunities elsewhere (movies!) and decided to pursue those, instead of playing a tween for three minutes every Saturday night.  This marks the first cast change since Brittain came on (along with Vanessa Bayer, Taran Killam, and Jay Pharoah) and the first exit since Jenny Slate's dismissal in 2010. (We still think that was much too soon, and not just because one of our editors went to high school with her.) Brittain didn't have a large gallery of roles, though he managed good James Franco",
+        "activation": 2572.94873046875
+      },
+      {
+        "text": " The song reached the top-twenty in Austria, New Zealand and the United Kingdom, and the top-thirty in Australia, Germany, Ireland and the United States. \"Wet the Bed\", which features American rapper Ludacris, was sent to US urban radio on September 13, 2011, as the album's fifth US single. It peaked at number six on the US Hot R&B/Hip-Hop Songs chart and number 77 on the US Billboard Hot 100 chart.  Tour  Brown embarked on his F.A.M.E. Tour in April 2011 in Australia. Jessica Mauboy",
+        "activation": 2518.505615234375
+      },
+      {
+        "text": "Browsing Category 'USA'  Wilco played at the Fillmore in Miami Beach to kick off their tour in support of their new album Wilco [The Album]. The show took place on Monday March 26. Wilco performed their unbelievably chaotic and beautiful music before a sold out crowd. And the crowd was into it to! Even Jeff Tweedy",
+        "activation": 2476.082275390625
+      },
+      {
+        "text": "Browsing Category 'USA'  Wilco played at the Fillmore in Miami Beach to kick off their tour in support of their new album Wilco [The Album]. The show took place on Monday March 26. Wilco performed their unbelievably chaotic and beautiful music before a sold out crowd. And the crowd was into it to! Even Jeff Tweedy",
+        "activation": 2476.082275390625
+      },
+      {
+        "text": " 13 of 31  Like Crazy: There's just something about Felicity Jones in this story of the making-and-breaking of a relationship. Here, she does a stellar job at being innocent and seductive at the same time. We're just a little bit in love with the Brit beauty  Paramount Vantage  14 of 31  Hysteria: Yes, it's a period drama. But no, it ain't boring. Expect orgasms & sexy talk abound in this story of the invention of the vibrator.  Californication: Remember David Duchovny",
+        "activation": 2435.4140625
+      },
+      {
+        "text": " hit a wall, it is almost inevitably a Rush song that will occupy my brain to will me through it. Even more precisely, the visual of Neil pounding the drums becomes an obvious stand-in for gloved fists pounding away on the heavy bag. (Another one of my allegorical visuals is, while skipping rope at the beginning of class, to jump from side to side like Alex Lifeson playing \u201cRed Barchetta\u201d in the Exit Stage Left concert film.)    Most importantly, Rush has thread a fabric of friendship that no other musical act even approaches. For Michael and I, the sound of Geddy Lee",
+        "activation": 2334.97021484375
+      },
+      {
+        "text": "' news...\" I see walls being built when a site exclusively refers to white women as \"Beckys\" (after a popular, though hardly complimentary, rap song about white women). Just as I see a wall being built when a Web site has a weekly feature called, \"White Folks Do the Darnedest Things.\"  But where I see these walls going up most clearly is in many African-American sites' obsession with interracial dating, or as they like to call it, \"swirling\" (after those black-and-white ice-cream cones). Every time a Halle Berry",
+        "activation": 2332.126708984375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 7114\n\nTop activating examples (format: [activation] text):\n  [3725.218] as he did with Buffy.  \"The Gift\" (522)  Buffy sacrifices herself to save the world. Need I say more?  \"Smashed\" (609)  Back and utterly haunted by the happiness she saw on the other side, Buffy gives in to her attraction to Spike. As a building collapses around them, they have, passionate, darknes\n  [3072.045] Cable and Avery have had an affair in the past. She\u2019s put a stop to it, but if anyone was hoping that Sheriff Cable wasn\u2019t under the thumb of Sunderland at the end of the day, they\u2019d be sorely mistaken. On a personal note, living in West Virginia, fat cats like Avery Sunderland have ruled over the\n  [2695.832] Schreiber returning as the iconic brawler Ross \u201cThe Boss\u201d Rhea and Seann William Scott as lovable enforcer Doug \u201cThe Thug\u201d Glatt. Jay Baruchel, who co-wrote the script with Jesse Chabot, will direct as he reprises his role as Dougthe Thug\u2019s best pal, Pat. Also reprising will be Marc-Andr\u00e9 Grondin a\n  [2572.949] ett and Rocky, their Weimaraner.) Apparently, the comedian had opportunities elsewhere (movies!) and decided to pursue those, instead of playing a tween for three minutes every Saturday night.  This marks the first cast change since Brittain came on (along with Vanessa Bayer, Taran Killam, and Jay P\n  [2518.506] The song reached the top-twenty in Austria, New Zealand and the United Kingdom, and the top-thirty in Australia, Germany, Ireland and the United States. \"Wet the Bed\", which features American rapper Ludacris, was sent to US urban radio on September 13, 2011, as the album's fifth US single. It peake\n  [2476.082] Browsing Category 'USA'  Wilco played at the Fillmore in Miami Beach to kick off their tour in support of their new album Wilco [The Album]. The show took place on Monday March 26. Wilco performed their unbelievably chaotic and beautiful music before a sold out crowd. And the crowd was into it to! E\n  [2476.082] Browsing Category 'USA'  Wilco played at the Fillmore in Miami Beach to kick off their tour in support of their new album Wilco [The Album]. The show took place on Monday March 26. Wilco performed their unbelievably chaotic and beautiful music before a sold out crowd. And the crowd was into it to! E\n  [2435.414] 13 of 31  Like Crazy: There's just something about Felicity Jones in this story of the making-and-breaking of a relationship. Here, she does a stellar job at being innocent and seductive at the same time. We're just a little bit in love with the Brit beauty  Paramount Vantage  14 of 31  Hysteria: Y\n  [2334.970] hit a wall, it is almost inevitably a Rush song that will occupy my brain to will me through it. Even more precisely, the visual of Neil pounding the drums becomes an obvious stand-in for gloved fists pounding away on the heavy bag. (Another one of my allegorical visuals is, while skipping rope at\n  [2332.127] ' news...\" I see walls being built when a site exclusively refers to white women as \"Beckys\" (after a popular, though hardly complimentary, rap song about white women). Just as I see a wall being built when a Web site has a weekly feature called, \"White Folks Do the Darnedest Things.\"  But where I s\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 7114,
+      "k1_auc": 0.719492944600011
+    },
+    {
+      "latent_idx": 5718,
+      "k1_auc": 0.6689315324218965
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.6463972620289536
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.6434277713720966
+    },
+    {
+      "latent_idx": 5544,
+      "k1_auc": 0.6352101978440308
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.6322041032961805
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.627408993576017
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.6266311608924028
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.6263978110873185
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.6249473819066967
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.6175671223851096
+    },
+    {
+      "latent_idx": 11413,
+      "k1_auc": 0.6118386134446092
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.6112254982704661
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.6072768535295302
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.6052201724043266
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.6032481377770457
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.6012372115155842
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5999652263035561
+    },
+    {
+      "latent_idx": 10499,
+      "k1_auc": 0.5992514504291806
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5984690422591921
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5943991471293398
+    },
+    {
+      "latent_idx": 9359,
+      "k1_auc": 0.5894942257361957
+    },
+    {
+      "latent_idx": 6111,
+      "k1_auc": 0.5841683595966252
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5822855469536412
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5803363897582313
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.580265469719431
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.580146507073702
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5781584582441113
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5768269917092187
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5753170812057322
+    },
+    {
+      "latent_idx": 7831,
+      "k1_auc": 0.5747886125295119
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5740222185618331
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5734113911308772
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5730293380186313
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5729218140888377
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5707598967770274
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.569890554365929
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.569547392887864
+    },
+    {
+      "latent_idx": 8463,
+      "k1_auc": 0.5695336664287414
+    },
+    {
+      "latent_idx": 8362,
+      "k1_auc": 0.5685224839400428
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5645372353081133
+    },
+    {
+      "latent_idx": 5126,
+      "k1_auc": 0.5645280843353647
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5639012427020993
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5638188839473636
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5627116162448067
+    },
+    {
+      "latent_idx": 6433,
+      "k1_auc": 0.5625057193579677
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5615791833671919
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5607853364812678
+    },
+    {
+      "latent_idx": 4380,
+      "k1_auc": 0.5598290598290597
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5570906312341002
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5559376086678014
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5559124434927434
+    },
+    {
+      "latent_idx": 12985,
+      "k1_auc": 0.5558987170336207
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5553725361005875
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5553130547777227
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5541257160636175
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5510075220995992
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5495113380552352
+    },
+    {
+      "latent_idx": 10029,
+      "k1_auc": 0.5484452497300463
+    },
+    {
+      "latent_idx": 8691,
+      "k1_auc": 0.548211899924962
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.5465052435073847
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5464320357253977
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5460248174380937
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5459012793059902
+    },
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.5455352403960542
+    },
+    {
+      "latent_idx": 7615,
+      "k1_auc": 0.5454803345595637
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5453384944819634
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5441900474020388
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5425703252255714
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5425222826186423
+    },
+    {
+      "latent_idx": 15029,
+      "k1_auc": 0.5411336225040722
+    },
+    {
+      "latent_idx": 8424,
+      "k1_auc": 0.5398982411830378
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5396923442961987
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5394406925456174
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5385759256208936
+    },
+    {
+      "latent_idx": 6340,
+      "k1_auc": 0.5373405442998591
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5352815754314684
+    },
+    {
+      "latent_idx": 2011,
+      "k1_auc": 0.5352495470268489
+    },
+    {
+      "latent_idx": 2464,
+      "k1_auc": 0.5345540730979703
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.534435110452241
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5341971851607826
+    },
+    {
+      "latent_idx": 1095,
+      "k1_auc": 0.5332294697926389
+    },
+    {
+      "latent_idx": 443,
+      "k1_auc": 0.5331837149288969
+    },
+    {
+      "latent_idx": 10838,
+      "k1_auc": 0.5330121341898643
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5326552462526767
+    },
+    {
+      "latent_idx": 1836,
+      "k1_auc": 0.5323944435293472
+    },
+    {
+      "latent_idx": 1712,
+      "k1_auc": 0.53216338146745
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5311361847764416
+    },
+    {
+      "latent_idx": 6226,
+      "k1_auc": 0.5300838229103754
+    },
+    {
+      "latent_idx": 10345,
+      "k1_auc": 0.5298504731052911
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5292991269971997
+    },
+    {
+      "latent_idx": 15229,
+      "k1_auc": 0.5289285126008895
+    },
+    {
+      "latent_idx": 5085,
+      "k1_auc": 0.5279287688281263
+    },
+    {
+      "latent_idx": 2792,
+      "k1_auc": 0.5277320229140358
+    },
+    {
+      "latent_idx": 13854,
+      "k1_auc": 0.5267391423708341
+    },
+    {
+      "latent_idx": 10974,
+      "k1_auc": 0.5258606489869873
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.525759988286755
+    },
+    {
+      "latent_idx": 13115,
+      "k1_auc": 0.5257325353685097
+    },
+    {
+      "latent_idx": 5828,
+      "k1_auc": 0.5252383828400958
+    },
+    {
+      "latent_idx": 6675,
+      "k1_auc": 0.5246069657204562
+    },
+    {
+      "latent_idx": 14757,
+      "k1_auc": 0.524602390234082
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5237055949047383
+    },
+    {
+      "latent_idx": 10059,
+      "k1_auc": 0.5227150021047237
+    },
+    {
+      "latent_idx": 2247,
+      "k1_auc": 0.5215459653361152
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5214956349859989
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.5209420011347207
+    },
+    {
+      "latent_idx": 45,
+      "k1_auc": 0.5202991452991453
+    },
+    {
+      "latent_idx": 11146,
+      "k1_auc": 0.5182927945240579
+    },
+    {
+      "latent_idx": 8650,
+      "k1_auc": 0.5181372279873351
+    },
+    {
+      "latent_idx": 3675,
+      "k1_auc": 0.5171946777942497
+    },
+    {
+      "latent_idx": 10190,
+      "k1_auc": 0.5160576694302605
+    },
+    {
+      "latent_idx": 14531,
+      "k1_auc": 0.5160553816870734
+    },
+    {
+      "latent_idx": 9225,
+      "k1_auc": 0.5150213217665038
+    },
+    {
+      "latent_idx": 1131,
+      "k1_auc": 0.5140513186551731
+    },
+    {
+      "latent_idx": 6624,
+      "k1_auc": 0.5139186295503211
+    },
+    {
+      "latent_idx": 6918,
+      "k1_auc": 0.5138774501729533
+    },
+    {
+      "latent_idx": 11319,
+      "k1_auc": 0.5129577774117389
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.5129440509526162
+    },
+    {
+      "latent_idx": 542,
+      "k1_auc": 0.5117750141840077
+    },
+    {
+      "latent_idx": 9314,
+      "k1_auc": 0.5107020626292574
+    },
+    {
+      "latent_idx": 8809,
+      "k1_auc": 0.5085470085470085
+    },
+    {
+      "latent_idx": 3991,
+      "k1_auc": 0.5078858507659364
+    },
+    {
+      "latent_idx": 11464,
+      "k1_auc": 0.5064605867603726
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.4995378758762057
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.498933911674811
+    }
+  ]
+}

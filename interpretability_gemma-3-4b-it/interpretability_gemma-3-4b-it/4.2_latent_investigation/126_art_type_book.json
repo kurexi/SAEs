@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "126_art_type_book",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:47:21.077245"
+  },
+  "best_latent": {
+    "latent_idx": 14090,
+    "k1_auc": 0.597830841403858,
+    "examples": [
+      {
+        "text": "If I Fall You're Going Down with Me",
+        "activation": 2429.26904296875
+      },
+      {
+        "text": "You Never Give Me Your Money",
+        "activation": 2411.43505859375
+      },
+      {
+        "text": "Nothing To Lose",
+        "activation": 2340.3388671875
+      },
+      {
+        "text": "Rain, Rain .. Come Again",
+        "activation": 2305.52294921875
+      },
+      {
+        "text": "Gonna Give Her All the Love I've Got",
+        "activation": 2268.60546875
+      },
+      {
+        "text": "I Won't Change You",
+        "activation": 2198.74951171875
+      },
+      {
+        "text": "Let's Wait Awhile",
+        "activation": 2198.3955078125
+      },
+      {
+        "text": "Fit but You Know It",
+        "activation": 2163.720703125
+      },
+      {
+        "text": "You Need a Mess of Help to Stand Alone",
+        "activation": 2131.7880859375
+      },
+      {
+        "text": "Take What You Want",
+        "activation": 2099.625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 14090\n\nTop activating examples (format: [activation] text):\n  [2429.269] If I Fall You're Going Down with Me\n  [2411.435] You Never Give Me Your Money\n  [2340.339] Nothing To Lose\n  [2305.523] Rain, Rain .. Come Again\n  [2268.605] Gonna Give Her All the Love I've Got\n  [2198.750] I Won't Change You\n  [2198.396] Let's Wait Awhile\n  [2163.721] Fit but You Know It\n  [2131.788] You Need a Mess of Help to Stand Alone\n  [2099.625] Take What You Want\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 14090,
+      "k1_auc": 0.597830841403858
+    },
+    {
+      "latent_idx": 4761,
+      "k1_auc": 0.5804596103000085
+    },
+    {
+      "latent_idx": 12794,
+      "k1_auc": 0.5783293074655672
+    },
+    {
+      "latent_idx": 2584,
+      "k1_auc": 0.5768622582036762
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5666988836296242
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5649139235901823
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5637166851300428
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5633957681040042
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5611437122058198
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5594207560414322
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5571517899955056
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5571341282856416
+    },
+    {
+      "latent_idx": 3098,
+      "k1_auc": 0.5566700386753868
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5566065316760888
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5553112143590453
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5534202840604195
+    },
+    {
+      "latent_idx": 9384,
+      "k1_auc": 0.5481394328110979
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5468719232925635
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5467178530575802
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5462361017374614
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5444000354737322
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5440219997264314
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5425534473402968
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5423422583840511
+    },
+    {
+      "latent_idx": 11724,
+      "k1_auc": 0.5414437658673553
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.540362643755045
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5396802253483867
+    },
+    {
+      "latent_idx": 7742,
+      "k1_auc": 0.5392743818025767
+    },
+    {
+      "latent_idx": 11378,
+      "k1_auc": 0.5328958740742634
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5321187588402494
+    },
+    {
+      "latent_idx": 5285,
+      "k1_auc": 0.5317140426376223
+    },
+    {
+      "latent_idx": 11193,
+      "k1_auc": 0.5295168507743345
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5274812447672488
+    },
+    {
+      "latent_idx": 2947,
+      "k1_auc": 0.5266973654741379
+    },
+    {
+      "latent_idx": 9899,
+      "k1_auc": 0.5260555314220607
+    },
+    {
+      "latent_idx": 9930,
+      "k1_auc": 0.5256357839769962
+    },
+    {
+      "latent_idx": 10942,
+      "k1_auc": 0.525225806839516
+    },
+    {
+      "latent_idx": 7472,
+      "k1_auc": 0.5252111513781395
+    },
+    {
+      "latent_idx": 1073,
+      "k1_auc": 0.5238425567542137
+    },
+    {
+      "latent_idx": 4711,
+      "k1_auc": 0.5230958797861355
+    },
+    {
+      "latent_idx": 1821,
+      "k1_auc": 0.5188679670695541
+    },
+    {
+      "latent_idx": 423,
+      "k1_auc": 0.5173633397015697
+    },
+    {
+      "latent_idx": 8449,
+      "k1_auc": 0.5152800094997452
+    },
+    {
+      "latent_idx": 12341,
+      "k1_auc": 0.5143007240549482
+    },
+    {
+      "latent_idx": 3816,
+      "k1_auc": 0.513884358639432
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.513044112187181
+    },
+    {
+      "latent_idx": 4582,
+      "k1_auc": 0.5130027762704782
+    },
+    {
+      "latent_idx": 16196,
+      "k1_auc": 0.5129449059870942
+    },
+    {
+      "latent_idx": 10665,
+      "k1_auc": 0.5126254920852992
+    },
+    {
+      "latent_idx": 16034,
+      "k1_auc": 0.5125732585178292
+    },
+    {
+      "latent_idx": 4906,
+      "k1_auc": 0.51256950070722
+    },
+    {
+      "latent_idx": 4050,
+      "k1_auc": 0.5124928413707891
+    },
+    {
+      "latent_idx": 11267,
+      "k1_auc": 0.5121309642091086
+    },
+    {
+      "latent_idx": 8791,
+      "k1_auc": 0.5117386487814922
+    },
+    {
+      "latent_idx": 13469,
+      "k1_auc": 0.5117371456572486
+    },
+    {
+      "latent_idx": 10215,
+      "k1_auc": 0.5112486302780329
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5112155615446706
+    },
+    {
+      "latent_idx": 12578,
+      "k1_auc": 0.5105158572092094
+    },
+    {
+      "latent_idx": 11974,
+      "k1_auc": 0.5104151478848787
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5098650044116697
+    },
+    {
+      "latent_idx": 4707,
+      "k1_auc": 0.5096102248523556
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5092006234959363
+    },
+    {
+      "latent_idx": 11489,
+      "k1_auc": 0.5086835487560896
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5074434712550036
+    },
+    {
+      "latent_idx": 10059,
+      "k1_auc": 0.5069902792955158
+    },
+    {
+      "latent_idx": 13756,
+      "k1_auc": 0.5069113652727193
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5067013036596566
+    },
+    {
+      "latent_idx": 12177,
+      "k1_auc": 0.5057539596050391
+    },
+    {
+      "latent_idx": 5454,
+      "k1_auc": 0.5048299139761996
+    },
+    {
+      "latent_idx": 11534,
+      "k1_auc": 0.5043553024962384
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5036210263031712
+    },
+    {
+      "latent_idx": 9335,
+      "k1_auc": 0.5034895029318438
+    },
+    {
+      "latent_idx": 15412,
+      "k1_auc": 0.5034233654651192
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5024226604998488
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5003524826351572
+    },
+    {
+      "latent_idx": 7033,
+      "k1_auc": 0.5000150312424374
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7468,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1554,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15516,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5741,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16102,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 195,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12552,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3133,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3968,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1153,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11245,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15224,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1658,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10433,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14136,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9501,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7557,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2476,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11554,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9402,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15660,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13978,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15117,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6513,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15400,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10247,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11048,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12543,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6975,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2593,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 2809,
+      "k1_auc": 0.4998278922740917
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.49883019355730884
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.4971312873808209
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.49536774686185236
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.495068625137348
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.49415660450245835
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.4935136431071983
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.4899673972351532
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.4895352490150779
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.48939959205208017
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.48809262552214777
+    },
+    {
+      "latent_idx": 14641,
+      "k1_auc": 0.48663421922465844
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.4865226122495606
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.4855940572479899
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.48545614559862676
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.4851002809339211
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.4827347391553343
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.4821143246237304
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.4761488002813849
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.4670579048552417
+    }
+  ]
+}

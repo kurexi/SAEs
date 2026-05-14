@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "145_disease_class_digestive system diseases",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:50:20.716692"
+  },
+  "best_latent": {
+    "latent_idx": 1104,
+    "k1_auc": 0.5738775510204082,
+    "examples": [
+      {
+        "text": "Treatment of metastatic melanoma with an autologous tumor-cell vaccine: clinical and immunologic results in 64 patients. We treated 64 patients with metastatic melanoma using a melanoma vaccine preceded by low-dose cyclophosphamide (CY), and monitored immunologic effects and antitumor activity. On day 0, the patients were given CY 300 mg/m2 intravenously. Three days later, they were injected intradermally with vaccine consisting of 10 to 25 x 10(6) autologous, enzymatically dissociated, cryopreserved, irradiated (25 Gy) tumor cells mixed with bacillus Calmette-Guerin (BCG). This treatment sequence was repeated every 28 days. Of 40 assessable patients with measurable metastases, five had responses, four complete and one partial, with a median duration of 10 months (7 to 84+ months). In six additional patients, we observed an antitumor response that seems to be peculiar to this vaccine therapy: the regression of metastatic lesions that appeared after the immunotherapy was begun. Delayed-type hypersensitivity (DTH) to autologous, mechanically dissociated melanoma cells that had not been exposed to extraneous antigens, such as enzymes or fetal calf serum, increased significantly following immunotherapy (day 0 v day 49, P less than .001; day 0 v day 161, P less than .001; day 0 v day 217, P = .021). Antitumor responses to the vaccine were strongly associated with DTH, as indicated by three observations: (1) eight of 10 patients who exhibited tumor regression had positive DTH, (2) in postsurgical adjuvant patients, there was a highly significant linear relationship (P less than .001) between the intensity of DTH to autologous melanoma cells and the time to recurrence of tumor, and (3) nine patients who developed DTH to the autologous melanoma cells in their original vaccine developed new metastases that failed to elicit DTH or elicited a much smaller response. In three cases, we were able to excise regressing tumors for histologic examination; such tumors were characterized by an intense infiltration of lymphocytes. This demonstration that an immune response to melanoma-associated antigens can be elicited in cancer-bearing patients provides some basis for optimism about the prospects for developing active immunotherapy that has practical therapeutic value.",
+        "activation": 4429.1796875
+      },
+      {
+        "text": "The isolation and characterization of a Norwalk virus-specific cDNA. Norwalk virus, an important cause of epidemic, acute, nonbacterial gastroenteritis in adults and children, has eluded adaptation to tissue culture, the development of an animal model, and molecular cloning. In this study, a portion of the Norwalk viral genome encoding an immunoreactive region was cloned from very small quantities of infected stool using sequence-independent single primer amplification. Six overlapping complementary DNA (cDNA) clones were isolated by immunologic screening. The expressed recombinant protein from a representative clone reacted with six of seven high titer. Norwalk-specific, postinfection sera but not with corresponding preinfection sera. Nucleic acid sequence for all clones defined a single open reading frame contiguous with the lambda gt11-expressed beta-galactosidase protein. Only oligonucleotide probes specific for the positive strand (defined by the open reading frame) hybridized to an RNaseA-sensitive, DNaseI-resistant nucleic acid sequence extracted from Norwalk-infected stool. Furthermore, RNA extracted from serial postinfection, but not preinfection, stools from three of five volunteers hybridized to a Norwalk virus cDNA probe. Clone-specific oligonucleotide probes hybridized with cesium chloride gradient fractions containing purified Norwalk virion. In conclusion, an antigenic, protein-coding region of the Norwalk virus genome has been identified. This epitope has potential utility in future sero- and molecular epidemiologic studies of Norwalk viral gastroenteritis.",
+        "activation": 4371.693359375
+      },
+      {
+        "text": "Environmental risk factors in siblings with Parkinson's disease. To investigate possible risk factors in Parkinson's disease, we conducted a case-controlled study of 19 families having two or more siblings with Parkinson's disease. Demographic data were collected, including lifetime histories of places of residence; sources of drinking water; occupations, such as farming; and exposure to herbicides and pesticides. Rural living and drinking well water, but not farming and herbicide exposure, were significantly increased in 38 parkinsonians compared with 38 normal control subjects. A comparison of parkinsonian siblings with siblings with essential tremor revealed no differences in any risk factors for the years of shared environment. These data suggest that living in a rural environment and drinking well water are risk factors for Parkinson's disease and that the total life exposure to an environmental toxin may be more important than exposure in early life.",
+        "activation": 4219.99365234375
+      },
+      {
+        "text": "Endothelin family in human plasma and cerebrospinal fluid. To clarify whether endothelin may be present in human cerebrospinal fluid (CSF) and, if it exists, to compare its molecular forms with those of endothelin in human plasma, we analyzed pooled human CSF and plasma by high performance liquid chromatography with specific enzyme immunoassays for each endothelin peptide. Of the four human endothelin peptides hitherto identified, big endothelin-1 was the major molecular form of endothelin present in human CSF. In addition, there was a small but significant amount of endothelin-1 and endothelin-3 in CSF, while endothelin-2 was not detectable. Similarly, big endothelin-1, endothelin-1, and endothelin-3 were identified in human plasma. Although big endothelin-1 was the most abundant, a substantial amount of endothelin-1 and endothelin-3 was found in plasma with a resultant lower molar ratio of big endothelin-1 to endothelin-1 than in CSF. In all CSF samples from 17 patients requiring diagnostic lumbar puncture or lumbar anesthesia, endothelin was detectable, with a preponderance of big endothelin-1 relative to endothelin-1 and endothelin-3. The mean concentrations of endothelin-1 and endothelin-3 in simultaneously collected plasma were significantly (P less than 0.01) higher than those in CSF, while there was no significant difference between the mean big endothelin-1 concentration in plasma and that in CSF. There was no significant correlation among concentrations of big endothelin-1, endothelin-1, and endothelin-3 in each paired sample. These results indicate that endothelin is present in human CSF that is differently processed from endothelin in vascular endothelial cells and suggest a possible role for endothelin as a modulator of neuronal functions.",
+        "activation": 4110.33447265625
+      },
+      {
+        "text": "Endothelin family in human plasma and cerebrospinal fluid. To clarify whether endothelin may be present in human cerebrospinal fluid (CSF) and, if it exists, to compare its molecular forms with those of endothelin in human plasma, we analyzed pooled human CSF and plasma by high performance liquid chromatography with specific enzyme immunoassays for each endothelin peptide. Of the four human endothelin peptides hitherto identified, big endothelin-1 was the major molecular form of endothelin present in human CSF. In addition, there was a small but significant amount of endothelin-1 and endothelin-3 in CSF, while endothelin-2 was not detectable. Similarly, big endothelin-1, endothelin-1, and endothelin-3 were identified in human plasma. Although big endothelin-1 was the most abundant, a substantial amount of endothelin-1 and endothelin-3 was found in plasma with a resultant lower molar ratio of big endothelin-1 to endothelin-1 than in CSF. In all CSF samples from 17 patients requiring diagnostic lumbar puncture or lumbar anesthesia, endothelin was detectable, with a preponderance of big endothelin-1 relative to endothelin-1 and endothelin-3. The mean concentrations of endothelin-1 and endothelin-3 in simultaneously collected plasma were significantly (P less than 0.01) higher than those in CSF, while there was no significant difference between the mean big endothelin-1 concentration in plasma and that in CSF. There was no significant correlation among concentrations of big endothelin-1, endothelin-1, and endothelin-3 in each paired sample. These results indicate that endothelin is present in human CSF that is differently processed from endothelin in vascular endothelial cells and suggest a possible role for endothelin as a modulator of neuronal functions.",
+        "activation": 4110.33447265625
+      },
+      {
+        "text": "Insulinomas: localization with selective intraarterial injection of calcium. To facilitate the noninvasive preoperative localization of islet cell tumors less than 15 mm in diameter, the authors examined the use of calcium as an insulin secretagogue in an arterial stimulation venous sampling (ASVS) technique. In four patients with episodic hypoglycemia, calcium gluconate (0.01-0.025 mEq Ca2+/kg) was injected directly into branches of the celiac plexus (gastroduodenal, splenic, and hepatic arteries) and the superior mesenteric artery. In all patients, serum levels of insulin rose abruptly in blood samples taken from the right hepatic vein 30 and 60 seconds after the infusion of calcium into the artery supplying the tumor; injection into an artery not supplying the tumor did not result in a similar rise. Accurate localization of the insulinomas was verified at surgery in three patients. In the fourth patient, who did not undergo surgery, arteriographic results were positive for insulinoma at the predicted site. On the basis of these results, the authors believe noninvasive ASVS may replace invasive portal venous sampling as the most effective method for the localization of occult insulinomas.",
+        "activation": 4102.3955078125
+      },
+      {
+        "text": "Isolated calf venous thrombosis: diagnosis with compression US. Compression ultrasound (US) is an excellent means of evaluating the femoral and popliteal veins but is generally regarded as inadequate for the diagnosis of calf vein thrombosis. This prospective study evaluated compression sonography of the calf veins in 45 symptomatic patients with normal femoral and popliteal veins. All patients underwent correlative venography. Compression US enabled identification of 15 of 17 patients with calf vein thrombosis (sensitivity, 88%). The two false-negative results were in patients with small isolated thrombi. Compression US results were true-negative in 26 of 27 patients with normal venograms (specificity, 96%). If these results can be duplicated by other investigators in larger series of patients, compression US will be an adequate screening modality for calf vein thrombosis.",
+        "activation": 4077.2880859375
+      },
+      {
+        "text": "Extracranial repair of cerebrospinal fluid fistulas: technique and results in 37 patients. Although neurosurgeons have traditionally preferred intracranial repair for the management of cerebrospinal fluid (CSF) fistulas, this approach is associated with the complications of a craniotomy, anosmia, and a high incidence of recurrent fistulas. Extracranial repair, on the other hand, produces no central nervous system morbidity, preserves olfaction, and is associated with a low incidence of recurrence. Although there have been several reports of extracranial repair of CSF fistulas by otorhinolaryngologists, this approach has received scant mention in the neurosurgical literature. We report here our experience with 37 patients with CSF rhinorrhea or otorrhea who underwent extracranial repair. The etiology of the fistula was postoperative in 22, traumatic in 6, and spontaneous in 9. The fistulas were repaired using one of four techniques: external ethmoid-sphenoid in 18 patients, transmastoid in 9, transseptosphenoid in 7, and osteoplastic frontal sinusotomy in 3. In 32 of the 37 patients (86%) the fistulas were successfully repaired with the initial procedure. Of the 5 patients requiring a second operation, the fistula was successfully closed in 4 for an overall success rate of 97%. Complications were few and consisted of a transient facial paresis in a patient undergoing transmastoid repair and one death from meningitis. The authors conclude that because of low morbidity and mortality and a high success rate in closing fistulas, extracranial repair is the preferred technique for the operative management of CSF rhinorrhea and otorrhea.",
+        "activation": 4053.887939453125
+      },
+      {
+        "text": "Evidence for platelet-activating factor as a novel mediator in experimental stroke in rabbits. Platelet-activating factor is a potent mediator of inflammation, which has untoward effects on cerebrovascular and neural elements. While several investigators have reported attenuation of ischemic damage after treatment with antagonists of platelet-activating factor, no study has proved endogenous production of platelet-activating factor in ischemia of the central nervous system. We hypothesized that endogenous production of platelet-activating factor participates in the early pathologic manifestations of deteriorating stroke. In 12 rabbits, we found tissue levels of platelet-activating factor measured by the release of serotonin from washed platelets to be elevated by approximately 20-fold in spinal cord injured by 25 minutes of ischemia and 2 hours of reperfusion (2.80 +/- 0.98 ng/g) compared with that in normal spinal cord (0.15 +/- 0.06 ng/g, p less than 0.01). Given during ischemia to seven rabbits, 10 mg/kg i.p. of a highly selective and potent antagonist of platelet-activating factor (BN 50739) accentuated the early postischemic hyperemia and prevented the delayed hypoperfusion measured by on-line laser-Doppler flowmetry (-35 +/- 7% of baseline [n = 7] without versus 33 +/- 14% with treatment, p less than 0.01) and the edema formation measured as the increase in tissue water content (4.4 +/- 0.7% without [n = 6] versus 2.1 +/- 0.6% with [n = 7]treatment, p less than 0.05) after 2 hours of reperfusion. This neurochemical and pharmacologic evidence emphasizes a new perspective of ischemia-induced phospholipid degradation and suggests an important role for platelet-activating factor in the early manifestations of stroke.",
+        "activation": 4042.3623046875
+      },
+      {
+        "text": "Superiority of retrograde cardioplegia after acute coronary occlusion. Because antegrade cardioplegia may limit the distribution of cardioplegia beyond a coronary occlusion, this study was undertaken to determine whether retrograde coronary sinus cardioplegia provides superior myocardial protection during revascularization of an acute coronary occlusion. In 20 adult pigs, the second and third diagonal branches were occluded with a snare for 1 1/2 hours. Animals were then placed on cardiopulmonary bypass and underwent 30 minutes of ischemic arrest with multidose, potassium, crystalloid cardioplegia. In 10 animals, the cardioplegia was given antegrade through the aortic root, whereas in 10 others, it was given retrograde through the coronary sinus. After the arrest period, the coronary snares were released and all hearts were reperfused for 3 hours. Postischemic damage in the myocardium beyond the occlusions was assessed by wall motion scores using two-dimensional echocardiography (4 = normal to -1 = dyskinesia), the change in myocardial pH from preischemia, and the area of necrosis/area of risk (histochemical staining). Hearts protected with retrograde coronary sinus cardioplegia had less tissue acidosis (change in pH = 0.08 +/- 0.03 versus 0.41 +/- 0.13; p less than 0.05), higher wall motion scores (2.0 +/- 0.6 versus 1.3 +/- 0.3; not significant), and less myocardial necrosis (43.4% +/- 3.6% versus 73.3% +/- 3.5%; p less than 0.0001). We conclude that retrograde coronary sinus cardioplegia provides more optimal myocardial protection than is possible with antegrade cardioplegia after revascularization of an acute coronary occlusion.",
+        "activation": 4011.40185546875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 1104\n\nTop activating examples (format: [activation] text):\n  [4429.180] Treatment of metastatic melanoma with an autologous tumor-cell vaccine: clinical and immunologic results in 64 patients. We treated 64 patients with metastatic melanoma using a melanoma vaccine preceded by low-dose cyclophosphamide (CY), and monitored immunologic effects and antitumor activity. On d\n  [4371.693] The isolation and characterization of a Norwalk virus-specific cDNA. Norwalk virus, an important cause of epidemic, acute, nonbacterial gastroenteritis in adults and children, has eluded adaptation to tissue culture, the development of an animal model, and molecular cloning. In this study, a portion\n  [4219.994] Environmental risk factors in siblings with Parkinson's disease. To investigate possible risk factors in Parkinson's disease, we conducted a case-controlled study of 19 families having two or more siblings with Parkinson's disease. Demographic data were collected, including lifetime histories of pla\n  [4110.334] Endothelin family in human plasma and cerebrospinal fluid. To clarify whether endothelin may be present in human cerebrospinal fluid (CSF) and, if it exists, to compare its molecular forms with those of endothelin in human plasma, we analyzed pooled human CSF and plasma by high performance liquid ch\n  [4110.334] Endothelin family in human plasma and cerebrospinal fluid. To clarify whether endothelin may be present in human cerebrospinal fluid (CSF) and, if it exists, to compare its molecular forms with those of endothelin in human plasma, we analyzed pooled human CSF and plasma by high performance liquid ch\n  [4102.396] Insulinomas: localization with selective intraarterial injection of calcium. To facilitate the noninvasive preoperative localization of islet cell tumors less than 15 mm in diameter, the authors examined the use of calcium as an insulin secretagogue in an arterial stimulation venous sampling (ASVS)\n  [4077.288] Isolated calf venous thrombosis: diagnosis with compression US. Compression ultrasound (US) is an excellent means of evaluating the femoral and popliteal veins but is generally regarded as inadequate for the diagnosis of calf vein thrombosis. This prospective study evaluated compression sonography o\n  [4053.888] Extracranial repair of cerebrospinal fluid fistulas: technique and results in 37 patients. Although neurosurgeons have traditionally preferred intracranial repair for the management of cerebrospinal fluid (CSF) fistulas, this approach is associated with the complications of a craniotomy, anosmia, an\n  [4042.362] Evidence for platelet-activating factor as a novel mediator in experimental stroke in rabbits. Platelet-activating factor is a potent mediator of inflammation, which has untoward effects on cerebrovascular and neural elements. While several investigators have reported attenuation of ischemic damage\n  [4011.402] Superiority of retrograde cardioplegia after acute coronary occlusion. Because antegrade cardioplegia may limit the distribution of cardioplegia beyond a coronary occlusion, this study was undertaken to determine whether retrograde coronary sinus cardioplegia provides superior myocardial protection\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 1104,
+      "k1_auc": 0.5738775510204082
+    },
+    {
+      "latent_idx": 5085,
+      "k1_auc": 0.5628571428571428
+    },
+    {
+      "latent_idx": 9047,
+      "k1_auc": 0.5461224489795917
+    },
+    {
+      "latent_idx": 2050,
+      "k1_auc": 0.5455102040816326
+    },
+    {
+      "latent_idx": 4865,
+      "k1_auc": 0.5444897959183674
+    },
+    {
+      "latent_idx": 9567,
+      "k1_auc": 0.5375510204081633
+    },
+    {
+      "latent_idx": 12799,
+      "k1_auc": 0.536734693877551
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5302040816326531
+    },
+    {
+      "latent_idx": 4737,
+      "k1_auc": 0.5293877551020408
+    },
+    {
+      "latent_idx": 1999,
+      "k1_auc": 0.5261224489795919
+    },
+    {
+      "latent_idx": 11948,
+      "k1_auc": 0.5204081632653061
+    },
+    {
+      "latent_idx": 11055,
+      "k1_auc": 0.5191836734693878
+    },
+    {
+      "latent_idx": 2958,
+      "k1_auc": 0.5185714285714286
+    },
+    {
+      "latent_idx": 5988,
+      "k1_auc": 0.5169387755102041
+    },
+    {
+      "latent_idx": 15139,
+      "k1_auc": 0.5120408163265306
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5108163265306123
+    },
+    {
+      "latent_idx": 5490,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 11636,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 6716,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 53,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 13761,
+      "k1_auc": 0.5102040816326531
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.510204081632653
+    },
+    {
+      "latent_idx": 14491,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 8898,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 13897,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 968,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 10055,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 5394,
+      "k1_auc": 0.51
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5093877551020408
+    },
+    {
+      "latent_idx": 8854,
+      "k1_auc": 0.5024489795918368
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5024489795918368
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5012244897959184
+    },
+    {
+      "latent_idx": 6821,
+      "k1_auc": 0.5012244897959184
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5008163265306123
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5004081632653061
+    },
+    {
+      "latent_idx": 10603,
+      "k1_auc": 0.5004081632653061
+    },
+    {
+      "latent_idx": 6410,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12074,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6552,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1288,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7776,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1983,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5231,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14320,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12048,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9601,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14708,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13183,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8800,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 146,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 16189,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12862,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5446,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10489,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6157,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8514,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8052,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15348,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4709,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1634,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1567,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5265,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10084,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15007,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4603,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14126,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4369,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6249,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5471,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9443,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 959,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12660,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4972,
+      "k1_auc": 0.49999999999999994
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.4995918367346939
+    },
+    {
+      "latent_idx": 563,
+      "k1_auc": 0.4959183673469388
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.4938775510204082
+    },
+    {
+      "latent_idx": 10472,
+      "k1_auc": 0.49367346938775514
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.4916326530612245
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.4916326530612244
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.4914285714285714
+    },
+    {
+      "latent_idx": 3994,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 1888,
+      "k1_auc": 0.49
+    },
+    {
+      "latent_idx": 14711,
+      "k1_auc": 0.4897959183673469
+    },
+    {
+      "latent_idx": 4353,
+      "k1_auc": 0.4897959183673469
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.48959183673469386
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.48612244897959184
+    },
+    {
+      "latent_idx": 8035,
+      "k1_auc": 0.4853061224489796
+    },
+    {
+      "latent_idx": 56,
+      "k1_auc": 0.4848979591836734
+    },
+    {
+      "latent_idx": 659,
+      "k1_auc": 0.4848979591836734
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.48408163265306114
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.48408163265306114
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.4832653061224489
+    },
+    {
+      "latent_idx": 7778,
+      "k1_auc": 0.4820408163265306
+    },
+    {
+      "latent_idx": 9647,
+      "k1_auc": 0.48204081632653056
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.48040816326530617
+    },
+    {
+      "latent_idx": 1614,
+      "k1_auc": 0.48
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.47571428571428576
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.4757142857142857
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.47530612244897963
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.4753061224489796
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.4748979591836735
+    },
+    {
+      "latent_idx": 2155,
+      "k1_auc": 0.4697959183673469
+    },
+    {
+      "latent_idx": 6500,
+      "k1_auc": 0.46122448979591835
+    }
+  ]
+}

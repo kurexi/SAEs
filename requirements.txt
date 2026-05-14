@@ -1,0 +1,13 @@
+torch
+transformers
+datasets
+accelerate
+pandas
+numpy
+scikit-learn
+matplotlib
+tqdm
+anthropic
+xgboost
+torchvision
+dictionary_learning

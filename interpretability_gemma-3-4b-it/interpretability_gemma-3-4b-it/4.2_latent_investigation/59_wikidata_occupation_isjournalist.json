@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "59_wikidata_occupation_isjournalist",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:37:09.697772"
+  },
+  "best_latent": {
+    "latent_idx": 10499,
+    "k1_auc": 0.740679806106305,
+    "examples": [
+      {
+        "text": " the problems the regulations attempted to resolve. It is questionable, for example, whether many thousands of pages of regulations have enhanced the banks\u2019 ability to carry out their core mission of funding the real economy of goods and services for real human beings.  The entrepreneurial society  Between discredited financial capitalism on one side and ever more burdensome state bureaucracies on the other, can we revive a lost but deeply rooted human capability \u2013 the capability to take passionate ownership of the problems we face, and to accept responsibility for creating our own solutions \u2013 that is, create the basis for a properly entrepreneurial society? Peter Drucker",
+        "activation": 4643.93798828125
+      },
+      {
+        "text": ".  In this book I offer a few thoughts on the relationship between mind and universe as seen through the lenses of two innovative fields of scientific research\u2014neuroscience, and the search for extraterrestrial intelligence, or SETI.  Neuroscience has begun to reveal some fascinating things about how the brain works, shedding light on the concept of personal identity, the data-handling limitations of the central nervous system, and the way that the brain smooths over its liabilities and discontinuities to sustain a sense of unified consciousness. We are beginning to realize that each of us really does contain multitudes, as Walt Whitman",
+        "activation": 4602.9306640625
+      },
+      {
+        "text": ", 1982).  \"The Great Matter... is like the funeral of one's parents...\" In R.H. Blyth, _Zen and Zen Classics_ (Tokyo: Hokuseido Press, 1970), vol. 3.  _Page 132_  \"At this Tokusan was enlightened.\" In R.H. Blyth, _Zen and Zen Classics_ (Tokyo: Hokuseido Press, 1974), vol. 4.  _Page 133_  \"The gigantic adult menaces the child...\" The English essayist William Hazlitt",
+        "activation": 3843.9619140625
+      },
+      {
+        "text": "'Orsay, Paris, France, \u00a9photo Mus\u00e9e d'Orsay / rmn  We\u2019re told Monet worked fast and worked across the entire canvas rather than settling on a small section. He wanted to capture the truth of his experiences in front of his motif as the sun rose higher in the sky and the light and colour changed before his eyes. It was a matter of urgency to record as quickly as he could those quixotic changes. In the crisp morning, as the sunlight broke through the trees, it\u2019s likely he stood for some time sensing the atmosphere.  As John Berger",
+        "activation": 3586.35302734375
+      },
+      {
+        "text": " and coherence to one's efforts in wartime or peacetime.  Definitions of strategy are indeed many, and experts sometimes muddle the difference between military strategy and strategy in general. Yet, these various definitions are not necessarily unhelpful or contradictory. Each, in fact, refracts strategy through a specific historical and political lens or context, but each also captures recurring themes and activities inseparable from the practice of strategy. Not surprisingly, that practice has evolved with the conduct war. Jomini's definition of strategy, for instance, deviated little from what the Renaissance political and military writer Niccol\u00f2 Machiavelli",
+        "activation": 3430.320068359375
+      },
+      {
+        "text": " him\u2014his city treasurer, his former law partner and several other allies\u2014dropped like flies when widespread pay-to-play came to light. The whole ordeal left the city feeling like it needed a shower.  Like Street, Nutter was a former city councilman; but unlike Street, he was seen as far and away the least tainted member on Council. During his 14-year tenure, Nutter had helped push through anti-pay-to-play legislation, campaign finance reform and the formal establishment of an ethics board\u2014no small tasks in a town that muckraker Lincoln Steffens",
+        "activation": 3425.8408203125
+      },
+      {
+        "text": " Commercial broadcasters were disinvesting in radio as a serious medium of news, public affairs, culture, and humor, when along came public radio, partly underwritten by government and partly by listener-subscribers. NPR demonstrated that ingenious and high-quality noncommercial programming could attract an audience that for-profit companies did not know was there.  Your donation keeps this site free and open for all to read. Give what you can... SUPPORT THE PROSPECT  There is another, more fundamental point ignored by libertarians: The market itself is a creature of government.  As Karl Polanyi",
+        "activation": 3421.8525390625
+      },
+      {
+        "text": " ever more thinly sliced news items they would agree with and be moved to share.  On Facebook the fragmentation of the audience into ideological echo chambers continued. All the while, the site's content-serving algorithm bore the increasing burden of matching coverage from various viewpoints to the right users in order to keep everyone happy, or at least engaged, during what was shaping up to be a bitterly divisive 2016 presidential campaign. As the national narrative frayed into contradictory story lines, Facebook gave news providers an ever greater ability to cater to the camp that already bought into their spin. These were the so-called filter bubbles that Eli Pariser",
+        "activation": 3329.944580078125
+      },
+      {
+        "text": " deflected into a pseudo-Oriental fatalism: \"Why fret over the plight of the world when it's all part of the Divine Dance?\" This slipshod philosophy was partially due to the effects of heavy acid tripping--\"the haze that blurs the corner of the inner screen,\" as David Mairowitz said, \"a magic that insinuates itself 'cosmically,' establishing spectrum upon confusing spectrum in the broadening of personal horizons. It could cloud up your telescope on the known world and bring on a delirium of vague 'universal' thinking.\" Or it might just reinforce what poet John Ashbery",
+        "activation": 3285.67724609375
+      },
+      {
+        "text": " to a growing level of demand that is incorporated into preventative care in major orthopedic surgeries in the United States[@bib4] and at the same time, in the large medical centers.  Thrombosis can occur as part of the natural physiological process. In normal situations, there is a balance between factors that hinder and those that promote clotting. An alteration to this balance can lead to untimely clotting. On the other hand, clotting failures can lead to hemorrhage.  The Virchow\\'s triad {#cesec20} --------------------  More than 150 years ago, Rudolf Virchow",
+        "activation": 3248.6748046875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 10499\n\nTop activating examples (format: [activation] text):\n  [4643.938] the problems the regulations attempted to resolve. It is questionable, for example, whether many thousands of pages of regulations have enhanced the banks\u2019 ability to carry out their core mission of funding the real economy of goods and services for real human beings.  The entrepreneurial society\n  [4602.931] .  In this book I offer a few thoughts on the relationship between mind and universe as seen through the lenses of two innovative fields of scientific research\u2014neuroscience, and the search for extraterrestrial intelligence, or SETI.  Neuroscience has begun to reveal some fascinating things about how\n  [3843.962] , 1982).  \"The Great Matter... is like the funeral of one's parents...\" In R.H. Blyth, _Zen and Zen Classics_ (Tokyo: Hokuseido Press, 1970), vol. 3.  _Page 132_  \"At this Tokusan was enlightened.\" In R.H. Blyth, _Zen and Zen Classics_ (Tokyo: Hokuseido Press, 1974), vol. 4.  _Page 133_  \"The gigant\n  [3586.353] 'Orsay, Paris, France, \u00a9photo Mus\u00e9e d'Orsay / rmn  We\u2019re told Monet worked fast and worked across the entire canvas rather than settling on a small section. He wanted to capture the truth of his experiences in front of his motif as the sun rose higher in the sky and the light and colour changed befo\n  [3430.320] and coherence to one's efforts in wartime or peacetime.  Definitions of strategy are indeed many, and experts sometimes muddle the difference between military strategy and strategy in general. Yet, these various definitions are not necessarily unhelpful or contradictory. Each, in fact, refracts str\n  [3425.841] him\u2014his city treasurer, his former law partner and several other allies\u2014dropped like flies when widespread pay-to-play came to light. The whole ordeal left the city feeling like it needed a shower.  Like Street, Nutter was a former city councilman; but unlike Street, he was seen as far and away the\n  [3421.853] Commercial broadcasters were disinvesting in radio as a serious medium of news, public affairs, culture, and humor, when along came public radio, partly underwritten by government and partly by listener-subscribers. NPR demonstrated that ingenious and high-quality noncommercial programming could at\n  [3329.945] ever more thinly sliced news items they would agree with and be moved to share.  On Facebook the fragmentation of the audience into ideological echo chambers continued. All the while, the site's content-serving algorithm bore the increasing burden of matching coverage from various viewpoints to the\n  [3285.677] deflected into a pseudo-Oriental fatalism: \"Why fret over the plight of the world when it's all part of the Divine Dance?\" This slipshod philosophy was partially due to the effects of heavy acid tripping--\"the haze that blurs the corner of the inner screen,\" as David Mairowitz said, \"a magic that i\n  [3248.675] to a growing level of demand that is incorporated into preventative care in major orthopedic surgeries in the United States[@bib4] and at the same time, in the large medical centers.  Thrombosis can occur as part of the natural physiological process. In normal situations, there is a balance between\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 10499,
+      "k1_auc": 0.740679806106305
+    },
+    {
+      "latent_idx": 5579,
+      "k1_auc": 0.6313179553640555
+    },
+    {
+      "latent_idx": 15999,
+      "k1_auc": 0.6307835695290672
+    },
+    {
+      "latent_idx": 4582,
+      "k1_auc": 0.615343185107887
+    },
+    {
+      "latent_idx": 1836,
+      "k1_auc": 0.5955351432322349
+    },
+    {
+      "latent_idx": 7114,
+      "k1_auc": 0.5879906251051941
+    },
+    {
+      "latent_idx": 5718,
+      "k1_auc": 0.5823711583128556
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5710838354596559
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5649762682196116
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.5640168983741206
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5632700205338809
+    },
+    {
+      "latent_idx": 6111,
+      "k1_auc": 0.562632544518127
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5605307671592554
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5552815834651765
+    },
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.5518017638940318
+    },
+    {
+      "latent_idx": 13532,
+      "k1_auc": 0.5517849328441109
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5507666543238967
+    },
+    {
+      "latent_idx": 14642,
+      "k1_auc": 0.5498241155283267
+    },
+    {
+      "latent_idx": 7615,
+      "k1_auc": 0.5492560675934965
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5488731612077962
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.547930622412226
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.5473247046150739
+    },
+    {
+      "latent_idx": 8424,
+      "k1_auc": 0.5465820345373144
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5453323290806881
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.545010435250951
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5435250950954321
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5426035951122631
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5407353485710438
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5400242367118862
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.539477227589457
+    },
+    {
+      "latent_idx": 10029,
+      "k1_auc": 0.538233833776551
+    },
+    {
+      "latent_idx": 443,
+      "k1_auc": 0.5379287709967349
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5365675598343825
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.5358543440939846
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5355766317702899
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5352168680782308
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5339945130777257
+    },
+    {
+      "latent_idx": 10771,
+      "k1_auc": 0.5328668327330258
+    },
+    {
+      "latent_idx": 8362,
+      "k1_auc": 0.5325849126468508
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5325491466657689
+    },
+    {
+      "latent_idx": 1131,
+      "k1_auc": 0.5299655805029116
+    },
+    {
+      "latent_idx": 7182,
+      "k1_auc": 0.5298183088161039
+    },
+    {
+      "latent_idx": 1095,
+      "k1_auc": 0.5295847779984516
+    },
+    {
+      "latent_idx": 3675,
+      "k1_auc": 0.5288736661392938
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5271484835224021
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5270264584104757
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.5269612380920321
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5267487460867808
+    },
+    {
+      "latent_idx": 2011,
+      "k1_auc": 0.526694045174538
+    },
+    {
+      "latent_idx": 3112,
+      "k1_auc": 0.5262858922139563
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5261680748645101
+    },
+    {
+      "latent_idx": 11413,
+      "k1_auc": 0.5255726764735584
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5254169892617901
+    },
+    {
+      "latent_idx": 2980,
+      "k1_auc": 0.5246701114215505
+    },
+    {
+      "latent_idx": 3630,
+      "k1_auc": 0.5246154105093076
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5239758306123137
+    },
+    {
+      "latent_idx": 4537,
+      "k1_auc": 0.5236034436328139
+    },
+    {
+      "latent_idx": 14031,
+      "k1_auc": 0.5234582758272461
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5232584071094355
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.523252095465715
+    },
+    {
+      "latent_idx": 5557,
+      "k1_auc": 0.522757683374289
+    },
+    {
+      "latent_idx": 5984,
+      "k1_auc": 0.5226335543811222
+    },
+    {
+      "latent_idx": 9384,
+      "k1_auc": 0.5224484128319924
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5219014037095634
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5216047564547076
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5214890429865016
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5206811525902986
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5200331571683442
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.519616588682802
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.518711919749554
+    },
+    {
+      "latent_idx": 5544,
+      "k1_auc": 0.5181270407648029
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5178493284411081
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.517807250816306
+    },
+    {
+      "latent_idx": 10345,
+      "k1_auc": 0.5175547850674924
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5172581378126367
+    },
+    {
+      "latent_idx": 9314,
+      "k1_auc": 0.5171718786817922
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.5159179654626856
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5156381492577506
+    },
+    {
+      "latent_idx": 14453,
+      "k1_auc": 0.5153877873901774
+    },
+    {
+      "latent_idx": 15229,
+      "k1_auc": 0.5147482074931834
+    },
+    {
+      "latent_idx": 13842,
+      "k1_auc": 0.514607247450096
+    },
+    {
+      "latent_idx": 10974,
+      "k1_auc": 0.5139445248594607
+    },
+    {
+      "latent_idx": 10059,
+      "k1_auc": 0.5135279563739186
+    },
+    {
+      "latent_idx": 13469,
+      "k1_auc": 0.5133217760123877
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5124128993166595
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5123918605042583
+    },
+    {
+      "latent_idx": 6335,
+      "k1_auc": 0.5123834449792979
+    },
+    {
+      "latent_idx": 9225,
+      "k1_auc": 0.5114114518463662
+    },
+    {
+      "latent_idx": 8463,
+      "k1_auc": 0.5113609586966035
+    },
+    {
+      "latent_idx": 8691,
+      "k1_auc": 0.5112936344969199
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.5112641801595583
+    },
+    {
+      "latent_idx": 4353,
+      "k1_auc": 0.5112389335846771
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5111211162352307
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5103847578011916
+    },
+    {
+      "latent_idx": 13616,
+      "k1_auc": 0.5102921870266268
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5096084256235903
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5082766687985997
+    },
+    {
+      "latent_idx": 9359,
+      "k1_auc": 0.5076076345642441
+    },
+    {
+      "latent_idx": 12985,
+      "k1_auc": 0.5072899484969873
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5072057932473828
+    },
+    {
+      "latent_idx": 10838,
+      "k1_auc": 0.5071847544349817
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.5063074359578551
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5061601642710473
+    },
+    {
+      "latent_idx": 2464,
+      "k1_auc": 0.5061265021712055
+    },
+    {
+      "latent_idx": 6221,
+      "k1_auc": 0.5053901437371663
+    },
+    {
+      "latent_idx": 11889,
+      "k1_auc": 0.5052681186252398
+    },
+    {
+      "latent_idx": 1712,
+      "k1_auc": 0.5051776517319151
+    },
+    {
+      "latent_idx": 13062,
+      "k1_auc": 0.5051271585821524
+    },
+    {
+      "latent_idx": 7831,
+      "k1_auc": 0.5048683811896186
+    },
+    {
+      "latent_idx": 2792,
+      "k1_auc": 0.5041867236678224
+    },
+    {
+      "latent_idx": 2994,
+      "k1_auc": 0.5040689063183762
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5027729154744673
+    },
+    {
+      "latent_idx": 6547,
+      "k1_auc": 0.5020449725653887
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5010666677887367
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.5010266940451745
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5126,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15984,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8908,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13115,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5828,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 98,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6963,
+      "k1_auc": 0.4969325411519171
+    },
+    {
+      "latent_idx": 2247,
+      "k1_auc": 0.49503063251085605
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.4947949978119635
+    }
+  ]
+}

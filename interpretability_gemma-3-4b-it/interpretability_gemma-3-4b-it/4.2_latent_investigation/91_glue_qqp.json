@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "91_glue_qqp",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:43:49.578318"
+  },
+  "best_latent": {
+    "latent_idx": 4160,
+    "k1_auc": 0.7273505147644801,
+    "examples": [
+      {
+        "text": "What are the differences among replication, transcription, and translation? | What is the product of DNA replication?",
+        "activation": 2677.14697265625
+      },
+      {
+        "text": "How long do I have from the receipt of my 23andMe sample kit to return it? | Who created the 23andMe ancestry videos?",
+        "activation": 2636.038330078125
+      },
+      {
+        "text": "Is Yamaha R3 worth it for commuting everyday? | Is Yamaha R3 worth it for commuting in B2B traffic?",
+        "activation": 2608.4990234375
+      },
+      {
+        "text": "Can you earn money through a independent contractor platform like DogVacay without work authorization / EAD card? | In Hong Kong, is there a Pre-Action Protocol to follow before filing a court claim against someone?",
+        "activation": 2587.41357421875
+      },
+      {
+        "text": "Why don't Olympic host countries take enough effort to create great mascots and promote them? | Why aren't there enough efforts made by the Maharashtra Govt to make the Great Maratha history available online in English (including translations)?",
+        "activation": 2477.659912109375
+      },
+      {
+        "text": "How can I measure least count by multimeter? | What does George Lucas think of Star Wars 1313?",
+        "activation": 2435.078857421875
+      },
+      {
+        "text": "How can I cancel points on a Florida license's driving record if I get a speeding ticket in Georgia? | How do I get the driving history tickets for a PA driver's license?",
+        "activation": 2367.97021484375
+      },
+      {
+        "text": "Which colleges are best for studying economics in India? | What are some of the best government colleges for economics graduate programs in India?",
+        "activation": 2345.769775390625
+      },
+      {
+        "text": "What is Queen's University's acceptance rate for international students? | What personality traits are predictive of worse outcomes/adaptions when one develops dementia?",
+        "activation": 2333.742919921875
+      },
+      {
+        "text": "How do warm and cold fronts form? | When do warm and cold fronts meet?",
+        "activation": 2329.582275390625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 4160\n\nTop activating examples (format: [activation] text):\n  [2677.147] What are the differences among replication, transcription, and translation? | What is the product of DNA replication?\n  [2636.038] How long do I have from the receipt of my 23andMe sample kit to return it? | Who created the 23andMe ancestry videos?\n  [2608.499] Is Yamaha R3 worth it for commuting everyday? | Is Yamaha R3 worth it for commuting in B2B traffic?\n  [2587.414] Can you earn money through a independent contractor platform like DogVacay without work authorization / EAD card? | In Hong Kong, is there a Pre-Action Protocol to follow before filing a court claim against someone?\n  [2477.660] Why don't Olympic host countries take enough effort to create great mascots and promote them? | Why aren't there enough efforts made by the Maharashtra Govt to make the Great Maratha history available online in English (including translations)?\n  [2435.079] How can I measure least count by multimeter? | What does George Lucas think of Star Wars 1313?\n  [2367.970] How can I cancel points on a Florida license's driving record if I get a speeding ticket in Georgia? | How do I get the driving history tickets for a PA driver's license?\n  [2345.770] Which colleges are best for studying economics in India? | What are some of the best government colleges for economics graduate programs in India?\n  [2333.743] What is Queen's University's acceptance rate for international students? | What personality traits are predictive of worse outcomes/adaptions when one develops dementia?\n  [2329.582] How do warm and cold fronts form? | When do warm and cold fronts meet?\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 4160,
+      "k1_auc": 0.7273505147644801
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.7244716411199963
+    },
+    {
+      "latent_idx": 13463,
+      "k1_auc": 0.7223886854088801
+    },
+    {
+      "latent_idx": 3989,
+      "k1_auc": 0.7157651495282717
+    },
+    {
+      "latent_idx": 7618,
+      "k1_auc": 0.6916038252666477
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.6518017263115685
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.6487040005508643
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.6395892972328182
+    },
+    {
+      "latent_idx": 3405,
+      "k1_auc": 0.6327037463836871
+    },
+    {
+      "latent_idx": 9121,
+      "k1_auc": 0.6244743245583213
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.624038265830514
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.6233400655569046
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.6218865786566404
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5834118956314637
+    },
+    {
+      "latent_idx": 6704,
+      "k1_auc": 0.5800510157067214
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.5763385040995849
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5759732020710069
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5743232672329903
+    },
+    {
+      "latent_idx": 186,
+      "k1_auc": 0.5706882209208952
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5702352008376378
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5687560187496392
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.5660709349200386
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5525672910133169
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5506552146294982
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5489674331849173
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5484297329016881
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5475815385518952
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5461718473903308
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5448906321674384
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5425302190597029
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5377581290460428
+    },
+    {
+      "latent_idx": 9930,
+      "k1_auc": 0.5375740856816795
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5358041555827162
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5357418795612122
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5329784443956138
+    },
+    {
+      "latent_idx": 6963,
+      "k1_auc": 0.5323139136783459
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5310197875729465
+    },
+    {
+      "latent_idx": 15029,
+      "k1_auc": 0.5303441180550844
+    },
+    {
+      "latent_idx": 15999,
+      "k1_auc": 0.5295744016185688
+    },
+    {
+      "latent_idx": 2464,
+      "k1_auc": 0.5286251985997514
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.5285639351964834
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5252250797183707
+    },
+    {
+      "latent_idx": 14224,
+      "k1_auc": 0.5248611700398669
+    },
+    {
+      "latent_idx": 6116,
+      "k1_auc": 0.5233237624033077
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5214067495055892
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.5213849782135187
+    },
+    {
+      "latent_idx": 14802,
+      "k1_auc": 0.5212758685986072
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5204974183298078
+    },
+    {
+      "latent_idx": 593,
+      "k1_auc": 0.5200700934342847
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5196751723223084
+    },
+    {
+      "latent_idx": 14711,
+      "k1_auc": 0.5194168280948905
+    },
+    {
+      "latent_idx": 8556,
+      "k1_auc": 0.5193003769977692
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5188448253689222
+    },
+    {
+      "latent_idx": 1454,
+      "k1_auc": 0.5184429425065744
+    },
+    {
+      "latent_idx": 8280,
+      "k1_auc": 0.5183167449589333
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5179308108338
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5176420880593071
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5176025959481093
+    },
+    {
+      "latent_idx": 3366,
+      "k1_auc": 0.5175808246560388
+    },
+    {
+      "latent_idx": 15539,
+      "k1_auc": 0.5169247746164962
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.5158082364342067
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5156272309245509
+    },
+    {
+      "latent_idx": 1382,
+      "k1_auc": 0.5154419217873927
+    },
+    {
+      "latent_idx": 12794,
+      "k1_auc": 0.5153826836205964
+    },
+    {
+      "latent_idx": 4191,
+      "k1_auc": 0.5150961126598544
+    },
+    {
+      "latent_idx": 7362,
+      "k1_auc": 0.5144956300460033
+    },
+    {
+      "latent_idx": 9580,
+      "k1_auc": 0.5135700969784485
+    },
+    {
+      "latent_idx": 4181,
+      "k1_auc": 0.5134463043991173
+    },
+    {
+      "latent_idx": 5126,
+      "k1_auc": 0.513276184535497
+    },
+    {
+      "latent_idx": 10216,
+      "k1_auc": 0.512841011848646
+    },
+    {
+      "latent_idx": 9426,
+      "k1_auc": 0.5123269815166793
+    },
+    {
+      "latent_idx": 8931,
+      "k1_auc": 0.5121063573185465
+    },
+    {
+      "latent_idx": 13221,
+      "k1_auc": 0.5120385118967453
+    },
+    {
+      "latent_idx": 12502,
+      "k1_auc": 0.5114448644559859
+    },
+    {
+      "latent_idx": 1458,
+      "k1_auc": 0.510086437092611
+    },
+    {
+      "latent_idx": 2918,
+      "k1_auc": 0.5100550459273
+    },
+    {
+      "latent_idx": 4834,
+      "k1_auc": 0.5100011240062418
+    },
+    {
+      "latent_idx": 6096,
+      "k1_auc": 0.5095378511633465
+    },
+    {
+      "latent_idx": 2512,
+      "k1_auc": 0.5095289907537829
+    },
+    {
+      "latent_idx": 1306,
+      "k1_auc": 0.5085725728300351
+    },
+    {
+      "latent_idx": 13754,
+      "k1_auc": 0.5085363717281038
+    },
+    {
+      "latent_idx": 6004,
+      "k1_auc": 0.5080495555112255
+    },
+    {
+      "latent_idx": 4605,
+      "k1_auc": 0.5075278039652105
+    },
+    {
+      "latent_idx": 11724,
+      "k1_auc": 0.5075131210007909
+    },
+    {
+      "latent_idx": 13304,
+      "k1_auc": 0.5073342673048863
+    },
+    {
+      "latent_idx": 5481,
+      "k1_auc": 0.5072885729069941
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.507034405729799
+    },
+    {
+      "latent_idx": 13962,
+      "k1_auc": 0.5065422732671824
+    },
+    {
+      "latent_idx": 6531,
+      "k1_auc": 0.5064422772163936
+    },
+    {
+      "latent_idx": 1588,
+      "k1_auc": 0.5057750883762566
+    },
+    {
+      "latent_idx": 6227,
+      "k1_auc": 0.5050633443337427
+    },
+    {
+      "latent_idx": 6271,
+      "k1_auc": 0.5047613309449045
+    },
+    {
+      "latent_idx": 3225,
+      "k1_auc": 0.5045514658155273
+    },
+    {
+      "latent_idx": 8292,
+      "k1_auc": 0.5045220998866882
+    },
+    {
+      "latent_idx": 9887,
+      "k1_auc": 0.5042352757713873
+    },
+    {
+      "latent_idx": 1567,
+      "k1_auc": 0.5036645388182138
+    },
+    {
+      "latent_idx": 5104,
+      "k1_auc": 0.5035213799151222
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5035150510511484
+    },
+    {
+      "latent_idx": 2586,
+      "k1_auc": 0.5032669595833683
+    },
+    {
+      "latent_idx": 12173,
+      "k1_auc": 0.5030193744247063
+    },
+    {
+      "latent_idx": 3625,
+      "k1_auc": 0.5028395081105658
+    },
+    {
+      "latent_idx": 5108,
+      "k1_auc": 0.5027684982567778
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.5027674856385418
+    },
+    {
+      "latent_idx": 14038,
+      "k1_auc": 0.5027526760968428
+    },
+    {
+      "latent_idx": 532,
+      "k1_auc": 0.5025209130981156
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5022667459209206
+    },
+    {
+      "latent_idx": 8094,
+      "k1_auc": 0.50200422464328
+    },
+    {
+      "latent_idx": 8213,
+      "k1_auc": 0.5019500495676625
+    },
+    {
+      "latent_idx": 6018,
+      "k1_auc": 0.5013826036237556
+    },
+    {
+      "latent_idx": 526,
+      "k1_auc": 0.5009918595620021
+    },
+    {
+      "latent_idx": 13029,
+      "k1_auc": 0.5008019936427827
+    },
+    {
+      "latent_idx": 14031,
+      "k1_auc": 0.5007645267680567
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5004997270993855
+    },
+    {
+      "latent_idx": 11948,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4828,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7968,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 713,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7535,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12415,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15449,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 10239,
+      "k1_auc": 0.4999997468454411
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.4994967287367891
+    },
+    {
+      "latent_idx": 14590,
+      "k1_auc": 0.49818513496682154
+    },
+    {
+      "latent_idx": 14557,
+      "k1_auc": 0.49670620603338195
+    }
+  ]
+}

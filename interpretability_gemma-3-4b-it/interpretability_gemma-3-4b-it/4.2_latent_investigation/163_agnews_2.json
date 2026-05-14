@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "163_agnews_2",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:54:11.184942"
+  },
+  "best_latent": {
+    "latent_idx": 2084,
+    "k1_auc": 0.9180055553145179,
+    "examples": [
+      {
+        "text": "Canon, Toshiba to sell flat-panel TVs Canon Inc. and Toshiba Corp. said Tuesday they will start selling large-screen flat-panel TVs next year that boast better images and consume less power than plasma display panels and liquid crystal displays.",
+        "activation": 4757.18505859375
+      },
+      {
+        "text": "Fiat, GM to Start Mediation Over Option  MILAN (Reuters) - The heads of Fiat SpA and General Motors  Corp. will meet face to face in a last-ditch attempt to avoid  litigation over whether the Italian group still has the right  to sell its loss-mired carmaking arm to GM.",
+        "activation": 4411.0888671875
+      },
+      {
+        "text": "Cabinet hikes aviation FDI cap to 49 pc NEW DELHI: The UPA government on Wednesday hiked the foreign equity limit in domestic airlines from 40 per cent to 49 per cent, but maintained the ban on international airlines from buying equity in the Indian carriers, even indirectly.",
+        "activation": 4339.373046875
+      },
+      {
+        "text": "Oracle says its software gaining on rival SAP San Francisco, December 7: Oracle Corp on Monday said it believes its business software applications, an area that has lagged the rest of the company, are gaining ground against market leader SAP AG of Germany.",
+        "activation": 4174.830078125
+      },
+      {
+        "text": "Kenya to get delayed loan from IMF Kenya has met all economic conditions set by the International Monetary Fund (IMF) which could result in the release of a delayed loan to the east African country, a visiting IMF mission announced here Friday.",
+        "activation": 4168.47705078125
+      },
+      {
+        "text": "Dexia, Sanpaolo IMI confirm talks LONDON (CBS.MW) -- French-Belgian bank Dexia and Italy #39;s Sanpaolo IMI both confirmed a report on Thursday that they were in talks that could lead to the creation of the eurozone #39;s fourth largest bank.",
+        "activation": 4138.3544921875
+      },
+      {
+        "text": "Telcos forge 3G link THE race to get a widespread third generation mobile phone network in Australia started in earnest yesterday with Optus and Vodafone agreeing to a joint venture network.",
+        "activation": 4137.41796875
+      },
+      {
+        "text": "FCC OKs Cingular Bid for AT T Wireless (Reuters) Reuters - The U.S. Federal Communications\\Commission said on Tuesday it has conditionally approved\\Cingular Wireless'  #36;41 billion cash acquisition of AT T\\Wireless Services Inc. , clearing the last big hurdle\\for the deal.",
+        "activation": 4044.8154296875
+      },
+      {
+        "text": "Computer Associates to Fire 800, Trim Product Line (Update3) Computer Associates International Inc., the software maker operating under government oversight after an accounting scandal, will fire 800 workers, or 5 percent of its employees, as the company trims its product line.",
+        "activation": 4031.9423828125
+      },
+      {
+        "text": "Elpida makes solid market debut TOKYO (Reuters) - Nov 15, 2004 Japanese chip maker Elpida Memory Inc. made a solid market debut on Monday, with its shares trading at a 3.4 percent premium over their offer price in the morning session, despite a slowdown in chip demand.",
+        "activation": 4010.309814453125
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 2084\n\nTop activating examples (format: [activation] text):\n  [4757.185] Canon, Toshiba to sell flat-panel TVs Canon Inc. and Toshiba Corp. said Tuesday they will start selling large-screen flat-panel TVs next year that boast better images and consume less power than plasma display panels and liquid crystal displays.\n  [4411.089] Fiat, GM to Start Mediation Over Option  MILAN (Reuters) - The heads of Fiat SpA and General Motors  Corp. will meet face to face in a last-ditch attempt to avoid  litigation over whether the Italian group still has the right  to sell its loss-mired carmaking arm to GM.\n  [4339.373] Cabinet hikes aviation FDI cap to 49 pc NEW DELHI: The UPA government on Wednesday hiked the foreign equity limit in domestic airlines from 40 per cent to 49 per cent, but maintained the ban on international airlines from buying equity in the Indian carriers, even indirectly.\n  [4174.830] Oracle says its software gaining on rival SAP San Francisco, December 7: Oracle Corp on Monday said it believes its business software applications, an area that has lagged the rest of the company, are gaining ground against market leader SAP AG of Germany.\n  [4168.477] Kenya to get delayed loan from IMF Kenya has met all economic conditions set by the International Monetary Fund (IMF) which could result in the release of a delayed loan to the east African country, a visiting IMF mission announced here Friday.\n  [4138.354] Dexia, Sanpaolo IMI confirm talks LONDON (CBS.MW) -- French-Belgian bank Dexia and Italy #39;s Sanpaolo IMI both confirmed a report on Thursday that they were in talks that could lead to the creation of the eurozone #39;s fourth largest bank.\n  [4137.418] Telcos forge 3G link THE race to get a widespread third generation mobile phone network in Australia started in earnest yesterday with Optus and Vodafone agreeing to a joint venture network.\n  [4044.815] FCC OKs Cingular Bid for AT T Wireless (Reuters) Reuters - The U.S. Federal Communications\\Commission said on Tuesday it has conditionally approved\\Cingular Wireless'  #36;41 billion cash acquisition of AT T\\Wireless Services Inc. , clearing the last big hurdle\\for the deal.\n  [4031.942] Computer Associates to Fire 800, Trim Product Line (Update3) Computer Associates International Inc., the software maker operating under government oversight after an accounting scandal, will fire 800 workers, or 5 percent of its employees, as the company trims its product line.\n  [4010.310] Elpida makes solid market debut TOKYO (Reuters) - Nov 15, 2004 Japanese chip maker Elpida Memory Inc. made a solid market debut on Monday, with its shares trading at a 3.4 percent premium over their offer price in the morning session, despite a slowdown in chip demand.\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 2084,
+      "k1_auc": 0.9180055553145179
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.9087752456775929
+    },
+    {
+      "latent_idx": 9426,
+      "k1_auc": 0.9066630782191177
+    },
+    {
+      "latent_idx": 10961,
+      "k1_auc": 0.9065227491304568
+    },
+    {
+      "latent_idx": 10163,
+      "k1_auc": 0.8265744878553195
+    },
+    {
+      "latent_idx": 13320,
+      "k1_auc": 0.7890148762392346
+    },
+    {
+      "latent_idx": 7650,
+      "k1_auc": 0.777067921990585
+    },
+    {
+      "latent_idx": 7134,
+      "k1_auc": 0.7594086021505376
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.7592336992284385
+    },
+    {
+      "latent_idx": 2920,
+      "k1_auc": 0.7589105581708138
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.752339270089883
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.7484444034680492
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.7444415218633171
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.7330131751162405
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.7317188031036003
+    },
+    {
+      "latent_idx": 1143,
+      "k1_auc": 0.7287888401992899
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.7190494139170299
+    },
+    {
+      "latent_idx": 9475,
+      "k1_auc": 0.7158708809683927
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.7119389548126777
+    },
+    {
+      "latent_idx": 5556,
+      "k1_auc": 0.7098184263618024
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.7086693548387097
+    },
+    {
+      "latent_idx": 12902,
+      "k1_auc": 0.7010759919300605
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.700731157486749
+    },
+    {
+      "latent_idx": 9404,
+      "k1_auc": 0.6982996905076975
+    },
+    {
+      "latent_idx": 4353,
+      "k1_auc": 0.679562932511877
+    },
+    {
+      "latent_idx": 7497,
+      "k1_auc": 0.6785474108944183
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.675739247311828
+    },
+    {
+      "latent_idx": 1855,
+      "k1_auc": 0.6588758035591614
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.6556249593249018
+    },
+    {
+      "latent_idx": 12326,
+      "k1_auc": 0.6543168029734401
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.6535231866137348
+    },
+    {
+      "latent_idx": 7148,
+      "k1_auc": 0.643481182795699
+    },
+    {
+      "latent_idx": 6249,
+      "k1_auc": 0.6407930107526882
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.6379355851067676
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.6365969224316839
+    },
+    {
+      "latent_idx": 5954,
+      "k1_auc": 0.635752688172043
+    },
+    {
+      "latent_idx": 9781,
+      "k1_auc": 0.6307980092703068
+    },
+    {
+      "latent_idx": 230,
+      "k1_auc": 0.6271844787440976
+    },
+    {
+      "latent_idx": 9522,
+      "k1_auc": 0.6263571924420244
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.6244136006681563
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.6203013482439205
+    },
+    {
+      "latent_idx": 16076,
+      "k1_auc": 0.620085092305356
+    },
+    {
+      "latent_idx": 6800,
+      "k1_auc": 0.6190316072629456
+    },
+    {
+      "latent_idx": 5696,
+      "k1_auc": 0.6116341627437794
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.6106611240066236
+    },
+    {
+      "latent_idx": 1469,
+      "k1_auc": 0.6102891728312038
+    },
+    {
+      "latent_idx": 3564,
+      "k1_auc": 0.609752713480993
+    },
+    {
+      "latent_idx": 8504,
+      "k1_auc": 0.609280430396772
+    },
+    {
+      "latent_idx": 2232,
+      "k1_auc": 0.6073350308407632
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.606077040443702
+    },
+    {
+      "latent_idx": 485,
+      "k1_auc": 0.6059810020174848
+    },
+    {
+      "latent_idx": 13850,
+      "k1_auc": 0.6045743215393626
+    },
+    {
+      "latent_idx": 11697,
+      "k1_auc": 0.6020176656470776
+    },
+    {
+      "latent_idx": 15219,
+      "k1_auc": 0.6015467383994619
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.6008010282664815
+    },
+    {
+      "latent_idx": 11135,
+      "k1_auc": 0.6002663766984113
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5991871307604978
+    },
+    {
+      "latent_idx": 506,
+      "k1_auc": 0.5976310822830119
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5959751538422602
+    },
+    {
+      "latent_idx": 9599,
+      "k1_auc": 0.5958305312710155
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5958065781576531
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5953318093729889
+    },
+    {
+      "latent_idx": 3207,
+      "k1_auc": 0.5948217888365837
+    },
+    {
+      "latent_idx": 5841,
+      "k1_auc": 0.5882080178753498
+    },
+    {
+      "latent_idx": 7791,
+      "k1_auc": 0.5870880968392738
+    },
+    {
+      "latent_idx": 434,
+      "k1_auc": 0.5864156018829858
+    },
+    {
+      "latent_idx": 4073,
+      "k1_auc": 0.5847831746100614
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5836872066873476
+    },
+    {
+      "latent_idx": 4561,
+      "k1_auc": 0.5827168796234028
+    },
+    {
+      "latent_idx": 9581,
+      "k1_auc": 0.5804094716937472
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.5800892682821007
+    },
+    {
+      "latent_idx": 12480,
+      "k1_auc": 0.5784098386735218
+    },
+    {
+      "latent_idx": 15557,
+      "k1_auc": 0.5776731674512441
+    },
+    {
+      "latent_idx": 7631,
+      "k1_auc": 0.5766644250168124
+    },
+    {
+      "latent_idx": 3237,
+      "k1_auc": 0.5761370045773043
+    },
+    {
+      "latent_idx": 9435,
+      "k1_auc": 0.5721015828940421
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5720383105191227
+    },
+    {
+      "latent_idx": 12324,
+      "k1_auc": 0.5709482178883658
+    },
+    {
+      "latent_idx": 7220,
+      "k1_auc": 0.5708126342278239
+    },
+    {
+      "latent_idx": 15865,
+      "k1_auc": 0.5689307330195024
+    },
+    {
+      "latent_idx": 6837,
+      "k1_auc": 0.5685944855413585
+    },
+    {
+      "latent_idx": 6356,
+      "k1_auc": 0.5676729685952087
+    },
+    {
+      "latent_idx": 6977,
+      "k1_auc": 0.5655682582380632
+    },
+    {
+      "latent_idx": 15850,
+      "k1_auc": 0.5642506110303634
+    },
+    {
+      "latent_idx": 14560,
+      "k1_auc": 0.5642232683254875
+    },
+    {
+      "latent_idx": 2444,
+      "k1_auc": 0.5635507733691998
+    },
+    {
+      "latent_idx": 14510,
+      "k1_auc": 0.5628782784129118
+    },
+    {
+      "latent_idx": 6239,
+      "k1_auc": 0.5618695359784802
+    },
+    {
+      "latent_idx": 7400,
+      "k1_auc": 0.5615332885003362
+    },
+    {
+      "latent_idx": 2698,
+      "k1_auc": 0.5612765834363769
+    },
+    {
+      "latent_idx": 8338,
+      "k1_auc": 0.5612707081444201
+    },
+    {
+      "latent_idx": 1545,
+      "k1_auc": 0.56123816806589
+    },
+    {
+      "latent_idx": 12496,
+      "k1_auc": 0.5608989829417677
+    },
+    {
+      "latent_idx": 7724,
+      "k1_auc": 0.5595158036314727
+    },
+    {
+      "latent_idx": 11294,
+      "k1_auc": 0.5595158036314727
+    },
+    {
+      "latent_idx": 5523,
+      "k1_auc": 0.5585070611970411
+    },
+    {
+      "latent_idx": 6032,
+      "k1_auc": 0.5585070611970411
+    },
+    {
+      "latent_idx": 894,
+      "k1_auc": 0.558503897578295
+    },
+    {
+      "latent_idx": 1053,
+      "k1_auc": 0.5574983187626092
+    },
+    {
+      "latent_idx": 9647,
+      "k1_auc": 0.5567876344086021
+    },
+    {
+      "latent_idx": 6234,
+      "k1_auc": 0.5564895763281775
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.5561994272946179
+    },
+    {
+      "latent_idx": 4874,
+      "k1_auc": 0.5558170813718897
+    },
+    {
+      "latent_idx": 8709,
+      "k1_auc": 0.5556428563680933
+    },
+    {
+      "latent_idx": 6098,
+      "k1_auc": 0.5525251100939323
+    },
+    {
+      "latent_idx": 12732,
+      "k1_auc": 0.5524835311046994
+    },
+    {
+      "latent_idx": 200,
+      "k1_auc": 0.5504371217215871
+    },
+    {
+      "latent_idx": 3150,
+      "k1_auc": 0.5491513366741148
+    },
+    {
+      "latent_idx": 12748,
+      "k1_auc": 0.5491255757786118
+    },
+    {
+      "latent_idx": 9216,
+      "k1_auc": 0.5487854867634192
+    },
+    {
+      "latent_idx": 7778,
+      "k1_auc": 0.548443589966086
+    },
+    {
+      "latent_idx": 10939,
+      "k1_auc": 0.5480833893745797
+    },
+    {
+      "latent_idx": 4064,
+      "k1_auc": 0.5477774222472901
+    },
+    {
+      "latent_idx": 9967,
+      "k1_auc": 0.5464021519838601
+    },
+    {
+      "latent_idx": 11377,
+      "k1_auc": 0.5443846671149966
+    },
+    {
+      "latent_idx": 12092,
+      "k1_auc": 0.5440484196368527
+    },
+    {
+      "latent_idx": 8071,
+      "k1_auc": 0.5437121721587088
+    },
+    {
+      "latent_idx": 3524,
+      "k1_auc": 0.543375924680565
+    },
+    {
+      "latent_idx": 16322,
+      "k1_auc": 0.543039677202421
+    },
+    {
+      "latent_idx": 5642,
+      "k1_auc": 0.5420596333094706
+    },
+    {
+      "latent_idx": 16181,
+      "k1_auc": 0.5410221923335574
+    },
+    {
+      "latent_idx": 7313,
+      "k1_auc": 0.5393866014418871
+    },
+    {
+      "latent_idx": 3888,
+      "k1_auc": 0.5374674147269164
+    },
+    {
+      "latent_idx": 6852,
+      "k1_auc": 0.5333063521848855
+    },
+    {
+      "latent_idx": 8224,
+      "k1_auc": 0.5319435104236718
+    },
+    {
+      "latent_idx": 3609,
+      "k1_auc": 0.5289371687239228
+    },
+    {
+      "latent_idx": 15067,
+      "k1_auc": 0.5266198179924941
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5
+    }
+  ]
+}

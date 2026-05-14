@@ -1,0 +1,463 @@
+{
+  "metadata": {
+    "dataset": "90_glue_qnli",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.1",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:31:28.227078"
+  },
+  "task_description": "Classify whether a sentence entails the answer to a given question (QNLI).",
+  "ood_transform": "Sentences are from the GLUE-X OOD split (harder distribution).",
+  "latents": [
+    {
+      "latent_idx": 4160,
+      "rank_by_diff": 0,
+      "k1_auc_id": 0.5893058776855469,
+      "k1_auc_ood": 0.51,
+      "examples": [
+        {
+          "text": "How many people were on the U.S. fact-finding team? | It wrote in a report to the State Department that it found \"no evidence that UNFPA has supported or participated in the management of a program of coercive abortion or involuntary sterilization in China,\" as has been charged by critics.",
+          "activation": 3714.75927734375
+        },
+        {
+          "text": "Predator and prey relationships that improve fitness for both species are classified as this type of relationship. | Their feeding behavior is similar in many ways, however they are noted for their close association with their host species.",
+          "activation": 3300.904296875
+        },
+        {
+          "text": "Which PC magazine praised the iPod for having \"altered the landscape for portable audio players\"? | Several industries are modifying their products to work better with both the iPod line and the AAC audio format.",
+          "activation": 3229.89990234375
+        },
+        {
+          "text": "Who issued the copper tokens in 1821? | The coin remains readily available to collectors.",
+          "activation": 3223.37890625
+        },
+        {
+          "text": "What caused high unemployment on the island? | King George VI is the only reigning monarch to have visited the island.",
+          "activation": 3148.024658203125
+        },
+        {
+          "text": "How many Chinese troops were involved in the rescue efforts? | The United States shared some of its satellite images of the quake-stricken areas with Chinese authorities.",
+          "activation": 3055.97900390625
+        },
+        {
+          "text": "He had a non-direct association with what? | His works remain popular, and he has been the subject of numerous films and biographies of varying degrees of historical accuracy.",
+          "activation": 2871.94189453125
+        },
+        {
+          "text": "Konrad Zuse was an engineer with what nationality? | These devices had a low operating speed and were eventually superseded by much faster all-electric computers, originally using vacuum tubes.",
+          "activation": 2870.18603515625
+        },
+        {
+          "text": "What structure was referred to as a \"Palmerston's Folly\"? | It is owned by the Landmark Trust and is open to the public.",
+          "activation": 2850.242919921875
+        },
+        {
+          "text": "How many times higher is the suicide rate amongst LGBT adolescents than their heterosexual peers? | Peer pressure is a large factor when youth who are questioning their sexuality or gender identity are surrounded by heteronormative peers and can cause great distress due to a feeling of being different from everyone else.",
+          "activation": 2822.4462890625
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 4160\n\nTop activating examples (format: [activation] text):\n  [3714.759] How many people were on the U.S. fact-finding team? | It wrote in a report to the State Department that it found \"no evidence that UNFPA has supported or participated in the management of a program of coercive abortion or involuntary sterilization in China,\" as has been charged by critics.\n  [3300.904] Predator and prey relationships that improve fitness for both species are classified as this type of relationship. | Their feeding behavior is similar in many ways, however they are noted for their close association with their host species.\n  [3229.900] Which PC magazine praised the iPod for having \"altered the landscape for portable audio players\"? | Several industries are modifying their products to work better with both the iPod line and the AAC audio format.\n  [3223.379] Who issued the copper tokens in 1821? | The coin remains readily available to collectors.\n  [3148.025] What caused high unemployment on the island? | King George VI is the only reigning monarch to have visited the island.\n  [3055.979] How many Chinese troops were involved in the rescue efforts? | The United States shared some of its satellite images of the quake-stricken areas with Chinese authorities.\n  [2871.942] He had a non-direct association with what? | His works remain popular, and he has been the subject of numerous films and biographies of varying degrees of historical accuracy.\n  [2870.186] Konrad Zuse was an engineer with what nationality? | These devices had a low operating speed and were eventually superseded by much faster all-electric computers, originally using vacuum tubes.\n  [2850.243] What structure was referred to as a \"Palmerston's Folly\"? | It is owned by the Landmark Trust and is open to the public.\n  [2822.446] How many times higher is the suicide rate amongst LGBT adolescents than their heterosexual peers? | Peer pressure is a large factor when youth who are questioning their sexuality or gender identity are surrounded by heteronormative peers and can cause great distress due to a feeling of being differe\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 14557,
+      "rank_by_diff": 1,
+      "k1_auc_id": 0.5886592864990234,
+      "k1_auc_ood": 0.48013333333333336,
+      "examples": [
+        {
+          "text": "Which city was Hanover connected to by the Leine? | Hanover was founded in medieval times on the east bank of the River Leine.",
+          "activation": 3574.05419921875
+        },
+        {
+          "text": "Along with Sakhalin Island, what islands were occupied by the Soviets after the Second World War? | At the end of World War II Soviet troops occupied southern Sakhalin Island and the Kuril Islands, making them part of the RSFSR.",
+          "activation": 3573.16748046875
+        },
+        {
+          "text": "In which year was Detroit recaptured? | The Battle of Frenchtown (January 18\u201323, 1813) was part of a United States effort to retake the city, and American troops suffered their highest fatalities of any battle in the war.",
+          "activation": 3507.76318359375
+        },
+        {
+          "text": "At that time, who helped develop materialism? | In Ancient Indian philosophy, materialism developed around 600 BC with the works of Ajita Kesakambali, Payasi, Kanada, and the proponents of the C\u0101rv\u0101ka school of philosophy.",
+          "activation": 3493.06689453125
+        },
+        {
+          "text": "What year was Cyprus granted independence? | Following nationalist violence in the 1950s, Cyprus was granted independence in 1960.",
+          "activation": 3466.14013671875
+        },
+        {
+          "text": "What is the largest ethnic group in liberia? | The Kpelle comprise more than 20% of the population and are the largest ethnic group in Liberia, residing mostly in Bong County and adjacent areas in central Liberia.",
+          "activation": 3452.243896484375
+        },
+        {
+          "text": "When did the Classical learning revival begin? | In Renaissance Europe, from about 1400 onwards, there was a revival of Classical learning accompanied by the development of Renaissance Humanism which placed greater emphasis on the role of the individual in society than had been the case during the Medieval period.",
+          "activation": 3447.72314453125
+        },
+        {
+          "text": "What was Pangaea's southern continent called? | Pangaea gradually split into a northern continent, Laurasia, and a southern continent, Gondwana.",
+          "activation": 3446.881591796875
+        },
+        {
+          "text": "What is the judiciary organ of the United Nations? | The United Nations Charter states that treaties must be registered with the UN to be invoked before it or enforced in its judiciary organ, the International Court of Justice.",
+          "activation": 3423.44970703125
+        },
+        {
+          "text": "What was the name of the Grain Intendant? | To protect crops from wind and drought, the Grain Intendant Zhao Guo (\u8d99\u904e) created the alternating fields system (daitianfa \u4ee3\u7530\u6cd5) during Emperor Wu's reign.",
+          "activation": 3374.9853515625
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 14557\n\nTop activating examples (format: [activation] text):\n  [3574.054] Which city was Hanover connected to by the Leine? | Hanover was founded in medieval times on the east bank of the River Leine.\n  [3573.167] Along with Sakhalin Island, what islands were occupied by the Soviets after the Second World War? | At the end of World War II Soviet troops occupied southern Sakhalin Island and the Kuril Islands, making them part of the RSFSR.\n  [3507.763] In which year was Detroit recaptured? | The Battle of Frenchtown (January 18\u201323, 1813) was part of a United States effort to retake the city, and American troops suffered their highest fatalities of any battle in the war.\n  [3493.067] At that time, who helped develop materialism? | In Ancient Indian philosophy, materialism developed around 600 BC with the works of Ajita Kesakambali, Payasi, Kanada, and the proponents of the C\u0101rv\u0101ka school of philosophy.\n  [3466.140] What year was Cyprus granted independence? | Following nationalist violence in the 1950s, Cyprus was granted independence in 1960.\n  [3452.244] What is the largest ethnic group in liberia? | The Kpelle comprise more than 20% of the population and are the largest ethnic group in Liberia, residing mostly in Bong County and adjacent areas in central Liberia.\n  [3447.723] When did the Classical learning revival begin? | In Renaissance Europe, from about 1400 onwards, there was a revival of Classical learning accompanied by the development of Renaissance Humanism which placed greater emphasis on the role of the individual in society than had been the case during the M\n  [3446.882] What was Pangaea's southern continent called? | Pangaea gradually split into a northern continent, Laurasia, and a southern continent, Gondwana.\n  [3423.450] What is the judiciary organ of the United Nations? | The United Nations Charter states that treaties must be registered with the UN to be invoked before it or enforced in its judiciary organ, the International Court of Justice.\n  [3374.985] What was the name of the Grain Intendant? | To protect crops from wind and drought, the Grain Intendant Zhao Guo (\u8d99\u904e) created the alternating fields system (daitianfa \u4ee3\u7530\u6cd5) during Emperor Wu's reign.\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 13463,
+      "rank_by_diff": 2,
+      "k1_auc_id": 0.5732078552246094,
+      "k1_auc_ood": 0.5066666666666667,
+      "examples": [
+        {
+          "text": "How many people were on the U.S. fact-finding team? | It wrote in a report to the State Department that it found \"no evidence that UNFPA has supported or participated in the management of a program of coercive abortion or involuntary sterilization in China,\" as has been charged by critics.",
+          "activation": 2676.72802734375
+        },
+        {
+          "text": "He had a non-direct association with what? | His works remain popular, and he has been the subject of numerous films and biographies of varying degrees of historical accuracy.",
+          "activation": 2676.623046875
+        },
+        {
+          "text": "Predator and prey relationships that improve fitness for both species are classified as this type of relationship. | Their feeding behavior is similar in many ways, however they are noted for their close association with their host species.",
+          "activation": 2663.313720703125
+        },
+        {
+          "text": "Konrad Zuse was an engineer with what nationality? | These devices had a low operating speed and were eventually superseded by much faster all-electric computers, originally using vacuum tubes.",
+          "activation": 2583.9033203125
+        },
+        {
+          "text": "Which PC magazine praised the iPod for having \"altered the landscape for portable audio players\"? | Several industries are modifying their products to work better with both the iPod line and the AAC audio format.",
+          "activation": 2395.71923828125
+        },
+        {
+          "text": "What locations saw an increase in populations? | The lack of bombing in the Phoney War contributed significantly to the return of people to the cities, but class conflict was not eased a year later when evacuation operations had to be put into effect again.",
+          "activation": 2255.16552734375
+        },
+        {
+          "text": "What plant associated with kissing during the holidays is also parasitic? | While a grazing species such as an elephant may travel many kilometers in a single day, grazing on many plants in the process, parasites form very close associations with their hosts, usually having only one or at most a few in their lifetime.",
+          "activation": 2245.434814453125
+        },
+        {
+          "text": "What plant associated with kissing during the holidays is also parasitic? | While a grazing species such as an elephant may travel many kilometers in a single day, grazing on many plants in the process, parasites form very close associations with their hosts, usually having only one or at most a few in their lifetime.",
+          "activation": 2245.434814453125
+        },
+        {
+          "text": "What was later realized that caused naturalistic mechanisms such as neo-Lamarckism to be embraced? | In America, Asa Gray argued that evolution is the secondary effect, or modus operandi, of the first cause, design, and published a pamphlet defending the book in terms of theistic evolution, Natural Selection is not inconsistent with Natural Theology.",
+          "activation": 2193.26953125
+        },
+        {
+          "text": "How many Chinese troops were involved in the rescue efforts? | The United States shared some of its satellite images of the quake-stricken areas with Chinese authorities.",
+          "activation": 2190.280517578125
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 13463\n\nTop activating examples (format: [activation] text):\n  [2676.728] How many people were on the U.S. fact-finding team? | It wrote in a report to the State Department that it found \"no evidence that UNFPA has supported or participated in the management of a program of coercive abortion or involuntary sterilization in China,\" as has been charged by critics.\n  [2676.623] He had a non-direct association with what? | His works remain popular, and he has been the subject of numerous films and biographies of varying degrees of historical accuracy.\n  [2663.314] Predator and prey relationships that improve fitness for both species are classified as this type of relationship. | Their feeding behavior is similar in many ways, however they are noted for their close association with their host species.\n  [2583.903] Konrad Zuse was an engineer with what nationality? | These devices had a low operating speed and were eventually superseded by much faster all-electric computers, originally using vacuum tubes.\n  [2395.719] Which PC magazine praised the iPod for having \"altered the landscape for portable audio players\"? | Several industries are modifying their products to work better with both the iPod line and the AAC audio format.\n  [2255.166] What locations saw an increase in populations? | The lack of bombing in the Phoney War contributed significantly to the return of people to the cities, but class conflict was not eased a year later when evacuation operations had to be put into effect again.\n  [2245.435] What plant associated with kissing during the holidays is also parasitic? | While a grazing species such as an elephant may travel many kilometers in a single day, grazing on many plants in the process, parasites form very close associations with their hosts, usually having only one or at most a few\n  [2245.435] What plant associated with kissing during the holidays is also parasitic? | While a grazing species such as an elephant may travel many kilometers in a single day, grazing on many plants in the process, parasites form very close associations with their hosts, usually having only one or at most a few\n  [2193.270] What was later realized that caused naturalistic mechanisms such as neo-Lamarckism to be embraced? | In America, Asa Gray argued that evolution is the secondary effect, or modus operandi, of the first cause, design, and published a pamphlet defending the book in terms of theistic evolution, Natural\n  [2190.281] How many Chinese troops were involved in the rescue efforts? | The United States shared some of its satellite images of the quake-stricken areas with Chinese authorities.\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 14864,
+      "rank_by_diff": 3,
+      "k1_auc_id": 0.5587997436523438,
+      "k1_auc_ood": 0.4487555555555556,
+      "examples": [
+        {
+          "text": "What is the name of a location in Spectre which draws its inspiration from an Ian Fleming short story? | Bond's torture by Blofeld mirrors his torture by the title character of Kingsley Amis' continuation novel Colonel Sun.[citation needed]",
+          "activation": 3359.018310546875
+        },
+        {
+          "text": "Who began moderating the use of Hanja? | However, it is also said that the authorities implore students not to use the characters in public.",
+          "activation": 3249.6708984375
+        },
+        {
+          "text": "What romantic drama might be used in a story? | Celebrities would also be involved in storylines.",
+          "activation": 3090.544677734375
+        },
+        {
+          "text": "What does the Opening of the Triodion derive from? | One of the season's high points is Tsiknopempti, when celebrants enjoy roast beef dinners; the ritual is repeated the following Sunday.",
+          "activation": 2888.505615234375
+        },
+        {
+          "text": "What kind of final devoicing does the language have? | Also, Catalan has final obstruent devoicing, thus featuring many couplets like amic \"(male friend\") vs. amiga (\"female friend\").",
+          "activation": 2808.205810546875
+        },
+        {
+          "text": "What science displicine did Feyman encourage his sister to study? | Their mother thought that women did not have the cranial capacity to comprehend such things.",
+          "activation": 2765.218505859375
+        },
+        {
+          "text": "How was support for members of the public given? | Work is being done under this action plan, including publishing awareness-raising articles in local newspapers, providing support for members of the public with human rights queries, and extending several UN Conventions on human rights to St. Helena.",
+          "activation": 2588.402587890625
+        },
+        {
+          "text": "What type of connector was originally required to upload songs or recharge the iPod? | The battery could also be charged with a power adapter that was included with the first four generations.",
+          "activation": 2533.63134765625
+        },
+        {
+          "text": "Who are a few wrestlers who have had memoirs written about them? | Bloodstained Memoirs explored the careers of several pro wrestlers, including Chris Jericho, Rob Van Dam and Roddy Piper.",
+          "activation": 2508.318359375
+        },
+        {
+          "text": "Which PC magazine praised the iPod for having \"altered the landscape for portable audio players\"? | Several industries are modifying their products to work better with both the iPod line and the AAC audio format.",
+          "activation": 2397.80322265625
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 14864\n\nTop activating examples (format: [activation] text):\n  [3359.018] What is the name of a location in Spectre which draws its inspiration from an Ian Fleming short story? | Bond's torture by Blofeld mirrors his torture by the title character of Kingsley Amis' continuation novel Colonel Sun.[citation needed]\n  [3249.671] Who began moderating the use of Hanja? | However, it is also said that the authorities implore students not to use the characters in public.\n  [3090.545] What romantic drama might be used in a story? | Celebrities would also be involved in storylines.\n  [2888.506] What does the Opening of the Triodion derive from? | One of the season's high points is Tsiknopempti, when celebrants enjoy roast beef dinners; the ritual is repeated the following Sunday.\n  [2808.206] What kind of final devoicing does the language have? | Also, Catalan has final obstruent devoicing, thus featuring many couplets like amic \"(male friend\") vs. amiga (\"female friend\").\n  [2765.219] What science displicine did Feyman encourage his sister to study? | Their mother thought that women did not have the cranial capacity to comprehend such things.\n  [2588.403] How was support for members of the public given? | Work is being done under this action plan, including publishing awareness-raising articles in local newspapers, providing support for members of the public with human rights queries, and extending several UN Conventions on human rights to St. Helena\n  [2533.631] What type of connector was originally required to upload songs or recharge the iPod? | The battery could also be charged with a power adapter that was included with the first four generations.\n  [2508.318] Who are a few wrestlers who have had memoirs written about them? | Bloodstained Memoirs explored the careers of several pro wrestlers, including Chris Jericho, Rob Van Dam and Roddy Piper.\n  [2397.803] Which PC magazine praised the iPod for having \"altered the landscape for portable audio players\"? | Several industries are modifying their products to work better with both the iPod line and the AAC audio format.\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 3349,
+      "rank_by_diff": 4,
+      "k1_auc_id": 0.5804023742675781,
+      "k1_auc_ood": 0.5,
+      "examples": [
+        {
+          "text": "What organization did Eisenhower support after the Soviets launched the first artificial satellite? | After the Soviet Union launched the world's first artificial satellite in 1957, Eisenhower authorized the establishment of NASA, which led to the space race.",
+          "activation": 1862.4281005859375
+        },
+        {
+          "text": "Along with the Mongolian People's Republic and the People's Republic of China, what country did the RSFSR border to its southeast? | The international borders of the RSFSR touched Poland on the west; Norway and Finland on the northwest; and to its southeast were the Democratic People's Republic of Korea, Mongolian People's Republic, and the People's Republic of China.",
+          "activation": 1771.816162109375
+        },
+        {
+          "text": "What annual sporting competition features the Wanamaker Mile? | The Millrose Games is an annual track and field meet whose featured event is the Wanamaker Mile.",
+          "activation": 1626.596923828125
+        },
+        {
+          "text": "What can the lower lands, suffering from inversion, sometimes lack for weeks? | The less humid winters in the mountains may see long intervals of stable conditions for weeks, while the lower lands tend to suffer from inversion, during these periods, thus seeing no sun for weeks.",
+          "activation": 1613.7493896484375
+        },
+        {
+          "text": "In what year did Dominic order his followers into an institutional life? | In July 1215, with the approbation of Bishop Foulques of Toulouse, Dominic ordered his followers into an institutional life.",
+          "activation": 1502.110107421875
+        },
+        {
+          "text": "In what year had the Passion of Christ murals by Rothko end up ruined? | Within five years the deep pinks and reds had begun to turn light blue, and by 1979 the paintings were ruined and had to be taken down.",
+          "activation": 1402.439697265625
+        },
+        {
+          "text": "Besides online gaming and media distribution, what other feature made the 360 influential, according to TechRadar? | TechRadar deemed the Xbox 360 as the most influential game system through its emphasis of digital media distribution, Xbox Live online gaming service, and game achievement feature.",
+          "activation": 1277.7496337890625
+        },
+        {
+          "text": "What is the term for the stretch of history during which people rmember and practice the teachings of the earliest known buddha? | A Buddha era is the stretch of history during which people remember and practice the teachings of the earliest known Buddha.",
+          "activation": 1275.469970703125
+        },
+        {
+          "text": "What is one large determining factor in normative adolescent behavior? | The extent to which an adolescent is expected to share family responsibilities is one large determining factor in normative adolescent behavior.",
+          "activation": 1226.6553955078125
+        },
+        {
+          "text": "Where did Bell's uncle live? | His family was long associated with the teaching of elocution: his grandfather, Alexander Bell, in London, his uncle in Dublin, and his father, in Edinburgh, were all elocutionists.",
+          "activation": 1222.5069580078125
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 3349\n\nTop activating examples (format: [activation] text):\n  [1862.428] What organization did Eisenhower support after the Soviets launched the first artificial satellite? | After the Soviet Union launched the world's first artificial satellite in 1957, Eisenhower authorized the establishment of NASA, which led to the space race.\n  [1771.816] Along with the Mongolian People's Republic and the People's Republic of China, what country did the RSFSR border to its southeast? | The international borders of the RSFSR touched Poland on the west; Norway and Finland on the northwest; and to its southeast were the Democratic People's Republic of K\n  [1626.597] What annual sporting competition features the Wanamaker Mile? | The Millrose Games is an annual track and field meet whose featured event is the Wanamaker Mile.\n  [1613.749] What can the lower lands, suffering from inversion, sometimes lack for weeks? | The less humid winters in the mountains may see long intervals of stable conditions for weeks, while the lower lands tend to suffer from inversion, during these periods, thus seeing no sun for weeks.\n  [1502.110] In what year did Dominic order his followers into an institutional life? | In July 1215, with the approbation of Bishop Foulques of Toulouse, Dominic ordered his followers into an institutional life.\n  [1402.440] In what year had the Passion of Christ murals by Rothko end up ruined? | Within five years the deep pinks and reds had begun to turn light blue, and by 1979 the paintings were ruined and had to be taken down.\n  [1277.750] Besides online gaming and media distribution, what other feature made the 360 influential, according to TechRadar? | TechRadar deemed the Xbox 360 as the most influential game system through its emphasis of digital media distribution, Xbox Live online gaming service, and game achievement feature.\n  [1275.470] What is the term for the stretch of history during which people rmember and practice the teachings of the earliest known buddha? | A Buddha era is the stretch of history during which people remember and practice the teachings of the earliest known Buddha.\n  [1226.655] What is one large determining factor in normative adolescent behavior? | The extent to which an adolescent is expected to share family responsibilities is one large determining factor in normative adolescent behavior.\n  [1222.507] Where did Bell's uncle live? | His family was long associated with the teaching of elocution: his grandfather, Alexander Bell, in London, his uncle in Dublin, and his father, in Edinburgh, were all elocutionists.\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 15967,
+      "rank_by_diff": 5,
+      "k1_auc_id": 0.55560302734375,
+      "k1_auc_ood": 0.4567777777777777,
+      "examples": [
+        {
+          "text": "Who began moderating the use of Hanja? | However, it is also said that the authorities implore students not to use the characters in public.",
+          "activation": 2954.540283203125
+        },
+        {
+          "text": "What is the name of a location in Spectre which draws its inspiration from an Ian Fleming short story? | Bond's torture by Blofeld mirrors his torture by the title character of Kingsley Amis' continuation novel Colonel Sun.[citation needed]",
+          "activation": 2909.15966796875
+        },
+        {
+          "text": "What romantic drama might be used in a story? | Celebrities would also be involved in storylines.",
+          "activation": 2883.35595703125
+        },
+        {
+          "text": "What does the Opening of the Triodion derive from? | One of the season's high points is Tsiknopempti, when celebrants enjoy roast beef dinners; the ritual is repeated the following Sunday.",
+          "activation": 2715.528564453125
+        },
+        {
+          "text": "What type of connector was originally required to upload songs or recharge the iPod? | The battery could also be charged with a power adapter that was included with the first four generations.",
+          "activation": 2580.56640625
+        },
+        {
+          "text": "What kind of final devoicing does the language have? | Also, Catalan has final obstruent devoicing, thus featuring many couplets like amic \"(male friend\") vs. amiga (\"female friend\").",
+          "activation": 2526.4013671875
+        },
+        {
+          "text": "How was support for members of the public given? | Work is being done under this action plan, including publishing awareness-raising articles in local newspapers, providing support for members of the public with human rights queries, and extending several UN Conventions on human rights to St. Helena.",
+          "activation": 2463.638671875
+        },
+        {
+          "text": "What science displicine did Feyman encourage his sister to study? | Their mother thought that women did not have the cranial capacity to comprehend such things.",
+          "activation": 2431.85791015625
+        },
+        {
+          "text": "Who are a few wrestlers who have had memoirs written about them? | Bloodstained Memoirs explored the careers of several pro wrestlers, including Chris Jericho, Rob Van Dam and Roddy Piper.",
+          "activation": 2377.27001953125
+        },
+        {
+          "text": "Under which king did the Royal Family regain the freehold title of the property? | He did not, however, obtain the freehold interest in the mulberry garden.",
+          "activation": 2244.801513671875
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 15967\n\nTop activating examples (format: [activation] text):\n  [2954.540] Who began moderating the use of Hanja? | However, it is also said that the authorities implore students not to use the characters in public.\n  [2909.160] What is the name of a location in Spectre which draws its inspiration from an Ian Fleming short story? | Bond's torture by Blofeld mirrors his torture by the title character of Kingsley Amis' continuation novel Colonel Sun.[citation needed]\n  [2883.356] What romantic drama might be used in a story? | Celebrities would also be involved in storylines.\n  [2715.529] What does the Opening of the Triodion derive from? | One of the season's high points is Tsiknopempti, when celebrants enjoy roast beef dinners; the ritual is repeated the following Sunday.\n  [2580.566] What type of connector was originally required to upload songs or recharge the iPod? | The battery could also be charged with a power adapter that was included with the first four generations.\n  [2526.401] What kind of final devoicing does the language have? | Also, Catalan has final obstruent devoicing, thus featuring many couplets like amic \"(male friend\") vs. amiga (\"female friend\").\n  [2463.639] How was support for members of the public given? | Work is being done under this action plan, including publishing awareness-raising articles in local newspapers, providing support for members of the public with human rights queries, and extending several UN Conventions on human rights to St. Helena\n  [2431.858] What science displicine did Feyman encourage his sister to study? | Their mother thought that women did not have the cranial capacity to comprehend such things.\n  [2377.270] Who are a few wrestlers who have had memoirs written about them? | Bloodstained Memoirs explored the careers of several pro wrestlers, including Chris Jericho, Rob Van Dam and Roddy Piper.\n  [2244.802] Under which king did the Royal Family regain the freehold title of the property? | He did not, however, obtain the freehold interest in the mulberry garden.\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 4353,
+      "rank_by_diff": 6,
+      "k1_auc_id": 0.6004524230957031,
+      "k1_auc_ood": 0.4817333333333333,
+      "examples": [
+        {
+          "text": "When did the Austrian filming of Spectre finish? | Filming started in Austria in December 2014, with production taking in the area around S\u00f6lden\u2014including the \u00d6tztal Glacier Road, Rettenbach glacier and the adjacent ski resort and cable car station\u2014and Obertilliach and Lake Altaussee, before concluding in February 2015.",
+          "activation": 1026.928466796875
+        },
+        {
+          "text": "Who gave Camillo di Cavour the orders to send soldiers to aid the French and British forces? | Camillo di Cavour, under orders of Victor Emmanuel II of Piedmont-Sardinia, sent an expeditionary corps of 15,000 soldiers, commanded by General Alfonso La Marmora, to side with French and British forces during the war.:111\u201312 This was an attempt at gaining the favour of the French, especially when the issue of uniting Italy would become an important matter.",
+          "activation": 915.3447265625
+        },
+        {
+          "text": "How many Catholic churches were in the Boston area in 2010? | As of 2010 the Catholic Church had the highest number of adherents as a single denomination in the Boston-Cambridge-Newton Metro area, with more than two million members and 339 churches, followed by the Episcopal Church with 58,000 adherents in 160 churches.",
+          "activation": 897.7572631835938
+        },
+        {
+          "text": "On what day did Gorbachev give up the presidency of the Soviet Union? | On December 25\u2014just hours after Gorbachev resigned as president of the Soviet Union\u2014the Russian SFSR was renamed the Russian Federation (Russia), reflecting that it was now a sovereign state with Yeltsin assuming the Presidency.",
+          "activation": 884.40087890625
+        },
+        {
+          "text": "How many bearers of the torch were used in India? | India: Due to concerns about pro-Tibet protests, the relay through New Delhi on April 17 was cut to just 2.3 km (less than 1.5 miles), which was shared amongst 70 runners.",
+          "activation": 879.629150390625
+        },
+        {
+          "text": "How much money does the New York film and television industry create every year? | As of 2012, New York City was the second largest center for filmmaking and television production in the United States, producing about 200 feature films annually, employing 130,000 individuals, and generating an estimated $7.1 billion in direct expenditures, and by volume, New York is the world leader in independent film production; one-third of all American independent films are produced in New York City.",
+          "activation": 863.6192016601562
+        },
+        {
+          "text": "Who was elected Prime Minister in 1999? | Ehud Barak, elected Prime Minister in 1999, began the new millennium by withdrawing forces from Southern Lebanon and conducting negotiations with Palestinian Authority Chairman Yasser Arafat and U.S. President Bill Clinton at the 2000 Camp David Summit.",
+          "activation": 863.4978637695312
+        },
+        {
+          "text": "During what period were the Little Tough Guys films produced? | The studio fostered many series: The Dead End Kids and Little Tough Guys action features and serials (1938\u201343); the comic adventures of infant Baby Sandy (1938\u201341); comedies with Hugh Herbert (1938\u201342) and The Ritz Brothers (1940\u201343); musicals with Robert Paige, Jane Frazee, The Andrews Sisters, and The Merry Macs (1938\u201345); and westerns with Tom Mix (1932\u201333), Buck Jones (1933\u201336), Bob Baker (1938\u201339), Johnny Mack Brown (1938\u201343); Rod Cameron (1944\u201345), and Kirby Grant (1946\u201347).",
+          "activation": 818.8265380859375
+        },
+        {
+          "text": "What percentage of Hyderabad city was covered by roads in 2012? | The large number of vehicles coupled with relatively low road coverage\u2014roads occupy only 9.5% of the total city area:79\u2014has led to widespread traffic congestion especially since 80% of passengers and 60% of freight are transported by road.:3 The Inner Ring Road, the Outer Ring Road, the Hyderabad Elevated Expressway, the longest flyover in India, and various interchanges, overpasses and underpasses were built to ease the congestion.",
+          "activation": 799.3416137695312
+        },
+        {
+          "text": "When were the immigration protocols relaxed in Norfolk Island? | In 2012, immigration controls were relaxed with the introduction of an Unrestricted Entry Permit for all Australian and New Zealand citizens upon arrival and the option to apply for residency; the only criteria are to pass a police check and be able to pay into the local health scheme.",
+          "activation": 783.685302734375
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 4353\n\nTop activating examples (format: [activation] text):\n  [1026.928] When did the Austrian filming of Spectre finish? | Filming started in Austria in December 2014, with production taking in the area around S\u00f6lden\u2014including the \u00d6tztal Glacier Road, Rettenbach glacier and the adjacent ski resort and cable car station\u2014and Obertilliach and Lake Altaussee, before conclud\n  [915.345] Who gave Camillo di Cavour the orders to send soldiers to aid the French and British forces? | Camillo di Cavour, under orders of Victor Emmanuel II of Piedmont-Sardinia, sent an expeditionary corps of 15,000 soldiers, commanded by General Alfonso La Marmora, to side with French and British forces d\n  [897.757] How many Catholic churches were in the Boston area in 2010? | As of 2010 the Catholic Church had the highest number of adherents as a single denomination in the Boston-Cambridge-Newton Metro area, with more than two million members and 339 churches, followed by the Episcopal Church with 58,000 adher\n  [884.401] On what day did Gorbachev give up the presidency of the Soviet Union? | On December 25\u2014just hours after Gorbachev resigned as president of the Soviet Union\u2014the Russian SFSR was renamed the Russian Federation (Russia), reflecting that it was now a sovereign state with Yeltsin assuming the Presidency.\n  [879.629] How many bearers of the torch were used in India? | India: Due to concerns about pro-Tibet protests, the relay through New Delhi on April 17 was cut to just 2.3 km (less than 1.5 miles), which was shared amongst 70 runners.\n  [863.619] How much money does the New York film and television industry create every year? | As of 2012, New York City was the second largest center for filmmaking and television production in the United States, producing about 200 feature films annually, employing 130,000 individuals, and generating an estim\n  [863.498] Who was elected Prime Minister in 1999? | Ehud Barak, elected Prime Minister in 1999, began the new millennium by withdrawing forces from Southern Lebanon and conducting negotiations with Palestinian Authority Chairman Yasser Arafat and U.S. President Bill Clinton at the 2000 Camp David Summit.\n  [818.827] During what period were the Little Tough Guys films produced? | The studio fostered many series: The Dead End Kids and Little Tough Guys action features and serials (1938\u201343); the comic adventures of infant Baby Sandy (1938\u201341); comedies with Hugh Herbert (1938\u201342) and The Ritz Brothers (1940\u201343); m\n  [799.342] What percentage of Hyderabad city was covered by roads in 2012? | The large number of vehicles coupled with relatively low road coverage\u2014roads occupy only 9.5% of the total city area:79\u2014has led to widespread traffic congestion especially since 80% of passengers and 60% of freight are transported by\n  [783.685] When were the immigration protocols relaxed in Norfolk Island? | In 2012, immigration controls were relaxed with the introduction of an Unrestricted Entry Permit for all Australian and New Zealand citizens upon arrival and the option to apply for residency; the only criteria are to pass a police che\n\nDescription:"
+      },
+      "description": null
+    },
+    {
+      "latent_idx": 238,
+      "rank_by_diff": 7,
+      "k1_auc_id": 0.5413627624511719,
+      "k1_auc_ood": 0.4528,
+      "examples": [
+        {
+          "text": "What is the name of a location in Spectre which draws its inspiration from an Ian Fleming short story? | Bond's torture by Blofeld mirrors his torture by the title character of Kingsley Amis' continuation novel Colonel Sun.[citation needed]",
+          "activation": 3339.3505859375
+        },
+        {
+          "text": "What does the Opening of the Triodion derive from? | One of the season's high points is Tsiknopempti, when celebrants enjoy roast beef dinners; the ritual is repeated the following Sunday.",
+          "activation": 3000.9326171875
+        },
+        {
+          "text": "Who began moderating the use of Hanja? | However, it is also said that the authorities implore students not to use the characters in public.",
+          "activation": 2947.135498046875
+        },
+        {
+          "text": "What romantic drama might be used in a story? | Celebrities would also be involved in storylines.",
+          "activation": 2901.7841796875
+        },
+        {
+          "text": "What type of connector was originally required to upload songs or recharge the iPod? | The battery could also be charged with a power adapter that was included with the first four generations.",
+          "activation": 2788.8076171875
+        },
+        {
+          "text": "Who are a few wrestlers who have had memoirs written about them? | Bloodstained Memoirs explored the careers of several pro wrestlers, including Chris Jericho, Rob Van Dam and Roddy Piper.",
+          "activation": 2680.15869140625
+        },
+        {
+          "text": "How was support for members of the public given? | Work is being done under this action plan, including publishing awareness-raising articles in local newspapers, providing support for members of the public with human rights queries, and extending several UN Conventions on human rights to St. Helena.",
+          "activation": 2634.437744140625
+        },
+        {
+          "text": "What science displicine did Feyman encourage his sister to study? | Their mother thought that women did not have the cranial capacity to comprehend such things.",
+          "activation": 2619.948486328125
+        },
+        {
+          "text": "What kind of final devoicing does the language have? | Also, Catalan has final obstruent devoicing, thus featuring many couplets like amic \"(male friend\") vs. amiga (\"female friend\").",
+          "activation": 2611.768310546875
+        },
+        {
+          "text": "What class did a majority of appointed ministers come from during the Han dynasty? | He presided over the Han government but shared power with both the nobility and appointed ministers who came largely from the scholarly gentry class.",
+          "activation": 2556.611083984375
+        }
+      ],
+      "autointerp_prompt": {
+        "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+        "user": "Latent index: 238\n\nTop activating examples (format: [activation] text):\n  [3339.351] What is the name of a location in Spectre which draws its inspiration from an Ian Fleming short story? | Bond's torture by Blofeld mirrors his torture by the title character of Kingsley Amis' continuation novel Colonel Sun.[citation needed]\n  [3000.933] What does the Opening of the Triodion derive from? | One of the season's high points is Tsiknopempti, when celebrants enjoy roast beef dinners; the ritual is repeated the following Sunday.\n  [2947.135] Who began moderating the use of Hanja? | However, it is also said that the authorities implore students not to use the characters in public.\n  [2901.784] What romantic drama might be used in a story? | Celebrities would also be involved in storylines.\n  [2788.808] What type of connector was originally required to upload songs or recharge the iPod? | The battery could also be charged with a power adapter that was included with the first four generations.\n  [2680.159] Who are a few wrestlers who have had memoirs written about them? | Bloodstained Memoirs explored the careers of several pro wrestlers, including Chris Jericho, Rob Van Dam and Roddy Piper.\n  [2634.438] How was support for members of the public given? | Work is being done under this action plan, including publishing awareness-raising articles in local newspapers, providing support for members of the public with human rights queries, and extending several UN Conventions on human rights to St. Helena\n  [2619.948] What science displicine did Feyman encourage his sister to study? | Their mother thought that women did not have the cranial capacity to comprehend such things.\n  [2611.768] What kind of final devoicing does the language have? | Also, Catalan has final obstruent devoicing, thus featuring many couplets like amic \"(male friend\") vs. amiga (\"female friend\").\n  [2556.611] What class did a majority of appointed ministers come from during the Han dynasty? | He presided over the Han government but shared power with both the nobility and appointed ministers who came largely from the scholarly gentry class.\n\nDescription:"
+      },
+      "description": null
+    }
+  ],
+  "ood_auc_by_k_diff_order": {
+    "1": 0.51,
+    "2": 0.4889555555555556,
+    "3": 0.486,
+    "4": 0.4889333333333334,
+    "5": 0.525,
+    "6": 0.5034666666666667,
+    "7": 0.4692,
+    "8": 0.4692
+  },
+  "ranking_prompt_stub": {
+    "note": "Rebuild with actual descriptions after autointerp step.",
+    "task_description": "Classify whether a sentence entails the answer to a given question (QNLI).",
+    "ood_transform": "Sentences are from the GLUE-X OOD split (harder distribution).",
+    "latent_order": [
+      4160,
+      14557,
+      13463,
+      14864,
+      3349,
+      15967,
+      4353,
+      238
+    ]
+  }
+}

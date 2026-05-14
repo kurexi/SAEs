@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "61_wikidata_occupation_isactor",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:37:26.386925"
+  },
+  "best_latent": {
+    "latent_idx": 6111,
+    "k1_auc": 0.8002617228262698,
+    "examples": [
+      {
+        "text": "Prayers for Bobby: Blurring out the most painful aspects  By Jordan Mattos  21 January 2009  Directed by Russell Mulcahy, teleplay by Katie Ford, based on a book by Leroy Aarons  Premieres January 24, 2009, on The Lifetime Network  Prayers for Bobby  In Russell Mulcahy's Prayers for Bobby, Sigourney Weaver",
+        "activation": 4457.3056640625
+      },
+      {
+        "text": " Constance, and Stanley Holloway as Beach. Unfortunately the master tapes of all but the first part (\"Lord Emsworth and the Girl Friend\"), were wiped, and no known copies exist.  Three of the stories featured in the collection, \"Mr Potter takes a Rest Cure\", \"The Rise of Minna Nordstrom\" and \"The Nodder\", were produced as part of the BBC's Wodehouse Playhouse series, starring John Alderton and Pauline Collins, airing in 1975 and 1976 respectively.  In 2013 and 2014, BBC television aired a series titled Blandings starring Timothy Spall",
+        "activation": 4158.119140625
+      },
+      {
+        "text": "!, George Formby mentions Lady Hamilton and her relationship with Nelson in his song Why Don't Women Like Me The 1941 film That Hamilton Woman tells the story of Emma's affair with Horatio Nelson. It stars Vivien Leigh as Emma and Laurence Olivier as Horatio. Leigh took publicity photos for the film arranged in poses very similar to paintings of Emma.  The 1968 film Emma Hamilton depicts her relationship with Nelson. She was played by Mich\u00e8le Mercier.  In the 1973 film Bequest to the Nation (released in the United States as The Nelson Affair), Glenda Jackson plays her, and Peter Finch",
+        "activation": 4151.99169921875
+      },
+      {
+        "text": "Longest-running scripted comedy: \u201cThe Simpsons,\u201d which debuted Dec. 17, 1989, and is now tied with \u201cThe Adventures of Ozzie & Harriet\u201d (1952-66) as the longest-running sitcom in the history of TV  Longest running scripted character: Kelsey Grammer",
+        "activation": 4110.2744140625
+      },
+      {
+        "text": "Original Review by Jonathan Broxton  In 1989 writer-director and former Monty Python member Terry Gilliam began to develop the screenplay for a film called The Man Who Killed Don Quixote, which he was co-writing with British scribe Tony Grisoni. While Don Quixote was being finalized Gilliam and Grisoni made Fear and Loathing in Las Vegas together, and then returned to Quixote to begin shooting in 2000, with Johnny Depp and French actor Jean Rochefort",
+        "activation": 4033.9951171875
+      },
+      {
+        "text": "LFF 2019: The Report Review  Here\u2019s a sure-fire contender for film of the year: Scott Z. Burns\u2019 unendingly strident exploration of one man\u2019s quest for justice is electrifying, the kind of gripping drama that only comes around once every political crisis. Adam Driver",
+        "activation": 3826.42529296875
+      },
+      {
+        "text": " dark secrets of her dying small town in order to save her teenaged son; costarring Saiorse Ronan, Ben Mendelsohn, and Doctor Who\u2019s Matt Smith), The Last Five Years (Portland\u2019s pride, Anna Kendrick stars in this musical adaptation of the play about the doomed romance of a novelist and his dream girl), Against The Sun (Based on a true story WWII survival tale about three downed airmen forced to go to unimaginable lengths to stay alive after their bomber crashes into the Pacific Ocean), Masters Of Sex- season 2 (Michael Sheen and Lizzy Caplan",
+        "activation": 3707.530029296875
+      },
+      {
+        "text": " dark secrets of her dying small town in order to save her teenaged son; costarring Saiorse Ronan, Ben Mendelsohn, and Doctor Who\u2019s Matt Smith), The Last Five Years (Portland\u2019s pride, Anna Kendrick stars in this musical adaptation of the play about the doomed romance of a novelist and his dream girl), Against The Sun (Based on a true story WWII survival tale about three downed airmen forced to go to unimaginable lengths to stay alive after their bomber crashes into the Pacific Ocean), Masters Of Sex- season 2 (Michael Sheen and Lizzy Caplan",
+        "activation": 3707.530029296875
+      },
+      {
+        "text": "Stanley Tucci is the latest actor to sign on to Disney\u2019s live-action Beauty and the Beast. Tucci will be portraying Cadenza the grand piano, a new addition to the story who is described as \u201ca neurotic maestro.\u201d Emma Watson",
+        "activation": 3663.60791015625
+      },
+      {
+        "text": " the legends who have shared the ring with The Vigilante.  WWE has launched Superstars for Hope \u2013 a campaign to benefit Special Olympics International and Lucille Packard Children's Hospital Stanford in honor of Connor\u2019s Cure. The announcement was made exclusively at Twitter during WWE's Tech Tour by WWE Chief Brand Officer Stephanie McMahon, WWE Hall of Famer Hulk Hogan and WWE Superstar John Cena.  Trending nowOutside the ring  The Most Intimidating Bald Superstars  Marvel and Netflix just released the first official images of Vincent D'Onofrio",
+        "activation": 3604.31640625
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 6111\n\nTop activating examples (format: [activation] text):\n  [4457.306] Prayers for Bobby: Blurring out the most painful aspects  By Jordan Mattos  21 January 2009  Directed by Russell Mulcahy, teleplay by Katie Ford, based on a book by Leroy Aarons  Premieres January 24, 2009, on The Lifetime Network  Prayers for Bobby  In Russell Mulcahy's Prayers for Bobby, Sigourney\n  [4158.119] Constance, and Stanley Holloway as Beach. Unfortunately the master tapes of all but the first part (\"Lord Emsworth and the Girl Friend\"), were wiped, and no known copies exist.  Three of the stories featured in the collection, \"Mr Potter takes a Rest Cure\", \"The Rise of Minna Nordstrom\" and \"The No\n  [4151.992] !, George Formby mentions Lady Hamilton and her relationship with Nelson in his song Why Don't Women Like Me The 1941 film That Hamilton Woman tells the story of Emma's affair with Horatio Nelson. It stars Vivien Leigh as Emma and Laurence Olivier as Horatio. Leigh took publicity photos for the film\n  [4110.274] Longest-running scripted comedy: \u201cThe Simpsons,\u201d which debuted Dec. 17, 1989, and is now tied with \u201cThe Adventures of Ozzie & Harriet\u201d (1952-66) as the longest-running sitcom in the history of TV  Longest running scripted character: Kelsey Grammer\n  [4033.995] Original Review by Jonathan Broxton  In 1989 writer-director and former Monty Python member Terry Gilliam began to develop the screenplay for a film called The Man Who Killed Don Quixote, which he was co-writing with British scribe Tony Grisoni. While Don Quixote was being finalized Gilliam and Gris\n  [3826.425] LFF 2019: The Report Review  Here\u2019s a sure-fire contender for film of the year: Scott Z. Burns\u2019 unendingly strident exploration of one man\u2019s quest for justice is electrifying, the kind of gripping drama that only comes around once every political crisis. Adam Driver\n  [3707.530] dark secrets of her dying small town in order to save her teenaged son; costarring Saiorse Ronan, Ben Mendelsohn, and Doctor Who\u2019s Matt Smith), The Last Five Years (Portland\u2019s pride, Anna Kendrick stars in this musical adaptation of the play about the doomed romance of a novelist and his dream girl\n  [3707.530] dark secrets of her dying small town in order to save her teenaged son; costarring Saiorse Ronan, Ben Mendelsohn, and Doctor Who\u2019s Matt Smith), The Last Five Years (Portland\u2019s pride, Anna Kendrick stars in this musical adaptation of the play about the doomed romance of a novelist and his dream girl\n  [3663.608] Stanley Tucci is the latest actor to sign on to Disney\u2019s live-action Beauty and the Beast. Tucci will be portraying Cadenza the grand piano, a new addition to the story who is described as \u201ca neurotic maestro.\u201d Emma Watson\n  [3604.316] the legends who have shared the ring with The Vigilante.  WWE has launched Superstars for Hope \u2013 a campaign to benefit Special Olympics International and Lucille Packard Children's Hospital Stanford in honor of Connor\u2019s Cure. The announcement was made exclusively at Twitter during WWE's Tech Tour b\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 6111,
+      "k1_auc": 0.8002617228262698
+    },
+    {
+      "latent_idx": 7114,
+      "k1_auc": 0.7844152893257481
+    },
+    {
+      "latent_idx": 7615,
+      "k1_auc": 0.6038328508432357
+    },
+    {
+      "latent_idx": 10499,
+      "k1_auc": 0.5765181607028647
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5611093345002862
+    },
+    {
+      "latent_idx": 3115,
+      "k1_auc": 0.5593126199212307
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.5588034806611237
+    },
+    {
+      "latent_idx": 4255,
+      "k1_auc": 0.5513094556838456
+    },
+    {
+      "latent_idx": 13532,
+      "k1_auc": 0.550356397482075
+    },
+    {
+      "latent_idx": 5126,
+      "k1_auc": 0.5487932137206719
+    },
+    {
+      "latent_idx": 10345,
+      "k1_auc": 0.5485491634968189
+    },
+    {
+      "latent_idx": 1095,
+      "k1_auc": 0.5467903187800855
+    },
+    {
+      "latent_idx": 15415,
+      "k1_auc": 0.5430243713602855
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5426267378059043
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5404113508600666
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5389554650419093
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5370388292321675
+    },
+    {
+      "latent_idx": 13605,
+      "k1_auc": 0.5363382367792103
+    },
+    {
+      "latent_idx": 5579,
+      "k1_auc": 0.5358922139563065
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5357954354192614
+    },
+    {
+      "latent_idx": 10846,
+      "k1_auc": 0.5357323189820582
+    },
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.5353999057461205
+    },
+    {
+      "latent_idx": 13405,
+      "k1_auc": 0.5349749217356179
+    },
+    {
+      "latent_idx": 3886,
+      "k1_auc": 0.5349075975359342
+    },
+    {
+      "latent_idx": 1836,
+      "k1_auc": 0.5342553943514996
+    },
+    {
+      "latent_idx": 11306,
+      "k1_auc": 0.5331613761066416
+    },
+    {
+      "latent_idx": 11413,
+      "k1_auc": 0.533039350994715
+    },
+    {
+      "latent_idx": 12193,
+      "k1_auc": 0.5327868852459017
+    },
+    {
+      "latent_idx": 6755,
+      "k1_auc": 0.5312047665533376
+    },
+    {
+      "latent_idx": 12726,
+      "k1_auc": 0.5296163362170533
+    },
+    {
+      "latent_idx": 2011,
+      "k1_auc": 0.5278953613626418
+    },
+    {
+      "latent_idx": 9359,
+      "k1_auc": 0.5267571616117414
+    },
+    {
+      "latent_idx": 15922,
+      "k1_auc": 0.5265467734877302
+    },
+    {
+      "latent_idx": 14642,
+      "k1_auc": 0.5265046958629278
+    },
+    {
+      "latent_idx": 15229,
+      "k1_auc": 0.526431060019524
+    },
+    {
+      "latent_idx": 9024,
+      "k1_auc": 0.5256463123169623
+    },
+    {
+      "latent_idx": 6433,
+      "k1_auc": 0.524678526946511
+    },
+    {
+      "latent_idx": 11579,
+      "k1_auc": 0.5245228397347426
+    },
+    {
+      "latent_idx": 8424,
+      "k1_auc": 0.52428510115461
+    },
+    {
+      "latent_idx": 7182,
+      "k1_auc": 0.5237549230821019
+    },
+    {
+      "latent_idx": 443,
+      "k1_auc": 0.5230206685293028
+    },
+    {
+      "latent_idx": 8549,
+      "k1_auc": 0.5226251388561618
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5225367758440772
+    },
+    {
+      "latent_idx": 10029,
+      "k1_auc": 0.5215100817989027
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5209735920826741
+    },
+    {
+      "latent_idx": 5544,
+      "k1_auc": 0.5204055441478439
+    },
+    {
+      "latent_idx": 13174,
+      "k1_auc": 0.5195534722455987
+    },
+    {
+      "latent_idx": 8463,
+      "k1_auc": 0.519538745076918
+    },
+    {
+      "latent_idx": 13773,
+      "k1_auc": 0.5194672131147541
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.5186698421247518
+    },
+    {
+      "latent_idx": 7831,
+      "k1_auc": 0.5186067256875484
+    },
+    {
+      "latent_idx": 2464,
+      "k1_auc": 0.5179440030969131
+    },
+    {
+      "latent_idx": 4380,
+      "k1_auc": 0.5176473558420575
+    },
+    {
+      "latent_idx": 13616,
+      "k1_auc": 0.5174559026492073
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5167216480964083
+    },
+    {
+      "latent_idx": 2886,
+      "k1_auc": 0.5167132325714479
+    },
+    {
+      "latent_idx": 296,
+      "k1_auc": 0.5154677348773017
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5154298650149797
+    },
+    {
+      "latent_idx": 15999,
+      "k1_auc": 0.5153730602214965
+    },
+    {
+      "latent_idx": 12826,
+      "k1_auc": 0.5151689837412057
+    },
+    {
+      "latent_idx": 10974,
+      "k1_auc": 0.5148786481300703
+    },
+    {
+      "latent_idx": 11889,
+      "k1_auc": 0.5146303901437371
+    },
+    {
+      "latent_idx": 5828,
+      "k1_auc": 0.5137299289729693
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.513420658430673
+    },
+    {
+      "latent_idx": 4537,
+      "k1_auc": 0.5133533342309893
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.5133512303497493
+    },
+    {
+      "latent_idx": 8853,
+      "k1_auc": 0.5133133604874272
+    },
+    {
+      "latent_idx": 1519,
+      "k1_auc": 0.5132670751001448
+    },
+    {
+      "latent_idx": 1496,
+      "k1_auc": 0.5131955431379809
+    },
+    {
+      "latent_idx": 9225,
+      "k1_auc": 0.5123792372168177
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5113020500218803
+    },
+    {
+      "latent_idx": 15535,
+      "k1_auc": 0.5102711482142256
+    },
+    {
+      "latent_idx": 1073,
+      "k1_auc": 0.510241693876864
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5084744336351701
+    },
+    {
+      "latent_idx": 9453,
+      "k1_auc": 0.5082766687985996
+    },
+    {
+      "latent_idx": 13062,
+      "k1_auc": 0.5082598377486787
+    },
+    {
+      "latent_idx": 2579,
+      "k1_auc": 0.5082135523613963
+    },
+    {
+      "latent_idx": 12366,
+      "k1_auc": 0.5082135523613963
+    },
+    {
+      "latent_idx": 14453,
+      "k1_auc": 0.5082135523613963
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.5082051368364359
+    },
+    {
+      "latent_idx": 12856,
+      "k1_auc": 0.5081588514491534
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5075802841081227
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5072773252095466
+    },
+    {
+      "latent_idx": 1701,
+      "k1_auc": 0.5061391254586461
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5060781129026829
+    },
+    {
+      "latent_idx": 4582,
+      "k1_auc": 0.5058845558285926
+    },
+    {
+      "latent_idx": 3675,
+      "k1_auc": 0.5053985592621267
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5052197293567172
+    },
+    {
+      "latent_idx": 9384,
+      "k1_auc": 0.5051839633756353
+    },
+    {
+      "latent_idx": 13,
+      "k1_auc": 0.5041193994681389
+    },
+    {
+      "latent_idx": 2792,
+      "k1_auc": 0.504102568418218
+    },
+    {
+      "latent_idx": 217,
+      "k1_auc": 0.5040057898811727
+    },
+    {
+      "latent_idx": 2300,
+      "k1_auc": 0.5033283401218568
+    },
+    {
+      "latent_idx": 1302,
+      "k1_auc": 0.5031747567913287
+    },
+    {
+      "latent_idx": 5587,
+      "k1_auc": 0.5019902716531458
+    },
+    {
+      "latent_idx": 5101,
+      "k1_auc": 0.5000294543373616
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 7203,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8805,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3991,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 1131,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9307,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6221,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 4646,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3355,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13115,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 918,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3972,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 13106,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9785,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11302,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 9188,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.4991458242165146
+    },
+    {
+      "latent_idx": 9314,
+      "k1_auc": 0.49913109704783387
+    },
+    {
+      "latent_idx": 10642,
+      "k1_auc": 0.49910795435419264
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.49379775810415055
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.49124575015989497
+    },
+    {
+      "latent_idx": 8362,
+      "k1_auc": 0.48459958932238195
+    },
+    {
+      "latent_idx": 13909,
+      "k1_auc": 0.48431135759248667
+    },
+    {
+      "latent_idx": 9594,
+      "k1_auc": 0.48238630625778434
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.46855539098528964
+    }
+  ]
+}

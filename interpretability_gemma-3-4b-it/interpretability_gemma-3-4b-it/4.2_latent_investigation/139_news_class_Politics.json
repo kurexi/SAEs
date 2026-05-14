@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "139_news_class_Politics",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:49:06.898339"
+  },
+  "best_latent": {
+    "latent_idx": 8735,
+    "k1_auc": 0.7945637665331877,
+    "examples": [
+      {
+        "text": "Israelis Kill Five Palestinians in Gaza Strip  GAZA (Reuters) - Israeli troops killed five armed  Palestinians in the Gaza Strip on Saturday as it pressed on  with a massive offensive aimed at stopping militants firing  rockets into Israel.",
+        "activation": 3002.003662109375
+      },
+      {
+        "text": "Battle near southern Somali port Several Somalis are killed in fighting between rival militias near the port city of Kismayo.",
+        "activation": 2930.656005859375
+      },
+      {
+        "text": "Cairo security beefed up after Sinai blasts Cairo - Egyptian police were deployed in force around tourist attractions in Cairo on Saturday after a string of deadly bombings in the Sinai peninsula.",
+        "activation": 2734.78369140625
+      },
+      {
+        "text": "Air raids hit Philippines rebels Up to 10 people are killed in air strikes on rebels in the southern island of Mindanao.",
+        "activation": 2695.105712890625
+      },
+      {
+        "text": "Rebels Shun Ivory Coast Talks as Exodus Goes On (Reuters) Reuters - Rebels from Ivory Coast shunned peace\\talks in South Africa as hundreds more foreigners prepared on\\Friday to leave the former French colony in the wake of days of\\mob violence.",
+        "activation": 2680.1669921875
+      },
+      {
+        "text": "Two Palestinians Killed in Gaza Gunbattle (AP) AP - A lengthy gunbattle erupted Saturday morning between Palestinians militants and Israeli troops just outside the Gaza town of Beit Hanoun, killing two Palestinians, according to medical officials.",
+        "activation": 2660.67431640625
+      },
+      {
+        "text": "Huge Explosion Rocks Gaza City A Palestinian schoolgirl runs past the rubble of a destroyed building next to a United Nations school in the Jebaliya refugee camp, northern Gaza Strip, Tuesday, Oct. 12, 2004.",
+        "activation": 2655.341796875
+      },
+      {
+        "text": "Kashmiris rally on 57th anniversary of Indian invasion MUZAFFARABAD, Pakistan-controlled Kashmir - Thousands of people in Pakistani-controlled Kashmir demonstrated Wednesday to mark the black day 57 years ago when India deployed troops in the Himalayan region.",
+        "activation": 2654.07421875
+      },
+      {
+        "text": "U.S. Launches Fresh Assault on Sadr Forces in Najaf  NAJAF, Iraq (Reuters) - U.S. forces launched a fresh  assault on Shi'ite rebels in the embattled Iraqi city of Najaf  on Sunday after talks on transferring control of the mosque at  the center of a two-week siege ran into difficulties.",
+        "activation": 2556.12353515625
+      },
+      {
+        "text": "US-led forces meet resistance in Fallujah American-led forces are said to be meeting the stiffest resistance yet from militants in the Iraqi city of Fallujah. Reports say militants are now trapped in the south of the city with no way out.",
+        "activation": 2546.63818359375
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 8735\n\nTop activating examples (format: [activation] text):\n  [3002.004] Israelis Kill Five Palestinians in Gaza Strip  GAZA (Reuters) - Israeli troops killed five armed  Palestinians in the Gaza Strip on Saturday as it pressed on  with a massive offensive aimed at stopping militants firing  rockets into Israel.\n  [2930.656] Battle near southern Somali port Several Somalis are killed in fighting between rival militias near the port city of Kismayo.\n  [2734.784] Cairo security beefed up after Sinai blasts Cairo - Egyptian police were deployed in force around tourist attractions in Cairo on Saturday after a string of deadly bombings in the Sinai peninsula.\n  [2695.106] Air raids hit Philippines rebels Up to 10 people are killed in air strikes on rebels in the southern island of Mindanao.\n  [2680.167] Rebels Shun Ivory Coast Talks as Exodus Goes On (Reuters) Reuters - Rebels from Ivory Coast shunned peace\\talks in South Africa as hundreds more foreigners prepared on\\Friday to leave the former French colony in the wake of days of\\mob violence.\n  [2660.674] Two Palestinians Killed in Gaza Gunbattle (AP) AP - A lengthy gunbattle erupted Saturday morning between Palestinians militants and Israeli troops just outside the Gaza town of Beit Hanoun, killing two Palestinians, according to medical officials.\n  [2655.342] Huge Explosion Rocks Gaza City A Palestinian schoolgirl runs past the rubble of a destroyed building next to a United Nations school in the Jebaliya refugee camp, northern Gaza Strip, Tuesday, Oct. 12, 2004.\n  [2654.074] Kashmiris rally on 57th anniversary of Indian invasion MUZAFFARABAD, Pakistan-controlled Kashmir - Thousands of people in Pakistani-controlled Kashmir demonstrated Wednesday to mark the black day 57 years ago when India deployed troops in the Himalayan region.\n  [2556.124] U.S. Launches Fresh Assault on Sadr Forces in Najaf  NAJAF, Iraq (Reuters) - U.S. forces launched a fresh  assault on Shi'ite rebels in the embattled Iraqi city of Najaf  on Sunday after talks on transferring control of the mosque at  the center of a two-week siege ran into difficulties.\n  [2546.638] US-led forces meet resistance in Fallujah American-led forces are said to be meeting the stiffest resistance yet from militants in the Iraqi city of Fallujah. Reports say militants are now trapped in the south of the city with no way out.\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 8735,
+      "k1_auc": 0.7945637665331877
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.6896522560883682
+    },
+    {
+      "latent_idx": 10163,
+      "k1_auc": 0.6773238390457175
+    },
+    {
+      "latent_idx": 2084,
+      "k1_auc": 0.6412578644103943
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.638538644545197
+    },
+    {
+      "latent_idx": 9426,
+      "k1_auc": 0.6330478060547227
+    },
+    {
+      "latent_idx": 13759,
+      "k1_auc": 0.6317644960710123
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.6302440127522035
+    },
+    {
+      "latent_idx": 10961,
+      "k1_auc": 0.6272186738149608
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.6167848856236189
+    },
+    {
+      "latent_idx": 7134,
+      "k1_auc": 0.6142550367159031
+    },
+    {
+      "latent_idx": 12656,
+      "k1_auc": 0.6118612407290965
+    },
+    {
+      "latent_idx": 6795,
+      "k1_auc": 0.6000779546465749
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5925867705081392
+    },
+    {
+      "latent_idx": 8591,
+      "k1_auc": 0.5851323574294087
+    },
+    {
+      "latent_idx": 1748,
+      "k1_auc": 0.5776292226965689
+    },
+    {
+      "latent_idx": 12860,
+      "k1_auc": 0.5737075891790127
+    },
+    {
+      "latent_idx": 10900,
+      "k1_auc": 0.5728269222990738
+    },
+    {
+      "latent_idx": 8633,
+      "k1_auc": 0.5700194518905841
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.5678839725982063
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5669352792578131
+    },
+    {
+      "latent_idx": 9522,
+      "k1_auc": 0.5628224362297898
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5607430328034624
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5606244461359131
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.559325508451828
+    },
+    {
+      "latent_idx": 4636,
+      "k1_auc": 0.5579953153669936
+    },
+    {
+      "latent_idx": 5954,
+      "k1_auc": 0.5554397267174843
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.548381521807077
+    },
+    {
+      "latent_idx": 9781,
+      "k1_auc": 0.5476295536361063
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5446060532518486
+    },
+    {
+      "latent_idx": 506,
+      "k1_auc": 0.5426728147878492
+    },
+    {
+      "latent_idx": 16228,
+      "k1_auc": 0.5414225987578736
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5411210760682912
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5406945317757113
+    },
+    {
+      "latent_idx": 12905,
+      "k1_auc": 0.540358076579409
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5384882681934011
+    },
+    {
+      "latent_idx": 16293,
+      "k1_auc": 0.5379624420396172
+    },
+    {
+      "latent_idx": 8576,
+      "k1_auc": 0.5378319047776638
+    },
+    {
+      "latent_idx": 7148,
+      "k1_auc": 0.5372591955227557
+    },
+    {
+      "latent_idx": 6116,
+      "k1_auc": 0.5369420451327988
+    },
+    {
+      "latent_idx": 15204,
+      "k1_auc": 0.5359961096218832
+    },
+    {
+      "latent_idx": 12303,
+      "k1_auc": 0.5352248366445673
+    },
+    {
+      "latent_idx": 4353,
+      "k1_auc": 0.5346429346247329
+    },
+    {
+      "latent_idx": 10660,
+      "k1_auc": 0.5345988093530868
+    },
+    {
+      "latent_idx": 5691,
+      "k1_auc": 0.5340941265586334
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5336896449018763
+    },
+    {
+      "latent_idx": 8549,
+      "k1_auc": 0.532398980706225
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.5320753953808195
+    },
+    {
+      "latent_idx": 13724,
+      "k1_auc": 0.5318446569811697
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5310016804374286
+    },
+    {
+      "latent_idx": 8052,
+      "k1_auc": 0.5307994396090501
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5299978305074774
+    },
+    {
+      "latent_idx": 10421,
+      "k1_auc": 0.5296632138641604
+    },
+    {
+      "latent_idx": 6249,
+      "k1_auc": 0.5296337970163962
+    },
+    {
+      "latent_idx": 2534,
+      "k1_auc": 0.5282760256367828
+    },
+    {
+      "latent_idx": 3259,
+      "k1_auc": 0.5279414089934659
+    },
+    {
+      "latent_idx": 3153,
+      "k1_auc": 0.5278283379848724
+    },
+    {
+      "latent_idx": 1588,
+      "k1_auc": 0.527405470798263
+    },
+    {
+      "latent_idx": 9026,
+      "k1_auc": 0.5272519516239939
+    },
+    {
+      "latent_idx": 12562,
+      "k1_auc": 0.5271149794265921
+    },
+    {
+      "latent_idx": 13159,
+      "k1_auc": 0.5270322445422555
+    },
+    {
+      "latent_idx": 7748,
+      "k1_auc": 0.5266351170974396
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5264825171996632
+    },
+    {
+      "latent_idx": 1855,
+      "k1_auc": 0.5262940655186743
+    },
+    {
+      "latent_idx": 2458,
+      "k1_auc": 0.5262554559059839
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5258941802443805
+    },
+    {
+      "latent_idx": 5740,
+      "k1_auc": 0.5258040911481028
+    },
+    {
+      "latent_idx": 9336,
+      "k1_auc": 0.5257268719227219
+    },
+    {
+      "latent_idx": 1329,
+      "k1_auc": 0.5256367828264442
+    },
+    {
+      "latent_idx": 9620,
+      "k1_auc": 0.5253738697495524
+    },
+    {
+      "latent_idx": 9297,
+      "k1_auc": 0.5250980868017635
+    },
+    {
+      "latent_idx": 9930,
+      "k1_auc": 0.5242321283457068
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5241162995076354
+    },
+    {
+      "latent_idx": 13616,
+      "k1_auc": 0.5232227627568
+    },
+    {
+      "latent_idx": 15850,
+      "k1_auc": 0.5230186833754361
+    },
+    {
+      "latent_idx": 2770,
+      "k1_auc": 0.5230131677164804
+    },
+    {
+      "latent_idx": 12480,
+      "k1_auc": 0.5224652789268734
+    },
+    {
+      "latent_idx": 3852,
+      "k1_auc": 0.5222097200619225
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5222088007854297
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.52194312987906
+    },
+    {
+      "latent_idx": 12423,
+      "k1_auc": 0.5217813372163572
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5214559133379665
+    },
+    {
+      "latent_idx": 3074,
+      "k1_auc": 0.5213299724584763
+    },
+    {
+      "latent_idx": 3757,
+      "k1_auc": 0.5209558269259762
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5205660536931014
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.520378521288605
+    },
+    {
+      "latent_idx": 12497,
+      "k1_auc": 0.5200163263505091
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5195971362698701
+    },
+    {
+      "latent_idx": 10203,
+      "k1_auc": 0.5190106378675727
+    },
+    {
+      "latent_idx": 7686,
+      "k1_auc": 0.5189131945593539
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5189021632414424
+    },
+    {
+      "latent_idx": 15496,
+      "k1_auc": 0.5182522347611535
+    },
+    {
+      "latent_idx": 6758,
+      "k1_auc": 0.5171013005923818
+    },
+    {
+      "latent_idx": 12234,
+      "k1_auc": 0.5165175600195622
+    },
+    {
+      "latent_idx": 10199,
+      "k1_auc": 0.516267516813567
+    },
+    {
+      "latent_idx": 16002,
+      "k1_auc": 0.5156387316926088
+    },
+    {
+      "latent_idx": 3062,
+      "k1_auc": 0.5156267810982045
+    },
+    {
+      "latent_idx": 11672,
+      "k1_auc": 0.5156093148448446
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5155394498314047
+    },
+    {
+      "latent_idx": 8944,
+      "k1_auc": 0.5150430405253849
+    },
+    {
+      "latent_idx": 8424,
+      "k1_auc": 0.5149511128761219
+    },
+    {
+      "latent_idx": 2720,
+      "k1_auc": 0.5147176166469941
+    },
+    {
+      "latent_idx": 1471,
+      "k1_auc": 0.5145686938551881
+    },
+    {
+      "latent_idx": 7910,
+      "k1_auc": 0.5141292796917115
+    },
+    {
+      "latent_idx": 14432,
+      "k1_auc": 0.513976679793935
+    },
+    {
+      "latent_idx": 4160,
+      "k1_auc": 0.5137891473894385
+    },
+    {
+      "latent_idx": 12948,
+      "k1_auc": 0.5135335885244877
+    },
+    {
+      "latent_idx": 3175,
+      "k1_auc": 0.51344349942821
+    },
+    {
+      "latent_idx": 14945,
+      "k1_auc": 0.5127862167359801
+    },
+    {
+      "latent_idx": 831,
+      "k1_auc": 0.5122079918221163
+    },
+    {
+      "latent_idx": 5375,
+      "k1_auc": 0.5114836019459245
+    },
+    {
+      "latent_idx": 7383,
+      "k1_auc": 0.5114505079921898
+    },
+    {
+      "latent_idx": 5545,
+      "k1_auc": 0.5111305997727548
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5089813313329877
+    },
+    {
+      "latent_idx": 12520,
+      "k1_auc": 0.5054660180251734
+    },
+    {
+      "latent_idx": 1809,
+      "k1_auc": 0.5027780535607256
+    },
+    {
+      "latent_idx": 6377,
+      "k1_auc": 0.5027523138189319
+    },
+    {
+      "latent_idx": 10508,
+      "k1_auc": 0.5026695789345954
+    },
+    {
+      "latent_idx": 2791,
+      "k1_auc": 0.5021667346931271
+    },
+    {
+      "latent_idx": 12142,
+      "k1_auc": 0.502030681772218
+    },
+    {
+      "latent_idx": 1571,
+      "k1_auc": 0.5017576566539071
+    },
+    {
+      "latent_idx": 2112,
+      "k1_auc": 0.5000009192764926
+    },
+    {
+      "latent_idx": 12326,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 894,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15595,
+      "k1_auc": 0.49854202748269005
+    },
+    {
+      "latent_idx": 14407,
+      "k1_auc": 0.49376546682698846
+    },
+    {
+      "latent_idx": 2316,
+      "k1_auc": 0.4922964629917669
+    }
+  ]
+}

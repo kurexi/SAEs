@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "dataset": "89_glue_mrpc",
+    "layer": 24,
+    "sae_id": "layer_24/width_16k/batch_topk_32",
+    "section": "4.2",
+    "model": "gemma-3-4b-it",
+    "generated_at": "2026-04-06T17:43:34.359436"
+  },
+  "best_latent": {
+    "latent_idx": 6704,
+    "k1_auc": 0.6437133161944871,
+    "examples": [
+      {
+        "text": "His protest led to a 47-hour standoff with police that caused huge traffic jams in downtown Washington and northern Virginia . | His protest triggered a 47-hour standoff with police that led to huge traffic jams as commuters backed up in downtown Washington and Northern Virginia .",
+        "activation": 3418.8232421875
+      },
+      {
+        "text": "Jewish and Muslim leaders expressed horror at the proposals , which have not been approved . | Jewish and Muslim leaders objected to the proposals , which were never approved .",
+        "activation": 3326.570068359375
+      },
+      {
+        "text": "Jewish and Muslim leaders expressed horror at the proposals , which have not been approved . | Jewish and Muslim leaders objected to the proposals , which were never approved .",
+        "activation": 3326.570068359375
+      },
+      {
+        "text": "After a tense stand-off , the battlewagon turned back . | After the French threatened to open fire , the battlewagon turned back .",
+        "activation": 3212.29638671875
+      },
+      {
+        "text": "Jacob has pushed consolidation for years , but he has said many communities , especially rural ones , have opposed it . | Jacob has pushed consolidation for years but said it has been opposed by many communities , especially rural ones .",
+        "activation": 3182.983154296875
+      },
+      {
+        "text": "It would be cumbersome for restaurants that serve different meals each day , she said . | It would be especially cumbersome for restaurants that change their menus daily , she said .",
+        "activation": 3176.56494140625
+      },
+      {
+        "text": "But none of them opposed the idea outright , ministers said . | But none of the ministers opposed Mr. Powell 's suggestion outright on Thursday , the ministers said .",
+        "activation": 3147.39697265625
+      },
+      {
+        "text": "The main change , said Jim Walton , CNN 's president , is a fundamental shift in the way CNN collects its news . | The main change , said CNN president Jim Walton , was a fundamental shift in the way the network collected its news .",
+        "activation": 3096.145263671875
+      },
+      {
+        "text": "Instead of remains , the Ragusas will bury a vial of Michael 's blood , which he had donated to a bone marrow center . | Instead of Ragusa 's remains , his family will bury a vial of blood he had donated to a bone marrow center .",
+        "activation": 3074.6962890625
+      },
+      {
+        "text": "All of those governments have said their support will not waver , though public sentiment is rising against it . | The governments of those countries have said that despite rising public opposition , their support will not waver .",
+        "activation": 2972.897216796875
+      }
+    ],
+    "autointerp_prompt": {
+      "system": "You are a mechanistic interpretability researcher analysing sparse autoencoder latents. Given the text examples that most strongly activate a latent, produce a concise, specific 1-2 sentence description of the linguistic or conceptual pattern the latent represents. Do not hedge; be direct.",
+      "user": "Latent index: 6704\n\nTop activating examples (format: [activation] text):\n  [3418.823] His protest led to a 47-hour standoff with police that caused huge traffic jams in downtown Washington and northern Virginia . | His protest triggered a 47-hour standoff with police that led to huge traffic jams as commuters backed up in downtown Washington and Northern Virginia .\n  [3326.570] Jewish and Muslim leaders expressed horror at the proposals , which have not been approved . | Jewish and Muslim leaders objected to the proposals , which were never approved .\n  [3326.570] Jewish and Muslim leaders expressed horror at the proposals , which have not been approved . | Jewish and Muslim leaders objected to the proposals , which were never approved .\n  [3212.296] After a tense stand-off , the battlewagon turned back . | After the French threatened to open fire , the battlewagon turned back .\n  [3182.983] Jacob has pushed consolidation for years , but he has said many communities , especially rural ones , have opposed it . | Jacob has pushed consolidation for years but said it has been opposed by many communities , especially rural ones .\n  [3176.565] It would be cumbersome for restaurants that serve different meals each day , she said . | It would be especially cumbersome for restaurants that change their menus daily , she said .\n  [3147.397] But none of them opposed the idea outright , ministers said . | But none of the ministers opposed Mr. Powell 's suggestion outright on Thursday , the ministers said .\n  [3096.145] The main change , said Jim Walton , CNN 's president , is a fundamental shift in the way CNN collects its news . | The main change , said CNN president Jim Walton , was a fundamental shift in the way the network collected its news .\n  [3074.696] Instead of remains , the Ragusas will bury a vial of Michael 's blood , which he had donated to a bone marrow center . | Instead of Ragusa 's remains , his family will bury a vial of blood he had donated to a bone marrow center .\n  [2972.897] All of those governments have said their support will not waver , though public sentiment is rising against it . | The governments of those countries have said that despite rising public opposition , their support will not waver .\n\nDescription:"
+    },
+    "description": null
+  },
+  "all_candidate_latents": [
+    {
+      "latent_idx": 6704,
+      "k1_auc": 0.6437133161944871
+    },
+    {
+      "latent_idx": 4160,
+      "k1_auc": 0.6206318550001937
+    },
+    {
+      "latent_idx": 3441,
+      "k1_auc": 0.602562860378691
+    },
+    {
+      "latent_idx": 15967,
+      "k1_auc": 0.6012376141692612
+    },
+    {
+      "latent_idx": 238,
+      "k1_auc": 0.601127804978878
+    },
+    {
+      "latent_idx": 11066,
+      "k1_auc": 0.5959581605453426
+    },
+    {
+      "latent_idx": 14864,
+      "k1_auc": 0.5923430697482139
+    },
+    {
+      "latent_idx": 13030,
+      "k1_auc": 0.590079062617076
+    },
+    {
+      "latent_idx": 13888,
+      "k1_auc": 0.5898282239762984
+    },
+    {
+      "latent_idx": 14793,
+      "k1_auc": 0.5812114322132796
+    },
+    {
+      "latent_idx": 15853,
+      "k1_auc": 0.5789571141283519
+    },
+    {
+      "latent_idx": 11292,
+      "k1_auc": 0.575964275410062
+    },
+    {
+      "latent_idx": 11605,
+      "k1_auc": 0.5700851774817953
+    },
+    {
+      "latent_idx": 14589,
+      "k1_auc": 0.5687502422261552
+    },
+    {
+      "latent_idx": 3538,
+      "k1_auc": 0.5680300231245236
+    },
+    {
+      "latent_idx": 10925,
+      "k1_auc": 0.5670934153241955
+    },
+    {
+      "latent_idx": 5751,
+      "k1_auc": 0.566878103186189
+    },
+    {
+      "latent_idx": 1647,
+      "k1_auc": 0.5665938911640204
+    },
+    {
+      "latent_idx": 5763,
+      "k1_auc": 0.5602658674280103
+    },
+    {
+      "latent_idx": 12682,
+      "k1_auc": 0.5580901382734551
+    },
+    {
+      "latent_idx": 3105,
+      "k1_auc": 0.5568747012544085
+    },
+    {
+      "latent_idx": 9470,
+      "k1_auc": 0.5558433561133576
+    },
+    {
+      "latent_idx": 7803,
+      "k1_auc": 0.5537838955133256
+    },
+    {
+      "latent_idx": 1001,
+      "k1_auc": 0.5521184561258455
+    },
+    {
+      "latent_idx": 3349,
+      "k1_auc": 0.5511151015627356
+    },
+    {
+      "latent_idx": 9781,
+      "k1_auc": 0.5477928352732957
+    },
+    {
+      "latent_idx": 5136,
+      "k1_auc": 0.5476894854470526
+    },
+    {
+      "latent_idx": 1861,
+      "k1_auc": 0.5445696125673388
+    },
+    {
+      "latent_idx": 7148,
+      "k1_auc": 0.5444598033769557
+    },
+    {
+      "latent_idx": 11568,
+      "k1_auc": 0.5411515323764862
+    },
+    {
+      "latent_idx": 5954,
+      "k1_auc": 0.5402299964258185
+    },
+    {
+      "latent_idx": 11011,
+      "k1_auc": 0.5381274733981853
+    },
+    {
+      "latent_idx": 13403,
+      "k1_auc": 0.5375245994117672
+    },
+    {
+      "latent_idx": 15510,
+      "k1_auc": 0.5328447900921967
+    },
+    {
+      "latent_idx": 919,
+      "k1_auc": 0.5323614143423722
+    },
+    {
+      "latent_idx": 13568,
+      "k1_auc": 0.5321783990250666
+    },
+    {
+      "latent_idx": 13463,
+      "k1_auc": 0.5316444249228107
+    },
+    {
+      "latent_idx": 20,
+      "k1_auc": 0.5290735979950133
+    },
+    {
+      "latent_idx": 7618,
+      "k1_auc": 0.528264024356109
+    },
+    {
+      "latent_idx": 4986,
+      "k1_auc": 0.5278484719297566
+    },
+    {
+      "latent_idx": 7969,
+      "k1_auc": 0.5278409360049263
+    },
+    {
+      "latent_idx": 16094,
+      "k1_auc": 0.5263714306630322
+    },
+    {
+      "latent_idx": 9720,
+      "k1_auc": 0.525370229221302
+    },
+    {
+      "latent_idx": 6249,
+      "k1_auc": 0.5252442716205683
+    },
+    {
+      "latent_idx": 14590,
+      "k1_auc": 0.5251527639619156
+    },
+    {
+      "latent_idx": 6115,
+      "k1_auc": 0.5249869736156506
+    },
+    {
+      "latent_idx": 5708,
+      "k1_auc": 0.5234291902971737
+    },
+    {
+      "latent_idx": 9404,
+      "k1_auc": 0.5222848062836695
+    },
+    {
+      "latent_idx": 9688,
+      "k1_auc": 0.5213266672695407
+    },
+    {
+      "latent_idx": 3237,
+      "k1_auc": 0.52130513605574
+    },
+    {
+      "latent_idx": 1567,
+      "k1_auc": 0.5207194870403623
+    },
+    {
+      "latent_idx": 7142,
+      "k1_auc": 0.5205687685437579
+    },
+    {
+      "latent_idx": 7134,
+      "k1_auc": 0.5198216354248754
+    },
+    {
+      "latent_idx": 12092,
+      "k1_auc": 0.5183112207767601
+    },
+    {
+      "latent_idx": 7742,
+      "k1_auc": 0.5175673173399477
+    },
+    {
+      "latent_idx": 2717,
+      "k1_auc": 0.5175479392475272
+    },
+    {
+      "latent_idx": 3264,
+      "k1_auc": 0.5173293974274505
+    },
+    {
+      "latent_idx": 5232,
+      "k1_auc": 0.5170301135556217
+    },
+    {
+      "latent_idx": 8898,
+      "k1_auc": 0.51697520896043
+    },
+    {
+      "latent_idx": 9426,
+      "k1_auc": 0.5169386058969688
+    },
+    {
+      "latent_idx": 12326,
+      "k1_auc": 0.5169192278045482
+    },
+    {
+      "latent_idx": 6800,
+      "k1_auc": 0.5163884833843622
+    },
+    {
+      "latent_idx": 14779,
+      "k1_auc": 0.5162560664194883
+    },
+    {
+      "latent_idx": 15940,
+      "k1_auc": 0.5161850134139462
+    },
+    {
+      "latent_idx": 6045,
+      "k1_auc": 0.5161376447435847
+    },
+    {
+      "latent_idx": 423,
+      "k1_auc": 0.5160665917380426
+    },
+    {
+      "latent_idx": 14801,
+      "k1_auc": 0.5156316612192696
+    },
+    {
+      "latent_idx": 14802,
+      "k1_auc": 0.5154098897171229
+    },
+    {
+      "latent_idx": 1855,
+      "k1_auc": 0.5154012772316027
+    },
+    {
+      "latent_idx": 10163,
+      "k1_auc": 0.5152731665094887
+    },
+    {
+      "latent_idx": 10986,
+      "k1_auc": 0.5147079721472217
+    },
+    {
+      "latent_idx": 5661,
+      "k1_auc": 0.514585244228558
+    },
+    {
+      "latent_idx": 362,
+      "k1_auc": 0.5139296187683284
+    },
+    {
+      "latent_idx": 1454,
+      "k1_auc": 0.5133299744639804
+    },
+    {
+      "latent_idx": 12860,
+      "k1_auc": 0.5132933714005193
+    },
+    {
+      "latent_idx": 13652,
+      "k1_auc": 0.5132244715163573
+    },
+    {
+      "latent_idx": 12656,
+      "k1_auc": 0.513211552788077
+    },
+    {
+      "latent_idx": 3346,
+      "k1_auc": 0.5116957553365113
+    },
+    {
+      "latent_idx": 11237,
+      "k1_auc": 0.5110498189224919
+    },
+    {
+      "latent_idx": 11407,
+      "k1_auc": 0.5110229049052412
+    },
+    {
+      "latent_idx": 7231,
+      "k1_auc": 0.511017522101791
+    },
+    {
+      "latent_idx": 6795,
+      "k1_auc": 0.5107128554265118
+    },
+    {
+      "latent_idx": 14711,
+      "k1_auc": 0.5102122547056468
+    },
+    {
+      "latent_idx": 4417,
+      "k1_auc": 0.5101670391566654
+    },
+    {
+      "latent_idx": 7499,
+      "k1_auc": 0.5089246881203681
+    },
+    {
+      "latent_idx": 1805,
+      "k1_auc": 0.508687844768561
+    },
+    {
+      "latent_idx": 8556,
+      "k1_auc": 0.5081054254352535
+    },
+    {
+      "latent_idx": 9905,
+      "k1_auc": 0.508090353585593
+    },
+    {
+      "latent_idx": 14642,
+      "k1_auc": 0.5080666692504122
+    },
+    {
+      "latent_idx": 14837,
+      "k1_auc": 0.5080645161290323
+    },
+    {
+      "latent_idx": 6858,
+      "k1_auc": 0.5077200167082219
+    },
+    {
+      "latent_idx": 6188,
+      "k1_auc": 0.5073916656977621
+    },
+    {
+      "latent_idx": 3414,
+      "k1_auc": 0.5073744407267216
+    },
+    {
+      "latent_idx": 11969,
+      "k1_auc": 0.5073399907846405
+    },
+    {
+      "latent_idx": 11306,
+      "k1_auc": 0.5069373570865683
+    },
+    {
+      "latent_idx": 10467,
+      "k1_auc": 0.506927668040358
+    },
+    {
+      "latent_idx": 12363,
+      "k1_auc": 0.5068113994858345
+    },
+    {
+      "latent_idx": 10961,
+      "k1_auc": 0.5067091262202815
+    },
+    {
+      "latent_idx": 6787,
+      "k1_auc": 0.5066552981857799
+    },
+    {
+      "latent_idx": 7339,
+      "k1_auc": 0.5066509919430197
+    },
+    {
+      "latent_idx": 9919,
+      "k1_auc": 0.5064507516546738
+    },
+    {
+      "latent_idx": 506,
+      "k1_auc": 0.5062720425801284
+    },
+    {
+      "latent_idx": 7294,
+      "k1_auc": 0.5058629495179162
+    },
+    {
+      "latent_idx": 14229,
+      "k1_auc": 0.5051502663411147
+    },
+    {
+      "latent_idx": 12133,
+      "k1_auc": 0.5051427304162845
+    },
+    {
+      "latent_idx": 16109,
+      "k1_auc": 0.5051416538555945
+    },
+    {
+      "latent_idx": 6752,
+      "k1_auc": 0.5044268175574129
+    },
+    {
+      "latent_idx": 4603,
+      "k1_auc": 0.5044052863436124
+    },
+    {
+      "latent_idx": 15999,
+      "k1_auc": 0.5044052863436124
+    },
+    {
+      "latent_idx": 15070,
+      "k1_auc": 0.5040780118938425
+    },
+    {
+      "latent_idx": 6116,
+      "k1_auc": 0.5037098281378514
+    },
+    {
+      "latent_idx": 15305,
+      "k1_auc": 0.5037022922130212
+    },
+    {
+      "latent_idx": 10565,
+      "k1_auc": 0.50366245946749
+    },
+    {
+      "latent_idx": 11648,
+      "k1_auc": 0.5036237032826488
+    },
+    {
+      "latent_idx": 11142,
+      "k1_auc": 0.5031510931397246
+    },
+    {
+      "latent_idx": 3303,
+      "k1_auc": 0.5029390106837883
+    },
+    {
+      "latent_idx": 12975,
+      "k1_auc": 0.5021951072469759
+    },
+    {
+      "latent_idx": 410,
+      "k1_auc": 0.501399528897042
+    },
+    {
+      "latent_idx": 11128,
+      "k1_auc": 0.5007342143906021
+    },
+    {
+      "latent_idx": 4828,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 3630,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 5011,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 14224,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 12415,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 15103,
+      "k1_auc": 0.5
+    },
+    {
+      "latent_idx": 8052,
+      "k1_auc": 0.49841745578565244
+    },
+    {
+      "latent_idx": 6085,
+      "k1_auc": 0.49778228497853344
+    },
+    {
+      "latent_idx": 11948,
+      "k1_auc": 0.49482820244508463
+    }
+  ]
+}
