@@ -60,6 +60,25 @@ Gemma-3 is a gated model. Accept the licence on [huggingface.co](https://hugging
 ```bash
 huggingface-cli login
 ```
+---
+
+## Datasets
+
+Two dataset sources are required before running the pipeline:
+
+**Probing datasets (text CSVs and master list)**
+Download from Dropbox and place the contents into `cleaned_data/` and `data/` respectively:
+[https://www.dropbox.com/scl/fo/lvajx9100jsy3h9cvis7q/AIocXXICIwHsz-HsXSekC3Y?rlkey=tq7td61h1fufm01cbdu2oqsb5&st=aorlnph5&dl=0](https://www.dropbox.com/scl/fo/lvajx9100jsy3h9cvis7q/AIocXXICIwHsz-HsXSekC3Y?rlkey=tq7td61h1fufm01cbdu2oqsb5&st=aorlnph5&dl=0)
+
+**SAE-Probes benchmark datasets**
+Clone or download the dataset files from the SAE-Probes repository:
+[https://github.com/JoshEngels/SAE-Probes](https://github.com/JoshEngels/SAE-Probes)
+
+```bash
+git clone https://github.com/JoshEngels/SAE-Probes
+```
+
+Refer to the [Data Layout](#data-layout) section for where to place these files.
 
 ---
 
